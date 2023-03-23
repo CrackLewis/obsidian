@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "cfcb662b16ff30ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "4fc110888783b83b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f49ad310e9122f91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web前端/HTML+CSS/011-H5定位.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c33ec73a622ebf84",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d6f204b57b6b7ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca3543a5a24243e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d1335185b7d09a0b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec86dcac546585c9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "fac74d47dcfa846b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d446da4838cf338",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13e11c1fe3a48711",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Web前端/HTML+CSS/011-H5定位.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "afcd5a1b3a7e8ba9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Web前端/HTML+CSS/011-H5定位.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4fd5791fdefc8bb9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fd6329ed65e6b816",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Web前端/HTML+CSS/011-H5定位.md"
+              }
+            }
+          },
+          {
+            "id": "bdf055c45a8b2006",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "f49ad310e9122f91",
+  "lastOpenFiles": [
+    "新建 文本文档.txt",
+    "操作系统课设",
+    "Web前端/HTML+CSS/010-H5弹性布局.md",
+    "Web前端/HTML+CSS/011-H5定位.md",
+    "附件/Pasted image 20230323001118.png",
+    "附件/Pasted image 20230322233956.png",
+    "Web前端/HTML+CSS/009-字体.md",
+    "Web前端/H5+CSS",
+    "Web前端/HTML+CSS/008-表格.md",
+    "Web前端/HTML+CSS/006-CSS选择器.md",
+    "Web前端/HTML+CSS/007-表单.md",
+    "附件/Pasted image 20230322193704.png",
+    "Web前端/HTML+CSS/003-CSS基础.md",
+    "Web前端/HTML+CSS/002-HTML基础.md",
+    "Web前端/HTML+CSS/基本选择器.md",
+    "Web前端/HTML+CSS/005-CSS常用样式.md",
+    "Web前端/HTML+CSS/004-HTML常用标签.md",
+    "!DDL.md",
+    "Vue.js/Vue.js入门.md",
+    "Web前端/HTML+CSS/001-环境搭建.md",
+    "MySQL/mysql.md",
+    "Obsidian用法/读书笔记功能.md",
+    "书籍",
+    "Obsidian用法",
+    "Cpp/标准库",
+    "Cpp",
+    "量化交易/log/调参.md",
+    "附件/Pasted image 20230313161324.png",
+    "附件/Pasted image 20230313160230.png",
+    "附件/Pasted image 20230313155546.png",
+    "附件/Pasted image 20230313154909.png",
+    "附件/Pasted image 20230313153844.png",
+    "附件/Pasted image 20230313153700.png",
+    "量化交易/log",
+    "!DDL",
+    "量化交易/03-exchanges and order books.md",
+    "量化交易/04-pairs trading.md",
+    "量化交易/05-calculating P&L and determining the portfolio value.md",
+    "量化交易/06-a winning algorithm.md",
+    "量化交易/02-role of market makers.md",
+    "量化交易/ReadyTraderGo.md",
+    "量化交易/01-financial market.md",
+    "附件/Pasted image 20230308162656.png",
+    "量化交易/![[Pasted image 20230308135010.png.md",
+    "量化交易",
+    "Web前端/HTML+CSS"
+  ]
+}
