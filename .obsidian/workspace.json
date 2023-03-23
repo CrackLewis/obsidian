@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,12 +156,13 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "bdf055c45a8b2006",
+  "active": "f49ad310e9122f91",
   "lastOpenFiles": [
+    "!DDL.md",
+    "Web前端/HTML+CSS/011-H5定位.md",
     "新建 文本文档.txt",
     "操作系统课设",
     "Web前端/HTML+CSS/010-H5弹性布局.md",
-    "Web前端/HTML+CSS/011-H5定位.md",
     "附件/Pasted image 20230323001118.png",
     "附件/Pasted image 20230322233956.png",
     "Web前端/HTML+CSS/009-字体.md",
@@ -176,7 +176,6 @@
     "Web前端/HTML+CSS/基本选择器.md",
     "Web前端/HTML+CSS/005-CSS常用样式.md",
     "Web前端/HTML+CSS/004-HTML常用标签.md",
-    "!DDL.md",
     "Vue.js/Vue.js入门.md",
     "Web前端/HTML+CSS/001-环境搭建.md",
     "MySQL/mysql.md",
@@ -203,7 +202,6 @@
     "量化交易/01-financial market.md",
     "附件/Pasted image 20230308162656.png",
     "量化交易/![[Pasted image 20230308135010.png.md",
-    "量化交易",
-    "Web前端/HTML+CSS"
+    "量化交易"
   ]
 }
