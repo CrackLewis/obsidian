@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,7 +157,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "f49ad310e9122f91",
+  "active": "bdf055c45a8b2006",
   "lastOpenFiles": [
     "新建 文本文档.txt",
     "操作系统课设",
