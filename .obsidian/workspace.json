@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "4fc110888783b83b",
+        "id": "3fa3007b38b836a1",
         "type": "tabs",
         "children": [
           {
-            "id": "f49ad310e9122f91",
+            "id": "34f0388200559503",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/HTML+CSS/011-H5定位.md",
+                "file": "Web前端/Bootstrap/01-Bootstrap基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6b39eedec854871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web前端/Bootstrap/02-Bootstrap部件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28a1df742b8ae372",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web前端/Bootstrap/03-Bootstrap布局.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端/HTML+CSS/011-H5定位.md",
+                "file": "Web前端/Bootstrap/03-Bootstrap布局.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端/HTML+CSS/011-H5定位.md",
+                "file": "Web前端/Bootstrap/03-Bootstrap布局.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端/HTML+CSS/011-H5定位.md"
+                "file": "Web前端/Bootstrap/03-Bootstrap布局.md"
               }
             }
           },
@@ -138,11 +163,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,25 +182,36 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "f49ad310e9122f91",
+  "active": "28a1df742b8ae372",
   "lastOpenFiles": [
-    "!DDL.md",
+    "Web前端/HTML+CSS/999-拾遗.md",
+    "Web前端/Bootstrap/03-Bootstrap布局.md",
+    "Web前端/Bootstrap/02-Bootstrap部件.md",
+    "附件/Pasted image 20230326100518.png",
+    "附件/Pasted image 20230326100042.png",
+    "Web前端/Bootstrap/01-Bootstrap基础.md",
+    "Web前端/HTML+CSS/010-H5弹性布局.md",
+    "Web前端/HTML+CSS/009-字体.md",
+    "Web前端/HTML+CSS/013-CSS3特效.md",
+    "Web前端/HTML+CSS/003-CSS基础.md",
+    "Web前端/HTML+CSS/005-CSS常用样式.md",
+    "Web前端/HTML+CSS/006-CSS选择器.md",
+    "Web前端/前端规划.md",
+    "Web前端/HTML+CSS/012-SASS.md",
+    "Web前端/Bootstrap",
+    "附件/Pasted image 20230323235049.png",
     "Web前端/HTML+CSS/011-H5定位.md",
+    "!DDL.md",
     "新建 文本文档.txt",
     "操作系统课设",
-    "Web前端/HTML+CSS/010-H5弹性布局.md",
     "附件/Pasted image 20230323001118.png",
     "附件/Pasted image 20230322233956.png",
-    "Web前端/HTML+CSS/009-字体.md",
     "Web前端/H5+CSS",
     "Web前端/HTML+CSS/008-表格.md",
-    "Web前端/HTML+CSS/006-CSS选择器.md",
     "Web前端/HTML+CSS/007-表单.md",
     "附件/Pasted image 20230322193704.png",
-    "Web前端/HTML+CSS/003-CSS基础.md",
     "Web前端/HTML+CSS/002-HTML基础.md",
     "Web前端/HTML+CSS/基本选择器.md",
-    "Web前端/HTML+CSS/005-CSS常用样式.md",
     "Web前端/HTML+CSS/004-HTML常用标签.md",
     "Vue.js/Vue.js入门.md",
     "Web前端/HTML+CSS/001-环境搭建.md",
@@ -189,19 +226,9 @@
     "附件/Pasted image 20230313160230.png",
     "附件/Pasted image 20230313155546.png",
     "附件/Pasted image 20230313154909.png",
-    "附件/Pasted image 20230313153844.png",
-    "附件/Pasted image 20230313153700.png",
     "量化交易/log",
     "!DDL",
     "量化交易/03-exchanges and order books.md",
-    "量化交易/04-pairs trading.md",
-    "量化交易/05-calculating P&L and determining the portfolio value.md",
-    "量化交易/06-a winning algorithm.md",
-    "量化交易/02-role of market makers.md",
-    "量化交易/ReadyTraderGo.md",
-    "量化交易/01-financial market.md",
-    "附件/Pasted image 20230308162656.png",
-    "量化交易/![[Pasted image 20230308135010.png.md",
-    "量化交易"
+    "量化交易/04-pairs trading.md"
   ]
 }
