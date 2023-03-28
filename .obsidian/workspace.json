@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3fa3007b38b836a1",
+        "id": "5cbd604fd4945082",
         "type": "tabs",
         "children": [
           {
-            "id": "34f0388200559503",
+            "id": "94abd3ee2a28ee77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/Bootstrap/01-Bootstrap基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6b39eedec854871",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web前端/Bootstrap/02-Bootstrap部件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28a1df742b8ae372",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web前端/Bootstrap/03-Bootstrap布局.md",
+                "file": "JavaScript/Node.js/02-path路径模块.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -110,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端/Bootstrap/03-Bootstrap布局.md",
+                "file": "JavaScript/Node.js/02-path路径模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端/Bootstrap/03-Bootstrap布局.md",
+                "file": "JavaScript/Node.js/02-path路径模块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端/Bootstrap/03-Bootstrap布局.md"
+                "file": "JavaScript/Node.js/02-path路径模块.md"
               }
             }
           },
@@ -163,12 +139,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,10 +157,16 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "28a1df742b8ae372",
+  "active": "bdf055c45a8b2006",
   "lastOpenFiles": [
-    "Web前端/HTML+CSS/999-拾遗.md",
+    "JavaScript/Node.js/01-fs文件模块.md",
+    "JavaScript/Node.js/02-path路径模块.md",
+    "JavaScript/001-JavaScript基础.md",
+    "Web前端/HTML+CSS/012-SASS.md",
     "Web前端/Bootstrap/03-Bootstrap布局.md",
+    "JavaScript",
+    "附件/Pasted image 20230326143550.png",
+    "Web前端/HTML+CSS/999-拾遗.md",
     "Web前端/Bootstrap/02-Bootstrap部件.md",
     "附件/Pasted image 20230326100518.png",
     "附件/Pasted image 20230326100042.png",
@@ -197,7 +178,6 @@
     "Web前端/HTML+CSS/005-CSS常用样式.md",
     "Web前端/HTML+CSS/006-CSS选择器.md",
     "Web前端/前端规划.md",
-    "Web前端/HTML+CSS/012-SASS.md",
     "Web前端/Bootstrap",
     "附件/Pasted image 20230323235049.png",
     "Web前端/HTML+CSS/011-H5定位.md",
@@ -221,14 +201,9 @@
     "Obsidian用法",
     "Cpp/标准库",
     "Cpp",
-    "量化交易/log/调参.md",
     "附件/Pasted image 20230313161324.png",
     "附件/Pasted image 20230313160230.png",
     "附件/Pasted image 20230313155546.png",
-    "附件/Pasted image 20230313154909.png",
-    "量化交易/log",
-    "!DDL",
-    "量化交易/03-exchanges and order books.md",
-    "量化交易/04-pairs trading.md"
+    "量化交易/log"
   ]
 }

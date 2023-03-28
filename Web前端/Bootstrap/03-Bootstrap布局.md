@@ -83,3 +83,18 @@ Bootstrap的响应式容器源码：
 
 `.col`：列容器。可以指定占几列，最高12列，也可以指定在何种设备宽度下应用何种布局。
 
+![[Pasted image 20230326143550.png]]
+
+示例一：站点在992px以上宽度时分6栏，在768px以上时分4栏，在576px以上时分3栏，否则分两栏。
+```html
+<div class="container">
+	<div class="row">
+		<div class="col-12 col-sm-6 col-md-3 col-lg-2 demobox">col1</div>
+		<div class="col-12 col-sm-6 col-md-3 col-lg-2 demobox">col2</div>
+		<div class="col-12 col-sm-6 col-md-3 col-lg-2 demobox">col3</div>
+		<div class="col-12 col-sm-6 col-md-3 col-lg-2 demobox">col4</div>
+		<div class="col-12 col-sm-6 col-md-3 col-lg-2 demobox">col5</div>
+		<div class="col-12 col-sm-6 col-md-3 col-lg-2 demobox">col6</div>
+	</div>
+</div>
+```
