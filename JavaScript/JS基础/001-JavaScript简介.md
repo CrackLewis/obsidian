@@ -38,12 +38,3 @@ JavaScript（JS）是：
 
 - 内联JS：`<script>`标签内编写，建议放在`</body>`之前
 - 引入JS：`<script src="源文件地址"></script>`。
-
-## 输出
-
-`document.write('内容')`
-`console.log('内容')`
-`alert('内容')`
-
-## 变量
-

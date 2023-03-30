@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7b6f6e33040cb73f",
+            "id": "97264e3b7ba39e92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Node.js/03-http模块初步.md",
+                "file": "JavaScript/JS基础/001-JavaScript简介.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d35ee4fa9ffae583",
+            "id": "d988b32104f998fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Node.js/04-模块化.md",
+                "file": "JavaScript/JS基础/002-JavaScript基本语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 257.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Node.js/04-模块化.md",
+                "file": "JavaScript/JS基础/002-JavaScript基本语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,9 +115,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Node.js/04-模块化.md",
+                "file": "JavaScript/JS基础/002-JavaScript基本语法.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Node.js/04-模块化.md"
+                "file": "JavaScript/JS基础/002-JavaScript基本语法.md"
               }
             }
           },
@@ -162,23 +162,37 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "d35ee4fa9ffae583",
+  "active": "bdf055c45a8b2006",
   "lastOpenFiles": [
-    "JavaScript/Node.js/03-http模块初步.md",
+    "JavaScript/JS基础/003-JavaScript字符串API.md",
+    "JavaScript/JS基础/002-JavaScript基本语法.md",
+    "JavaScript/JS基础/001-JavaScript简介.md",
+    "Web前端/前端规划.md",
+    "JavaScript/JS基础",
+    "Web前端/Bootstrap/03-Bootstrap布局.md",
+    "Web前端/HTML+CSS/013-CSS3特效.md",
+    "JavaScript/Node.js/06-express模块.md",
+    "JavaScript/Node.js/05-npm与包.md",
     "JavaScript/Node.js/04-模块化.md",
+    "考研数学/高等数学/错题/01-函数极限连续.md",
+    "考研数学/高等数学/错题",
+    "!DDL.md",
+    "考研数学/高等数学",
+    "考研408",
+    "考研数学",
+    "附件/Pasted image 20230328203426.png",
+    "JavaScript/Node.js/03-http模块初步.md",
     "附件/Pasted image 20230328180512.png",
     "JavaScript/Node.js/02-path路径模块.md",
     "JavaScript/Node.js/01-fs文件模块.md",
-    "JavaScript/001-JavaScript基础.md",
     "Web前端/HTML+CSS/012-SASS.md",
-    "Web前端/Bootstrap/03-Bootstrap布局.md",
     "JavaScript",
     "附件/Pasted image 20230326143550.png",
     "Web前端/HTML+CSS/999-拾遗.md",
@@ -188,15 +202,12 @@
     "Web前端/Bootstrap/01-Bootstrap基础.md",
     "Web前端/HTML+CSS/010-H5弹性布局.md",
     "Web前端/HTML+CSS/009-字体.md",
-    "Web前端/HTML+CSS/013-CSS3特效.md",
     "Web前端/HTML+CSS/003-CSS基础.md",
     "Web前端/HTML+CSS/005-CSS常用样式.md",
     "Web前端/HTML+CSS/006-CSS选择器.md",
-    "Web前端/前端规划.md",
     "Web前端/Bootstrap",
     "附件/Pasted image 20230323235049.png",
     "Web前端/HTML+CSS/011-H5定位.md",
-    "!DDL.md",
     "新建 文本文档.txt",
     "操作系统课设",
     "附件/Pasted image 20230323001118.png",
@@ -205,17 +216,6 @@
     "Web前端/HTML+CSS/008-表格.md",
     "Web前端/HTML+CSS/007-表单.md",
     "附件/Pasted image 20230322193704.png",
-    "Web前端/HTML+CSS/002-HTML基础.md",
-    "Web前端/HTML+CSS/基本选择器.md",
-    "Web前端/HTML+CSS/004-HTML常用标签.md",
-    "Vue.js/Vue.js入门.md",
-    "Web前端/HTML+CSS/001-环境搭建.md",
-    "书籍",
-    "Obsidian用法",
-    "Cpp/标准库",
-    "Cpp",
-    "附件/Pasted image 20230313161324.png",
-    "附件/Pasted image 20230313160230.png",
-    "量化交易/log"
+    "附件/Pasted image 20230313161324.png"
   ]
 }
