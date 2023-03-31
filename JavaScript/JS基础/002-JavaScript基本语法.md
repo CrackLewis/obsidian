@@ -211,7 +211,7 @@ obj.attr3 // function (a, b) { ... }
 
 字符串可以被声明为对象。但尽量不要这么做。
 
-[[003-JavaScript字符串API]]
+[[002A-JavaScript字符串API]]
 
 ## 数值
 
@@ -260,4 +260,39 @@ obj.attr3 // function (a, b) { ... }
 - `Number.POSITIVE_INFINITY`：正无穷
 
 ## 数组
+
+数组是一系列元素的线性组合，是一种特殊对象。
+
+数组的声明可以用列表形式或对象形式。但尽量避免用第二种。
+```js
+var arr1 = ["Saab", "Volvo", "BMW"];
+var arr2 = new Array("Saab", "Volvo", "BMW");
+```
+
+访问元素用下标方法：
+```js
+var arr = ["Saab", "Volvo", "BMW"];
+arr[0]; // "Saab"
+```
+
+因为数组是特殊类型的对象，所以：
+- 元素类型可以不同。
+- 可以扩容或缩小容量。
+- 支持其他和对象相关的特性。
+
+用`const`声明的数组：
+- 声明时必须赋值，且不能整体重新赋值。
+- **不是常量。**`const`数组语义是对数组的常量引用，所以修改内部元素的操作仍是允许的。
+- 元素可以重新赋值。
+- 具有块作用域。
+
+更多详细内容，参见[[002B-JavaScript数组API]] 。
+
+## 日期
+
+```js
+var d = new Date();
+```
+
+请参考 [[002C-JavaScript日期API]] 。
 
