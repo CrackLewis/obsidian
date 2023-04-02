@@ -90,9 +90,15 @@ function demo() {
 ```js
 // 可以使用x
 var x;
+
+// y = undefined
+var y = 6;
+// y = 6
 ```
 
 `var`变量声明总是会被提升到函数顶端。
+
+**注意：变量提升机制只会提升声明，不会提升赋值。**
 
 ## 运算符
 
@@ -161,6 +167,11 @@ b1 !== b2; // true
 function 函数名(参数1, 参数2, ...) {
 	语句组;
 }
+
+// 简写的箭头函数：没有名称，常用于函数传参
+(arg1, arg2, ...) => {
+	stmts;
+};
 ```
 
 ## 对象
@@ -191,8 +202,26 @@ obj.attr3 // function (a, b) { ... }
 ### this关键词
 
 `this`在函数定义中引用该函数的所有者。
-- 全局函数和全局环境：指代全局对象
-- 对象成员函数：指代对象
+- 对象方法：所有者对象
+- 单独情形：全局对象
+- 函数：全局对象
+- 严格模式的函数：`undefined`
+- 事件：接收事件的元素
+
+尽管`this`可以绑定到所有者对象，但对象方法内的`this`是和方法而非对象绑定的。
+
+```js
+var person1 = {
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+var person2 = {
+  firstName:"Bill",
+  lastName: "Gates",
+}
+person1.fullName.call(person2);  // 会返回 "Bill Gates"
+```
 
 ## 字符串
 
@@ -295,4 +324,179 @@ var d = new Date();
 ```
 
 请参考 [[002C-JavaScript日期API]] 。
+
+## 数学
+
+请参考[[002D-JavaScript数学API]] 。
+
+## 逻辑结构
+
+### 条件逻辑：if-else语句
+
+```js
+if (cond1) {
+	stmt1;
+} else if (cond2) {
+	stmt2;
+} else if (cond3) {
+	stmt3;
+} else {
+	stmt4;
+}
+```
+
+### 条件逻辑：switch语句
+
+```js
+switch (cond) {
+	case value1: {
+		stmt1;
+		break;
+	}
+	case value2: {
+		stmt2;
+		break;
+	}
+	...
+	default: {
+		stmtn;
+		break;
+	}
+}
+```
+
+### 循环逻辑：for、for-in、for-of
+
+普通`for`语句最简单，常见于各类高级编程语言：
+
+```js
+var x = 0;
+for (var i = 1; i <= 100; ++i) {
+	x += i;
+}
+x; // 5050
+```
+
+`for-in`、`for-of`用于对象内或数组内遍历元素：
+
+```js
+const person = {fname:"Bill", lname:"Gates", age:25};
+
+let text = "";
+for (let x in person) {
+  text += person[x];
+}
+```
+
+### 循环语句：while、do-while
+
+`while`：先判断后执行
+`do-while`：先执行后判断
+
+```js
+var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var i = 0;
+var text = "";
+ 
+while (cars[i]) {
+    text += cars[i] + "<br>";
+    i++;
+}
+```
+
+### 跳转语句：break、continue
+
+跳转语句用于改变程序的运行路径。
+
+`break`可用于跳出循环语句或`switch`语句。
+
+`continue`可用于**跳过一次**循环语句的执行阶段。
+
+## 类型转换
+
+转换到字符串：
+- 万能：`toString()`。
+- 类构造，不建议用：`String()`。
+- 其他方法。
+
+转换到数字：`parseInt()`、`parseFloat()`。
+
+下面是一些特殊值的转换用例。**加粗的值**表示一般不希望出现的转换结果。
+
+| 原始值           | 转换为数字 | 转换为字符串      | 转换为逻辑 |
+| :--------------- | :--------- | :---------------- | :--------- |
+| false            | 0          | "false"           | false      |
+| true             | 1          | "true"            | true       |
+| 0                | 0          | "0"               | false      |
+| 1                | 1          | "1"               | true       |
+| "0"              | 0          | "0"               | **true**     |
+| "000"            | 0          | "000"             | **true**     |
+| "1"              | 1          | "1"               | true       |
+| NaN              | NaN        | "NaN"             | false      |
+| Infinity         | Infinity   | "Infinity"        | true       |
+| -Infinity        | -Infinity  | "-Infinity"       | true       |
+| ""               | **0**        | ""                | **false**    |
+| "20"             | 20         | "20"              | true       |
+| "twenty"         | NaN        | "twenty"          | true       |
+| \[ \]              | **0**        | ""                | true       |
+| \[20\]             | **20**       | "20"              | true       |
+| \[10,20\]          | NaN        | "10,20"           | true       |
+| \["twenty"\]       | NaN        | "twenty"          | true       |
+| \["ten","twenty"\] | NaN        | "ten,twenty"      | true       |
+| function(){}     | NaN        | "function(){}"    | true       |
+| { }              | NaN        | "\[object Object\]" | true       |
+| null             | **0**        | "null"            | false      |
+| undefined        | NaN        | "undefined"       | false      |
+
+## 正则表达式
+
+[[003-JavaScript正则表达式]]
+
+## 异常
+
+```js
+try {
+	statementWhichMightThrowExceptions();
+	throw "I AM AN EXCEPTION";
+} catch (ex) {
+	statementDealingWithExceptions(ex);
+} finally {
+	afterwardStatements();
+}
+```
+
+`throw`可以抛出大部分值作为异常，包括但不限于字符串、数组、对象、数值等。
+
+### 内置Error对象
+
+属性：
+- `name`： 错误名
+	- `EvalError`：历史遗留，旧版JS中`eval()`函数出错会抛出它。
+	- `RangeError`：越界错误。
+	- `ReferenceError`：非法引用。
+	- `SyntaxError`：语法错误。
+	- `TypeError`：类型错误。
+	- `URIError`：在`encodeURI()`中发生的错误
+	- 其他类型：部分浏览器或平台自行定义。慎用。
+- `message`：错误信息
+
+## 严格模式
+
+```js
+"use strict";
+```
+
+严格模式不允许的事项：
+- 使用未声明的变量
+- 使用`delete`删除变量或函数
+- 函数的参数名重复
+- 八进制数值
+- 转义字符
+- 写入只读属性或只能获取的属性
+- 删除不可删除的属性
+- 将`eval`、`arguments`用作变量名
+- `with`语句
+- `eval`语句内创建变量
+
+其他事项：[Mozilla Strict Mode](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Strict_mode) 。
 

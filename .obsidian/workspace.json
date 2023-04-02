@@ -13,25 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JS基础/002-JavaScript基本语法.md",
+                "file": "JavaScript/JS基础/003-JavaScript正则表达式.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "179f678746649a76",
+            "id": "ff0b4d64e9257f7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JS基础/002C-JavaScript日期API.md",
+                "file": "JavaScript/JS基础/005-JavaScript JSON.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4596a5737e7f28c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/JS基础/006-JavaScript函数.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JS基础/002-JavaScript基本语法.md",
+                "file": "JavaScript/JS基础/006-JavaScript函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JS基础/002-JavaScript基本语法.md",
+                "file": "JavaScript/JS基础/006-JavaScript函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JS基础/002-JavaScript基本语法.md"
+                "file": "JavaScript/JS基础/006-JavaScript函数.md"
               }
             }
           },
@@ -170,9 +183,15 @@
   },
   "active": "bdf055c45a8b2006",
   "lastOpenFiles": [
-    "JavaScript/JS基础/002C-JavaScript日期API.md",
+    "JavaScript/JS基础/005-JavaScript JSON.md",
+    "JavaScript/JS基础/006-JavaScript函数.md",
+    "JavaScript/JS基础/004-JavaScript对象和类.md",
+    "JavaScript/JS基础/004A-JavaScript Map和Set.md",
+    "JavaScript/JS基础/003-JavaScript正则表达式.md",
     "JavaScript/JS基础/002-JavaScript基本语法.md",
     "JavaScript/JS基础/002B-JavaScript数组API.md",
+    "JavaScript/JS基础/002D-JavaScript数学API.md",
+    "JavaScript/JS基础/002C-JavaScript日期API.md",
     "JavaScript/JS基础/002A-JavaScript字符串API.md",
     "JavaScript/JS基础/001-JavaScript简介.md",
     "!DDL.md",
@@ -201,14 +220,8 @@
     "附件/Pasted image 20230326100518.png",
     "附件/Pasted image 20230326100042.png",
     "Web前端/Bootstrap/01-Bootstrap基础.md",
-    "Web前端/HTML+CSS/010-H5弹性布局.md",
-    "Web前端/HTML+CSS/009-字体.md",
-    "Web前端/HTML+CSS/003-CSS基础.md",
-    "Web前端/HTML+CSS/005-CSS常用样式.md",
-    "Web前端/HTML+CSS/006-CSS选择器.md",
     "Web前端/Bootstrap",
     "附件/Pasted image 20230323235049.png",
-    "Web前端/HTML+CSS/011-H5定位.md",
     "新建 文本文档.txt",
     "操作系统课设",
     "附件/Pasted image 20230323001118.png",
