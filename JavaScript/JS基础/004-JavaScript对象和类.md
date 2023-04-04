@@ -229,6 +229,20 @@ let myCar = new Car("Ford", 2014);
 
 类定义内可以书写任意个成员方法。通过构造器创建对象后，所有成员方法将成为对象的成员。
 
+### 类继承
+
+`class DerivedClass extends BaseClass`
+
+继承类内：
+- `super`方法指代父类的`constructor`
+- 会携带所有父类成员
+
+### static方法
+
+类内用`static`修饰的方法归属类，不归属某个对象。
+
+类外调用`static`方法应用`类名.方法名(参数)`的格式。
+
 ## Map()和Set()
 
 Map()是JS内置的映射表容器，Set()是JS内置的集合容器。

@@ -86,7 +86,7 @@ str.substr(5); // "edcba"
 
 `str.replace(old, new)`会将`str`中首个匹配`old`的子串替换为`new`。
 
-该方法默认只替换首个匹配，默认大小写敏感。如果需要全部替换，或者大小写敏感，请使用正则表达式。
+该方法默认只替换首个匹配，默认大小写敏感。如果需要全部替换，或者大小写敏感，请使用正则表达式：[[003-JavaScript正则表达式]]。
 
 ```js
 var str = "Play Mental Omega";
