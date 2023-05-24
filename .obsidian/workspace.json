@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -165,7 +165,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5e81789f7a7376e8",
+  "active": "fd6329ed65e6b816",
   "lastOpenFiles": [
     "autobackup.py",
     "新建 文本文档.txt",
