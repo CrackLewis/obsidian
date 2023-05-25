@@ -165,8 +165,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "fd6329ed65e6b816",
+  "active": "5e81789f7a7376e8",
   "lastOpenFiles": [
+    "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "autobackup.py",
     "新建 文本文档.txt",
     "autobackup.bat",
@@ -211,7 +212,6 @@
     "AI",
     "Python/Flask",
     "Python",
-    "Cpp/@-grammar",
-    "Cpp/A-googletest"
+    "Cpp/@-grammar"
   ]
 }
