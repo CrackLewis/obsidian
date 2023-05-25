@@ -30,4 +30,5 @@ else:
 	else:
 		print("Remote pushing complete. ")
 
+input("Press Enter to exit. ")
 trojan_process.terminate()
