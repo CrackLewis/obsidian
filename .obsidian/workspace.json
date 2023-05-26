@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/01-函数、极限、连续.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25ae6e20dcb1db8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/01-函数、极限、连续.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/01-函数、极限、连续.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/01-函数、极限、连续.md"
+                "file": "考研数学/错题/C02-一元函数微分学.md"
               }
             }
           },
@@ -167,38 +179,39 @@
   },
   "active": "5e81789f7a7376e8",
   "lastOpenFiles": [
+    "考研数学/错题/C01-函数、极限、连续.md",
+    "考研数学/错题/C02-一元函数微分学.md",
+    "考研数学/总结/Z01-函数、极限、连续.md",
+    "考研数学/总结/FJ01-高等数学背记.md",
+    "考研数学/总结/Z20-数理统计.md",
+    "考研数学/总结/Z19-大数定律与中心极限定理.md",
+    "考研数学/总结/Z18-随机变量的数字特征.md",
+    "考研数学/总结/Z17-多维随机变量及其分布.md",
+    "考研数学/总结/Z16-随机变量及其概率分布.md",
+    "考研数学/总结/Z15-随机事件和概率.md",
+    "考研数学/总结/Z08-微分方程.md",
+    "考研数学/总结/Z07-无穷级数.md",
+    "考研数学/总结/Z06-多元函数积分学.md",
+    "考研数学/总结/Z05-多元函数微分学.md",
+    "考研数学/总结/Z04-向量代数与空间解析几何.md",
+    "考研数学/总结/Z03-一元函数积分学.md",
+    "考研数学/总结/Z02-一元函数微分学.md",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "autobackup.py",
     "新建 文本文档.txt",
     "autobackup.bat",
-    "考研数学/错题/01-函数、极限、连续.md",
-    "考研数学/总结/01-函数、极限、连续.md",
-    "考研数学/总结/02-一元函数微分学.md",
     "附件/Pasted image 20230523095213.png",
     "附件/Pasted image 20230522204427.png",
     "附件/Pasted image 20230522195223.png",
-    "考研数学/总结/A01-高等数学背记.md",
     "附件/Pasted image 20230522172130.png",
     "!DDL.md",
     "附件/Pasted image 20230522122527.png",
     "附件/Pasted image 20230522122333.png",
     "附件/Pasted image 20230518134822.png",
     "附件/Pasted image 20230518134752.png",
-    "考研数学/总结/07-无穷级数.md",
-    "考研数学/总结/08-微分方程.md",
-    "考研数学/总结/06-多元函数积分学.md",
-    "考研数学/总结/05-多元函数微分学.md",
-    "考研数学/总结/03-一元函数积分学.md",
-    "考研数学/总结/04-向量代数与空间解析几何.md",
     "附件/Pasted image 20230517235018.png",
     "附件/Pasted image 20230517234957.png",
-    "考研数学/总结/20-数理统计.md",
-    "考研数学/总结/19-大数定律与中心极限定理.md",
-    "考研数学/总结/18-随机变量的数字特征.md",
-    "考研数学/总结/16-随机变量及其概率分布.md",
     "Web前端/Vue/001-Vue简介.md",
-    "考研数学/总结/17-多维随机变量及其分布.md",
-    "考研数学/总结/15-随机事件和概率.md",
     "Git",
     "Web前端/前端规划.md",
     "Web前端/Vue",
@@ -211,7 +224,6 @@
     "AI/图像分类笔记",
     "AI",
     "Python/Flask",
-    "Python",
-    "Cpp/@-grammar"
+    "Python"
   ]
 }
