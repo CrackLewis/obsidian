@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C01-函数、极限、连续.md",
+                "file": "考研数学/总结/Z20-数理统计.md",
                 "mode": "source",
                 "source": false
               }
@@ -163,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,9 +180,13 @@
   },
   "active": "02381bf0de3c2006",
   "lastOpenFiles": [
-    "考研数学/错题/C01-函数、极限、连续.md",
+    "附件/Pasted image 20230529175941.png",
+    "附件/Pasted image 20230529175534.png",
     "考研数学/总结/Z02-一元函数微分学.md",
+    "考研数学/总结/FJ01-高等数学背记.md",
+    "考研数学/总结/Z20-数理统计.md",
     "考研数学/错题/C02-一元函数微分学.md",
+    "考研数学/错题/C01-函数、极限、连续.md",
     "!DDL.md",
     "考研408/数据结构",
     "AI/图像分类笔记/06-ResNet.md",
@@ -189,11 +194,9 @@
     "AI/图像分类笔记/02-LeNet.md",
     "AI/图像分类笔记/01-CNN.md",
     "考研数学/总结/Z03-一元函数积分学.md",
-    "考研数学/总结/FJ01-高等数学背记.md",
     "Python/Dash/01-Dash Briefing.md",
     "Python/Dash",
     "考研数学/总结/Z01-函数、极限、连续.md",
-    "考研数学/总结/Z20-数理统计.md",
     "考研数学/总结/Z19-大数定律与中心极限定理.md",
     "考研数学/总结/Z18-随机变量的数字特征.md",
     "考研数学/总结/Z17-多维随机变量及其分布.md",
@@ -217,7 +220,6 @@
     "附件/Pasted image 20230518134822.png",
     "附件/Pasted image 20230518134752.png",
     "附件/Pasted image 20230517235018.png",
-    "附件/Pasted image 20230517234957.png",
     "Web前端/Vue/001-Vue简介.md",
     "Git",
     "Web前端/前端规划.md",
