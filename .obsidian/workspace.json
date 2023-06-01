@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79864534526deda8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!DDL.md",
+                "file": "考研数学/总结/Z10-矩阵.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md",
+                "file": "考研数学/总结/Z10-矩阵.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md",
+                "file": "考研数学/总结/Z10-矩阵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md"
+                "file": "考研数学/总结/Z10-矩阵.md"
               }
             }
           },
@@ -179,38 +168,40 @@
   },
   "active": "5e81789f7a7376e8",
   "lastOpenFiles": [
-    "!DDL.md",
+    "附件/Pasted image 20230601162143.png",
+    "考研数学/总结/Z09-行列式.md",
+    "附件/Pasted image 20230601154020.png",
+    "附件/Pasted image 20230601152943.png",
     "考研数学/错题/C02-一元函数微分学.md",
+    "考研数学/总结/Z03-一元函数积分学.md",
+    "考研数学/总结/Z02-一元函数微分学.md",
+    "考研数学/总结/FJ01-高等数学背记.md",
+    "考研数学/总结/Z01-函数、极限、连续.md",
+    "考研数学/总结/Z05-多元函数微分学.md",
+    "考研数学/总结/Z07-无穷级数.md",
+    "考研数学/总结/Z06-多元函数积分学.md",
+    "考研数学/总结/Z08-微分方程.md",
+    "!DDL.md",
     "数据库/MySQL/mysql.md",
     "数据库",
-    "考研数学/总结/Z02-一元函数微分学.md",
     "考研数学/总结/Z20-数理统计.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
     "考研数学/总结/Z14-二次型.md",
     "考研数学/总结/Z10-矩阵.md",
     "考研数学/总结/Z11-向量组.md",
     "考研数学/总结/Z12-线性方程组.md",
-    "考研数学/总结/Z09-行列式.md",
     "Python/Dash/01-Dash Briefing.md",
     "Rust",
     "附件/Pasted image 20230529175941.png",
     "附件/Pasted image 20230529175534.png",
-    "考研数学/总结/FJ01-高等数学背记.md",
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研408/数据结构",
     "AI/图像分类笔记/06-ResNet.md",
     "AI/图像分类笔记/03-AlexNet.md",
     "AI/图像分类笔记/02-LeNet.md",
     "AI/图像分类笔记/01-CNN.md",
-    "考研数学/总结/Z03-一元函数积分学.md",
     "Python/Dash",
-    "考研数学/总结/Z01-函数、极限、连续.md",
     "考研数学/总结/Z19-大数定律与中心极限定理.md",
-    "考研数学/总结/Z18-随机变量的数字特征.md",
-    "考研数学/总结/Z17-多维随机变量及其分布.md",
-    "考研数学/总结/Z16-随机变量及其概率分布.md",
-    "考研数学/总结/Z15-随机事件和概率.md",
-    "考研数学/总结/Z08-微分方程.md",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "autobackup.py",
     "新建 文本文档.txt",
@@ -221,8 +212,6 @@
     "附件/Pasted image 20230522172130.png",
     "附件/Pasted image 20230522122527.png",
     "附件/Pasted image 20230522122333.png",
-    "附件/Pasted image 20230518134822.png",
-    "附件/Pasted image 20230518134752.png",
     "Git",
     "Web前端/Vue"
   ]
