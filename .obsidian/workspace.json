@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z10-矩阵.md",
+                "file": "Web前端/Bootstrap/03-Bootstrap布局.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z10-矩阵.md",
+                "file": "Web前端/Bootstrap/03-Bootstrap布局.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z10-矩阵.md",
+                "file": "Web前端/Bootstrap/03-Bootstrap布局.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z10-矩阵.md"
+                "file": "Web前端/Bootstrap/03-Bootstrap布局.md"
               }
             }
           },
@@ -168,6 +167,8 @@
   },
   "active": "5e81789f7a7376e8",
   "lastOpenFiles": [
+    "Web前端/HTML+CSS/010-H5弹性布局.md",
+    "考研数学/总结/Z10-矩阵.md",
     "附件/Pasted image 20230601162143.png",
     "考研数学/总结/Z09-行列式.md",
     "附件/Pasted image 20230601154020.png",
@@ -187,7 +188,6 @@
     "考研数学/总结/Z20-数理统计.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
     "考研数学/总结/Z14-二次型.md",
-    "考研数学/总结/Z10-矩阵.md",
     "考研数学/总结/Z11-向量组.md",
     "考研数学/总结/Z12-线性方程组.md",
     "Python/Dash/01-Dash Briefing.md",
@@ -211,7 +211,6 @@
     "附件/Pasted image 20230522195223.png",
     "附件/Pasted image 20230522172130.png",
     "附件/Pasted image 20230522122527.png",
-    "附件/Pasted image 20230522122333.png",
     "Git",
     "Web前端/Vue"
   ]
