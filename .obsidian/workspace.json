@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unity3D/01-Unity3D项目速成.md",
+                "file": "考研数学/总结/Z10-矩阵.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unity3D/01-Unity3D项目速成.md",
+                "file": "考研数学/总结/Z10-矩阵.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unity3D/01-Unity3D项目速成.md",
+                "file": "考研数学/总结/Z10-矩阵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unity3D/01-Unity3D项目速成.md"
+                "file": "考研数学/总结/Z10-矩阵.md"
               }
             }
           },
@@ -165,9 +165,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ca3543a5a24243e3",
+  "active": "70e1dafe7ab8abb8",
   "lastOpenFiles": [
     "Unity3D/01-Unity3D项目速成.md",
+    "考研数学/软饭",
     "考研数学/总结/Z12-线性方程组.md",
     "Unity3D",
     "考研数学/总结/Z10-矩阵.md",
@@ -204,14 +205,12 @@
     "数据库",
     "考研数学/总结/Z20-数理统计.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
-    "考研数学/总结/Z14-二次型.md",
     "Rust",
     "考研408/数据结构",
     "Python/Dash",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "autobackup.py",
     "新建 文本文档.txt",
-    "autobackup.bat",
-    "Git"
+    "autobackup.bat"
   ]
 }
