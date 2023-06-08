@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z10-矩阵.md",
+                "file": "!考研规划.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z10-矩阵.md",
+                "file": "!考研规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z10-矩阵.md",
+                "file": "!考研规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z10-矩阵.md"
+                "file": "!考研规划.md"
               }
             }
           },
@@ -167,11 +168,11 @@
   },
   "active": "70e1dafe7ab8abb8",
   "lastOpenFiles": [
+    "考研数学/总结/Z10-矩阵.md",
     "Unity3D/01-Unity3D项目速成.md",
     "考研数学/软饭",
     "考研数学/总结/Z12-线性方程组.md",
     "Unity3D",
-    "考研数学/总结/Z10-矩阵.md",
     "考研数学/总结/Z11-向量组.md",
     "考研408/数据结构/DS07-查找.md",
     "附件/Pasted image 20230605192133.png",
