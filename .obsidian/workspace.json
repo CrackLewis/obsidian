@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "70e1dafe7ab8abb8",
+            "id": "469a08cc7f9d3045",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!考研规划.md",
+                "file": "AI/机器学习复习/10-集成学习.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!考研规划.md",
+                "file": "AI/机器学习复习/10-集成学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "!考研规划.md",
+                "file": "AI/机器学习复习/10-集成学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "!考研规划.md"
+                "file": "AI/机器学习复习/10-集成学习.md"
               }
             }
           },
@@ -166,8 +166,19 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "70e1dafe7ab8abb8",
+  "active": "469a08cc7f9d3045",
   "lastOpenFiles": [
+    "AI/机器学习复习/09-聚类.md",
+    "AI/机器学习复习/08-贝叶斯理论.md",
+    "AI/机器学习复习/07-支持向量机.md",
+    "AI/机器学习复习/10-集成学习.md",
+    "AI/机器学习复习/05-神经网络.md",
+    "AI/机器学习复习/06-深度学习.md",
+    "AI/机器学习复习/02-线性回归.md",
+    "AI/机器学习复习/04-决策树.md",
+    "AI/机器学习复习/03-线性分类.md",
+    "!考研规划.md",
+    "AI/机器学习复习",
     "考研数学/总结/Z10-矩阵.md",
     "Unity3D/01-Unity3D项目速成.md",
     "考研数学/软饭",
@@ -184,7 +195,6 @@
     "附件/Pasted image 20230605113005.png",
     "附件/Pasted image 20230604202523.png",
     "附件/Pasted image 20230604200817.png",
-    "!考研规划.md",
     "附件/Pasted image 20230604171516.png",
     "考研408/数据结构/DS06-图.md",
     "!DDL.md",
@@ -197,21 +207,12 @@
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/总结/Z02-一元函数微分学.md",
     "考研数学/总结/FJ01-高等数学背记.md",
-    "考研数学/总结/Z01-函数、极限、连续.md",
-    "考研数学/总结/Z05-多元函数微分学.md",
-    "考研数学/总结/Z07-无穷级数.md",
-    "考研数学/总结/Z06-多元函数积分学.md",
-    "考研数学/总结/Z08-微分方程.md",
-    "数据库/MySQL/mysql.md",
     "数据库",
-    "考研数学/总结/Z20-数理统计.md",
-    "考研数学/总结/Z13-特征值与特征向量.md",
     "Rust",
     "考研408/数据结构",
     "Python/Dash",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "autobackup.py",
-    "新建 文本文档.txt",
-    "autobackup.bat"
+    "新建 文本文档.txt"
   ]
 }
