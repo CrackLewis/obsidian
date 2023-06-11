@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/机器学习复习/07-支持向量机.md",
+                "file": "AI/机器学习复习/02-线性回归.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/机器学习复习/07-支持向量机.md",
+                "file": "AI/机器学习复习/02-线性回归.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/机器学习复习/07-支持向量机.md",
+                "file": "AI/机器学习复习/02-线性回归.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/机器学习复习/07-支持向量机.md"
+                "file": "AI/机器学习复习/02-线性回归.md"
               }
             }
           },
@@ -168,8 +168,9 @@
   },
   "active": "469a08cc7f9d3045",
   "lastOpenFiles": [
-    "AI/机器学习复习/10-集成学习.md",
     "AI/机器学习复习/07-支持向量机.md",
+    "附件/Pasted image 20230611145231.png",
+    "AI/机器学习复习/10-集成学习.md",
     "AI/机器学习复习/06-深度学习.md",
     "AI/机器学习复习/09-聚类.md",
     "AI/机器学习复习/08-贝叶斯理论.md",
@@ -200,13 +201,11 @@
     "!DDL.md",
     "附件/Pasted image 20230604155128.png",
     "考研408/数据结构/DS05-树和二叉树.md",
-    "附件/Pasted image 20230604135842.png",
     "Web前端/Bootstrap/03-Bootstrap布局.md",
     "Web前端/HTML+CSS/010-H5弹性布局.md",
     "考研数学/错题/C02-一元函数微分学.md",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/总结/Z02-一元函数微分学.md",
-    "考研数学/总结/FJ01-高等数学背记.md",
     "数据库",
     "Rust",
     "考研408/数据结构",
