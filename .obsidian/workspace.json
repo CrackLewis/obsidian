@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/机器学习复习/10-集成学习.md",
+                "file": "AI/机器学习复习/07-支持向量机.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/机器学习复习/10-集成学习.md",
+                "file": "AI/机器学习复习/07-支持向量机.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/机器学习复习/10-集成学习.md",
+                "file": "AI/机器学习复习/07-支持向量机.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/机器学习复习/10-集成学习.md"
+                "file": "AI/机器学习复习/07-支持向量机.md"
               }
             }
           },
@@ -168,12 +168,12 @@
   },
   "active": "469a08cc7f9d3045",
   "lastOpenFiles": [
+    "AI/机器学习复习/10-集成学习.md",
+    "AI/机器学习复习/07-支持向量机.md",
+    "AI/机器学习复习/06-深度学习.md",
     "AI/机器学习复习/09-聚类.md",
     "AI/机器学习复习/08-贝叶斯理论.md",
-    "AI/机器学习复习/07-支持向量机.md",
-    "AI/机器学习复习/10-集成学习.md",
     "AI/机器学习复习/05-神经网络.md",
-    "AI/机器学习复习/06-深度学习.md",
     "AI/机器学习复习/02-线性回归.md",
     "AI/机器学习复习/04-决策树.md",
     "AI/机器学习复习/03-线性分类.md",
