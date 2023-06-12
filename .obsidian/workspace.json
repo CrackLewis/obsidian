@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/机器学习复习/02-线性回归.md",
+                "file": "Unity3D/01-Unity3D项目速成.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc63f9ff0d9b15c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unity3D/02-Unity3D项目搭建.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/机器学习复习/02-线性回归.md",
+                "file": "Unity3D/02-Unity3D项目搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/机器学习复习/02-线性回归.md",
+                "file": "Unity3D/02-Unity3D项目搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/机器学习复习/02-线性回归.md"
+                "file": "Unity3D/02-Unity3D项目搭建.md"
               }
             }
           },
@@ -166,8 +178,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "469a08cc7f9d3045",
+  "active": "fc63f9ff0d9b15c2",
   "lastOpenFiles": [
+    "附件/Pasted image 20230612165127.png",
+    "Unity3D/01-Unity3D项目速成.md",
+    "Unity3D/02-Unity3D项目搭建.md",
+    "AI/机器学习复习/04-决策树.md",
+    "未命名",
+    "AI/机器学习复习/03-线性分类.md",
+    "AI/机器学习复习/02-线性回归.md",
     "AI/机器学习复习/07-支持向量机.md",
     "附件/Pasted image 20230611145231.png",
     "AI/机器学习复习/10-集成学习.md",
@@ -175,13 +194,9 @@
     "AI/机器学习复习/09-聚类.md",
     "AI/机器学习复习/08-贝叶斯理论.md",
     "AI/机器学习复习/05-神经网络.md",
-    "AI/机器学习复习/02-线性回归.md",
-    "AI/机器学习复习/04-决策树.md",
-    "AI/机器学习复习/03-线性分类.md",
     "!考研规划.md",
     "AI/机器学习复习",
     "考研数学/总结/Z10-矩阵.md",
-    "Unity3D/01-Unity3D项目速成.md",
     "考研数学/软饭",
     "考研数学/总结/Z12-线性方程组.md",
     "Unity3D",
@@ -205,13 +220,11 @@
     "Web前端/HTML+CSS/010-H5弹性布局.md",
     "考研数学/错题/C02-一元函数微分学.md",
     "考研数学/总结/Z03-一元函数积分学.md",
-    "考研数学/总结/Z02-一元函数微分学.md",
     "数据库",
     "Rust",
     "考研408/数据结构",
     "Python/Dash",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
-    "autobackup.py",
-    "新建 文本文档.txt"
+    "autobackup.py"
   ]
 }
