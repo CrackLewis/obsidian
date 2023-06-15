@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unity3D/02-Unity3D项目搭建.md",
+                "file": "考研数学/总结/Z12-线性方程组.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unity3D/02-Unity3D项目搭建.md",
+                "file": "考研数学/总结/Z12-线性方程组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unity3D/02-Unity3D项目搭建.md",
+                "file": "考研数学/总结/Z12-线性方程组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unity3D/02-Unity3D项目搭建.md"
+                "file": "考研数学/总结/Z12-线性方程组.md"
               }
             }
           },
@@ -180,9 +181,10 @@
   },
   "active": "fc63f9ff0d9b15c2",
   "lastOpenFiles": [
+    "考研数学/总结/Z11-向量组.md",
+    "Unity3D/02-Unity3D项目搭建.md",
     "附件/Pasted image 20230612165127.png",
     "Unity3D/01-Unity3D项目速成.md",
-    "Unity3D/02-Unity3D项目搭建.md",
     "AI/机器学习复习/04-决策树.md",
     "未命名",
     "AI/机器学习复习/03-线性分类.md",
@@ -200,7 +202,6 @@
     "考研数学/软饭",
     "考研数学/总结/Z12-线性方程组.md",
     "Unity3D",
-    "考研数学/总结/Z11-向量组.md",
     "考研408/数据结构/DS07-查找.md",
     "附件/Pasted image 20230605192133.png",
     "附件/Pasted image 20230605163956.png",
@@ -214,7 +215,6 @@
     "附件/Pasted image 20230604171516.png",
     "考研408/数据结构/DS06-图.md",
     "!DDL.md",
-    "附件/Pasted image 20230604155128.png",
     "考研408/数据结构/DS05-树和二叉树.md",
     "Web前端/Bootstrap/03-Bootstrap布局.md",
     "Web前端/HTML+CSS/010-H5弹性布局.md",
