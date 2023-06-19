@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "179a0f31644b6f21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研待办/230617-230623.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -168,6 +180,14 @@
   },
   "active": "04761f945d258722",
   "lastOpenFiles": [
+    "附件/Pasted image 20230619104554.png",
+    "附件/Pasted image 20230619104546.png",
+    "附件/Pasted image 20230619101807.png",
+    "附件/Pasted image 20230619002440.png",
+    "附件/Pasted image 20230619002039.png",
+    "附件/Pasted image 20230619001241.png",
+    "考研待办/230617-230623.md",
+    "考研数学/总结/Z20-数理统计.md",
     "考研数学/总结/Z02-一元函数微分学.md",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研408/计算机网络/CN02-物理层.md",
@@ -176,13 +196,7 @@
     "附件/Pasted image 20230618183356.png",
     "附件/Pasted image 20230618183319.png",
     "附件/Pasted image 20230618183252.png",
-    "附件/Pasted image 20230618183227.png",
-    "附件/Pasted image 20230618163400.png",
-    "附件/Pasted image 20230618163347.png",
-    "附件/Pasted image 20230618163253.png",
-    "考研待办/230617-230623.md",
     "考研408/计算机网络/CN01-计算机网络体系结构.md",
-    "附件/Pasted image 20230617200234.png",
     "考研408/计算机网络/CN04-网络层.md",
     "考研408/计算机网络/CN05-传输层.md",
     "考研408/计算机网络/CN06-应用层.md",
@@ -204,7 +218,6 @@
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/总结/Z01-函数、极限、连续.md",
     "考研待办",
-    "Unity3D/02-Unity3D项目搭建.md",
     "AI/机器学习复习",
     "考研数学/软饭",
     "Unity3D",
