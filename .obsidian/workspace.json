@@ -13,19 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z20-数理统计.md",
+                "file": "考研数学/总结/Z14-二次型.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "179a0f31644b6f21",
+            "id": "e859167c9c867f45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研待办/230617-230623.md",
+                "file": "考研数学/总结/Z03-一元函数积分学.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a33d637d03e3498d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研408/计算机网络/CN02-物理层.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -106,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z20-数理统计.md",
+                "file": "考研数学/总结/Z14-二次型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z20-数理统计.md",
+                "file": "考研数学/总结/Z14-二次型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z20-数理统计.md"
+                "file": "考研数学/总结/Z14-二次型.md"
               }
             }
           },
@@ -180,22 +191,22 @@
   },
   "active": "04761f945d258722",
   "lastOpenFiles": [
-    "附件/Pasted image 20230619104554.png",
-    "附件/Pasted image 20230619104546.png",
-    "附件/Pasted image 20230619101807.png",
-    "附件/Pasted image 20230619002440.png",
-    "附件/Pasted image 20230619002039.png",
-    "附件/Pasted image 20230619001241.png",
     "考研待办/230617-230623.md",
-    "考研数学/总结/Z20-数理统计.md",
-    "考研数学/总结/Z02-一元函数微分学.md",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研408/计算机网络/CN02-物理层.md",
-    "附件/Pasted image 20230618192417.png",
-    "附件/Pasted image 20230618191458.png",
-    "附件/Pasted image 20230618183356.png",
-    "附件/Pasted image 20230618183319.png",
-    "附件/Pasted image 20230618183252.png",
+    "附件/Pasted image 20230619190042.png",
+    "附件/Pasted image 20230619185809.png",
+    "附件/Pasted image 20230619184849.png",
+    "附件/Pasted image 20230619183352.png",
+    "附件/Pasted image 20230619181137.png",
+    "附件/Pasted image 20230619154615.png",
+    "附件/Pasted image 20230619152152.png",
+    "附件/Pasted image 20230619144306.png",
+    "考研待办/upcoming tasks.md",
+    "考研数学/总结/Z20-数理统计.md",
+    "附件/Pasted image 20230619104554.png",
+    "附件/Pasted image 20230619104546.png",
+    "考研数学/总结/Z02-一元函数微分学.md",
     "考研408/计算机网络/CN01-计算机网络体系结构.md",
     "考研408/计算机网络/CN04-网络层.md",
     "考研408/计算机网络/CN05-传输层.md",
@@ -216,7 +227,6 @@
     "Unity3D/01-Unity3D项目速成.md",
     "!考研待办.md",
     "考研数学/错题/C01-函数、极限、连续.md",
-    "考研数学/总结/Z01-函数、极限、连续.md",
     "考研待办",
     "AI/机器学习复习",
     "考研数学/软饭",
