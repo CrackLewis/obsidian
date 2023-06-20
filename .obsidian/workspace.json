@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z14-二次型.md",
+                "file": "考研待办/230617-230623.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z14-二次型.md",
+                "file": "考研待办/230617-230623.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z14-二次型.md",
+                "file": "考研待办/230617-230623.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z14-二次型.md"
+                "file": "考研待办/230617-230623.md"
               }
             }
           },
@@ -191,6 +191,7 @@
   },
   "active": "04761f945d258722",
   "lastOpenFiles": [
+    "考研数学/总结/Z14-二次型.md",
     "考研待办/230617-230623.md",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研408/计算机网络/CN02-物理层.md",
@@ -220,7 +221,6 @@
     "考研408/数据结构/DS07-查找.md",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/错题/C14-二次型.md",
-    "考研数学/总结/Z14-二次型.md",
     "考研数学/总结/Z09-行列式.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
     "考研数学/总结/Z12-线性方程组.md",
