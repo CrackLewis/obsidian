@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "04761f945d258722",
+            "id": "e859167c9c867f45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/错题/C13-特征值与特征向量.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5794487c2a0f8238",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,30 +32,19 @@
             }
           },
           {
-            "id": "e859167c9c867f45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/总结/Z03-一元函数积分学.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a33d637d03e3498d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机网络/CN02-物理层.md",
+                "file": "考研数学/错题/C10-矩阵.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研待办/230617-230623.md",
+                "file": "考研数学/错题/C10-矩阵.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研待办/230617-230623.md",
+                "file": "考研数学/错题/C10-矩阵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研待办/230617-230623.md"
+                "file": "考研数学/错题/C10-矩阵.md"
               }
             }
           },
@@ -189,12 +190,23 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "04761f945d258722",
+  "active": "a33d637d03e3498d",
   "lastOpenFiles": [
-    "考研数学/总结/Z14-二次型.md",
+    "考研数学/错题/C09-行列式.md",
+    "考研数学/错题/C10-矩阵.md",
+    "考研数学/错题/C14-二次型.md",
+    "考研数学/错题/C13-特征值与特征向量.md",
+    "考研数学/错题/C12-线性方程组.md",
+    "考研数学/错题/C11-向量.md",
+    "考研408/计算机网络/CN02-物理层.md",
     "考研待办/230617-230623.md",
     "考研数学/总结/Z03-一元函数积分学.md",
-    "考研408/计算机网络/CN02-物理层.md",
+    "考研数学/总结/FJ01-高等数学背记.md",
+    "考研408/计算机网络/CN03-数据链路层.md",
+    "考研408/计算机网络/CN06-应用层.md",
+    "考研408/计算机网络/CN01-计算机网络体系结构.md",
+    "附件/Pasted image 20230620140230.png",
+    "考研数学/总结/Z14-二次型.md",
     "附件/Pasted image 20230619190042.png",
     "附件/Pasted image 20230619185809.png",
     "附件/Pasted image 20230619184849.png",
@@ -206,27 +218,17 @@
     "考研待办/upcoming tasks.md",
     "考研数学/总结/Z20-数理统计.md",
     "附件/Pasted image 20230619104554.png",
-    "附件/Pasted image 20230619104546.png",
     "考研数学/总结/Z02-一元函数微分学.md",
-    "考研408/计算机网络/CN01-计算机网络体系结构.md",
     "考研408/计算机网络/CN04-网络层.md",
     "考研408/计算机网络/CN05-传输层.md",
-    "考研408/计算机网络/CN06-应用层.md",
     "考研数学/错题/C02-一元函数微分学.md",
     "考研408/数据结构/DS08-排序.md",
     "考研数学/总结/Z10-矩阵.md",
     "考研数学/总结/Z11-向量组.md",
-    "考研408/计算机网络/CN03-数据链路层.md",
     "考研408/计算机网络",
     "考研408/数据结构/DS07-查找.md",
-    "考研数学/错题/C13-特征值与特征向量.md",
-    "考研数学/错题/C14-二次型.md",
     "考研数学/总结/Z09-行列式.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
-    "考研数学/总结/Z12-线性方程组.md",
-    "Unity3D/01-Unity3D项目速成.md",
-    "!考研待办.md",
-    "考研数学/错题/C01-函数、极限、连续.md",
     "考研待办",
     "AI/机器学习复习",
     "考研数学/软饭",
