@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机网络/CN03-数据链路层.md",
+                "file": "考研数学/错题/C09-行列式.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机网络/CN03-数据链路层.md",
+                "file": "考研待办/230624-230630.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机网络/CN03-数据链路层.md",
+                "file": "考研待办/230624-230630.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机网络/CN03-数据链路层.md"
+                "file": "考研待办/230624-230630.md"
               }
             }
           },
@@ -178,31 +177,32 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3990273fdb49d97a",
+  "active": "5794487c2a0f8238",
   "lastOpenFiles": [
-    "附件/Pasted image 20230624093826.png",
-    "附件/Pasted image 20230624091447.png",
-    "附件/Pasted image 20230624091429.png",
-    "附件/Pasted image 20230624091414.png",
-    "附件/Pasted image 20230624091354.png",
-    "考研待办/230624-230630.md",
-    "考研408/计算机网络/CN03-数据链路层.md",
-    "考研待办/230617-230623.md",
-    "附件/Pasted image 20230623191936.png",
-    "附件/Pasted image 20230623191925.png",
-    "附件/Pasted image 20230623172858.png",
-    "附件/Pasted image 20230623163052.png",
-    "附件/Pasted image 20230623154237.png",
-    "附件/Pasted image 20230623154218.png",
-    "考研408/数据结构/DS08-排序.md",
+    "考研数学/错题/C09-行列式.md",
     "考研数学/错题/C02-一元函数微分学.md",
+    "考研408/计算机网络/CN03-数据链路层.md",
+    "附件/Pasted image 20230624202719.png",
+    "附件/Pasted image 20230624202118.png",
+    "考研待办/230624-230630.md",
+    "考研待办/230617-230623.md",
+    "考研数学/软饭/武忠祥每日一题.md",
+    "考研数学/总结/FJ01-高等数学背记.md",
+    "附件/Pasted image 20230624182806.png",
+    "附件/Pasted image 20230624182748.png",
+    "附件/Pasted image 20230624182738.png",
+    "附件/Pasted image 20230624150737.png",
+    "附件/Pasted image 20230624142427.png",
+    "附件/Pasted image 20230624123500.png",
+    "附件/Pasted image 20230624123448.png",
+    "附件/Pasted image 20230624093826.png",
+    "考研408/数据结构/DS08-排序.md",
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/错题/C14-二次型.md",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/错题/C12-线性方程组.md",
     "考研数学/错题/C11-向量.md",
     "考研数学/错题/C10-矩阵.md",
-    "考研数学/错题/C09-行列式.md",
     "考研待办/!-doctrine.md",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/总结/Z04-向量代数与空间解析几何.md",
@@ -214,8 +214,6 @@
     "考研数学/总结/Z10-矩阵.md",
     "考研数学/总结/Z11-向量组.md",
     "考研数学/总结/Z12-线性方程组.md",
-    "考研数学/总结/Z13-特征值与特征向量.md",
-    "考研数学/总结/Z14-二次型.md",
     "考研英语",
     "考研408/计算机网络",
     "考研待办",
