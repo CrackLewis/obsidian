@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研待办/!-doctrine.md",
+                "file": "考研数学/总结/Z12-线性方程组.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研待办/!-doctrine.md",
+                "file": "考研数学/总结/Z12-线性方程组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研待办/!-doctrine.md",
+                "file": "考研数学/总结/Z12-线性方程组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研待办/!-doctrine.md"
+                "file": "考研数学/总结/Z12-线性方程组.md"
               }
             }
           },
@@ -180,12 +180,12 @@
   },
   "active": "3990273fdb49d97a",
   "lastOpenFiles": [
+    "考研数学/总结/Z13-特征值与特征向量.md",
+    "考研数学/错题/C13-特征值与特征向量.md",
+    "考研待办/!-doctrine.md",
     "附件/Pasted image 20230625103004.png",
     "考研待办/230624-230630.md",
     "考研数学/错题/C09-行列式.md",
-    "考研待办/!-doctrine.md",
-    "考研数学/总结/Z13-特征值与特征向量.md",
-    "考研数学/错题/C13-特征值与特征向量.md",
     "考研待办/@-upcoming_tasks.md",
     "考研待办/230617-230623.md",
     "考研408/计算机网络/CN06-应用层.md",
@@ -202,7 +202,6 @@
     "附件/Pasted image 20230624142427.png",
     "附件/Pasted image 20230624123500.png",
     "附件/Pasted image 20230624123448.png",
-    "附件/Pasted image 20230624093826.png",
     "考研408/数据结构/DS08-排序.md",
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/错题/C14-二次型.md",
