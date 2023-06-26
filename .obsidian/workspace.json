@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3990273fdb49d97a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/总结/Z12-线性方程组.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z12-线性方程组.md",
+                "file": "考研待办/!-doctrine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z12-线性方程组.md",
+                "file": "考研待办/!-doctrine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z12-线性方程组.md"
+                "file": "考研待办/!-doctrine.md"
               }
             }
           },
@@ -178,8 +165,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3990273fdb49d97a",
+  "active": "5794487c2a0f8238",
   "lastOpenFiles": [
+    "考研408/计算机网络/CN03-数据链路层.md",
+    "考研408/计算机网络/CN02-物理层.md",
+    "考研数学/总结/Z12-线性方程组.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研待办/!-doctrine.md",
@@ -190,7 +180,6 @@
     "考研待办/230617-230623.md",
     "考研408/计算机网络/CN06-应用层.md",
     "考研数学/错题/C02-一元函数微分学.md",
-    "考研408/计算机网络/CN03-数据链路层.md",
     "附件/Pasted image 20230624202719.png",
     "附件/Pasted image 20230624202118.png",
     "考研数学/软饭/武忠祥每日一题.md",
@@ -214,7 +203,6 @@
     "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/总结/Z07-无穷级数.md",
     "考研数学/总结/Z08-微分方程.md",
-    "考研数学/总结/Z09-行列式.md",
     "考研英语",
     "考研408/计算机网络",
     "考研待办",
