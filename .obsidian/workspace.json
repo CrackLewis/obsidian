@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C11-向量.md",
+                "file": "考研数学/总结/Z10-矩阵.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C11-向量.md",
+                "file": "考研数学/总结/Z10-矩阵.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C11-向量.md",
+                "file": "考研数学/总结/Z10-矩阵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C11-向量.md"
+                "file": "考研数学/总结/Z10-矩阵.md"
               }
             }
           },
@@ -164,10 +164,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "fd6329ed65e6b816",
+  "active": "5794487c2a0f8238",
   "lastOpenFiles": [
-    "考研数学/总结/Z14-二次型.md",
     "考研数学/总结/Z11-向量组.md",
+    "考研数学/错题/C11-向量.md",
+    "考研数学/总结/Z14-二次型.md",
     "考研待办/!-doctrine.md",
     "考研408/计算机网络/CN03-数据链路层.md",
     "考研408/计算机网络/CN02-物理层.md",
@@ -196,7 +197,6 @@
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/错题/C14-二次型.md",
     "考研数学/错题/C12-线性方程组.md",
-    "考研数学/错题/C11-向量.md",
     "考研数学/错题/C10-矩阵.md",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/总结/Z04-向量代数与空间解析几何.md",
