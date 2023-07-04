@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5794487c2a0f8238",
+            "id": "cbd2d04b29b2d76a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C10-矩阵.md",
+                "file": "考研数学/总结/Z05-多元函数微分学.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cbd2d04b29b2d76a",
+            "id": "4d5d368f55c5feb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -178,11 +179,21 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "cbd2d04b29b2d76a",
+  "active": "4d5d368f55c5feb6",
   "lastOpenFiles": [
-    "暑期实习/Day01-Web漏洞基础.md",
-    "考研数学/错题/C03-一元函数积分学.md",
+    "考研数学/总结/Z05-多元函数微分学.md",
+    "附件/Pasted image 20230704171259.png",
+    "附件/Pasted image 20230704170352.png",
+    "附件/Pasted image 20230704170312.png",
+    "考研数学/总结/Z04-向量代数与空间解析几何.md",
+    "附件/Pasted image 20230704170054.png",
+    "附件/Pasted image 20230704170041.png",
+    "附件/Pasted image 20230704170032.png",
+    "附件/Pasted image 20230704124241.png",
+    "附件/Pasted image 20230704124233.png",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
+    "考研数学/错题/C03-一元函数积分学.md",
+    "暑期实习/Day01-Web漏洞基础.md",
     "附件/Pasted image 20230703094439.png",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研408/计算机网络/CN03-数据链路层.md",
@@ -190,12 +201,7 @@
     "考研数学/错题/C10-矩阵.md",
     "考研408/计算机网络/CN04-网络层.md",
     "附件/Pasted image 20230702161836.png",
-    "附件/Pasted image 20230702161727.png",
     "考研数学/错题/C14-二次型.md",
-    "附件/Pasted image 20230702143517.png",
-    "附件/Pasted image 20230702133431.png",
-    "附件/Pasted image 20230702125430.png",
-    "附件/Pasted image 20230702123804.png",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/错题/C12-线性方程组.md",
     "考研数学/错题/C11-向量.md",
@@ -208,14 +214,10 @@
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研408/计算机网络/CN06-应用层.md",
     "考研408/计算机网络/CN05-传输层.md",
-    "附件/Pasted image 20230702111447.png",
-    "附件/Pasted image 20230702090150.png",
     "考研数学/总结/Z20-数理统计.md",
-    "附件/Pasted image 20230701210654.png",
     "考研408/数据结构/DS05-树和二叉树.md",
     "考研数学/总结/Z02-一元函数微分学.md",
     "考研待办/230624-230630.md",
-    "考研数学/总结/Z01-函数、极限、连续.md",
     "考研英语",
     "考研408/计算机网络",
     "考研待办",
