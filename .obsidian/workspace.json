@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机网络/CN05-传输层.md",
+                "file": "考研数学/错题/C03-一元函数积分学.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a17e41650e08490f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/总结/Z03-一元函数积分学.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机网络/CN05-传输层.md",
+                "file": "考研数学/错题/C03-一元函数积分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机网络/CN05-传输层.md",
+                "file": "考研数学/错题/C03-一元函数积分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机网络/CN05-传输层.md"
+                "file": "考研数学/错题/C03-一元函数积分学.md"
               }
             }
           },
@@ -161,13 +172,16 @@
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "templates:插入模板": false
     }
   },
   "active": "e9d31e70e5aec972",
   "lastOpenFiles": [
+    "考研数学/总结/Z03-一元函数积分学.md",
+    "考研数学/错题/C03-一元函数积分学.md",
+    "考研408/计算机网络/CN05-传输层.md",
     "附件/Pasted image 20230708110738.png",
     "附件/Pasted image 20230708110716.png",
     "附件/Pasted image 20230708102110.png",
@@ -180,14 +194,12 @@
     "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/总结/Z04-向量代数与空间解析几何.md",
     "考研数学/总结/Z05-多元函数微分学.md",
-    "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/总结/Z02-一元函数微分学.md",
     "考研数学/总结/Z01-函数、极限、连续.md",
     "考研408/计算机网络/CN04-网络层.md",
     "Linux/Hacks/多版本GCC安装和共存.md",
     "Linux/Hacks/虚拟机挂载共享文件夹.md",
     "考研数学/错题/C05-多元函数微分学.md",
-    "考研数学/错题/C03-一元函数积分学.md",
     "附件/Pasted image 20230705130150.png",
     "附件/Pasted image 20230705124101.png",
     "附件/Pasted image 20230704171259.png",
@@ -195,7 +207,6 @@
     "附件/Pasted image 20230704170312.png",
     "附件/Pasted image 20230704170054.png",
     "附件/Pasted image 20230704170041.png",
-    "附件/Pasted image 20230704170032.png",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
     "暑期实习/Day01-Web漏洞基础.md",
     "考研数学/错题/C13-特征值与特征向量.md",
