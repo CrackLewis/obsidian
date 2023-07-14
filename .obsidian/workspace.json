@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z03-一元函数积分学.md",
+                "file": "考研数学/错题/C03-一元函数积分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z03-一元函数积分学.md",
+                "file": "考研数学/错题/C03-一元函数积分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z03-一元函数积分学.md"
+                "file": "考研数学/错题/C03-一元函数积分学.md"
               }
             }
           },
@@ -189,10 +189,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "0f940261dcc85472",
+  "active": "97eb90a8655fe2d6",
   "lastOpenFiles": [
-    "考研数学/错题/C03-一元函数积分学.md",
+    "附件/Pasted image 20230714105639.png",
     "考研数学/总结/Z03-一元函数积分学.md",
+    "考研数学/错题/C03-一元函数积分学.md",
+    "附件/Pasted image 20230714083251.png",
     "考研数学/错题/C05-多元函数微分学.md",
     "考研数学/背记/FJ01-高等数学背记.md",
     "考研数学/总结/Z05-多元函数微分学.md",
@@ -223,7 +225,6 @@
     "附件/Pasted image 20230705124101.png",
     "附件/Pasted image 20230704171259.png",
     "附件/Pasted image 20230704170352.png",
-    "附件/Pasted image 20230704170312.png",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
     "暑期实习/Day01-Web漏洞基础.md",
     "考研数学/错题/C13-特征值与特征向量.md",
