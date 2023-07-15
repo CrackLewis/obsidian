@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aa6f2b7feb521bd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/错题/C02-一元函数微分学.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C03-一元函数积分学.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C03-一元函数积分学.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C03-一元函数积分学.md"
+                "file": "考研数学/错题/C02-一元函数微分学.md"
               }
             }
           },
@@ -202,33 +214,34 @@
       "templates:插入模板": false
     }
   },
-  "active": "97eb90a8655fe2d6",
+  "active": "aa6f2b7feb521bd0",
   "lastOpenFiles": [
+    "附件/Pasted image 20230715110708.png",
+    "附件/Pasted image 20230715105042.png",
+    "附件/Pasted image 20230715100630.png",
+    "附件/Pasted image 20230715100611.png",
+    "附件/Pasted image 20230715092619.png",
+    "附件/Pasted image 20230715085600.png",
+    "考研数学/错题/C03-一元函数积分学.md",
+    "考研数学/错题/C02-一元函数微分学.md",
+    "考研408/计算机网络/CN03-数据链路层.md",
     "附件/Pasted image 20230714185047.png",
     "附件/Pasted image 20230714172438.png",
     "附件/Pasted image 20230714171919.png",
     "附件/Pasted image 20230714171505.png",
     "附件/Pasted image 20230714171103.png",
-    "附件/Pasted image 20230714171049.png",
-    "考研408/计算机网络/CN03-数据链路层.md",
-    "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/错题/C05-多元函数微分学.md",
-    "附件/Pasted image 20230714105639.png",
-    "附件/Pasted image 20230714083251.png",
     "考研数学/背记/FJ01-高等数学背记.md",
     "考研数学/总结/Z05-多元函数微分学.md",
     "考研408/计算机网络/CN05-传输层.md",
     "考研数学/背记",
-    "附件/Pasted image 20230712171624.png",
-    "附件/Pasted image 20230712164508.png",
     "考研数学/总结/Z02-一元函数微分学.md",
     "考研英语/WR01-高途作文课.md",
     "考研英语/TR01-高途翻译课.md",
     "Linux/Hacks/虚拟机挂载共享文件夹.md",
     "考研数学/总结/Z01-函数、极限、连续.md",
     "考研数学/错题/C01-函数、极限、连续.md",
-    "附件/Pasted image 20230708110738.png",
     "考研数学/总结/Z20-数理统计.md",
     "考研数学/总结/Z19-大数定律与中心极限定理.md",
     "考研数学/总结/Z15-随机事件和概率.md",
@@ -240,7 +253,6 @@
     "考研408/计算机网络/CN04-网络层.md",
     "Linux/Hacks/多版本GCC安装和共存.md",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
-    "暑期实习/Day01-Web漏洞基础.md",
     "暑期实习",
     "考研英语",
     "考研408/计算机网络",
