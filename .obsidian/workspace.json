@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z03-一元函数积分学.md",
+                "file": "考研数学/错题/C03-一元函数积分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z03-一元函数积分学.md",
+                "file": "考研数学/错题/C03-一元函数积分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z03-一元函数积分学.md"
+                "file": "考研数学/错题/C03-一元函数积分学.md"
               }
             }
           },
@@ -201,8 +201,9 @@
       "templates:插入模板": false
     }
   },
-  "active": "0f940261dcc85472",
+  "active": "97eb90a8655fe2d6",
   "lastOpenFiles": [
+    "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/错题/C03-一元函数积分学.md",
     "考研408/计算机网络/CN03-数据链路层.md",
     "考研数学/错题/C02-一元函数微分学.md",
@@ -211,7 +212,6 @@
     "附件/Pasted image 20230716143733.png",
     "附件/Pasted image 20230716143016.png",
     "附件/Pasted image 20230716140951.png",
-    "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/错题/C05-多元函数微分学.md",
     "附件/Pasted image 20230716102920.png",
     "附件/Pasted image 20230716102205.png",
