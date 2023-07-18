@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b6aa5e308dc1e99a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/错题/C05-多元函数微分学.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0f940261dcc85472",
             "type": "leaf",
             "state": {
@@ -54,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b0e490b28d55ef61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/总结/Z17-多维随机变量及其分布.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,8 +203,10 @@
   },
   "active": "97eb90a8655fe2d6",
   "lastOpenFiles": [
-    "考研数学/总结/Z03-一元函数积分学.md",
+    "考研数学/总结/Z17-多维随机变量及其分布.md",
+    "考研数学/总结/Z15-随机事件和概率.md",
     "考研数学/错题/C03-一元函数积分学.md",
+    "考研数学/总结/Z03-一元函数积分学.md",
     "考研408/计算机网络/CN03-数据链路层.md",
     "考研数学/错题/C02-一元函数微分学.md",
     "附件/Pasted image 20230716153959.png",
@@ -231,7 +233,6 @@
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/总结/Z20-数理统计.md",
     "考研数学/总结/Z19-大数定律与中心极限定理.md",
-    "考研数学/总结/Z15-随机事件和概率.md",
     "考研数学/总结/Z14-二次型.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
     "考研数学/总结/Z12-线性方程组.md",
