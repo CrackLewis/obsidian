@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f940261dcc85472",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/总结/Z03-一元函数积分学.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "97eb90a8655fe2d6",
             "type": "leaf",
             "state": {
@@ -42,9 +30,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2b9cd401e47f6eaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/错题/C09-行列式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,24 +190,27 @@
   },
   "active": "97eb90a8655fe2d6",
   "lastOpenFiles": [
-    "附件/Pasted image 20230719105522.png",
-    "附件/Pasted image 20230719101807.png",
-    "附件/Pasted image 20230719101623.png",
+    "附件/Pasted image 20230719235152.png",
+    "附件/Pasted image 20230719232704.png",
+    "附件/Pasted image 20230719225523.png",
+    "附件/Pasted image 20230719221930.png",
+    "附件/Pasted image 20230719221452.png",
+    "附件/Pasted image 20230719221158.png",
+    "附件/Pasted image 20230719212531.png",
+    "附件/Pasted image 20230719210422.png",
+    "附件/Pasted image 20230719203356.png",
     "考研数学/总结/Z17-多维随机变量及其分布.md",
+    "考研数学/错题/C09-行列式.md",
+    "考研数学/总结/Z03-一元函数积分学.md",
+    "考研数学/错题/C12-线性方程组.md",
+    "考研数学/总结/Z12-线性方程组.md",
     "考研数学/错题/C03-一元函数积分学.md",
-    "附件/Pasted image 20230718185944.png",
-    "附件/Pasted image 20230718183146.png",
-    "附件/Pasted image 20230718173109.png",
+    "附件/Pasted image 20230719201150.png",
+    "附件/Pasted image 20230719192302.png",
     "考研数学/错题/C02-一元函数微分学.md",
     "考研数学/总结/Z02-一元函数微分学.md",
     "考研数学/总结/Z15-随机事件和概率.md",
-    "考研数学/总结/Z03-一元函数积分学.md",
     "考研408/计算机网络/CN03-数据链路层.md",
-    "附件/Pasted image 20230716153959.png",
-    "附件/Pasted image 20230716153445.png",
-    "附件/Pasted image 20230716143733.png",
-    "附件/Pasted image 20230716143016.png",
-    "附件/Pasted image 20230716140951.png",
     "考研数学/错题/C05-多元函数微分学.md",
     "考研待办/!考研规划.md",
     "考研数学/背记/FJ01-高等数学背记.md",
@@ -224,10 +226,7 @@
     "考研数学/总结/Z19-大数定律与中心极限定理.md",
     "考研数学/总结/Z14-二次型.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
-    "考研数学/总结/Z12-线性方程组.md",
     "考研数学/总结/Z06-多元函数积分学.md",
-    "考研数学/总结/Z04-向量代数与空间解析几何.md",
-    "考研408/计算机网络/CN04-网络层.md",
     "暑期实习",
     "考研英语",
     "考研408/计算机网络",
