@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "037aacb01ecbbb5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/错题/C13-特征值与特征向量.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9718f84c247d0aa3",
             "type": "leaf",
             "state": {
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C09-行列式.md",
+                "file": "考研数学/错题/C13-特征值与特征向量.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,17 +189,18 @@
       "templates:插入模板": false
     }
   },
-  "active": "037aacb01ecbbb5c",
+  "active": "2b9cd401e47f6eaf",
   "lastOpenFiles": [
-    "考研数学/总结/Z09-行列式.md",
-    "考研数学/错题/C09-行列式.md",
-    "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
+    "考研数学/错题/C01-函数、极限、连续.md",
+    "考研数学/错题/C13-特征值与特征向量.md",
+    "考研数学/错题/C09-行列式.md",
+    "考研数学/错题/C03-一元函数积分学.md",
+    "考研数学/总结/Z09-行列式.md",
     "考研数学/错题/C12-线性方程组.md",
     "考研数学/错题/C14-二次型.md",
     "考研数学/总结/Z08-微分方程.md",
     "考研数学/总结/Z17-多维随机变量及其分布.md",
-    "考研数学/错题/C03-一元函数积分学.md",
     "附件/Pasted image 20230719235152.png",
     "附件/Pasted image 20230719232704.png",
     "附件/Pasted image 20230719225523.png",
@@ -237,7 +227,6 @@
     "考研英语/TR01-高途翻译课.md",
     "Linux/Hacks/虚拟机挂载共享文件夹.md",
     "考研数学/总结/Z01-函数、极限、连续.md",
-    "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/总结/Z20-数理统计.md",
     "暑期实习",
     "考研英语",
