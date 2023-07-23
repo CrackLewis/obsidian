@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9718f84c247d0aa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/错题/C13-特征值与特征向量.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "40cfd238977b6ffd",
             "type": "leaf",
             "state": {
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C13-特征值与特征向量.md",
+                "file": "考研数学/总结/Z13-特征值与特征向量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C13-特征值与特征向量.md",
+                "file": "考研数学/总结/Z13-特征值与特征向量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C13-特征值与特征向量.md"
+                "file": "考研数学/总结/Z13-特征值与特征向量.md"
               }
             }
           },
@@ -176,12 +164,21 @@
       "templates:插入模板": false
     }
   },
-  "active": "9718f84c247d0aa3",
+  "active": "40cfd238977b6ffd",
   "lastOpenFiles": [
-    "考研数学/总结/Z13-特征值与特征向量.md",
     "考研数学/错题/C13-特征值与特征向量.md",
+    "附件/Pasted image 20230723143448.png",
+    "附件/Pasted image 20230723143433.png",
+    "附件/Pasted image 20230723143419.png",
+    "附件/Pasted image 20230723143143.png",
+    "附件/Pasted image 20230723143100.png",
+    "附件/Pasted image 20230723143038.png",
+    "附件/Pasted image 20230723143003.png",
+    "考研数学/总结/Z13-特征值与特征向量.md",
+    "附件/Pasted image 20230723130712.png",
+    "附件/Pasted image 20230723130657.png",
+    "附件/Pasted image 20230723130643.png",
     "考研数学/错题/C09-行列式.md",
-    "附件/2QC7)B[0D`A4@S3$_($11AN.jpg",
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/总结/Z09-行列式.md",
@@ -189,15 +186,6 @@
     "考研数学/错题/C14-二次型.md",
     "考研数学/总结/Z08-微分方程.md",
     "考研数学/总结/Z17-多维随机变量及其分布.md",
-    "附件/Pasted image 20230719235152.png",
-    "附件/Pasted image 20230719232704.png",
-    "附件/Pasted image 20230719225523.png",
-    "附件/Pasted image 20230719221930.png",
-    "附件/Pasted image 20230719221452.png",
-    "附件/Pasted image 20230719221158.png",
-    "附件/Pasted image 20230719212531.png",
-    "附件/Pasted image 20230719210422.png",
-    "附件/Pasted image 20230719203356.png",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/总结/Z12-线性方程组.md",
     "考研数学/错题/C02-一元函数微分学.md",
