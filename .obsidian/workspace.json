@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md",
+                "file": "考研数学/错题/C05-多元函数微分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md",
+                "file": "考研数学/错题/C05-多元函数微分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md"
+                "file": "考研数学/错题/C05-多元函数微分学.md"
               }
             }
           },
@@ -201,31 +201,32 @@
       "templates:插入模板": false
     }
   },
-  "active": "99138dbb8b564e13",
+  "active": "ac41e23c5495d5a5",
   "lastOpenFiles": [
+    "附件/Pasted image 20230727175120.png",
+    "附件/Pasted image 20230727174633.png",
+    "附件/Pasted image 20230727173151.png",
+    "附件/Pasted image 20230727171238.png",
+    "附件/Pasted image 20230727171232.png",
+    "附件/Pasted image 20230727170534.png",
+    "附件/Pasted image 20230727170423.png",
     "考研数学/错题/C05-多元函数微分学.md",
     "考研数学/总结/Z05-多元函数微分学.md",
+    "附件/Pasted image 20230727164359.png",
+    "附件/Pasted image 20230727160603.png",
+    "附件/Pasted image 20230727154018.png",
+    "附件/Pasted image 20230727153109.png",
     "考研数学/错题/C08-微分方程.md",
     "考研数学/错题/C07-无穷级数.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
     "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/错题/C02-一元函数微分学.md",
-    "附件/Pasted image 20230726150705.png",
-    "附件/Pasted image 20230726144920.png",
-    "附件/Pasted image 20230726142846.png",
-    "附件/Pasted image 20230726130444.png",
-    "附件/Pasted image 20230726005049.png",
-    "附件/Pasted image 20230726003847.png",
-    "附件/Pasted image 20230725232611.png",
     "考研数学/总结/Z08-微分方程.md",
     "考研数学/总结/Z02-一元函数微分学.md",
     "考研408/计算机网络/CN04-网络层.md",
     "考研408/数据结构/DS07-查找.md",
     "考研数学/总结/Z03-一元函数积分学.md",
-    "附件/Pasted image 20230725124308.png",
-    "附件/Pasted image 20230725111253.png",
-    "附件/Pasted image 20230725111203.png",
     "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/总结/Z07-无穷级数.md",
     "考研待办/!考研规划.md",
