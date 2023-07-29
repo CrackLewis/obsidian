@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C05-多元函数微分学.md",
+                "file": "考研数学/错题/C08-微分方程.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C05-多元函数微分学.md",
+                "file": "考研数学/错题/C08-微分方程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C05-多元函数微分学.md",
+                "file": "考研数学/错题/C08-微分方程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C05-多元函数微分学.md"
+                "file": "考研数学/错题/C08-微分方程.md"
               }
             }
           },
@@ -204,8 +204,10 @@
   "active": "ac41e23c5495d5a5",
   "lastOpenFiles": [
     "考研数学/总结/Z08-微分方程.md",
-    "考研数学/总结/Z05-多元函数微分学.md",
+    "考研数学/总结/Z07-无穷级数.md",
+    "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/错题/C05-多元函数微分学.md",
+    "考研数学/总结/Z05-多元函数微分学.md",
     "附件/Pasted image 20230727175120.png",
     "附件/Pasted image 20230727174633.png",
     "附件/Pasted image 20230727173151.png",
@@ -226,8 +228,6 @@
     "考研408/计算机网络/CN04-网络层.md",
     "考研408/数据结构/DS07-查找.md",
     "考研数学/总结/Z03-一元函数积分学.md",
-    "考研数学/总结/Z06-多元函数积分学.md",
-    "考研数学/总结/Z07-无穷级数.md",
     "考研待办/!考研规划.md",
     "考研408/计算机组成原理/CO01-计算机系统概述.md",
     "考研408/计算机网络/CN01-计算机网络体系结构.md",
