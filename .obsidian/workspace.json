@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "99138dbb8b564e13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/错题/C08-微分方程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "033cc8f18f82cf11",
             "type": "leaf",
             "state": {
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C08-微分方程.md",
+                "file": "考研数学/总结/Z08-微分方程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C08-微分方程.md",
+                "file": "考研数学/总结/Z08-微分方程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C08-微分方程.md"
+                "file": "考研数学/总结/Z08-微分方程.md"
               }
             }
           },
@@ -176,10 +164,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "99138dbb8b564e13",
+  "active": "033cc8f18f82cf11",
   "lastOpenFiles": [
-    "考研数学/总结/Z08-微分方程.md",
     "考研数学/错题/C08-微分方程.md",
+    "附件/Pasted image 20230801001353.png",
+    "考研数学/总结/Z08-微分方程.md",
     "考研待办/230801-230806.md",
     "考研数学/错题/C03-一元函数积分学.md",
     "考研待办/230624-230630.md",
@@ -200,7 +189,6 @@
     "附件/Pasted image 20230727175120.png",
     "附件/Pasted image 20230727174633.png",
     "附件/Pasted image 20230727173151.png",
-    "附件/Pasted image 20230727171238.png",
     "考研数学/错题/C07-无穷级数.md",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
     "考研数学/总结/Z02-一元函数微分学.md",
@@ -214,7 +202,6 @@
     "考研数学/总结/Z15-随机事件和概率.md",
     "考研数学/错题/C15-随机事件和概率.md",
     "考研数学/错题/C13-特征值与特征向量.md",
-    "考研数学/错题/C14-二次型.md",
     "考研数学/背记",
     "暑期实习",
     "考研英语",
