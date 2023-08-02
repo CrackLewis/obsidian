@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z08-微分方程.md",
+                "file": "考研数学/总结/Z04-向量代数与空间解析几何.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,45 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e95d5fe0e22797fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/错题/C08-微分方程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f44ded05ef9df5ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a16bd90bb619df33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/错题/C04-向量代数与空间解析几何.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md",
+                "file": "考研待办/230801-230806.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md",
+                "file": "考研待办/230801-230806.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md"
+                "file": "考研待办/230801-230806.md"
               }
             }
           },
@@ -213,25 +177,29 @@
       "templates:插入模板": false
     }
   },
-  "active": "f44ded05ef9df5ec",
+  "active": "55ebec8ade5f865e",
   "lastOpenFiles": [
-    "考研数学/错题/C08-微分方程.md",
-    "考研待办/230801-230806.md",
-    "附件/Pasted image 20230802003030.png",
-    "附件/Pasted image 20230802001704.png",
-    "附件/Pasted image 20230802001229.png",
-    "附件/Pasted image 20230801170219.png",
-    "附件/Pasted image 20230801170203.png",
-    "附件/Pasted image 20230801170146.png",
-    "附件/Pasted image 20230801170128.png",
-    "附件/Pasted image 20230801170113.png",
-    "附件/Pasted image 20230801170053.png",
-    "附件/Pasted image 20230801170038.png",
-    "考研数学/总结/Z05-多元函数微分学.md",
-    "考研数学/总结/Z04-向量代数与空间解析几何.md",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
-    "考研数学/错题/C05-多元函数微分学.md",
+    "考研408/数据结构/DS06-图.md",
+    "附件/Pasted image 20230802191027.png",
+    "附件/Pasted image 20230802191019.png",
+    "附件/Pasted image 20230802190404.png",
+    "附件/Pasted image 20230802184611.png",
+    "附件/Pasted image 20230802180634.png",
+    "附件/Pasted image 20230802170627.png",
+    "附件/Pasted image 20230802165815.png",
+    "附件/Pasted image 20230802163847.png",
+    "附件/Pasted image 20230802154820.png",
+    "考研待办/230801-230806.md",
+    "考研数学/总结/Z04-向量代数与空间解析几何.md",
     "考研数学/总结/Z08-微分方程.md",
+    "附件/Pasted image 20230802153340.png",
+    "考研数学/错题/C08-微分方程.md",
+    "考研数学/总结/Z14-二次型.md",
+    "Linux/Hacks/多版本GCC安装和共存.md",
+    "Linux/Hacks/建立并运行Docker容器.md",
+    "考研数学/总结/Z05-多元函数微分学.md",
+    "考研数学/错题/C05-多元函数微分学.md",
     "考研数学/错题/C03-一元函数积分学.md",
     "考研待办/230624-230630.md",
     "考研待办/230617-230623.md",
@@ -247,10 +215,7 @@
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研待办/!考研规划.md",
     "考研408/计算机组成原理/CO01-计算机系统概述.md",
-    "考研408/计算机网络/CN01-计算机网络体系结构.md",
     "考研408/计算机组成原理",
-    "考研数学/总结/Z15-随机事件和概率.md",
-    "考研数学/错题/C15-随机事件和概率.md",
     "考研数学/背记",
     "暑期实习",
     "考研英语",
