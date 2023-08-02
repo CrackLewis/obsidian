@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C08-微分方程.md",
+                "file": "考研数学/总结/Z05-多元函数微分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C08-微分方程.md",
+                "file": "考研数学/总结/Z05-多元函数微分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C08-微分方程.md"
+                "file": "考研数学/总结/Z05-多元函数微分学.md"
               }
             }
           },
@@ -213,8 +213,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "e95d5fe0e22797fc",
+  "active": "f44ded05ef9df5ec",
   "lastOpenFiles": [
+    "考研数学/错题/C08-微分方程.md",
+    "考研待办/230801-230806.md",
+    "附件/Pasted image 20230802003030.png",
+    "附件/Pasted image 20230802001704.png",
+    "附件/Pasted image 20230802001229.png",
     "附件/Pasted image 20230801170219.png",
     "附件/Pasted image 20230801170203.png",
     "附件/Pasted image 20230801170146.png",
@@ -222,20 +227,14 @@
     "附件/Pasted image 20230801170113.png",
     "附件/Pasted image 20230801170053.png",
     "附件/Pasted image 20230801170038.png",
-    "附件/Pasted image 20230801170013.png",
     "考研数学/总结/Z05-多元函数微分学.md",
     "考研数学/总结/Z04-向量代数与空间解析几何.md",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
     "考研数学/错题/C05-多元函数微分学.md",
-    "考研数学/错题/C08-微分方程.md",
-    "考研待办/230801-230806.md",
     "考研数学/总结/Z08-微分方程.md",
-    "附件/Pasted image 20230801001353.png",
     "考研数学/错题/C03-一元函数积分学.md",
     "考研待办/230624-230630.md",
     "考研待办/230617-230623.md",
-    "附件/Pasted image 20230731203600.png",
-    "附件/Pasted image 20230731203545.png",
     "考研数学/总结/Z13-特征值与特征向量.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/错题/C02-一元函数微分学.md",
