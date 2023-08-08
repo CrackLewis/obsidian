@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/软饭/武忠祥每日一题.md",
+                "file": "考研待办/230807-230813.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,38 +25,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研待办/230807-230813.md",
+                "file": "考研数学/错题/C15-随机事件和概率.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1f03ab781766ed77",
+            "id": "d5997bf1b867ebe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C06-多元函数积分学.md",
+                "file": "考研数学/错题/C17-多维随机变量及其分布.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f8f0acafe0bfb735",
+            "id": "0ebb19ef3d795b06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z06-多元函数积分学.md",
+                "file": "考研数学/总结/Z15-随机事件和概率.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C06-多元函数积分学.md",
+                "file": "考研待办/230807-230813.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C06-多元函数积分学.md",
+                "file": "考研待办/230807-230813.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C06-多元函数积分学.md"
+                "file": "考研待办/230807-230813.md"
               }
             }
           },
@@ -201,44 +200,43 @@
       "templates:插入模板": false
     }
   },
-  "active": "1f03ab781766ed77",
+  "active": "9d5ac575493964a9",
   "lastOpenFiles": [
+    "考研数学/软饭/武忠祥每日一题.md",
+    "考研数学/错题/C17-多维随机变量及其分布.md",
+    "考研数学/错题/C16-随机变量及其概率分布.md",
+    "附件/Pasted image 20230808200202.png",
+    "附件/Pasted image 20230808161606.png",
+    "考研数学/总结/Z15-随机事件和概率.md",
+    "考研数学/总结/Z03-一元函数积分学.md",
+    "考研数学/错题/C03-一元函数积分学.md",
+    "附件/Pasted image 20230808160231.png",
+    "考研数学/错题/C15-随机事件和概率.md",
+    "考研数学/错题/C20-数理统计.md",
+    "考研数学/错题/C19-大数定律与中心极限定理.md",
+    "考研数学/错题/C18-随机变量的数字特征.md",
+    "考研数学/总结/Z06-多元函数积分学.md",
+    "附件/Pasted image 20230808153944.png",
+    "考研待办/230807-230813.md",
+    "考研数学/错题/C06-多元函数积分学.md",
+    "附件/Pasted image 20230808120904.png",
     "附件/Pasted image 20230808103504.png",
     "附件/Pasted image 20230808103449.png",
     "附件/Pasted image 20230808103419.png",
     "附件/Pasted image 20230808103356.png",
     "附件/Pasted image 20230808103340.png",
-    "附件/Pasted image 20230808103304.png",
-    "附件/Pasted image 20230808103244.png",
-    "附件/Pasted image 20230808103223.png",
-    "附件/Pasted image 20230808100024.png",
-    "附件/Pasted image 20230808093151.png",
-    "考研数学/总结/Z06-多元函数积分学.md",
-    "考研数学/错题/C06-多元函数积分学.md",
-    "附件/Pasted image 20230808092338.png",
     "考研数学/错题/C01-函数、极限、连续.md",
-    "考研待办/230807-230813.md",
-    "考研数学/软饭/武忠祥每日一题.md",
     "考研数学/错题/C08-微分方程.md",
     "考研数学/错题/C07-无穷级数.md",
     "考研数学/错题/C05-多元函数微分学.md",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
-    "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/错题/C02-一元函数微分学.md",
     "考研待办/!考研规划.md",
     "考研待办/230801-230806.md",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/错题/C14-二次型.md",
-    "考研数学/错题/C15-随机事件和概率.md",
     "考研待办/230624-230630.md",
     "考研待办/!考研报名事项.md",
-    "考研数学/总结/Z04-向量代数与空间解析几何.md",
-    "考研数学/错题/C12-线性方程组.md",
-    "考研数学/错题/C11-向量.md",
-    "考研数学/错题/C10-矩阵.md",
-    "考研数学/错题/C09-行列式.md",
-    "考研英语/TR01-高途翻译课.md",
-    "考研英语/作文/04-08作文.md",
     "考研英语/作文",
     "考研408/计算机组成原理",
     "考研数学/背记",
