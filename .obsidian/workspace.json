@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z17-多维随机变量及其分布.md",
+                "file": "考研数学/总结/Z18-随机变量的数字特征.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z17-多维随机变量及其分布.md",
+                "file": "考研数学/总结/Z18-随机变量的数字特征.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z17-多维随机变量及其分布.md",
+                "file": "考研数学/总结/Z18-随机变量的数字特征.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z17-多维随机变量及其分布.md"
+                "file": "考研数学/总结/Z18-随机变量的数字特征.md"
               }
             }
           },
@@ -190,12 +190,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "8d04fe93e748fe1c",
+  "active": "ca3543a5a24243e3",
   "lastOpenFiles": [
-    "考研数学/错题/C17-多维随机变量及其分布.md",
-    "考研数学/总结/Z16-随机变量及其概率分布.md",
     "考研数学/总结/Z17-多维随机变量及其分布.md",
     "考研待办/230807-230813.md",
+    "考研数学/错题/C17-多维随机变量及其分布.md",
+    "考研数学/总结/Z16-随机变量及其概率分布.md",
     "附件/Pasted image 20230809112131.png",
     "附件/Pasted image 20230809112101.png",
     "考研数学/错题/C16-随机变量及其概率分布.md",
