@@ -20,19 +20,19 @@
             }
           },
           {
-            "id": "d5997bf1b867ebe2",
+            "id": "56a95318c98d3fd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C17-多维随机变量及其分布.md",
+                "file": "考研数学/错题/C18-随机变量的数字特征.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8d04fe93e748fe1c",
+            "id": "2bcabbfc6f706d79",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,33 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1f4c0459e2cff2bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/总结/Z17-多维随机变量及其分布.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce747db65beb68ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/错题/C06-多元函数积分学.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C17-多维随机变量及其分布.md",
+                "file": "考研待办/230807-230813.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C17-多维随机变量及其分布.md",
+                "file": "考研待办/230807-230813.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C17-多维随机变量及其分布.md"
+                "file": "考研待办/230807-230813.md"
               }
             }
           },
@@ -199,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,23 +188,23 @@
       "templates:插入模板": false
     }
   },
-  "active": "d5997bf1b867ebe2",
+  "active": "9d5ac575493964a9",
   "lastOpenFiles": [
-    "附件/Pasted image 20230812112501.png",
-    "附件/Pasted image 20230812110217.png",
-    "附件/Pasted image 20230812104440.png",
-    "附件/Pasted image 20230812103520.png",
-    "附件/Pasted image 20230812102603.png",
-    "附件/Pasted image 20230812102236.png",
-    "附件/Pasted image 20230812100752.png",
-    "附件/Pasted image 20230812100746.png",
-    "附件/Pasted image 20230812095256.png",
-    "附件/Pasted image 20230812091743.png",
-    "附件/Pasted image 20230812085339.png",
-    "考研数学/错题/C16-随机变量及其概率分布.md",
+    "考研数学/错题/C18-随机变量的数字特征.md",
+    "附件/Pasted image 20230812210102.png",
+    "附件/Pasted image 20230812210040.png",
+    "附件/Pasted image 20230812204821.png",
     "考研数学/总结/Z18-随机变量的数字特征.md",
-    "考研数学/错题/C17-多维随机变量及其分布.md",
+    "附件/Pasted image 20230812200144.png",
+    "附件/Pasted image 20230812191609.png",
+    "附件/Pasted image 20230812172422.png",
+    "附件/Pasted image 20230812172700.png",
+    "附件/Pasted image 20230812172647.png",
+    "附件/Pasted image 20230812172621.png",
+    "附件/Pasted image 20230812172603.png",
     "考研待办/230807-230813.md",
+    "考研数学/错题/C17-多维随机变量及其分布.md",
+    "考研数学/错题/C16-随机变量及其概率分布.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/总结/Z17-多维随机变量及其分布.md",
@@ -243,7 +217,6 @@
     "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/错题/C20-数理统计.md",
     "考研数学/错题/C19-大数定律与中心极限定理.md",
-    "考研数学/错题/C18-随机变量的数字特征.md",
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/错题/C08-微分方程.md",
     "考研数学/错题/C07-无穷级数.md",
