@@ -67,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研待办/230807-230813.md",
+                "file": "考研数学/错题/C17-多维随机变量及其分布.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研待办/230807-230813.md",
+                "file": "考研数学/错题/C17-多维随机变量及其分布.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研待办/230807-230813.md"
+                "file": "考研数学/错题/C17-多维随机变量及其分布.md"
               }
             }
           },
@@ -213,29 +214,30 @@
       "templates:插入模板": false
     }
   },
-  "active": "9d5ac575493964a9",
+  "active": "d5997bf1b867ebe2",
   "lastOpenFiles": [
+    "附件/Pasted image 20230812112501.png",
+    "附件/Pasted image 20230812110217.png",
+    "附件/Pasted image 20230812104440.png",
+    "附件/Pasted image 20230812103520.png",
+    "附件/Pasted image 20230812102603.png",
+    "附件/Pasted image 20230812102236.png",
+    "附件/Pasted image 20230812100752.png",
+    "附件/Pasted image 20230812100746.png",
+    "附件/Pasted image 20230812095256.png",
+    "附件/Pasted image 20230812091743.png",
+    "附件/Pasted image 20230812085339.png",
+    "考研数学/错题/C16-随机变量及其概率分布.md",
+    "考研数学/总结/Z18-随机变量的数字特征.md",
     "考研数学/错题/C17-多维随机变量及其分布.md",
+    "考研待办/230807-230813.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/总结/Z17-多维随机变量及其分布.md",
     "考研待办/@-upcoming_tasks.md",
-    "考研数学/总结/Z18-随机变量的数字特征.md",
-    "考研待办/230807-230813.md",
     "考研数学/总结/Z16-随机变量及其概率分布.md",
-    "附件/Pasted image 20230809112131.png",
-    "附件/Pasted image 20230809112101.png",
-    "考研数学/错题/C16-随机变量及其概率分布.md",
-    "附件/Pasted image 20230809104919.png",
-    "附件/Pasted image 20230809104847.png",
-    "附件/Pasted image 20230809104815.png",
     "考研数学/总结/Z15-随机事件和概率.md",
     "考研数学/错题/C15-随机事件和概率.md",
-    "附件/Pasted image 20230809003620.png",
-    "附件/Pasted image 20230809003602.png",
-    "附件/Pasted image 20230809003545.png",
-    "附件/Pasted image 20230809003106.png",
-    "附件/Pasted image 20230809003039.png",
     "考研数学/软饭/武忠祥每日一题.md",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研数学/错题/C03-一元函数积分学.md",
@@ -250,7 +252,6 @@
     "考研数学/错题/C02-一元函数微分学.md",
     "考研待办/!考研规划.md",
     "考研待办/230801-230806.md",
-    "考研数学/错题/C13-特征值与特征向量.md",
     "考研英语/作文",
     "考研408/计算机组成原理",
     "考研数学/背记",
