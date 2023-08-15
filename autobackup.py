@@ -10,10 +10,10 @@ remote_url = "https://github.com/CrackLewis/obsidian.git"
 trojan_path = "D:\\Program Files (x86)\\trojan"
 
 # 启动trojan
-os.chdir(trojan_path)
-trojan_process = subprocess.Popen(["trojan.exe"])
+# os.chdir(trojan_path)
+# trojan_process = subprocess.Popen(["trojan.exe"])
 
-time.sleep(2)
+# time.sleep(2)
 os.chdir(local_repo_path)
 
 # 添加所有更改的文件到暂存区
@@ -26,9 +26,8 @@ if "nothing to commit" in str(commit_result.stdout):
 # 推送更改到远程仓库
 else:
 	if subprocess.call(["git", "push", remote_name, "master"]) != 0:
-		print("Remote pushing failed. Please update the Trojan config or check the network status. ")		
+		print("Remote pushing failed. Please update the Clash config or check the network status. ")		
 	else:
 		print("Remote pushing complete. ")
 
-trojan_process.terminate()
 input("Press Enter to exit. ")
