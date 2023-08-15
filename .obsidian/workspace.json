@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C18-随机变量的数字特征.md",
+                "file": "考研数学/总结/Z07-无穷级数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C18-随机变量的数字特征.md",
+                "file": "考研数学/总结/Z07-无穷级数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C18-随机变量的数字特征.md"
+                "file": "考研数学/总结/Z07-无穷级数.md"
               }
             }
           },
@@ -201,13 +201,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "cd58cba5bcbb6fda",
+  "active": "56a95318c98d3fd6",
   "lastOpenFiles": [
-    "考研数学/总结/Z07-无穷级数.md",
     "考研待办/230814-230820.md",
+    "考研数学/总结/Z07-无穷级数.md",
+    "考研数学/错题/C18-随机变量的数字特征.md",
     "考研英语/作文/04-08作文.md",
     "考研数学/总结/Z02-一元函数微分学.md",
-    "考研数学/错题/C18-随机变量的数字特征.md",
     "考研数学/错题/C02-一元函数微分学.md",
     "附件/Pasted image 20230813152738.png",
     "考研数学/总结/Z08-微分方程.md",
