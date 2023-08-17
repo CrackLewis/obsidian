@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研待办/230814-230820.md",
+                "file": "考研数学/总结/Z07-无穷级数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研待办/230814-230820.md",
+                "file": "考研数学/总结/Z07-无穷级数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研待办/230814-230820.md"
+                "file": "考研数学/总结/Z07-无穷级数.md"
               }
             }
           },
@@ -188,8 +189,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "4f45ff6385c21072",
+  "active": "56a95318c98d3fd6",
   "lastOpenFiles": [
+    "考研待办/面对死亡焦虑.md",
+    "考研待办/230814-230820.md",
     "考研数学/错题/C07-无穷级数.md",
     "附件/Pasted image 20230816203538.png",
     "附件/Pasted image 20230816203117.png",
@@ -204,8 +207,6 @@
     "考研数学/总结/Z07-无穷级数.md",
     "考研数学/总结/Z14-二次型.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
-    "考研待办/面对死亡焦虑.md",
-    "考研待办/230814-230820.md",
     "考研待办/230807-230813.md",
     "考研数学/错题/C18-随机变量的数字特征.md",
     "考研英语/作文/04-08作文.md",
