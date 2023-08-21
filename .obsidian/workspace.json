@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C14-二次型.md",
+                "file": "考研待办/面对死亡焦虑.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z14-二次型.md",
+                "file": "考研待办/230814-230820.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z14-二次型.md",
+                "file": "考研待办/面对死亡焦虑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z14-二次型.md",
+                "file": "考研待办/面对死亡焦虑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z14-二次型.md"
+                "file": "考研待办/面对死亡焦虑.md"
               }
             }
           },
@@ -170,8 +170,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,12 +188,15 @@
       "templates:插入模板": false
     }
   },
-  "active": "1076ef928b3d6366",
+  "active": "56a95318c98d3fd6",
   "lastOpenFiles": [
     "考研数学/错题/C14-二次型.md",
+    "考研待办/230814-230820.md",
+    "考研待办/230821-230827.md",
+    "考研数学/总结/Z13-特征值与特征向量.md",
+    "考研数学/总结/Z14-二次型.md",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/总结/Z07-无穷级数.md",
-    "考研待办/230814-230820.md",
     "考研数学/错题/C20-数理统计.md",
     "附件/Pasted image 20230819114226.png",
     "附件/Pasted image 20230819114213.png",
@@ -213,8 +215,6 @@
     "考研数学/总结/Z20-数理统计.md",
     "考研数学/总结/Z19-大数定律与中心极限定理.md",
     "考研数学/错题/C07-无穷级数.md",
-    "考研数学/总结/Z14-二次型.md",
-    "考研数学/总结/Z13-特征值与特征向量.md",
     "考研待办/230807-230813.md",
     "考研英语/作文/04-08作文.md",
     "考研数学/总结/Z02-一元函数微分学.md",
@@ -226,7 +226,6 @@
     "考研数学/错题/C16-随机变量及其概率分布.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/总结/Z06-多元函数积分学.md",
-    "考研待办/@-upcoming_tasks.md",
     "考研英语/作文",
     "考研408/计算机组成原理",
     "考研数学/背记",
