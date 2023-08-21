@@ -170,7 +170,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -188,7 +189,7 @@
       "templates:插入模板": false
     }
   },
-  "active": "56a95318c98d3fd6",
+  "active": "fd6329ed65e6b816",
   "lastOpenFiles": [
     "考研数学/错题/C14-二次型.md",
     "考研待办/230814-230820.md",
