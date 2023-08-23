@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z08-微分方程.md",
+                "file": "考研数学/错题/C01-函数、极限、连续.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/软饭/武忠祥每日一题.md",
+                "file": "考研数学/错题/C01-函数、极限、连续.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/软饭/武忠祥每日一题.md",
+                "file": "考研数学/错题/C01-函数、极限、连续.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/软饭/武忠祥每日一题.md"
+                "file": "考研数学/错题/C01-函数、极限、连续.md"
               }
             }
           },
@@ -201,24 +201,24 @@
       "templates:插入模板": false
     }
   },
-  "active": "cad65f6f73f8b3f5",
+  "active": "e93b2b49a589be1f",
   "lastOpenFiles": [
+    "考研待办/230821-230827.md",
+    "考研数学/软饭/武忠祥每日一题.md",
+    "附件/Pasted image 20230822164619.png",
+    "附件/Pasted image 20230822155855.png",
+    "附件/Pasted image 20230822155708.png",
+    "附件/Pasted image 20230822141142.png",
+    "附件/Pasted image 20230822131345.png",
+    "考研数学/错题/C01-函数、极限、连续.md",
+    "考研数学/总结/Z08-微分方程.md",
     "附件/Pasted image 20230822104937.png",
     "附件/Pasted image 20230822104905.png",
-    "考研待办/230821-230827.md",
-    "考研数学/总结/Z08-微分方程.md",
     "考研数学/总结/Z20-数理统计.md",
     "考研数学/错题/C03-一元函数积分学.md",
-    "考研数学/软饭/武忠祥每日一题.md",
     "附件/Pasted image 20230821211420.png",
     "附件/Pasted image 20230821211405.png",
     "附件/Pasted image 20230821204142.png",
-    "附件/Pasted image 20230821204019.png",
-    "附件/Pasted image 20230821203737.png",
-    "附件/Pasted image 20230821201748.png",
-    "附件/Pasted image 20230821201050.png",
-    "附件/Pasted image 20230821200039.png",
-    "附件/Pasted image 20230821200016.png",
     "考研数学/软饭/中值定理专题.md",
     "考研数学/背记/FJ01-高等数学背记.md",
     "考研数学/总结/Z06-多元函数积分学.md",
@@ -238,7 +238,6 @@
     "考研数学/总结/Z18-随机变量的数字特征.md",
     "考研数学/总结/Z19-大数定律与中心极限定理.md",
     "考研数学/错题/C07-无穷级数.md",
-    "考研待办/230807-230813.md",
     "考研英语/作文",
     "考研408/计算机组成原理",
     "考研数学/背记",
