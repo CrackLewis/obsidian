@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4f45ff6385c21072",
+            "id": "bc27a13dd54afa0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/背记/FJ01-高等数学背记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cad65f6f73f8b3f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/软饭/武忠祥每日一题.md",
+                "file": "考研数学/软饭/武忠祥每日一题-强化.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +37,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z07-无穷级数.md",
+                "file": "考研数学/总结/Z03-一元函数积分学.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea4d9e469f840d03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/错题/C01-函数、极限、连续.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/软饭/武忠祥每日一题.md",
+                "file": "考研数学/软饭/武忠祥每日一题-强化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/软饭/武忠祥每日一题.md",
+                "file": "考研数学/软饭/武忠祥每日一题-强化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/软饭/武忠祥每日一题.md"
+                "file": "考研数学/软饭/武忠祥每日一题-强化.md"
               }
             }
           },
@@ -201,28 +200,32 @@
       "templates:插入模板": false
     }
   },
-  "active": "cad65f6f73f8b3f5",
+  "active": "bc27a13dd54afa0b",
   "lastOpenFiles": [
-    "附件/Pasted image 20230823100935.png",
-    "考研数学/总结/Z07-无穷级数.md",
-    "考研数学/软饭/武忠祥每日一题.md",
+    "附件/Pasted image 20230823231235.png",
+    "附件/Pasted image 20230823214725.png",
+    "附件/Pasted image 20230823213453.png",
+    "附件/Pasted image 20230823213417.png",
+    "附件/Pasted image 20230823213228.png",
+    "附件/Pasted image 20230823213115.png",
+    "附件/Pasted image 20230823210825.png",
+    "附件/Pasted image 20230823205742.png",
     "考研待办/230821-230827.md",
+    "考研数学/软饭/武忠祥每日一题-强化.md",
+    "考研数学/总结/Z03-一元函数积分学.md",
+    "附件/Pasted image 20230823171649.png",
+    "附件/Pasted image 20230823170602.png",
+    "附件/Pasted image 20230823165440.png",
     "考研数学/错题/C01-函数、极限、连续.md",
-    "附件/Pasted image 20230823091153.png",
-    "附件/Pasted image 20230822164619.png",
-    "附件/Pasted image 20230822155855.png",
-    "附件/Pasted image 20230822155708.png",
-    "附件/Pasted image 20230822141142.png",
-    "附件/Pasted image 20230822131345.png",
-    "考研数学/总结/Z08-微分方程.md",
-    "附件/Pasted image 20230822104937.png",
-    "附件/Pasted image 20230822104905.png",
-    "考研数学/总结/Z20-数理统计.md",
     "考研数学/错题/C03-一元函数积分学.md",
-    "附件/Pasted image 20230821211420.png",
-    "附件/Pasted image 20230821211405.png",
-    "考研数学/软饭/中值定理专题.md",
+    "考研数学/软饭/武忠祥每日一题-基础.md",
+    "考研数学/总结/Z01-函数、极限、连续.md",
+    "考研数学/总结/Z09-行列式.md",
+    "考研数学/总结/Z08-微分方程.md",
+    "考研数学/总结/Z07-无穷级数.md",
     "考研数学/背记/FJ01-高等数学背记.md",
+    "考研数学/总结/Z20-数理统计.md",
+    "考研数学/软饭/中值定理专题.md",
     "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "考研待办/230814-230820.md",
@@ -235,10 +238,6 @@
     "考研数学/总结/Z14-二次型.md",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/错题/C19-大数定律与中心极限定理.md",
-    "考研数学/错题/C18-随机变量的数字特征.md",
-    "考研数学/总结/Z18-随机变量的数字特征.md",
-    "考研数学/总结/Z19-大数定律与中心极限定理.md",
-    "考研数学/错题/C07-无穷级数.md",
     "考研英语/作文",
     "考研408/计算机组成原理",
     "考研数学/背记",
