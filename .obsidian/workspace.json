@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md",
+                "file": "考研数学/总结/Z13-特征值与特征向量.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md",
+                "file": "考研数学/总结/Z13-特征值与特征向量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md",
+                "file": "考研数学/总结/Z13-特征值与特征向量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md"
+                "file": "考研数学/总结/Z13-特征值与特征向量.md"
               }
             }
           },
@@ -203,9 +203,9 @@
   },
   "active": "bbb4ded15786c619",
   "lastOpenFiles": [
+    "考研数学/总结/Z05-多元函数微分学.md",
     "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/软饭/中值定理专题.md",
-    "考研数学/总结/Z05-多元函数微分学.md",
     "考研数学/总结/Z04-向量代数与空间解析几何.md",
     "考研待办/230828-230903.md",
     "考研待办/230821-230827.md",
