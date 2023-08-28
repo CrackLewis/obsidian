@@ -44,31 +44,19 @@
             }
           },
           {
-            "id": "ea4d9e469f840d03",
+            "id": "bbb4ded15786c619",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/软饭/中值定理专题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be810438884691e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/软饭/凯哥每日一题.md",
+                "file": "考研数学/总结/Z05-多元函数微分学.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研待办/230828-230903.md",
+                "file": "考研数学/总结/Z05-多元函数微分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研待办/230828-230903.md",
+                "file": "考研数学/总结/Z05-多元函数微分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研待办/230828-230903.md"
+                "file": "考研数学/总结/Z05-多元函数微分学.md"
               }
             }
           },
@@ -213,13 +201,15 @@
       "templates:插入模板": false
     }
   },
-  "active": "3795c26ee79c5a44",
+  "active": "bbb4ded15786c619",
   "lastOpenFiles": [
-    "考研待办/230821-230827.md",
-    "考研待办/230828-230903.md",
-    "考研数学/软饭/凯哥每日一题.md",
-    "考研数学/软饭/中值定理专题.md",
     "考研数学/总结/Z06-多元函数积分学.md",
+    "考研数学/软饭/中值定理专题.md",
+    "考研数学/总结/Z05-多元函数微分学.md",
+    "考研数学/总结/Z04-向量代数与空间解析几何.md",
+    "考研待办/230828-230903.md",
+    "考研待办/230821-230827.md",
+    "考研数学/软饭/凯哥每日一题.md",
     "附件/Pasted image 20230827153419.png",
     "考研数学/错题/C20-数理统计.md",
     "附件/Pasted image 20230826220016.png",
@@ -249,8 +239,6 @@
     "考研数学/总结/Z07-无穷级数.md",
     "考研数学/背记/FJ01-高等数学背记.md",
     "考研数学/错题/C06-多元函数积分学.md",
-    "考研数学/总结/Z02-一元函数微分学.md",
-    "考研数学/错题/C02-一元函数微分学.md",
     "考研英语/作文",
     "考研408/计算机组成原理",
     "考研数学/背记",
