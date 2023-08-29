@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b35c494eebb34818",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/错题/C20-数理统计.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z13-特征值与特征向量.md",
+                "file": "考研数学/错题/C20-数理统计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z13-特征值与特征向量.md",
+                "file": "考研数学/错题/C20-数理统计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z13-特征值与特征向量.md"
+                "file": "考研数学/错题/C20-数理统计.md"
               }
             }
           },
@@ -201,8 +213,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "bbb4ded15786c619",
+  "active": "b35c494eebb34818",
   "lastOpenFiles": [
+    "考研数学/总结/Z20-数理统计.md",
+    "考研数学/总结/Z13-特征值与特征向量.md",
     "考研数学/总结/Z05-多元函数微分学.md",
     "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/软饭/中值定理专题.md",
@@ -221,7 +235,6 @@
     "附件/Pasted image 20230826215622.png",
     "附件/Pasted image 20230826215210.png",
     "附件/Pasted image 20230826215147.png",
-    "考研数学/总结/Z20-数理统计.md",
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研待办/230814-230820.md",
     "考研待办/230807-230813.md",
@@ -238,7 +251,6 @@
     "考研数学/总结/Z08-微分方程.md",
     "考研数学/总结/Z07-无穷级数.md",
     "考研数学/背记/FJ01-高等数学背记.md",
-    "考研数学/错题/C06-多元函数积分学.md",
     "考研英语/作文",
     "考研408/计算机组成原理",
     "考研数学/背记",
