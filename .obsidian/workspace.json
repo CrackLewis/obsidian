@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "edaf45fc9fd5e9a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研408/数据结构/DS07A-手玩AVL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bbb4ded15786c619",
             "type": "leaf",
             "state": {
@@ -80,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -154,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/数据结构/DS07A-手玩AVL.md",
+                "file": "考研数学/错题/C20-数理统计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/数据结构/DS07A-手玩AVL.md",
+                "file": "考研数学/错题/C20-数理统计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -194,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/数据结构/DS07A-手玩AVL.md"
+                "file": "考研数学/错题/C20-数理统计.md"
               }
             }
           },
@@ -225,7 +213,7 @@
       "templates:插入模板": false
     }
   },
-  "active": "edaf45fc9fd5e9a5",
+  "active": "b35c494eebb34818",
   "lastOpenFiles": [
     "考研408/数据结构/DS07-查找.md",
     "考研408/数据结构/DS07A-手玩AVL.md",
