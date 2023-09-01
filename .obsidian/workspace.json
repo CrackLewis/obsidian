@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C20-数理统计.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C20-数理统计.md",
+                "file": "考研待办/230828-230903.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C20-数理统计.md",
+                "file": "考研待办/230828-230903.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C20-数理统计.md"
+                "file": "考研待办/230828-230903.md"
               }
             }
           },
@@ -213,13 +213,14 @@
       "templates:插入模板": false
     }
   },
-  "active": "b35c494eebb34818",
+  "active": "3795c26ee79c5a44",
   "lastOpenFiles": [
+    "考研数学/错题/C02-一元函数微分学.md",
+    "考研数学/错题/C20-数理统计.md",
     "考研408/数据结构/DS07-查找.md",
     "考研408/数据结构/DS07A-手玩AVL.md",
     "考研408/数据结构/DS08-排序.md",
     "考研数学/总结/Z06-多元函数积分学.md",
-    "考研数学/错题/C20-数理统计.md",
     "考研数学/总结/Z20-数理统计.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
     "考研数学/总结/Z05-多元函数微分学.md",
@@ -250,7 +251,6 @@
     "考研408/数据结构/DS06-图.md",
     "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/总结/Z01-函数、极限、连续.md",
-    "考研数学/总结/Z09-行列式.md",
     "考研英语/作文",
     "考研408/计算机组成原理",
     "考研数学/背记",
