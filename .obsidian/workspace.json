@@ -32,43 +32,31 @@
             }
           },
           {
-            "id": "7b0e088b33f03ab3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研408/数据结构/DS07-查找.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbb4ded15786c619",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/总结/Z13-特征值与特征向量.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b35c494eebb34818",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md",
+                "file": "考研数学/总结/Z06-多元函数积分学.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6784c7fe2e9bc127",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/总结/Z20-数理统计.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研待办/230828-230903.md",
+                "file": "考研数学/总结/Z06-多元函数积分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研待办/230828-230903.md",
+                "file": "考研数学/总结/Z06-多元函数积分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研待办/230828-230903.md"
+                "file": "考研数学/总结/Z06-多元函数积分学.md"
               }
             }
           },
@@ -213,20 +201,21 @@
       "templates:插入模板": false
     }
   },
-  "active": "3795c26ee79c5a44",
+  "active": "b35c494eebb34818",
   "lastOpenFiles": [
+    "考研数学/总结/Z20-数理统计.md",
+    "考研数学/总结/Z18-随机变量的数字特征.md",
+    "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/错题/C02-一元函数微分学.md",
+    "考研待办/230828-230903.md",
     "考研数学/错题/C20-数理统计.md",
     "考研408/数据结构/DS07-查找.md",
     "考研408/数据结构/DS07A-手玩AVL.md",
     "考研408/数据结构/DS08-排序.md",
-    "考研数学/总结/Z06-多元函数积分学.md",
-    "考研数学/总结/Z20-数理统计.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
     "考研数学/总结/Z05-多元函数微分学.md",
     "考研数学/软饭/中值定理专题.md",
     "考研数学/总结/Z04-向量代数与空间解析几何.md",
-    "考研待办/230828-230903.md",
     "考研待办/230821-230827.md",
     "考研数学/软饭/凯哥每日一题.md",
     "附件/Pasted image 20230827153419.png",
@@ -250,7 +239,6 @@
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研408/数据结构/DS06-图.md",
     "考研数学/错题/C03-一元函数积分学.md",
-    "考研数学/总结/Z01-函数、极限、连续.md",
     "考研英语/作文",
     "考研408/计算机组成原理",
     "考研数学/背记",
