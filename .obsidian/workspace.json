@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "1b130303126e23ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研英语/作文/2010英一作文.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6dad924e51ca6926",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研408/操作系统/OS01-计算机系统概述.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3416f48434e6b411",
             "type": "leaf",
             "state": {
@@ -68,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,9 +191,10 @@
   },
   "active": "3416f48434e6b411",
   "lastOpenFiles": [
+    "考研英语/作文/04-08作文.md",
     "考研408/操作系统/OS01-计算机系统概述.md",
-    "考研408/操作系统/OS02-进程管理.md",
     "考研英语/作文/2010英一作文.md",
+    "考研408/操作系统/OS02-进程管理.md",
     "考研数学/错题/C20-数理统计.md",
     "考研待办/230821-230827.md",
     "考研待办/230828-230903.md",
@@ -228,7 +205,6 @@
     "考研408/操作系统",
     "附件/Pasted image 20230905193056.png",
     "附件/Pasted image 20230905163625.png",
-    "考研英语/作文/04-08作文.md",
     "附件/Pasted image 20230905143618.png",
     "附件/Pasted image 20230905143549.png",
     "考研数学/错题/C21-数一真题专题.md",
