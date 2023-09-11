@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "b88157e96b2e51ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研英语/作文/2010英一作文.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "313bbc7cac772efe",
             "type": "leaf",
             "state": {
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研英语/作文/2012英一作文.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研英语/作文/2012英一作文.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研英语/作文/2012英一作文.md"
+                "file": "考研数学/错题/C02-一元函数微分学.md"
               }
             }
           },
@@ -213,11 +201,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "313bbc7cac772efe",
+  "active": "ede457763a8dc601",
   "lastOpenFiles": [
+    "考研英语/作文/2012英一作文.md",
     "考研英语/作文/2010英一作文.md",
     "考研英语/作文/2011英一作文.md",
-    "考研英语/作文/2012英一作文.md",
     "附件/Pasted image 20230910204452.png",
     "附件/Pasted image 20230910204436.png",
     "考研408/数据结构/DSR04-串复盘.md",
