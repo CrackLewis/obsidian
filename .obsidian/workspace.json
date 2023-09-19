@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/操作系统/OS02-进程管理.md",
+                "file": "考研408/操作系统/OS04-文件管理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2482fcbde27ec3ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研408/操作系统/OS05-IO管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/操作系统/OS02-进程管理.md",
+                "file": "考研408/操作系统/OS05-IO管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/操作系统/OS02-进程管理.md",
+                "file": "考研408/操作系统/OS05-IO管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/操作系统/OS02-进程管理.md"
+                "file": "考研408/操作系统/OS05-IO管理.md"
               }
             }
           },
@@ -199,8 +211,16 @@
       "templates:插入模板": false
     }
   },
-  "active": "b2c820fc533e7a69",
+  "active": "2482fcbde27ec3ef",
   "lastOpenFiles": [
+    "考研408/操作系统/OS04-文件管理.md",
+    "考研408/操作系统/OS05-IO管理.md",
+    "附件/Pasted image 20230919012229.png",
+    "附件/Pasted image 20230919012218.png",
+    "附件/Pasted image 20230919010514.png",
+    "附件/Pasted image 20230919010502.png",
+    "附件/Pasted image 20230919010453.png",
+    "考研408/操作系统/OS02-进程管理.md",
     "考研408/操作系统/OS03-内存管理.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "附件/Pasted image 20230917210911.png",
@@ -208,13 +228,7 @@
     "附件/Pasted image 20230917205711.png",
     "附件/Pasted image 20230917194905.png",
     "附件/Pasted image 20230917194850.png",
-    "附件/Pasted image 20230917194754.png",
-    "附件/Pasted image 20230917194345.png",
-    "附件/Pasted image 20230917172438.png",
-    "附件/Pasted image 20230917171734.png",
-    "附件/Pasted image 20230917171728.png",
     "考研数学/错题/C08-微分方程.md",
-    "考研408/操作系统/OS04-文件管理.md",
     "考研数学/总结/Z04-向量代数与空间解析几何.md",
     "考研数学/错题/C02-一元函数微分学.md",
     "考研英语/作文/2012英一作文.md",
@@ -223,7 +237,6 @@
     "考研408/数据结构/DSR04-串复盘.md",
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/软饭/凯哥每日一题.md",
-    "考研408/操作系统/OS02-进程管理.md",
     "杂记/A-2002-2007.md",
     "考研数学/总结/Z06-多元函数积分学.md",
     "!DDL.md",
