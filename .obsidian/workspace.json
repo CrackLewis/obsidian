@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "465c6975a0fb74ce",
+            "id": "558fd1d1d29175e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机网络/CN01-计算机网络体系结构.md",
+                "file": "考研408/操作系统/OS05-IO管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C06-多元函数积分学.md",
+                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35cb6c368d7c3b76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研408/操作系统/OS02-进程管理.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机网络/CN01-计算机网络体系结构.md",
+                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机网络/CN01-计算机网络体系结构.md",
+                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机网络/CN01-计算机网络体系结构.md"
+                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md"
               }
             }
           },
@@ -186,45 +199,45 @@
       "templates:插入模板": false
     }
   },
-  "active": "465c6975a0fb74ce",
+  "active": "624bfc8d23d20e7e",
   "lastOpenFiles": [
-    "考研408/计算机网络/CN06-应用层.md",
-    "考研408/计算机组成原理/CO01-计算机系统概述.md",
+    "附件/Pasted image 20230922232613.png",
+    "附件/Pasted image 20230922230510.png",
+    "附件/Pasted image 20230922212733.png",
+    "附件/Pasted image 20230922211834.png",
     "考研408/操作系统/OS02-进程管理.md",
+    "考研408/计算机组成原理/CO02-数据的表示和运算.md",
+    "考研数学/错题/C03-一元函数积分学.md",
+    "考研408/操作系统/OS05-IO管理.md",
+    "考研408/操作系统/OS04-文件管理.md",
+    "考研408/操作系统/OS03-内存管理.md",
+    "考研408/操作系统/OS01-计算机系统概述.md",
+    "考研408/计算机组成原理/CO01-计算机系统概述.md",
+    "考研数学/错题/C02-一元函数微分学.md",
+    "考研408/数据结构/DSR04-串复盘.md",
+    "考研408/计算机网络/CNR01-复习计网体系.md",
+    "考研408/计算机网络/CN01-计算机网络体系结构.md",
+    "附件/Pasted image 20230922142059.png",
+    "附件/Pasted image 20230922142045.png",
+    "附件/Pasted image 20230922142037.png",
+    "附件/Pasted image 20230922142024.png",
+    "附件/2QC7)B[0D`A4@S3$_($11AN.jpg",
+    "附件/Pasted image 20230922141906.png",
+    "考研数学/错题/C06-多元函数积分学.md",
+    "附件/Pasted image 20230922140754.png",
+    "考研408/计算机网络/CN06-应用层.md",
     "Obsidian用法/读书笔记功能.md",
     "Obsidian用法/Callout块.md",
     "Obsidian用法/解决粘贴代码时额外空行的问题.md",
     "Obsidian用法/嵌套文件或网页.md",
-    "考研408/操作系统/OS04-文件管理.md",
-    "考研408/操作系统/OS05-IO管理.md",
-    "附件/Pasted image 20230919165109.png",
-    "附件/Pasted image 20230919165051.png",
-    "附件/Pasted image 20230919165043.png",
-    "附件/Pasted image 20230919164954.png",
-    "附件/Pasted image 20230919163653.png",
-    "附件/Pasted image 20230919163649.png",
-    "附件/Pasted image 20230919163602.png",
-    "附件/Pasted image 20230919163533.png",
-    "附件/Pasted image 20230919163457.png",
-    "附件/Pasted image 20230919163433.png",
     "考研408/数据结构/DS07A-手玩AVL.md",
-    "考研408/操作系统/OS03-内存管理.md",
-    "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/错题/C08-微分方程.md",
     "考研数学/总结/Z04-向量代数与空间解析几何.md",
-    "考研数学/错题/C02-一元函数微分学.md",
     "考研英语/作文/2012英一作文.md",
     "考研英语/作文/2010英一作文.md",
     "考研英语/作文/2011英一作文.md",
-    "考研408/数据结构/DSR04-串复盘.md",
     "考研数学/错题/C01-函数、极限、连续.md",
-    "考研数学/软饭/凯哥每日一题.md",
-    "杂记/A-2002-2007.md",
-    "考研数学/总结/Z06-多元函数积分学.md",
-    "!DDL.md",
-    "考研数学/错题/C20-数理统计.md",
     "杂记",
-    "考研英语/作文/04-08作文.md",
     "考研408/操作系统",
     "考研英语/作文",
     "考研408/计算机组成原理",
