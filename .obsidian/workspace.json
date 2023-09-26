@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3896d3a2c4892081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/软饭/武忠祥每日一题-强化.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/软饭/武忠祥每日一题-强化.md",
+                "file": "考研408/计算机组成原理/CO04-指令系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/软饭/武忠祥每日一题-强化.md",
+                "file": "考研408/计算机组成原理/CO04-指令系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/软饭/武忠祥每日一题-强化.md"
+                "file": "考研408/计算机组成原理/CO04-指令系统.md"
               }
             }
           },
@@ -187,26 +174,29 @@
       "templates:插入模板": false
     }
   },
-  "active": "3896d3a2c4892081",
+  "active": "03c7bd9abf3f4c7b",
   "lastOpenFiles": [
-    "附件/Pasted image 20230926111526.png",
-    "考研408/计算机组成原理/CO04-指令系统.md",
-    "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/软饭/武忠祥每日一题-强化.md",
-    "附件/Pasted image 20230926101046.png",
-    "附件/Pasted image 20230926101035.png",
-    "附件/Pasted image 20230926101018.png",
-    "附件/Pasted image 20230926100957.png",
-    "附件/Pasted image 20230926100941.png",
-    "附件/Pasted image 20230926095923.png",
-    "附件/Pasted image 20230926095913.png",
-    "附件/Pasted image 20230926094802.png",
-    "附件/Pasted image 20230926092814.png",
-    "附件/Pasted image 20230926091251.png",
+    "附件/Pasted image 20230926213748.png",
+    "附件/Pasted image 20230926211653.png",
+    "附件/Pasted image 20230926211153.png",
+    "Linux/Hacks/建立并运行Docker容器.md",
+    "Linux/Hacks/多版本GCC安装和共存.md",
+    "Linux/Hacks/Ubuntu版本号的别名.md",
+    "考研408/计算机组成原理/CO04-指令系统.md",
+    "附件/Pasted image 20230926204010.png",
+    "附件/Pasted image 20230926201316.png",
+    "附件/Pasted image 20230926200317.png",
+    "附件/Pasted image 20230926195011.png",
+    "附件/Pasted image 20230926194429.png",
+    "考研数学/错题/C02-一元函数微分学.md",
+    "考研数学/错题/C03-一元函数积分学.md",
+    "附件/Pasted image 20230926193316.png",
+    "附件/Pasted image 20230926175106.png",
+    "考研数学/错题/C13-特征值与特征向量.md",
     "考研408/计算机组成原理/CO03-存储系统.md",
     "考研408/计算机组成原理/CO02-数据的表示和运算.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
-    "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/软饭/中值定理专题.md",
     "考研数学/软饭/三角函数不定积分.md",
     "Rust/00-Rust入门.md",
@@ -219,13 +209,9 @@
     "yufa",
     "考研408/操作系统/OS02-进程管理.md",
     "考研408/操作系统/OS01-计算机系统概述.md",
-    "Linux/Hacks/多版本GCC安装和共存.md",
-    "Linux/Hacks/建立并运行Docker容器.md",
-    "Linux/Hacks/Ubuntu版本号的别名.md",
     "Linux/Hacks/虚拟机挂载共享文件夹.md",
     "Linux/Hacks/WSL安装CUDA.md",
     "考研408/计算机组成原理/CO01-计算机系统概述.md",
-    "考研数学/总结/Z17-多维随机变量及其分布.md",
     "杂记",
     "考研408/操作系统",
     "考研英语/作文",
