@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "03c7bd9abf3f4c7b",
+            "id": "af997904e90ee9ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机组成原理/CO04-指令系统.md",
+                "file": "考研数学/错题/C06-多元函数积分学.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机组成原理/CO04-指令系统.md",
+                "file": "考研数学/错题/C06-多元函数积分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机组成原理/CO04-指令系统.md",
+                "file": "考研数学/错题/C06-多元函数积分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机组成原理/CO04-指令系统.md"
+                "file": "考研数学/错题/C06-多元函数积分学.md"
               }
             }
           },
@@ -174,25 +174,32 @@
       "templates:插入模板": false
     }
   },
-  "active": "03c7bd9abf3f4c7b",
+  "active": "af997904e90ee9ca",
   "lastOpenFiles": [
+    "附件/Pasted image 20230927232149.png",
+    "附件/Pasted image 20230927232139.png",
+    "附件/Pasted image 20230927232041.png",
+    "附件/Pasted image 20230927232030.png",
+    "附件/Pasted image 20230927220118.png",
+    "附件/Pasted image 20230927220048.png",
+    "附件/Pasted image 20230927220008.png",
+    "附件/Pasted image 20230927215950.png",
+    "附件/Pasted image 20230927215927.png",
+    "附件/Pasted image 20230927215547.png",
+    "附件/Pasted image 20230927215520.png",
+    "考研数学/总结/Z14-二次型.md",
+    "考研数学/错题/C14-二次型.md",
+    "考研408/计算机组成原理/CO04-指令系统.md",
+    "考研数学/错题/C06-多元函数积分学.md",
+    "考研数学/错题/C20-数理统计.md",
+    "考研数学/错题/C21-数一真题专题.md",
+    "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/软饭/武忠祥每日一题-强化.md",
-    "附件/Pasted image 20230926213748.png",
-    "附件/Pasted image 20230926211653.png",
-    "附件/Pasted image 20230926211153.png",
     "Linux/Hacks/建立并运行Docker容器.md",
     "Linux/Hacks/多版本GCC安装和共存.md",
     "Linux/Hacks/Ubuntu版本号的别名.md",
-    "考研408/计算机组成原理/CO04-指令系统.md",
-    "附件/Pasted image 20230926204010.png",
-    "附件/Pasted image 20230926201316.png",
-    "附件/Pasted image 20230926200317.png",
-    "附件/Pasted image 20230926195011.png",
-    "附件/Pasted image 20230926194429.png",
     "考研数学/错题/C02-一元函数微分学.md",
     "考研数学/错题/C03-一元函数积分学.md",
-    "附件/Pasted image 20230926193316.png",
-    "附件/Pasted image 20230926175106.png",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研408/计算机组成原理/CO03-存储系统.md",
     "考研408/计算机组成原理/CO02-数据的表示和运算.md",
@@ -205,13 +212,7 @@
     "考研408/计算机网络/CN04-网络层.md",
     "考研408/操作系统/OS04-文件管理.md",
     "考研408/操作系统/OS05-IO管理.md",
-    "Rust/01-Rust基础语法.md",
     "yufa",
-    "考研408/操作系统/OS02-进程管理.md",
-    "考研408/操作系统/OS01-计算机系统概述.md",
-    "Linux/Hacks/虚拟机挂载共享文件夹.md",
-    "Linux/Hacks/WSL安装CUDA.md",
-    "考研408/计算机组成原理/CO01-计算机系统概述.md",
     "杂记",
     "考研408/操作系统",
     "考研英语/作文",
