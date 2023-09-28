@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!技能清单.md",
+                "file": "考研408/计算机组成原理/CO04-指令系统.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d4d2bacdf6c7336",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研408/计算机组成原理/CO05-中央处理器.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "024f28c883f87909",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/错题/C21-数一真题专题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46f272c2b97c87f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研408/计算机组成原理/CO01-计算机系统概述.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!技能清单.md",
+                "file": "考研数学/错题/C21-数一真题专题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "!技能清单.md",
+                "file": "考研数学/错题/C21-数一真题专题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "!技能清单.md"
+                "file": "考研数学/错题/C21-数一真题专题.md"
               }
             }
           },
@@ -174,28 +211,36 @@
       "templates:插入模板": false
     }
   },
-  "active": "ca9d57503ae113a4",
+  "active": "024f28c883f87909",
   "lastOpenFiles": [
-    "!DDL.md",
+    "附件/Pasted image 20230928233040.png",
+    "考研数学/软饭/中值定理专题.md",
+    "考研数学/软饭/电信高数班.md",
+    "附件/Pasted image 20230928200323.png",
+    "附件/Pasted image 20230928194916.png",
+    "考研数学/软饭/武忠祥每日一题-强化.md",
+    "考研408/计算机组成原理/CO05-中央处理器.md",
+    "附件/Pasted image 20230928173943.png",
+    "附件/Pasted image 20230928165350.png",
+    "附件/Pasted image 20230928164540.png",
+    "附件/Pasted image 20230928163912.png",
+    "附件/Pasted image 20230928163820.png",
+    "考研408/计算机组成原理/CO01-计算机系统概述.md",
+    "考研408/操作系统/OS03-内存管理.md",
+    "考研408/操作系统/OS02-进程管理.md",
+    "考研408/操作系统/OS04-文件管理.md",
+    "考研408/计算机组成原理/CO04-指令系统.md",
     "!技能清单.md",
+    "!DDL.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "附件/Pasted image 20230928003241.png",
     "附件/Pasted image 20230928003229.png",
     "附件/Pasted image 20230928003213.png",
-    "附件/Pasted image 20230928003020.png",
-    "附件/Pasted image 20230928003013.png",
-    "附件/Pasted image 20230928002948.png",
-    "附件/Pasted image 20230928002937.png",
-    "附件/Pasted image 20230928002904.png",
-    "附件/Pasted image 20230928002856.png",
-    "附件/Pasted image 20230928002830.png",
     "考研数学/总结/Z14-二次型.md",
     "考研数学/错题/C14-二次型.md",
-    "考研408/计算机组成原理/CO04-指令系统.md",
     "考研数学/错题/C20-数理统计.md",
     "考研数学/错题/C21-数一真题专题.md",
     "考研数学/错题/C01-函数、极限、连续.md",
-    "考研数学/软饭/武忠祥每日一题-强化.md",
     "Linux/Hacks/建立并运行Docker容器.md",
     "Linux/Hacks/多版本GCC安装和共存.md",
     "Linux/Hacks/Ubuntu版本号的别名.md",
@@ -204,14 +249,6 @@
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研408/计算机组成原理/CO03-存储系统.md",
     "考研408/计算机组成原理/CO02-数据的表示和运算.md",
-    "考研数学/总结/Z13-特征值与特征向量.md",
-    "考研数学/软饭/中值定理专题.md",
-    "考研数学/软饭/三角函数不定积分.md",
-    "Rust/00-Rust入门.md",
-    "LaTeX/Beamer幻灯片制作.md",
-    "考研408/操作系统/OS03-内存管理.md",
-    "考研408/计算机网络/CN04-网络层.md",
-    "考研408/操作系统/OS04-文件管理.md",
     "yufa",
     "杂记",
     "考研408/操作系统",
