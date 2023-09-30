@@ -32,24 +32,24 @@
             }
           },
           {
-            "id": "44183aeed228c996",
+            "id": "1033601a73d1f78f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C21-数一真题专题.md",
+                "file": "考研408/计算机组成原理/CO07-输入输出系统.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3070831f114ee233",
+            "id": "c46328faaf6491a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z14-二次型.md",
+                "file": "!技能清单.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C21-数一真题专题.md",
+                "file": "考研408/计算机组成原理/CO07-输入输出系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C21-数一真题专题.md",
+                "file": "考研408/计算机组成原理/CO07-输入输出系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C21-数一真题专题.md"
+                "file": "考研408/计算机组成原理/CO07-输入输出系统.md"
               }
             }
           },
@@ -211,24 +211,27 @@
       "templates:插入模板": false
     }
   },
-  "active": "44183aeed228c996",
+  "active": "1033601a73d1f78f",
   "lastOpenFiles": [
-    "附件/Pasted image 20230930105714.png",
+    "附件/Pasted image 20230930233525.png",
+    "附件/Pasted image 20230930233512.png",
+    "附件/Pasted image 20230930233458.png",
+    "附件/Pasted image 20230930233447.png",
+    "附件/Pasted image 20230930233434.png",
+    "附件/Pasted image 20230930233419.png",
+    "附件/Pasted image 20230930233250.png",
+    "附件/Pasted image 20230930233242.png",
+    "附件/Pasted image 20230930233214.png",
+    "考研408/计算机组成原理/CO07-输入输出系统.md",
+    "附件/Pasted image 20230930233203.png",
+    "附件/Pasted image 20230930233152.png",
+    "!技能清单.md",
+    "!DDL.md",
+    "考研408/计算机组成原理/CO06-总线.md",
     "考研数学/总结/Z14-二次型.md",
     "考研数学/错题/C21-数一真题专题.md",
-    "考研数学/错题/C14-二次型.md",
-    "附件/Pasted image 20230930104956.png",
-    "附件/Pasted image 20230930103205.png",
-    "附件/Pasted image 20230930101536.png",
-    "附件/Pasted image 20230930095718.png",
-    "附件/Pasted image 20230930094909.png",
-    "附件/Pasted image 20230930093352.png",
-    "附件/Pasted image 20230929235524.png",
-    "附件/Pasted image 20230929235459.png",
-    "附件/Pasted image 20230929233654.png",
-    "附件/Pasted image 20230929233628.png",
-    "考研408/计算机组成原理/CO06-总线.md",
     "考研408/计算机组成原理/CO05-中央处理器.md",
+    "考研数学/错题/C14-二次型.md",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研408/操作系统/OS01-计算机系统概述.md",
     "考研408/计算机组成原理/CO04-指令系统.md",
@@ -244,11 +247,8 @@
     "考研数学/软饭/电信高数班.md",
     "考研数学/软饭/武忠祥每日一题-强化.md",
     "考研408/操作系统/OS04-文件管理.md",
-    "!技能清单.md",
-    "!DDL.md",
     "考研数学/错题/C20-数理统计.md",
     "考研数学/错题/C01-函数、极限、连续.md",
-    "Linux/Hacks/建立并运行Docker容器.md",
     "yufa",
     "杂记",
     "考研408/操作系统",
