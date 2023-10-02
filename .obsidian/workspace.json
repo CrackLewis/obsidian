@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "0e1eb35478a3153c",
+        "id": "a53241ec12ce1776",
         "type": "tabs",
         "children": [
           {
-            "id": "e7824b50e7c49d35",
+            "id": "235e7a96b82a176f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机网络/CN02-物理层.md",
+                "file": "考研408/计算机网络/CNR03-复习数据链路层.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9c8ef0d0969bc47b",
+            "id": "4eb344d33d4159b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "075563e8c35c5aef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研408/计算机网络/CNR02-复习物理层.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机网络/CNR02-复习物理层.md",
+                "file": "考研408/计算机网络/CNR03-复习数据链路层.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机网络/CNR02-复习物理层.md",
+                "file": "考研408/计算机网络/CNR03-复习数据链路层.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机网络/CNR02-复习物理层.md"
+                "file": "考研408/计算机网络/CNR03-复习数据链路层.md"
               }
             }
           },
@@ -199,23 +186,26 @@
       "templates:插入模板": false
     }
   },
-  "active": "075563e8c35c5aef",
+  "active": "235e7a96b82a176f",
   "lastOpenFiles": [
-    "附件/Pasted image 20231001220207.png",
-    "附件/Pasted image 20231001220052.png",
-    "附件/Pasted image 20231001215917.png",
-    "考研408/计算机网络/CNR02-复习物理层.md",
-    "考研408/计算机网络/CN02-物理层.md",
-    "附件/Pasted image 20231001203059.png",
-    "附件/Pasted image 20231001203050.png",
-    "附件/Pasted image 20231001203027.png",
-    "附件/Pasted image 20231001203020.png",
-    "附件/Pasted image 20231001203008.png",
-    "附件/Pasted image 20231001202951.png",
-    "附件/Pasted image 20231001202944.png",
-    "附件/Pasted image 20231001202905.png",
+    "附件/Pasted image 20231002231123.png",
+    "附件/Pasted image 20231002230445.png",
+    "附件/Pasted image 20231002230436.png",
+    "附件/Pasted image 20231002230428.png",
+    "附件/Pasted image 20231002220604.png",
+    "附件/Pasted image 20231002214850.png",
+    "附件/Pasted image 20231002214755.png",
+    "附件/Pasted image 20231002214734.png",
+    "附件/Pasted image 20231002214609.png",
+    "附件/Pasted image 20231002214256.png",
+    "附件/Pasted image 20231002203316.png",
     "考研408/计算机网络/CNR00-真题考情和重点.md",
+    "考研408/计算机网络/CNR03-复习数据链路层.md",
+    "考研408/计算机网络/CN03-数据链路层.md",
     "考研408/计算机网络/CNR01-复习计网体系.md",
+    "考研408/计算机网络/CN02-物理层.md",
+    "考研408/计算机网络/CNR07-缩写整理.md",
+    "考研408/计算机网络/CNR02-复习物理层.md",
     "考研408/计算机网络/CN01-计算机网络体系结构.md",
     "考研英语/作文/2011英一作文.md",
     "考研数学/错题/C07-无穷级数.md",
@@ -234,9 +224,6 @@
     "考研408/操作系统/OS01-计算机系统概述.md",
     "考研待办/2310总规划.md",
     "考研408/操作系统/OS03-内存管理.md",
-    "考研408/操作系统/OS02-进程管理.md",
-    "考研数学/错题/C06-多元函数积分学.md",
-    "考研待办/!考研规划.md",
     "yufa",
     "杂记",
     "考研408/操作系统",
