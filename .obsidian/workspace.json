@@ -4,41 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a53241ec12ce1776",
+        "id": "5ea861972b96a8a2",
         "type": "tabs",
         "children": [
           {
-            "id": "235e7a96b82a176f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研408/计算机网络/CN04-网络层.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4eb344d33d4159b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研408/计算机网络/CNR03-复习数据链路层.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8aa32b4c8d4bdee9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f2257ed9540f98cb",
+            "id": "c976447e4857a158",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -107,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -205,44 +174,44 @@
       "templates:插入模板": false
     }
   },
-  "active": "f2257ed9540f98cb",
+  "active": "c976447e4857a158",
   "lastOpenFiles": [
-    "考研408/计算机网络/CN04-网络层.md",
-    "考研408/计算机网络/CNR04-复习网络层.md",
+    "附件/Pasted image 20231003202721.png",
+    "附件/Pasted image 20231003202713.png",
+    "附件/Pasted image 20231003202704.png",
+    "附件/Pasted image 20231003202649.png",
+    "附件/Pasted image 20231003202635.png",
+    "附件/Pasted image 20231003202626.png",
+    "附件/Pasted image 20231003202612.png",
+    "附件/Pasted image 20231003202602.png",
+    "附件/Pasted image 20231003202528.png",
+    "附件/Pasted image 20231003202508.png",
+    "附件/Pasted image 20231003202501.png",
     "考研408/计算机网络/CNR03-复习数据链路层.md",
-    "考研408/计算机网络/CNR00-真题考情和重点.md",
-    "附件/Pasted image 20231003013030.png",
-    "附件/Pasted image 20231003012834.png",
-    "附件/Pasted image 20231003010653.png",
-    "附件/Pasted image 20231003010639.png",
-    "附件/Pasted image 20231003010624.png",
-    "附件/Pasted image 20231003010603.png",
-    "附件/Pasted image 20231002231123.png",
-    "附件/Pasted image 20231002230445.png",
-    "附件/Pasted image 20231002230436.png",
-    "附件/Pasted image 20231002230428.png",
+    "考研408/计算机网络/CNR04-复习网络层.md",
+    "考研408/计算机网络/CN04-网络层.md",
+    "!技能清单.md",
+    "考研408/计算机组成原理/CO03-存储系统.md",
+    "考研408/计算机网络/CNS01-真题考情和重点.md",
+    "考研408/计算机网络/CNS02-协议和缩写.md",
     "考研408/计算机网络/CN03-数据链路层.md",
     "考研408/计算机网络/CNR01-复习计网体系.md",
     "考研408/计算机网络/CN02-物理层.md",
-    "考研408/计算机网络/CNR07-缩写整理.md",
     "考研408/计算机网络/CNR02-复习物理层.md",
     "考研408/计算机网络/CN01-计算机网络体系结构.md",
     "考研英语/作文/2011英一作文.md",
     "考研数学/错题/C07-无穷级数.md",
-    "考研408/计算机组成原理/CO03-存储系统.md",
     "考研408/计算机组成原理/CO04-指令系统.md",
     "考研408/计算机组成原理/CO07-输入输出系统.md",
     "考研408/计算机组成原理/CO01-计算机系统概述.md",
     "考研408/计算机组成原理/CO05-中央处理器.md",
     "考研408/计算机组成原理/CO06-总线.md",
-    "!技能清单.md",
     "!DDL.md",
     "考研数学/总结/Z14-二次型.md",
     "考研数学/错题/C21-数一真题专题.md",
     "考研数学/错题/C14-二次型.md",
     "考研数学/总结/Z03-一元函数积分学.md",
     "考研408/操作系统/OS01-计算机系统概述.md",
-    "考研待办/2310总规划.md",
     "yufa",
     "杂记",
     "考研408/操作系统",
