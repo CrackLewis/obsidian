@@ -1,0 +1,92 @@
+
+## 缩写
+
+- 计算机网络概述
+	- ISP
+	- WWW
+	- C/S
+	- P2P
+	- WAN
+	- MAN
+	- LAN
+	- PAN
+	- RTT
+	- OSI/RM
+	- PDU（协议数据单元）
+- 物理层
+	- STP（屏蔽双绞线）
+	- UTP（无屏蔽双绞线）
+	- FDM
+	- TDM
+	- STDM
+	- WDM
+	- CDM
+	- ADSL（非对称数字用户线）
+	- HFC（光纤同轴混合网）
+	- FTTx（光纤到x）：FTTH（光纤到户）、FTTB（光纤到楼）、FTTC（光纤到路边）
+- 数据链路层
+	- CRC
+	- FCS（帧检验序列）
+	- PPP
+	- ALOHA
+	- CSMA
+	- CSMA/CD
+	- CSMA/CA
+	- CDMA
+	- SW（停止-等待协议）
+	- GBN（后退N帧协议）
+	- SR（选择重传协议）
+	- STP（生成树协议）
+	- VLAN
+	- PPPoE
+- 网络层
+	- IP
+	- ICANN（互联网名字和数字分配机构）
+	- ARP（地址解析协议）
+	- MTU
+	- TTL（生存时间）
+	- CIDR（无分类域间路由选择）
+	- ICMP（网际报文控制协议）
+	- PING（因特网包探索器）
+	- AS
+	- IGP
+	- EGP
+	- RIP
+	- OSPF
+	- BGP
+	- IGMP（网际组管理协议）
+	- VPN（虚拟专用网络）
+	- NAT
+	- NAPT（网络地址与端口号转换）
+- 传输层
+	- TPDU（运输协议数据单元）
+	- UDP
+	- TCP
+	- ARQ（自动重传请求）
+	- URG
+	- ACK
+	- PSH
+	- RST
+	- SYN
+	- FIN
+	- MSS（最大字段长度）
+	- RTO（超时重传时间）
+	- SACK（选择确认）
+	- AIMD（加法增大，乘法减小）
+	- AQM（主动队列管理）
+- 应用层
+	- DNS
+	- TLD（顶级域）
+	- FTP
+	- TFTP（简单文件传送协议）
+	- URL
+	- HTTP
+	- HTML
+	- XML
+	- XHTML
+	- CSS（层叠样式表）
+	- CGI（通用网关接口）
+	- SMTP（简单邮件传输协议）
+	- POP3（第三版邮局协议）
+	- IMAP（网际报文存取协议）
+	- DHCP（动态主机配置协议）
