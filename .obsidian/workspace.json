@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机网络/CNR06-复习应用层.md",
+                "file": "考研数学/总结/Z13-特征值与特征向量.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机网络/CNR06-复习应用层.md",
+                "file": "考研数学/总结/Z13-特征值与特征向量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机网络/CNR06-复习应用层.md",
+                "file": "考研数学/总结/Z13-特征值与特征向量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机网络/CNR06-复习应用层.md"
+                "file": "考研数学/总结/Z13-特征值与特征向量.md"
               }
             }
           },
@@ -188,6 +188,7 @@
   },
   "active": "b8b0634709b82186",
   "lastOpenFiles": [
+    "考研408/计算机网络/CNR06-复习应用层.md",
     "附件/Pasted image 20231007192800.png",
     "考研408/计算机组成原理/CO05-中央处理器.md",
     "考研408/计算机组成原理/CO04-指令系统.md",
@@ -223,7 +224,6 @@
     "附件/Pasted image 20231006002314.png",
     "附件/Pasted image 20231006002303.png",
     "附件/Pasted image 20231006001954.png",
-    "附件/Pasted image 20231006000218.png",
     "yufa",
     "杂记",
     "考研408/操作系统",
