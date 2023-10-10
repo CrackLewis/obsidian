@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md",
+                "file": "考研408/计算机组成原理/CO04-指令系统.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md",
+                "file": "考研408/计算机组成原理/CO04-指令系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md",
+                "file": "考研408/计算机组成原理/CO04-指令系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md"
+                "file": "考研408/计算机组成原理/CO04-指令系统.md"
               }
             }
           },
@@ -201,8 +201,17 @@
   },
   "active": "bccf12f46fb21c1c",
   "lastOpenFiles": [
-    "考研数学/错题/C01-函数、极限、连续.md",
+    "考研408/计算机组成原理/CO03-存储系统.md",
+    "考研408/数据结构/DS07-查找.md",
+    "考研408/计算机网络/CNR02-复习物理层.md",
+    "考研408/计算机网络/CNR01-复习计网体系.md",
+    "考研408/计算机网络/CNR03-复习数据链路层.md",
+    "考研408/计算机网络/CNR04-复习网络层.md",
+    "考研408/计算机组成原理/CO07-输入输出系统.md",
+    "考研408/计算机组成原理/CO06-总线.md",
+    "考研408/计算机组成原理/CO04-指令系统.md",
     "考研数学/错题/C02-一元函数微分学.md",
+    "考研数学/错题/C01-函数、极限、连续.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/总结/Z03-一元函数积分学.md",
@@ -211,23 +220,14 @@
     "考研数学/总结/Z01-函数、极限、连续.md",
     "考研数学/总结/Z20-数理统计.md",
     "考研待办/2310总规划.md",
-    "考研408/数据结构/DS07-查找.md",
     "考研408/数据结构/DSR06-图复盘.md",
     "考研数学/总结/Z13-特征值与特征向量.md",
     "考研408/计算机网络/CNR06-复习应用层.md",
     "附件/Pasted image 20231007192800.png",
     "考研408/计算机组成原理/CO05-中央处理器.md",
-    "考研408/计算机组成原理/CO04-指令系统.md",
-    "考研408/计算机组成原理/CO03-存储系统.md",
     "考研408/计算机组成原理/CO02-数据的表示和运算.md",
     "Web前端/Vue/001-Vue简介.md",
     "Web前端/Bootstrap/03-Bootstrap布局.md",
-    "Web前端/HTML+CSS/006-CSS选择器.md",
-    "Web前端/HTML+CSS/008-表格.md",
-    "Web前端/HTML+CSS/009-字体.md",
-    "Web前端/HTML+CSS/011-H5定位.md",
-    "Web前端/HTML+CSS/013-CSS3特效.md",
-    "Web前端/HTML+CSS/999-拾遗.md",
     "附件/Pasted image 20231007144047.png",
     "附件/Pasted image 20231006095217.png",
     "附件/Pasted image 20231006095120.png",
