@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z01-函数、极限、连续.md",
+                "file": "考研数学/错题/C10-矩阵.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C09-行列式.md",
+                "file": "考研408/计算机网络/CNR06-复习应用层.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C09-行列式.md",
+                "file": "考研数学/错题/C10-矩阵.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C09-行列式.md",
+                "file": "考研数学/错题/C10-矩阵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C09-行列式.md"
+                "file": "考研数学/错题/C10-矩阵.md"
               }
             }
           },
@@ -187,14 +186,19 @@
       "templates:插入模板": false
     }
   },
-  "active": "75e9f25b5edfa8c8",
+  "active": "b8b0634709b82186",
   "lastOpenFiles": [
-    "考研数学/错题/C02-一元函数微分学.md",
+    "附件/Pasted image 20231011210818.png",
+    "考研数学/错题/C10-矩阵.md",
     "考研数学/错题/C09-行列式.md",
+    "考研408/计算机网络/CNR06-复习应用层.md",
+    "考研408/操作系统/OS02-进程管理.md",
+    "考研408/计算机组成原理/CO03-存储系统.md",
+    "考研数学/总结/Z01-函数、极限、连续.md",
+    "考研数学/错题/C02-一元函数微分学.md",
     "考研数学/错题/C03-一元函数积分学.md",
     "附件/6a23f22672b92f1e7ce35358d2be155.jpg",
     "考研数学/总结/Z03-一元函数积分学.md",
-    "考研408/计算机组成原理/CO03-存储系统.md",
     "考研408/计算机网络/CNR03-复习数据链路层.md",
     "考研408/操作系统/OS03-内存管理.md",
     "考研数学/错题/C21-数一真题专题.md",
@@ -209,14 +213,9 @@
     "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/总结/ZR01-高等数学公式和结论.md",
     "考研数学/总结/Z02-一元函数微分学.md",
-    "考研数学/总结/Z01-函数、极限、连续.md",
     "考研数学/总结/Z20-数理统计.md",
     "考研待办/2310总规划.md",
-    "考研408/数据结构/DSR06-图复盘.md",
-    "考研数学/总结/Z13-特征值与特征向量.md",
-    "考研408/计算机网络/CNR06-复习应用层.md",
     "附件/Pasted image 20231007192800.png",
-    "考研408/计算机组成原理/CO05-中央处理器.md",
     "附件/Pasted image 20231007144047.png",
     "附件/Pasted image 20231006095217.png",
     "附件/Pasted image 20231006095120.png",
@@ -224,7 +223,6 @@
     "附件/Pasted image 20231006002637.png",
     "附件/Pasted image 20231006002628.png",
     "附件/Pasted image 20231006002314.png",
-    "附件/Pasted image 20231006002303.png",
     "yufa",
     "杂记",
     "考研408/操作系统",
