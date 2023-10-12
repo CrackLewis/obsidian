@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C10-矩阵.md",
+                "file": "考研数学/错题/C11-向量.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机网络/CNR06-复习应用层.md",
+                "file": "考研408/操作系统/OS01-计算机系统概述.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C10-矩阵.md",
+                "file": "考研数学/错题/C11-向量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C10-矩阵.md",
+                "file": "考研数学/错题/C11-向量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C10-矩阵.md"
+                "file": "考研数学/错题/C11-向量.md"
               }
             }
           },
@@ -188,10 +188,15 @@
   },
   "active": "b8b0634709b82186",
   "lastOpenFiles": [
-    "附件/Pasted image 20231011210818.png",
-    "考研数学/错题/C10-矩阵.md",
-    "考研数学/错题/C09-行列式.md",
+    "考研408/操作系统/OS01-计算机系统概述.md",
     "考研408/计算机网络/CNR06-复习应用层.md",
+    "考研数学/错题/C11-向量.md",
+    "考研数学/错题/C04-向量代数与空间解析几何.md",
+    "考研数学/错题/C06-多元函数积分学.md",
+    "考研数学/错题/C10-矩阵.md",
+    "附件/Pasted image 20231012102135.png",
+    "附件/Pasted image 20231011210818.png",
+    "考研数学/错题/C09-行列式.md",
     "考研408/操作系统/OS02-进程管理.md",
     "考研408/计算机组成原理/CO03-存储系统.md",
     "考研数学/总结/Z01-函数、极限、连续.md",
@@ -210,11 +215,8 @@
     "考研408/计算机组成原理/CO07-输入输出系统.md",
     "考研408/计算机组成原理/CO06-总线.md",
     "考研数学/错题/C01-函数、极限、连续.md",
-    "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/总结/ZR01-高等数学公式和结论.md",
     "考研数学/总结/Z02-一元函数微分学.md",
-    "考研数学/总结/Z20-数理统计.md",
-    "考研待办/2310总规划.md",
     "附件/Pasted image 20231007192800.png",
     "附件/Pasted image 20231007144047.png",
     "附件/Pasted image 20231006095217.png",
@@ -222,7 +224,6 @@
     "附件/Pasted image 20231006002656.png",
     "附件/Pasted image 20231006002637.png",
     "附件/Pasted image 20231006002628.png",
-    "附件/Pasted image 20231006002314.png",
     "yufa",
     "杂记",
     "考研408/操作系统",
