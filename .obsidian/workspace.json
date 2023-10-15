@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研英语/作文/2013英一作文.md",
+                "file": "考研英语/作文/2012英一作文.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研英语/作文/2010英一作文.md",
+                "file": "考研408/计算机网络/CNR02-复习物理层.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研英语/作文/2013英一作文.md",
+                "file": "考研408/计算机网络/CNR02-复习物理层.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研英语/作文/2013英一作文.md",
+                "file": "考研408/计算机网络/CNR02-复习物理层.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研英语/作文/2013英一作文.md"
+                "file": "考研408/计算机网络/CNR02-复习物理层.md"
               }
             }
           },
@@ -211,12 +211,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "3dda1b9bea13f259",
+  "active": "50f53d2ccc3a939e",
   "lastOpenFiles": [
+    "考研408/计算机网络/CNR01-复习计网体系.md",
     "考研英语/作文/2010英一作文.md",
-    "考研英语/作文/2011英一作文.md",
-    "考研英语/作文/2013英一作文.md",
     "考研英语/作文/2012英一作文.md",
+    "考研英语/作文/2013英一作文.md",
+    "考研英语/作文/2011英一作文.md",
     "考研数学/错题/C22-23李林六套卷.md",
     "附件/Pasted image 20231014184843.png",
     "附件/Pasted image 20231014183737.png",
@@ -242,7 +243,6 @@
     "考研数学/错题/C05-多元函数微分学.md",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
     "考研408/操作系统/OS01-计算机系统概述.md",
-    "考研数学/错题/C12-线性方程组.md",
     "附件/Pasted image 20231012102135.png",
     "附件/Pasted image 20231011210818.png",
     "附件/6a23f22672b92f1e7ce35358d2be155.jpg",
