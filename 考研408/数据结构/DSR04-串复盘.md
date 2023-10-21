@@ -118,3 +118,6 @@ vector<int> kmp(const string& text, const string& pattern) {
   return match;
 }
 ```
+
+## KMP匹配题
+
