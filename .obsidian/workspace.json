@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C03-一元函数积分学.md",
+                "file": "考研数学/错题/C06-多元函数积分学.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C03-一元函数积分学.md",
+                "file": "考研408/操作系统/OS03-内存管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C03-一元函数积分学.md",
+                "file": "考研408/操作系统/OS03-内存管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C03-一元函数积分学.md"
+                "file": "考研408/操作系统/OS03-内存管理.md"
               }
             }
           },
@@ -211,14 +211,16 @@
       "templates:插入模板": false
     }
   },
-  "active": "eda14bcf327a0db3",
+  "active": "253d67414fe4a5d5",
   "lastOpenFiles": [
-    "考研408/操作系统/OS03-内存管理.md",
-    "考研数学/错题/C21-数一真题专题.md",
-    "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/总结/Z03-一元函数积分学.md",
-    "考研数学/错题/C22-23李林六套卷.md",
+    "考研408/操作系统/OS03-内存管理.md",
     "考研数学/错题/C06-多元函数积分学.md",
+    "考研数学/错题/C05-多元函数微分学.md",
+    "考研数学/错题/C04-向量代数与空间解析几何.md",
+    "考研数学/错题/C03-一元函数积分学.md",
+    "考研数学/错题/C21-数一真题专题.md",
+    "考研数学/错题/C22-23李林六套卷.md",
     "考研数学/错题/C07-无穷级数.md",
     "考研数学/错题/C08-微分方程.md",
     "考研数学/错题/C09-行列式.md",
@@ -226,8 +228,6 @@
     "考研数学/错题/C11-向量.md",
     "考研数学/错题/C12-线性方程组.md",
     "考研数学/错题/C13-特征值与特征向量.md",
-    "考研数学/错题/C05-多元函数微分学.md",
-    "考研数学/错题/C04-向量代数与空间解析几何.md",
     "考研408/操作系统/OS02-进程管理.md",
     "考研408/操作系统/OS01-计算机系统概述.md",
     "附件/Pasted image 20231019211105.png",
