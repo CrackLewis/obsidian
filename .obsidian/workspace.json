@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eda14bcf327a0db3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研408/操作系统/OS02-进程管理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4735e1a9d5084008",
             "type": "leaf",
             "state": {
@@ -32,24 +20,12 @@
             }
           },
           {
-            "id": "d4e347ff8c2aa7da",
+            "id": "8c1b4113ef2e6458",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研待办/政治-思修发病.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "004735c4003e411e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/总结/Z05-多元函数微分学.md",
+                "file": "考研408/数据结构/DS08-排序.md",
                 "mode": "source",
                 "source": false
               }
@@ -210,36 +186,54 @@
       "templates:插入模板": false
     }
   },
-  "active": "eda14bcf327a0db3",
+  "floating": {
+    "id": "894da9507ca6fd8c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "54bf0e752d680ca4",
+        "type": "window",
+        "children": [
+          {
+            "id": "3692f63418068c62",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "836058c1bf89ed85",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "考研408/操作系统/OS02-进程管理.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -642,
+        "y": 108,
+        "width": 931,
+        "height": 777,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "836058c1bf89ed85",
   "lastOpenFiles": [
-    "附件/Pasted image 20231027104813.png",
-    "附件/Pasted image 20231027104802.png",
-    "附件/Pasted image 20231027103741.png",
-    "附件/Pasted image 20231027103629.png",
-    "附件/Pasted image 20231027103435.png",
-    "附件/Pasted image 20231027103405.png",
     "考研408/操作系统/OSR01-操作系统复习.md",
     "考研408/操作系统/OS02-进程管理.md",
-    "考研408/操作系统/OS05-IO管理.md",
-    "考研数学/总结/Z05-多元函数微分学.md",
-    "考研数学/总结/Z08-微分方程.md",
-    "考研数学/错题/C23-23李林四套卷.md",
-    "考研待办/政治-思修发病.md",
-    "考研数学/错题/C08-微分方程.md",
-    "考研数学/错题/C07-无穷级数.md",
-    "考研408/计算机组成原理/CO05-中央处理器.md",
-    "考研数学/错题/C06-多元函数积分学.md",
-    "附件/Pasted image 20231025200852.png",
-    "附件/Pasted image 20231025194854.png",
-    "附件/Pasted image 20231025194811.png",
-    "附件/Pasted image 20231025194639.png",
-    "附件/Pasted image 20231025194623.png",
-    "考研数学/错题/C22-23李林六套卷.md",
+    "考研408/数据结构/DSR07-数据结构复习.md",
+    "考研数学/错题/C21-数一真题专题.md",
+    "考研数学/软饭/中值定理专题.md",
+    "考研408/数据结构/DS08-排序.md",
+    "考研408/数据结构/DS07-查找.md",
     "考研数学/错题/C20-数理统计.md",
-    "考研待办/政治-近纲娇喘.md",
-    "考研待办/政治-毛中特呻吟.md",
-    "考研待办/政治-新思想放电.md",
-    "考研待办/政治-马原啰嗦.md",
+    "考研408/数据结构/DSR05-树和二叉树复盘.md",
     "考研数学/错题/C19-大数定律与中心极限定理.md",
     "考研数学/错题/C18-随机变量的数字特征.md",
     "考研数学/错题/C17-多维随机变量及其分布.md",
@@ -248,6 +242,25 @@
     "考研数学/错题/C14-二次型.md",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/错题/C12-线性方程组.md",
+    "考研数学/错题/C09-行列式.md",
+    "考研数学/错题/C08-微分方程.md",
+    "考研数学/错题/C07-无穷级数.md",
+    "考研数学/错题/C06-多元函数积分学.md",
+    "考研数学/错题/C05-多元函数微分学.md",
+    "考研数学/错题/C04-向量代数与空间解析几何.md",
+    "考研数学/总结/Z02-一元函数微分学.md",
+    "考研408/数据结构/DSR04-串复盘.md",
+    "附件/Pasted image 20231027152245.png",
+    "考研408/数据结构/DSR06-图复盘.md",
+    "附件/Pasted image 20231027104813.png",
+    "附件/Pasted image 20231027104802.png",
+    "附件/Pasted image 20231027103741.png",
+    "附件/Pasted image 20231027103629.png",
+    "附件/Pasted image 20231027103435.png",
+    "附件/Pasted image 20231027103405.png",
+    "附件/Pasted image 20231025200852.png",
+    "附件/Pasted image 20231025194854.png",
+    "附件/Pasted image 20231025194811.png",
     "yufa",
     "杂记",
     "考研408/操作系统",
