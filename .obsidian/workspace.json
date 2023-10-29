@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/操作系统/OSR01-操作系统复习.md",
+                "file": "考研数学/错题/C23-23李林四套卷.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c81b960dd53d63a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研待办/政治-马原啰嗦.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -105,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/操作系统/OS02-进程管理.md",
+                "file": "考研待办/政治-马原啰嗦.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/操作系统/OS02-进程管理.md",
+                "file": "考研待办/政治-马原啰嗦.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/操作系统/OS02-进程管理.md"
+                "file": "考研待办/政治-马原啰嗦.md"
               }
             }
           },
@@ -172,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,45 +201,22 @@
       "templates:插入模板": false
     }
   },
-  "floating": {
-    "id": "894da9507ca6fd8c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "54bf0e752d680ca4",
-        "type": "window",
-        "children": [
-          {
-            "id": "3692f63418068c62",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "836058c1bf89ed85",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "考研408/操作系统/OS02-进程管理.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -642,
-        "y": 108,
-        "width": 931,
-        "height": 777,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "836058c1bf89ed85",
+  "active": "7c81b960dd53d63a",
   "lastOpenFiles": [
+    "附件/Pasted image 20231029153830.png",
+    "附件/Pasted image 20231029153756.png",
+    "考研待办/政治-马原啰嗦.md",
+    "附件/Pasted image 20231029153416.png",
+    "考研数学/错题/C24-李林880补遗.md",
+    "附件/Pasted image 20231029152733.png",
+    "附件/Pasted image 20231029152719.png",
+    "附件/Pasted image 20231029152447.png",
+    "附件/Pasted image 20231029151339.png",
+    "附件/Pasted image 20231029151232.png",
+    "附件/Pasted image 20231029150936.png",
+    "附件/Pasted image 20231029150810.png",
+    "附件/Pasted image 20231029150754.png",
+    "考研数学/错题/C23-23李林四套卷.md",
     "考研408/操作系统/OSR01-操作系统复习.md",
     "考研408/操作系统/OS02-进程管理.md",
     "考研408/数据结构/DSR07-数据结构复习.md",
@@ -247,20 +239,6 @@
     "考研数学/错题/C07-无穷级数.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/错题/C05-多元函数微分学.md",
-    "考研数学/错题/C04-向量代数与空间解析几何.md",
-    "考研数学/总结/Z02-一元函数微分学.md",
-    "考研408/数据结构/DSR04-串复盘.md",
-    "附件/Pasted image 20231027152245.png",
-    "考研408/数据结构/DSR06-图复盘.md",
-    "附件/Pasted image 20231027104813.png",
-    "附件/Pasted image 20231027104802.png",
-    "附件/Pasted image 20231027103741.png",
-    "附件/Pasted image 20231027103629.png",
-    "附件/Pasted image 20231027103435.png",
-    "附件/Pasted image 20231027103405.png",
-    "附件/Pasted image 20231025200852.png",
-    "附件/Pasted image 20231025194854.png",
-    "附件/Pasted image 20231025194811.png",
     "yufa",
     "杂记",
     "考研408/操作系统",
