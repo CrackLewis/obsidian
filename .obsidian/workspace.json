@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/数据结构/DS08-排序.md",
+                "file": "考研数学/总结/Z20-数理统计.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研待办/政治-马原啰嗦.md",
+                "file": "考研数学/总结/Z20-数理统计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研待办/政治-马原啰嗦.md",
+                "file": "考研数学/总结/Z20-数理统计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研待办/政治-马原啰嗦.md"
+                "file": "考研数学/总结/Z20-数理统计.md"
               }
             }
           },
@@ -186,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,11 +199,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "7c81b960dd53d63a",
+  "active": "8c1b4113ef2e6458",
   "lastOpenFiles": [
+    "考研408/数据结构/DS08-排序.md",
+    "考研待办/政治-马原啰嗦.md",
     "附件/Pasted image 20231029153830.png",
     "附件/Pasted image 20231029153756.png",
-    "考研待办/政治-马原啰嗦.md",
     "附件/Pasted image 20231029153416.png",
     "考研数学/错题/C24-李林880补遗.md",
     "附件/Pasted image 20231029152733.png",
@@ -215,14 +214,12 @@
     "附件/Pasted image 20231029151232.png",
     "附件/Pasted image 20231029150936.png",
     "附件/Pasted image 20231029150810.png",
-    "附件/Pasted image 20231029150754.png",
     "考研数学/错题/C23-23李林四套卷.md",
     "考研408/操作系统/OSR01-操作系统复习.md",
     "考研408/操作系统/OS02-进程管理.md",
     "考研408/数据结构/DSR07-数据结构复习.md",
     "考研数学/错题/C21-数一真题专题.md",
     "考研数学/软饭/中值定理专题.md",
-    "考研408/数据结构/DS08-排序.md",
     "考研408/数据结构/DS07-查找.md",
     "考研数学/错题/C20-数理统计.md",
     "考研408/数据结构/DSR05-树和二叉树复盘.md",
