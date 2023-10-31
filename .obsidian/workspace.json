@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C23-23李林四套卷.md",
+                "file": "考研408/操作系统/OS02-进程管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机网络/CNR05-复习传输层.md",
+                "file": "考研408/操作系统/OS02-进程管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机网络/CNR05-复习传输层.md",
+                "file": "考研408/操作系统/OS02-进程管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机网络/CNR05-复习传输层.md"
+                "file": "考研408/操作系统/OS02-进程管理.md"
               }
             }
           },
@@ -199,8 +198,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "7c81b960dd53d63a",
+  "active": "4735e1a9d5084008",
   "lastOpenFiles": [
+    "考研408/操作系统/OSR01-操作系统复习.md",
+    "考研数学/错题/C23-23李林四套卷.md",
+    "考研408/计算机网络/CNR05-复习传输层.md",
     "考研待办/政治-马原啰嗦.md",
     "Java/SpringBoot/02-SpringBoot快速入门.md",
     "Java/SpringBoot/03-SpringBoot整合其他框架.md",
@@ -219,8 +221,6 @@
     "附件/Pasted image 20231029151232.png",
     "附件/Pasted image 20231029150936.png",
     "附件/Pasted image 20231029150810.png",
-    "考研数学/错题/C23-23李林四套卷.md",
-    "考研408/操作系统/OSR01-操作系统复习.md",
     "考研408/操作系统/OS02-进程管理.md",
     "考研408/数据结构/DSR07-数据结构复习.md",
     "考研数学/错题/C21-数一真题专题.md",
@@ -236,7 +236,6 @@
     "考研数学/错题/C14-二次型.md",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/错题/C12-线性方程组.md",
-    "考研数学/错题/C09-行列式.md",
     "yufa",
     "杂记",
     "考研408/操作系统",
