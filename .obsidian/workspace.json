@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机组成原理/CO03-存储系统.md",
+                "file": "考研数学/错题/C21-数一真题专题.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机组成原理/CO03-存储系统.md",
+                "file": "考研数学/错题/C21-数一真题专题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机组成原理/CO03-存储系统.md",
+                "file": "考研数学/错题/C21-数一真题专题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机组成原理/CO03-存储系统.md"
+                "file": "考研数学/错题/C21-数一真题专题.md"
               }
             }
           },
@@ -186,13 +186,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "4735e1a9d5084008",
+  "active": "ca3543a5a24243e3",
   "lastOpenFiles": [
+    "考研408/计算机组成原理/CO03-存储系统.md",
     "Linux/Hacks/Ubuntu版本号的别名.md",
     "考研数学/总结/Z08-微分方程.md",
     "考研数学/错题/C23-23李林四套卷.md",
     "考研408/计算机网络/CNR05-复习传输层.md",
-    "考研408/计算机组成原理/CO03-存储系统.md",
     "考研408/操作系统/OS02-进程管理.md",
     "考研408/操作系统/OSR01-操作系统复习.md",
     "考研待办/政治-马原啰嗦.md",
