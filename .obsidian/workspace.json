@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z17-多维随机变量及其分布.md",
+                "file": "考研数学/错题/C06-多元函数积分学.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z17-多维随机变量及其分布.md",
+                "file": "考研数学/错题/C06-多元函数积分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z17-多维随机变量及其分布.md",
+                "file": "考研数学/错题/C06-多元函数积分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z17-多维随机变量及其分布.md"
+                "file": "考研数学/错题/C06-多元函数积分学.md"
               }
             }
           },
@@ -225,6 +225,9 @@
   },
   "active": "8c1b4113ef2e6458",
   "lastOpenFiles": [
+    "考研数学/错题/C07-无穷级数.md",
+    "考研数学/总结/Z06-多元函数积分学.md",
+    "考研数学/总结/Z17-多维随机变量及其分布.md",
     "考研数学/总结/Z18-随机变量的数字特征.md",
     "Java/SpringBoot/02-SpringBoot快速入门.md",
     "Linux/Basics/Linux压缩和解压.md",
@@ -259,9 +262,6 @@
     "附件/Pasted image 20231029150936.png",
     "附件/Pasted image 20231029150810.png",
     "考研408/数据结构/DSR07-数据结构复习.md",
-    "考研数学/软饭/中值定理专题.md",
-    "考研408/数据结构/DS07-查找.md",
-    "考研数学/错题/C20-数理统计.md",
     "yufa",
     "杂记",
     "考研408/操作系统",
