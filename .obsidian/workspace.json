@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4735e1a9d5084008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Hacks/多版本GCC安装和共存.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a8af4f3d4d0fe19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Basics/Linux压缩和解压.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c26c676865d26eda",
             "type": "leaf",
             "state": {
@@ -68,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,6 +201,8 @@
   },
   "active": "8c1b4113ef2e6458",
   "lastOpenFiles": [
+    "Linux/Hacks/Ubuntu版本号的别名.md",
+    "考研数学/错题/C06-多元函数积分学.md",
     "考研数学/错题/C07-无穷级数.md",
     "考研数学/总结/Z06-多元函数积分学.md",
     "考研数学/总结/Z17-多维随机变量及其分布.md",
@@ -232,7 +210,6 @@
     "Java/SpringBoot/02-SpringBoot快速入门.md",
     "Linux/Basics/Linux压缩和解压.md",
     "Linux/Basics/Linux进程管理.md",
-    "Linux/Hacks/Ubuntu版本号的别名.md",
     "Linux/Hacks/建立并运行Docker容器.md",
     "Linux/Hacks/多版本GCC安装和共存.md",
     "Linux/Hacks/WSL安装CUDA.md",
@@ -261,7 +238,6 @@
     "附件/Pasted image 20231029151232.png",
     "附件/Pasted image 20231029150936.png",
     "附件/Pasted image 20231029150810.png",
-    "考研408/数据结构/DSR07-数据结构复习.md",
     "yufa",
     "杂记",
     "考研408/操作系统",
