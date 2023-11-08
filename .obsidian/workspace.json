@@ -25,26 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C24-李林880补遗.md",
+                "file": "考研数学/错题/C25-24李永乐六套卷.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "46ad7b6a3127620c",
+            "id": "6c1ccfaff62c77f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C25-24李永乐六套卷.md",
+                "file": "考研数学/总结/Z14-二次型.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,21 +199,30 @@
       "templates:插入模板": false
     }
   },
-  "active": "46ad7b6a3127620c",
+  "active": "cc2833fe2fe4594d",
   "lastOpenFiles": [
-    "附件/Pasted image 20231108002924.png",
-    "附件/Pasted image 20231107235514.png",
-    "附件/Pasted image 20231107233802.png",
-    "附件/Pasted image 20231107222947.png",
-    "附件/Pasted image 20231107214531.png",
-    "附件/Pasted image 20231107214449.png",
-    "附件/Pasted image 20231107214236.png",
-    "附件/Pasted image 20231107214204.png",
-    "附件/Pasted image 20231107214051.png",
-    "附件/Pasted image 20231107204816.png",
-    "附件/Pasted image 20231107204503.png",
-    "考研数学/错题/C21-数一真题专题.md",
+    "附件/Pasted image 20231108215215.png",
+    "附件/Pasted image 20231108215142.png",
+    "附件/Pasted image 20231108215127.png",
+    "附件/Pasted image 20231108215112.png",
+    "附件/Pasted image 20231108215054.png",
+    "附件/Pasted image 20231108214832.png",
+    "AI/图像分类笔记/03-AlexNet.md",
+    "AI/图像分类笔记/06-ResNet.md",
+    "AI/图像分类笔记/02-LeNet.md",
+    "AI/机器学习复习/10-集成学习.md",
+    "AI/机器学习复习/08-贝叶斯理论.md",
+    "AI/机器学习复习/07-支持向量机.md",
+    "AI/机器学习复习/05-神经网络.md",
+    "AI/机器学习复习/03-线性分类.md",
     "考研数学/错题/C25-24李永乐六套卷.md",
+    "附件/Pasted image 20231108214225.png",
+    "附件/Pasted image 20231108212716.png",
+    "附件/Pasted image 20231108211842.png",
+    "附件/Pasted image 20231108211444.png",
+    "考研数学/总结/Z14-二次型.md",
+    "附件/Pasted image 20231108205934.png",
+    "考研数学/错题/C21-数一真题专题.md",
     "考研数学/错题/C24-李林880补遗.md",
     "考研408/操作系统/OS05-IO管理.md",
     "考研待办/集百家之长.md",
@@ -228,16 +237,7 @@
     "Linux/Basics/Linux终端（WIP）.md",
     "Linux/Basics/Linux进程管理.md",
     "Linux/Hacks/Ubuntu版本号的别名.md",
-    "考研数学/错题/C07-无穷级数.md",
-    "考研数学/总结/Z06-多元函数积分学.md",
-    "考研数学/总结/Z17-多维随机变量及其分布.md",
-    "考研数学/总结/Z18-随机变量的数字特征.md",
-    "Java/SpringBoot/02-SpringBoot快速入门.md",
-    "Linux/Hacks/建立并运行Docker容器.md",
-    "Linux/Hacks/多版本GCC安装和共存.md",
-    "Linux/Hacks/WSL安装CUDA.md",
     "Linux/Basics",
-    "考研408/计算机组成原理/CO03-存储系统.md",
     "yufa",
     "杂记",
     "考研408/操作系统",
