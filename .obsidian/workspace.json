@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z14-二次型.md",
+                "file": "考研数学/总结/Z06-多元函数积分学.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C25-24李永乐六套卷.md",
+                "file": "考研数学/总结/Z06-多元函数积分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C25-24李永乐六套卷.md",
+                "file": "考研数学/总结/Z06-多元函数积分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C25-24李永乐六套卷.md"
+                "file": "考研数学/总结/Z06-多元函数积分学.md"
               }
             }
           },
@@ -199,8 +199,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "cc2833fe2fe4594d",
+  "active": "6c1ccfaff62c77f6",
   "lastOpenFiles": [
+    "考研数学/总结/Z14-二次型.md",
+    "考研数学/错题/C25-24李永乐六套卷.md",
     "附件/Pasted image 20231108215215.png",
     "附件/Pasted image 20231108215142.png",
     "附件/Pasted image 20231108215127.png",
@@ -215,13 +217,10 @@
     "AI/机器学习复习/07-支持向量机.md",
     "AI/机器学习复习/05-神经网络.md",
     "AI/机器学习复习/03-线性分类.md",
-    "考研数学/错题/C25-24李永乐六套卷.md",
     "附件/Pasted image 20231108214225.png",
     "附件/Pasted image 20231108212716.png",
     "附件/Pasted image 20231108211842.png",
     "附件/Pasted image 20231108211444.png",
-    "考研数学/总结/Z14-二次型.md",
-    "附件/Pasted image 20231108205934.png",
     "考研数学/错题/C21-数一真题专题.md",
     "考研数学/错题/C24-李林880补遗.md",
     "考研408/操作系统/OS05-IO管理.md",
