@@ -25,19 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/总结/Z07-无穷级数.md",
+                "file": "考研数学/错题/C03-一元函数积分学.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "543270042f810eb7",
+            "id": "3674c44d01dc888c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C25-24李永乐六套卷.md",
+                "file": "考研待办/政治-材料分析题.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/总结/Z07-无穷级数.md",
+                "file": "考研待办/政治-材料分析题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/总结/Z07-无穷级数.md",
+                "file": "考研待办/政治-材料分析题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/总结/Z07-无穷级数.md"
+                "file": "考研待办/政治-材料分析题.md"
               }
             }
           },
@@ -211,44 +211,44 @@
       "templates:插入模板": false
     }
   },
-  "active": "cc2833fe2fe4594d",
+  "active": "3674c44d01dc888c",
   "lastOpenFiles": [
+    "附件/Pasted image 20231111215644.png",
+    "附件/Pasted image 20231111215619.png",
+    "附件/Pasted image 20231111215602.png",
+    "附件/Pasted image 20231111215551.png",
+    "附件/Pasted image 20231111215522.png",
+    "附件/Pasted image 20231111215318.png",
+    "附件/Pasted image 20231111215225.png",
+    "附件/Pasted image 20231111214903.png",
+    "附件/Pasted image 20231111214637.png",
+    "附件/Pasted image 20231111214428.png",
+    "附件/Pasted image 20231111213834.png",
+    "考研数学/错题/C03-一元函数积分学.md",
+    "考研数学/错题/C06-多元函数积分学.md",
+    "Linux/Basics/Linux压缩和解压.md",
+    "Linux/Basics/Linux进程管理.md",
+    "Linux/Basics/Linux终端（WIP）.md",
+    "Linux/Basics/Linux外存和文件管理（WIP）.md",
+    "考研数学/总结/Z07-无穷级数.md",
+    "考研待办/复试问题.md",
+    "考研待办/政治-材料分析题.md",
+    "考研数学/错题/C21-数一真题专题.md",
+    "考研数学/错题/C04-向量代数与空间解析几何.md",
+    "考研数学/总结/Z14-二次型.md",
+    "考研数学/总结/Z13-特征值与特征向量.md",
+    "考研数学/错题/C25-24李永乐六套卷.md",
+    "考研数学/错题/C26-24张宇八套卷.md",
     "考研数学/总结/Z08-微分方程.md",
     "考研数学/总结/ZR01-高等数学公式和结论.md",
-    "考研数学/错题/C26-24张宇八套卷.md",
-    "考研数学/错题/C25-24李永乐六套卷.md",
     "考研数学/错题/C24-李林880补遗.md",
     "考研数学/错题/C23-23李林四套卷.md",
     "考研数学/错题/C22-23李林六套卷.md",
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/错题/C10-矩阵.md",
     "考研数学/总结/Z06-多元函数积分学.md",
-    "考研数学/总结/Z14-二次型.md",
-    "附件/Pasted image 20231108215215.png",
-    "附件/Pasted image 20231108215142.png",
-    "附件/Pasted image 20231108215127.png",
-    "附件/Pasted image 20231108215112.png",
-    "附件/Pasted image 20231108215054.png",
-    "附件/Pasted image 20231108214832.png",
     "AI/图像分类笔记/03-AlexNet.md",
     "AI/图像分类笔记/06-ResNet.md",
-    "AI/图像分类笔记/02-LeNet.md",
-    "AI/机器学习复习/10-集成学习.md",
-    "AI/机器学习复习/08-贝叶斯理论.md",
-    "AI/机器学习复习/07-支持向量机.md",
-    "AI/机器学习复习/05-神经网络.md",
-    "AI/机器学习复习/03-线性分类.md",
-    "附件/Pasted image 20231108214225.png",
-    "附件/Pasted image 20231108212716.png",
-    "附件/Pasted image 20231108211842.png",
-    "附件/Pasted image 20231108211444.png",
-    "考研数学/错题/C21-数一真题专题.md",
-    "考研408/操作系统/OS05-IO管理.md",
-    "考研待办/集百家之长.md",
-    "考研待办/复试问题.md",
-    "Linux/Basics/Linux压缩和解压.md",
-    "考研数学/错题/C06-多元函数积分学.md",
-    "考研待办/政治-新思想放电.md",
     "Linux/Basics",
     "yufa",
     "杂记",
