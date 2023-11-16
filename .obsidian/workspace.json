@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Basics/Linux压缩和解压.md",
+                "file": "考研408/计算机网络/CNR03-复习数据链路层.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研待办/政治-材料分析题.md",
+                "file": "考研数学/错题/C26-24张宇八套卷.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研待办/政治-材料分析题.md",
+                "file": "考研数学/错题/C26-24张宇八套卷.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研待办/政治-材料分析题.md"
+                "file": "考研数学/错题/C26-24张宇八套卷.md"
               }
             }
           },
@@ -211,8 +211,14 @@
       "templates:插入模板": false
     }
   },
-  "active": "2d6a66faa8496f17",
+  "active": "11b4cf0f6ef9f8c9",
   "lastOpenFiles": [
+    "附件/Pasted image 20231116232943.png",
+    "附件/Pasted image 20231116232616.png",
+    "考研408/计算机网络/CNR03-复习数据链路层.md",
+    "Linux/Basics/Linux压缩和解压.md",
+    "考研数学/错题/C26-24张宇八套卷.md",
+    "考研待办/政治-材料分析题.md",
     "附件/Pasted image 20231114164755.png",
     "附件/Pasted image 20231114164742.png",
     "附件/Pasted image 20231114164654.png",
@@ -222,14 +228,9 @@
     "附件/Pasted image 20231114164534.png",
     "附件/Pasted image 20231114164510.png",
     "附件/Pasted image 20231114164155.png",
-    "附件/Pasted image 20231114164132.png",
-    "附件/Pasted image 20231114164013.png",
-    "考研数学/错题/C26-24张宇八套卷.md",
     "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/总结/Z02-一元函数微分学.md",
-    "考研待办/政治-材料分析题.md",
     "考研数学/错题/C06-多元函数积分学.md",
-    "Linux/Basics/Linux压缩和解压.md",
     "Linux/Basics/Linux进程管理.md",
     "Linux/Basics/Linux终端（WIP）.md",
     "Linux/Basics/Linux外存和文件管理（WIP）.md",
@@ -248,7 +249,6 @@
     "考研数学/错题/C13-特征值与特征向量.md",
     "考研数学/错题/C10-矩阵.md",
     "考研数学/总结/Z06-多元函数积分学.md",
-    "AI/图像分类笔记/03-AlexNet.md",
     "Linux/Basics",
     "yufa",
     "杂记",
