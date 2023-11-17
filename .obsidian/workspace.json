@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C26-24张宇八套卷.md",
+                "file": "考研数学/错题/C04-向量代数与空间解析几何.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研待办/政治-材料分析题.md",
+                "file": "考研数学/总结/Z20-数理统计.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C26-24张宇八套卷.md",
+                "file": "考研数学/错题/C04-向量代数与空间解析几何.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C26-24张宇八套卷.md",
+                "file": "考研数学/错题/C04-向量代数与空间解析几何.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C26-24张宇八套卷.md"
+                "file": "考研数学/错题/C04-向量代数与空间解析几何.md"
               }
             }
           },
@@ -213,22 +213,24 @@
   },
   "active": "11b4cf0f6ef9f8c9",
   "lastOpenFiles": [
+    "考研数学/错题/C03-一元函数积分学.md",
+    "考研数学/错题/C02-一元函数微分学.md",
+    "考研数学/错题/C01-函数、极限、连续.md",
+    "考研数学/错题/C26-24张宇八套卷.md",
+    "附件/Pasted image 20231117093210.png",
+    "附件/Pasted image 20231117000833.png",
+    "附件/Pasted image 20231117000454.png",
+    "附件/Pasted image 20231116235220.png",
+    "附件/Pasted image 20231116234946.png",
+    "附件/Pasted image 20231116234634.png",
+    "考研数学/总结/Z20-数理统计.md",
+    "考研待办/政治-材料分析题.md",
     "附件/Pasted image 20231116233743.png",
     "附件/Pasted image 20231116232943.png",
     "附件/Pasted image 20231116232616.png",
     "考研408/计算机网络/CNR03-复习数据链路层.md",
     "Linux/Basics/Linux压缩和解压.md",
-    "考研数学/错题/C26-24张宇八套卷.md",
-    "考研待办/政治-材料分析题.md",
     "附件/Pasted image 20231114164755.png",
-    "附件/Pasted image 20231114164742.png",
-    "附件/Pasted image 20231114164654.png",
-    "附件/Pasted image 20231114164642.png",
-    "附件/Pasted image 20231114164608.png",
-    "附件/Pasted image 20231114164602.png",
-    "附件/Pasted image 20231114164534.png",
-    "附件/Pasted image 20231114164510.png",
-    "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/总结/Z02-一元函数微分学.md",
     "考研数学/错题/C06-多元函数积分学.md",
     "Linux/Basics/Linux进程管理.md",
@@ -247,8 +249,6 @@
     "考研数学/错题/C23-23李林四套卷.md",
     "考研数学/错题/C22-23李林六套卷.md",
     "考研数学/错题/C13-特征值与特征向量.md",
-    "考研数学/错题/C10-矩阵.md",
-    "考研数学/总结/Z06-多元函数积分学.md",
     "Linux/Basics",
     "yufa",
     "杂记",
