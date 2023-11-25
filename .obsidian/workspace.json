@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机组成原理/CO04-指令系统.md",
+                "file": "考研408/操作系统/OS03-内存管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机组成原理/CO04-指令系统.md",
+                "file": "考研408/操作系统/OS03-内存管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机组成原理/CO04-指令系统.md",
+                "file": "考研408/操作系统/OS03-内存管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机组成原理/CO04-指令系统.md"
+                "file": "考研408/操作系统/OS03-内存管理.md"
               }
             }
           },
@@ -188,6 +188,8 @@
   },
   "active": "856d48e1650474a9",
   "lastOpenFiles": [
+    "考研408/操作系统/OS02-进程管理.md",
+    "考研408/计算机组成原理/CO04-指令系统.md",
     "考研408/计算机组成原理/CO05-中央处理器.md",
     "考研408/计算机网络/CNR02-复习物理层.md",
     "考研数学/软饭/武忠祥每日一题-强化.md",
@@ -212,7 +214,6 @@
     "考研数学/错题/C03-一元函数积分学.md",
     "考研数学/错题/C04-向量代数与空间解析几何.md",
     "考研数学/总结/Z20-数理统计.md",
-    "考研408/操作系统/OS02-进程管理.md",
     "考研数学/错题/C02-一元函数微分学.md",
     "考研数学/错题/C01-函数、极限、连续.md",
     "考研待办/政治-材料分析题.md",
@@ -223,7 +224,6 @@
     "考研数学/总结/Z07-无穷级数.md",
     "考研待办/复试问题.md",
     "考研数学/错题/C21-数一真题专题.md",
-    "考研数学/总结/Z14-二次型.md",
     "Linux/Basics",
     "yufa",
     "杂记",
