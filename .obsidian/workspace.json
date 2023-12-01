@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C27-24合工大超越.md",
+                "file": "考研英语/作文/2013英一作文.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C27-24合工大超越.md",
+                "file": "考研英语/作文/2013英一作文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C27-24合工大超越.md",
+                "file": "考研英语/作文/2013英一作文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C27-24合工大超越.md"
+                "file": "考研英语/作文/2013英一作文.md"
               }
             }
           },
@@ -201,24 +201,25 @@
   },
   "active": "37ee0185bf1e0c5d",
   "lastOpenFiles": [
+    "考研待办/到考前的全部规划.md",
+    "考研英语/作文/2013英一作文.md",
+    "考研数学/错题/C26-24张宇八套卷.md",
+    "考研数学/错题/C27-24合工大超越.md",
     "附件/Pasted image 20231129221704.png",
     "附件/Pasted image 20231129221151.png",
     "附件/Pasted image 20231129220436.png",
     "附件/Pasted image 20231129214543.png",
-    "考研待办/到考前的全部规划.md",
     "考研待办/一些怪谈.md",
     "考研待办/!-doctrine.md",
     "考研数学/错题/C19-大数定律与中心极限定理.md",
     "考研数学/错题/C18-随机变量的数字特征.md",
     "考研数学/错题/C20-数理统计.md",
-    "考研数学/错题/C27-24合工大超越.md",
     "附件/Pasted image 20231129212731.png",
     "附件/Pasted image 20231129211701.png",
     "附件/Pasted image 20231129211250.png",
     "附件/Pasted image 20231129210900.png",
     "附件/Pasted image 20231129210014.png",
     "附件/Pasted image 20231129205457.png",
-    "附件/Pasted image 20231129205434.png",
     "考研数学/错题/C21-数一真题专题.md",
     "考研408/计算机网络/CNR06-复习应用层.md",
     "考研408/计算机网络/CN05-传输层.md",
@@ -236,7 +237,6 @@
     "考研数学/错题/C15-随机事件和概率.md",
     "考研数学/错题/C14-二次型.md",
     "考研数学/错题/C13-特征值与特征向量.md",
-    "考研数学/错题/C12-线性方程组.md",
     "考研408/408三轮",
     "Linux/Basics",
     "yufa",
