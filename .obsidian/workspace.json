@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md",
+                "file": "考研数学/错题/C26-24张宇八套卷.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md",
+                "file": "考研数学/错题/C26-24张宇八套卷.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md"
+                "file": "考研数学/错题/C26-24张宇八套卷.md"
               }
             }
           },
@@ -211,8 +211,9 @@
       "templates:插入模板": false
     }
   },
-  "active": "a6432b0b819323cf",
+  "active": "e3dd22f2f2e69c75",
   "lastOpenFiles": [
+    "考研408/计算机组成原理/CO02-数据的表示和运算.md",
     "考研408/计算机组成原理/CO07-输入输出系统.md",
     "考研408/计算机组成原理/CO06-总线.md",
     "考研408/计算机组成原理/CO04-指令系统.md",
@@ -233,7 +234,6 @@
     "考研数学/错题/C04-向量代数与空间解析几何.md",
     "考研数学/错题/C22-23李林六套卷.md",
     "考研数学/错题/C24-李林880补遗.md",
-    "考研408/计算机组成原理/CO02-数据的表示和运算.md",
     "考研数学/总结/Z17-多维随机变量及其分布.md",
     "考研待办/到考前的全部规划.md",
     "考研408/计算机网络/CN02-物理层.md",
