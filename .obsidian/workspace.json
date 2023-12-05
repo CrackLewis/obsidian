@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C27-24合工大超越.md",
+                "file": "考研408/408三轮/三轮数据结构.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3dd22f2f2e69c75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研数学/错题/C26-24张宇八套卷.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6432b0b819323cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C27-24合工大超越.md",
+                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C27-24合工大超越.md",
+                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C27-24合工大超越.md"
+                "file": "考研408/计算机组成原理/CO02-数据的表示和运算.md"
               }
             }
           },
@@ -187,12 +211,18 @@
       "templates:插入模板": false
     }
   },
-  "active": "fb9358f831faacf9",
+  "active": "a6432b0b819323cf",
   "lastOpenFiles": [
+    "考研408/计算机组成原理/CO07-输入输出系统.md",
+    "考研408/计算机组成原理/CO06-总线.md",
+    "考研408/计算机组成原理/CO04-指令系统.md",
+    "考研408/计算机组成原理/CO03-存储系统.md",
     "考研数学/错题/C26-24张宇八套卷.md",
+    "考研数学/错题/C25-24李永乐六套卷.md",
+    "考研408/408三轮/三轮数据结构.md",
+    "考研408/408三轮/三轮操作系统.md",
     "考研数学/错题/C27-24合工大超越.md",
     "考研数学/软饭/武忠祥每日一题-强化.md",
-    "考研数学/错题/C25-24李永乐六套卷.md",
     "考研数学/错题/C02-一元函数微分学.md",
     "考研数学/错题/C29-模拟卷复刷错题汇总.md",
     "考研数学/错题/C23-23李林四套卷.md",
@@ -209,16 +239,10 @@
     "考研408/计算机网络/CN02-物理层.md",
     "考研408/计算机网络/CN01-计算机网络体系结构.md",
     "考研408/数据结构/DS05-树和二叉树.md",
-    "考研408/数据结构/DS06-图.md",
-    "考研数学/错题/C17-多维随机变量及其分布.md",
-    "考研数学/总结/Z18-随机变量的数字特征.md",
-    "考研英语/作文/2013英一作文.md",
     "附件/Pasted image 20231129221704.png",
     "附件/Pasted image 20231129221151.png",
     "附件/Pasted image 20231129220436.png",
     "附件/Pasted image 20231129214543.png",
-    "考研待办/一些怪谈.md",
-    "考研待办/!-doctrine.md",
     "附件/Pasted image 20231129212731.png",
     "附件/Pasted image 20231129211701.png",
     "附件/Pasted image 20231129211250.png",
