@@ -32,31 +32,19 @@
             }
           },
           {
-            "id": "a6432b0b819323cf",
+            "id": "85c5b96ec766793b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研待办/政治-新思想放电.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f67bfb8880aee62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研待办/政治-曲艺分析题背记.md",
+                "file": "考研408/408三轮/三轮计组.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研待办/政治-曲艺分析题背记.md",
+                "file": "考研408/408三轮/三轮计组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研待办/政治-曲艺分析题背记.md",
+                "file": "考研408/408三轮/三轮计组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研待办/政治-曲艺分析题背记.md"
+                "file": "考研408/408三轮/三轮计组.md"
               }
             }
           },
@@ -211,12 +199,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "4f67bfb8880aee62",
+  "active": "85c5b96ec766793b",
   "lastOpenFiles": [
+    "考研408/408三轮/三轮数据结构.md",
+    "考研408/408三轮/三轮计组.md",
     "考研待办/政治-新思想放电.md",
     "考研待办/政治-曲艺分析题背记.md",
     "考研408/计算机组成原理/CO02-数据的表示和运算.md",
-    "考研408/408三轮/三轮数据结构.md",
     "LaTeX/Beamer幻灯片制作.md",
     "考研数学/错题/C26-24张宇八套卷.md",
     "Cpp/Cpp标准库/格式化库.md",
@@ -238,7 +227,6 @@
     "考研数学/错题/C04-向量代数与空间解析几何.md",
     "考研数学/错题/C22-23李林六套卷.md",
     "考研数学/错题/C24-李林880补遗.md",
-    "考研数学/总结/Z17-多维随机变量及其分布.md",
     "附件/Pasted image 20231129221704.png",
     "附件/Pasted image 20231129221151.png",
     "附件/Pasted image 20231129220436.png",
