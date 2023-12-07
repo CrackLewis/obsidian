@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
+            "id": "6c12e29246621d89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研待办/肖四.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "311ee292e88ea128",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C27-24合工大超越.md",
+                "file": "考研数学/错题/C04-向量代数与空间解析几何.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/408三轮/三轮数据结构.md",
+                "file": "考研408/操作系统/OS05-IO管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,19 +56,19 @@
             }
           },
           {
-            "id": "366c50cb2c2a1c69",
+            "id": "5d1208d6023349fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机组成原理/CO05-中央处理器.md",
+                "file": "考研待办/政治-马原啰嗦.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/计算机组成原理/CO05-中央处理器.md",
+                "file": "考研数学/错题/C04-向量代数与空间解析几何.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/计算机组成原理/CO05-中央处理器.md",
+                "file": "考研数学/错题/C04-向量代数与空间解析几何.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/计算机组成原理/CO05-中央处理器.md"
+                "file": "考研数学/错题/C04-向量代数与空间解析几何.md"
               }
             }
           },
@@ -211,44 +223,44 @@
       "templates:插入模板": false
     }
   },
-  "active": "366c50cb2c2a1c69",
+  "active": "311ee292e88ea128",
   "lastOpenFiles": [
-    "考研408/408三轮/三轮计组.md",
+    "考研数学/错题/C01-函数、极限、连续.md",
+    "考研数学/错题/C27-24合工大超越.md",
+    "考研待办/肖四.md",
+    "附件/Pasted image 20231207192659.png",
+    "附件/Pasted image 20231207192621.png",
+    "附件/Pasted image 20231207192607.png",
+    "附件/Pasted image 20231207192529.png",
+    "附件/Pasted image 20231207192504.png",
+    "附件/Pasted image 20231207192451.png",
+    "附件/Pasted image 20231207192427.png",
+    "附件/Pasted image 20231207192146.png",
+    "附件/Pasted image 20231207192130.png",
+    "附件/Pasted image 20231207192056.png",
+    "考研待办/政治-马原啰嗦.md",
+    "考研408/计算机网络/CNR03-复习数据链路层.md",
+    "考研408/操作系统/OS05-IO管理.md",
+    "考研408/计算机组成原理/CO03-存储系统.md",
     "考研408/408三轮/三轮数据结构.md",
+    "考研408/408三轮/三轮计组.md",
+    "考研408/408三轮/三轮计网.md",
+    "考研408/408三轮/王道模拟卷总结.md",
+    "考研408/计算机组成原理/CO07-输入输出系统.md",
+    "考研408/计算机组成原理/CO06-总线.md",
+    "考研408/计算机组成原理/CO05-中央处理器.md",
+    "考研408/计算机组成原理/CO04-指令系统.md",
     "考研待办/政治-新思想放电.md",
     "考研待办/政治-曲艺分析题背记.md",
     "考研408/计算机组成原理/CO02-数据的表示和运算.md",
     "LaTeX/Beamer幻灯片制作.md",
     "考研数学/错题/C26-24张宇八套卷.md",
     "Cpp/Cpp标准库/格式化库.md",
-    "考研408/计算机组成原理/CO07-输入输出系统.md",
-    "考研408/计算机组成原理/CO06-总线.md",
-    "考研408/计算机组成原理/CO04-指令系统.md",
-    "考研408/计算机组成原理/CO03-存储系统.md",
     "考研数学/错题/C25-24李永乐六套卷.md",
     "考研408/408三轮/三轮操作系统.md",
-    "考研数学/错题/C27-24合工大超越.md",
     "考研数学/软饭/武忠祥每日一题-强化.md",
     "考研数学/错题/C02-一元函数微分学.md",
     "考研数学/错题/C29-模拟卷复刷错题汇总.md",
-    "考研数学/错题/C23-23李林四套卷.md",
-    "考研数学/错题/C05-多元函数微分学.md",
-    "考研数学/错题/C06-多元函数积分学.md",
-    "考研数学/错题/C07-无穷级数.md",
-    "考研数学/错题/C08-微分方程.md",
-    "考研数学/错题/C04-向量代数与空间解析几何.md",
-    "考研数学/错题/C22-23李林六套卷.md",
-    "考研数学/错题/C24-李林880补遗.md",
-    "附件/Pasted image 20231129221704.png",
-    "附件/Pasted image 20231129221151.png",
-    "附件/Pasted image 20231129220436.png",
-    "附件/Pasted image 20231129214543.png",
-    "附件/Pasted image 20231129212731.png",
-    "附件/Pasted image 20231129211701.png",
-    "附件/Pasted image 20231129211250.png",
-    "附件/Pasted image 20231129210900.png",
-    "附件/Pasted image 20231129210014.png",
-    "附件/Pasted image 20231129205457.png",
     "考研408/408三轮",
     "Linux/Basics",
     "yufa",
