@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6c12e29246621d89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研待办/肖四.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fb9358f831faacf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "考研408/操作系统/OS05-IO管理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bd59fd65b6d0cdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatGPT/GPT提问技巧.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研待办/肖四.md",
+                "file": "ChatGPT/GPT提问技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研待办/肖四.md",
+                "file": "ChatGPT/GPT提问技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研待办/肖四.md"
+                "file": "ChatGPT/GPT提问技巧.md"
               }
             }
           },
@@ -211,13 +211,15 @@
       "templates:插入模板": false
     }
   },
-  "active": "6c12e29246621d89",
+  "active": "6bd59fd65b6d0cdf",
   "lastOpenFiles": [
-    "考研数学/错题/C08-微分方程.md",
+    "考研408/操作系统/OS05-IO管理.md",
+    "ChatGPT/GPT提问技巧.md",
+    "ChatGPT",
     "考研待办/肖四.md",
+    "考研数学/错题/C08-微分方程.md",
     "考研数学/错题/C26-24张宇八套卷.md",
     "考研408/计算机组成原理/CO03-存储系统.md",
-    "考研408/操作系统/OS05-IO管理.md",
     "考研408/408三轮/三轮计组.md",
     "考研数学/错题/C24-李林880补遗.md",
     "考研数学/错题/C25-24李永乐六套卷.md",
@@ -248,7 +250,6 @@
     "考研408/计算机组成原理/CO06-总线.md",
     "考研408/计算机组成原理/CO05-中央处理器.md",
     "考研408/计算机组成原理/CO04-指令系统.md",
-    "考研待办/政治-新思想放电.md",
     "考研408/408三轮",
     "Linux/Basics",
     "yufa",
@@ -257,7 +258,6 @@
     "考研英语/作文",
     "考研408/计算机组成原理",
     "考研数学/背记",
-    "暑期实习",
-    "考研英语"
+    "暑期实习"
   ]
 }
