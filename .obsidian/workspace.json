@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "6bd59fd65b6d0cdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ChatGPT/GPT提问技巧.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85c5b96ec766793b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研408/408三轮/三轮计组.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5d1208d6023349fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/计算机组成原理/CO03-存储系统.md",
+                "file": "考研待办/到考前的全部规划.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ChatGPT/GPT提问技巧.md",
+                "file": "考研待办/到考前的全部规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ChatGPT/GPT提问技巧.md",
+                "file": "考研待办/到考前的全部规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChatGPT/GPT提问技巧.md"
+                "file": "考研待办/到考前的全部规划.md"
               }
             }
           },
@@ -211,16 +187,18 @@
       "templates:插入模板": false
     }
   },
-  "active": "6bd59fd65b6d0cdf",
+  "active": "5d1208d6023349fe",
   "lastOpenFiles": [
-    "考研408/操作系统/OS05-IO管理.md",
+    "考研408/计算机网络/CNR05-复习传输层.md",
+    "考研408/计算机网络/CNR04-复习网络层.md",
+    "考研408/计算机组成原理/CO03-存储系统.md",
     "ChatGPT/GPT提问技巧.md",
+    "考研408/408三轮/三轮计组.md",
+    "考研408/操作系统/OS05-IO管理.md",
     "ChatGPT",
     "考研待办/肖四.md",
     "考研数学/错题/C08-微分方程.md",
     "考研数学/错题/C26-24张宇八套卷.md",
-    "考研408/计算机组成原理/CO03-存储系统.md",
-    "考研408/408三轮/三轮计组.md",
     "考研数学/错题/C24-李林880补遗.md",
     "考研数学/错题/C25-24李永乐六套卷.md",
     "考研数学/错题/C23-23李林四套卷.md",
@@ -248,8 +226,6 @@
     "考研408/408三轮/王道模拟卷总结.md",
     "考研408/计算机组成原理/CO07-输入输出系统.md",
     "考研408/计算机组成原理/CO06-总线.md",
-    "考研408/计算机组成原理/CO05-中央处理器.md",
-    "考研408/计算机组成原理/CO04-指令系统.md",
     "考研408/408三轮",
     "Linux/Basics",
     "yufa",
