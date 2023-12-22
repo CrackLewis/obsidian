@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研408/数据结构/DS07-查找.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研408/数据结构/DS07-查找.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研408/数据结构/DS07-查找.md",
+                "file": "考研数学/错题/C02-一元函数微分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研408/数据结构/DS07-查找.md"
+                "file": "考研数学/错题/C02-一元函数微分学.md"
               }
             }
           },
@@ -225,6 +225,7 @@
   },
   "active": "a482aff15f24c4ec",
   "lastOpenFiles": [
+    "考研408/数据结构/DS07-查找.md",
     "考研408/数据结构/DS07A-手玩AVL.md",
     "考研数学/总结/Z08-微分方程.md",
     "考研数学/错题/C21-数一真题专题.md",
@@ -250,7 +251,6 @@
     "考研408/408三轮/三轮数据结构.md",
     "考研待办/肖四.md",
     "考研408/操作系统/OS05-IO管理.md",
-    "考研408/计算机组成原理/CO03-存储系统.md",
     "ChatGPT",
     "附件/Pasted image 20231207192659.png",
     "附件/Pasted image 20231207192621.png",
