@@ -54,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a482aff15f24c4ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md",
+                "file": "考研数学/错题/C21-数一真题专题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md",
+                "file": "考研数学/错题/C21-数一真题专题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C02-一元函数微分学.md"
+                "file": "考研数学/错题/C21-数一真题专题.md"
               }
             }
           },
@@ -223,8 +211,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "a482aff15f24c4ec",
+  "active": "9655e752ae6a2be6",
   "lastOpenFiles": [
+    "考研数学/错题/C06-多元函数积分学.md",
+    "考研408/计算机组成原理/CO04-指令系统.md",
+    "考研408/计算机组成原理/CO03-存储系统.md",
+    "考研数学/错题/C02-一元函数微分学.md",
     "考研408/数据结构/DS07-查找.md",
     "考研408/数据结构/DS07A-手玩AVL.md",
     "考研数学/总结/Z08-微分方程.md",
@@ -247,10 +239,6 @@
     "考研408/计算机网络/CNR04-复习网络层.md",
     "考研408/计算机网络/CNR02-复习物理层.md",
     "考研408/计算机网络/CNR01-复习计网体系.md",
-    "考研408/操作系统/OS04-文件管理.md",
-    "考研408/408三轮/三轮数据结构.md",
-    "考研待办/肖四.md",
-    "考研408/操作系统/OS05-IO管理.md",
     "ChatGPT",
     "附件/Pasted image 20231207192659.png",
     "附件/Pasted image 20231207192621.png",
