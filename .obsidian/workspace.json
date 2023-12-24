@@ -8,55 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fb9358f831faacf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研408/操作系统/OS05-IO管理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d1208d6023349fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研待办/到考前的全部规划.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c145dbc6c7b6d1e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考研408/计算机组成原理/CO05-中央处理器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9655e752ae6a2be6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研数学/错题/C21-数一真题专题.md",
+                "file": "!技能清单.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84b2b4b62992340c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Basics/Linux外存和文件管理.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研数学/错题/C21-数一真题专题.md",
+                "file": "Linux/Basics/Linux外存和文件管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研数学/错题/C21-数一真题专题.md",
+                "file": "Linux/Basics/Linux外存和文件管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研数学/错题/C21-数一真题专题.md"
+                "file": "Linux/Basics/Linux外存和文件管理.md"
               }
             }
           },
@@ -197,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,35 +188,44 @@
       "templates:插入模板": false
     }
   },
-  "active": "9655e752ae6a2be6",
+  "active": "84b2b4b62992340c",
   "lastOpenFiles": [
-    "考研数学/错题/C06-多元函数积分学.md",
-    "考研408/计算机组成原理/CO04-指令系统.md",
-    "考研408/计算机组成原理/CO03-存储系统.md",
-    "考研数学/错题/C02-一元函数微分学.md",
-    "考研408/数据结构/DS07-查找.md",
-    "考研408/数据结构/DS07A-手玩AVL.md",
-    "考研数学/总结/Z08-微分方程.md",
-    "考研数学/错题/C21-数一真题专题.md",
-    "考研数学/错题/C29-模拟卷复刷错题汇总.md",
-    "考研数学/错题/C26-24张宇八套卷.md",
-    "考研数学/错题/C27-24合工大超越.md",
-    "考研数学/错题/C25-24李永乐六套卷.md",
-    "考研数学/错题/C24-李林880补遗.md",
-    "考研数学/错题/C23-23李林四套卷.md",
-    "考研数学/错题/C22-23李林六套卷.md",
-    "考研408/计算机组成原理/CO05-中央处理器.md",
-    "考研408/计算机组成原理/CO07-输入输出系统.md",
-    "考研待办/到考前的全部规划.md",
-    "考研408/计算机网络/CNS02-协议和缩写.md",
-    "考研408/计算机网络/CNS01-真题考情和重点.md",
-    "考研408/计算机网络/CNR06-复习应用层.md",
-    "考研408/计算机网络/CNR05-复习传输层.md",
-    "考研408/计算机网络/CNR03-复习数据链路层.md",
-    "考研408/计算机网络/CNR04-复习网络层.md",
-    "考研408/计算机网络/CNR02-复习物理层.md",
-    "考研408/计算机网络/CNR01-复习计网体系.md",
-    "ChatGPT",
+    "!到复试的全部学习计划.md",
+    "!技能清单.md",
+    "附件/Pasted image 20231224220128.png",
+    "!DDL.md",
+    "杂项/Unity3D/02-Unity3D项目搭建.md",
+    "杂项/Unity3D/01-Unity3D项目速成.md",
+    "杂项/Unity3D",
+    "杂项/UML/类图.md",
+    "杂项/UML/时序图.md",
+    "杂项/UML",
+    "后端/CMake/CMake入门.md",
+    "后端/CMake",
+    "编程语言/Rust/01-Rust基础语法.md",
+    "编程语言/Rust/00-Rust入门.md",
+    "编程语言/Rust",
+    "编程语言/Python/Flask/02-Flask基础.md",
+    "编程语言/Python/Flask/01A-Flask有关的依赖列表.md",
+    "编程语言/Python/Dash/01-Dash Briefing.md",
+    "编程语言/Python/Flask/01-Flask简介和基本配置.md",
+    "编程语言/Python/Dash",
+    "编程语言/Python/Flask",
+    "编程语言/Python",
+    "编程语言/JavaScript/Node.js/B-notefs.js",
+    "编程语言/JavaScript/Node.js/@-basics.js",
+    "编程语言/JavaScript/Node.js/06-express模块.md",
+    "编程语言/JavaScript/Node.js/05-npm与包.md",
+    "编程语言/JavaScript/Node.js/04-模块化.md",
+    "编程语言/JavaScript/Node.js/03-http模块初步.md",
+    "编程语言/JavaScript/Node.js/02-path路径模块.md",
+    "编程语言/JavaScript/Node.js/01-fs文件模块.md",
+    "编程语言/JavaScript/@-JS基础/008-JavaScript HTML DOM.md",
+    "编程语言/JavaScript/@-JS基础/009-JavaScript Browser BOM.md",
+    "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
+    "编程语言/JavaScript/@-JS基础/006-JavaScript函数.md",
+    "编程语言/JavaScript/@-JS基础/005-JavaScript JSON.md",
+    "编程语言/JavaScript/Node.js",
     "附件/Pasted image 20231207192659.png",
     "附件/Pasted image 20231207192621.png",
     "附件/Pasted image 20231207192607.png",
@@ -248,16 +234,6 @@
     "附件/Pasted image 20231207192451.png",
     "附件/Pasted image 20231207192427.png",
     "附件/Pasted image 20231207192146.png",
-    "附件/Pasted image 20231207192130.png",
-    "附件/Pasted image 20231207192056.png",
-    "考研408/408三轮",
-    "Linux/Basics",
-    "yufa",
-    "杂记",
-    "考研408/操作系统",
-    "考研英语/作文",
-    "考研408/计算机组成原理",
-    "考研数学/背记",
-    "暑期实习"
+    "附件/Pasted image 20231207192130.png"
   ]
 }
