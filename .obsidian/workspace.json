@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aac17644ea1ddd49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程项目/GAMES101/03-transformation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"cssclasses\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Basics/Linux外存和文件管理.md",
+                "file": "课程项目/GAMES101/03-transformation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Basics/Linux外存和文件管理.md",
+                "file": "课程项目/GAMES101/03-transformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Basics/Linux外存和文件管理.md"
+                "file": "课程项目/GAMES101/03-transformation.md"
               }
             }
           },
@@ -173,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,15 +195,33 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "templates:插入模板": false
     }
   },
-  "active": "84b2b4b62992340c",
+  "active": "aac17644ea1ddd49",
   "lastOpenFiles": [
-    "!到复试的全部学习计划.md",
+    "杂项/ChatGPT/GPT提问技巧.md",
+    "Linux/Basics/Linux外存和文件管理.md",
+    "课程项目/GAMES101/01-summary.md",
+    "课程项目/GAMES101/02-linear algebra basics.md",
+    "课程项目/GAMES101/03-transformation.md",
+    "附件/Pasted image 20231225213454.png",
+    "附件/Pasted image 20231225212503.png",
+    "附件/Pasted image 20231225203301.png",
+    "附件/Pasted image 20231225173127.png",
+    "附件/Pasted image 20231225173112.png",
+    "附件/Pasted image 20231225173009.png",
+    "附件/Pasted image 20231225172707.png",
+    "附件/Pasted image 20231225172644.png",
+    "附件/Pasted image 20231225172616.png",
+    "附件/Pasted image 20231225170112.png",
+    "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
+    "Linux/Basics/未命名.md",
+    "课程项目/GAMES101",
+    "课程项目",
+    "Linux/Basics/Linux终端.md",
     "!技能清单.md",
-    "附件/Pasted image 20231224220128.png",
+    "!到复试的全部学习计划.md",
     "!DDL.md",
     "杂项/Unity3D/02-Unity3D项目搭建.md",
     "杂项/Unity3D/01-Unity3D项目速成.md",
@@ -212,28 +241,10 @@
     "编程语言/Python/Dash",
     "编程语言/Python/Flask",
     "编程语言/Python",
-    "编程语言/JavaScript/Node.js/B-notefs.js",
-    "编程语言/JavaScript/Node.js/@-basics.js",
     "编程语言/JavaScript/Node.js/06-express模块.md",
     "编程语言/JavaScript/Node.js/05-npm与包.md",
     "编程语言/JavaScript/Node.js/04-模块化.md",
     "编程语言/JavaScript/Node.js/03-http模块初步.md",
-    "编程语言/JavaScript/Node.js/02-path路径模块.md",
-    "编程语言/JavaScript/Node.js/01-fs文件模块.md",
-    "编程语言/JavaScript/@-JS基础/008-JavaScript HTML DOM.md",
-    "编程语言/JavaScript/@-JS基础/009-JavaScript Browser BOM.md",
-    "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
-    "编程语言/JavaScript/@-JS基础/006-JavaScript函数.md",
-    "编程语言/JavaScript/@-JS基础/005-JavaScript JSON.md",
-    "编程语言/JavaScript/Node.js",
-    "附件/Pasted image 20231207192659.png",
-    "附件/Pasted image 20231207192621.png",
-    "附件/Pasted image 20231207192607.png",
-    "附件/Pasted image 20231207192529.png",
-    "附件/Pasted image 20231207192504.png",
-    "附件/Pasted image 20231207192451.png",
-    "附件/Pasted image 20231207192427.png",
-    "附件/Pasted image 20231207192146.png",
-    "附件/Pasted image 20231207192130.png"
+    "编程语言/JavaScript/Node.js/02-path路径模块.md"
   ]
 }
