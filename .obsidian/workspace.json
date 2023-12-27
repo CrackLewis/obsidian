@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/经典数据结构/红黑树.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84b2b4b62992340c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程项目/GAMES101/L03-2D transforms.md",
+                "file": "算法/经典数据结构/A-红黑树.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "41a51e8530b594e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂项/Qt/QML/01-QML基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/经典数据结构/红黑树.md",
+                "file": "杂项/Qt/QML/01-QML基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/经典数据结构/红黑树.md",
+                "file": "杂项/Qt/QML/01-QML基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/经典数据结构/红黑树.md"
+                "file": "杂项/Qt/QML/01-QML基础.md"
               }
             }
           },
@@ -210,13 +210,25 @@
       "templates:插入模板": false
     }
   },
-  "active": "ca3543a5a24243e3",
+  "active": "41a51e8530b594e7",
   "lastOpenFiles": [
+    "附件/Pasted image 20231227224240.png",
+    "附件/Pasted image 20231227224019.png",
+    "附件/Pasted image 20231227223652.png",
+    "附件/Pasted image 20231227203132.png",
+    "附件/Pasted image 20231227203028.png",
+    "杂项/Qt/QML",
+    "课程项目/GAMES101/L04-3D transforms.md",
+    "杂项/Qt/QML/01-QML基础.md",
+    "2024考研/408/数据结构/DS07-查找.md",
+    "算法/经典数据结构/A-红黑树.md",
+    "附件/Pasted image 20231227135159.png",
+    "附件/Pasted image 20231227135132.png",
+    "2024考研/408/数据结构/DSR05-树和二叉树复盘.md",
+    "杂项/Qt",
     "算法/经典数据结构",
     "算法/经典算法",
     "!技能清单.md",
-    "算法/经典数据结构/红黑树.md",
-    "课程项目/GAMES101/L04-3D transforms.md",
     "算法",
     "课程项目/GAMES101/L03-2D transforms.md",
     "Linux/Basics/Linux外存和文件管理.md",
@@ -230,12 +242,6 @@
     "附件/Pasted image 20231225212503.png",
     "附件/Pasted image 20231225203301.png",
     "附件/Pasted image 20231225173127.png",
-    "附件/Pasted image 20231225173112.png",
-    "附件/Pasted image 20231225173009.png",
-    "附件/Pasted image 20231225172707.png",
-    "附件/Pasted image 20231225172644.png",
-    "附件/Pasted image 20231225172616.png",
-    "附件/Pasted image 20231225170112.png",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
     "Linux/Basics/未命名.md",
     "课程项目/GAMES101",
@@ -250,13 +256,7 @@
     "杂项/UML/时序图.md",
     "杂项/UML",
     "后端/CMake/CMake入门.md",
-    "后端/CMake",
     "编程语言/Rust/01-Rust基础语法.md",
-    "编程语言/Rust/00-Rust入门.md",
-    "编程语言/Rust",
-    "编程语言/Python/Flask/02-Flask基础.md",
-    "编程语言/Python/Flask/01A-Flask有关的依赖列表.md",
-    "编程语言/Python/Dash/01-Dash Briefing.md",
-    "编程语言/Python/Dash"
+    "编程语言/Rust/00-Rust入门.md"
   ]
 }
