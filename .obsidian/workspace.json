@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Qt/QML/01-QML基础.md",
+                "file": "Linux/Hacks/虚拟机挂载共享文件夹.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂项/Qt/QML/01-QML基础.md",
+                "file": "Linux/Hacks/虚拟机挂载共享文件夹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂项/Qt/QML/01-QML基础.md",
+                "file": "Linux/Hacks/虚拟机挂载共享文件夹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Qt/QML/01-QML基础.md"
+                "file": "Linux/Hacks/虚拟机挂载共享文件夹.md"
               }
             }
           },
@@ -214,6 +214,7 @@
   },
   "active": "41a51e8530b594e7",
   "lastOpenFiles": [
+    "杂项/Qt/QML/01-QML基础.md",
     "附件/Pasted image 20231227224240.png",
     "附件/Pasted image 20231227224019.png",
     "附件/Pasted image 20231227223652.png",
@@ -221,7 +222,6 @@
     "附件/Pasted image 20231227203028.png",
     "杂项/Qt/QML",
     "课程项目/GAMES101/L04-3D transforms.md",
-    "杂项/Qt/QML/01-QML基础.md",
     "2024考研/408/数据结构/DS07-查找.md",
     "算法/经典数据结构/A-红黑树.md",
     "附件/Pasted image 20231227135159.png",
@@ -243,7 +243,6 @@
     "附件/Pasted image 20231225213454.png",
     "附件/Pasted image 20231225212503.png",
     "附件/Pasted image 20231225203301.png",
-    "附件/Pasted image 20231225173127.png",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
     "Linux/Basics/未命名.md",
     "课程项目/GAMES101",
