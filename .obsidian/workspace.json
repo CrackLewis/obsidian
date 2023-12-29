@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Hacks/虚拟机挂载共享文件夹.md",
+                "file": "杂项/Qt/QML/01-QML基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Hacks/虚拟机挂载共享文件夹.md",
+                "file": "杂项/Qt/QML/01-QML基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Hacks/虚拟机挂载共享文件夹.md",
+                "file": "杂项/Qt/QML/01-QML基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Hacks/虚拟机挂载共享文件夹.md"
+                "file": "杂项/Qt/QML/01-QML基础.md"
               }
             }
           },
@@ -214,6 +214,7 @@
   },
   "active": "41a51e8530b594e7",
   "lastOpenFiles": [
+    "Linux/Hacks/虚拟机挂载共享文件夹.md",
     "杂项/Qt/QML/01-QML基础.md",
     "附件/Pasted image 20231227224240.png",
     "附件/Pasted image 20231227224019.png",
