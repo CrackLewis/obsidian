@@ -171,8 +171,6 @@ Window {
 ```
 ![[Pasted image 20231227224240.png]]
 
-
-
 ## QML Rectangle
 
 继承Item

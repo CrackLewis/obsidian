@@ -84,10 +84,9 @@
 --use-compress-program=<执行指令> 通过指定的指令处理备份文件。
 --version 显示版本信息。
 --volno-file=<编号文件> 使用指定文件内的编号取代预设的卷册编号。
-————————————————
-版权声明：本文为CSDN博主「云川之下」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/m0_45406092/article/details/112362883
 ```
+
+[原文链接](https://blog.csdn.net/m0_45406092/article/details/112362883)
 
 **主要选项组合**：
 - 解包归档文件：

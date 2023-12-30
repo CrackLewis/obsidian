@@ -25,30 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/经典数据结构/A-红黑树.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34c39697e5fa536b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程项目/GAMES101/L04-3D transforms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41a51e8530b594e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "杂项/Qt/QML/01-QML基础.md",
                 "mode": "source",
                 "source": false
@@ -56,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,19 +189,39 @@
       "templates:插入模板": false
     }
   },
-  "active": "41a51e8530b594e7",
+  "active": "89657f0bdadcbcd5",
   "lastOpenFiles": [
-    "Linux/Hacks/虚拟机挂载共享文件夹.md",
+    "杂项/ChatGPT/GPT提问技巧.md",
+    "Linux/Hacks/Ubuntu安装中文输入法.md",
+    "Linux/Basics/Linux进程管理.md",
+    "Linux/Basics/Linux外存和文件管理.md",
+    "Linux/Basics/Linux压缩和解压.md",
+    "Linux/Basics/Linux终端.md",
+    "2024考研/待办/复试问题.md",
+    "2024考研/待办/肖四.md",
+    "2024考研/待办/一些怪谈.md",
+    "2024考研/待办/政治-思修发病.md",
+    "2024考研/待办/政治-新思想放电.md",
+    "2024考研/待办/政治-曲艺分析题背记.md",
+    "2024考研/待办/政治-毛中特呻吟.md",
+    "2024考研/待办/政治-马原啰嗦.md",
+    "2024考研/待办/政治-材料分析题.md",
+    "2024考研/待办/政治-近纲娇喘.md",
+    "算法/经典数据结构/A-红黑树.md",
+    "2024考研/待办/集百家之长.md",
+    "课程项目/GAMES101/L04-3D transforms.md",
+    "Linux/Hacks/WSL安装CUDA.md",
+    "附件/Pasted image 20231230101753.png",
+    "附件/Pasted image 20231230100609.png",
     "杂项/Qt/QML/01-QML基础.md",
+    "Linux/Hacks/虚拟机挂载共享文件夹.md",
     "附件/Pasted image 20231227224240.png",
     "附件/Pasted image 20231227224019.png",
     "附件/Pasted image 20231227223652.png",
     "附件/Pasted image 20231227203132.png",
     "附件/Pasted image 20231227203028.png",
     "杂项/Qt/QML",
-    "课程项目/GAMES101/L04-3D transforms.md",
     "2024考研/408/数据结构/DS07-查找.md",
-    "算法/经典数据结构/A-红黑树.md",
     "附件/Pasted image 20231227135159.png",
     "附件/Pasted image 20231227135132.png",
     "2024考研/408/数据结构/DSR05-树和二叉树复盘.md",
@@ -234,31 +231,11 @@
     "!技能清单.md",
     "算法",
     "课程项目/GAMES101/L03-2D transforms.md",
-    "Linux/Basics/Linux外存和文件管理.md",
-    "课程项目/GAMES101/L02-linear algebra.md",
-    "课程项目/GAMES101/L01-summary.md",
-    "课程项目/GAMES101/03-transformation.md",
-    "课程项目/GAMES101/01-summary.md",
-    "杂项/ChatGPT/GPT提问技巧.md",
-    "课程项目/GAMES101/02-linear algebra basics.md",
     "附件/Pasted image 20231225213454.png",
-    "附件/Pasted image 20231225212503.png",
-    "附件/Pasted image 20231225203301.png",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
-    "Linux/Basics/未命名.md",
     "课程项目/GAMES101",
     "课程项目",
-    "Linux/Basics/Linux终端.md",
-    "!到复试的全部学习计划.md",
-    "!DDL.md",
-    "杂项/Unity3D/02-Unity3D项目搭建.md",
-    "杂项/Unity3D/01-Unity3D项目速成.md",
     "杂项/Unity3D",
-    "杂项/UML/类图.md",
-    "杂项/UML/时序图.md",
-    "杂项/UML",
-    "后端/CMake/CMake入门.md",
-    "编程语言/Rust/01-Rust基础语法.md",
-    "编程语言/Rust/00-Rust入门.md"
+    "杂项/UML"
   ]
 }
