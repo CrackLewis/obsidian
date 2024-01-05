@@ -42,6 +42,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3d10e46d96f563e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024考研/复试/计算理论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -102,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -203,9 +216,12 @@
   },
   "active": "5e34d9d71d815775",
   "lastOpenFiles": [
+    "2024考研/复试/计算理论.md",
+    "附件/Pasted image 20240104121843.png",
+    "附件/Pasted image 20240104120646.png",
+    "2024考研/复试/编译原理.md",
     "2024考研/复试/软件工程.md",
     "2024考研/复试/计算机系统结构.md",
-    "2024考研/复试/编译原理.md",
     "2024考研/复试",
     "课程项目/GAMES101/L03-2D transforms.md",
     "杂项/Qt/QML/01-QML基础.md",
@@ -228,10 +244,8 @@
     "算法/经典数据结构/A-红黑树.md",
     "2024考研/待办/集百家之长.md",
     "课程项目/GAMES101/L04-3D transforms.md",
-    "Linux/Hacks/WSL安装CUDA.md",
     "附件/Pasted image 20231230101753.png",
     "附件/Pasted image 20231230100609.png",
-    "Linux/Hacks/虚拟机挂载共享文件夹.md",
     "附件/Pasted image 20231227224240.png",
     "附件/Pasted image 20231227224019.png",
     "附件/Pasted image 20231227223652.png",
@@ -239,12 +253,10 @@
     "附件/Pasted image 20231227203028.png",
     "杂项/Qt/QML",
     "附件/Pasted image 20231227135159.png",
-    "附件/Pasted image 20231227135132.png",
     "杂项/Qt",
     "算法/经典数据结构",
     "算法/经典算法",
     "算法",
-    "附件/Pasted image 20231225213454.png",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
     "课程项目/GAMES101",
     "课程项目",
