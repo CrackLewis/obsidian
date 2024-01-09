@@ -8,36 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9655e752ae6a2be6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!技能清单.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5e34d9d71d815775",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/编译原理.md",
+                "file": "2024考研/复试/编译原理-bison示例与应用.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3d10e46d96f563e7",
+            "id": "7dba530c87ce0cd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/计算理论.md",
+                "file": "2024考研/复试/面试-非专业问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/编译原理.md",
+                "file": "2024考研/复试/面试-非专业问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/编译原理.md",
+                "file": "2024考研/复试/面试-非专业问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -159,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/编译原理.md"
+                "file": "2024考研/复试/面试-非专业问题.md"
               }
             }
           },
@@ -202,8 +190,55 @@
       "templates:插入模板": false
     }
   },
-  "active": "5e34d9d71d815775",
+  "floating": {
+    "id": "b87f64ca1b88a4e8",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6226b9857b6c925a",
+        "type": "window",
+        "children": [
+          {
+            "id": "958a1c747fc6af7d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8f43bbfa5b0db84b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2024考研/待办/复试问题.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 816,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7dba530c87ce0cd6",
   "lastOpenFiles": [
+    "2024考研/待办/复试问题.md",
+    "2024考研/复试/面试-非专业问题.md",
+    "2024考研/复试/编译原理-bison示例与应用.md",
+    "2024考研/复试/编译原理-flex示例.md",
+    "!技能清单.md",
+    "2024考研/复试/计算理论.md",
+    "2024考研/复试/面试-自我介绍.md",
+    "2024考研/复试/编译原理.md",
+    "附件/Pasted image 20240109121054.png",
+    "附件/Pasted image 20240109112311.png",
     "附件/Pasted image 20240109005116.png",
     "附件/Pasted image 20240109000753.png",
     "附件/Pasted image 20240109000741.png",
@@ -212,14 +247,8 @@
     "附件/Pasted image 20240108113751.png",
     "附件/Pasted image 20240108103527.png",
     "附件/Pasted image 20240107160144.png",
-    "附件/Pasted image 20240107140549.png",
-    "附件/Pasted image 20240106154135.png",
-    "附件/Pasted image 20240106154109.png",
-    "2024考研/复试/编译原理.md",
-    "2024考研/复试/编译原理-flex示例.md",
     "杂项/Obsidian用法/Callout块.md",
     "课程项目/GAMES101/L03-2D transforms.md",
-    "2024考研/复试/计算理论.md",
     "2024考研/复试/软件工程.md",
     "2024考研/复试/计算机系统结构.md",
     "2024考研/复试",
@@ -230,7 +259,6 @@
     "Linux/Basics/Linux外存和文件管理.md",
     "Linux/Basics/Linux压缩和解压.md",
     "Linux/Basics/Linux终端.md",
-    "2024考研/待办/复试问题.md",
     "2024考研/待办/肖四.md",
     "2024考研/待办/一些怪谈.md",
     "2024考研/待办/政治-思修发病.md",
@@ -238,9 +266,6 @@
     "2024考研/待办/政治-曲艺分析题背记.md",
     "2024考研/待办/政治-毛中特呻吟.md",
     "2024考研/待办/政治-马原啰嗦.md",
-    "2024考研/待办/政治-材料分析题.md",
-    "2024考研/待办/政治-近纲娇喘.md",
-    "算法/经典数据结构/A-红黑树.md",
     "杂项/Qt/QML",
     "杂项/Qt",
     "算法/经典数据结构",
