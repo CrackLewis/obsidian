@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/编译原理-bison示例与应用.md",
+                "file": "2024考研/复试/编译原理B.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/编译原理-bison示例与应用.md",
+                "file": "2024考研/复试/编译原理B.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/编译原理-bison示例与应用.md"
+                "file": "2024考研/复试/编译原理B.md"
               }
             }
           },
@@ -187,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,12 +202,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "7dba530c87ce0cd6",
+  "active": "488e43572c4866b1",
   "lastOpenFiles": [
-    "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
-    "2024考研/复试/编译原理A.md",
-    "2024考研/复试/编译原理B.md",
     "2024考研/复试/编译原理-bison示例与应用.md",
+    "2024考研/复试/编译原理B.md",
+    "2024考研/复试/编译原理A.md",
+    "Linux/Hacks/建立并运行Docker容器.md",
+    "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "2024考研/复试/面试-非专业问题.md",
     "2024考研/复试/编译原理-flex示例.md",
     "2024考研/复试/编译原理.md",
@@ -246,7 +249,6 @@
     "算法",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
     "课程项目/GAMES101",
-    "课程项目",
-    "杂项/Unity3D"
+    "课程项目"
   ]
 }

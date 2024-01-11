@@ -582,11 +582,6 @@ LR分析过程：
 
 ### yacc
 
-参考资料：
-- [GNU Bison 手册](https://www.gnu.org/software/bison/manual/bison.pdf)
-- [知乎专栏-Lex与YACC详解](https://zhuanlan.zhihu.com/p/143867739)
-- 
-
 yacc是一种语法分析器的生成器，使用LALR(1)分析方法。
 
 流程：
