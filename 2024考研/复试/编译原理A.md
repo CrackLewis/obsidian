@@ -390,10 +390,10 @@ FIRST和FOLLOW集合的构造：
 - 算符文法：一个文法满足任一产生式右部都不含*两个相继的非终结符*（即不含形如$A\rightarrow \dots QR\dots,Q,R\in V_N$的产生式），则称该文法为算符文法。
 - 算符优先关系：设算符文法$G$不含$\varepsilon$-产生式，$a,b\in V_T$，算符间的优先关系定义为：（举例见后文）
 	- $a\dot{=} b$：当且仅当$G$含产生式$P\rightarrow \dots ab\dots$，或$P\rightarrow \dots aQb \dots$。
-	- $a\dot{<}b$：当且仅当$G$含产生式$P\rightarrow \dots aR\dots$且$R\overset{+}{\Rightarrow}b\dots$或$R\overset{+}{\Rightarrow}\dots Qb\dots$。
-	- $a\dot{>}b$：当且仅当$G$含产生式$P\rightarrow \dots Rb\dots$且$R\overset{+}{\Rightarrow}\dots a$或$R\overset{+}{\Rightarrow}\dots aQ\dots$。
+	- $a\dot{<}b$：当且仅当$G$含产生式$P\rightarrow \dots aR\dots$且$R\overset{+}{\Rightarrow}b\dots$或$R\overset{+}{\Rightarrow} Qb\dots$。
+	- $a\dot{>}b$：当且仅当$G$含产生式$P\rightarrow \dots Rb\dots$且$R\overset{+}{\Rightarrow}\dots a$或$R\overset{+}{\Rightarrow}\dots aQ$。
 - **算符优先文法**：如果一个算符文法$G$中任何终结符对$(a,b)$至多满足以上关系之一，则称$G$为算符优先文法。
-- 优先关系表的构造：另开一节叙述，见[[编译原理#^84f9cd]]。
+- 优先关系表的构造：另开一节叙述，见[[编译原理A#^84f9cd]]。
 
 > [!example] 算符文法的优先关系举例
 > ![[Pasted image 20240107140549.png]]

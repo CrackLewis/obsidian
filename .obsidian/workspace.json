@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -119,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/编译原理B.md",
+                "file": "2024考研/复试/编译原理A.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/编译原理B.md",
+                "file": "2024考研/复试/编译原理A.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -159,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/编译原理B.md"
+                "file": "2024考研/复试/编译原理A.md"
               }
             }
           },
@@ -201,16 +199,17 @@
       "templates:插入模板": false
     }
   },
-  "active": "488e43572c4866b1",
+  "active": "5e34d9d71d815775",
   "lastOpenFiles": [
-    "2024考研/复试/编译原理-bison示例与应用.md",
-    "2024考研/复试/编译原理B.md",
+    "2024考研/复试/编译原理.md",
     "2024考研/复试/编译原理A.md",
+    "2024考研/复试/编译原理B.md",
+    "附件/Pasted image 20240114133858.png",
+    "2024考研/复试/编译原理-bison示例与应用.md",
     "Linux/Hacks/建立并运行Docker容器.md",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "2024考研/复试/面试-非专业问题.md",
     "2024考研/复试/编译原理-flex示例.md",
-    "2024考研/复试/编译原理.md",
     "2024考研/待办/复试问题.md",
     "!技能清单.md",
     "2024考研/复试/计算理论.md",
@@ -224,7 +223,6 @@
     "附件/Pasted image 20240108164840.png",
     "附件/Pasted image 20240108113751.png",
     "附件/Pasted image 20240108103527.png",
-    "附件/Pasted image 20240107160144.png",
     "杂项/Obsidian用法/Callout块.md",
     "课程项目/GAMES101/L03-2D transforms.md",
     "2024考研/复试/软件工程.md",
@@ -240,7 +238,6 @@
     "2024考研/待办/肖四.md",
     "2024考研/待办/一些怪谈.md",
     "2024考研/待办/政治-思修发病.md",
-    "2024考研/待办/政治-新思想放电.md",
     "杂项/Qt/QML",
     "杂项/Qt",
     "算法/经典数据结构",
