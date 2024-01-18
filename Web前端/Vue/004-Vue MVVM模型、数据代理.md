@@ -45,12 +45,27 @@ let obj = { x: 100 };
 let obj2 = { y: 200 };
 
 Object.defineProperty(obj2, 'x', {
+  // value:1, // 配置数值
+  // enumerable:false, // 控制obj2.x是否为可枚举，默认false
+  // writable:false,  // 控制obj2.x是否为可写入，默认false
+  // configurable:false, // 控制obj2.x是否可被删除，默认false
   get() { console.log("get obj2.x"); return obj.x; },
   set(value) { console.log("set obj2.x=" + value); obj.x = value; }
 })
 ```
 
+![[Pasted image 20240118112923.png]]
+
 Vue中的数据代理：
 - 通过`vm`对象来代理`data`对象中属性的操作（读和写）
 - 好处是更加方便地操作`data`中的数据
+
+Vue数据代理的原理：
+- 通过`Object.defineProperty`将`data`对象中所有属性添加到`vm`上
+- 为每一个添加到`vm`上的属性，都指定一个`getter`和`setter`
+- 在`getter`、`setter`内部操作（读写）`data`中对应的属性
+
+![[Pasted image 20240118111456.png]]
+
+也就是说，模板在访问某一数据成员时，实际访问的是`vm._data`中的成员，而这些成员通过数据代理机制，通过`vm`对象暴露给程序员，即`const vm = new Vue({ data: { attr: 1 } })`后，可通过`vm.attr`读写`vm._data.attr`属性。
 
