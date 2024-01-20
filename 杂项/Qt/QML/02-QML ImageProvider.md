@@ -37,7 +37,7 @@ Window {
 
 ## 用法
 
-下面的用例代码是从这个项目摘抄的：[github-repo](https://github.com/Daguerreo/QML-ImageProvider)。
+下面的用例代码是从这个项目摘抄的：[github-repo](https://github.com/Daguerreo/QML-ImageProvider)。这是一个通过ImageProvider实现组帧动画的示例。
 
 ### C++派生QQuickImageProvider
 

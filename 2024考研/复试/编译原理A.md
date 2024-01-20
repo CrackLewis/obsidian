@@ -24,7 +24,7 @@
 	- 产生式规则形式：两种形式等价。
 		- 形式一：$\alpha A\beta\rightarrow \alpha\gamma\beta$，或$S\rightarrow \varepsilon$。
 		- 形式二：$\alpha A\beta\rightarrow \alpha B\beta$（其中$|B|\le |A|$），或$S\rightarrow \varepsilon$。
-- 2型：上下文无关文法（详见[[编译原理#^9582fd]]），定义上下文无关语言，自动机形式为下推自动机。
+- 2型：上下文无关文法（详见[[编译原理A#^9582fd]]），定义上下文无关语言，自动机形式为下推自动机。
 	- 产生式规则形式：$A\rightarrow  w$，其中$w\in (N\cup \Sigma)^*$。
 - 3型：**正则文法**，定义正则语言，自动机形式为有穷自动机。
 	- 产生式规则形式：$A\rightarrow a$，或$A\rightarrow aB$，或$C\rightarrow\varepsilon$。

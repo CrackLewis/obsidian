@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5e34d9d71d815775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024考研/复试/编译原理A.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "df1eec3c756164aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/Vue/008-Vue 列表渲染、数据监视.md",
+                "file": "2024考研/复试/编译原理B.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "2024考研/复试/面试-自我介绍.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "132eb8b586111dbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Web前端/Vue/008-Vue 列表渲染、数据监视.md",
                 "mode": "source",
                 "source": false
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,12 +200,23 @@
       "templates:插入模板": false
     }
   },
-  "active": "ca3543a5a24243e3",
+  "active": "132eb8b586111dbd",
   "lastOpenFiles": [
-    "Web前端/Vue/007-Vue 绑定样式、条件渲染.md",
+    "附件/Pasted image 20240120220409.png",
+    "2024考研/复试/面试-自我介绍.md",
+    "2024考研/复试/面试-非专业问题.md",
     "Web前端/Vue/008-Vue 列表渲染、数据监视.md",
-    "附件/Pasted image 20240119225224.png",
+    "2024考研/复试/编译原理B.md",
+    "2024考研/复试/编译原理A.md",
+    "附件/Pasted image 20240120154535.png",
+    "Web前端/Vue/001-Vue简介.md",
+    "附件/Pasted image 20240120142945.png",
+    "附件/Pasted image 20240120141922.png",
+    "附件/Pasted image 20240120141844.png",
     "杂项/Qt/QML/02-QML ImageProvider.md",
+    "附件/Pasted image 20240120123935.png",
+    "Web前端/Vue/007-Vue 绑定样式、条件渲染.md",
+    "附件/Pasted image 20240119225224.png",
     "杂项/Qt/QML/01-QML基础.md",
     "Web前端/Vue/006-Vue 计算属性、侦听属性.md",
     "附件/Pasted image 20240119151930.png",
@@ -216,29 +227,18 @@
     "Web前端/Vue/005-Vue事件处理.md",
     "附件/Pasted image 20240118224836.png",
     "Web前端/前端规划.md",
-    "附件/Pasted image 20240118151610.png",
-    "附件/Pasted image 20240118151352.png",
-    "附件/Pasted image 20240118151205.png",
-    "附件/Pasted image 20240118112923.png",
     "Web前端/Vue/003-Vue el与data的两种写法.md",
     "Web前端/Vue/002-Vue模板语法、数据绑定.md",
-    "附件/Pasted image 20240118111456.png",
     "编程语言/JavaScript/@-JS基础/008-JavaScript HTML DOM.md",
     "编程语言/JavaScript/@-JS基础/009-JavaScript Browser BOM.md",
-    "Web前端/Vue/001-Vue简介.md",
-    "2024考研/复试/编译原理B.md",
     "2024考研/复试/编译原理-bison示例与应用.md",
-    "2024考研/复试/编译原理A.md",
     "2024考研/复试/编译原理.md",
     "Linux/Hacks/建立并运行Docker容器.md",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
-    "2024考研/复试/面试-非专业问题.md",
     "2024考研/复试/编译原理-flex示例.md",
     "2024考研/待办/复试问题.md",
     "!技能清单.md",
     "2024考研/复试/计算理论.md",
-    "2024考研/复试/面试-自我介绍.md",
-    "杂项/Obsidian用法/Callout块.md",
     "2024考研/复试",
     "杂项/Qt/QML",
     "杂项/Qt",
