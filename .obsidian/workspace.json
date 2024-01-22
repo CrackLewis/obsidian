@@ -20,31 +20,42 @@
             }
           },
           {
-            "id": "aa214b3ead64ee03",
+            "id": "d80557760acc5f67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/面试-自我介绍.md",
+                "file": "2024考研/复试/软件工程.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bd1fbcd75ea8c288",
+            "id": "89d8e874d80e5822",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
+                "file": "2024考研/复试/编译原理A.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45265ca9845ceb4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024考研/复试/软件工程.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 321.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -118,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
+                "file": "2024考研/复试/编译原理B.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
+                "file": "2024考研/复试/编译原理B.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端/Vue/010-Vue 内置指令、自定义指令.md"
+                "file": "2024考研/复试/编译原理B.md"
               }
             }
           },
@@ -200,45 +211,46 @@
       "templates:插入模板": false
     }
   },
-  "active": "bd1fbcd75ea8c288",
+  "active": "df1eec3c756164aa",
   "lastOpenFiles": [
-    "附件/Pasted image 20240121121237.png",
+    "附件/Pasted image 20240122215459.png",
+    "附件/Pasted image 20240122215003.png",
+    "附件/Pasted image 20240122213942.png",
+    "附件/Pasted image 20240122212431.png",
+    "附件/Pasted image 20240122210639.png",
+    "附件/Pasted image 20240122203527.png",
+    "附件/Pasted image 20240122202307.png",
+    "附件/Pasted image 20240122194810.png",
+    "附件/Pasted image 20240122152841.png",
+    "2024考研/复试/编译原理A.md",
+    "2024考研/复试/软件工程.md",
+    "2024考研/复试/数据库原理.md",
+    "2024考研/复试/设计模式.md",
+    "2024考研/复试/编译原理B.md",
+    "Web前端/Vue/012-Vue 组件化编程.md",
+    "附件/Pasted image 20240122143833.png",
+    "附件/Pasted image 20240122143827.png",
+    "2024考研/复试/面试-自我介绍.md",
+    "Web前端/Vue/011-Vue 生命周期.md",
+    "Web前端/Vue/Z01-Vue核心总结.md",
+    "Web前端/Vue/008-Vue 列表渲染、数据监视.md",
+    "Web前端/Vue/005-Vue 事件处理.md",
+    "Web前端/Vue/002-Vue 模板语法、数据绑定.md",
+    "Web前端/Vue/001-Vue 简介.md",
+    "Web前端/Vue/002-Vue模板语法、数据绑定.md",
+    "Web前端/Vue/004-Vue MVVM模型、数据代理.md",
+    "Web前端/Vue/001-Vue简介.md",
+    "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
+    "杂项/Qt/QML/02-QML ImageProvider.md",
+    "杂项/Qt/QML/01-QML基础.md",
+    "桌面前端",
     "2024考研/待办/230814-230820.md",
     "课程项目/CMU-ICS",
     "2024考研/待办/!-doctrine.md",
-    "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
-    "附件/Pasted image 20240121112242.png",
-    "2024考研/复试/面试-自我介绍.md",
     "Web前端/Vue/009-Vue 收集表单数据、过滤器.md",
     "Web前端/Vue/005-Vue事件处理.md",
-    "Web前端/Vue/008-Vue 列表渲染、数据监视.md",
-    "附件/Pasted image 20240120220409.png",
     "2024考研/复试/面试-非专业问题.md",
-    "2024考研/复试/编译原理B.md",
-    "2024考研/复试/编译原理A.md",
-    "附件/Pasted image 20240120154535.png",
-    "Web前端/Vue/001-Vue简介.md",
-    "附件/Pasted image 20240120142945.png",
-    "附件/Pasted image 20240120141922.png",
-    "附件/Pasted image 20240120141844.png",
-    "杂项/Qt/QML/02-QML ImageProvider.md",
-    "附件/Pasted image 20240120123935.png",
     "Web前端/Vue/007-Vue 绑定样式、条件渲染.md",
-    "附件/Pasted image 20240119225224.png",
-    "杂项/Qt/QML/01-QML基础.md",
-    "Web前端/Vue/006-Vue 计算属性、侦听属性.md",
-    "附件/Pasted image 20240119151930.png",
-    "杂项/Obsidian用法/嵌套文件或网页.md",
-    "附件/Pasted image 20240119134617.png",
-    "Web前端/Vue/004-Vue MVVM模型、数据代理.md",
-    "Web前端/前端规划.md",
-    "Web前端/Vue/003-Vue el与data的两种写法.md",
-    "Web前端/Vue/002-Vue模板语法、数据绑定.md",
-    "编程语言/JavaScript/@-JS基础/008-JavaScript HTML DOM.md",
-    "编程语言/JavaScript/@-JS基础/009-JavaScript Browser BOM.md",
-    "2024考研/复试/编译原理-bison示例与应用.md",
-    "2024考研/复试/编译原理.md",
-    "Linux/Hacks/建立并运行Docker容器.md",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "2024考研/复试",
     "杂项/Qt/QML",
@@ -246,7 +258,6 @@
     "算法/经典数据结构",
     "算法/经典算法",
     "算法",
-    "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
-    "课程项目/GAMES101"
+    "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf"
   ]
 }
