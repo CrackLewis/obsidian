@@ -265,13 +265,37 @@ SDT的通用实现方法：先建立语法树，再按从左到右深度优先�
 
 ![[Pasted image 20240123011105.png]]
 
-
-
 ![[Pasted image 20240123102837.png]]
 
-翻译全过程：
-- 
+要点：处理好布尔表达式`.true`、`.false`属性和控制流`.next`属性的关系。
+
+#### 布尔表达式回填
+
+布尔表达式和控制流语句代码生成的关键问题：确定跳转指令的目标标号
+
+回填思想：在生成跳转指令时暂不指定目标标号，而是放入该目标标号对应的列表中
+
+**布尔表达式的综合属性**：
+- `B.truelist`：指向一个包含跳转指令的列表，这些指令最终获得的目标标号就是当表达式为真时控制流应当转向的指令标号
+- `B.falselist`：指向一个包含跳转指令的列表，这些指令最终获得的目标标号就是当表达式为假时控制流应当转向的指令标号
+- 有关操作：`makelist(i)`（创建一个只包含标号i的列表）、`merge(p1,p2)`（合并两个列表）、`backpatch(p,i)`（将i作为目标标号插入p内各指令）
+
+truelist和falselist的设置思路：
+- `B->E1 relop E2`：生成一个只包含`nextquad`（下条指令标号）的列表作为`B.truelist`，以及一个只包含`nextquad+1`的列表作为`B.falselist`。随后先生成指令`if E1 relop E2 goto _`（对应`truelist`），再生成指令`goto _`（对应`falselist`）。
+- `B->true`（或`B->false`）：只生成一个包含`nextquad`的列表作为`B.truelist`（或`B.falselist`），并生成指令`goto _`。
+- `B->(B1)`：将B1的`truelist`和`falselist`回填到B。
+- `B->not B1`：将`B1.truelist`填回`B.falselist`，`B1.falselist`填回`B.truelist`
+- `B->B1 or B2`：在推导B1后、B2前记录B2首条指令标号`quad`，推导B2后归约时，用`quad`回填`B1.falselist`，将`B1.truelist`和`B2.truelist`合并作为`B.truelist`，用`B2.falselist`作为`B.falselist`。
+- `B->B1 and B2`：在推导B1后、B2前记录B2首条指令标号`quad`，推导B2后归约时，用`quad`回填`B1.truelist`，用`B2.truelist`作为`B.truelist`，
 
 ### switch语句翻译
 
 ### 过程调用语句翻译
+
+### 总结
+
+## 运行时存储分配和访问
+
+## 代码优化
+
+## 目标代码生成
