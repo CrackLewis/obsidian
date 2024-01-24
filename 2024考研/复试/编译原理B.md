@@ -286,15 +286,104 @@ truelist和falselist的设置思路：
 - `B->(B1)`：将B1的`truelist`和`falselist`回填到B。
 - `B->not B1`：将`B1.truelist`填回`B.falselist`，`B1.falselist`填回`B.truelist`
 - `B->B1 or B2`：在推导B1后、B2前记录B2首条指令标号`quad`，推导B2后归约时，用`quad`回填`B1.falselist`，将`B1.truelist`和`B2.truelist`合并作为`B.truelist`，用`B2.falselist`作为`B.falselist`。
-- `B->B1 and B2`：在推导B1后、B2前记录B2首条指令标号`quad`，推导B2后归约时，用`quad`回填`B1.truelist`，用`B2.truelist`作为`B.truelist`，
+- `B->B1 and B2`：在推导B1后、B2前记录B2首条指令标号`quad`，推导B2后归约时，用`quad`回填`B1.truelist`，用`B2.truelist`作为`B.truelist`，将`B1.falselist`和`B2.falselist`合并作为`B.falselist`。
+
+#### 控制流语句的回填
+
+![[Pasted image 20240122215003.png]]
+
+控制流语句有关综合属性：
+- `S.nextlist`：指向一个包含跳转指令的列表。这些指令获得的目标标号就是按照运行顺序紧跟在`S`代码之后的指令标号
+
+if-then语句（`S->if B then S1`）回填：
+- 在B和S1之间记录当前标号`quad`。
+- 在归约时，将`quad`填回`B.truelist`（B为真则执行S1），将`B.falselist`和`S1.nextlist`合并为`S.nextlist`。
+
+![[Pasted image 20240124001747.png]]
+
+if-then-else语句（`S->if B then S1 else S2`）回填：
+- 在then和S1之间记录标号`quad1`。
+- 在S1和else之间执行`midlist=makelist(nextquad)`，生成指令`goto _`。
+- 在else和S2之间记录`quad2`。
+- 在归约时，将`quad1`填回`B.truelist`，`quad2`填回`B.falselist`，将`S1.nextlist`、`S2.nextlist`、`midlist`三表合并为`S.nextlist`。
+
+![[Pasted image 20240124001730.png]]
+
+while-do语句（`S->while B do S1`）回填：
+- 在while和B之间记录`quad1`，在do和S1之间记录`quad2`。
+- 归约时，`quad1`回填`S1.nextlist`，`quad2`回填`B.truelist`，用`B.falselist`作为`S.nextlist`，并生成一条指令`goto quad1`。
+
+![[Pasted image 20240124001815.png]]
+
+顺序语句（`S->S1 S2`）回填：
+- 在S1、S2之间记录`quad`。
+- 归约时，将`quad`回填`S1.nextlist`，而`S2.nextlist`作为`S.nextlist`。
+
+![[Pasted image 20240124003006.png]]
+
+赋值语句（`S->id=E;|L=E;`）回填：因为不涉及跳转，所以置`S.nextlist=null`。
+
+示例：翻译`while a<b do if c<5 then while x>y do z=x+1 else x=y;`。
+
+![[Pasted image 20240124005003.png]]
+![[Pasted image 20240124005026.png]]
 
 ### switch语句翻译
 
+![[Pasted image 20240124083102.png]]
+
+翻译方案一：
+
+![[Pasted image 20240124094421.png]]
+
+思路：在每个分支的代码前生成条件跳转语句`if t!=Vk goto Lk`，在代码后生成无条件跳转语句`goto next`。
+
+翻译方案二：
+
+![[Pasted image 20240124094623.png]]
+
+思路：在所有分支之后设立一个`test`代码块用于存放所有条件跳转指令，在每个分支代码后生成无条件跳转语句`goto next`。
+
+case指令：`(CASE,t,V,L)`与`if t==V goto L`等价，但更容易被代码生成器识别（这什么鬼？）
+
 ### 过程调用语句翻译
 
-### 总结
+语义分析任务：计算各个实参的值，生成实参列表，最后生成过程调用指令
 
-## 运行时存储分配和访问
+![[Pasted image 20240124101723.png]]
+
+示例：翻译`f(b*c-1,x+y,x,y)`：
+- 计算：`t1=b*c; t2=t1-1; t3=x+y;`。
+- 生成实参：`param t2; param t3; param x; param y;`。
+- 过程调用：`call f,4`。
+
+## 运行时存储分配
+
+### 概述
+
+**运行存储分配策略**：
+- 静态存储分配：编译阶段可确定大小的数据对象，可以在编译期分配内存
+- *动态存储分配*：编译阶段不能确定大小，则必须在运行阶段才完成分配，编译期仅产生必要信息
+	- 栈式存储分配、堆式存储分配
+
+运行时程序的结构模型：
+
+![[Pasted image 20240124104747.png]]
+
+**活动记录**：
+- 背景：以过程作为用户自定义动作的单元的语言，其编译器通常以过程为单位分配存储空间
+- *活动*：过程体的每一次执行
+- 定义：在过程执行时为它分配的一块临时连续存储区，用于管理过程一次执行所需的所有信息
+
+活动记录的一般形式：
+
+![[Pasted image 20240124105421.png]]
+
+### 静态存储分配
+
+### 栈式存储分配
+
+###
 
 ## 代码优化
 
