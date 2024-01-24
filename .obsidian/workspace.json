@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "df1eec3c756164aa",
+            "id": "89d8e874d80e5822",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "d80557760acc5f67",
+            "id": "159d828039afaa6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/软件工程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89d8e874d80e5822",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024考研/复试/编译原理A.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45265ca9845ceb4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024考研/复试/软件工程.md",
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
                 "mode": "source",
                 "source": false
               }
@@ -211,23 +187,24 @@
       "templates:插入模板": false
     }
   },
-  "active": "df1eec3c756164aa",
+  "active": "89d8e874d80e5822",
   "lastOpenFiles": [
-    "附件/Pasted image 20240124105421.png",
-    "附件/Pasted image 20240124104747.png",
-    "附件/Pasted image 20240124101723.png",
-    "附件/Pasted image 20240124094623.png",
-    "附件/Pasted image 20240124094421.png",
-    "附件/Pasted image 20240124083320.png",
+    "2024考研/复试/苏世B03-简历、个人陈述.md",
     "2024考研/复试/编译原理B.md",
-    "附件/Pasted image 20240124083102.png",
-    "附件/Pasted image 20240124005026.png",
-    "附件/Pasted image 20240124005003.png",
-    "附件/Pasted image 20240124003006.png",
-    "附件/Pasted image 20240124001815.png",
+    "附件/Pasted image 20240124195058.png",
+    "附件/Pasted image 20240124194004.png",
+    "附件/Pasted image 20240124193349.png",
+    "附件/Pasted image 20240124192712.png",
+    "附件/Pasted image 20240124192202.png",
+    "附件/Pasted image 20240124191223.png",
+    "附件/Pasted image 20240124185338.png",
     "2024考研/复试/编译原理A.md",
-    "2024考研/复试/软件工程.md",
+    "2024考研/复试/苏世A01-复试专业课.md",
     "2024考研/复试/数据库原理.md",
+    "附件/Pasted image 20240124163320.png",
+    "附件/Pasted image 20240124163245.png",
+    "附件/Pasted image 20240124162703.png",
+    "2024考研/复试/软件工程.md",
     "2024考研/复试/设计模式.md",
     "Web前端/Vue/012-Vue 组件化编程.md",
     "2024考研/复试/面试-自我介绍.md",
@@ -249,8 +226,6 @@
     "2024考研/待办/!-doctrine.md",
     "Web前端/Vue/009-Vue 收集表单数据、过滤器.md",
     "Web前端/Vue/005-Vue事件处理.md",
-    "2024考研/复试/面试-非专业问题.md",
-    "Web前端/Vue/007-Vue 绑定样式、条件渲染.md",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "2024考研/复试",
     "杂项/Qt/QML",
