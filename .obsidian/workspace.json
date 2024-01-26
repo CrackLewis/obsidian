@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/编译原理B.md",
+                "file": "2024考研/复试/编译原理-bison示例与应用.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
+                "file": "2024考研/复试/编译原理B.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,23 +188,26 @@
       "templates:插入模板": false
     }
   },
-  "active": "89d8e874d80e5822",
+  "active": "159d828039afaa6f",
   "lastOpenFiles": [
-    "附件/Pasted image 20240126090948.png",
-    "2024考研/复试/编译原理A.md",
-    "2024考研/复试/编译原理B.md",
-    "附件/Pasted image 20240126013301.png",
-    "附件/Pasted image 20240126011117.png",
-    "附件/Pasted image 20240126005113.png",
-    "附件/Pasted image 20240126003750.png",
-    "附件/Pasted image 20240126002209.png",
-    "附件/Pasted image 20240125205944.png",
-    "附件/Pasted image 20240125152809.png",
-    "附件/Pasted image 20240125151306.png",
-    "附件/Pasted image 20240125151107.png",
-    "附件/Pasted image 20240125102700.png",
+    "附件/Pasted image 20240126224645.png",
+    "附件/Pasted image 20240126223531.png",
+    "附件/Pasted image 20240126210103.png",
+    "附件/Pasted image 20240126203527.png",
+    "附件/Pasted image 20240126153838.png",
+    "附件/Pasted image 20240126152012.png",
+    "附件/Pasted image 20240126151947.png",
     "2024考研/复试/苏世B03-简历、个人陈述.md",
+    "2024考研/复试/编译原理-bison示例与应用.md",
+    "2024考研/复试/编译原理-flex示例.md",
     "2024考研/复试/苏世A01-复试专业课.md",
+    "2024考研/复试/编译原理B.md",
+    "附件/Pasted image 20240126143055.png",
+    "课程项目/MIT-6.824",
+    "附件/Pasted image 20240126130000.png",
+    "附件/Pasted image 20240126123205.png",
+    "附件/Pasted image 20240126114801.png",
+    "2024考研/复试/编译原理A.md",
     "2024考研/复试/数据库原理.md",
     "2024考研/复试/软件工程.md",
     "2024考研/复试/设计模式.md",
@@ -225,15 +229,12 @@
     "2024考研/待办/230814-230820.md",
     "课程项目/CMU-ICS",
     "2024考研/待办/!-doctrine.md",
-    "Web前端/Vue/009-Vue 收集表单数据、过滤器.md",
-    "Web前端/Vue/005-Vue事件处理.md",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "2024考研/复试",
     "杂项/Qt/QML",
     "杂项/Qt",
     "算法/经典数据结构",
     "算法/经典算法",
-    "算法",
-    "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf"
+    "算法"
   ]
 }
