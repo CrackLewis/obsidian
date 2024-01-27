@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/编译原理B.md",
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "563002203ba6c469",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024考研/复试/苏世E-机试.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/编译原理B.md",
+                "file": "2024考研/复试/苏世E-机试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/编译原理B.md",
+                "file": "2024考研/复试/苏世E-机试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/编译原理B.md"
+                "file": "2024考研/复试/苏世E-机试.md"
               }
             }
           },
@@ -188,24 +200,25 @@
       "templates:插入模板": false
     }
   },
-  "active": "159d828039afaa6f",
+  "active": "563002203ba6c469",
   "lastOpenFiles": [
+    "附件/Pasted image 20240127210724.png",
+    "2024考研/复试/苏世B03-简历、个人陈述.md",
+    "2024考研/复试/苏世E-机试.md",
+    "2024考研/复试/编译原理B.md",
+    "附件/Pasted image 20240127142504.png",
+    "附件/Pasted image 20240127142014.png",
+    "附件/Pasted image 20240127124555.png",
+    "附件/Pasted image 20240127123944.png",
+    "附件/Pasted image 20240127121652.png",
+    "附件/Pasted image 20240127115512.png",
     "附件/Pasted image 20240127111653.png",
     "附件/Pasted image 20240127095124.png",
     "附件/Pasted image 20240127005754.png",
     "附件/Pasted image 20240127005707.png",
-    "附件/Pasted image 20240127005644.png",
-    "附件/Pasted image 20240126224645.png",
-    "附件/Pasted image 20240126223531.png",
-    "附件/Pasted image 20240126210103.png",
-    "附件/Pasted image 20240126203527.png",
-    "附件/Pasted image 20240126153838.png",
-    "附件/Pasted image 20240126152012.png",
-    "2024考研/复试/苏世B03-简历、个人陈述.md",
     "2024考研/复试/编译原理-bison示例与应用.md",
     "2024考研/复试/编译原理-flex示例.md",
     "2024考研/复试/苏世A01-复试专业课.md",
-    "2024考研/复试/编译原理B.md",
     "课程项目/MIT-6.824",
     "2024考研/复试/编译原理A.md",
     "2024考研/复试/数据库原理.md",
@@ -228,7 +241,6 @@
     "桌面前端",
     "2024考研/待办/230814-230820.md",
     "课程项目/CMU-ICS",
-    "2024考研/待办/!-doctrine.md",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "2024考研/复试",
     "杂项/Qt/QML",
