@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "89d8e874d80e5822",
+            "id": "8b41ba882a1668bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/编译原理B.md",
+                "file": "编程语言/Python/002-Python类和对象.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/苏世E-机试.md",
+                "file": "2024考研/复试/编译原理B.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/编译原理B.md",
+                "file": "编程语言/Python/002-Python类和对象.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/编译原理B.md",
+                "file": "编程语言/Python/002-Python类和对象.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/编译原理B.md"
+                "file": "编程语言/Python/002-Python类和对象.md"
               }
             }
           },
@@ -187,14 +187,16 @@
       "templates:插入模板": false
     }
   },
-  "active": "89d8e874d80e5822",
+  "active": "8b41ba882a1668bf",
   "lastOpenFiles": [
+    "2024考研/复试/编译原理B.md",
+    "编程语言/Python/002-Python类和对象.md",
+    "编程语言/Python/001-Python函数.md",
+    "2024考研/复试/苏世E-机试.md",
     "2024考研/复试/计算机系统结构.md",
     "2024考研/复试/编译原理-bison示例与应用.md",
     "2024考研/复试/苏世B03-简历、个人陈述.md",
-    "2024考研/复试/苏世E-机试.md",
     "附件/Pasted image 20240127210724.png",
-    "2024考研/复试/编译原理B.md",
     "附件/Pasted image 20240127142504.png",
     "附件/Pasted image 20240127142014.png",
     "附件/Pasted image 20240127124555.png",
@@ -224,9 +226,7 @@
     "Web前端/Vue/001-Vue简介.md",
     "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
     "杂项/Qt/QML/02-QML ImageProvider.md",
-    "杂项/Qt/QML/01-QML基础.md",
     "桌面前端",
-    "2024考研/待办/230814-230820.md",
     "课程项目/CMU-ICS",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "2024考研/复试",
