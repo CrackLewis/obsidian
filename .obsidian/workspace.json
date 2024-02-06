@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d384e89fe3d8d13a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -190,13 +202,15 @@
   },
   "active": "d328f87b05ba7ee4",
   "lastOpenFiles": [
+    "2024考研/复试/苏世B03-简历、个人陈述.md",
+    "2024考研/复试/数据库原理.md",
+    "附件/Pasted image 20240206162908.png",
     "附件/Pasted image 20240206020217.png",
     "附件/Pasted image 20240205174811.png",
     "附件/Pasted image 20240205174805.png",
     "附件/Pasted image 20240205172957.png",
     "!到复试的全部学习计划.md",
     "2024考研/复试/苏世A01-复试专业课.md",
-    "2024考研/复试/数据库原理.md",
     "Web前端/Vue/Z01-Vue核心总结.md",
     "编程语言/Python/002-Python类和对象.md",
     "附件/Pasted image 20240205012211.png",
@@ -205,10 +219,7 @@
     "附件/Pasted image 20240204003810.png",
     "附件/Pasted image 20240203133051.png",
     "2024考研/复试/苏世E-机试.md",
-    "附件/Pasted image 20240203121040.png",
-    "附件/Pasted image 20240203115055.png",
     "2024考研/复试/编译原理-flex示例.md",
-    "2024考研/复试/苏世B03-简历、个人陈述.md",
     "编程语言/Cpp/Cpp标准库/格式化库.md",
     "编程语言/Cpp/001-C++元编程.md",
     "2024考研/复试/苏世B04-项目、邮件、推荐信.md",
