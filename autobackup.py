@@ -21,12 +21,12 @@ subprocess.call(["git", "add", "."])
 # 提交更改
 commit_message = "AutoBackup: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 commit_result = subprocess.run(["git", "commit", "-m", commit_message], capture_output=True)
-commit_result_txt = (commit_result.stdout)
+commit_result_txt = commit_result.stdout.decode('utf8')
+print(commit_result_txt)
 if "nothing to commit" in commit_result_txt:
-	print("Nothing to commit. The Obsidian vault is up to date.")
+	pass
 # 推送更改到远程仓库
 else:
-	print(commit_result_txt.decode('utf8'))
 	while True:
 		if subprocess.call(["git", "push", remote_name, "master"]) != 0:
 			print("Remote pushing failed. Please update the proxy config or check the network status. ")		
