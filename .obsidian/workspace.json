@@ -20,31 +20,18 @@
             }
           },
           {
-            "id": "eb810b61a7b72179",
+            "id": "99136fe5d3a79410",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/数据库原理-SQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d384e89fe3d8d13a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024考研/复试/设计模式.md",
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,30 +187,35 @@
       "templates:插入模板": false
     }
   },
-  "active": "d384e89fe3d8d13a",
+  "active": "a32239d26cb65dd4",
   "lastOpenFiles": [
+    "附件/Pasted image 20240214231009.png",
+    "附件/Pasted image 20240214203818.png",
+    "附件/Pasted image 20240214190215.png",
+    "2024考研/复试/苏世B03-简历、个人陈述.md",
+    "2024考研/复试/设计模式.md",
+    "附件/Pasted image 20240214131229.png",
+    "附件/Pasted image 20240214114136.png",
+    "附件/Pasted image 20240214101747.png",
+    "2024考研/复试/数据库原理-SQL.md",
+    "读书笔记/命令行的艺术.md",
+    "!DDL.md",
+    "读书笔记",
+    "附件/Pasted image 20240214090029.png",
+    "附件/Pasted image 20240213162818.png",
+    "附件/Pasted image 20240213145529.png",
+    "2024考研/复试/编译原理B.md",
+    "2024考研/复试/计算机系统结构.md",
+    "2024考研/复试/计算理论.md",
     "附件/Pasted image 20240213083338.png",
     "附件/Pasted image 20240213012549.png",
     "2024考研/复试/软件工程.md",
     "2024考研/复试/面试-自我介绍.md",
-    "2024考研/复试/设计模式.md",
     "2024考研/复试/数据库原理.md",
     "2024考研/复试/面试-非专业问题.md",
     "2024考研/复试/编译原理A.md",
-    "2024考研/复试/编译原理B.md",
-    "2024考研/复试/苏世B03-简历、个人陈述.md",
-    "附件/Pasted image 20240212124711.png",
-    "附件/Pasted image 20240212124124.png",
-    "附件/Pasted image 20240212113345.png",
-    "附件/Pasted image 20240211124843.png",
-    "附件/Pasted image 20240211123958.png",
-    "附件/Pasted image 20240211123622.png",
-    "附件/Pasted image 20240211111833.png",
-    "附件/Pasted image 20240211095103.png",
-    "附件/Pasted image 20240210151348.png",
     "2024考研/数学/错题/C03-一元函数积分学.md",
     "课程项目/MIT-MissingSemester.md",
-    "2024考研/复试/数据库原理-SQL.md",
     "课程项目/UCSB-GAMES101/L03-2D transforms.md",
     "课程项目/UCSB-GAMES101/L04-3D transforms.md",
     "课程项目/UCSB-GAMES101/L02-linear algebra.md",
@@ -235,10 +227,6 @@
     "Web前端/Vue/Z01-Vue核心总结.md",
     "编程语言/Python/002-Python类和对象.md",
     "2024考研/复试/苏世E-机试.md",
-    "2024考研/复试/编译原理-flex示例.md",
-    "编程语言/Cpp/001-C++元编程.md",
-    "2024考研/复试/苏世B04-项目、邮件、推荐信.md",
-    "2024考研/数学/错题/C05-多元函数微分学.md",
     "课程项目/MIT-6.824",
     "桌面前端",
     "课程项目/CMU-ICS",
@@ -246,7 +234,6 @@
     "2024考研/复试",
     "杂项/Qt/QML",
     "杂项/Qt",
-    "算法/经典数据结构",
-    "算法/经典算法"
+    "算法/经典数据结构"
   ]
 }
