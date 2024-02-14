@@ -21,7 +21,7 @@ subprocess.call(["git", "add", "."])
 # 提交更改
 commit_message = "AutoBackup: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 commit_result = subprocess.run(["git", "commit", "-m", commit_message], capture_output=True)
-commit_result_txt = str(commit_result.stdout)
+commit_result_txt = (commit_result.stdout)
 if "nothing to commit" in commit_result_txt:
 	print("Nothing to commit. The Obsidian vault is up to date.")
 # 推送更改到远程仓库
