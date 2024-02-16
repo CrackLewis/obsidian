@@ -13,25 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/设计模式.md",
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "99136fe5d3a79410",
+            "id": "e4cd793b025670ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
+                "file": "2024考研/复试/苏世B04-项目、邮件、推荐信.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d45f0a512379008b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程语言/Java/@-Java基础/004-Java核心类.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/设计模式.md",
+                "file": "编程语言/Java/@-Java基础/004-Java核心类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/设计模式.md",
+                "file": "编程语言/Java/@-Java基础/004-Java核心类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/设计模式.md"
+                "file": "编程语言/Java/@-Java基础/004-Java核心类.md"
               }
             }
           },
@@ -187,21 +200,30 @@
       "templates:插入模板": false
     }
   },
-  "active": "a32239d26cb65dd4",
+  "active": "d45f0a512379008b",
   "lastOpenFiles": [
-    "附件/Pasted image 20240215013852.png",
-    "附件/Pasted image 20240215013805.png",
-    "附件/Pasted image 20240215011530.png",
-    "附件/Pasted image 20240215011008.png",
-    "附件/Pasted image 20240215010730.png",
-    "附件/Pasted image 20240215005214.png",
-    "附件/Pasted image 20240215004658.png",
-    "2024考研/复试/设计模式.md",
-    "附件/Pasted image 20240214235420.png",
-    "附件/Pasted image 20240214231009.png",
-    "附件/Pasted image 20240214203818.png",
-    "附件/Pasted image 20240214190215.png",
+    "编程语言/Cpp/Cpp标准库/格式化库.md",
+    "编程语言/Java/@-Java基础/004-Java核心类.md",
+    "编程语言/Java/@-Java基础/003-Java面向对象方法.md",
+    "编程语言/Java/@-Java基础/002-Java基本语法.md",
+    "编程语言/Java/@-Java基础/001-Java简介.md",
+    "2024考研/复试/苏世C-复试专业课.md",
+    "2024考研/408/数据结构/DSR07-数据结构复习.md",
     "2024考研/复试/苏世B03-简历、个人陈述.md",
+    "2024考研/复试/苏世B04-项目、邮件、推荐信.md",
+    "附件/Pasted image 20240215142520.png",
+    "2024考研/复试/苏世B02-英语自我介绍、口语问答.md",
+    "附件/Pasted image 20240215140851.png",
+    "附件/Pasted image 20240215140735.png",
+    "附件/Pasted image 20240215140705.png",
+    "附件/Pasted image 20240215130514.png",
+    "附件/Pasted image 20240215130442.png",
+    "附件/Pasted image 20240215130350.png",
+    "附件/Pasted image 20240215130320.png",
+    "附件/Pasted image 20240215130241.png",
+    "附件/Pasted image 20240215130220.png",
+    "2024考研/复试/数据库原理.md",
+    "2024考研/复试/设计模式.md",
     "2024考研/复试/数据库原理-SQL.md",
     "读书笔记/命令行的艺术.md",
     "!DDL.md",
@@ -211,22 +233,13 @@
     "2024考研/复试/计算理论.md",
     "2024考研/复试/软件工程.md",
     "2024考研/复试/面试-自我介绍.md",
-    "2024考研/复试/数据库原理.md",
     "2024考研/复试/面试-非专业问题.md",
     "2024考研/复试/编译原理A.md",
     "2024考研/数学/错题/C03-一元函数积分学.md",
     "课程项目/MIT-MissingSemester.md",
     "课程项目/UCSB-GAMES101/L03-2D transforms.md",
     "课程项目/UCSB-GAMES101/L04-3D transforms.md",
-    "课程项目/UCSB-GAMES101/L02-linear algebra.md",
-    "课程项目/UCSB-GAMES101/L01-summary.md",
     "课程项目/UCSB-GAMES101",
-    "2024考研/复试/苏世A01-复试专业课.md",
-    "编程语言/Cpp/Cpp标准库/格式化库.md",
-    "!到复试的全部学习计划.md",
-    "Web前端/Vue/Z01-Vue核心总结.md",
-    "编程语言/Python/002-Python类和对象.md",
-    "2024考研/复试/苏世E-机试.md",
     "课程项目/MIT-6.824",
     "桌面前端",
     "课程项目/CMU-ICS",
