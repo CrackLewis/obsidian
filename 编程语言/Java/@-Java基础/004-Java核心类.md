@@ -388,10 +388,78 @@ public record Point(int x, int y) {
 
 ### java.math.BigInteger
 
-用int数组模拟一个大数：
+`BigInteger`用int数组模拟一个大数，它和其他整数包装类型一样继承`Number`类。
+
+只能通过成员方法进行计算，不能使用运算符。
+
+可以通过`xxxValue`方法转换为基本类型。如果对应的基本类型溢出，会抛出ArithmeticException。
 
 ```java
+BigInteger bi = new BigInteger("1234567890");
+System.out.println(bi.pow(5)); // 2867971860299718107233761438093672048294900000
 
+BigInteger i1 = new BigInteger("1234567890");
+BigInteger i2 = new BigInteger("12345678901234567890");
+BigInteger sum = i1.add(i2); // 12345678902469135780
+
+BigInteger i = new BigInteger("123456789000");
+System.out.println(i.longValue()); // 123456789000
+System.out.println(i.multiply(i).longValueExact()); // java.lang.ArithmeticException: BigInteger out of long range
 ```
 
 ### java.math.BigDecimal
+
+`BigDecimal`可表示任意大小和精度的、完全准确的浮点数。
+
+加、减、乘时，其精度不会丢失，但除法如果除不尽，则会抛出异常。
+
+成员方法`divideAndRemainder`支持同时求除法的商和余数。
+
+默认的比较方法`equals`要求数值和scale同时相等。如果只是比较数值而非具体位数，则应使用`compareTo`方法。
+
+```java
+BigDecimal bd = new BigDecimal("123.4567");
+System.out.println(bd.multiply(bd)); // 15241.55677489
+
+BigDecimal d1 = new BigDecimal("123.45");
+BigDecimal d2 = new BigDecimal("123.4500");
+BigDecimal d3 = new BigDecimal("1234500");
+System.out.println(d1.scale()); // 2,两位小数
+System.out.println(d2.scale()); // 4
+System.out.println(d3.scale()); // 0
+
+BigDecimal d1 = new BigDecimal("123.4500");
+BigDecimal d2 = d1.stripTrailingZeros();
+System.out.println(d1.scale()); // 4
+System.out.println(d2.scale()); // 2,因为去掉了00
+
+BigDecimal d3 = new BigDecimal("1234500");
+BigDecimal d4 = d3.stripTrailingZeros();
+System.out.println(d3.scale()); // 0
+System.out.println(d4.scale()); // -2
+
+BigDecimal d1 = new BigDecimal("123.456");
+BigDecimal d2 = new BigDecimal("23.456789");
+BigDecimal d3 = d1.divide(d2, 10, RoundingMode.HALF_UP); // 保留10位小数并四舍五入
+BigDecimal d4 = d1.divide(d2); // 报错：ArithmeticException，因为除不尽
+
+BigDecimal n = new BigDecimal("12.75");
+BigDecimal m = new BigDecimal("0.15");
+BigDecimal[] dr = n.divideAndRemainder(m);
+if (dr[1].signum() == 0) {
+    // n是m的整数倍
+}
+
+BigDecimal d1 = new BigDecimal("123.456");
+BigDecimal d2 = new BigDecimal("123.45600");
+System.out.println(d1.equals(d2)); // false,因为scale不同
+System.out.println(d1.equals(d2.stripTrailingZeros())); // true,因为d2去除尾部0后scale变为3
+System.out.println(d1.compareTo(d2)); // 0
+```
+
+## 其他工具类
+
+- Math
+- java.util.HexFormat
+- java.util.Random
+- java.security.SecureRandom
