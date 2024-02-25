@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/CMake/CMake入门.md",
+                "file": "2024考研/复试/苏世A01-复试专业课.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,26 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "读书笔记/命令行的艺术.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aeaf13e1a2888c8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "读书笔记/是大臣、是首相.md",
+                "file": "编程语言/Python/002-Python类和对象.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/是大臣、是首相.md",
+                "file": "编程语言/Python/002-Python类和对象.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "读书笔记/是大臣、是首相.md",
+                "file": "编程语言/Python/002-Python类和对象.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "读书笔记/是大臣、是首相.md"
+                "file": "编程语言/Python/002-Python类和对象.md"
               }
             }
           },
@@ -224,14 +212,15 @@
       "templates:插入模板": false
     }
   },
-  "active": "aeaf13e1a2888c8f",
+  "active": "b26711401019b66f",
   "lastOpenFiles": [
-    "读书笔记/命令行的艺术.md",
-    "读书笔记/是大臣、是首相.md",
-    "编程语言/Python/002-Python类和对象.md",
     "编程语言/Python/003-Python数据交换.md",
+    "读书笔记/命令行的艺术.md",
+    "2024考研/复试/苏世A01-复试专业课.md",
+    "编程语言/Python/002-Python类和对象.md",
     "后端/CMake/CMake入门.md",
     "2024考研/复试/苏世B04-项目、邮件、推荐信.md",
+    "读书笔记/是大臣、是首相.md",
     "编程语言/Java/@-Java基础/004-Java核心类.md",
     "编程语言/Java/@-Java基础/005-Java异常.md",
     "编程语言/Java/@-Java基础/006-Java日志.md",
@@ -262,7 +251,6 @@
     "2024考研/复试/计算机系统结构.md",
     "2024考研/复试/计算理论.md",
     "2024考研/复试/软件工程.md",
-    "2024考研/复试/面试-自我介绍.md",
     "课程项目/UCSB-GAMES101",
     "课程项目/MIT-6.824",
     "桌面前端",
