@@ -200,3 +200,58 @@ del a.name # AttributeError: nice try bro
 
 上例中，`_name`是实际存储属性的成员，构造器内对`self.name`的赋值是为了在第一次给属性赋值时便进行检查。
 
+上面只是一个个例，实际上并不需要对每个属性都规定`getter/setter/deleter`。
+
+## 调用父类方法
+
+类内调用`super()`可以获得直接父类引用，在类内可以通过`super().xxx()`的格式调用父类的`xxx`方法。
+
+`super(ThisClass, this)`可以访问对象归属于直接父类那一部分的成员。
+
+Python继承会和其他语言一样引入交叉继承问题，Python给出的结局方案是指定*方法解析顺序*（method resolution order，MRO）。详细参考：[Python super()详解](https://blog.csdn.net/wanzew/article/details/106993425)
+
+```python
+class A:
+	def __init__(self):
+		print("A.init")
+
+class B(A):
+	def __init__(self):
+		print("B.init")
+		super(B, self).__init__()
+
+class C(A):
+	def __init__(self):
+		print("C.init")
+		super(C, self).__init__()
+
+class D(B, C):
+	def __init__(self):
+		print("D.init")
+		super(D, self).__init__()
+
+d = D() # D.init B.init C.init A.init
+```
+
+## 子类扩展属性
+
+通过`super(ThisClass, ThisClass).the_property`访问父类的属性名。
+
+如果`the_property`属性设置了`setter/deleter`，可以通过`__set__/__delete__`方法访问。
+
+```python
+class SubPerson(Person):
+	@property
+	def name(self):
+		print('Getting name')
+		return super().name
+	@name.setter
+	def name(self, value):
+		print('Setting name to', value)
+		super(SubPerson, SubPerson).name.__set__(self, value)
+	@name.deleter
+	def name(self):
+		print('Deleting name')
+		super(SubPerson, SubPerson).name.__delete__(self)
+```
+
