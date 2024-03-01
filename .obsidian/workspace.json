@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/经典算法/力扣01-动态规划.md",
+                "file": "2024考研/数学/总结/Z03-一元函数积分学.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/经典算法/力扣01-动态规划.md",
+                "file": "2024考研/数学/总结/Z03-一元函数积分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/经典算法/力扣01-动态规划.md",
+                "file": "2024考研/数学/总结/Z03-一元函数积分学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/经典算法/力扣01-动态规划.md"
+                "file": "2024考研/数学/总结/Z03-一元函数积分学.md"
               }
             }
           },
@@ -202,9 +202,12 @@
   },
   "active": "a05bcdcf043101e9",
   "lastOpenFiles": [
+    "2024考研/数学/总结/Z02-一元函数微分学.md",
+    "2024考研/数学/总结/Z01-函数、极限、连续.md",
+    "2024考研/数学/错题/C01-函数、极限、连续.md",
+    "算法/经典算法/力扣01-动态规划.md",
     "读书笔记/是大臣、是首相.md",
     "算法/经典数据结构/A-红黑树.md",
-    "算法/经典算法/力扣01-动态规划.md",
     "2024考研/复试/数据库原理.md",
     "2024考研/复试/设计模式.md",
     "2024考研/复试/苏世A01-复试专业课.md",
@@ -235,10 +238,7 @@
     "附件/Pasted image 20240215130320.png",
     "附件/Pasted image 20240215130241.png",
     "附件/Pasted image 20240215130220.png",
-    "2024考研/复试/数据库原理-SQL.md",
-    "!DDL.md",
     "读书笔记",
-    "2024考研/复试/编译原理B.md",
     "课程项目/UCSB-GAMES101",
     "课程项目/MIT-6.824",
     "桌面前端",
