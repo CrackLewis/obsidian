@@ -101,7 +101,7 @@ vector<int> kmp_build(const string& str) {
 }
 
 /**
- * If you simply want to run KMP algorithm, just invoke this function.
+ * If you simply want to run KMP algorithm, invoke this function.
  *
  * ATTENTION: match array has a length of text.length()+1 instead of
  * text.length().
