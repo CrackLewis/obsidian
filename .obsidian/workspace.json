@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a32239d26cb65dd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "读书笔记/是大臣、是首相.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b26711401019b66f",
             "type": "leaf",
             "state": {
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/苏世E-机试.md",
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md",
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md",
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md"
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md"
               }
             }
           },
@@ -212,10 +200,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "04e456a33cd0e448",
+  "active": "a05bcdcf043101e9",
   "lastOpenFiles": [
     "2024考研/复试/苏世E-机试.md",
     "2024考研/复试/专业课汇总.md",
+    "附件/Pasted image 20240303010333.png",
     "2024考研/复试/苏世B03-简历、个人陈述.md",
     "2024考研/408/数据结构/DSR07-数据结构复习.md",
     "2024考研/408/数据结构/DSR04-串复盘.md",
@@ -239,7 +228,6 @@
     "2024考研/408/计算机组成原理/CO05-中央处理器.md",
     "2024考研/408/计算机组成原理/CO04-指令系统.md",
     "2024考研/408/计算机网络/CNR04-复习网络层.md",
-    "2024考研/408/计算机网络/CNR06-复习应用层.md",
     "附件/Pasted image 20240215142520.png",
     "附件/Pasted image 20240215140851.png",
     "附件/Pasted image 20240215140735.png",
@@ -249,7 +237,6 @@
     "附件/Pasted image 20240215130350.png",
     "附件/Pasted image 20240215130320.png",
     "附件/Pasted image 20240215130241.png",
-    "附件/Pasted image 20240215130220.png",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
     "课程项目/MIT-6.824",
