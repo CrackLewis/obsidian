@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/苏世B02-英语自我介绍、口语问答.md",
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/苏世B02-英语自我介绍、口语问答.md",
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/苏世B02-英语自我介绍、口语问答.md",
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/苏世B02-英语自我介绍、口语问答.md"
+                "file": "2024考研/复试/苏世B03-简历、个人陈述.md"
               }
             }
           },
@@ -200,9 +200,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "a05bcdcf043101e9",
+  "active": "58c3fb4939553a91",
   "lastOpenFiles": [
+    "2024考研/复试/苏世B02-英语自我介绍、口语问答.md",
+    "2024考研/复试/面试-自我介绍.md",
     "2024考研/复试/苏世B03-简历、个人陈述.md",
+    "2024考研/复试/面试-非专业问题.md",
     "2024考研/复试/专业课汇总.md",
     "附件/Pasted image 20240307010627.png",
     "附件/Pasted image 20240307010613.png",
@@ -235,8 +238,6 @@
     "2024考研/408/操作系统/OS03-内存管理.md",
     "2024考研/408/操作系统/OS02-进程管理.md",
     "2024考研/408/操作系统/OS01-计算机系统概述.md",
-    "2024考研/408/计算机组成原理/CO07-输入输出系统.md",
-    "2024考研/408/计算机组成原理/CO06-总线.md",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
     "课程项目/MIT-6.824",
