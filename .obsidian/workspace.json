@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61cb606d5ef3e53a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编程语言/Cpp/Linux网络编程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "468c48fcd11f232f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Cpp/Linux网络编程.md",
+                "file": "2024考研/复试/软件工程.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/Cpp/Linux网络编程.md",
+                "file": "2024考研/复试/软件工程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/Cpp/Linux网络编程.md",
+                "file": "2024考研/复试/软件工程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Cpp/Linux网络编程.md"
+                "file": "2024考研/复试/软件工程.md"
               }
             }
           },
@@ -187,10 +175,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "61cb606d5ef3e53a",
+  "active": "468c48fcd11f232f",
   "lastOpenFiles": [
-    "编程语言/Cpp/001-C++元编程.md",
     "编程语言/Cpp/Linux网络编程.md",
+    "编程语言/Cpp/001-C++元编程.md",
     "读书笔记/命令行的艺术.md",
     "2024考研/复试/数据库原理.md",
     "数据库/MySQL/mysql.md",
