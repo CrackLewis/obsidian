@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b26711401019b66f",
+            "id": "61cb606d5ef3e53a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md",
+                "file": "编程语言/Cpp/Linux网络编程.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "61cb606d5ef3e53a",
+            "id": "468c48fcd11f232f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/数据库原理.md",
+                "file": "编程语言/Cpp/Linux网络编程.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md",
+                "file": "编程语言/Cpp/Linux网络编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md",
+                "file": "编程语言/Cpp/Linux网络编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md"
+                "file": "编程语言/Cpp/Linux网络编程.md"
               }
             }
           },
@@ -187,14 +187,21 @@
       "templates:插入模板": false
     }
   },
-  "active": "b26711401019b66f",
+  "active": "61cb606d5ef3e53a",
   "lastOpenFiles": [
+    "编程语言/Cpp/001-C++元编程.md",
+    "编程语言/Cpp/Linux网络编程.md",
+    "读书笔记/命令行的艺术.md",
+    "2024考研/复试/数据库原理.md",
+    "数据库/MySQL/mysql.md",
+    "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
+    "后端/CMake/CMake入门.md",
+    "2024考研/复试/专业课汇总.md",
     "算法/经典数据结构/A-红黑树.md",
     "算法/经典算法/力扣01-动态规划.md",
     "算法/经典算法/力扣02-搜索.md",
     "算法/经典算法/力扣03-数学.md",
     "算法/经典算法/力扣04-乱搞.md",
-    "2024考研/复试/专业课汇总.md",
     "附件/Pasted image 20240309022532.png",
     "附件/Pasted image 20240309022426.png",
     "附件/Pasted image 20240309014831.png",
@@ -205,7 +212,6 @@
     "附件/Pasted image 20240309014427.png",
     "附件/Pasted image 20240309014401.png",
     "附件/Pasted image 20240309014213.png",
-    "2024考研/复试/数据库原理.md",
     "2024考研/复试/苏世B03-简历、个人陈述.md",
     "2024考研/复试/苏世B02-英语自我介绍、口语问答.md",
     "2024考研/复试/面试-自我介绍.md",
@@ -220,11 +226,6 @@
     "2024考研/408/计算机网络/CNR02-复习物理层.md",
     "2024考研/408/计算机网络/CNR01-复习计网体系.md",
     "2024考研/408/计算机网络/CN06-应用层.md",
-    "2024考研/408/计算机网络/CN05-传输层.md",
-    "2024考研/408/计算机网络/CN04-网络层.md",
-    "2024考研/408/计算机网络/CN03-数据链路层.md",
-    "2024考研/408/计算机网络/CN02-物理层.md",
-    "2024考研/408/计算机网络/CN01-计算机网络体系结构.md",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
     "课程项目/MIT-6.824",
@@ -233,7 +234,6 @@
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "2024考研/复试",
     "杂项/Qt/QML",
-    "杂项/Qt",
-    "算法/经典数据结构"
+    "杂项/Qt"
   ]
 }
