@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/软件工程.md",
+                "file": "2024考研/复试/专业课汇总.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/软件工程.md",
+                "file": "2024考研/复试/专业课汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/软件工程.md",
+                "file": "2024考研/复试/专业课汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/软件工程.md"
+                "file": "2024考研/复试/专业课汇总.md"
               }
             }
           },
@@ -158,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -177,6 +177,14 @@
   },
   "active": "468c48fcd11f232f",
   "lastOpenFiles": [
+    "附件/Pasted image 20240313222030.png",
+    "附件/Pasted image 20240313221959.png",
+    "附件/Pasted image 20240313025457.png",
+    "附件/Pasted image 20240313025444.png",
+    "附件/Pasted image 20240313025435.png",
+    "附件/Pasted image 20240313025052.png",
+    "附件/Pasted image 20240313024823.png",
+    "2024考研/复试/软件工程.md",
     "编程语言/Cpp/Linux网络编程.md",
     "编程语言/Cpp/001-C++元编程.md",
     "读书笔记/命令行的艺术.md",
@@ -194,12 +202,6 @@
     "附件/Pasted image 20240309022426.png",
     "附件/Pasted image 20240309014831.png",
     "附件/Pasted image 20240309014814.png",
-    "附件/Pasted image 20240309014753.png",
-    "附件/Pasted image 20240309014626.png",
-    "附件/Pasted image 20240309014537.png",
-    "附件/Pasted image 20240309014427.png",
-    "附件/Pasted image 20240309014401.png",
-    "附件/Pasted image 20240309014213.png",
     "2024考研/复试/苏世B03-简历、个人陈述.md",
     "2024考研/复试/苏世B02-英语自我介绍、口语问答.md",
     "2024考研/复试/面试-自我介绍.md",
@@ -212,8 +214,6 @@
     "2024考研/408/计算机网络/CNR04-复习网络层.md",
     "2024考研/408/计算机网络/CNR03-复习数据链路层.md",
     "2024考研/408/计算机网络/CNR02-复习物理层.md",
-    "2024考研/408/计算机网络/CNR01-复习计网体系.md",
-    "2024考研/408/计算机网络/CN06-应用层.md",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
     "课程项目/MIT-6.824",
