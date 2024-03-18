@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/机器学习-小黄鸭.md",
+                "file": "2024考研/复试/面试-自我介绍.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md",
+                "file": "2024考研/复试/面试-自我介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md",
+                "file": "2024考研/复试/面试-自我介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md"
+                "file": "2024考研/复试/面试-自我介绍.md"
               }
             }
           },
@@ -200,25 +200,25 @@
       "templates:插入模板": false
     }
   },
-  "active": "844f339a5d24fde3",
+  "active": "2397abe2bab89b13",
   "lastOpenFiles": [
+    "2024考研/复试/面试-非专业问题.md",
+    "AI/机器学习-小黄鸭.md",
+    "2024考研/复试/专业课汇总.md",
     "附件/Pasted image 20240316200533.png",
     "附件/Pasted image 20240316200239.png",
     "附件/Pasted image 20240316200219.png",
     "附件/Pasted image 20240316200213.png",
     "2024考研/408/数据结构/DS07A-手玩AVL.md",
     "AI/机器学习复习/06-深度学习.md",
-    "AI/机器学习-小黄鸭.md",
     "附件/Pasted image 20240315170214.png",
     "附件/Pasted image 20240315165604.png",
     "附件/Pasted image 20240315165326.png",
     "附件/Pasted image 20240315165107.png",
     "附件/Pasted image 20240315153529.png",
     "附件/Pasted image 20240315153431.png",
-    "附件/Pasted image 20240315153401.png",
     "AI/机器学习复习/07-支持向量机.md",
     "AI/机器学习复习/05-神经网络.md",
-    "2024考研/复试/专业课汇总.md",
     "2024考研/复试/软件工程.md",
     "编程语言/Cpp/Linux网络编程.md",
     "编程语言/Cpp/001-C++元编程.md",
@@ -235,7 +235,6 @@
     "2024考研/复试/苏世B03-简历、个人陈述.md",
     "2024考研/复试/苏世B02-英语自我介绍、口语问答.md",
     "2024考研/复试/面试-自我介绍.md",
-    "2024考研/复试/面试-非专业问题.md",
     "2024考研/复试/苏世B04-项目、邮件、推荐信.md",
     "2024考研/408/计算机网络/CNS02-协议和缩写.md",
     "2024考研/408/计算机网络/CNS01-真题考情和重点.md",
