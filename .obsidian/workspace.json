@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "e3dd9aa286e84c64",
+        "id": "c3802851eb689f28",
         "type": "tabs",
         "children": [
           {
-            "id": "468c48fcd11f232f",
+            "id": "d4286ac1a679b56e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/机器学习复习/06-深度学习.md",
+                "file": "数据库/MySQL/mysql.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cf59c713adf1d3ce",
+            "id": "fe301ae59494ec5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md",
+                "file": "数据库/Redis/01-Redis入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md",
+                "file": "数据库/Redis/01-Redis入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md",
+                "file": "数据库/Redis/01-Redis入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/复试/专业课汇总.md"
+                "file": "数据库/Redis/01-Redis入门.md"
               }
             }
           },
@@ -188,8 +188,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "cf59c713adf1d3ce",
+  "active": "fe301ae59494ec5e",
   "lastOpenFiles": [
+    "数据库/MySQL/mysql.md",
+    "数据库/Redis/01-Redis入门.md",
+    "数据库/Redis",
+    "AI/机器学习-小黄鸭.md",
+    "AI/机器学习复习/10-集成学习.md",
     "AI/机器学习复习/06-深度学习.md",
     "2024考研/复试/专业课汇总.md",
     "2024考研/复试/苏世E-机试.md",
@@ -198,7 +203,6 @@
     "2024考研/408/计算机组成原理/CO04-指令系统.md",
     "2024考研/复试/面试-自我介绍.md",
     "2024考研/复试/面试-非专业问题.md",
-    "AI/机器学习-小黄鸭.md",
     "附件/Pasted image 20240316200533.png",
     "附件/Pasted image 20240316200239.png",
     "附件/Pasted image 20240316200219.png",
@@ -217,7 +221,6 @@
     "编程语言/Cpp/001-C++元编程.md",
     "读书笔记/命令行的艺术.md",
     "2024考研/复试/数据库原理.md",
-    "数据库/MySQL/mysql.md",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
     "后端/CMake/CMake入门.md",
     "算法/经典数据结构/A-红黑树.md",
@@ -225,8 +228,6 @@
     "算法/经典算法/力扣02-搜索.md",
     "算法/经典算法/力扣03-数学.md",
     "算法/经典算法/力扣04-乱搞.md",
-    "2024考研/复试/苏世B03-简历、个人陈述.md",
-    "2024考研/复试/苏世B02-英语自我介绍、口语问答.md",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
     "课程项目/MIT-6.824",
@@ -234,7 +235,6 @@
     "课程项目/CMU-ICS",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
     "2024考研/复试",
-    "杂项/Qt/QML",
-    "杂项/Qt"
+    "杂项/Qt/QML"
   ]
 }
