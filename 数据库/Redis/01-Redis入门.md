@@ -86,8 +86,9 @@ LHR> config get loglevel
 - `dbfilename`：数据库文件名，默认为`dump.rdb`
 - `maxmemory`：Redis可使用的最大内存字节数，设为`0`表示不限制
 
-## 数据类型
+## 数据操作
 
+**数据类型**：
 - String：字符串
 - Hash：键值对集合，常用于存储对象
 - List：列表
@@ -106,6 +107,25 @@ OK
 127.0.0.1:6379> get delval
 (nil)
 ```
+
+### 操作key
+
+增删改查：
+- `set <key> <value>`：设置`key`的字符串值为`value`
+- `get <key>`：查询`key`的字符串值
+- `del <key>`：移除`key`键值对
+- `exists <key>`：查询`key`是否存在
+- `type <key>`：获取`key`值的类型，以确定用哪一种
+- `rename <key> <new_key>`：重命名`key`
+
+时效相关：
+- `expire <key> <seconds>`：设置key的过期时间（多少*秒*后过期）
+- `expireat <key> <timestamp>`：设置key的过期UNIX时间戳
+- `pexpire <key> <msecs>`：设置key的过期时间（多少*毫秒*后过期）
+- `pexpireat <key> <timestamp>`：设置key过期的UNIX时间戳，*单位毫秒*
+- `persist <key>`：移除key的过期时间
+- `ttl <key>`：返回key的存活时间（Time To Live，TTL）
+- `pttl <key>`：返回key的存活时间，*单位毫秒*
 
 ### 操作字符串
 
