@@ -1,5 +1,10 @@
 
+有关资源：
+- [官网](https://redis.io/)
+- [Redis命令参考](http://doc.redisfans.com/)
 
+WTF is Redis：
+- 跨平台、NoSQL的键值存储系统
 
 ## 安装
 
@@ -81,4 +86,47 @@ LHR> config get loglevel
 - `dbfilename`：数据库文件名，默认为`dump.rdb`
 - `maxmemory`：Redis可使用的最大内存字节数，设为`0`表示不限制
 
-##
+## 数据类型
+
+- String：字符串
+- Hash：键值对集合，常用于存储对象
+- List：列表
+- Set：集合
+- ZSet：有序集合
+
+`del`命令可以删除一个kv对：
+
+```bash
+127.0.0.1:6379> set delval 233
+OK
+127.0.0.1:6379> get delval
+"233"
+127.0.0.1:6379> del delval
+(integer) 1
+127.0.0.1:6379> get delval
+(nil)
+```
+
+### 操作字符串
+
+`get/set`指令即可创建和查询字符串kv对，具体不再陈述。
+
+### 操作哈希表
+
+`hmset`：向一个哈希表插入一或若干对键值。
+
+`hget`：在哈希表中查询键对应的值。
+
+```bash
+127.0.0.1:6379> hmset myhash k1 v1 k2 v2 k3 v3
+OK
+127.0.0.1:6379> hget myhash k1
+"v1"
+127.0.0.1:6379> hget myhash k3
+"v3"
+127.0.0.1:6379> hget myhash k4
+(nil)
+```
+
+### 操作序列
+
