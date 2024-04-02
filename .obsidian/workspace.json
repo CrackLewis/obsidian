@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/Redis/01-Redis入门.md",
+                "file": "!DDL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2281ec25b9ba75f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux编程/getopt.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/Redis/01-Redis入门.md",
+                "file": "Linux/Linux编程/getopt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/Redis/01-Redis入门.md",
+                "file": "Linux/Linux编程/getopt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/Redis/01-Redis入门.md"
+                "file": "Linux/Linux编程/getopt.md"
               }
             }
           },
@@ -188,10 +200,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "fe301ae59494ec5e",
+  "active": "ca3543a5a24243e3",
   "lastOpenFiles": [
-    "数据库/MySQL/mysql.md",
+    "!DDL.md",
+    "Linux/Linux编程/getopt.md",
+    "Linux/Linux编程",
     "数据库/Redis/01-Redis入门.md",
+    "数据库/MySQL/mysql.md",
     "数据库/Redis",
     "AI/机器学习-小黄鸭.md",
     "AI/机器学习复习/10-集成学习.md",
@@ -226,15 +241,12 @@
     "算法/经典数据结构/A-红黑树.md",
     "算法/经典算法/力扣01-动态规划.md",
     "算法/经典算法/力扣02-搜索.md",
-    "算法/经典算法/力扣03-数学.md",
-    "算法/经典算法/力扣04-乱搞.md",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
     "课程项目/MIT-6.824",
     "桌面前端",
     "课程项目/CMU-ICS",
     "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
-    "2024考研/复试",
-    "杂项/Qt/QML"
+    "2024考研/复试"
   ]
 }
