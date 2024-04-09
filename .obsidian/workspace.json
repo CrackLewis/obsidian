@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Qt/QML/01-QML基础.md",
+                "file": "杂项/Qt/QML/02-QML ImageProvider.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "829b99672de39956",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂项/Qt/QML/03-QML布局.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂项/Qt/QML/01-QML基础.md",
+                "file": "杂项/Qt/QML/03-QML布局.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂项/Qt/QML/01-QML基础.md",
+                "file": "杂项/Qt/QML/03-QML布局.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Qt/QML/01-QML基础.md"
+                "file": "杂项/Qt/QML/03-QML布局.md"
               }
             }
           },
@@ -212,8 +224,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "cb784d68bbab0881",
+  "active": "829b99672de39956",
   "lastOpenFiles": [
+    "杂项/Qt/QML/02-QML ImageProvider.md",
+    "杂项/Qt/QML/03-QML布局.md",
+    "杂项/Qt/QML/01-QML基础.md",
     "Web前端/HTML+CSS/010-H5弹性布局.md",
     "!DDL.md",
     "Linux/Linux编程/getopt.md",
@@ -250,9 +265,6 @@
     "读书笔记/命令行的艺术.md",
     "2024考研/复试/数据库原理.md",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
-    "后端/CMake/CMake入门.md",
-    "算法/经典数据结构/A-红黑树.md",
-    "算法/经典算法/力扣01-动态规划.md",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
     "课程项目/MIT-6.824",
