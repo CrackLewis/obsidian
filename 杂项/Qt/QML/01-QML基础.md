@@ -109,6 +109,8 @@ Window {
 
 ### anchor的简单用法
 
+[[03-QML布局#anchors]]
+
 相对其他元素定位：
 ```qml
 Window {
