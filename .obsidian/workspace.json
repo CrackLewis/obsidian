@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Qt/QML/04-QML动画.md",
+                "file": "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂项/Qt/QML/04-QML动画.md",
+                "file": "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂项/Qt/QML/04-QML动画.md",
+                "file": "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Qt/QML/04-QML动画.md"
+                "file": "Linux/Hacks/Ubuntu虚拟机NAT配置.md"
               }
             }
           },
@@ -238,8 +238,10 @@
   },
   "active": "b714b4ef9044d364",
   "lastOpenFiles": [
-    "杂项/Qt/QML/03-QML布局.md",
+    "Linux/Hacks/Ubuntu安装中文输入法.md",
+    "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "杂项/Qt/QML/04-QML动画.md",
+    "杂项/Qt/QML/03-QML布局.md",
     "杂项/Qt/QML/05-QML控件和鼠标.md",
     "杂项/Qt/QML/06-QML属性、组件、加载器.md",
     "杂项/Qt/QML/07-QML与C++聚合.md",
@@ -274,8 +276,6 @@
     "附件/Pasted image 20240315165604.png",
     "附件/Pasted image 20240315165326.png",
     "附件/Pasted image 20240315165107.png",
-    "AI/机器学习复习/07-支持向量机.md",
-    "AI/机器学习复习/05-神经网络.md",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
