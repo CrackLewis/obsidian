@@ -61,26 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Qt/QML/03-QML布局.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b714b4ef9044d364",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
+                "file": "杂项/Qt/QML/06-QML属性、组件、加载器.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -154,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
+                "file": "杂项/Qt/QML/06-QML属性、组件、加载器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
+                "file": "杂项/Qt/QML/06-QML属性、组件、加载器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -194,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Hacks/Ubuntu虚拟机NAT配置.md"
+                "file": "杂项/Qt/QML/06-QML属性、组件、加载器.md"
               }
             }
           },
@@ -236,15 +224,15 @@
       "templates:插入模板": false
     }
   },
-  "active": "b714b4ef9044d364",
+  "active": "829b99672de39956",
   "lastOpenFiles": [
-    "Linux/Hacks/Ubuntu安装中文输入法.md",
-    "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
-    "杂项/Qt/QML/04-QML动画.md",
+    "杂项/Qt/QML/07-QML与C++聚合.md",
     "杂项/Qt/QML/03-QML布局.md",
+    "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
+    "Linux/Hacks/Ubuntu安装中文输入法.md",
+    "杂项/Qt/QML/04-QML动画.md",
     "杂项/Qt/QML/05-QML控件和鼠标.md",
     "杂项/Qt/QML/06-QML属性、组件、加载器.md",
-    "杂项/Qt/QML/07-QML与C++聚合.md",
     "杂项/Qt/QML/毕业设计技术日志.md",
     "杂项/Qt/QML/01-QML基础.md",
     "附件/Pasted image 20240409145947.png",
