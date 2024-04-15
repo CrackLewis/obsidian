@@ -8,67 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4286ac1a679b56e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据库/MySQL/mysql.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe301ae59494ec5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!DDL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2281ec25b9ba75f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux编程/getopt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cb784d68bbab0881",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Qt/QML/02-QML ImageProvider.md",
+                "file": "杂项/Qt/QML/07-QML与C++聚合.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "829b99672de39956",
+            "id": "18c4314706d4b7c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Qt/QML/06-QML属性、组件、加载器.md",
+                "file": "杂项/Qt/QML/E01-QML官方示例学习.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂项/Qt/QML/06-QML属性、组件、加载器.md",
+                "file": "杂项/Qt/QML/E01-QML官方示例学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂项/Qt/QML/06-QML属性、组件、加载器.md",
+                "file": "杂项/Qt/QML/E01-QML官方示例学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Qt/QML/06-QML属性、组件、加载器.md"
+                "file": "杂项/Qt/QML/E01-QML官方示例学习.md"
               }
             }
           },
@@ -224,26 +188,30 @@
       "templates:插入模板": false
     }
   },
-  "active": "829b99672de39956",
+  "active": "18c4314706d4b7c2",
   "lastOpenFiles": [
     "杂项/Qt/QML/07-QML与C++聚合.md",
+    "杂项/Qt/QML/E01-QML官方示例学习.md",
+    "杂项/Qt/QML/04-QML动画.md",
+    "杂项/ChatGPT/GPT提问技巧.md",
+    "读书笔记/程序员的ChatGPT手册.md",
+    "读书笔记/是大臣、是首相.md",
     "杂项/Qt/QML/03-QML布局.md",
+    "杂项/Qt/QML/02-QML ImageProvider.md",
+    "数据库/MySQL/mysql.md",
+    "!DDL.md",
+    "Linux/Linux编程/getopt.md",
+    "杂项/Qt/QML/毕业设计技术日志.md",
     "杂项/Qt/QML/06-QML属性、组件、加载器.md",
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "Linux/Hacks/Ubuntu安装中文输入法.md",
-    "杂项/Qt/QML/04-QML动画.md",
     "杂项/Qt/QML/05-QML控件和鼠标.md",
-    "杂项/Qt/QML/毕业设计技术日志.md",
     "杂项/Qt/QML/01-QML基础.md",
     "附件/Pasted image 20240409145947.png",
     "附件/Pasted image 20240409144806.png",
-    "杂项/Qt/QML/02-QML ImageProvider.md",
     "Web前端/HTML+CSS/010-H5弹性布局.md",
-    "!DDL.md",
-    "Linux/Linux编程/getopt.md",
     "Linux/Linux编程",
     "数据库/Redis/01-Redis入门.md",
-    "数据库/MySQL/mysql.md",
     "数据库/Redis",
     "AI/机器学习-小黄鸭.md",
     "AI/机器学习复习/10-集成学习.md",
@@ -252,14 +220,10 @@
     "2024考研/复试/苏世E-机试.md",
     "2024考研/408/计算机组成原理/CO06-总线.md",
     "2024考研/408/计算机组成原理/CO05-中央处理器.md",
-    "2024考研/408/计算机组成原理/CO04-指令系统.md",
-    "2024考研/复试/面试-自我介绍.md",
-    "2024考研/复试/面试-非专业问题.md",
     "附件/Pasted image 20240316200533.png",
     "附件/Pasted image 20240316200239.png",
     "附件/Pasted image 20240316200219.png",
     "附件/Pasted image 20240316200213.png",
-    "2024考研/408/数据结构/DS07A-手玩AVL.md",
     "附件/Pasted image 20240315170214.png",
     "附件/Pasted image 20240315165604.png",
     "附件/Pasted image 20240315165326.png",

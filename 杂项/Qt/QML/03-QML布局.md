@@ -133,7 +133,9 @@ Rectangle {
 
 ![[Pasted image 20240409145947.png]]
 
-特别地：`anchors.centerIn`表示完全居中，此时目标必须设定为其他元素（而非锚线）。
+锚线固定的目标只能是**父亲元素或兄弟元素**的锚线。
+
+特别地：`anchors.centerIn`表示完全居中，此时目标必须设定为**父亲或兄弟元素**（而非锚线）。
 
 ### 边距
 
@@ -158,3 +160,20 @@ Rectangle {
 - `anchors.fill`：填充整个元素
 - `anchors.centerIn`：中心对准被指定的元素中心
 - `anchors.alignWhenCentered`：在对齐时其他锚点位置是否不变，默认为`false`
+
+### anchors布局的应用顺序
+
+根据个人实操结果来看，似乎是排在前面的先执行。例如：
+
+```q
+Rectangle {
+	width: 300
+	height: 300
+
+	Text {
+		text: "verticalText"
+		anchors.leftMargin: 10
+		anchors
+	}
+}
+```
