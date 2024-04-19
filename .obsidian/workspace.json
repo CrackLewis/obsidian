@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Qt/QML/毕业设计技术日志.md",
+                "file": "数据库/Redis/01-Redis入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂项/Qt/QML/毕业设计技术日志.md",
+                "file": "数据库/Redis/01-Redis入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂项/Qt/QML/毕业设计技术日志.md",
+                "file": "数据库/Redis/01-Redis入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Qt/QML/毕业设计技术日志.md"
+                "file": "数据库/Redis/01-Redis入门.md"
               }
             }
           },
@@ -190,6 +190,8 @@
   },
   "active": "18c4314706d4b7c2",
   "lastOpenFiles": [
+    "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
+    "杂项/Qt/QML/毕业设计技术日志.md",
     "杂项/Qt/QML/E01-QML官方示例学习.md",
     "杂项/Qt/QML/07-QML与C++聚合.md",
     "杂项/Qt/QML/04-QML动画.md",
@@ -201,9 +203,7 @@
     "数据库/MySQL/mysql.md",
     "!DDL.md",
     "Linux/Linux编程/getopt.md",
-    "杂项/Qt/QML/毕业设计技术日志.md",
     "杂项/Qt/QML/06-QML属性、组件、加载器.md",
-    "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "Linux/Hacks/Ubuntu安装中文输入法.md",
     "杂项/Qt/QML/05-QML控件和鼠标.md",
     "杂项/Qt/QML/01-QML基础.md",

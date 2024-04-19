@@ -115,8 +115,10 @@ OK
 - `get <key>`：查询`key`的字符串值
 - `del <key>`：移除`key`键值对
 - `exists <key>`：查询`key`是否存在
-- `type <key>`：获取`key`值的类型，以确定用哪一种
+- `type <key>`：获取`key`值的类型
 - `rename <key> <new_key>`：重命名`key`
+- `mset <k1> <v1> [<k2> <v2> ...]`：依次设置多个键值对
+- `mget <k1> [<k2> ...]`：依次获取多个值
 
 时效相关：
 - `expire <key> <seconds>`：设置key的过期时间（多少*秒*后过期）
@@ -130,6 +132,14 @@ OK
 ### 操作字符串
 
 `get/set`指令即可创建和查询字符串kv对，具体不再陈述。
+
+字符串限定指令：
+- `incr/decr <key>`：在字符串为整数串时，令整数值加一或减一。
+- `incrby/decrby <key> <value>`：在字符串为整数串时，令整数值加或减去`value`
+- `append <key> <value>`：向`key`存储的字符串尾部追加`value`串
+- `strlen <key>`：获取`key`存储的字符串长度
+- `getrange <key> <start> <end>`：截取`[start,end]`范围的子串
+- `setrange <key> <offset> <value>`：将`[start,~]`设置为
 
 ### 操作哈希表
 
