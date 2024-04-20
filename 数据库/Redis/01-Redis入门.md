@@ -2,9 +2,9 @@
 有关资源：
 - [官网](https://redis.io/)
 - [Redis命令参考](http://doc.redisfans.com/)
+- [Redis中文网](https://redis.com.cn/tutorial.html)
 
-WTF is Redis：
-- 跨平台、NoSQL的键值存储系统
+WTF is Redis：跨平台、NoSQL的键值存储系统
 
 ## 安装
 
@@ -364,7 +364,56 @@ OK
 
 **原理**：参考源码[src/hyperloglog.c](https://github.com/redis/redis/blob/unstable/src/hyperloglog.c)
 
-### 发布和订阅
+### Redis GEO
+
+Redis GEO是Redis提供的存储地理坐标的集合，支持添加、删除、获取地理坐标、查询离指定位置特定范围内的坐标、计算两点间地理距离等操作。
+
+有关指令：
+- `geoadd <key> <lon1> <lat1> <member1> [<lon2> <lat2> <mem2> ...]`：向GEO添加一个地理坐标，以经纬度为标准
+- `geopos <key> <mem1> [<mem2> ...]`：获取GEO中特定成员的坐标
+- `geodist <key> <mem1> <mem2> [m|km|ft|mi]`：获取GEO中两点的地理距离（米/公里/英尺/英里）
+- `georadius <key> <long> <lat> <radius> [m|km|ft|mi] [withcoord] [withhash] [count <count>] [asc|desc] [store <nkey>] [storedist <skey>]`：获取GEO中离所指定坐标`radius`半径内，最近的`count`个坐标，并选择是否存储到新GEO中
+	- `georadiusbymember`：功能类似，但中心点是GEO的某个成员
+- `geohash <key> <mem1> [<mem2> ...]`：获取GEO成员的哈希值
+
+### Redis Stream
+
+Redis Stream是一种持久化的队列式数据结构，可以：
+- 维护一个消息链表
+- 记录每个用户访问链表的具体位置
+- 允许用户访问任意时刻的历史数据
+- 主备复制，确保在断电时不丢失数据
+
+![[Pasted image 20240420140940.png]]
+
+Stream的*核心概念*：
+- 消费者组（consumer group）：由多个消费者组成，由`xgroup create`创建。
+	- 游标（last-delivered id）：每个消费者组一个游标，指向Stream的一个位置。每次读写都会使游标前进
+	- 状态变量（pending ids）：每个消费者一个状态变量，维护消费者已读取但未确认的ID。
+
+**消息队列相关命令：**
+- **XADD** - 添加消息到末尾
+- **XTRIM** - 对流进行修剪，限制长度
+- **XDEL** - 删除消息
+- **XLEN** - 获取流包含的元素数量，即消息长度
+- **XRANGE** - 获取消息列表，会自动过滤已经删除的消息
+- **XREVRANGE** - 反向获取消息列表，ID 从大到小
+- **XREAD** - 以阻塞或非阻塞方式获取消息列表
+
+**消费者组相关命令：**
+- **XGROUP CREATE** - 创建消费者组
+- **XREADGROUP GROUP** - 读取消费者组中的消息
+- **XACK** - 将消息标记为"已处理"
+- **XGROUP SETID** - 为消费者组设置新的最后递送消息ID
+- **XGROUP DELCONSUMER** - 删除消费者
+- **XGROUP DESTROY** - 删除消费者组
+- **XPENDING** - 显示待处理消息的相关信息
+- **XCLAIM** - 转移消息的归属权
+- **XINFO** - 查看流和消费者组的相关信息；
+- **XINFO GROUPS** - 打印消费者组的信息；
+- **XINFO STREAM** - 打印流信息
+
+## 发布和订阅
 
 Redis的发布订阅是一种消息通信模式：
 - 服务端：维护频道
@@ -375,8 +424,104 @@ Redis的发布订阅是一种消息通信模式：
 - `subscribe <chn>`：订阅频道，阻塞监听频道传来的消息
 - `publish <chn> <msg>`：向频道发送消息
 
-### 事务
+## 事务
 
 Redis事务由一组指令组成，由`multi`指令开始，由`exec`指令结束。
 
-介于`,m`
+介于`multi-exec`之间的指令会被暂存（`QUEUED`），在`exec`指令被键入时依次执行完毕。
+
+`multi-exec`不允许嵌套。
+
+与SQL数据库的事务不同，Redis事务*不具有原子性*，即使某个指令执行失败了，剩余指令也会依次执行完毕，先前执行的指令也不会回滚。
+
+相关指令：
+- `multi`、`exec`：事务的起始和终止指令
+- `discard`：取消事务，放弃所有暂存的指令
+- `watch <k1> [<k2> ...]`：监视一或多个键，如果事务执行之前这些键被改动了，事务将被打断
+- `unwatch`：取消`watch`的所有监视
+
+示例：
+
+```bash
+127.0.0.1:6379> MULTI
+OK
+
+127.0.0.1:6379> set book-name "Mastering C++ in 21 days"
+QUEUED
+
+127.0.0.1:6379> get book-name
+QUEUED
+
+127.0.0.1:6379> sadd tag "C++" "Programming" "Mastering Series"
+QUEUED
+
+127.0.0.1:6379> smembers tag
+QUEUED
+
+127.0.0.1:6379> exec
+1) OK
+2) "Mastering C++ in 21 days"
+3) (integer) 3
+4) 1) "Mastering Series"
+   2) "C++"
+   3) "Programming"
+```
+
+## 脚本
+
+Redis使用Lua解释器执行脚本。
+
+这块是个坑，还没学过Lua，回头补。
+
+WIP
+
+## Redis连接
+
+- `auth <psw>`：验证密码是否正确
+- `echo <msg>`：回显字符串
+- `ping`：查看服务是否运行
+- `quit`：关闭连接
+- `select <idx>`：切换到指定的数据库
+
+## Redis服务器
+
+客户端连接指令：
+- `client list`：获取连接列表
+- `client getname`：获取连接名称
+- `client pause <timeout>`：在指定时间内终止运行来自客户端的命令
+- `client setname <conn_name>`：设置当前连接名称
+- `client kill [<ip>:<port>] [id <cli_id>]`：关闭连接
+
+存储指令：
+- `bgrewriteaof`：异步执行一个AOF（AppendOnly File）文件重写操作
+- `bgsave`：后台异步保存数据库
+- `lastsave`：返回最后一次成功保存的UNIX时间戳
+- `save`：同步保存数据库
+
+指令管理指令：
+- `command`：获取所有命令的详情
+- `command count`：获取命令总数
+- `command getkeys <command>`：获取给定命令的所有键
+- `command info <command1> [<comm2> ...]`：获取给定命令的描述
+
+服务器配置指令：
+- `config get <parameter>`：获取指定配置参数
+- `config rewrite`：改写配置文件`redis.conf`
+- `config set <parameter> <value>`：修改指定配置参数
+- `config resetstat`：重置`info`命令中的某些统计数据
+
+杂项指令：
+- `cluster slots`：获取集群结点的映射数组
+- `time`：服务器时间
+- `dbsize`：获取当前数据库的key数量
+- `debug object <key>`：获取key的调试信息
+- `debug segfault`：让Redis服务崩溃
+- `flushall`：删除所有数据库的所有key
+- `flushdb`：删除当前数据库的所有key
+- `info <section>`：获取Redis服务器的各种信息和统计数值
+- `monitor`：监视服务器收到的指令
+- `role`：返回主从实例所属的角色
+- `shutdown [save] [nosave]`：异步保存数据并关闭服务器
+- `slaveof <host> <port>`：将当前服务器变为指定服务器的从属服务器
+- `slowlog <subcomm> [<args>]`：管理Redis慢日志
+- `sync`：用于复制功能的内部命令

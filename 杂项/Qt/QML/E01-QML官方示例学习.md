@@ -264,6 +264,62 @@ QQmlListProperty<Person> BirthdayParty::guests() {
 
 ## 示例三：注册扩展类型
 
-
-
 `QML_EXTENDED`宏可用于注册一个扩展类型。
+
+扩展类型在5.15版本开始出现，它允许QML引擎在用户不修改`QObject`类型源码的情形下，加载这个原本不可加载的类型。
+
+WIP
+
+## 示例四：继承和强制示例
+
+基于前面的[[#示例二：在对象类型中添加列表和对象属性]]。
+
+假如我们需要把`Person`派生为`Boy`和`Girl`类型，并为它们添加一些自定义的行为，但我们不希望存在不为`Boy`或`Girl`类型的`Person`对象。
+
+这个时候我们不能将`Person`变为虚类，而是需要使用`QML_UNCREATABLE(reason)`宏。该宏的作用是：声明一个QML类型不能用自己的构造器实例化，但允许该类的派生类型转换为该类对象，以便使用该类成员。
+
+WIP
+
+## 示例五：为对象类型添加方法
+
+基于前面的示例四。
+
+对象类型可以添加可被QML访问的成员方法，做法是：
+- 声明前加`Q_INVOKABLE`。
+- 参数类型为合法的*对象类型*或*值类型*。
+
+示例：
+
+```cpp
+// birthdayparty.h
+#ifndef BIRTHDAYPARTY_H
+#define BIRTHDAYPARTY_H
+
+// 未变部分
+class BirthdayParty : public QObject
+{
+    // 未变部分
+    Q_INVOKABLE void invite(const QString &name);
+	// 未变部分
+};
+
+#endif // BIRTHDAYPARTY_H
+
+// birthdayparty.cpp
+void BirthdayParty::invite(const QString &name)
+{
+    auto *person = new Person(this);
+    person->setName(name);
+    m_guests.append(person);
+}
+```
+
+## 示例六：绑定属性
+
+WIP
+
+## 示例七：信号与槽支持
+
+WIP
+
+## 示例八：

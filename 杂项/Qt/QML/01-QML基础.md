@@ -69,7 +69,9 @@ Window {
 }
 ```
 
-## QML Window
+## 简单QML对象
+
+### QML Window
 
 QML窗口元素。
 
@@ -92,7 +94,7 @@ Window {
 }
 ```
 
-## QML Item
+### QML Item
 
 - `id`（元素唯一标识）、`objectName`（元素字面名称）
 - `x`、`y`、`z`：左上坐标、层叠坐标
@@ -107,7 +109,7 @@ Window {
 - `smooth`（渲染质量，`true`为平滑，`false`为快速）
 - `enabled`：元素是否启用
 
-### anchor的简单用法
+#### anchors的简单用法
 
 [[03-QML布局#anchors]]
 
@@ -173,9 +175,23 @@ Window {
 ```
 ![[Pasted image 20231227224240.png]]
 
-## QML Rectangle
+### QML Rectangle
 
 继承Item
 
 常用属性
 - `color`：填充颜色
+- `border.*`
+
+## QML语法
+
+每个QML文件通常只包含一个最外层对象。对象内部的成员可以包括：
+- `id`属性
+- 类型及其父类型支持的特征属性
+- 信号属性（signal attributes）
+- 信号处理属性（signal handler attributes）
+- 方法属性
+- 绑定属性、绑定信号处理器
+- 枚举属性
+- 0或任意多个子对象
+

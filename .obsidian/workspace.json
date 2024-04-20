@@ -20,19 +20,18 @@
             }
           },
           {
-            "id": "18c4314706d4b7c2",
+            "id": "91413a4e22decf80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/Redis/01-Redis入门.md",
+                "file": "!待办.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/Redis/01-Redis入门.md",
+                "file": "杂项/Qt/QML/07-QML与C++聚合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/Redis/01-Redis入门.md",
+                "file": "杂项/Qt/QML/07-QML与C++聚合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/Redis/01-Redis入门.md"
+                "file": "杂项/Qt/QML/07-QML与C++聚合.md"
               }
             }
           },
@@ -188,12 +187,21 @@
       "templates:插入模板": false
     }
   },
-  "active": "18c4314706d4b7c2",
+  "active": "cb784d68bbab0881",
   "lastOpenFiles": [
+    "!待办.md",
+    "!技能清单.md",
+    "杂项/Qt/QML/07-QML与C++聚合.md",
+    "杂项/Qt/QML/01-QML基础.md",
+    "数据库/Redis/01-Redis入门.md",
+    "杂项/Qt/QML/E01-QML官方示例学习.md",
+    "!DDL.md",
+    "!到复试的全部学习计划.md",
+    "杂项/Qt/QML/06-QML属性、组件、加载器.md",
+    "数据库/Redis/02-Redis+Python.md",
+    "附件/Pasted image 20240420140940.png",
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "杂项/Qt/QML/毕业设计技术日志.md",
-    "杂项/Qt/QML/E01-QML官方示例学习.md",
-    "杂项/Qt/QML/07-QML与C++聚合.md",
     "杂项/Qt/QML/04-QML动画.md",
     "杂项/ChatGPT/GPT提问技巧.md",
     "读书笔记/程序员的ChatGPT手册.md",
@@ -201,25 +209,17 @@
     "杂项/Qt/QML/03-QML布局.md",
     "杂项/Qt/QML/02-QML ImageProvider.md",
     "数据库/MySQL/mysql.md",
-    "!DDL.md",
     "Linux/Linux编程/getopt.md",
-    "杂项/Qt/QML/06-QML属性、组件、加载器.md",
     "Linux/Hacks/Ubuntu安装中文输入法.md",
     "杂项/Qt/QML/05-QML控件和鼠标.md",
-    "杂项/Qt/QML/01-QML基础.md",
     "附件/Pasted image 20240409145947.png",
     "附件/Pasted image 20240409144806.png",
     "Web前端/HTML+CSS/010-H5弹性布局.md",
     "Linux/Linux编程",
-    "数据库/Redis/01-Redis入门.md",
     "数据库/Redis",
     "AI/机器学习-小黄鸭.md",
     "AI/机器学习复习/10-集成学习.md",
     "AI/机器学习复习/06-深度学习.md",
-    "2024考研/复试/专业课汇总.md",
-    "2024考研/复试/苏世E-机试.md",
-    "2024考研/408/计算机组成原理/CO06-总线.md",
-    "2024考研/408/计算机组成原理/CO05-中央处理器.md",
     "附件/Pasted image 20240316200533.png",
     "附件/Pasted image 20240316200239.png",
     "附件/Pasted image 20240316200219.png",
@@ -227,7 +227,6 @@
     "附件/Pasted image 20240315170214.png",
     "附件/Pasted image 20240315165604.png",
     "附件/Pasted image 20240315165326.png",
-    "附件/Pasted image 20240315165107.png",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
