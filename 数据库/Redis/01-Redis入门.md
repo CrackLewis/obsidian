@@ -311,6 +311,7 @@ Redis集合是无序字符串集合，集合内各成员唯一，通过哈希表
 
 集合运算：
 - `zinterstore <dest> <numkeys> <k1> [<k2> ...]`：存储交集
+- `zunionstore <dest> <numkeys> <k1> [<k2> ...]`：存储并集
 
 统计指令：
 - `zcount <key> <min> <max>`：计算`[min, max]`*分数区间*内的成员数
@@ -318,4 +319,64 @@ Redis集合是无序字符串集合，集合内各成员唯一，通过哈希表
 - `zrange <key> <start> <end> [withscores]`：列举`[start, end]`*索引区间*内的成员
 - `zrangebylex <key> <min> <max> [limit <offset> <count>]`：列举`[min, max]`*字典区间*内的成员
 - `zrangebyscore <key> <min> <max> [withscores] [limit]`：列举`[min, max]`*分数区间*内的成员
-- 区间删除系列：`zremrangebylex`、
+- 区间删除系列：`zremrangebylex`、`zremrangebyrank`、`zremrangebyscore`
+- 区间排序系列：`zrevrange`、`zrevrangebyscore`、`zrevrank`
+- `zscan`
+
+### HyperLogLog
+
+HyperLogLog是一种计算基数（可重集合的不重复元素数）的算法。该算法可以在使用很小且固定的空间时，*估算*大量元素的基数，并支持不同基数的合并。但由于该算法高度压缩了元素信息，所以不能删除已经添加的元素，也不能获知基数具体包含哪些元素。
+
+根据HyperLogLog论文的说法，估算值与实际值的误差在0.81%以内。
+
+指令：
+- `pfadd <key> <ele1> [<ele2> ...]`：添加指定元素到HLL中
+- `pfcount <key1> [<key2> ...]`：返回给定HLL的基数估算值
+- `pfmerge <dest> <src1> [<src2> ...]`：合并多个HLL
+
+示例：
+
+```bash
+
+127.0.0.1:6379> del rk
+(integer) 0
+127.0.0.1:6379> del rk2
+(integer) 1
+127.0.0.1:6379> del rk3
+(integer) 1
+127.0.0.1:6379> pfadd rk 111 222 333 444 555 666 777 888 999
+(integer) 1
+127.0.0.1:6379> pfcount rk
+(integer) 9
+127.0.0.1:6379> pfadd rk "aaa" "bbb" "abc" "ccc"
+(integer) 1
+127.0.0.1:6379> pfcount rk
+(integer) 13
+127.0.0.1:6379> pfadd rk2 222 444 666 888 123 234 345 456 "bbb" "ddd"
+(integer) 1
+127.0.0.1:6379> pfcount rk2
+(integer) 10
+127.0.0.1:6379> pfmerge rk3 rk rk2
+OK
+127.0.0.1:6379> pfcount rk3
+(integer) 18
+```
+
+**原理**：参考源码[src/hyperloglog.c](https://github.com/redis/redis/blob/unstable/src/hyperloglog.c)
+
+### 发布和订阅
+
+Redis的发布订阅是一种消息通信模式：
+- 服务端：维护频道
+- 客户端发布方：向频道内发送消息
+- 客户端接收方：从频道接收消息
+
+命令：
+- `subscribe <chn>`：订阅频道，阻塞监听频道传来的消息
+- `publish <chn> <msg>`：向频道发送消息
+
+### 事务
+
+Redis事务由一组指令组成，由`multi`指令开始，由`exec`指令结束。
+
+介于`,m`
