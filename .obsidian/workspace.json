@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c3802851eb689f28",
+        "id": "40c7a682f81f782e",
         "type": "tabs",
         "children": [
           {
-            "id": "cb784d68bbab0881",
+            "id": "654521f6e0efc687",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Qt/QML/07-QML与C++聚合.md",
+                "file": "编程语言/Cpp/Cpp17/01-C++17特性概述.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "91413a4e22decf80",
+            "id": "ec0226d2a5707057",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!待办.md",
+                "file": "编程语言/Cpp/Effective_Modern_C++.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂项/Qt/QML/07-QML与C++聚合.md",
+                "file": "编程语言/Cpp/Effective_Modern_C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂项/Qt/QML/07-QML与C++聚合.md",
+                "file": "编程语言/Cpp/Effective_Modern_C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Qt/QML/07-QML与C++聚合.md"
+                "file": "编程语言/Cpp/Effective_Modern_C++.md"
               }
             }
           },
@@ -187,53 +188,54 @@
       "templates:插入模板": false
     }
   },
-  "active": "cb784d68bbab0881",
+  "active": "ec0226d2a5707057",
   "lastOpenFiles": [
-    "!待办.md",
-    "!技能清单.md",
-    "杂项/Qt/QML/07-QML与C++聚合.md",
-    "杂项/Qt/QML/01-QML基础.md",
-    "数据库/Redis/01-Redis入门.md",
-    "杂项/Qt/QML/E01-QML官方示例学习.md",
-    "!DDL.md",
-    "!到复试的全部学习计划.md",
-    "杂项/Qt/QML/06-QML属性、组件、加载器.md",
-    "数据库/Redis/02-Redis+Python.md",
+    "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
+    "编程语言/Cpp/Effective_Modern_C++.md",
+    "编程语言/Cpp/Cpp标准库/01-格式化库.md",
+    "编程语言/Cpp/Cpp17/02-string_view.md",
+    "编程语言/Cpp/Cpp17/01-C++17特性概述.md",
+    "编程语言/Cpp/Cpp17",
+    "编程语言/Cpp/未命名.canvas",
+    "2024考研/待办/复试问题.md",
+    "2024考研/待办/到考前的全部规划.md",
+    "2024考研/待办/政治-材料分析题.md",
+    "2024考研/待办/集百家之长.md",
+    "附件/Pasted image 20231111210557.png",
+    "2024考研/待办/政治-马原啰嗦.md",
+    "2024考研/待办/政治-近纲娇喘.md",
+    "2024考研/待办/政治-毛中特呻吟.md",
+    "2024考研/待办/政治-曲艺分析题背记.md",
+    "2024考研/待办/政治-思修发病.md",
+    "2024考研/待办/政治-新思想放电.md",
+    "2024考研/待办/230617-230623.md",
+    "2024考研/待办/2310总规划.md",
+    "2024考研/待办/230624-230630.md",
+    "2024考研/待办/230801-230806.md",
+    "2024考研/待办/230807-230813.md",
+    "2024考研/待办/230814-230820.md",
+    "2024考研/待办/230821-230827.md",
+    "2024考研/待办/230828-230903.md",
+    "2024考研/待办/@-upcoming_tasks.md",
+    "2024考研/待办/!考研规划.md",
+    "2024考研/待办/!考研报名事项.md",
+    "附件/Pasted image 20230622172205.png",
+    "附件/Pasted image 20230622171701.png",
+    "附件/Pasted image 20230622172418.png",
+    "附件/Pasted image 20230622172248.png",
+    "附件/Pasted image 20230625103004.png",
     "附件/Pasted image 20240420140940.png",
-    "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
-    "杂项/Qt/QML/毕业设计技术日志.md",
-    "杂项/Qt/QML/04-QML动画.md",
-    "杂项/ChatGPT/GPT提问技巧.md",
-    "读书笔记/程序员的ChatGPT手册.md",
-    "读书笔记/是大臣、是首相.md",
-    "杂项/Qt/QML/03-QML布局.md",
-    "杂项/Qt/QML/02-QML ImageProvider.md",
-    "数据库/MySQL/mysql.md",
-    "Linux/Linux编程/getopt.md",
-    "Linux/Hacks/Ubuntu安装中文输入法.md",
-    "杂项/Qt/QML/05-QML控件和鼠标.md",
     "附件/Pasted image 20240409145947.png",
     "附件/Pasted image 20240409144806.png",
-    "Web前端/HTML+CSS/010-H5弹性布局.md",
     "Linux/Linux编程",
     "数据库/Redis",
-    "AI/机器学习-小黄鸭.md",
-    "AI/机器学习复习/10-集成学习.md",
-    "AI/机器学习复习/06-深度学习.md",
     "附件/Pasted image 20240316200533.png",
-    "附件/Pasted image 20240316200239.png",
-    "附件/Pasted image 20240316200219.png",
-    "附件/Pasted image 20240316200213.png",
-    "附件/Pasted image 20240315170214.png",
-    "附件/Pasted image 20240315165604.png",
-    "附件/Pasted image 20240315165326.png",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
     "课程项目/MIT-6.824",
     "桌面前端",
     "课程项目/CMU-ICS",
-    "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp",
-    "2024考研/复试"
+    "autobackup.py.ed21cde07b61b793ba4c1e0d910f9512.tmp"
   ]
 }
