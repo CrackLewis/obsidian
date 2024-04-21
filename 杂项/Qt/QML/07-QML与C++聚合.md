@@ -88,3 +88,35 @@ QML引擎可以访问`QObject`任意派生类的下列成员：
 [Registering Extension Objects](https://doc.qt.io/qt-6.2/qtqml-cppintegration-definetypes.html#registering-extension-objects)
 
 如果欲引入QML的C++类型不便修改，则可以通过`QML_FOREIGN(type)`注册*外部类型*，使该类型挂载被引入的`type`类型。
+
+如果需要编写一个*属性修改器*（property modifier），需要顺带`QQmlPropertyValueSource`，详情见[doc](https://doc.qt.io/qt-6.2/qtqml-cppintegration-definetypes.html#property-modifier-types)。
+
+如果C++类型需要是可视对象，则需要继承`QQuickItem`及其派生类型。
+
+## 将C++对象作为属性嵌入QML
+
+例如：
+
+```cpp
+QQuickView view;
+view.rootContext()->setContextProperty("currentDateTime", QDateTime::currentDateTime());
+view.setSource(QUrl::fromLocalFile("MyItem.qml"));
+view.show();
+```
+
+这种写法常用于：
+- 在`root`对象下绑定全局属性
+- 将C++数据结构绑定到QML ListModel或其他数据模型
+
+## 与C++定义的QML对象交互
+
+主要有3种方法：
+- 从C++接口访问QML对象
+- 指名访问加载完毕的QML对象
+- 从C++访问QML对象的成员
+
+文档：[doc](https://doc.qt.io/qt-6.2/qtqml-cppintegration-interactqmlfromcpp.html)
+
+## C++与QML类型转换
+
+[[#直接暴露]]小节已经详细讲述，这里不再赘述。
