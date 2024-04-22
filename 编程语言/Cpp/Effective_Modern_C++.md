@@ -177,9 +177,11 @@ ft({1}); // ERROR! no matching function ft
 
 ### 3、decltype
 
-`decltype(expr)`可以获取`expr`的类型。
+`decltype(expr)`可以获取`expr`的声明类型（declared type），但使用不当也会出现一些意外结果。
 
-示例：指定容器`c`和索引`idx`，需要编写一个先检查权限，后按索引随机访问容器的函数。下面的代码提出了三种实现方案：
+[[#^9ed8a7|跳过这个示例，直接看规则]]
+
+**示例**：指定容器`c`和索引`idx`，需要编写一个先检查权限，后按索引随机访问容器的函数。下面的代码提出了三种实现方案：
 
 ```cpp
 template <typename Container, typename Index>
@@ -191,7 +193,7 @@ auto authAndAccess(Container& c, Index idx) {
 decltype(auto) authAndAccess(Container& c, Index idx) {
 #endif
 	authenticateUser(c, idx);
-	return c[i];
+	return c[idx];
 }
 ```
 
@@ -199,13 +201,89 @@ decltype(auto) authAndAccess(Container& c, Index idx) {
 
 方案二：不太对，因为无论`c[idx]`为`T`还是`T&`，`auto`都会推导为`T`。这会导致针对`c[idx]`的赋值操作失败：原先它是左值，auto将它转换成了右值。
 
-方案三：也OK，
+方案三：也OK。因为`decltype(auto)`为`auto`打了个补丁，它不处理函数返回值（`Container::operator[](Index idx)`）的型别，所以也能正确推导。
+
+题外话：上面的版本不支持临时容器，所以支持临时容器要这么写：
+
+```cpp
+template <typename Container, typename Index>
+#if __cplusplus >= 201402L
+// C++14版本允许decltype(auto)作为返回类型
+decltype(auto) authAndAccess(Container&& c, Index idx) {
+#elif __cplusplus >= 201103L
+// C++11只能用回型别尾序语法
+auto authAndAccess(Container&& c, Index idx) -> decltype(std::forward<Container>(c)) {
+#else
+#error "Your C++ version is ramshackle old."
+#endif
+	authenticateUser(c, idx);
+	return std::forward<Container>(c)[idx];
+}
+```
+
+`decltype`规则： ^9ed8a7
+- 对于变量、类成员访问：推出其声明类型。
+- 对于函数调用：推出其返回值类型。
+- 对于其他表达式：若为左值则推出引用类型，否则推出值类型。
+- 如果出现冗余符号（多个左值引用符号、`const`、`volatile`限定），会省到只剩一个
+
+下面是一些示例（难于理解的打了`*`）：
+
+| `x`类型                 | `expr`                         | `decltype(expr)`     | 难解  |
+| --------------------- | ------------------------------ | -------------------- | --- |
+| `int`                 | `x`                            | `int`                |     |
+| `int`                 | `++x`                          | `int&`               |     |
+| `int`                 | `x++`                          | `int`                |     |
+| `int`                 | `(x)`                          | `int&`               | `*` |
+| `int`                 | `x += 2`                       | `int&`               |     |
+| `int&`                | `x`                            | `int&`               |     |
+| `const int&`          | `x`                            | `const int&`         |     |
+| `const char* const`   | `(x)`                          | `const char* const&` | `*` |
+| `int& (int&, int&)`   | `x(y, z)`                      | `int&`               |     |
+| `std::pair<int, int>` | `x.second`                     | `int`                |     |
+| `std::pair<int, int>` | `(x.second)`                   | `int&`               |     |
+| /                     | `std::pair<int, int>::first`   | `int`                |     |
+| /                     | `(std::pair<int, int>::first)` | `int&`               | `*` |
+| `int [M]`             | `x`                            | `int [M]`            |     |
+| `int [M]`             | `(x)`                          | `int (&)[M]`         | `*` |
+| `int [M]`             | `x[0]`                         | `int&`               | `*` |
+| `int (int, int)`      | `(x)`                          | `int (&)(int, int)`  | `*` |
+| `int&& ()`            | `x()`                          | `int&&`              | `*` |
+| `int*`                | `*x`                           | `int&`               |     |
+| /                     | `"lval"`                       | `const char(&)[5]`   | `*` |
+
+**总结**：
+- 绝大部分情况下，`decltype(expr)`会返回`expr`的声明类型。
+	- `expr`为左值表达式时，会返回其左值引用类型。
+- C++14支持的`decltype(auto)`可以实现完美的返回值型别推导。
 
 ### 4、查看型别推导结果
 
+- IDE的语法功能
+- `typeid(expr).name()`
+- 编写模板工具类
 
+模板工具类可以故意构造一个不完整类型，从而暴露出模板元的类型：
+
+```cpp
+template <typename Ty> class TyDis;
+
+TyDis<int(int,double,char)> _; // ERROR: TyDis<int(int,double,char)> has incomplete type
+```
+
+`std::type_info::name`是用来干这个的，但并不准确，更可靠的是`Boost.TypeIndex`库提供的类似功能。
 
 ## 二、auto关键字
+
+### 5、优先auto而非显式型别声明
+
+`auto`型别声明有一些好处：
+- 可以避免无意的无初始值声明。
+- 如果声明变量的型别较冗长，用`auto`可以省得手敲一遍型别。
+- 可以推导出一些只有编译器才能掌握的型别（如`lambda`表达式）。
+- 可以避免填错类型，导致预期之外的对象拷贝或类型转换（本来要填`const A& x=...`，但实际填成了`const B&`，导致调用了一次`B(const A&)`）。
+
+### 6、
 
 ## 三、转向现代C++
 
