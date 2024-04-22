@@ -229,7 +229,7 @@ auto authAndAccess(Container&& c, Index idx) -> decltype(std::forward<Container>
 
 下面是一些示例（难于理解的打了`*`）：
 
-| `x`类型                 | `expr`                         | `decltype(expr)`     | 难解  |
+| `x`类型                 | `expr`                         | `decltype(expr)`     | 费解  |
 | --------------------- | ------------------------------ | -------------------- | --- |
 | `int`                 | `x`                            | `int`                |     |
 | `int`                 | `++x`                          | `int&`               |     |
@@ -283,9 +283,138 @@ TyDis<int(int,double,char)> _; // ERROR: TyDis<int(int,double,char)> has incompl
 - 可以推导出一些只有编译器才能掌握的型别（如`lambda`表达式）。
 - 可以避免填错类型，导致预期之外的对象拷贝或类型转换（本来要填`const A& x=...`，但实际填成了`const B&`，导致调用了一次`B(const A&)`）。
 
-### 6、
+### 6、带显式型别的初始化物习惯用法
+
+尽管`auto`型别推导大部分情况下很有用，但个别情况下可能不会按预期效果工作。
+
+书内用两页的篇幅（P47-48）介绍了一个例子：
+
+```cpp
+std::vector<bool> features(const Widget& w);
+void processWidget(const Widget& w, bool isHighPriority);
+
+Widget w;
+// ...
+bool highPriority1 = features(w)[5]; // [1]
+processWidget(w, highPriority1);
+
+auto highPriority2 = features(w)[5]; // [2]
+processWidget(w, highPriority2);
+```
+
+用例`[1]`是正常工作的。但用例`[2]`有所不同，它做了这么一些事情：
+- 将`highPriority2`推导为`std::vector<bool>::reference`类型，而不是`bool`或`bool&`类型。
+- 在某些编译器中，`std::vector<bool>::reference`实现为代理对象。因此`features(w)[5]`所在的字节会生成一个临时拷贝，而返回的`highPriority2`指向该拷贝的第5个比特。
+- 在将`highPriority2`传递给`processWidget`时，临时字节已经析构，因此`highPriority2`悬空，产生未定义行为。
+
+但代理类并不是来捣乱的，有时这么设计确实有效率等其他方面的考量，但这也往往意味着代理类不能和`auto`和平共处。这个时候只能用显式初始化折衷：
+
+```cpp
+auto highPriority3 = static_cast<bool>(features(w)[5]);
+```
+
+**总结**：
+- “隐形”的代理型别可以导致`auto`根据初始化表达式推导出“错误”的型别。
+- 带显式型别的初始化物习惯用法强制`auto`推导出你想要的型别。
 
 ## 三、转向现代C++
+
+### 7、创建对象时区分()和{}
+
+C++11开始，初始化有三种方法：
+
+```cpp
+int y = 1; // 注意这种方法和赋值有本质区别
+int z(1);
+int x{1};
+int x = {1}; // 和上一种方法在大部分情况下是等价的
+```
+
+为了解决上述三种初始化语法带来的困惑，C++11引入了统一初始化，也称*大括号初始化*（braced initialization），也就是上面的第三种初始化方法。
+
+大括号初始化有相对更广泛的用法：
+
+| 初始化情形  | 等号初始化                      | 圆括号初始化                     | 大括号初始化 |
+| ------ | -------------------------- | -------------------------- | ------ |
+| 变量     | Y                          | Y                          | Y      |
+| 类成员    | Y                          | <font color="red">N</font> | Y      |
+| 不可复制对象 | <font color="red">N</font> | Y                          | Y      |
+
+大括号初始化的*特性*：
+- 禁止隐式的窄化型别转换（narrowing conversion）：`double`隐式转`int`不允许
+- 在括号内为空时，不会被误推导为函数声明：`Widget w1();`会被误推导为函数，而空大括号不会
+- 这算是一个*缺陷*：如果型别有任何形参为`(std::initializer_list<T>)`的构造函数，大括号初始化会*强烈地*优先使用这种构造函数，即使这意味着转换所有成员型别为`T`。
+	- 即使是型别会被窄化转换，编译器仍然优先匹配该构造函数，从而报错。
+	- 只有在大括号成员完全不能转换为`T`型别时，编译器才会退而选择其他构造函数。
+
+例子：
+
+```cpp
+int x{2.0 + 3}; // ERROR!
+
+class A {
+public:
+	A(std::initializer_list<long double> il) { ... }
+	A(int i, bool b) { ... }
+	A(int i, double d) { ... }
+	A(int i, const char* str) { ... }
+
+	operator float() const { ... }
+};
+
+A a(2, true);          // 调用第二个构造函数
+A b{2, true};          // 调用第一个构造函数（劫持普通构造函数）
+
+A c(2, 5.0);           // 调用第三个构造函数
+A d{2, 0.5};           // 调用第一个构造函数（劫持普通构造函数）
+
+A e{c};                // 调用第一个构造函数（劫持复制构造函数）
+A f{std::move(d)};     // 调用第一个构造函数（劫持移动构造函数）
+```
+
+**注意**：
+- 如果大括号列表为空，则即使存在`(std::initializer_list<T>)`形参的构造函数，也不会使用，而会使用默认构造函数。
+	- 嵌套空列表，诸如`A a({})`或`A a{{}}`之类的声明仍然会调用前者。
+
+**总结**：
+- 大括号初始化可以应用的语境最为广泛，可以阻止隐式窄化型别转换，也可以避免误解析为函数声明。
+- 只要有任何可能，大括号初始化都会优先匹配`std::initializer_list<T>`参数的构造函数，哪怕是存在更相似的构造函数匹配。
+
+### 8、优先使用nullptr，而非0或NULL
+
+`0`和`NULL`在C++中的本质仍是`int`类型，仅在没有匹配`int`类型时才会尝试匹配`void*`类型。
+
+`nullptr`则是另一回事：它是`std::nullptr_t`类型，会优先匹配`void*`而非`int`。
+
+示例：假设要写一个互斥调用器，通过操作互斥锁实现互斥调用并返回结果。
+
+```cpp
+int f1(std::shared_ptr<Widget> spw);
+double f2(std::unique_ptr<Widget> upw);
+bool f3(Widget* pw);
+
+std::mutex f1m, f2m, f3m;
+using MuxGuard = std::lock_guard<std::mutex>;
+
+template <typename FuncTy, typename MuxTy, typename PtrTy>
+decltype(auto) lockAndCall(FuncTy func, MuxTy& mtx, PtrTy ptr)
+{
+	MuxGuard g(mtx);
+	return func(ptr);
+}
+
+// ...
+
+auto result1 = lockAndCall(f1, f1m, 0); // 报错
+auto result2 = lockAndCall(f2, f2m, NULL); // 报错
+auto result3 = lockAndCall(f3, f3m, nullptr); // OK
+```
+
+上面的示例中，前两个都报错，因为`int`不能强转智能指针，但`nullptr`可以实现这种转换。
+
+**总结**：
+- 能用`nullptr`表示指针，就用`nullptr`。
+- 要尽量规避在整型和指针型别之间重载。
 
 ## 四、智能指针
 
