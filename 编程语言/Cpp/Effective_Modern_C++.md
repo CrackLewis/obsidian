@@ -380,7 +380,7 @@ A f{std::move(d)};     // 调用第一个构造函数（劫持移动构造函数
 - 大括号初始化可以应用的语境最为广泛，可以阻止隐式窄化型别转换，也可以避免误解析为函数声明。
 - 只要有任何可能，大括号初始化都会优先匹配`std::initializer_list<T>`参数的构造函数，哪怕是存在更相似的构造函数匹配。
 
-### 8、优先使用nullptr，而非0或NULL
+### 8、优先选用nullptr，而非0或NULL
 
 `0`和`NULL`在C++中的本质仍是`int`类型，仅在没有匹配`int`类型时才会尝试匹配`void*`类型。
 
@@ -416,7 +416,7 @@ auto result3 = lockAndCall(f3, f3m, nullptr); // OK
 - 能用`nullptr`表示指针，就用`nullptr`。
 - 要尽量规避在整型和指针型别之间重载。
 
-### 9、优先使用别名声明，而非typedef
+### 9、优先选用别名声明，而非typedef
 
 别名声明指C++11引入的给型别起别名的特殊语法：
 
@@ -448,7 +448,194 @@ private:
 
 与别名模板相比，基于类模板的`typedef`别名有很大的不便：
 - 必须定义一个类模板包含`typedef`声明
-- 使用`typedef`s
+- 使用`typedef`声明的别名时，必须加`typename`前缀，因为上例中形如`MyAllocList2<T>::type`称为*依赖型别*。（为啥，因为`type`也有可能是类成员变量，这里是为了提醒编译器它确实是别名）
+
+`std::remove_reference_t<T>`就是一个著名示例，在C++11之前得使用`typename std::remove_reference<T>::type`才能去除模板元型别`T`的引用饰词。
+
+**总结**：
+- `typedef`不支持直接模板化，但别名声明支持。
+- 别名声明可以让人免写`::type`后缀和在模板内使用`typename`前缀。
+
+### 10、优先选用限定作用域的枚举型别
+
+绝大部分情形下，大括号扩起的内容要么对括号外不可见，要么必须用`::`、`.`或`->`进行访问。但一个最显著的例外是*C++98风格枚举*，它会将内部成员暴露在外，因此又称*不限范围的枚举型别*（unscoped enumeration）。
+
+与C++98枚举不同，C++11引入的枚举类不会对外暴露成员，其成员必须通过`::`访问，因此又称*限定作用域的枚举型别*（scoped enumeration），后面简称*枚举类*：
+
+```cpp
+enum UnscopedEnum {
+	E1, E2, E3
+};
+
+enum class ScopedEnum {
+	E4, E5, E6
+};
+
+E1; // 成功，访问UnscopedEnum中的E1
+auto E1 = 2; // 失败，E1已被定义
+
+E5; // 失败，符号未定义
+auto E5 = "string"; // 成功
+E5; // 成功，访问的是变量E5
+ScopedEnum::E5; // 成功，访问的是ScopedEnum中的E5
+```
+
+枚举类是强类型的（strongly typed）：它没有默认型别，只能手动指定一个底层型别。底层型别可以通过`std::underlying_type_t<T>`获取。相比之下C++98风格枚举如果没有指定底层型别，则会让编译器自行决定（通常是`int`）。
+
+```cpp
+enum class Color: unsigned int {
+	RED = 1u,
+	GREEN = 2u,
+	BLUE = 3u,
+};
+
+using ColorUTy = std::underlying_type_t<Color>; // unsigned int
+```
+
+C++98风格枚举允许到各种基本类型的自动转换，但枚举类不会自动转换为其他型别，而只能进行强制型别转换：
+
+```cpp
+auto color = Color::BLUE; // Color类型
+unsigned int color2 = Color::RED; // 错误
+unsigned int color3 = static_cast<unsigned int>(Color::GREEN); // 正确
+```
+
+C++98风格枚举只有在指定底层型别的情况下才能前置声明，但枚举类总是可以前置声明。
+
+```cpp
+enum Status: unsigned char; // OK
+enum Status2; // 错误
+
+enum class Status3; // OK
+```
+
+**总结**：
+- C++98风格枚举又称*不限范围的枚举型别*。
+- 限定作用域的枚举型别仅在枚举型别内可见。它们只能通过强制型别转换以转换至其他型别。
+- 限定作用域的枚举型别和不限范围的枚举型别都支持底层型别指定。限定作用域的枚举型别的默认底层型别是`int`，而不限范围的枚举型别没有默认底层型别。
+- 限定作用域的枚举型别总是可以进行前置声明，而不限范围的枚举型别却只有在指定了默认底层型别的前提下才可以进行前置声明。
+
+### 11、优先选用删除函数，而非private未定义函数
+
+C++会在用户未显式定义时为类添加下列函数：
+- 默认构造函数
+- 复制构造函数、复制赋值运算符
+- 空析构函数
+
+在C++11之前，压制复制构造函数和复制赋值运算符的通用方法是将其设置为`private`，并且不给出函数定义：
+
+```cpp
+class A {
+	// ...
+private:
+	A(const A&);
+	A& operator=(const A&);
+};
+```
+
+C++11开始，可以通过`=delete`将这两个函数设置为*删除函数*（deleted function），并设置为`public`。原因是，编译器会先检查类成员函数的可访问性，后检查其是否删除，声明为`public`可以让任何对该函数的访问都得到关于函数删除的报错信息，而非访问权限不足的报错信息：
+
+```cpp
+class A {
+	// ...
+public:
+	A(const A&) = delete;
+	A& operator=(const A&) = delete;
+};
+```
+
+与`private`相比，删除函数不必是一个类成员函数。下面的这个实例演示了如何阻止类型不适合的函数调用通过编译：
+
+```cpp
+bool isLucky(int);
+
+bool isLucky(double) = delete;
+bool isLucky(bool) = delete;
+bool isLucky(char) = delete;
+
+isLucky(3); // OK
+isLucky(false); // 报错
+isLucky('a'); // 报错
+isLucky(3.5); // 报错
+```
+
+删除函数还可以用于*特化函数模板*，阻止一些特定模板元下的函数被调用：
+
+```cpp
+template <typename T>
+void processPtr(T* ptr) { /* ... */ }
+
+template <>
+void processPtr(void* ptr) = delete;
+```
+
+**总结**：
+- `private`未定义函数对阻止使用某一函数的作用有限；相比之下，删除函数既可以删除非成员函数，也可以删除模板具现。
+
+### 12、为意在改写的函数添加override声明
+
+首先区分`override`（改写）和`overload`（重载）：
+
+| 概念  | 含义                                 | 参与者           | 目的              | 发生时机 |
+| --- | ---------------------------------- | ------------- | --------------- | ---- |
+| 重载  | 在同一作用域内使用同一名称定义多个函数，但它们的形参不同       | 数个成员函数或数个全局函数 | 使函数更直观，提升可读和易用性 | 编译时  |
+| 改写  | 子类重新定义父类虚函数，使调用子类对象虚函数时，只使用子类的函数定义 | 父类和子类         | 实现多态性           | 运行时  |
+
+正确的改写有数个必须满足的要求：
+- 基类的对应函数必须是虚函数。
+- 基类和派生类中的*函数名字*必须完全相同（析构函数除外）。
+- 基类和派生类中的函数*形参型别*、函数*常量性*必须完全相同。
+- 基类和派生类中的函数*返回值*和*异常规格*必须兼容。
+- （C++11开始）基类和派生类中的函数*引用饰词*必须完全相同。
+
+函数常量性指的是函数是否确保不修改成员变量；引用饰词用于限定类对象为左值或右值时，调用哪一个函数定义：
+
+```cpp
+class Widget {
+public:
+	void doWork() &;
+	void doWork() &&;
+
+	static Widget makeWidget();
+};
+
+Widget w;
+w.doWork(); // 调用前者
+Widget::makeWidget().doWork(); // 调用后者
+```
+
+有时在基类和派生类中确定哪个函数继承或被继承很容易混淆，因此`override`关键字可以确保派生类的特定成员函数*一定会改写*基类的对应函数。
+
+```cpp
+class Base {
+public:
+	virtual void foo1(int) = 0;
+	virtual bool foo2(double) = 0;
+};
+
+class Derived {
+public:
+	virtual void foo1(int x) override { /* ... */ } // 合法
+	virtual bool foo2(float x) override { /* ... */ } // 不合法，形参不匹配
+};
+```
+
+C++11的`final`关键字有类似的作用，它阻止派生类*重载或改写*这个函数。
+
+**总结**：
+- 为意在改写的函数添加`override`声明。
+- 成员函数引用饰词能够区分对于左值和右值对象的处理。
+### 13、优先选用const_iterator，而非iterator
+
+`iterator`在C++17被弃用，本条目仅供
+
+### 14、只要函数不会抛出异常，就为其加上noexcept声明
+
+### 15、尽可能使用constexpr
+
+### 16、保证const成员函数的线程安全性
+
+### 17、理解特种成员函数的生成机制
 
 ## 四、智能指针
 
