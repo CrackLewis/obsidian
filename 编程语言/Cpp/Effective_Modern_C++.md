@@ -416,6 +416,40 @@ auto result3 = lockAndCall(f3, f3m, nullptr); // OK
 - 能用`nullptr`表示指针，就用`nullptr`。
 - 要尽量规避在整型和指针型别之间重载。
 
+### 9、优先使用别名声明，而非typedef
+
+别名声明指C++11引入的给型别起别名的特殊语法：
+
+```cpp
+using vvi = std::vector<std::vector<int> >;
+```
+
+相比`typedef`，它更易读，而且不需要定义类或结构体就可以进行模板化，称为*别名模板*（alias template）：
+
+```cpp
+// 别名模板
+template <typename T>
+using MyAllocList = std::list<T, MyAlloc<T>>;
+
+// typedef则必须定义一个类或结构体模板，将typedef声明放入其中
+// 同时，使用MyAllocList2<T>::type前面必须加typename
+template <typename T>
+struct MyAllocList2 {
+	typedef std::list<T, MyAlloc<T>> type;
+};
+
+template <typename T>
+class Widget {
+private:
+	MyAllocList<T> list;
+	typename MyAllocList2<T>::type list2;
+};
+```
+
+与别名模板相比，基于类模板的`typedef`别名有很大的不便：
+- 必须定义一个类模板包含`typedef`声明
+- 使用`typedef`s
+
 ## 四、智能指针
 
 ## 五、右值引用、移动语义和完美转发
