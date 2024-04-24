@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Docker/01-Docker入门.md",
+                "file": "编程语言/Cpp/Effective_Modern_C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,9 +30,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f51bd3e1cf44cdcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法/经典算法/贪心专题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,15 +199,15 @@
       "templates:插入模板": false
     }
   },
-  "active": "3ace590735661636",
+  "active": "654521f6e0efc687",
   "lastOpenFiles": [
+    "杂项/Docker/01-Docker入门.md",
+    "编程语言/Cpp/Effective_Modern_C++.md",
+    "算法/经典算法/贪心专题.md",
     "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
     "算法/经典算法/力扣04-乱搞.md",
-    "算法/经典算法/贪心专题.md",
     "算法/经典算法/力扣02-搜索.md",
     "算法/经典算法/力扣01-动态规划.md",
-    "编程语言/Cpp/Effective_Modern_C++.md",
-    "杂项/Docker/01-Docker入门.md",
     "Linux/Hacks/建立并运行Docker容器.md",
     "杂项/Docker",
     "!待办.md",
