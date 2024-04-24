@@ -627,7 +627,30 @@ C++11的`final`关键字有类似的作用，它阻止派生类*重载或改写*
 - 成员函数引用饰词能够区分对于左值和右值对象的处理。
 ### 13、优先选用const_iterator，而非iterator
 
-`iterator`在C++17被弃用，本条目仅供
+`iterator`在C++17被弃用，本条款仅供参考。
+
+本条款出现在这里的原因是C++98的历史遗留，当时获取容器的常迭代器很麻烦。但从C++11开始，诸多容器都通过`cbegin`和`cend`方法提供了相对可用的常迭代器支持。
+
+常迭代器确保不会通过访问容器修改其内容，如果没有修改容器内容的需要，则应当尽可能使用常迭代器而不是非常迭代器。
+
+尽管如此，C++11的支持仍非最完善，因为该版本的`cbegin`、`rbegin`、`crbegin`等方法通过非成员函数提供，即必须通过`cbegin(container)`返回。虽然C++14开始提供了成员函数版本，但最通用的代码仍应当积极考虑使用非成员函数形式：
+
+```cpp
+template <typename C, typename V>
+void findAndInsert(C& container, const V& targetVal, const V& insertVal)
+{
+	using std::cbegin;
+	using std::cend;
+
+	// 使用非成员函数形式
+	auto it = std::find(cbegin(container), cend(container), targetVal);
+	container.insert(it, insertVal);
+}
+```
+
+**总结**：
+- 优先选用`const_iterator`，而非`iterator`。
+- 在最通用的代码中，优先选用非成员函数版本的`begin`、`end`函数及其变种，而非成员函数版本。
 
 ### 14、只要函数不会抛出异常，就为其加上noexcept声明
 
