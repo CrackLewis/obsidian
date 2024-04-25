@@ -671,13 +671,180 @@ C++11的`noexcept`关键字可用于修饰函数，确保该函数不会抛出�
 
 ### 15、尽可能使用constexpr
 
+`constexpr`在不同的情况下有不同的语义：
+- `constexpr`对象：加强版的`const`，定义编译期常量。
+- `constexpr`函数：当且仅当实参都是编译期常量时，返回值是编译期常量。
 
+`constexpr`函数可以用于在编译期自动计算一些常量，而不必由程序员打表完成或在运行时计算：
+
+```cpp
+// 打表法
+constexpr int pow3[] = {1, 3, 9, 27, 81, 243, 729, 2187, 6561, ...};
+
+// constexpr函数
+constexpr int pow3(int x) {
+	return x <= 0 ? 1 : pow3(x - 1) * 3;
+}
+constexpr int p5 = pow3(5);
+```
+
+在C++11中，`constexpr`函数只能包含一个`return`语句，而从C++14开始放宽了限制，允许循环、分支等结构：
+
+```cpp
+constexpr int pow3(int x) {
+	int ret = 1;
+	while (x > 0) {
+		ret *= 3;
+		x--;
+	}
+	return ret;
+}
+```
+
+`constexpr`函数的形参和返回类型只允许*字面型别*（literal type）。C++14前除`void`外的内建型别都是字面型别。用户自定义的类、结构体如果在使用了`constexpr`构造函数，则同样是字面型别：
+
+```cpp
+class Point {
+public:
+	constexpr Point(double xVal = 0, double yVal = 0) noexcept 
+	: x(xVal), y(yVal) {}
+	
+	constexpr double getX() const noexcept { return x; }
+	constexpr double getY() const noexcept { return y; }
+
+	constexpr void setX(double xVal) noexcept { x = xVal; }
+	constexpr void setY(double yVal) noexcept { y = yVal; }
+	
+private:
+	double x, y;
+};
+```
+
+`constexpr`是对象和函数接口的组成部分。只要有可能就使用它，但要注意`constexpr`对相关函数和对象施加的种种限制。
+
+**总结**：
+- `constexpr`对象都具备`const`属性，并由编译期已知的值完成初始化。
+- `constexpr`函数在调用时若传入的实参值是编译期已知的，则会产出编译期结果。
+- `constexpr`函数和对象可以用在更广的语境中。
 
 ### 16、保证const成员函数的线程安全性
 
+`const`函数饰词确保一个类成员函数不会访问非`mutable`属性，但函数仍可以修改`mutable`成员。如果多个线程同时执行该函数，则有可能出现*数据冒险*（data race）：
+
+```cpp
+class Polyn {
+public:
+	using RootsType = std::vector<double>;
+
+	RootsType roots() const {
+		if (!rootsAreValid) { // 如果缓存无效
+			// ...
+			rootsAreValid = true; 
+			// 修改了rootsAreValid，可能出现数据冒险
+		}
+		return rootVals;
+	}
+
+private:
+	mutable bool rootsAreValid{ false };
+	mutable RootsType rootVals{};
+}
+```
+
+由于`const`函数本身符合语法要求，所以只能强制将有关部分互斥处理，一种常见做法是*互斥锁*：
+
+```cpp
+RootsType roots_thread_safe() const {
+	std::lock_guard<std::mutex> g(m);
+	// lock_guard确保只有一个进程可以进入其生存域
+	// ...
+}
+mutable std::mutex m;
+```
+
+也可以用*原子量*：
+
+```cpp
+mutable std::atomic<bool> rootsAreValid;
+```
+
+原子量的一个好处是其提供更轻量级的互斥，只在读写其值时确保不会发生冒险，因此开销较小。
+
+**总结**：
+- 除非确信`const`成员函数不会在并发语境中被调用，否则必须保证其线程安全性。
+- `std::atomic`等原子量可以比互斥锁提供更好的性能，但仅适用于单个变量或内存区域的互斥操作。
+
 ### 17、理解特种成员函数的生成机制
 
+C++11中，假设某个类是空类，则它会隐式定义这些成员：
+
+```cpp
+// 定义为空
+class A {};
+
+// 实际内容（忽略函数定义）
+class A {
+public:
+	A(); // 默认构造函数
+	~A(); // 析构函数
+	A(const A&); // 复制构造函数
+	A& operator=(const A&); // 复制赋值运算符
+	// C++11新增
+	A(A&&); // 移动构造函数
+	A& operator=(A&&); // 移动赋值运算符
+};
+```
+
+*特种成员函数*指会由C++自动生成的成员函数：
+- 默认构造函数
+- 析构函数
+- 复制构造函数
+- 复制赋值运算符
+- （C++11）移动构造函数
+- （C++11）移动赋值运算符
+
+*特种成员函数*特点：
+- 仅在用户未显式定义时生成
+- 如果是自动生成的，则必是`public`、`inline`的非虚函数（基类析构函数为虚的除外）
+- 两种复制操作独立；但两种移动操作不独立，定义一个会阻止另一个函数自动生成
+- 一旦显式定义了复制操作，则移动函数不会生成；反之亦然，移动操作定义会阻止生成复制函数
+- 一旦显式定义了析构函数，便不会生成移动函数，目前仍会生成复制函数（但标注为*废弃的行为*）
+
+*生成规则*对应下表：
+- 表头：CC=copy constructor（复制构造函数）、MA=move assignment（移动赋值运算符）、I=implicit（隐式生成）
+- 内容：`-`为不定义/生成，`+`为定义/生成，`?`为两者皆有可能
+- 左四列表示用户是否定义了这四种函数，右四列表示编译器是否生成了这四种函数
+
+| `CC` | `CA` | `MC` | `MA` | `CC(I)` | `CA(I)` | `MC(I)` | `MA(I)` |
+| ---- | ---- | ---- | ---- | ------- | ------- | ------- | ------- |
+| -    | -    | -    | -    | +       | +       | +       | +       |
+| +    | -    | -    | -    | -       | +       | -       | -       |
+| -    | +    | -    | -    | +       | -       | -       | -       |
+| +    | +    | -    | -    | -       | -       | -       | -       |
+| ?    | ?    | +    | -    | -       | -       | -       | -       |
+| ?    | ?    | -    | +    | -       | -       | -       | -       |
+| ?    | ?    | +    | +    | -       | -       | -       | -       |
+
+特种成员函数的*大三律*（rule of three）：重写了复制构造函数、复制赋值运算符和析构函数3个函数中的一个，就需要重写另两个。这是因为：重写这3个函数意味着朴素的成员复制不适用于当前类，很可能需要特殊的成员变量管理方式。
+
+假如编译器生成的这些函数的默认行为符合期望，则可以用`= default`表示：
+
+```cpp
+A(const A&) = default;
+A& operator=(const A&) = default;
+```
+
+*特别注意*：如果看到一个类只定义了构造函数和析构函数，这个看似合理的做法实际上阻止了复制和移动函数的自动生成。而对于不可移动的类，在移动时实际会执行复制操作，这样可能会极大降低程序性能。
+
+**总结**：
+- 特种成员函数指C++会自动生成的成员函数：默认构造函数、析构函数、复制操作、移动操作。
+- 移动操作仅当类中未包含用户显式声明的复制操作、移动操作和析构函数时才生成。
+- 复制构造函数仅当类中不包含用户显式声明的复制构造函数时才生成，如果该类声明了移动操作则复制构造函数将被删除。复制赋值运算符仅当类中不包含用户显式声明的复制赋值运算符才生成，如果该类声明了移动操作则复制赋值运算符将被删除。在已经存在显式声明的析构函数的条件下，生成复制操作已经成为了被废弃的行为。
+- 成员函数模板在任何情况下都不会抑制特种成员函数的生成。
+
 ## 四、智能指针
+
+
 
 ## 五、右值引用、移动语义和完美转发
 
