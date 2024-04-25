@@ -654,7 +654,7 @@ void findAndInsert(C& container, const V& targetVal, const V& insertVal)
 
 ### 14、只要函数不会抛出异常，就为其加上noexcept声明
 
-C++11的`noexcept`关键字可用于修饰函数，确保该函数不会抛出任何异常。
+C++11的`noexcept`关键字可用于修饰函数，确保该函数不会抛出任何异常。该关键字属于接口规格的一种，应加而不加属于接口缺陷。
 
 对不会抛出异常的函数添加`noexcept`不仅可以改善代码的异常安全性，还可以允许编译器进行更激进的代码优化。
 
