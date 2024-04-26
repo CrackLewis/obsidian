@@ -844,7 +844,15 @@ A& operator=(const A&) = default;
 
 ## 四、智能指针
 
+C++标准库中有4种常见的智能指针：
+- `std::auto_ptr`：时代的眼泪
+- `std::unique_ptr`：专属所有权指针
+- `std::shared_ptr`：共享所有权指针
+- `std::weak_ptr`
 
+### 18、std::unique_ptr
+
+`std::unique_ptr<T>`实现了专属所有权语义。该指针不能复制，*只能移动*，只有当前持有它的作用域才能使用它。
 
 ## 五、右值引用、移动语义和完美转发
 
