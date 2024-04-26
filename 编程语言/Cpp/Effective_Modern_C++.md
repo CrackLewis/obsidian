@@ -854,6 +854,145 @@ C++标准库中有4种常见的智能指针：
 
 `std::unique_ptr<T>`实现了专属所有权语义。该指针不能复制，*只能移动*，只有当前持有它的作用域才能使用它。
 
+`std::unique_ptr<T>`默认使用`delete`运算符作为*默认析构器*，也可以通过模板元实现*自定义析构器*。如果`T`为基类，则它必须使用虚析构函数：
+
+```cpp
+class Investment {
+public:
+	virtual ~Investment();
+};
+
+auto delInvmt = [](Investment* pInv) {
+	makeLogEntry(pInv);
+	delete pInv;
+};
+
+std::unique_ptr<Investment, decltype(delInvmt)> pInv(nullptr, delInvmt);
+```
+
+ `std::unique_ptr`有3个重要的非特种成员函数：
+ - `release()`：释放其管理的指针
+ - `swap(std::unique_ptr<T>& oth)`：与另一个指针交换管理对象
+ - `get()`：获取管理对象的引用
+ - `reset(T* obj)`：重设管理对象，如果有旧对象则删除之
+
+除了指向单个对象的`std::unique_ptr<T>`外，还有`std::unique_ptr<T[]>`用于管理对象数组，前者没有`operator[]`运算符，使用`delete`运算符为默认析构器；后者没有`operator->`和`operator*`运算符，使用`delete[]`运算符为默认析构器。这种设计较好地解决了对象指针的二义性问题。
+
+`std::unique_ptr`还可以隐式转换为`std::shared_ptr`：
+
+```cpp
+std::unique_ptr<Investment> uInv = makeInvestment(args);
+std::shared_ptr<Investment> sInv = uInv;
+```
+
+需要注意的是，`std::unique_ptr<T>`仍然仅好于裸指针，能用标准库的其他容器就不要用智能指针。
+
+**总结**：
+- `std::unique_ptr`是只移动的专属所有权智能指针。
+- `std::unique_ptr`默认使用`delete`和`delete[]`运算符为默认析构器，用户也可自行指定。
+- `std::unique_ptr`可以方便地转换为`std::shared_ptr`。
+
+### 19、std::shared_ptr
+
+`std::shared_ptr`可以理解为实现了*简单垃圾回收机制*的智能指针。指向同一内存对象的所有`std::shared_ptr`共享该对象的所有权，当最后一个指向该对象的指针被析构时，对象被析构。
+
+这种自动析构对象的机制是通过引用计数实现的：
+- 创建时：所指对象引用计数+1。
+- 析构时：所指对象引用计数-1。
+- 赋值时：原对象引用计数-1，新对象引用计数+1。
+
+当然这种机制也会引入一些代价：
+- 指针尺寸是裸指针的两倍。额外空间指向一个*控制块*，包含引用计数、析构器指针等内容。
+- 引用计数的内存必须动态分配。这个不难理解，内存对象不可能知晓引用计数，所以必须由指针全盘托管。
+- 引用计数的递增和递减必须是原子操作。
+
+![[Pasted image 20240426163921.png]]
+
+`std::shared_ptr<T>`也支持*自定义析构器*，但不同的是它不是模板元参数的一部分，意味着指向同一类型、使用不同析构器的`std::shared_ptr`属于同一类型：
+
+```cpp
+auto del1 = [](Widget* w) { ... };
+auto del2 = [](Widget* w) { ... };
+
+std::shared_ptr<Widget> p1(new Widget, del1), p2(new Widget, del2);
+std::vector<std::shared_ptr<Widget>> vp{p1, p2};
+```
+
+控制块的构造遵循如下规则：
+- `std::make_shared`总是创建一个控制块。
+- 从裸指针和专属所有权指针构造`std::shared_ptr`时总是创建一个控制块。
+
+上述规则说明：同一个裸指针应当仅用于创建一次`std::shared_ptr`。否则该指针指向的对象可能会由两或多个控制块同时管理，从而形成未定义行为：
+
+```cpp
+Widget* w = new Widget;
+std::shared_ptr<Widget> p1(w); // OK
+std::shared_ptr<Widget> p2(w); // 错误！第二个控制块，可能造成w被析构两次
+std::shared_ptr<Widget> p3 = p1; // OK
+```
+
+如果有些情况下，类对象需要获取指向自身的`std::shared_ptr`，那么它可以继承`std::enable_shared_from_this`类，使用该类提供的`shared_from_this()`方法：
+
+```cpp
+class Widget: public std::enable_shared_from_this<Widget> {
+public:
+	// ...
+	void process();
+	// ...
+};
+
+void Widget::process() {
+	processedWidgets.emplace_back(shared_from_this());
+}
+```
+
+与`std::unique_ptr`相比，`std::shared_ptr`有这些特点：
+- 只能管理单个对象，不能管理对象数组。
+- 不能够转化为`std::unique_ptr`，但`std::unique_ptr`可以隐式转化过来。
+- 与其管理的对象在全生命期内绑定，即使是引用计数为1，也不能让出资源管理权。
+
+**总结**：
+- `std::shared_ptr`提供方便的手段，实现了任意资源在共享所有权语义下进行生命周期管理的垃圾回收。
+- `std::shared_ptr`尺寸是裸指针的两倍，会带来控制块的开销，要求原子化引用计数。
+- 默认的资源析构行为通过`delete`运算符进行，但也支持自定义析构器。自定义析构器类型不是模板元参数，不影响型别。
+- 避免使用裸指针型别变量创建`std::shared_ptr`指针。
+
+### 20、std::weak_ptr
+
+`std::weak_ptr`是`std::shared_ptr`的一种补充。它的一个用途是检测`std::shared_ptr`所指的某个对象是否空悬：
+
+```cpp
+auto spa = std::make_shared<A>();
+std::weak_ptr<A> wpa(spa);
+spa = nullptr;
+wpw.expired(); // 返回true
+```
+
+由于没有提领操作，`std::weak_ptr`依赖通过`lock`方法转换为`std::shared_ptr`以确保在指针非空时正确访问对象，在指针为空时返回空指针：
+
+```cpp
+std::shared_ptr<A> spa1 = wpa.lock();
+
+auto spa2 = wpa.lock();
+```
+
+另一种更粗暴的方法是直接转换，但可能抛出异常：
+
+```cpp
+try {
+	std::shared_ptr<A> spa3(wpa);
+} catch (std::bad_weak_ptr& e) {
+	std::cerr << e.what() << std::endl;
+}
+```
+
+`std::weak_ptr`的特性使其适合用于做缓存：
+- 
+
+**总结**：
+- 使用`std::weak_ptr`来代替可能空悬的`std::shared_ptr`。
+- `std::weak_ptr`可用于缓存、观察者列表，以及避免指针环路问题。
+
 ## 五、右值引用、移动语义和完美转发
 
 ## 六、lambda表达式
