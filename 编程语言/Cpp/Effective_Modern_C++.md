@@ -987,7 +987,25 @@ try {
 ```
 
 `std::weak_ptr`的特性使其适合用于做缓存：
-- 
+- 不占用引用计数，其析构不会导致对象被删除。
+- 读写为单个原子操作，较方便。
+
+下面是一个示例，`loadWidget`是一个开销较大的函数，而`fastLoadWidget`是缓存函数：
+
+```cpp
+std::unique_ptr<Widget> loadWidget(WidgetId id);
+
+std::shared_ptr<Widget> fastLoadWidget(WidgetId id) {
+	static std::unordered_map<WidgetId, std::weak_ptr<Widget>> cache;
+
+	auto objPtr = cache[id].lock(); // std::shared_ptr
+	if (!objPtr) {
+		objPtr = loadWidget(id);
+		cache[id] = objPtr;
+	}
+	return objPtr;
+}
+```
 
 **总结**：
 - 使用`std::weak_ptr`来代替可能空悬的`std::shared_ptr`。
