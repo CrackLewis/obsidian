@@ -987,7 +987,7 @@ try {
 ```
 
 `std::weak_ptr`的特性使其适合用于做缓存：
-- 不占用引用计数，其析构不会导致对象被删除。
+- *不占用引用计数*，其析构不会导致对象被删除。
 - 读写为单个原子操作，较方便。
 
 下面是一个示例，`loadWidget`是一个开销较大的函数，而`fastLoadWidget`是缓存函数：
@@ -1007,13 +1007,253 @@ std::shared_ptr<Widget> fastLoadWidget(WidgetId id) {
 }
 ```
 
+另一个示例是观察者模式：该模式的各个主题会有一个指向观察者的指针，以便在主题发生变化时通知观察者。如果观察者指针使用`std::weak_ptr`类型而非其他类型，则可以在访问前判断指针是否空悬。
+
+另外，`std::weak_ptr`有助于解决`std::shared_ptr`引入的*指针环路问题*：
+
+假设`A,B`两个类对象保存着指向彼此的`std::shared_ptr`。那么如果外界没有指向这两个对象的裸指针，它们就永远不会被销毁，因为它们会保持彼此的引用计数至少为1，这实质上是另一种内存泄漏。
+
+如果其中一个指针改为`std::shared_ptr`，那么持有弱指针的一者不会阻止另一者被析构，持有`shared_ptr`的一者则会使另一者至少存活至自己析构时。这样便解决了这个问题。
+
 **总结**：
-- 使用`std::weak_ptr`来代替可能空悬的`std::shared_ptr`。
+- 使用`std::weak_ptr`来代替可能空悬的`std::shared_ptr`。它不占用引用计数。
 - `std::weak_ptr`可用于缓存、观察者列表，以及避免指针环路问题。
+
+### 21、std::make_unique、std::make_shared
+
+WIP
+
+**总结**：
+- `std::make_unique`、`std::make_shared`的好处：消除重复代码，改进异常安全性，生成更好的目标代码。
+- `std::make_***`不适用于以下情形：需要自定义删除器、期望通过大括号初始化。
+- 对于`std::shared_ptr`，不建议使用`std::make_***`的额外场景：
+	- 自定义内存管理的类。
+	- 内存紧张的系统。
+	- 非常大的对象。
+	- 存在比指涉到相同对象`std::shared_ptr`生存期更久的`std::weak_ptr`。
+
+### 22、Pimpl习惯用法注意事项
+
+Pimpl=pointer to implementation，指涉到实现的指针
+
+*Pimpl做法*：把类的数据成员用一个类或结构体的指针替代，尔后把原来在主类的数据成员放入该类（或结构体），通过指针访问这些成员：
+
+```cpp
+// Widget.h
+#ifndef WIDGET_H_
+#define WIDGET_H_
+
+class Widget {
+public:
+	Widget();
+	~Widget(); // 析构函数必须声明，否则报错
+
+	Widget(Widget&& rhs);
+	Widget& operator=(Widget&& rhs);
+private:
+	struct Impl; // 此处声明的Impl类型尚不完整
+	std::unique_ptr<Impl> pImpl;
+};
+
+#endif
+
+// Widget.cpp
+#include "Widget.h"
+#include "Gadget.h"
+#include <vector>
+#include <string>
+
+struct Widget::Impl {
+	std::string name;
+	std::vector<double> data;
+	Gadget g1, g2, g3;
+};
+
+Widget::Widget(): pImpl(std::make_unique<Impl>()) {}
+Widget::~Widget() = default;
+Widget::Widget(Widget&& rhs) = default;
+Widget& Widget::operator=(Widget&& rhs) = default;
+```
+
+这种做法的好处：通过将数据成员放入结构体，使得用户不必依赖`<string>`、`<vector>`和`Gadget.h`等头文件，也不必因为`Widget.h`修改而需要重新编译整个项目。
+
+上面的`pImpl`也可以替换为`std::shared_ptr`类型，可以少写几个特种成员函数，但性能上不如前者。
+
+**总结**：
+- Pimpl惯用法降低了类的客户和类实现者之间的依赖性，减少了构建次数。
+- 对于采用`std::unique_ptr`实现的`pImpl`，须在类内声明特种成员函数并提供实现，即使默认行为是正确的。
+- 上述建议仅适用于`std::unique_ptr`，不适用于`std::shared_ptr`。
 
 ## 五、右值引用、移动语义和完美转发
 
+概念：
+- *右值引用*：对表达式右值的引用。
+- *移动语义*：在不产生额外数据副本的情形下实现对象间的数据转移。
+- *完美转发*：接受任意的实参，转发到其他函数，并确保其他函数收到完全相同的实参。
+
+### 23、std::move、std::forward
+
+`std::move`无条件地将实参转化为右值引用：
+
+```cpp
+template <typename T>
+decltype(auto) move(T&& param) 
+{
+	using RetT = remove_reference_t<T>&&;
+	return static_cast<RetT>(param);
+}
+```
+
+这也导致贸然使用`std::move`有时会适得其反，比如下面的例子，由于`std::move`会将`v`转为`const std::string&&`类型，而`const std::string&&`只能隐式转为`const std::string&`而非`std::string&&`，所以实际上在赋值时仍然调用的是`std::string`的复制构造函数，而非移动构造函数：
+
+```cpp
+class A {
+public:
+	// 调用std::string(const std::string&)
+	explicit A(const std::string v): val(std::move(v)) {}
+private:
+	std::string val;
+};
+```
+
+`std::forward`是有条件的强制型别转换。与`std::move`不同的是，它仅当实参使用右值完成初始化时，才会执行向右值型别的强制型别转换：
+
+```cpp
+void bar(const std::string&) { std::cout << "lval" << std::endl; }
+void bar(std::string&&) { std::cout << "rval" << std::endl; }
+template <typename T>
+void foo(T&& t) {
+	bar(std::forward<T>(t));
+}
+
+// 不太正确的例子，实际项目不要这么写
+std::string str;
+foo(str); // T=std::string&, 输出为lval
+foo(str + ""); // T=std::string，输出为rval
+```
+
+*权衡*：
+- 适合用`std::move`：需要移动操作的情形。
+- 适合用`std::forward`：需要无差错转发参数类型，或判断参数左右值的情形。
+
+**总结**：
+- `std::move`本身不执行移动操作，而只是无条件向右值型别强制转换。
+- 仅当传入的实参绑定右值时，`std::forward`才针对该实参实施向右值型别的强制类型转换。
+- 运行期`std::move`和`std::forward`都不会做任何操作。
+
+### 24、万能引用、右值引用
+
+`T&&`的两种含义：
+- 万能引用：`auto&&`、或`T`*完全不能确定*。
+- 右值引用：`T`被施加了任何限制，如`T=std::vector<U>`，或`T=const U`。
+
+运用万能引用可以写出相当高逼格的函数，比如下面这个计时函数：
+
+```cpp
+auto timeFunc = [](auto&& func, auto&&... params)
+{
+	MyTimer t;
+	t.start();
+	std::forward<decltype(func)>(func)(
+		std::forward<decltype(params)>(params)...
+	);
+	t.stop();
+	return t.getTimeMillis();
+};
+```
+
+**总结**：
+- 当且仅当函数模板形参或对象通过`T&&`或`auto&&`声明型别时，它是万能引用。
+- 如果型别声明并不精确地具备`T&&`形式，或没有发生类别推导，则它是右值引用。
+- 若采用右值引用初始化万有引用，则得到右值引用，否则得到左值引用。
+
+### 25、针对右值引用实施std::move，针对万能引用实施std::forward
+
+WIP
+
+**总结**：
+-  针对右值引用的最后一次使用实施`std::move`，针对万能引用的最后一次使用实施`std::forward`。
+- 作为按值返回的函数的右值引用和万能引用，依上一条所述采取相同行为。
+- 若局部对象可能适用于返回值优化，则请勿针对其实施`std::move`或`std::forward`。
+
+### 26、避免依万能引用型别进行重载
+
+下面这个函数用于在尽可能少复制对象的情况下给`std::vector`追加对象：
+
+```cpp
+std::vector<std::string> names;
+
+template <typename T>
+void logAndAdd(T&& name)
+{
+	log(std::chrono::system_clock::now(), "logAndAdd");
+	names.emplace(std::forward<T>(name));
+}
+```
+
+假设需要添加一个对`T=int`的特化：
+
+```cpp
+std::string nameFromIdx(int idx) { ... }
+
+void logAndAdd(int idx) {
+	log(std::chrono::system_clock::now(), "logAndAdd(int)");
+	names.emplace(nameFromIdx(idx));
+}
+```
+
+这时传入`short`或`long long`类型则会报错，因为它们匹配到万能引用，而该模板不支持`emplace(short)`之类的操作。这是因为万能引用劫持了`short`和`LL`，使得`int`特化无法被调用。
+
+而在类内用万能引用重载构造函数更糟，它会在诸多情形下劫持复制和移动构造函数：
+
+```cpp
+class A {
+ public:
+  template <typename T>
+  explicit A(T&& t) : s(std::forward<T>(t)) {
+    std::cout << "A(T&&)" << std::endl;
+  }
+  explicit A(int idx) : s("name" + std::to_string(idx)) {
+    std::cout << "A(int)" << std::endl;
+  }
+  A(const A& oth) : s(oth.s) { std::cout << "A(const A&)" << std::endl; }
+  A(A&& oth) : s(std::move(oth.s)) { std::cout << "A(A&&)" << std::endl; }
+
+ private:
+  std::string s;
+};
+
+std::string s = "A";
+const std::string sc = "A";
+A a1(s); // A(T&&)
+A a2(sc); // A(T&&)
+A a3("nameA"); // A(T&&)
+A a4(std::move(a1)); // A(T&&)
+A a5(2); // A(int)
+```
+
+对所有期望在这种写法下正常工作的型别均提供特化几乎是唯一的解决方案。因为所幸，万能引用在与其他模板有相同的签名匹配度时，优先级会略低。
+
+**总结**：
+- 万能引用作为重载候选型别，几乎总会让该重载版本在始料未及的情况下被调用。
+- 完美转发构造函数的情形尤其严重，因为对于非常量的左值型别而言，它们一般都会形成相对于复制构造函数的更佳匹配，并且它们还会劫持派生类中对基类的复制和对移动构造函数的调用。
+
+### 27、万能引用型别重载的替代方案
+
+常见替代方案：
+- 放弃重载：如果硬要使用不加限制的万能引用形参模板，或许使用不同函数名是一个好主意。
+- 传递`const T&`形参：放弃部分效率，保持接口的简洁性。
+- 传值：形参直接传值，在初始化成员时用`std::move`。
+- 标签分派：用模板元判断类型是否符合某一要求（如`std::is_integral_t<T>`），将其作为参数一并提供给模板函数。
+
+**总结**：
+- 如果不使用万能引用和重载的组合，则替代方案包括：使用彼此不同的函数名，传递`const T&`形参、传值、标签分派。
+- 经由`std::enable_if`等对模板实施限制，以避免发生预期之外的劫持。
+- 万能引用形参在性能方面占优，但在易用性方面较差。
+
 ## 六、lambda表达式
+
+
 
 ## 七、并发API
 
