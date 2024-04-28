@@ -18,30 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3ace590735661636",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编程语言/Cpp/Effective_Modern_C++.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f51bd3e1cf44cdcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法/经典算法/贪心专题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -201,9 +177,14 @@
   },
   "active": "654521f6e0efc687",
   "lastOpenFiles": [
+    "Linux/Hacks/WSL安装CUDA.md",
+    "Linux/Hacks/挂载和卸载ISO.md",
+    "Linux/Hacks/SSH相关.md",
+    "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
+    "附件/Pasted image 20240428190904.png",
+    "编程语言/Cpp/Effective_Modern_C++.md",
     "附件/Pasted image 20240426163921.png",
     "杂项/Docker/01-Docker入门.md",
-    "编程语言/Cpp/Effective_Modern_C++.md",
     "算法/经典算法/贪心专题.md",
     "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
     "算法/经典算法/力扣04-乱搞.md",
@@ -228,9 +209,6 @@
     "2024考研/待办/政治-毛中特呻吟.md",
     "2024考研/待办/政治-曲艺分析题背记.md",
     "2024考研/待办/政治-思修发病.md",
-    "2024考研/待办/政治-新思想放电.md",
-    "2024考研/待办/230617-230623.md",
-    "2024考研/待办/2310总规划.md",
     "附件/Pasted image 20230622172205.png",
     "附件/Pasted image 20230622171701.png",
     "附件/Pasted image 20230622172418.png",
@@ -238,10 +216,8 @@
     "附件/Pasted image 20230625103004.png",
     "附件/Pasted image 20240420140940.png",
     "附件/Pasted image 20240409145947.png",
-    "附件/Pasted image 20240409144806.png",
     "Linux/Linux编程",
     "数据库/Redis",
-    "附件/Pasted image 20240316200533.png",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
     "读书笔记",
     "课程项目/UCSB-GAMES101",
