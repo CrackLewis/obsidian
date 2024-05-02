@@ -28,7 +28,26 @@ $ sudo make install
 
 ```bash
 $ wget http://ftp.videolan.org/pub/videolan/x265/x265_3.2.tar.gz
-$ sudo 
+$ sudo tar -zxvf x265_3.2.tar.gz
+$ ./configure
+$ make
+$ sudo make install
+```
+
+最后装`ffmpeg`：
+
+```bash
+$ wget 
+$ tar -zxvf ffmpeg-4.4.4.tar.gz
+$ cd ffmpeg-4.4.4.tar.gz
+$ ./configure --disable-stripping --enable-gpl --enable-libx264 --enable-libx265 --enable-shared --enable-version3 --enable-protocols --enable-protocol=rtsp
+$ make -j8
+```
+
+关于配置选项，网上有很多版本，下面是另一种据说成功率较高的版本：
+
+```bash
+$ ./configure --disable-static --enable-shared --enable-gpl --enable-version3 --disable-w32threads --enable-avisynth --enable-bzlib --enable-fontconfig --enable-frei0r --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libfreetype --enable-libgme --enable-libgsm --enable-libilbc --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-lzma --enable-decklink --enable-zlib
 ```
 
 ## ffmpeg程序基本流程
