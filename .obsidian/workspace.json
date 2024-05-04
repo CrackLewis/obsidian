@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Linux/Basics/Linux压缩和解压.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e9861bc6abb07e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "编程语言/Cpp/libffmpeg.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "63752fe94c5daf86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程语言/Cpp/Qt源码交叉编译.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/Cpp/libffmpeg.md",
+                "file": "编程语言/Cpp/Qt源码交叉编译.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/Cpp/libffmpeg.md",
+                "file": "编程语言/Cpp/Qt源码交叉编译.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Cpp/libffmpeg.md"
+                "file": "编程语言/Cpp/Qt源码交叉编译.md"
               }
             }
           },
@@ -188,11 +212,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "dc261578200357dc",
+  "active": "63752fe94c5daf86",
   "lastOpenFiles": [
+    "编程语言/Cpp/libffmpeg.md",
+    "编程语言/Cpp/Qt源码交叉编译.md",
+    "Linux/Basics/Linux压缩和解压.md",
     "附件/Pasted image 20240501113759.png",
     "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
-    "编程语言/Cpp/libffmpeg.md",
     "杂项/Qt/QML/07-QML与C++聚合.md",
     "编程语言/Cpp/Effective_Modern_C++.md",
     "Linux/Hacks/多版本GCC安装和共存.md",
@@ -221,14 +247,12 @@
     "2024考研/待办/政治-材料分析题.md",
     "2024考研/待办/集百家之长.md",
     "附件/Pasted image 20231111210557.png",
-    "2024考研/待办/政治-马原啰嗦.md",
     "附件/Pasted image 20230622172205.png",
     "附件/Pasted image 20230622171701.png",
     "附件/Pasted image 20230622172418.png",
     "附件/Pasted image 20230622172248.png",
     "附件/Pasted image 20230625103004.png",
     "附件/Pasted image 20240420140940.png",
-    "附件/Pasted image 20240409145947.png",
     "Linux/Linux编程",
     "数据库/Redis",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",

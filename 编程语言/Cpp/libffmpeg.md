@@ -50,6 +50,11 @@ $ make -j8
 $ ./configure --disable-static --enable-shared --enable-gpl --enable-version3 --disable-w32threads --enable-avisynth --enable-bzlib --enable-fontconfig --enable-frei0r --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libfreetype --enable-libgme --enable-libgsm --enable-libilbc --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-lzma --enable-decklink --enable-zlib
 ```
 
+arm交叉编译：
+
+```bash
+$ ./configure --cross-prefix=/home/cracklewis/5.4.0/bin/arm-linux- --enable-cross-compile --arch=arm --target-os=linux --cc=/home/cracklewis/5.4.0/bin/arm-linux-gcc --disable-x86asm --disable-stripping --enable-gpl --enable-shared --enable-version3 --enable-protocols
+```
 ## ffmpeg程序基本流程
 
 - av_register_all
