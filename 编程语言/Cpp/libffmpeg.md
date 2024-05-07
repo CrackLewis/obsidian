@@ -41,6 +41,7 @@ $ wget
 $ tar -zxvf ffmpeg-4.4.4.tar.gz
 $ cd ffmpeg-4.4.4.tar.gz
 $ ./configure --disable-stripping --enable-gpl --enable-libx264 --enable-libx265 --enable-shared --enable-version3 --enable-protocols --enable-protocol=rtsp
+$ ./configure --disable-stripping --enable-gpl --enable-shared --enable-version3 --enable-protocols
 $ make -j8
 ```
 
