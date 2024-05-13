@@ -8,43 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "654521f6e0efc687",
+            "id": "fcb2e460d2548630",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
+                "file": "读书笔记/是大臣、是首相.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dc261578200357dc",
+            "id": "1648dde043548dbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Basics/Linux压缩和解压.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e9861bc6abb07e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编程语言/Cpp/libffmpeg.md",
+                "file": "杂项/Qt/QML/毕业设计论文初稿.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/Cpp/libffmpeg.md",
+                "file": "杂项/Qt/QML/毕业设计论文初稿.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/Cpp/libffmpeg.md",
+                "file": "杂项/Qt/QML/毕业设计论文初稿.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Cpp/libffmpeg.md"
+                "file": "杂项/Qt/QML/毕业设计论文初稿.md"
               }
             }
           },
@@ -200,14 +188,17 @@
       "templates:插入模板": false
     }
   },
-  "active": "1e9861bc6abb07e5",
+  "active": "1648dde043548dbe",
   "lastOpenFiles": [
-    "Linux/Hacks/SSH相关.md",
-    "编程语言/Cpp/libffmpeg.md",
-    "编程语言/Cpp/Qt源码交叉编译.md",
-    "Linux/Basics/Linux压缩和解压.md",
-    "附件/Pasted image 20240501113759.png",
+    "读书笔记/是大臣、是首相.md",
+    "杂项/Qt/QML/毕业设计论文初稿.md",
     "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
+    "Linux/Basics/Linux压缩和解压.md",
+    "杂项/Qt/QML/E01-QML官方示例学习.md",
+    "编程语言/Cpp/libffmpeg.md",
+    "Linux/Hacks/SSH相关.md",
+    "编程语言/Cpp/Qt源码交叉编译.md",
+    "附件/Pasted image 20240501113759.png",
     "杂项/Qt/QML/07-QML与C++聚合.md",
     "编程语言/Cpp/Effective_Modern_C++.md",
     "Linux/Hacks/多版本GCC安装和共存.md",
@@ -231,9 +222,6 @@
     "编程语言/Cpp/Cpp17",
     "编程语言/Cpp/未命名.canvas",
     "2024考研/待办/复试问题.md",
-    "2024考研/待办/到考前的全部规划.md",
-    "2024考研/待办/政治-材料分析题.md",
-    "2024考研/待办/集百家之长.md",
     "附件/Pasted image 20231111210557.png",
     "附件/Pasted image 20230622172205.png",
     "附件/Pasted image 20230622171701.png",

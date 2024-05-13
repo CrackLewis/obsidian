@@ -55,6 +55,8 @@ arm交叉编译：
 
 ```bash
 $ ./configure --cross-prefix=/home/cracklewis/5.4.0/bin/arm-linux- --enable-cross-compile --arch=arm --target-os=linux --cc=/home/cracklewis/5.4.0/bin/arm-linux-gcc --disable-x86asm --disable-stripping --enable-gpl --enable-shared --enable-version3 --enable-protocols
+
+./configure --cross-prefix=/usr/local/arm/bin/arm-linux-gnueabihf- --enable-cross-compile --arch=arm --target-os=linux --cc=/usr/local/arm/bin/arm-linux-gnueabihf-gcc --disable-x86asm --disable-stripping --enable-gpl --enable-version3 --enable-protocols
 ```
 ## ffmpeg程序基本流程
 
