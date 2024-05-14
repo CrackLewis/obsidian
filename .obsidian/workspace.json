@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "40c7a682f81f782e",
+        "id": "62e2e39fcb07d5a8",
         "type": "tabs",
         "children": [
           {
-            "id": "fcb2e460d2548630",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "读书笔记/是大臣、是首相.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1648dde043548dbe",
+            "id": "1b5962f80998ff25",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,9 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "30cbe4260357b6b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "读书笔记/是大臣、是首相.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,10 +187,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "1648dde043548dbe",
+  "active": "1b5962f80998ff25",
   "lastOpenFiles": [
     "读书笔记/是大臣、是首相.md",
     "杂项/Qt/QML/毕业设计论文初稿.md",
+    "附件/cumulative_design.png",
+    "附件/未命名绘图.drawio.png",
     "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
     "Linux/Basics/Linux压缩和解压.md",
     "杂项/Qt/QML/E01-QML官方示例学习.md",
@@ -221,14 +222,11 @@
     "编程语言/Cpp/Cpp17/02-string_view.md",
     "编程语言/Cpp/Cpp17",
     "编程语言/Cpp/未命名.canvas",
-    "2024考研/待办/复试问题.md",
     "附件/Pasted image 20231111210557.png",
     "附件/Pasted image 20230622172205.png",
     "附件/Pasted image 20230622171701.png",
     "附件/Pasted image 20230622172418.png",
     "附件/Pasted image 20230622172248.png",
-    "附件/Pasted image 20230625103004.png",
-    "附件/Pasted image 20240420140940.png",
     "Linux/Linux编程",
     "数据库/Redis",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
