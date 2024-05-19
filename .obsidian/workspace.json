@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂项/Qt/QML/毕业设计论文初稿.md",
+                "file": "杂项/Qt/QML/03-QML布局.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂项/Qt/QML/毕业设计论文初稿.md",
+                "file": "杂项/Qt/QML/03-QML布局.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Qt/QML/毕业设计论文初稿.md"
+                "file": "杂项/Qt/QML/03-QML布局.md"
               }
             }
           },
@@ -187,15 +188,15 @@
       "templates:插入模板": false
     }
   },
-  "active": "30cbe4260357b6b9",
+  "active": "a4ddeb0b21b87510",
   "lastOpenFiles": [
+    "杂项/Qt/QML/毕业设计论文初稿.md",
     "附件/terminal.jpg",
     "附件/server_ui5.png",
     "附件/server_ui4.png",
     "附件/client_demo1.png",
     "附件/server_ui3.png",
     "附件/server_ui2.png",
-    "杂项/Qt/QML/毕业设计论文初稿.md",
     "附件/server_ui1.png",
     "杂项/Qt/QML/毕业设计技术日志.md",
     "附件/client_class_diagram.png",
@@ -205,7 +206,6 @@
     "编程语言/Cpp/libffmpeg.md",
     "附件/display_fsm.png",
     "读书笔记/是大臣、是首相.md",
-    "附件/controller_fsm.png",
     "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
     "Linux/Basics/Linux压缩和解压.md",
     "杂项/Qt/QML/E01-QML官方示例学习.md",
