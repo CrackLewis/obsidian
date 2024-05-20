@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Qt/QML/毕业设计论文初稿.md",
+                "file": "编程语言/Rust/00-Rust入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂项/Qt/QML/03-QML布局.md",
+                "file": "编程语言/Rust/00-Rust入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂项/Qt/QML/03-QML布局.md",
+                "file": "编程语言/Rust/00-Rust入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Qt/QML/03-QML布局.md"
+                "file": "编程语言/Rust/00-Rust入门.md"
               }
             }
           },
@@ -188,9 +187,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "a4ddeb0b21b87510",
+  "active": "30cbe4260357b6b9",
   "lastOpenFiles": [
     "杂项/Qt/QML/毕业设计论文初稿.md",
+    "杂项/Qt/QML/03-QML布局.md",
     "附件/terminal.jpg",
     "附件/server_ui5.png",
     "附件/server_ui4.png",
@@ -201,7 +201,6 @@
     "杂项/Qt/QML/毕业设计技术日志.md",
     "附件/client_class_diagram.png",
     "附件/server_class_diagram.png",
-    "杂项/Qt/QML/03-QML布局.md",
     "编程语言/Cpp/Qt源码交叉编译.md",
     "编程语言/Cpp/libffmpeg.md",
     "附件/display_fsm.png",
