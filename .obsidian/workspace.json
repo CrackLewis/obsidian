@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5,
-    "collapsed": true
+    "width": 309.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -191,8 +190,10 @@
   },
   "active": "a4ddeb0b21b87510",
   "lastOpenFiles": [
-    "附件/terminal.jpg",
+    "编程语言/Cpp/libffmpeg.md",
+    "编程语言/Cpp/Effective_Modern_C++.md",
     "杂项/Qt/QML/毕业设计论文初稿.md",
+    "附件/terminal.jpg",
     "杂项/Qt/QML/03-QML布局.md",
     "编程语言/Rust/00-Rust入门.md",
     "附件/server_ui5.png",
@@ -205,7 +206,6 @@
     "附件/client_class_diagram.png",
     "附件/server_class_diagram.png",
     "编程语言/Cpp/Qt源码交叉编译.md",
-    "编程语言/Cpp/libffmpeg.md",
     "附件/display_fsm.png",
     "读书笔记/是大臣、是首相.md",
     "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
@@ -213,7 +213,6 @@
     "杂项/Qt/QML/E01-QML官方示例学习.md",
     "Linux/Hacks/SSH相关.md",
     "杂项/Qt/QML/07-QML与C++聚合.md",
-    "编程语言/Cpp/Effective_Modern_C++.md",
     "Linux/Hacks/多版本GCC安装和共存.md",
     "Linux/Hacks/WSL安装CUDA.md",
     "Linux/Hacks/挂载和卸载ISO.md",
