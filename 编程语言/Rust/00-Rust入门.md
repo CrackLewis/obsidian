@@ -365,6 +365,124 @@ for i in c.iter() {
 - `take()`：获取指定数量的元素。
 - `enumerate()`：为每个元素提供索引。
 
+`map`方法用于转换容器内的每个元素，返回转换后的元素迭代器；`filter`方法用于过滤元素集合，返回过滤后的元素迭代器：
+
+```rust
+let va = vec![1, 2, 3, 4, 5, 6];
+let vb = va.iter().cloned().map(|x| x * 2).collect(); // [2, 4, 6, 8, 10, 12]
+let vc = va.iter().cloned().filter(|x| x % 2 == 0).collect(); // [2, 4, 6]
+```
+
+`fold`方法可以根据特定的初始值和累加器，对容器内元素进行累加：
+
+```rust
+let nums = vec![1, 2, 3, 4, 5];
+let sum: i32 = nums.iter().fold(0, |acc, &x| acc + x);
+println!("Sum: {}", sum);
+```
+
+`skip`方法跳过迭代器的前`n`个元素，`take`则只取前`n`个元素：
+
+```rust
+let nums = vec![1, 2, 3, 4, 5];
+let skip_two = nums.iter().skip(2);
+for num in skip_two {
+	println!("{}", num); // 输出：3 4 5
+}
+let take_two = nums.iter().take(2);
+for num in take_two {
+	println!("{}", num); // 输出：1 2
+}
+```
+
+`enumerate`方法扩展迭代器的功能，使`for`循环可以同时获得下标和元素引用：
+
+```rust
+let words = vec!["hello", "world"]; 
+for (index, &word) in words.iter().enumerate() { 
+	println!("Index: {}, Word: {}", index, word); 
+	// 输出：
+	// Index: 0, Word: hello 
+	// Index: 1, Word: world 
+}
+```
+
+迭代器的其他资料：
+- [Rust迭代器](https://www.runoob.com/rust/rust-iter.html)
+
+### 闭包
+
+Rust闭包是一种匿名函数，可以捕获外界变量，计算并返回一个表达式。
+
+```rust
+let fa = |x| x * x; // 合法
+let fb = |a: i32, b: i32| { a * b }; // 合法
+let factorial = |x: i32| {
+	let mut i = 1;
+	let mut ret = 1;
+	for i in 1...(x+1) {
+		ret *= i;
+	}
+	ret
+}; // 合法
+let v = 5;
+let fc = |u: i32| u * v; // 合法：注意fc捕获了外部变量v
+
+let x = fb(3, 4); // 12
+let y = factorial(10); // 3628800
+```
+
+Rust闭包有一些*特点*：
+- 性能高，接近直接调用函数。
+- 可以捕获变量，但闭包生命期不会长于捕获变量的生存期。下面的`move`可以通过延长捕获变量生存期，从而延长。
+
+默认情况下，闭包只是借用外部环境变量。Rust中的`move`关键字可以强制闭包获取外部环境所有权，移走外部环境对应变量，这样可以防止在环境外闭包无法正常运作：
+
+```rust
+fn main() {
+    let u = 5;
+    let mut f: Option<Box<dyn Fn(i32) -> i32>> = None;
+    if true {
+        let v = 7;
+        // 通过move将语句块内的v移动到闭包内
+        f = Some(Box::new(move |x: i32| v * x));
+    }
+    // 解引用f并调用闭包
+    if let Some(ref closure) = f {
+        println!("{}", closure(u));
+    }
+}
+```
+
+闭包可以作为参数传递给函数：
+
+```rust
+fn call_fn<F>(f: F) where F: Fn() {
+    f();
+}
+
+call_fn(move || println!("Hello from a closure!"));
+```
+
+闭包也可以作为返回值，因此可以实现类似Python函数修饰器的功能：
+
+```rust
+use std::time::Instant;
+
+fn measure_time<F>(func: F) -> impl Fn(i32) -> i32
+where
+    F: Fn(i32) -> i32,
+{
+    move |x| {
+        let start = Instant::now();
+        let result = func(x);
+        let duration = start.elapsed();
+        println!("Time taken: {:?}", duration);
+        result
+    }
+}
+```
+
 ## 留坑
 
 - `if let`
