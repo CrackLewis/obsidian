@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "30cbe4260357b6b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编程语言/Rust/01-Rust语法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "70508e3ea873ce2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
+                "file": "编程语言/Rust/01-Rust语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -187,7 +175,7 @@
       "templates:插入模板": false
     }
   },
-  "active": "30cbe4260357b6b9",
+  "active": "70508e3ea873ce2c",
   "lastOpenFiles": [
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "编程语言/Rust/01-Rust语法.md",
