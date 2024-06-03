@@ -63,7 +63,12 @@ mod nation {
 
 ### 访问模块
 
-Rust模块的成员默认不可从外部访问，除非通过加`pub`关键字声明其为公开成员：
+Rust模块的成员默认不可从外部访问，除非通过加`pub`关键字声明其为公开成员。
+
+`pub`关键字修饰不同成员有不同的含义：
+- `pub mod`：公开子模块，子模块对模块外部可见。模块成员仍然默认不可见。
+- `pub struct`、`pub impl`：公开的结构体定义和实现，该定义对外可见。结构体成员仍然默认不可见。
+- `pub enum`：公开枚举类，定义对外可见，但枚举成员默认不可见。
 
 ```rust
 mod nation {
@@ -106,6 +111,7 @@ mod back_of_house {
     pub struct Breakfast {
 	    // 结构体的公开成员对外可见
         pub toast: String,
+        // 非公开成员对back_of_house内部可见，对外不可见
         seasonal_fruit: String,
     }
 
@@ -119,6 +125,7 @@ mod back_of_house {
     }
 }
 pub fn eat_at_restaurant() {
+	// 访问back_of_house模块的结构体方法
     let mut meal = back_of_house::Breakfast::summer("Rye");
     meal.toast = String::from("Wheat");
     println!("I'd like {} toast please", meal.toast);
@@ -127,3 +134,61 @@ fn main() {
     eat_at_restaurant()
 }
 ```
+
+### use声明
+
+`use`声明用于简化模块访问，将一串名称简化为成员名：
+
+```rust
+mod front_of_house {
+    pub mod hosting {
+        pub fn add_to_waitlist() {}
+    }
+}
+
+use crate::front_of_house::hosting;
+// 此情形下与use front_of_house::hosting同义
+
+pub fn eat_at_restaurant() {
+    hosting::add_to_waitlist();
+}
+```
+
+`pub use`声明可以*重导出*（re-export）`use`声明，使得模块外可以通过该声明简化访问：
+
+```rust
+mod external {
+    mod front_of_house {
+        pub mod hosting {
+            pub fn add_to_waitlist() {
+                println!("added!");
+            }
+        }
+    }
+
+    pub use front_of_house::hosting;
+}
+
+fn main() {
+    external::hosting::add_to_waitlist();
+}
+```
+
+为了避免别名冲突，`use...as...`可以为`use`声明的对象起一个别名：
+
+```rust
+#![allow(unused)]
+fn main() {
+	use std::fmt::Result; // 此处的use声明占用了Result，不能重复声明
+	use std::io::Result as IoResult;
+	
+	fn function1() -> Result {
+	    println!("func1");
+	}
+	
+	fn function2() -> IoResult<()> {
+	    println!("func2");
+	}
+}
+```
+
