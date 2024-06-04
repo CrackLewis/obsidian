@@ -862,8 +862,15 @@ fn main() {
 }
 ```
 
+## Cargo用法
+
+构造crate：`cargo build`
+
+运行crate：`cargo run`
+
+WIP
+
 ## 留坑
 
 - 生命周期：`'a`、`'static`（[这篇讲的不错。](https://blog.csdn.net/linysuccess/article/details/123792571)）
-- Cargo
 - 

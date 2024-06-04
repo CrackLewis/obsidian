@@ -192,3 +192,97 @@ fn main() {
 }
 ```
 
+### 模块分拆为不同源码文件
+
+有时单个模块过于复杂，用单个源码文件很难表述其所有的定义与实现细节，此时需要将其分拆为数个源码文件。
+
+源码文件的设置有两种方案：方案一是在`src`下创建一个模块目录和一个模块同名的`.rs`文件：
+
+```
+my_project
++ src
+	+ main.rs
+	+ my_module.rs
+	+ my_module
+		+ impl1.rs
+		+ impl2.rs
+```
+
+方案二是`src`下只设置模块目录，目录内通过`mod.rs`文件描述模块结构。
+
+```
+my_project
++ src
+	+ main.rs
+	+ my_module
+		+ mod.rs
+		+ impl1.rs
+		+ impl2.rs
+```
+
+`src/my_module/impl1.rs`有如下内容：
+
+```rust
+pub fn func1() {
+	println!("called func1");
+}
+```
+
+`src/my_module/impl2.rs`有如下内容：
+
+```rust
+pub fn func2() {
+	println!("called func2");
+}
+```
+
+`src/main.rs`有如下内容：
+
+```rust
+mod my_module;
+pub use crate::my_module;
+
+fn main() {
+	my_module::switch(1);
+	my_module::switch(2);
+}
+```
+
+假如采用方案一，则需要编辑`src/my_module.rs`文件，对于方案二则需要编辑`src/my_module/mod.rs`文件。但这两个文件的内容是一致的：
+
+```rust
+// 目录下的所有子模块放这里。
+// 如果模块需要开放外部访问，则加上pub关键字。
+mod impl1;
+mod impl2;
+
+// 这里放模块的一级定义，即my_module的直接成员
+
+pub fn switch(x: i32) {
+	if x % 2 == 0 {
+		impl1::func1();
+	} else {
+		impl2::func2();
+	}
+}
+```
+
+## 错误处理
+
+### 不可恢复错误
+
+Rust中不可恢复的错误非常简单粗暴，类似于C/C++中的`assert`宏。Rust中用`panic!`宏报告一个不可恢复的错误，同时强制退出程序：
+
+```rust
+fn main() {
+	panic!("panic_test: {}", 1);
+	println!("after_panic");
+}
+```
+
+上述示例中，`after_panic`不会显示。
+
+如果需要在报告这类错误时提供调用栈信息，则需要设置环境变量`RUST_BACKTRACE`为`1`。
+
+### 可恢复错误
+
