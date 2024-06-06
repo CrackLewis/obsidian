@@ -818,7 +818,7 @@ fn main() {
 }
 ```
 
-### Deref trait
+### Deref特性：解引用逻辑
 
 Rust不直接允许重载解引用运算符（`*`），但允许通过实现`Deref`特性的方式自定义解引用逻辑。在结构体`my_struct`前加星号实际上执行的是`*(my_struct.deref())`，所以只需要实现`deref`方法。
 
@@ -850,5 +850,96 @@ impl<T> Deref for MyBox<T> {
 
 还有`DerefMut<Target=U>`特性，定义解引用一个可变对象的逻辑。
 
-### Drop trait
+### Drop特性：删除逻辑
 
+`Drop`特性允许用户自定义结构体被删除时的逻辑。
+
+示例：
+
+```rust
+struct CustomSmartPointer {
+    data: String,
+}
+
+impl Drop for CustomSmartPointer {
+	// drop方法会在结构体被删除时调用
+    fn drop(&mut self) {
+        println!("Dropping CustomSmartPointer with data `{}`!", self.data);
+    }
+}
+
+fn main() {
+    let c = CustomSmartPointer { data: String::from("my stuff") };
+    let d = CustomSmartPointer { data: String::from("other stuff") };
+    println!("CustomSmartPointers created.");
+}
+```
+
+Rust不允许传统意义上的禁用`drop`逻辑。
+
+Rust不允许显式调用`drop`方法。如果需要*提前释放对象*，则需要使用`std::mem::drop`方法：
+
+```rust
+fn main() {
+    let c = CustomSmartPointer { data: String::from("some data") };
+    println!("CustomSmartPointer created.");
+    drop(c);
+    println!("CustomSmartPointer dropped before the end of main.");
+}
+```
+
+### Rc\<T\>
+
+```rust
+use std::rc::Rc; // 搞不懂，Box都能默认引入，Rc不行
+```
+
+`Rc<T>`适合用于在单线程程序中共享值的所有权。其基本原理是维护一个引用计数器，记录持有该值的指针数，当引用计数归零时删除值。
+
+调用`Box::new(v)`会移动`v`值到指针`Box<T>`内，这是唯一创建`Box<T>`的方法。与其不同的是，`Rc::new(v)`和`Rc::clone(&p)`都可以创建`Rc<T>`，前者将`v`值移动到新的`Rc<T>`中，后者基于`p`创建一个共享值所有权的`Rc<T>`。
+
+使用示例：
+
+```rust
+let pa = Rc::new(5);
+let pb = Rc::clone(&pa); // pa.clone()也可以，但Rc::clone是惯用用法
+let pc = Rc::clone(&pa);
+```
+
+`Rc::strong_count(&p)`可以获取引用计数：
+
+```rust
+enum List {
+    Cons(i32, Rc<List>),
+    Nil,
+}
+
+use crate::List::{Cons, Nil};
+use std::rc::Rc;
+
+fn main() {
+    let a = Rc::new(Cons(5, Rc::new(Cons(10, Rc::new(Nil)))));
+    println!("count after creating a = {}", Rc::strong_count(&a));
+    // 此处打印1
+    let b = Cons(3, Rc::clone(&a));
+    println!("count after creating b = {}", Rc::strong_count(&a));
+    // 此处打印2
+    {
+        let c = Cons(4, Rc::clone(&a));
+        println!("count after creating c = {}", Rc::strong_count(&a));
+        // 此处打印3
+    }
+    println!("count after c goes out of scope = {}", Rc::strong_count(&a));
+    // 此处打印2
+}
+```
+
+引用计数的自动减少，以及计数归零时值的销毁是`Rc<T>`对`Drop`特性自定义实现的行为。
+
+注意：`Rc<T>`只提供*不可变的共享数值*。提供完全可变的共享数值可能违反变量借用规则，造成数据竞争和不一致。
+
+### RefCell\<T\>、内部可变性模式
+
+内部可变性模式指的是一种设计模式，它只允许同一时间存在至多一个可改变对象的引用。
+
+`RefCell`
