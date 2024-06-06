@@ -562,6 +562,43 @@ impl<T: B + C> A<T> {
 }
 ```
 
+### 特性的动态分发
+
+有时程序要求处理一类实现了特定`trait`的对象，但不知道这些对象是什么类别。这时需要通过`dyn`关键字声明为动态分发：
+
+```rust
+struct Circle { radius: i32 }
+struct Square { border: i32 }
+trait Drawable {
+	fn draw(&self);
+}
+
+impl Drawable for Circle {
+    fn draw(&self) {
+	    let area = (self.radius * self.radius as f64) * 3.14159;
+        println!("Circle r={}, S={}", self.radius, area);
+    }
+}
+
+impl Drawable for Square {
+    fn draw(&self) {
+	    let area = self.border * self.border;
+        println!("Square a={} S={}", self.radius, area);
+    }
+}
+
+fn main() {
+    let circle = Circle { radius: 5 };
+    let square = Square { border: 6 };
+    let shapes: Vec<Box<dyn Drawable>> = vec![Box::new(circle), Box::new(square)];
+    for shape in shapes.iter() {
+        shape.draw();
+    }
+}
+// Circle r=5, S=78.53975
+// Square a=6 S=36
+```
+
 ### 示例：求数组元素最大值
 
 下面是求数组元素最大值的完整实现。
@@ -940,6 +977,446 @@ fn main() {
 
 ### RefCell\<T\>、内部可变性模式
 
-内部可变性模式指的是一种设计模式，它只允许同一时间存在至多一个可改变对象的引用。
+内部可变性模式指的是一种设计模式，它允许在持有不可变引用时也可改变数据。通用的做法是在数据结构中使用不安全代码模糊通常的可变形和借用规则。
 
-`RefCell`
+借用规则：
+- 任意时刻，只能有一个可变引用*或*任意个不可变引用*之一*
+- 引用必须总是有效的
+
+`RefCell<T>`确保同一时刻只有一个可变引用。这种确保是在运行时实现的，如果违反会导致程序错误退出。
+
+如何选择`Box`、`Rc`、`RefCell`：
+
+| 特点     | `Box<T>` | `Rc<T>` | `RefCell<T>` |
+| ------ | -------- | ------- | ------------ |
+| 所有者数量  | 1        | 多个      | 1            |
+| 借用检查时期 | 编译期      | 编译期     | 运行期          |
+| 可变性    | 不可变      | 不可变     | *内部可变*       |
+
+下面是一个演示*内部可变性模式*的示例：
+
+```rust
+// Messenger特性：规定必须实现send方法
+pub trait Messenger {
+    fn send(&self, msg: &str);
+}
+
+pub struct LimitTracker<'a, T: Messenger> {
+    messenger: &'a T,
+    value: usize,
+    max: usize,
+}
+
+impl<'a, T> LimitTracker<'a, T>
+    where T: Messenger {
+    // new方法是默认的构造方法
+    pub fn new(messenger: &T, max: usize) -> LimitTracker<T> {
+        LimitTracker {
+            messenger,
+            value: 0,
+            max,
+        }
+    }
+
+	// set_value是内部可变方法
+    pub fn set_value(&mut self, value: usize) {
+        self.value = value;
+
+        let percentage_of_max = self.value as f64 / self.max as f64;
+
+        if percentage_of_max >= 1.0 {
+            self.messenger.send("Error: You are over your quota!");
+        } else if percentage_of_max >= 0.9 {
+             self.messenger.send("Urgent warning: You've used up over 90% of your quota!");
+        } else if percentage_of_max >= 0.75 {
+            self.messenger.send("Warning: You've used up over 75% of your quota!");
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::cell::RefCell;
+
+    struct MockMessenger {
+	    // sent_messages用RefCell修饰，确保只有一个活动的可变引用
+        sent_messages: RefCell<Vec<String>>,
+    }
+
+    impl MockMessenger {
+        fn new() -> MockMessenger {
+            MockMessenger { sent_messages: RefCell::new(vec![]) }
+        }
+    }
+
+    impl Messenger for MockMessenger {
+        fn send(&self, message: &str) {
+	        // 如果去掉borrow_mut()或者只使用borrow()，
+	        // 这个语句便不能通过编译。
+            self.sent_messages.borrow_mut().push(String::from(message));
+        }
+    }
+
+    #[test]
+    fn it_sends_an_over_75_percent_warning_message() {
+        let mock_messenger = MockMessenger::new();
+        let mut limit_tracker = LimitTracker::new(&mock_messenger, 100);
+
+        limit_tracker.set_value(80);
+
+		// 这里的borrow()只借用不可变引用
+        assert_eq!(mock_messenger.sent_messages..borrow().len(), 1);
+    }
+}
+```
+
+结合`Rc<T>`和`RefCell<T>`可以实现多个可变数据拥有者：
+
+```rust
+#[derive(Debug)]
+enum List {
+    Cons(Rc<RefCell<i32>>, Rc<List>),
+    Nil,
+}
+
+use crate::List::{Cons, Nil};
+use std::rc::Rc;
+use std::cell::RefCell;
+
+fn main() {
+    let value = Rc::new(RefCell::new(5));
+
+    let a = Rc::new(Cons(Rc::clone(&value), Rc::new(Nil)));
+
+    let b = Cons(Rc::new(RefCell::new(6)), Rc::clone(&a));
+    let c = Cons(Rc::new(RefCell::new(10)), Rc::clone(&a));
+
+// 图结构：
+// 	b(6)
+// 	 \
+// 	  \
+// 	   a(5) ---> NIL
+// 	  /
+// 	 /
+// 	c(10)
+
+    *value.borrow_mut() += 10;
+    // 此时a的值变成了15
+
+    println!("a after = {:?}", a);
+    println!("b after = {:?}", b);
+    println!("c after = {:?}", c);
+
+// 输出：
+// a after = Cons(RefCell { value: 15 }, Nil)
+// b after = Cons(RefCell { value: 6 }, Cons(RefCell { value: 15 }, Nil))
+// c after = Cons(RefCell { value: 10 }, Cons(RefCell { value: 15 }, Nil))
+}
+```
+
+Rust标准库内的其他设施，如`Cell<T>`和`Mutex<T>`等也提供类似的功能，前者与`RefCell`的区别是不提供引用，而是将值移出和移入，后者则是提供互斥访问。
+
+总结：
+- `RefCell<T>`允许且仅允许借用一个可变引用，用于修饰值。
+- `RefCell<T>`可与`Rc<T>`合用，从而支持借用多个可变引用。
+
+### 引用循环问题
+
+与C++的`std::shared_ptr<T>`类似，Rust也有引用循环问题。通过人为构造`Rc<T>`的循环引用，可以在Rust复现这个问题：
+
+```rust
+use crate::List::{Cons, Nil};
+use std::rc::Rc;
+use std::cell::RefCell;
+#[derive(Debug)]
+enum List {
+    Cons(i32, RefCell<Rc<List>>),
+    Nil,
+}
+
+impl List {
+    fn tail(&self) -> Option<&RefCell<Rc<List>>> {
+        match self {
+            Cons(_, item) => Some(item),
+            Nil => None,
+        }
+    }
+}
+
+fn main() {
+    let a = Rc::new(Cons(5, RefCell::new(Rc::new(Nil))));
+
+    println!("a initial rc count = {}", Rc::strong_count(&a));
+    println!("a next item = {:?}", a.tail());
+    // a initial rc count = 1 
+    // a next item = Some(RefCell { value: Nil })
+
+    let b = Rc::new(Cons(10, RefCell::new(Rc::clone(&a))));
+    // 此时是b-->a，a还没有后继结点
+
+    println!("a rc count after b creation = {}", Rc::strong_count(&a));
+    println!("b initial rc count = {}", Rc::strong_count(&b));
+    println!("b next item = {:?}", b.tail());
+    // a rc count after b creation = 2
+	// b initial rc count = 1
+	// b next item = Some(RefCell { value: Cons(5, RefCell { value: Nil }) })
+
+	// 构造a到b的指针，此时形成了引用循环
+    if let Some(link) = a.tail() {
+        *link.borrow_mut() = Rc::clone(&b);
+    }
+
+    println!("b rc count after changing a = {}", Rc::strong_count(&b));
+    println!("a rc count after changing a = {}", Rc::strong_count(&a));
+    // b rc count after changing a = 2
+	// a rc count after changing a = 2
+
+    // 运行这行代码会导致无休止的循环输出，并最终导致栈溢出
+    // println!("a next item = {:?}", a.tail());
+}
+```
+
+解决方案是，对部分可能产生引用循环的指针替换为`Weak<T>`类型，使得所有的`Rc<T>`不会形成一个环。这是一种类似于C++中`std::weak_ptr<T>`的设施，不会增加强引用计数（即`Rc::strong_count(&p)`的值）。
+
+```rust
+use std::rc::{Rc, Weak};
+use std::cell::RefCell;
+
+#[derive(Debug)]
+struct Node {
+    value: i32,
+    // parent设为弱指针，破坏了引用循环
+    parent: RefCell<Weak<Node>>,
+    // children仍然为强指针
+    children: RefCell<Vec<Rc<Node>>>,
+}
+
+fn main() {
+    let leaf = Rc::new(Node {
+        value: 3,
+        parent: RefCell::new(Weak::new()),
+        children: RefCell::new(vec![]),
+    });
+
+	// Weak<T>可通过upgrade升级为Rc<T>
+    println!("leaf parent = {:?}", leaf.parent.borrow().upgrade());
+
+    let branch = Rc::new(Node {
+        value: 5,
+        parent: RefCell::new(Weak::new()),
+        children: RefCell::new(vec![Rc::clone(&leaf)]),
+    });
+    
+	// Rc<T>可通过downgrade方法降级为Weak<T>
+    *leaf.parent.borrow_mut() = Rc::downgrade(&branch);
+
+    println!("leaf parent = {:#?}", leaf.parent.borrow().upgrade());
+}
+```
+
+创建和销毁弱指针`Weak<T>`会改变弱引用计数（`Rc::weak_count`）。注意，弱引用计数只计算`Weak<T>`的个数，不包含`Rc<T>`的个数。
+
+## 自动化测试
+
+严格来讲测试不算语法，而算是Cargo的功能。
+
+在项目下执行命令`cargo test`可以运行所有测试。
+
+这是一个测试示例：
+
+```rust
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test1() {
+        assert_eq!(2 + 2, 4);
+        assert_ne!(2 + 2, 5);
+    }
+    #[test]
+    fn test2() {
+        let mut x = 1;
+        for i in 1..11 {
+            x *= i;
+        }
+        assert_eq!(x, 3628800);
+    }
+}
+// 测试输出：
+// running 2 tests
+// test tests::test2 ... ok
+// test tests::test1 ... ok
+// test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+// running 0 tests
+// test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+```
+
+一个测试成功，当且仅当所有断言通过。
+
+一个测试失败，可以由如下条件引起：
+- 测试中间调用了`panic!`宏
+- 至少一个断言失败
+
+### 自定义测试运行
+
+通过`--test-threads=xx`可以设置由多少个*并发线程运行测试*：
+
+```bash
+$ cargo test -- --test-threads=4
+```
+
+默认情况下，如果测试通过，测试中的标准输出不会显示。如果测试通过也要检查标准输出，可以加`--show-output`：
+
+```bash
+$ cargo test -- --show-output
+```
+
+通过指定测试名可以只运行部分测试：
+
+```bash
+$ cargo test test2 # 只运行tests::test2
+```
+
+如果一个测试在源码被标注为`#[ignore]`，则通过添加`--ignored`参数可以跳过这些测试：
+
+```bash
+$ cargo test -- --ignored
+```
+
+### 测试的组织结构
+
+模块添加`#[cfg(test)]`表示，该模块只会用于测试，不会用于编译为库或二进制程序。
+
+Rust允许测试私有函数，但不强迫用户测试私有函数：
+
+```rust
+pub fn add_two(a: i32) -> i32 {
+    internal_adder(a, 2)
+}
+
+// 模块内的私有函数，对外不可见
+fn internal_adder(a: i32, b: i32) -> i32 {
+    a + b
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn internal() {
+	    // 测试能够正常运行
+        assert_eq!(4, internal_adder(2, 2));
+    }
+}
+```
+
+Rust项目下如果存在`tests`目录，则其内所有源码文件将视为测试文件，只会参与测试，不会参与编译。
+
+## 面向对象编程特性
+
+OOP哲学认为对象包含数据和行为。
+
+OOP三大特征：封装、继承、多态
+
+Rust只有两级封装：对模块外是否可见。
+
+Rust不支持传统意义上的继承和多态，只允许通过`trait`的实现和动态分发机制实现。
+
+## 专题
+
+### 模式与匹配
+
+模式包含如下内容：
+- 字面量
+- 解构的数组、枚举、结构体或者元组
+- 变量
+- 通配符
+- 占位符
+
+模式和匹配语法会在3个场合用到：
+- `match`分支
+- `if let`条件表达式
+- `while let`条件循环
+- `for`循环：可能涉及到变量解包，如：`for (idx, val) in it.enumerate()`。
+- `let`语句：可能涉及到变量解包，如：`let (x, y) = (1, 2)`。
+- 函数参数：同`let`，如：`&(x, y): &(i32, i32)`。
+
+*可反驳性*（refutability）：模式可能匹配失败，则是可反驳的，否则是不可反驳的。
+
+`let`、`for`、`match`、函数参数只允许不可反驳的模式匹配，因此下面这个`let`语句会失败：
+
+```rust
+// 报错：可反驳的模式，没有覆盖None
+let Some(v) = return_some_or_none();
+```
+
+相反，`if let`、`while let`允许可反驳的模式匹配，如果模式匹配失败，则跳过语句块：
+
+```rust
+if let Some(v) = return_some_or_none {
+	println!("Some!");
+} // 匹配失败则跳过语句块
+```
+
+`if let`、`while let`也可以进行不可反驳的模式匹配，但通常不被提倡。
+
+下面所有的模式语法都是合法的：
+- 字面量：`1`、`2.0`、`true`
+- 命名变量：`x`、`y`
+- 多个模式：`1 | 2 | 3`
+- 范围匹配：`1..=5`（匹配`[1,5]`，注意是闭区间）
+- 解构结构体：`Point { x: a, y: b }`，成员`x,y`解构为变量`a,b`
+- 解构枚举：`Some(v)`
+- 解构嵌套的结构体和枚举（？）
+- 解构结构体和元组：`(x, y)`、`((a, b), Point { x, y })`
+- 忽略整个值：`_`
+- 忽略部分值：`Some(_)`、`(x, _, y, _, z)`
+- 忽略剩余值：`(a, b, ..)`、`(first, .., last)`
+
+*匹配守卫*（match guard）允许为匹配添加特定额外条件，如不满足条件则对应模式匹配将失败：
+
+```rust
+fn main() {
+    let x = Some(5);
+    let y = 10;
+
+    match x {
+        Some(50) => println!("Got 50"),
+        Some(n) if n == y => println!("Matched, n = {}", n),
+        _ => println!("Default case, x = {:?}", x),
+    }
+
+    println!("at the end: x = {:?}, y = {}", x, y);
+	// 输出结果：Default case, x = 5; at the end: x = 5, y = 10
+}
+```
+
+注意：由于`if`优先级低于`|`，所以`a | b | c if cond`实际上等价于`(a | b | c) if cond`，而非`a | b | (c if cond)`。
+
+*At绑定*（`@`）允许在创建存放值的变量时，对其进行匹配测试：
+
+```rust
+
+#![allow(unused)]
+fn main() {
+	enum Message {
+	    Hello { id: i32 },
+	}
+	
+	let msg = Message::Hello { id: 5 };
+	
+	match msg {
+	    Message::Hello { id: id_variable @ 3..=7 } => {
+	        println!("Found an id in range: {}", id_variable)
+	    },
+	    Message::Hello { id: 10..=12 } => {
+	        println!("Found an id in another range")
+	    },
+	    Message::Hello { id } => {
+	        println!("Found some other id: {}", id)
+	    },
+	}
+	// 输出结果：Found an id in range: 5
+}
+```
