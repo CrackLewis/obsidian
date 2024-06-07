@@ -1552,9 +1552,46 @@ pub extern "C" fn call_from_c() {
 
 #### 访问和修改可变静态变量
 
-Rust的静态变量约等于C/C++的静态全局变量。根据可变性分为可变静态变量和不可变静态变量。通过`static`关键字声明：
+Rust的静态变量约等于C/C++的静态全局变量。根据可变性分为可变静态变量和不可变静态变量。通过`static`关键字声明。
+
+由于访问和修改可变静态变量会引起潜在的数据竞争等问题，所以需要放在`unsafe`块中：
 
 ```rust
 static HELLO_WORLD: &str = "Hello, World!";
 static mut COUNTER: u32 = 0;
+
+fn add_to_count(inc: u32) {
+    unsafe {
+        COUNTER += inc;
+    }
+}
+
+fn main() {
+    add_to_count(3);
+
+	// 不可变静态变量的访问不受约束
+	println!("GREETINGS: {}", HELLO_WORLD);
+    unsafe {
+	    // 可变静态变量访问需要在unsafe块中
+        println!("COUNTER: {}", COUNTER);
+    }
+}
 ```
+
+#### 实现不安全的trait
+
+当一个`trait`内部包含不安全函数或者编译器无法验证的非变量时，需要标注为`unsafe trait`。
+
+```rust
+unsafe trait Foo {
+    // methods go here
+}
+
+unsafe impl Foo for i32 {
+    // method implementations go here
+}
+```
+
+#### 访问union字段
+
+*联合体*（union）类型在Rust规范中。但涉及联合体成员的访问可能产生未定义行为，所以是不安全的。
