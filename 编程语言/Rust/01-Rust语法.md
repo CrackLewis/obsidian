@@ -1407,6 +1407,7 @@ fn main() {
 	let msg = Message::Hello { id: 5 };
 	
 	match msg {
+		// 为什么匹配这个分支，因为这个分支首先符合了条件
 	    Message::Hello { id: id_variable @ 3..=7 } => {
 	        println!("Found an id in range: {}", id_variable)
 	    },
@@ -1419,4 +1420,141 @@ fn main() {
 	}
 	// 输出结果：Found an id in range: 5
 }
+```
+
+### 不安全Rust
+
+Rust默认不允许不安全的程序行为，但出于底层编程的考虑，允许通过`unsafe`关键字人为开启一些不安全功能：
+- [[#解引用裸指针]]
+- 调用不安全函数和方法
+- 访问或修改可变静态变量
+- 实现不安全trait
+- 访问union的字段
+
+注意：开启不安全功能不会关闭其他的Rust安全检查。
+
+#### 解引用裸指针
+
+不安全Rust涉及*裸指针*（raw pointer）类型，分为`*const T`和`*mut T`两个不可变或可变类型。
+
+裸指针和引用有一些区别：
+- 允许忽略借用规则，可以持有任意个不可变和可变指针
+- 不保证指向的内存有效
+- 允许为空
+- 不能实现任何自动清理功能
+
+通过引用可以创建裸指针：
+
+```rust
+#![allow(unused)]
+fn main() {
+	let mut num = 5;
+
+	// 注意：安全代码也可以创建裸指针，只是不能解引用
+	let r1 = &num as *const i32;
+	let r2 = &mut num as *mut i32;
+	// 不安全块内可以解引用
+	unsafe {
+	    println!("r1 is: {}", *r1);
+	    println!("r2 is: {}", *r2);
+	}
+}
+```
+
+也可以通过逻辑地址创建裸指针，但大部分情况下这么做没啥理由：
+
+```rust
+#![allow(unused)]
+fn main() {
+	let address = 0x012345usize;
+	let r = address as *const i32;
+}
+```
+
+#### 调用不安全的函数或方法
+
+如果被调用的函数也用`unsafe`进行了修饰，则调用方必须处于`unsafe`函数或`unsafe`块中，否则报错：
+
+```rust
+#![allow(unused)]
+fn main() {
+	unsafe fn dangerous() {}
+	
+	unsafe {
+	    dangerous();
+	}
+}
+```
+
+#### 创建不安全代码的安全抽象
+
+有一些功能无法通过安全Rust实现，而必须在实现中借助不安全Rust的功能，但对外仍暴露为安全接口：
+
+```rust
+use std::slice;
+
+fn split_at_mut(slice: &mut [i32], mid: usize) -> (&mut [i32], &mut [i32]) {
+    let len = slice.len();
+    let ptr = slice.as_mut_ptr();
+
+    assert!(mid <= len);
+
+    unsafe {
+        (slice::from_raw_parts_mut(ptr, mid),
+         slice::from_raw_parts_mut(ptr.add(mid), len - mid))
+    }
+    // 如果直接这么写，会因为不允许2个可变引用而报错
+    // (&mut slice[..mid], &mut slice[mid..])
+}
+
+#![allow(unused)]
+fn main() {
+	let mut v = vec![1, 2, 3, 4, 5, 6];
+	
+	let r = &mut v[..];
+	
+	let (a, b) = r.split_at_mut(3);
+	
+	assert_eq!(a, &mut [1, 2, 3]);
+	assert_eq!(b, &mut [4, 5, 6]);
+}
+```
+
+#### 调用非Rust代码
+
+通过`extern`关键字可以创建和使用*外部函数接口*（foreign function interface，FFI）。由于调用外部代码不会经过Rust检查，所以会被认为总是不安全的。
+
+`extern "C"`块内可声明C函数。对C函数的使用应遵循C语言的*应用二进制接口*（application binary interface，ABI）规范，即如何在汇编层面实施调用。
+
+调用C标准库的`int abs(int)`函数示例：
+
+```rust
+extern "C" {
+    fn abs(input: i32) -> i32;
+}
+
+fn main() {
+    unsafe {
+        println!("Absolute value of -3 according to C: {}", abs(-3));
+        // 输出：Absolute value of -3 according to C: 3
+    }
+}
+```
+
+从其他语言调用Rust代码，需要指定遵循的ABI，并通过标注`#[no_mangle]`提示编译器不要修改函数名：
+
+```rust
+#[no_mangle]
+pub extern "C" fn call_from_c() {
+    println!("Just called a Rust function from C!");
+}
+```
+
+#### 访问和修改可变静态变量
+
+Rust的静态变量约等于C/C++的静态全局变量。根据可变性分为可变静态变量和不可变静态变量。通过`static`关键字声明：
+
+```rust
+static HELLO_WORLD: &str = "Hello, World!";
+static mut COUNTER: u32 = 0;
 ```
