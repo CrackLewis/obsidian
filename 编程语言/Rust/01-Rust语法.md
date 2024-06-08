@@ -1596,3 +1596,6 @@ unsafe impl Foo for i32 {
 
 ## 高级trait
 
+### 关联类型在trait定义中指定占位符类型
+
+关联类型
