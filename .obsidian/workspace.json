@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Rust/01-Rust语法.md",
+                "file": "!待办.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/Rust/01-Rust语法.md",
+                "file": "!待办.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/Rust/01-Rust语法.md",
+                "file": "!待办.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Rust/01-Rust语法.md"
+                "file": "!待办.md"
               }
             }
           },
@@ -200,11 +200,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "ad6b59468ff17050",
+  "active": "785d44f2d64897aa",
   "lastOpenFiles": [
-    "编程语言/Rust/00-Rust入门.md",
-    "编程语言/Rust/01-Rust语法.md",
     "编程语言/Rust/02-Rust基本库.md",
+    "编程语言/Rust/01-Rust语法.md",
+    "编程语言/Rust/00-Rust入门.md",
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "附件/Pasted image 20240601205156.png",
     "附件/Pasted image 20240601205133.png",

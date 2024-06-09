@@ -1647,7 +1647,7 @@ fn main() {
 trait Accumulate<RHS=u32> {
     type Output;
 
-    fn acc(self, rhs: RHS) -> Self::Output;
+    fn acc(&mut self, rhs: RHS) -> Self::Output;
 }
 
 struct Counter {
@@ -1655,17 +1655,299 @@ struct Counter {
 }
 
 impl Accumulate for Counter {
-	type Output = i32;
+	type Output = u32;
 
-	fn acc(&mut self, rhs: i32) -> i32 {
+	fn acc(&mut self, rhs: u32) -> u32 {
 		self.value += rhs;
 		self.value
 	}
+}
+
+fn main() {
+    let mut accer = Counter { value: 0 };
+    for i in 0..10 {
+        accer.acc(i);
+    }
+    println!("{}", accer.acc(0)); // 45
 }
 ```
 
 Rust也允许有限的*运算符重载*，但不像C++那样允许重载绝大部分的运算符，更不允许自定义运算符，只允许重载`std::ops`规定可以重载的运算符：
 
 ```rust
+use std::ops::Add;
 
+#[derive(Debug, PartialEq)]
+struct Point {
+    x: i32,
+    y: i32,
+}
+
+impl Add for Point {
+    type Output = Point;
+
+    fn add(self, other: Point) -> Point {
+        Point {
+            x: self.x + other.x,
+            y: self.y + other.y,
+        }
+    }
+}
+
+fn main() {
+    assert_eq!(Point { x: 1, y: 0 } + Point { x: 2, y: 3 },
+               Point { x: 3, y: 3 });
+}
 ```
+
+### 调用相同名称的方法
+
+结构体自身实现的方法名可能和对`trait`实现的方法名重合。此时优先调用结构体自身的方法实现：
+
+```rust
+trait Pilot {
+    fn fly(&self);
+}
+
+trait Wizard {
+    fn fly(&self);
+}
+
+struct Human;
+
+impl Pilot for Human {
+    fn fly(&self) {
+        println!("This is your captain speaking.");
+    }
+}
+
+impl Wizard for Human {
+    fn fly(&self) {
+        println!("Up!");
+    }
+}
+
+impl Human {
+    fn fly(&self) {
+        println!("*waving arms furiously*");
+    }
+}
+
+fn main() {
+    let person = Human;
+    // 分别调用2个trait的成员函数和
+    Pilot::fly(&person); // This is your captain speaking.
+    Wizard::fly(&person); // Up!
+    person.fly(); // *waving arms furiously*
+}
+```
+
+*完全限定语法*用于显示指定调用何种方法：
+
+```rust
+trait Animal {
+    fn baby_name() -> String;
+}
+
+struct Dog;
+
+impl Dog {
+    fn baby_name() -> String {
+        String::from("Spot")
+    }
+}
+
+impl Animal for Dog {
+    fn baby_name() -> String {
+        String::from("puppy")
+    }
+}
+
+fn main() {
+	// 此处默认输出Spot
+    println!("A baby dog is called a {}", Dog::baby_name());
+    // 运用完全限定语法，指定输出puppy
+    println!("A baby dog is called a {}", <Dog as Animal>::baby_name());
+}
+```
+
+### 父trait调用子trait功能
+
+WIP
+
+### newtype模式用于在外部类型上实现外部trait
+
+*孤儿规则*（orphan rule）：只要trait或类型对于当前crate是本地的话，就可以在此类型上实现该trait。也就是说，不能直接提供`Vec`等非本地类型的实现。
+
+绕开限制的方法之一：在元组结构体内定义一个字段，将其作为内置类型，便可编写基于该类型的`trait`实现。
+
+```rust
+use std::fmt;
+
+struct Wrapper(Vec<String>);
+
+impl fmt::Display for Wrapper {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "[{}]", self.0.join(", "))
+    }
+}
+
+fn main() {
+    let w = Wrapper(vec![String::from("hello"), String::from("world")]);
+    println!("w = {}", w);
+}
+```
+
+## 高级类型
+
+### newtype模式的更多用途
+
+前文：[[#newtype模式用于在外部类型上实现外部trait]]
+
+newtype模式有更多用途：
+- 隐藏内部实现细节：结构体的成员和实现方法默认是可访问的。在外包裹一层类型可以隐藏一些不希望使用者访问到的接口。
+- 隐藏内部的泛型类型：使用一个更直观的名称，而非例如`HashMap<i32, String>`的类型。
+
+### 类型别名
+
+通过`type`声明可以指定类型别名。
+
+类型别名与C++的`using`声明类似，可以节省一些不必要的重复：
+
+```rust
+type Result<T> = std::result::Result<T, std::io::Error>;
+
+pub trait Write {
+    fn write(&mut self, buf: &[u8]) -> Result<usize>;
+    fn flush(&mut self) -> Result<()>;
+
+    fn write_all(&mut self, buf: &[u8]) -> Result<()>;
+    fn write_fmt(&mut self, fmt: fmt::Arguments) -> Result<()>;
+}
+```
+
+### never类型
+
+在Rust中，`()`表示空类型，也是*返回但不返回值*的Rust函数的返回类型。
+
+但有一种可能永远不会返回的函数称为*发散函数*（diverging function），这种函数的返回类型称为never类型，记作`!`：
+
+```rust
+fn bar() -> ! {
+	// some never-returning code
+}
+```
+
+never类型可以强转为任意类型，这尤其适用于`match`语句：
+
+```rust
+let guess: u32 = match guess.trim().parse() {
+    Ok(num) => num,
+    Err(_) => continue,
+};
+```
+
+前面所学`Option::unwrap(&self)`方法也是运用了`!`到`T`类型的转换：
+
+```rust
+impl<T> Option<T> {
+    pub fn unwrap(self) -> T {
+        match self {
+            Some(val) => val,
+            None => panic!("called `Option::unwrap()` on a `None` value"),
+        }
+    }
+}
+```
+
+### 动态大小类型
+
+栈上的变量必须为固定大小，因此不能在栈上直接创建`str`类型变量，而改为`&str`可以解决问题：
+
+```rust
+let foo: str = "123456"; // 错误
+let fooref: &str = "123456"; // 正确
+```
+
+Rust内有一个名为`Sized`的trait专用于处理动态大小类型，而且所有的泛型函数都默认添加`Sized` trait。但如果泛型参数需要匹配一个编译时未知大小的类型，则需要使用`?Sized` trait bound：
+
+```rust
+fn generic<T: ?Sized>(t: &T) {
+    // --snip--
+}
+```
+
+## 高级函数和闭包
+
+### 函数指针
+
+`fn`表示函数指针类型：
+
+```rust
+fn add_one(x: i32) -> i32 {
+    x + 1
+}
+
+fn do_twice(f: fn(i32) -> i32, arg: i32) -> i32 {
+    f(arg) + f(arg)
+}
+
+fn main() {
+    let answer = do_twice(add_one, 5);
+    println!("The answer is: {}", answer);
+}
+```
+
+### 返回闭包
+
+闭包是动态大小类型，必须在智能指针内返回：
+
+```rust
+fn returns_closure() -> Box<dyn Fn(i32) -> i32> {
+    Box::new(|x| x + 1)
+}
+```
+
+## 宏
+
+宏是一种生成代码的代码。分为：
+- 使用`macro_rules!`的*声明宏*（declarative macro）
+- 3种*过程宏*（procedural macro）：
+	- 自定义 `#[derive]` 宏在结构体和枚举上指定通过 `derive` 属性添加的代码
+	- 类属性（Attribute-like）宏定义可用于任意项的自定义属性
+	- 类函数宏看起来像函数不过作用于作为参数传递的 token
+
+### 声明宏语法
+
+之前用的`vec!`属于声明宏：
+
+```rust
+let va = vec![1, 2, 3];
+```
+
+这是一个从标准库提取的，稍微简化的`vec!`定义：
+
+```rust
+// 标注说明：外部模块只要导入了本crate，就可以使用该宏
+#[macro_export]
+// 宏定义
+macro_rules! vec {
+	// 宏体：格式为pattern => expr
+	// 本例为匹配一个长度至少为1的元组
+    ( $( $x:expr ),* ) => {
+	    // 此语句返回一个可变Vec对象
+        {
+            let mut temp_vec = Vec::new();
+            // 此处会针对元组的每个元素进行展开
+            $(
+                temp_vec.push($x);
+            )*
+            temp_vec
+        }
+    };
+}
+```
+
+### 自定义derive宏、类属性宏、类函数宏
+
+WIP
