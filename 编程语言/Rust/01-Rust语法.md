@@ -1598,4 +1598,74 @@ unsafe impl Foo for i32 {
 
 ### 关联类型在trait定义中指定占位符类型
 
-关联类型
+关联类型是一种将类型占位符和`trait`关联起来的方式，这样`trait`的方法签名就可以使用这些占位符类型。占位符类型具体为何类型，由实现该`trait`的类型决定：
+
+```rust
+pub trait Iterator {
+    type Item;
+
+    fn next(&mut self) -> Option<Self::Item>;
+}
+
+struct Counter {
+	value: u32
+}
+
+impl Counter {
+	fn new() -> Counter {
+		Counter {
+			value: 0
+		}
+	}
+}
+
+impl Iterator for Counter {
+    type Item = u32;
+
+    fn next(&mut self) -> Option<Self::Item> {
+        self.value += 1;
+        Some(self.value)
+	}
+}
+
+fn main() {
+    let mut cntr = Counter::new();
+    for i in 0..10 {
+        match cntr.next() {
+            Some(v) => println!("Value: {}", v),
+            None => println!(":(")
+        }
+    }
+}
+```
+
+### 默认泛型类型参数、运算符重载
+
+假设泛型具有类型参数，同时泛型需要让类型参数默认取某个类型，则可以指定泛型的默认类型参数：
+
+```rust
+trait Accumulate<RHS=u32> {
+    type Output;
+
+    fn acc(self, rhs: RHS) -> Self::Output;
+}
+
+struct Counter {
+	value: u32
+}
+
+impl Accumulate for Counter {
+	type Output = i32;
+
+	fn acc(&mut self, rhs: i32) -> i32 {
+		self.value += rhs;
+		self.value
+	}
+}
+```
+
+Rust也允许有限的*运算符重载*，但不像C++那样允许重载绝大部分的运算符，更不允许自定义运算符，只允许重载`std::ops`规定可以重载的运算符：
+
+```rust
+
+```
