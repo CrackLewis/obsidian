@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Rust/02-Rust简单用例.md",
+                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/Rust/02-Rust简单用例.md",
+                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/Rust/02-Rust简单用例.md",
+                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Rust/02-Rust简单用例.md"
+                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md"
               }
             }
           },
@@ -189,8 +189,9 @@
   },
   "active": "70508e3ea873ce2c",
   "lastOpenFiles": [
-    "编程语言/Rust/01-Rust语法.md",
     "编程语言/Rust/02-Rust简单用例.md",
+    "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+    "编程语言/Rust/01-Rust语法.md",
     "课程项目/UCSB-GAMES101/L04-3D transforms.md",
     "课程项目/MIT-MissingSemester.md",
     "课程项目/UCSB-GAMES101/L02-linear algebra.md",
@@ -225,7 +226,6 @@
     "Linux/Hacks/挂载和卸载ISO.md",
     "杂项/Docker/01-Docker入门.md",
     "算法/经典算法/贪心专题.md",
-    "算法/经典算法/力扣04-乱搞.md",
     "杂项/Docker",
     "编程语言/Cpp/Cpp17",
     "编程语言/Cpp/未命名.canvas",
