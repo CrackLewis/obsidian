@@ -1,7 +1,11 @@
 
 ## 免密登录
 
+首先被登录的设备要确保在`/etc/ssh/sshd_config`中将PubkeyAuthentication设为yes。
+
 添加登录方的公钥到被登录方`~/.ssh/authorized_keys`中。
+
+如果仍不能免密登录，考虑检查公钥是否有误，或者考虑重新生成（危险）。
 
 ## 生成ed25519密钥
 
