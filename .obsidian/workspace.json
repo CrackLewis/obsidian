@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f35ee8ac68761559",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Basics/Linux命令行文本处理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd05b2d9c1cef0cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "读书笔记/命令行的艺术.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Basics/tmux.md",
+                "file": "读书笔记/命令行的艺术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Basics/tmux.md",
+                "file": "读书笔记/命令行的艺术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Basics/tmux.md"
+                "file": "读书笔记/命令行的艺术.md"
               }
             }
           },
@@ -188,10 +212,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "8b460675272c3e06",
+  "active": "bd05b2d9c1cef0cc",
   "lastOpenFiles": [
-    "Linux/Basics/Linux终端.md",
+    "Linux/Basics/Linux命令行文本处理.md",
     "Linux/Basics/tmux.md",
+    "Linux/Basics/Linux终端.md",
     "杂项/Makefile/01-Makefile基础.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "杂项/Makefile",
@@ -227,7 +252,6 @@
     "编程语言/Cpp/Qt源码交叉编译.md",
     "读书笔记/是大臣、是首相.md",
     "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
-    "Linux/Basics/Linux压缩和解压.md",
     "杂项/Docker",
     "编程语言/Cpp/Cpp17",
     "编程语言/Cpp/未命名.canvas",
