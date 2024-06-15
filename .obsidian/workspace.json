@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/命令行的艺术.md",
+                "file": "Linux/Basics/Linux命令行文本处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "读书笔记/命令行的艺术.md",
+                "file": "Linux/Basics/Linux命令行文本处理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "读书笔记/命令行的艺术.md"
+                "file": "Linux/Basics/Linux命令行文本处理.md"
               }
             }
           },
@@ -212,8 +212,9 @@
       "templates:插入模板": false
     }
   },
-  "active": "bd05b2d9c1cef0cc",
+  "active": "f35ee8ac68761559",
   "lastOpenFiles": [
+    "读书笔记/命令行的艺术.md",
     "Linux/Basics/Linux命令行文本处理.md",
     "Linux/Basics/tmux.md",
     "Linux/Basics/Linux终端.md",
@@ -251,7 +252,6 @@
     "杂项/Qt/QML/毕业设计技术日志.md",
     "编程语言/Cpp/Qt源码交叉编译.md",
     "读书笔记/是大臣、是首相.md",
-    "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
     "杂项/Docker",
     "编程语言/Cpp/Cpp17",
     "编程语言/Cpp/未命名.canvas",
