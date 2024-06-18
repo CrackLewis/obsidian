@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+                "file": "杂项/Makefile/01-Makefile基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+                "file": "杂项/Makefile/01-Makefile基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+                "file": "杂项/Makefile/01-Makefile基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md"
+                "file": "杂项/Makefile/01-Makefile基础.md"
               }
             }
           },
@@ -202,8 +202,8 @@
   },
   "active": "8b460675272c3e06",
   "lastOpenFiles": [
-    "Linux/Basics/tmux.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+    "Linux/Basics/tmux.md",
     "Linux/Basics/Linux命令行文本处理.md",
     "读书笔记/命令行的艺术.md",
     "Linux/Basics/Linux终端.md",
