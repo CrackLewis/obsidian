@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2df75a548a0d7bff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Basics/Linux终端.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8b460675272c3e06",
             "type": "leaf",
             "state": {
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,12 +189,15 @@
   },
   "active": "8b460675272c3e06",
   "lastOpenFiles": [
+    "编程语言/Rust/02-Rust简单用例.md",
+    "编程语言/Rust/01-Rust语法.md",
+    "2024考研/数学/错题/C08-微分方程.md",
+    "杂项/Makefile/01-Makefile基础.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "Linux/Basics/tmux.md",
     "Linux/Basics/Linux命令行文本处理.md",
     "读书笔记/命令行的艺术.md",
     "Linux/Basics/Linux终端.md",
-    "杂项/Makefile/01-Makefile基础.md",
     "杂项/Makefile",
     "课程项目/UCSB-GAMES101/L04-3D transforms.md",
     "Linux/Hacks/WSL安装CUDA.md",
@@ -219,8 +209,6 @@
     "附件/Pasted image 20240612104643.png",
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "Linux/Hacks/Ubuntu版本号的别名.md",
-    "编程语言/Rust/02-Rust简单用例.md",
-    "编程语言/Rust/01-Rust语法.md",
     "课程项目/MIT-MissingSemester.md",
     "课程项目/UCSB-GAMES101/L02-linear algebra.md",
     "课程项目/UCAS-一生一芯",
@@ -239,7 +227,6 @@
     "附件/server_ui3.png",
     "杂项/Qt/QML/毕业设计技术日志.md",
     "编程语言/Cpp/Qt源码交叉编译.md",
-    "读书笔记/是大臣、是首相.md",
     "杂项/Docker",
     "编程语言/Cpp/Cpp17",
     "编程语言/Cpp/未命名.canvas",
