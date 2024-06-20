@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "aa9f07dc382a9084",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂项/Makefile/01-Makefile基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e6facf35868c9e07",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +200,7 @@
       "templates:插入模板": false
     }
   },
-  "active": "8b460675272c3e06",
+  "active": "aa9f07dc382a9084",
   "lastOpenFiles": [
     "编程语言/Rust/02-Rust简单用例.md",
     "编程语言/Rust/01-Rust语法.md",
