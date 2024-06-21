@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b460675272c3e06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Basics/tmux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9857f1556326048e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Basics/Linux Shell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e6facf35868c9e07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Basics/tmux.md",
+                "file": "编程语言/Go/00-Go入门.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Basics/Linux Shell.md",
+                "file": "编程语言/Go/00-Go入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Basics/Linux Shell.md",
+                "file": "编程语言/Go/00-Go入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Basics/Linux Shell.md"
+                "file": "编程语言/Go/00-Go入门.md"
               }
             }
           },
@@ -200,9 +175,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "9857f1556326048e",
+  "active": "e6facf35868c9e07",
   "lastOpenFiles": [
+    "编程语言/Rust/00-Rust入门.md",
+    "编程语言/Go/00-Go入门.md",
     "Linux/Basics/tmux.md",
+    "编程语言/Go",
     "Linux/Basics/Linux Shell.md",
     "!待办.md",
     "杂项/Makefile/01-Makefile基础.md",
@@ -227,7 +205,6 @@
     "课程项目/MIT-MissingSemester.md",
     "课程项目/UCSB-GAMES101/L02-linear algebra.md",
     "课程项目/UCAS-一生一芯",
-    "编程语言/Rust/00-Rust入门.md",
     "附件/Pasted image 20240601205156.png",
     "附件/Pasted image 20240601205133.png",
     "编程语言/Cpp/libffmpeg.md",
@@ -239,7 +216,6 @@
     "附件/server_ui4.png",
     "附件/client_demo1.png",
     "附件/server_ui3.png",
-    "杂项/Qt/QML/毕业设计技术日志.md",
     "杂项/Docker",
     "编程语言/Cpp/Cpp17",
     "编程语言/Cpp/未命名.canvas",
@@ -247,7 +223,6 @@
     "数据库/Redis",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
     "读书笔记",
-    "课程项目/UCSB-GAMES101",
-    "课程项目/MIT-6.824"
+    "课程项目/UCSB-GAMES101"
   ]
 }

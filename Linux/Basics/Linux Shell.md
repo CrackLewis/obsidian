@@ -334,7 +334,57 @@ else
 fi
 ```
 
+文件运算符示例：
 
+```sh
+#!/bin/bash
+# author:菜鸟教程
+# url:www.runoob.com
+
+file="/var/www/runoob/test.sh"
+if [ -r $file ]
+then
+   echo "文件可读"
+else
+   echo "文件不可读"
+fi
+if [ -w $file ]
+then
+   echo "文件可写"
+else
+   echo "文件不可写"
+fi
+if [ -x $file ]
+then
+   echo "文件可执行"
+else
+   echo "文件不可执行"
+fi
+if [ -f $file ]
+then
+   echo "文件为普通文件"
+else
+   echo "文件为特殊文件"
+fi
+if [ -d $file ]
+then
+   echo "文件是个目录"
+else
+   echo "文件不是个目录"
+fi
+if [ -s $file ]
+then
+   echo "文件不为空"
+else
+   echo "文件为空"
+fi
+if [ -e $file ]
+then
+   echo "文件存在"
+else
+   echo "文件不存在"
+fi
+```
 
 ## 注释
 
@@ -373,3 +423,276 @@ WHY ARE YOU STILL READING IT?
 '
 ```
 
+## 命令
+
+`echo`命令最常见，不多讲。
+
+`printf`命令类似于C中的`printf`函数，也不多讲。
+
+`test`命令可用于测试关系表达式和字符串表达式等，还是不多讲。
+
+`read`命令读取一个值到一个Shell变量中：
+
+```sh
+read VAR
+echo $VAR # 取决于用户输入
+```
+
+`let`命令可以计算参数内的表达式，参数内部无需用`$`引用变量。
+
+```sh
+VAR=2
+let "VAR=VAR*2+3"
+echo $VAR # 7
+```
+
+## 流程控制
+
+### 分支控制
+
+条件表达式的编写：
+- `[[]]`记法：必须使用`-lt`、`-gt`等，如`[[ "$a" -gt "$b" ]]`
+- `(())`记法：可以使用`>`、`<`等，如`(( a > b ))`
+- 如果`if`、`then`在同一行，表达式后要加分号
+
+`if-else`语句：与大部分语言不同的是，它不允许子语句为空：
+
+```sh
+if condition 
+then
+	command1
+	command2 # 至少一条指令
+fi
+```
+
+`if-else-if`语句：
+
+```sh
+if condition1 then
+	command1
+elif condition2 then
+	command2
+elif condition3 then
+	command3
+else 
+	command4
+fi
+```
+
+`case`语句：格式比较古怪，每个case名后要加右括号，指令后又要加双分号。注意结束符`esac`是`case`的反写。
+
+```bash
+case value in
+pattern1)
+	command1
+	;;
+pattern2)
+	command2
+	;;
+pattern3)
+	command3
+	;;
+*) # 默认模式
+	command4
+	;;
+esac
+```
+
+### 循环控制
+
+`for`循环：用于遍历一个数组或列表：
+
+```sh
+for var in item1 item2 item3
+do
+	command1
+	command2
+done
+
+for var in arr
+do
+	command3
+	command4
+done
+```
+
+`while`循环：
+
+```sh
+while condition
+do
+	command
+done
+```
+
+`until`循环：与`while`相反，它只在condition为假时循环执行命令。
+
+```sh
+until condition
+do
+	command
+done
+```
+
+*无条件循环*：有以下几种方案：
+
+```sh
+while :
+do 
+	command
+done
+
+while true; do
+	command
+done
+
+until false; do
+	command
+done
+
+for (( ; ; ))
+do
+	command
+done
+```
+
+### 跳转
+
+`break`语句跳出所有循环，例如下面这个例子：
+
+```sh
+#!/bin/bash
+while :
+do
+    echo -n "输入 1 到 5 之间的数字:"
+    read aNum
+    case $aNum in
+        1|2|3|4|5) echo "你输入的数字为 $aNum!"
+        ;;
+        *) echo "你输入的数字不是 1 到 5 之间的! 游戏结束"
+            break
+        ;;
+    esac
+done
+```
+
+`continue`语句跳出本次循环，但仍继续执行后面的循环：
+
+```sh
+#!/bin/bash
+while :
+do
+    echo -n "输入 1 到 5 之间的数字: "
+    read aNum
+    case $aNum in
+        1|2|3|4|5) echo "你输入的数字为 $aNum!"
+        ;;
+        *) echo "你输入的数字不是 1 到 5 之间的!"
+            continue
+            echo "游戏结束"
+        ;;
+    esac
+done
+```
+
+## 函数
+
+用户可自行定义Shell函数。基本格式：
+
+```sh
+# function可省略
+function func()
+{
+	action;
+	# 如果没有return语句，将返回最后一条指令的返回值。
+	return int;
+}
+```
+
+### 传递参数
+
+Shell函数没有类似函数列表的机制，访问参数通过访问特殊变量实现。
+
+访问`$1,$2`表示访问第1、2个参数，依此类推。注意访问第10个参数要写成`${10}`。
+
+| 参数处理 | 说明                              |
+| ---- | ------------------------------- |
+| $#   | 传递到脚本或函数的参数个数                   |
+| $*   | 以一个单字符串显示所有向脚本传递的参数             |
+| $$   | 脚本运行的当前进程ID号                    |
+| $!   | 后台运行的最后一个进程的ID号                 |
+| $@   | 与$*相同，但是使用时加引号，并在引号中返回每个参数。     |
+| $-   | 显示Shell使用的当前选项，与set命令功能相同。      |
+| $?   | 显示最后命令的退出状态。0表示没有错误，其他任何值表明有错误。 |
+
+示例：
+
+```sh
+#!/bin/bash
+# author:菜鸟教程
+# url:www.runoob.com
+
+funWithParam(){
+    echo "第一个参数为 $1 !"
+    echo "第二个参数为 $2 !"
+    echo "第十个参数为 $10 !"
+    echo "第十个参数为 ${10} !"
+    echo "第十一个参数为 ${11} !"
+    echo "参数总数有 $# 个!"
+    echo "作为一个字符串输出所有参数 $* !"
+}
+funWithParam 1 2 3 4 5 6 7 8 9 34 73
+```
+
+## 输入输出重定向
+
+|命令|说明|
+|---|---|
+|command > file|将输出重定向到 file。|
+|command < file|将输入重定向到 file。|
+|command >> file|将输出以追加的方式重定向到 file。|
+|n > file|将文件描述符为 n 的文件重定向到 file。|
+|n >> file|将文件描述符为 n 的文件以追加的方式重定向到 file。|
+|n >& m|将输出文件 m 和 n 合并。|
+|n <& m|将输入文件 m 和 n 合并。|
+
+### 高级用法
+
+fds:
+- 0: stdin
+- 1: stdout
+- 2: stderr
+
+合并stdout和stderr，并输出到同一文件：
+
+```sh
+command 1>file 2>&1
+```
+
+黑洞文件：
+
+```sh
+command 1>/dev/null
+```
+
+### 借助Here文档的重定向
+
+Shell允许将输入或输出重定向到一个脚本内：
+
+```sh
+wc -l << EOF
+    欢迎来到
+    菜鸟教程
+    www.runoob.com
+EOF
+# 输出：3（表示输入共3行）
+```
+
+## 文件包含
+
+两种写法（假设被包含的脚本为`test.sh`）：
+
+```sh
+. ./test.sh # 注意有一个间隔空格
+source ./test.sh
+```
