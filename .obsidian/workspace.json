@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Go/00-Go入门.md",
+                "file": "编程语言/Go/02-Go标准库.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1dca07f1cfd4ef6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程语言/Go/01-Go其余语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "434585c0fc5dedfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程语言/Go/02-Go标准库.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/Go/00-Go入门.md",
+                "file": "编程语言/Go/01-Go其余语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/Go/00-Go入门.md",
+                "file": "编程语言/Go/01-Go其余语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Go/00-Go入门.md"
+                "file": "编程语言/Go/01-Go其余语法.md"
               }
             }
           },
@@ -187,10 +212,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "e6facf35868c9e07",
+  "active": "1dca07f1cfd4ef6b",
   "lastOpenFiles": [
-    "Linux/Hacks/WSL与Hyper-V共存.md",
     "编程语言/Go/00-Go入门.md",
+    "编程语言/Go/01-Go其余语法.md",
+    "编程语言/Go/02-Go标准库.md",
+    "Linux/Hacks/WSL与Hyper-V共存.md",
     "Linux/Basics/tmux.md",
     "Linux/Hacks/挂载和卸载ISO.md",
     "!待办.md",
@@ -221,8 +248,6 @@
     "课程项目/UCAS-一生一芯",
     "附件/Pasted image 20240601205156.png",
     "附件/Pasted image 20240601205133.png",
-    "编程语言/Cpp/libffmpeg.md",
-    "杂项/Qt/QML/毕业设计论文初稿.md",
     "附件/terminal.jpg",
     "附件/server_ui5.png",
     "附件/server_ui4.png",
