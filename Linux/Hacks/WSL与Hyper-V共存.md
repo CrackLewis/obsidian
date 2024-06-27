@@ -10,4 +10,4 @@
 
 检查`bcdedit | find /i "hypervisor"`，确保`hypervisorlaunchtype`变量为`Auto`而非`off`。
 
-WIP
+240626：目测无后续问题
