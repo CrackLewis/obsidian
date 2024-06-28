@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+                "file": "科研/计算机科研概述.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+                "file": "科研/计算机科研概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+                "file": "科研/计算机科研概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md"
+                "file": "科研/计算机科研概述.md"
               }
             }
           },
@@ -190,11 +190,13 @@
   },
   "active": "bec73bd3ab0806ab",
   "lastOpenFiles": [
+    "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+    "科研/计算机科研概述.md",
+    "科研",
     "附件/Pasted image 20240628012629.png",
     "杂项/Makefile/01-Makefile基础.md",
     "编程语言/Go/02-Go标准库.md",
     "编程语言/Go/01-Go其余语法.md",
-    "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "Linux/Hacks/WSL与Hyper-V共存.md",
     "编程语言/Go/00-Go入门.md",
     "Linux/Basics/tmux.md",
@@ -228,14 +230,12 @@
     "附件/server_ui5.png",
     "附件/server_ui4.png",
     "附件/client_demo1.png",
-    "附件/server_ui3.png",
     "杂项/Docker",
     "编程语言/Cpp/Cpp17",
     "编程语言/Cpp/未命名.canvas",
     "Linux/Linux编程",
     "数据库/Redis",
     "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
-    "读书笔记",
-    "课程项目/UCSB-GAMES101"
+    "读书笔记"
   ]
 }
