@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程项目/UCSB-GAMES101/L02-linear algebra.md",
+                "file": "课程项目/UCSB-GAMES101/L01-summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程项目/UCSB-GAMES101/L02-linear algebra.md",
+                "file": "课程项目/UCSB-GAMES101/L01-summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程项目/UCSB-GAMES101/L02-linear algebra.md",
+                "file": "课程项目/UCSB-GAMES101/L01-summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程项目/UCSB-GAMES101/L02-linear algebra.md"
+                "file": "课程项目/UCSB-GAMES101/L01-summary.md"
               }
             }
           },
@@ -191,6 +191,7 @@
   },
   "active": "bec73bd3ab0806ab",
   "lastOpenFiles": [
+    "课程项目/UCSB-GAMES101/L02-linear algebra.md",
     "课程项目/UCSB-GAMES101/L01-summary.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "科研/计算机科研概述.md",
@@ -225,7 +226,6 @@
     "Linux/Hacks/Ubuntu安装中文输入法.md",
     "附件/Pasted image 20240612104736.png",
     "附件/Pasted image 20240612104643.png",
-    "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "课程项目/UCAS-一生一芯",
     "附件/Pasted image 20240601205156.png",
     "附件/Pasted image 20240601205133.png",
