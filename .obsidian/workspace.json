@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/计算机科研概述.md",
+                "file": "课程项目/UCSB-GAMES101/L02-linear algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "科研/计算机科研概述.md",
+                "file": "课程项目/UCSB-GAMES101/L02-linear algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "科研/计算机科研概述.md",
+                "file": "课程项目/UCSB-GAMES101/L02-linear algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/计算机科研概述.md"
+                "file": "课程项目/UCSB-GAMES101/L02-linear algebra.md"
               }
             }
           },
@@ -185,13 +185,18 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
   "active": "bec73bd3ab0806ab",
   "lastOpenFiles": [
+    "课程项目/UCSB-GAMES101/L01-summary.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "科研/计算机科研概述.md",
+    "后端/CMake/CMake入门.md",
+    "附件/Pasted image 20240629003334.png",
+    "附件/Pasted image 20240629003055.png",
     "科研",
     "附件/Pasted image 20240628012629.png",
     "杂项/Makefile/01-Makefile基础.md",
@@ -221,15 +226,11 @@
     "附件/Pasted image 20240612104736.png",
     "附件/Pasted image 20240612104643.png",
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
-    "Linux/Hacks/Ubuntu版本号的别名.md",
-    "课程项目/MIT-MissingSemester.md",
     "课程项目/UCAS-一生一芯",
     "附件/Pasted image 20240601205156.png",
     "附件/Pasted image 20240601205133.png",
     "附件/terminal.jpg",
     "附件/server_ui5.png",
-    "附件/server_ui4.png",
-    "附件/client_demo1.png",
     "杂项/Docker",
     "编程语言/Cpp/Cpp17",
     "编程语言/Cpp/未命名.canvas",

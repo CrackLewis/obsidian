@@ -39,7 +39,7 @@ the use of computers to synthesize and manipulate visual information.
 	- key-frame animation
 	- mass-spring system（弹簧质点系统）
 
-![[Pasted image 20231225151720.png]]
+![](附件/Pasted%20image%2020231225151720.png)
 (rasterization)
 
 **this course does NOT talk about**: (but all of these should be learnt after the course)
@@ -50,7 +50,7 @@ the use of computers to synthesize and manipulate visual information.
 - CV or DL topics (such as XXX-GAN, XXX-Diffusion, XXX-Transformer)
 
 **differences between CG and CV**:
-![[Pasted image 20231225153106.png]]
+![](附件/Pasted%20image%2020231225153106.png)
 CV & CG both have no clear boundaries and can't be easily defined
 
 ## course logistics
