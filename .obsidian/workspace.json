@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程项目/UCSB-GAMES101/L01-summary.md",
+                "file": "编程语言/Go/02-Go标准库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程项目/UCSB-GAMES101/L01-summary.md",
+                "file": "编程语言/Go/02-Go标准库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程项目/UCSB-GAMES101/L01-summary.md"
+                "file": "编程语言/Go/02-Go标准库.md"
               }
             }
           },
@@ -189,10 +188,10 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "bec73bd3ab0806ab",
+  "active": "e6facf35868c9e07",
   "lastOpenFiles": [
-    "课程项目/UCSB-GAMES101/L02-linear algebra.md",
     "课程项目/UCSB-GAMES101/L01-summary.md",
+    "课程项目/UCSB-GAMES101/L02-linear algebra.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "科研/计算机科研概述.md",
     "后端/CMake/CMake入门.md",
