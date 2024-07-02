@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Go/02-Go标准库.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bec73bd3ab0806ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程项目/UCSB-GAMES101/L01-summary.md",
+                "file": "课程项目/NJU-OS/01-绪论&并发.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/Go/02-Go标准库.md",
+                "file": "课程项目/NJU-OS/01-绪论&并发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/Go/02-Go标准库.md",
+                "file": "课程项目/NJU-OS/01-绪论&并发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Go/02-Go标准库.md"
+                "file": "课程项目/NJU-OS/01-绪论&并发.md"
               }
             }
           },
@@ -190,6 +178,9 @@
   },
   "active": "e6facf35868c9e07",
   "lastOpenFiles": [
+    "编程语言/Go/02-Go标准库.md",
+    "课程项目/NJU-OS/01-绪论&并发.md",
+    "课程项目/NJU-OS",
     "课程项目/UCSB-GAMES101/L01-summary.md",
     "课程项目/UCSB-GAMES101/L02-linear algebra.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
@@ -200,7 +191,6 @@
     "科研",
     "附件/Pasted image 20240628012629.png",
     "杂项/Makefile/01-Makefile基础.md",
-    "编程语言/Go/02-Go标准库.md",
     "编程语言/Go/01-Go其余语法.md",
     "Linux/Hacks/WSL与Hyper-V共存.md",
     "编程语言/Go/00-Go入门.md",
@@ -222,7 +212,6 @@
     "附件/Pasted image 20240612120107.png",
     "Linux/Hacks/一次Ubuntu装机记录.md",
     "Linux/Hacks/SSH相关.md",
-    "Linux/Hacks/Ubuntu安装中文输入法.md",
     "附件/Pasted image 20240612104736.png",
     "附件/Pasted image 20240612104643.png",
     "课程项目/UCAS-一生一芯",
@@ -235,7 +224,6 @@
     "编程语言/Cpp/未命名.canvas",
     "Linux/Linux编程",
     "数据库/Redis",
-    "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf",
-    "读书笔记"
+    "书籍/Fundamentals of Computer Graphics, Fourth Edition (Steve Marschner, Peter Shirley) (Z-Library).pdf"
   ]
 }
