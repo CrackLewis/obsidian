@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Go/03-Go示例项目.md",
+                "file": "编程语言/Go/03-Go项目实践.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/Go/03-Go示例项目.md",
+                "file": "编程语言/Go/03-Go项目实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/Go/03-Go示例项目.md",
+                "file": "编程语言/Go/03-Go项目实践.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Go/03-Go示例项目.md"
+                "file": "编程语言/Go/03-Go项目实践.md"
               }
             }
           },
@@ -192,7 +192,7 @@
   "active": "dd1ae289e0f2f1d5",
   "lastOpenFiles": [
     "编程语言/Go/02-Go标准库.md",
-    "编程语言/Go/03-Go示例项目.md",
+    "编程语言/Go/03-Go项目实践.md",
     "编程语言/Go/00-Go入门.md",
     "课程项目/NJU-OS/01-绪论&并发.md",
     "课程项目/NJU-OS",
