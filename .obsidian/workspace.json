@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e6facf35868c9e07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编程语言/Go/02-Go标准库.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dd1ae289e0f2f1d5",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
