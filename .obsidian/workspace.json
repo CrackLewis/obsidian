@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Go/03-Go项目实践.md",
+                "file": "课程项目/CMU-ICS/00-ics-overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4896c6b99df80033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程项目/CMU-ICS/01-ics-coursenote.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/Go/03-Go项目实践.md",
+                "file": "课程项目/CMU-ICS/01-ics-coursenote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/Go/03-Go项目实践.md",
+                "file": "课程项目/CMU-ICS/01-ics-coursenote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Go/03-Go项目实践.md"
+                "file": "课程项目/CMU-ICS/01-ics-coursenote.md"
               }
             }
           },
@@ -176,10 +189,12 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "dd1ae289e0f2f1d5",
+  "active": "4896c6b99df80033",
   "lastOpenFiles": [
-    "2024考研/408/操作系统/OS01-计算机系统概述.md",
+    "课程项目/CMU-ICS/00-ics-overview.md",
+    "课程项目/CMU-ICS/01-ics-coursenote.md",
     "编程语言/Go/03-Go项目实践.md",
+    "2024考研/408/操作系统/OS01-计算机系统概述.md",
     "编程语言/Go/02-Go标准库.md",
     "编程语言/Go/00-Go入门.md",
     "课程项目/NJU-OS/01-绪论&并发.md",
@@ -209,8 +224,6 @@
     "读书笔记/命令行的艺术.md",
     "Linux/Basics/Linux终端.md",
     "杂项/Makefile",
-    "课程项目/UCSB-GAMES101/L04-3D transforms.md",
-    "Linux/Hacks/WSL安装CUDA.md",
     "附件/Pasted image 20240612120107.png",
     "附件/Pasted image 20240612104736.png",
     "附件/Pasted image 20240612104643.png",
