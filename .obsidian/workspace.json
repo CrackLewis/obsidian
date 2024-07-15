@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd1ae289e0f2f1d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程项目/CMU-ICS/00-ics-overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4896c6b99df80033",
             "type": "leaf",
             "state": {
@@ -30,9 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c993bb59c91c06c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程项目/CMU-ICS/00-ics-overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,6 +191,7 @@
   "active": "4896c6b99df80033",
   "lastOpenFiles": [
     "课程项目/CMU-ICS/00-ics-overview.md",
+    "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "课程项目/CMU-ICS/01-ics-coursenote.md",
     "编程语言/Go/03-Go项目实践.md",
     "2024考研/408/操作系统/OS01-计算机系统概述.md",
@@ -201,7 +201,6 @@
     "课程项目/NJU-OS",
     "课程项目/UCSB-GAMES101/L01-summary.md",
     "课程项目/UCSB-GAMES101/L02-linear algebra.md",
-    "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "科研/计算机科研概述.md",
     "后端/CMake/CMake入门.md",
     "附件/Pasted image 20240629003334.png",
