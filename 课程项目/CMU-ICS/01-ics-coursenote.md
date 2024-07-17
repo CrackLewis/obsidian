@@ -29,3 +29,7 @@
 leaq 4(%rax), %rbx
 ```
 
+`cmp[b|w|l|q]`：右减左，结果用于设置FLAGS
+
+`test[b|w|l|q]`：左右逻辑与，结果用于设置FLAGS
+
