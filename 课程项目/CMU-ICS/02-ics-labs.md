@@ -1,7 +1,7 @@
 
 网上有数个版本的lab，每版题目都不尽相同。这里以CS:APP 3e官网的lab为准，做一份属于自己的踩坑记录。
 
-## datalab
+## data-lab
 
 考察范围：CS:APP 第2章
 
@@ -113,7 +113,7 @@ int floatFloat2Int(unsigned uf) {
 
 ![[Pasted image 20240715192119.png]]
 
-## bomblab
+## bomb-lab
 
 考察范围：CS:APP 第3章
 
@@ -211,9 +211,11 @@ int main(int argc, char *argv[]) {
 $ objdump -d bomb >bomb.asm
 ```
 
+### phase1
+
 `phase_1`函数的源码如下：
 
-```asm
+```assembly
 0000000000400ee0 <phase_1>:
   400ee0:	48 83 ec 08          	sub    $0x8,%rsp
   400ee4:	be 00 24 40 00       	mov    $0x402400,%esi
@@ -224,4 +226,59 @@ $ objdump -d bomb >bomb.asm
   400ef7:	48 83 c4 08          	add    $0x8,%rsp
   400efb:	c3                   	ret    
 ```
+
+通过阅读得知，它的大致行为是：判断输入的一行字符串是否与地址`0x402400`处的字符串相等，如是则通过此阶段，否则炸弹被“引爆”。
+
+由于`objdump`并不会提供程序数据段的内容，所以需要通过gdb在炸弹运行时读取内存：
+
+```
+gdb bomb
+b *(phase_1)       # 在phase_1函数入口设置断点
+r                  # 开始执行程序
+random stuff       # 随便输入一点内容
+x/s 0x402400       # 此时程序在断点处暂停，输出
+```
+
+发现地址处是一段文本：
+
+![[Pasted image 20240720193842.png]]
+
+这就是phase1的答案。
+
+### phase2
+
+`phase_2`的源码：
+
+```assembly
+0000000000400efc <phase_2>:
+  400efc:	55                   	push   %rbp
+  400efd:	53                   	push   %rbx
+  400efe:	48 83 ec 28          	sub    $0x28,%rsp
+  400f02:	48 89 e6             	mov    %rsp,%rsi
+  400f05:	e8 52 05 00 00       	call   40145c <read_six_numbers>
+  400f0a:	83 3c 24 01          	cmpl   $0x1,(%rsp)
+  400f0e:	74 20                	je     400f30 <phase_2+0x34>
+  400f10:	e8 25 05 00 00       	call   40143a <explode_bomb>
+  400f15:	eb 19                	jmp    400f30 <phase_2+0x34>
+  400f17:	8b 43 fc             	mov    -0x4(%rbx),%eax
+  400f1a:	01 c0                	add    %eax,%eax
+  400f1c:	39 03                	cmp    %eax,(%rbx)
+  400f1e:	74 05                	je     400f25 <phase_2+0x29>
+  400f20:	e8 15 05 00 00       	call   40143a <explode_bomb>
+  400f25:	48 83 c3 04          	add    $0x4,%rbx
+  400f29:	48 39 eb             	cmp    %rbp,%rbx
+  400f2c:	75 e9                	jne    400f17 <phase_2+0x1b>
+  400f2e:	eb 0c                	jmp    400f3c <phase_2+0x40>
+  400f30:	48 8d 5c 24 04       	lea    0x4(%rsp),%rbx
+  400f35:	48 8d 6c 24 18       	lea    0x18(%rsp),%rbp
+  400f3a:	eb db                	jmp    400f17 <phase_2+0x1b>
+  400f3c:	48 83 c4 28          	add    $0x28,%rsp
+  400f40:	5b                   	pop    %rbx
+  400f41:	5d                   	pop    %rbp
+  400f42:	c3                   	ret    
+```
+
+代码很长，需要画一个控制流图才能具体知晓发生了什么：
+
+![[bomblab_phase2.png]]
 
