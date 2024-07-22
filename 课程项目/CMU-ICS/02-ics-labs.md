@@ -543,7 +543,33 @@ func4(14,0,14)=7
 7 0
 ```
 
-关于`func4`具体对应什么源码逻辑，我的个人能力有限，尚未能进一步深究。
+关于`func4`具体对应什么源码逻辑，我的个人能力有限，尚未能进一步深究。根据[在线反编译器]()，它对应如下源码：
+
+```cpp
+int func4(unsigned long long a0, unsigned long long a1, unsigned long long a2)
+{
+    unsigned long long v1;  // rax
+    unsigned long long v3;  // rcx
+    unsigned int v4;  // eax
+
+    v1 = a2 - a1;
+    v3 = (v1 + (v1 >> 31) >> 1) + a1;
+    if ((unsigned int)v3 > (unsigned int)a0)
+    {
+        v4 = func4(a0, a1, v3 - 1) * 2;
+        return v4;
+    }
+    else if ((unsigned int)v3 >= (unsigned int)a0)
+    {
+        return 0;
+    }
+    else
+    {
+        v4 = func4(a0, v3 + 1, a2) * 2 + 1;
+        return v4;
+    }
+}
+```
 
 ### phase5
 
