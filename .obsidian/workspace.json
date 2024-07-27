@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/计算机科研概述.md",
+                "file": "2024考研/408/数据结构/DSR03-栈、队列、数组复盘.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/Cpp/Effective_Modern_C++.md",
+                "file": "2024考研/408/数据结构/DSR03-栈、队列、数组复盘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/Cpp/Effective_Modern_C++.md",
+                "file": "2024考研/408/数据结构/DSR03-栈、队列、数组复盘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Cpp/Effective_Modern_C++.md"
+                "file": "2024考研/408/数据结构/DSR03-栈、队列、数组复盘.md"
               }
             }
           },
@@ -213,8 +213,11 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "93de1686c31f705d",
+  "active": "c993bb59c91c06c3",
   "lastOpenFiles": [
+    "2024考研/408/数据结构/DSR02-线性表复盘.md",
+    "科研/计算机科研概述.md",
+    "编程语言/Cpp/Effective_Modern_C++.md",
     "算法/经典算法/力扣01-动态规划.md",
     "课程项目/CMU-ICS/02-ics-labs.md",
     "2024考研/复试/编译原理B.md",
@@ -229,7 +232,6 @@
     "附件/Pasted image 20240720193842.png",
     "课程项目/CMU-ICS/01-ics-coursenote.md",
     "Linux/Basics/Linux Shell.md",
-    "科研/计算机科研概述.md",
     "附件/Pasted image 20240715192119.png",
     "课程项目/CMU-ICS/00-ics-overview.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
@@ -252,8 +254,6 @@
     "!待办.md",
     "编程语言/Rust/00-Rust入门.md",
     "编程语言/Go",
-    "编程语言/Rust/02-Rust简单用例.md",
-    "编程语言/Rust/01-Rust语法.md",
     "杂项/Makefile",
     "课程项目/UCAS-一生一芯",
     "杂项/Docker",
