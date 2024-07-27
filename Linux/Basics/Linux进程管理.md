@@ -43,3 +43,79 @@
     - `service servicename stop`：停止服务。
     - `service servicename restart`：重新启动服务。
     - `service servicename status`：查看服务状态。
+
+## ps：进程查看
+
+实用：
+- `ps aux`
+- `ps -ef`
+- `ps axjf`、`ps -ejH`：以进程树格式输出信息
+
+![[Pasted image 20240727195039.png]]
+
+参数说明：
+- `USER`：创建该进程的用户
+	- `UID`：用户ID
+	- `GROUP`：用户进程组
+- `PID`：进程ID
+	- `PGID`：进程组ID
+	- `PPID`：父进程ID
+	- `TPGID`：前台进程组ID
+	- `SESSION`：会话ID
+- `%CPU`：CPU占用率
+- `%MEM`：内存占用率
+	- `VSZ`：进程使用的虚拟内存大小
+	- `RSS`：进程使用的物理内存大小
+- `STAT`：进程状态
+	- `R(eady)`：运行或就绪状态
+	- `S(leep)`：中断睡眠状态。
+	- `D`：不可中断睡眠状态。
+	- `T(raced)`：被追踪或已停止的进程。
+	- `Z(ombie)`：僵尸进程。
+	- `(e)X(terminated)`：死去的进程。
+- `TTY`：进程在哪个终端上，如果无终端则为`?`。
+- 时间字段：
+	- `TIME`：使用的CPU时间
+	- `START`：启动时刻
+	- `ELAPSED`：已经运行的时间
+- 优先级字段：
+	- `NI`：nice值，表示动态优先级
+	- `PRI`：静态优先级
+	- `C`：CPU优先级
+
+## 会话管理相关
+
+`&`：当前命令后台执行
+
+`disown`：解除所有后台进程的归属关系
+
+`fg %<session_id>`：将一个后台进程调至前台
+
+`bg %<session_id>`：将一个前台进程调至后台
+
+`jobs`：获取所有会话
+- `jobs -l`：获取所有会话的进程ID
+	- 如：等待所有后台进程执行完成：`wait $(jobs -l)`
+
+`wait <pid>`：等待某些进程执行完毕
+
+## crontab：定时任务计划
+
+`cron`命令也可以指定定时任务，但没有直接修改`crontab`来的直接。
+
+执行`crontab -e`以编辑用户自己的任务计划表。
+
+任务计划表格式为：`min hour day month week command`，表示在时间符合的条件下将会执行对应的指令。
+
+每个时间字段的合法取值：
+- `*`：所有合法值。
+- `a-b`：表示`[a,b]`内的所有合法值。
+- `a,b,c`：离散合法值。
+- `*/d`：表示每隔`d`取一个合法值。
+
+例如：
+- `* * * * * comm`：每分钟执行一次`comm`。
+- `3,15 * * * * comm`：每小时的第3和第15分钟执行一次`comm`。
+- `3,15 8-11 * * 1 comm`：在每周一上午8:03、8:15、9:03、9:15、10:03、10:15、11:03、11:15共8个时刻各执行一次`comm`
+- `30 23 * * * /etc/init.d/smb restart`：每晚23:30重启`smb`
+- `0 23-7/1 * * * /etc/init.d/smb restart`：每天晚上11点至次日7点间，每隔一小时重启一次`smb`
