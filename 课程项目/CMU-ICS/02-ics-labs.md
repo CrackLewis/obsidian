@@ -869,3 +869,35 @@ M~O部分：
 
 ## attack-lab
 
+**注意**：根据网上的教程解释，部分Ubuntu系统做不了这个lab，因为会在某一处原本不应该出错的地方报段错误，使程序爆掉。本人实测，CentOS 7.6可行。
+
+本实验提供了两个有漏洞的程序，第一个程序`ctarget`存在代码注入漏洞，第二个程序`rtarget`存在返回导向程序漏洞。phase1至phase3针对第一个程序展开攻击，phase4至phase5针对第二个程序展开攻击。
+
+据[实验Writeup](https://csapp.cs.cmu.edu/3e/attacklab.pdf)所述，本实验主要参考CSAPP教材的3.10.3和3.10.4两个小节。
+
+每个程序都从输入流读入一个字符串。正常情况下，程序会正常返回，但如果刻意构造输入，则可能导致程序出现非预期行为。
+
+### phase1
+
+phase1不涉及代码注入，相反，phase1的目标是让程序非预期地调用一个已定义在代码段的函数。
+
+该程序默认是连接到CMU的评分服务器的，但评分服务器已经下线，所以需要加`-q`参数才能正常运行。
+
+反汇编`ctarget`：
+
+```
+objdump -d ctarget >ctarget.asm
+```
+
+查看汇编代码，发现大量函数，其中比较重要的是这些：
+- `initialize_target`：
+- `main`：设置信号处理函数
+- `scramble`：
+- `getbuf`：
+- `touch1`：
+- `touch2`：
+- `hexmatch`：
+- `touch3`：
+- `test`：
+- `save_char`：
+- `save_term`：
