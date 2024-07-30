@@ -891,13 +891,13 @@ objdump -d ctarget >ctarget.asm
 
 查看汇编代码，发现大量函数，其中比较重要的是这些：
 - `initialize_target`：
-- `main`：设置信号处理函数
+- `main`：设置信号处理函数、输入流，调用`initialize_target`
 - `scramble`：
 - `getbuf`：
-- `touch1`：
-- `touch2`：
+- `touch1`：目标函数1
+- `touch2`：目标函数2
 - `hexmatch`：
-- `touch3`：
+- `touch3`：目标函数3
 - `test`：
 - `save_char`：
 - `save_term`：

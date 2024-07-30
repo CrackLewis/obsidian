@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5808f568bec6fc8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024考研/408/数据结构/DS08-排序.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024考研/408/数据结构/DS08-排序.md",
+                "file": "课程项目/CMU-ICS/02-ics-labs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024考研/408/数据结构/DS08-排序.md",
+                "file": "课程项目/CMU-ICS/02-ics-labs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024考研/408/数据结构/DS08-排序.md"
+                "file": "课程项目/CMU-ICS/02-ics-labs.md"
               }
             }
           },
@@ -201,8 +189,9 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "5808f568bec6fc8b",
+  "active": "24d734d0bdbe7361",
   "lastOpenFiles": [
+    "2024考研/408/数据结构/DS08-排序.md",
     "课程项目/CMU-ICS/02-ics-labs.md",
     "课程项目/NJU-OS/01-绪论&并发.md",
     "算法/经典算法/力扣01-动态规划.md",
@@ -238,7 +227,6 @@
     "编程语言/Go/00-Go入门.md",
     "课程项目/NJU-OS",
     "课程项目/UCSB-GAMES101/L01-summary.md",
-    "课程项目/UCSB-GAMES101/L02-linear algebra.md",
     "附件/Pasted image 20240629003334.png",
     "科研",
     "编程语言/Go",
