@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "237975a6cdf95724",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂项/Makefile/01-Makefile基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4fe9edd3febbeabb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂项/Makefile/02-Makefile自定义目标.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程项目/CMU-ICS/02-ics-labs.md",
+                "file": "杂项/Makefile/02-Makefile自定义目标.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程项目/CMU-ICS/02-ics-labs.md",
+                "file": "杂项/Makefile/02-Makefile自定义目标.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程项目/CMU-ICS/02-ics-labs.md"
+                "file": "杂项/Makefile/02-Makefile自定义目标.md"
               }
             }
           },
@@ -189,8 +213,12 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "24d734d0bdbe7361",
+  "active": "4fe9edd3febbeabb",
   "lastOpenFiles": [
+    "杂项/Makefile/01-Makefile基础.md",
+    "杂项/Makefile/02-Makefile自定义目标.md",
+    "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+    "课程项目/CMU-ICS/02-ics-labs.md",
     "附件/Pasted image 20240801004730.png",
     "附件/Pasted image 20240731210228.png",
     "附件/Pasted image 20240731161519.png",
@@ -199,10 +227,8 @@
     "附件/Pasted image 20240731102212.png",
     "附件/Pasted image 20240731085520.png",
     "2024考研/408/数据结构/DS08-排序.md",
-    "课程项目/CMU-ICS/02-ics-labs.md",
     "课程项目/NJU-OS/01-绪论&并发.md",
     "算法/经典算法/力扣01-动态规划.md",
-    "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "Linux/Hacks/一次Ubuntu装机记录.md",
     "杂项/Obsidian用法/嵌套文件或网页.md",
     "Linux/Basics/Linux进程管理.md",
@@ -219,14 +245,12 @@
     "2024考研/复试/编译原理B.md",
     "附件/Pasted image 20240725195647.png",
     "附件/Pasted image 20240725194630.png",
-    "附件/Pasted image 20240721222220.png",
     "课程项目/CMU-ICS/01-ics-coursenote.md",
     "Linux/Basics/Linux Shell.md",
     "课程项目/CMU-ICS/00-ics-overview.md",
     "编程语言/Go/03-Go项目实践.md",
     "2024考研/408/操作系统/OS01-计算机系统概述.md",
     "编程语言/Go/02-Go标准库.md",
-    "编程语言/Go/00-Go入门.md",
     "课程项目/NJU-OS",
     "科研",
     "编程语言/Go",

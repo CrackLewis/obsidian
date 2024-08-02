@@ -1239,3 +1239,71 @@ fa 18 40 00 00 00 00 00
 - 第二部分：通过添加新指令，扩展SEQ模拟器。
 - 第三部分：优化CPU设计和基准程序。
 
+### Y86-64指令集
+
+参考：
+- CS:APP 第4章
+- [blog](https://blog.csdn.net/weixin_58165485/article/details/123551737)
+- [blog2](https://yubincloud.github.io/notebook/pages/11e85f/)
+
+程序员可见状态：
+- 15个通用寄存器：除`%r15`被删除外，其余和x86-64的一致
+- 程序计数器、程序状态字、内存
+
+指令：
+- 特殊：`halt`、`nop`
+- 无条件移数：`rrmovq`、`irmovq`、`rmmovq`、`mrmovq`
+- 有条件移数：`cmovXX`
+- 无条件跳转：`jmp`
+- 有条件跳转：`jXX`
+- 运算：`OPq`
+- 函数调用：`call`、`ret`
+- 栈操作：`pushq`、`popq`
+
+![](https://i-blog.csdnimg.cn/blog_migrate/6f52cbbdacd2062edd908158b048beb2.png)
+
+**注意**：
+- 移数指令必须涉及至少一个寄存器，内存到内存和立即数到内存都是不允许的。
+- 运算指令只支持`addq`、`subq`、`andq`、`xorq`四种。
+- 条件支持`ge`、`g`、`le`、`l`、`e`、`ne`六种。
+
+通用寄存器编码：
+
+| 数字  | 寄存器名称 |     | 数字  | 寄存器名称 |
+| --- | ----- | --- | --- | ----- |
+| 0   | %rax  |     | 8   | %r8   |
+| 1   | %rcx  |     | 9   | %r9   |
+| 2   | %rdx  |     | A   | %r10  |
+| 3   | %rbx  |     | B   | %r11  |
+| 4   | %rsp  |     | C   | %r12  |
+| 5   | %rbp  |     | D   | %r13  |
+| 6   | %rsi  |     | E   | %r14  |
+| 7   | %rdi  |     | F   | 无寄存器  |
+
+Y86-64异常：由状态码指示：
+
+| 值   | 名称  | 含义          |
+| --- | --- | ----------- |
+| 1   | AOK | 正常操作        |
+| 2   | HLT | 遇到器执行halt指令 |
+| 3   | ADR | 遇到非法地址      |
+| 4   | INS | 遇到非法指令      |
+
+Y86-64程序：例如数列求和的函数：
+
+```cpp
+long sum(long* start, long count)
+{
+	long sum = 0;
+	while (count) {
+		sum += *start;
+		start++;
+		count--;
+	}
+	return sum;
+}
+```
+x86-64和Y86-64汇编代码对比：
+
+![](https://i-blog.csdnimg.cn/blog_migrate/886f79b8f720852fe0305707dd4fca8e.png)
+
