@@ -1307,3 +1307,256 @@ x86-64和Y86-64汇编代码对比：
 
 ![](https://i-blog.csdnimg.cn/blog_migrate/886f79b8f720852fe0305707dd4fca8e.png)
 
+### partA
+
+partA要求用Y86-64汇编编写并运行三个程序：
+- 链表遍历求和
+- 链表递归求和
+- 内存复制
+
+本题在一个独立目录（`/path/to/arch-lab/partA`）下完成，其中Makefile规则如下：
+
+```makefile
+YAS = ../sim/misc/yas 
+YIS = ../sim/misc/yis 
+
+.PHONY: asm run clean
+
+SRC = $(TARGET).ys 
+MID = $(TARGET).yo
+
+$(MID): $(SRC)
+	$(YAS) $(SRC)
+
+run: $(TARGET).yo
+	$(YIS) $(TARGET).yo
+
+clean:
+	rm -f $(TARGET)
+```
+
+第一个程序比较简单，需要关注以下问题：
+- 在调用主函数之前要正确设置堆栈。
+- Y86-64在运算上只支持寄存器之间运算，所以运算前要先`mov`出来。
+
+```
+  .pos 0
+  irmovq stack, %rsp
+  call main
+  halt 
+
+  .align 8
+ele1:
+  .quad 0x00a
+  .quad ele2
+ele2:
+  .quad 0x0b0
+  .quad ele3
+ele3:
+  .quad 0xc00
+  .quad 0
+
+main:
+  irmovq ele1, %rdi
+  call sum_list 
+  ret 
+
+sum_list:
+  irmovq $0, %r14
+  irmovq $0, %rax # sum = 0
+
+sum_list_L2:
+  subq %r14, %rdi 
+  je sum_list_L4
+  mrmovq (%rdi), %r13 
+  addq %r13, %rax 
+  mrmovq 8(%rdi), %rdi 
+  jmp sum_list_L2 
+  
+sum_list_L4:
+  ret
+
+  .pos 0x200
+stack:
+```
+
+执行`make run TARGET=sum`，得到以下结果：
+
+```
+[lighthouse@VM-8-15-centos part-a]$ make run TARGET=sum
+../sim/misc/yis  sum.yo
+Stopped in 29 steps at PC = 0x13.  Status 'HLT', CC Z=1 S=0 O=0
+Changes to registers:
+%rax:   0x0000000000000000      0x0000000000000cba
+%rsp:   0x0000000000000000      0x0000000000000200
+%r13:   0x0000000000000000      0x0000000000000c00
+
+Changes to memory:
+0x01f0: 0x0000000000000000      0x000000000000005b
+0x01f8: 0x0000000000000000      0x0000000000000013
+```
+
+第二题略复杂，需要开辟栈帧暂存数据。栈帧可以取8字节：
+
+```
+  .pos 0
+  irmovq stack, %rsp
+  call main
+  halt
+
+  .align 8
+ele1:
+  .quad 0x00a
+  .quad ele2
+ele2:
+  .quad 0x0b0
+  .quad ele3
+ele3:
+  .quad 0xc00
+  .quad 0
+
+main:
+  irmovq ele1, %rdi
+  call rsum_list
+  ret 
+
+rsum_list:
+  irmovq $8, %r12
+  subq %r12, %rsp
+  irmovq $0, %rax 
+
+  subq %r14, %rdi 
+  je L2
+
+  mrmovq (%rdi), %r13
+  addq %r13, %rax 
+  rmmovq %rax, (%rsp)
+
+  mrmovq 8(%rdi), %rdi 
+  call rsum_list
+  
+  mrmovq (%rsp), %r13
+  addq %r13, %rax
+
+L2:
+  addq %r12, %rsp
+  ret
+
+  .pos 0x400
+stack:
+```
+
+执行结果：我的程序好像慢了，网上有41步就做完的：
+
+```
+[lighthouse@VM-8-15-centos part-a]$ make run TARGET=rsum
+../sim/misc/yas  rsum.ys 
+../sim/misc/yis  rsum.yo
+Stopped in 55 steps at PC = 0x13.  Status 'HLT', CC Z=0 S=0 O=0
+Changes to registers:
+%rax:   0x0000000000000000      0x0000000000000cba
+%rsp:   0x0000000000000000      0x0000000000000400
+%r12:   0x0000000000000000      0x0000000000000008
+%r13:   0x0000000000000000      0x000000000000000a
+
+Changes to memory:
+0x03c0: 0x0000000000000000      0x00000000000000a6
+0x03c8: 0x0000000000000000      0x0000000000000c00
+0x03d0: 0x0000000000000000      0x00000000000000a6
+0x03d8: 0x0000000000000000      0x00000000000000b0
+0x03e0: 0x0000000000000000      0x00000000000000a6
+0x03e8: 0x0000000000000000      0x000000000000000a
+0x03f0: 0x0000000000000000      0x000000000000005b
+0x03f8: 0x0000000000000000      0x0000000000000013
+```
+
+第三题相对简单一些：
+
+```
+# long copy_block(long *src, long *dest, long len) {
+#   long result = 0;
+#   while (len > 0) {
+#     long val = *src++;
+#     *dest++ = val;
+#     result ^= val;
+#     len--;
+#   }
+#   return result;
+# }
+
+  .pos 0
+  irmovq stack, %rsp 
+  call main
+  halt
+
+  .align 8
+# Source block
+src:
+  .quad 0x00a
+  .quad 0x0b0
+  .quad 0xc00
+# Destination block
+dest:
+  .quad 0x111
+  .quad 0x222
+  .quad 0x333
+
+main:
+  irmovq src, %rdi 
+  irmovq dest, %rsi 
+  irmovq 3, %rdx 
+  call copy_block 
+  ret 
+
+copy_block:
+  irmovq $0, %rax 
+  irmovq $0, %r12 
+  irmovq $8, %r14
+  irmovq $1, %rbx
+
+L2:
+  subq %r12, %rdx 
+  je L1
+
+  mrmovq (%rdi), %r13 
+  rmmovq %r13, (%rsi)
+  addq %r14, %rdi 
+  addq %r14, %rsi 
+
+  xorq %r13, %rax
+  subq %rbx, %rdx 
+  jmp L2
+
+L1:
+  ret
+
+  .pos 0x200
+stack:
+```
+
+运行结果如下。所幸的是这道题的运行步数达到了最简：
+
+```
+[lighthouse@VM-8-15-centos part-a]$ make run TARGET=copy
+../sim/misc/yas  copy.ys 
+../sim/misc/yis  copy.yo
+Stopped in 42 steps at PC = 0x13.  Status 'HLT', CC Z=1 S=0 O=0
+Changes to registers:
+%rax:   0x0000000000000000      0x0000000000000cba
+%rbx:   0x0000000000000000      0x0000000000000001
+%rsp:   0x0000000000000000      0x0000000000000200
+%rsi:   0x0000000000000000      0x0000000000000048
+%rdi:   0x0000000000000000      0x0000000000000030
+%r13:   0x0000000000000000      0x0000000000000c00
+%r14:   0x0000000000000000      0x0000000000000008
+
+Changes to memory:
+0x0030: 0x0000000000000111      0x000000000000000a
+0x0038: 0x0000000000000222      0x00000000000000b0
+0x0040: 0x0000000000000333      0x0000000000000c00
+0x01f0: 0x0000000000000000      0x000000000000006f
+0x01f8: 0x0000000000000000      0x0000000000000013
+```
+
+### partB
+
