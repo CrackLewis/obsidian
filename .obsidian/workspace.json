@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Makefile/02-Makefile自定义目标.md",
+                "file": "课程项目/CMU-ICS/01-ics-coursenote.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程项目/CMU-ICS/02-ics-labs.md",
+                "file": "课程项目/CMU-ICS/01-ics-coursenote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程项目/CMU-ICS/02-ics-labs.md",
+                "file": "课程项目/CMU-ICS/01-ics-coursenote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程项目/CMU-ICS/02-ics-labs.md"
+                "file": "课程项目/CMU-ICS/01-ics-coursenote.md"
               }
             }
           },
@@ -201,12 +201,29 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "24d734d0bdbe7361",
+  "active": "4fe9edd3febbeabb",
   "lastOpenFiles": [
-    "附件/Pasted image 20240802162746.png",
-    "课程项目/CMU-ICS/02-ics-labs.md",
-    "杂项/Makefile/01-Makefile基础.md",
     "杂项/Makefile/02-Makefile自定义目标.md",
+    "课程项目/CMU-ICS/01-ics-coursenote.md",
+    "Linux/Hacks/WSL与Hyper-V共存.md",
+    "Linux/Hacks/WSL安装CUDA.md",
+    "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
+    "Linux/Hacks/Ubuntu版本号的别名.md",
+    "Linux/Hacks/Ubuntu安装中文输入法.md",
+    "Linux/Hacks/SSH相关.md",
+    "Linux/Hacks/一次Ubuntu装机记录.md",
+    "Linux/Hacks/虚拟机挂载共享文件夹.md",
+    "Linux/Hacks/建立并运行Docker容器.md",
+    "Linux/Hacks/挂载和卸载ISO.md",
+    "Linux/Hacks/多版本GCC安装和共存.md",
+    "Linux/Basics/tmux.md",
+    "Linux/Basics/Linux终端.md",
+    "Linux/Basics/Linux压缩和解压.md",
+    "Linux/Basics/Linux外存和文件管理.md",
+    "Linux/Basics/Linux命令行文本处理.md",
+    "课程项目/CMU-ICS/02-ics-labs.md",
+    "附件/Pasted image 20240802162746.png",
+    "杂项/Makefile/01-Makefile基础.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "附件/Pasted image 20240801004730.png",
     "附件/Pasted image 20240731210228.png",
@@ -218,26 +235,10 @@
     "2024考研/408/数据结构/DS08-排序.md",
     "课程项目/NJU-OS/01-绪论&并发.md",
     "算法/经典算法/力扣01-动态规划.md",
-    "Linux/Hacks/一次Ubuntu装机记录.md",
     "杂项/Obsidian用法/嵌套文件或网页.md",
     "Linux/Basics/Linux进程管理.md",
-    "Linux/Basics/gdb.md",
-    "Linux/Basics/Linux终端.md",
-    "Linux/Basics/Linux压缩和解压.md",
-    "Linux/Basics/Linux命令行文本处理.md",
     "附件/Pasted image 20240727195039.png",
-    "课程项目/MIT-MissingSemester.md",
-    "2024考研/408/数据结构/DSR03-栈、队列、数组复盘.md",
-    "2024考研/408/数据结构/DSR02-线性表复盘.md",
-    "科研/计算机科研概述.md",
-    "编程语言/Cpp/Effective_Modern_C++.md",
-    "2024考研/复试/编译原理B.md",
     "附件/Pasted image 20240725195647.png",
-    "课程项目/CMU-ICS/01-ics-coursenote.md",
-    "Linux/Basics/Linux Shell.md",
-    "课程项目/CMU-ICS/00-ics-overview.md",
-    "编程语言/Go/03-Go项目实践.md",
-    "2024考研/408/操作系统/OS01-计算机系统概述.md",
     "课程项目/NJU-OS",
     "科研",
     "编程语言/Go",

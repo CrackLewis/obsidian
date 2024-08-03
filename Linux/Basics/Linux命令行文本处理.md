@@ -444,7 +444,7 @@ $ sed 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/' input.txt > out
 $ sed -e my_sed_comm.sed 1.txt
 ```
 
-### awk注意事项
+### sed注意事项
 
 - sed命令有很多指令和选项，如果不熟悉，可以使用man sed或info sed来查看帮助信息。
 - sed命令支持基本正则表达式（BRE）和扩展正则表达式（ERE），可以用-r选项来切换。
