@@ -1351,8 +1351,6 @@ bool s1 = code == 2 || code == 3;
 bool s1 = code in {2, 3};
 ```
 
-
-
 ### partA
 
 partA要求用Y86-64汇编编写并运行三个程序：
