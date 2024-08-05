@@ -64,6 +64,8 @@ leaq 4(%rax), %rbx
 HCL可能涉及的量：
 - `icode`：指令代码
 - `ifun`：指令功能
-- 
+- `rA`、`rB`、`valP`：寄存器编号、PC的新值
+- `valA`、`valB`：寄存器的原始值
+- `valE`：指令的执行结果
 
 ### 
