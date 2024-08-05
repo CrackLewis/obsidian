@@ -68,4 +68,37 @@ HCL可能涉及的量：
 - `valA`、`valB`：寄存器的原始值
 - `valE`：指令的执行结果
 
-### 
+### pipe-full.hcl解读
+
+该文件描述了Y86-64顺序处理器的硬件细节。
+
+指令码的符号表示：
+
+```
+wordsig INOP 	'I_NOP'
+wordsig IHALT	'I_HALT'
+wordsig IRRMOVQ	'I_RRMOVQ'
+wordsig IIRMOVQ	'I_IRMOVQ'
+wordsig IRMMOVQ	'I_RMMOVQ'
+wordsig IMRMOVQ	'I_MRMOVQ'
+wordsig IOPQ	'I_ALU'
+wordsig IJXX	'I_JMP'
+wordsig ICALL	'I_CALL'
+wordsig IRET	'I_RET'
+wordsig IPUSHQ	'I_PUSHQ'
+wordsig IPOPQ	'I_POPQ'
+# Instruction code for iaddq instruction
+wordsig IIADDQ	'I_IADDQ'
+```
+
+处理器状态的符号表示：
+
+```
+wordsig SBUB	'STAT_BUB'	# Bubble in stage
+wordsig SAOK	'STAT_AOK'	# Normal execution
+wordsig SADR	'STAT_ADR'	# Invalid memory address
+wordsig SINS	'STAT_INS'	# Invalid instruction
+wordsig SHLT	'STAT_HLT'	# Halt instruction encountered
+```
+
+根据`stages.h`，程序计数器记录两个属性
