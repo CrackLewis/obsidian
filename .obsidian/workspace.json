@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程项目/CMU-ICS/02-ics-labs.md",
+                "file": "Linux/Basics/Linux外存和文件管理.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程项目/CMU-ICS/01-ics-coursenote.md",
+                "file": "Linux/Basics/Linux外存和文件管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程项目/CMU-ICS/01-ics-coursenote.md",
+                "file": "Linux/Basics/Linux外存和文件管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程项目/CMU-ICS/01-ics-coursenote.md"
+                "file": "Linux/Basics/Linux外存和文件管理.md"
               }
             }
           },
@@ -201,10 +201,12 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "24d734d0bdbe7361",
+  "active": "3698f2abda1eb469",
   "lastOpenFiles": [
-    "课程项目/CMU-ICS/02-ics-labs.md",
     "课程项目/CMU-ICS/01-ics-coursenote.md",
+    "Linux/Basics/Linux外存和文件管理.md",
+    "Linux/Basics/Linux进程管理.md",
+    "课程项目/CMU-ICS/02-ics-labs.md",
     "Linux/Hacks/通过X11创建远程图形界面.md",
     "附件/Pasted image 20240803120012.png",
     "杂项/Makefile/02-Makefile自定义目标.md",
@@ -222,7 +224,6 @@
     "Linux/Basics/tmux.md",
     "Linux/Basics/Linux终端.md",
     "Linux/Basics/Linux压缩和解压.md",
-    "Linux/Basics/Linux外存和文件管理.md",
     "Linux/Basics/Linux命令行文本处理.md",
     "附件/Pasted image 20240802162746.png",
     "杂项/Makefile/01-Makefile基础.md",
