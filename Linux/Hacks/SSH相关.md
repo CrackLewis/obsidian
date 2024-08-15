@@ -1,11 +1,18 @@
 
 ## 免密登录
 
-首先被登录的设备要确保在`/etc/ssh/sshd_config`中将PubkeyAuthentication设为yes。
+首先被登录的设备要确保在`/etc/ssh/sshd_config`中：
+- 将PubkeyAuthentication设为yes。
+- 将RSAAuthentication设为yes。
 
-添加登录方的公钥到被登录方`~/.ssh/authorized_keys`中。
+添加登录方的公钥到被登录方`~/.ssh/authorized_keys`中：
+- 直接输入：`cat id_rsa.pub >> ~/.ssh/authorized_keys`
+- 从宿主机传送：`ssh-copy-id -i ~/.ssh/id_rsa.pub username@host`
 
-如果仍不能免密登录，考虑检查公钥是否有误，或者考虑重新生成（危险）。
+如果仍不能免密登录：
+- 重启一下`sshd`服务。
+- 重启计算机（危险）。
+- 考虑检查公钥是否有误，或者考虑重新生成（危险）。
 
 ## 生成ed25519密钥
 
