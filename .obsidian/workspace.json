@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/Vue/L01-Vue案例：TodoList.md",
+                "file": "Web前端/Vue/005-Vue 事件处理.md",
                 "mode": "source",
                 "source": false
               }
@@ -202,13 +202,14 @@
   },
   "active": "7e43b8b8be41fc01",
   "lastOpenFiles": [
-    "Web前端/Vue/012-Vue 组件化编程.md",
-    "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
+    "Web前端/Vue/005-Vue 事件处理.md",
+    "Web前端/Vue/013-Vue 脚手架.md",
     "编程语言/Haskell/01-Haskell基础.md",
     "Web前端/Vue/L01-Vue案例：TodoList.md",
+    "Web前端/Vue/012-Vue 组件化编程.md",
+    "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
     "附件/todolist.drawio.png",
     "附件/Pasted image 20240815114417.png",
-    "Web前端/Vue/013-Vue 脚手架.md",
     "Web前端/Vue/未命名.md",
     "编程语言/Haskell",
     "Linux/Hacks/SSH相关.md",
@@ -218,7 +219,6 @@
     "Web前端/Vue/008-Vue 列表渲染、数据监视.md",
     "Web前端/Vue/007-Vue 绑定样式、条件渲染.md",
     "Web前端/Vue/006-Vue 计算属性、侦听属性.md",
-    "Web前端/Vue/005-Vue 事件处理.md",
     "Web前端/Vue/004-Vue MVVM模型、数据代理.md",
     "Web前端/Vue/002-Vue 模板语法、数据绑定.md",
     "课程项目/CMU-ICS/01-ics-coursenote.md",
