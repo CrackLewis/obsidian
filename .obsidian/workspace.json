@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
+                "file": "Web前端/Vue/013-Vue 脚手架.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端/Vue/L01-Vue案例：TodoList.md",
+                "file": "Web前端/Vue/013-Vue 脚手架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端/Vue/L01-Vue案例：TodoList.md",
+                "file": "Web前端/Vue/013-Vue 脚手架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端/Vue/L01-Vue案例：TodoList.md"
+                "file": "Web前端/Vue/013-Vue 脚手架.md"
               }
             }
           },
@@ -201,18 +200,18 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "7c85c2caf370dc9a",
+  "active": "7e43b8b8be41fc01",
   "lastOpenFiles": [
+    "Web前端/Vue/012-Vue 组件化编程.md",
+    "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
+    "编程语言/Haskell/01-Haskell基础.md",
+    "Web前端/Vue/L01-Vue案例：TodoList.md",
     "附件/todolist.drawio.png",
     "附件/Pasted image 20240815114417.png",
     "Web前端/Vue/013-Vue 脚手架.md",
-    "编程语言/Haskell/01-Haskell基础.md",
-    "Web前端/Vue/L01-Vue案例：TodoList.md",
     "Web前端/Vue/未命名.md",
     "编程语言/Haskell",
     "Linux/Hacks/SSH相关.md",
-    "Web前端/Vue/012-Vue 组件化编程.md",
-    "Web前端/Vue/010-Vue 内置指令、自定义指令.md",
     "Web前端/Vue/Z01-Vue核心总结.md",
     "Web前端/Vue/011-Vue 生命周期.md",
     "Web前端/Vue/009-Vue 收集表单数据、过滤器.md",
@@ -239,7 +238,6 @@
     "附件/Pasted image 20240731154044.png",
     "附件/Pasted image 20240731104343.png",
     "附件/Pasted image 20240731102212.png",
-    "附件/Pasted image 20240731085520.png",
     "课程项目/NJU-OS",
     "科研",
     "编程语言/Go",
