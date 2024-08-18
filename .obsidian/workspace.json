@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/Vue/013-Vue 脚手架.md",
+                "file": "2024考研/408/操作系统/OS02-进程管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端/Vue/013-Vue 脚手架.md",
+                "file": "2024考研/408/操作系统/OS02-进程管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端/Vue/013-Vue 脚手架.md",
+                "file": "2024考研/408/操作系统/OS02-进程管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端/Vue/013-Vue 脚手架.md"
+                "file": "2024考研/408/操作系统/OS02-进程管理.md"
               }
             }
           },
@@ -202,8 +202,8 @@
   },
   "active": "7e43b8b8be41fc01",
   "lastOpenFiles": [
-    "Web前端/Vue/005-Vue 事件处理.md",
     "Web前端/Vue/013-Vue 脚手架.md",
+    "Web前端/Vue/005-Vue 事件处理.md",
     "编程语言/Haskell/01-Haskell基础.md",
     "Web前端/Vue/L01-Vue案例：TodoList.md",
     "Web前端/Vue/012-Vue 组件化编程.md",
