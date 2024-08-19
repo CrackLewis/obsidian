@@ -13,31 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/Vue/013-Vue 脚手架.md",
+                "file": "Web前端/Vue/014-Vuex.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d557269e5d442618",
+            "id": "9b0047271641792b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Haskell/01-Haskell基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c576afcd04b87855",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
+                "file": "编程语言/JavaScript/Node.js/06-express模块.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端/Vue/013-Vue 脚手架.md",
+                "file": "Web前端/Vue/014-Vuex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端/Vue/013-Vue 脚手架.md",
+                "file": "Web前端/Vue/014-Vuex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端/Vue/013-Vue 脚手架.md"
+                "file": "Web前端/Vue/014-Vuex.md"
               }
             }
           },
@@ -202,8 +190,9 @@
   },
   "active": "7c85c2caf370dc9a",
   "lastOpenFiles": [
-    "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
     "Web前端/Vue/013-Vue 脚手架.md",
+    "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
+    "编程语言/JavaScript/Node.js/06-express模块.md",
     "Web前端/Vue/014-Vuex.md",
     "Web前端/Vue/005-Vue 事件处理.md",
     "编程语言/Haskell/01-Haskell基础.md",
@@ -230,7 +219,6 @@
     "课程项目/CMU-ICS/01-ics-coursenote.md",
     "课程项目/CMU-ICS/02-ics-labs.md",
     "2024考研/408/计算机组成原理/CO04-指令系统.md",
-    "Linux/Basics/Linux外存和文件管理.md",
     "附件/Pasted image 20240803120012.png",
     "附件/Pasted image 20240802162746.png",
     "附件/Pasted image 20240801004730.png",
