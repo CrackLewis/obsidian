@@ -22,9 +22,9 @@ Vuex数据管理：
 ```
 src/
 + components/
-	+ Count.vue
+	+ Count.vue    # 求和组件
 + store/
-	+ index.js
+	+ index.js     # 描述项目的公共存储结构
 + App.vue
 + main.js
 ```
@@ -249,3 +249,106 @@ new Vue({
     render: h => h(App),
 });
 ```
+
+## 引入Vuex
+
+Vue2引入Vuex方式：
+
+```js
+// src/store/index.js
+import Vue from "vue";
+import Vuex from "vuex";
+
+Vue.use(Vuex);
+
+// ...
+
+export default new Vuex.Store({
+	// ...
+});
+
+// src/main.js
+import Vue from "vue";
+import store from "./store";
+import App from "./App";
+
+new Vue({
+	el: "#app",
+	// 在Vue实例中引入成员
+	store,
+	render: h => h(App)
+});
+```
+
+Vue3引入Vuex：
+- `Vue.use(Vuex)`不再使用。
+- 创建Vue实例：`createApp(App).use(store).mount("#app");`。
+
+## Vuex写法
+
+`Vuex.Store`的四个核心成员：
+- `actions`：一组响应组件中用户动作的函数。这些函数只能调用
+- `mutations`：一组修改`state`中变量数据的函数
+- `state`：数据容器
+- `getters`：一组加工`state`数据的函数
+
+## 4个map方法
+
+`mapState`：映射state的数据为计算属性。
+
+```js
+// 这两段是等价的，其他3个map函数同理
+
+export default {
+	computed: {
+		// 实例内属性名 : "state成员名"
+		...mapState({ sum: "sum", school: "school", subject: "subject" })
+	}
+}
+
+export default {
+	computed: {
+		...mapState(["sum", "school", "subject"])
+	}
+}
+```
+
+`mapGetters`：映射getters为计算属性。
+
+```js
+export default {
+	computed: {
+		...mapGetters(["bigSum"])
+	}
+	// 组件内通过this.bigSum访问
+	// 模板通过bigSum访问
+}
+```
+
+`mapActions`：映射actions为成员方法。
+
+```js
+export default {
+	methods: {
+		...mapActions(["incrementIfOdd", "incrementWait"])
+	}
+	// 组件内通过this.xxx访问
+	// 模板通过方法名访问
+}
+```
+
+`mapMutations`：映射mutations为成员方法。
+
+```js
+export default {
+	methods: {
+		...mapMutations({
+			increment: 'INCREMENT',
+			decrement: 'DECREMENT'
+	    });
+	}
+}
+```
+
+## 模块化、命名空间
+
