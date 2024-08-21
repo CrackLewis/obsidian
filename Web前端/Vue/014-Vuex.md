@@ -352,3 +352,61 @@ export default {
 
 ## 模块化、命名空间
 
+Vuex允许由数个不同的模块组成数据，每个模块有一套自己的`state`、`getters`、`actions`、`mutations`。
+
+```js
+// src/store/submodule1.js
+export default Vuex.Store({
+	namespaced: true, // 重要！
+	state: {},
+	getters: {},
+	actions: {},
+	mutations: {}
+};
+```
+
+Vuex的根文件则负责合并这些模块：
+
+```js
+// src/store/index.js
+import Vuex from "vuex";
+import submod1 from "./submodule1";
+// 其他模块...
+
+export default new Vuex.Store({
+	modules: {
+		submod1,
+		// 其他模块...
+	}
+});
+```
+
+组件内访问state：
+
+```js
+// 第一种方式
+this.$store.state.submod1.data1;
+// 第二种方式
+...mapState('submod1', ['data1'])
+```
+
+组件内访问getters：
+
+```js
+this.$store.getters['submod1/getter1'];
+...mapState('submod1', ['getter1']);
+```
+
+组件内调用dispatch：
+
+```js
+this.$store.dispatch('submod1/action1', payload);
+...mapActions('submod1', ['action1'])(payload);
+```
+
+组件内调用commit：
+
+```js
+this.$store.commit('submod1/mutation1', payload);
+...mapMutations('submod1', ['mutation1'])(payload);
+```
