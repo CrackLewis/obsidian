@@ -247,3 +247,5 @@ export default new VueRouter({
 });
 ```
 
+## replace属性
+
