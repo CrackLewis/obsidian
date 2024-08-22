@@ -249,3 +249,73 @@ export default new VueRouter({
 
 ## replace属性
 
+作用：控制路由跳转时操作浏览器历史记录的模式
+
+浏览器历史记录写入方式：
+- `push`：追加记录（默认方式）
+- `replace`：替换当前记录
+
+开启`replace`模式：以下两种方法都合法
+
+```vue
+<router-link :replace="true">News</router-link>
+
+<router-link replace>News</router-link>
+```
+
+## 编程式路由导航
+
+Vue router也允许不通过`router-link`实现路由跳转，从而使得路由跳转更灵活。
+
+- `$router.push({ ... })`：追加记录式访问。等价于`<router-link :to="{ ... }"/>`
+- `$router.replace({ ... })`：替换记录式访问。
+- `$router.forward()`：前进一条记录。
+- `$router.back()`：后退一条记录。
+- `$router.go(n)`：偏移n条记录，n为正负对应前进或后退。
+
+## 缓存路由组件
+
+`keep-alive`标签可以让不展示的组件保持挂载而不被销毁。
+
+```vue
+<!-- 缓存单个路由组件 -->
+<keep-alive include="News">
+	<router-view/>
+</keep-alive>
+
+<!-- 缓存多个路由组件 -->
+<keep-alive :include="[ 'News', 'Message' ]">
+	<router-view/>
+</keep-alive>
+```
+
+## activated、deactivated
+
+如果一个Vue组件是由路由链接激活的，它会额外携带两个生命周期钩子：`activated`和`deactivated`。
+
+如果外围有缓存路由组件，则组件不会随着路由视窗的切换而销毁。
+
+## 路由守卫
+
+作用：对路由进行权限控制
+
+种类：
+- 全局守卫：作用于所有路由
+	- 全局前置守卫（`beforeEach`）：初始化时，以及每次路由切换前调用
+	- 全局后置守卫（`afterEach`）：初始化时，以及每次路由切换后调用
+- 独享守卫：作用于某个路由及其所有子路由，只在进入路由时触发
+- 组件内守卫：通过路由规则进入或离开组件时调用
+
+### 全局守卫
+
+```js
+const router = new VueRouter({ 
+	routes: [ /* ... */ ]
+});
+
+router.beforeEach((to, from, next) => {
+	// to表示将要进入的路由，from表示将要离开的路由
+	// next是可选参数，表示
+	console.log("前置路由守卫");
+});
+```
