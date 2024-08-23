@@ -1,4 +1,6 @@
 
+完整指南参考：[Vue Router中文指南](https://v3.router.vuejs.org/zh/guide/#html)
+
 ## 简介
 
 Vue Router是Vue的一个插件库，专用于实现SPA（single-page application，单页面应用）。
@@ -308,14 +310,148 @@ Vue router也允许不通过`router-link`实现路由跳转，从而使得路由
 
 ### 全局守卫
 
+作用于VueRouter内的所有路由。
+
+格式：`router.beforeEach(func)`、`router.afterEach(func)`。
+
+守卫回调函数`func`格式：`func(to,from,next) { ... }`
+- `from`、`to`：源路由、目标路由
+- `next`：响应函数，只有*前置路由守卫*需要这个参数。如果有这个参数，必须在func内调用。
+	- `next()`：响应路由，将路径切换为`to`。
+	- `next(false)`：中断路由，将路径重置为`from`。
+	- `next(path)`：将路径切换到`path`，`path`可以是路由项或路径字符串。
+
 ```js
 const router = new VueRouter({ 
-	routes: [ /* ... */ ]
+	routes: [
+		{
+			name: 'home',
+			path: '/home',
+			component: Home,
+			meta: { title: '主页' },
+			children: [
+				{
+					name: 'home_news',
+					path: 'news',
+					component: News,
+					meta: {
+						isAuth: true, title: '新闻'
+					}
+				},
+				{
+					name: 'home_msg',
+					path: 'message',
+					component: Message,
+					meta: {
+						isAuth: true, title: '消息'
+					},
+					children: [
+						{
+							name: 'home_msg_details',
+							path: 'detail',
+							component: Detail,
+							meta: {
+								isAuth: true, title: '详情'
+							},
+							props($route) {
+								return {
+									id: $route.query.id,
+									title: $route.query.title
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 });
 
+// 前置全局守卫
 router.beforeEach((to, from, next) => {
 	// to表示将要进入的路由，from表示将要离开的路由
-	// next是可选参数，表示
-	console.log("前置路由守卫");
+	// next是一个回调函数，调用才能正确跳转
+	console.log("前置全局守卫");
+	if (to.meta.isAuth) {
+		if (localStorage.getItem("school") == "PKU") {
+			next();
+		} else {
+			alert("学校名称错误");
+			next(false);
+		}
+	} else {
+		next();
+	}
+});
+
+// 后置全局守卫
+router.afterEach((to, from) => {
+	console.log("后置全局守卫");
+	document.title = to.meta.title || '默认页面';
 });
 ```
+
+### 独享守卫
+
+规定在进入单个路由前，执行哪些操作。
+
+```js
+const router = new VueRouter({
+	routes: [
+		{
+			name: 'home',
+			path: '/home',
+			component: Home,
+			beforeEnter(to, from, next) {
+				// ...
+			}
+		}
+	]
+});
+```
+
+### 组件守卫
+
+规定在路由进入该组件和离开该组件前，执行哪些操作。
+
+```js
+export default {
+	name: 'About',
+	// 通过路由规则，进入该组件时调用
+	beforeRouteEnter(to, from, next) {
+		// ...
+	},
+	// 通过路由规则，离开该组件时调用
+	beforeRouteLeave(to, from, next) {
+		// ...
+	}
+};
+```
+
+## 路由工作模式
+
+history模式：
+- 地址干净美观
+- 兼容性略差
+- 应用部署上线时需要后端支持，解决刷新404的问题
+
+hash模式：
+- hash值不会出现在HTTP请求中，从而不会带给服务器
+- 地址相对没那么美观
+- 兼容性较好
+- 如果地址在其他设备重新访问，有可能会失效
+
+```js
+const router = new VueRouter({
+	mode: 'history',
+	// mode: 'hash',
+	routes: [ 
+		// ...
+	]
+});
+```
+
+## 总结
+
+Vue Router是前端路由插件，支持通过链接切换组件。
+
