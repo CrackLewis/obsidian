@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/Vue/015-Vue Router.md",
+                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端/Vue/015-Vue Router.md",
+                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端/Vue/015-Vue Router.md",
+                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端/Vue/015-Vue Router.md"
+                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md"
               }
             }
           },
@@ -191,8 +191,12 @@
   },
   "active": "49f920ba9a7f09ad",
   "lastOpenFiles": [
-    "Web前端/Vue/Z01-Vue核心总结.md",
+    "AI/机器学习复习/06-深度学习.md",
+    "AI/动手学深度学习/01&02-深度学习预备知识.md",
+    "AI/机器学习复习/04-决策树.md",
     "Web前端/Vue/015-Vue Router.md",
+    "AI/动手学深度学习",
+    "Web前端/Vue/Z01-Vue核心总结.md",
     "Web前端/Vue/014-Vuex.md",
     "Web前端/Vue/013-Vue 脚手架.md",
     "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
@@ -217,9 +221,6 @@
     "Web前端/Vue/007-Vue 绑定样式、条件渲染.md",
     "Web前端/Vue/006-Vue 计算属性、侦听属性.md",
     "Web前端/Vue/004-Vue MVVM模型、数据代理.md",
-    "Web前端/Vue/002-Vue 模板语法、数据绑定.md",
-    "课程项目/CMU-ICS/01-ics-coursenote.md",
-    "课程项目/CMU-ICS/02-ics-labs.md",
     "附件/Pasted image 20240803120012.png",
     "附件/Pasted image 20240802162746.png",
     "附件/Pasted image 20240801004730.png",
@@ -236,7 +237,6 @@
     "杂项/Docker",
     "编程语言/Cpp/Cpp17",
     "编程语言/Cpp/未命名.canvas",
-    "Linux/Linux编程",
-    "数据库/Redis"
+    "Linux/Linux编程"
   ]
 }

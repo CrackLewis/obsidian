@@ -455,3 +455,9 @@ const router = new VueRouter({
 
 Vue Router是前端路由插件，支持通过链接切换组件。
 
+基础：
+- 在vue脚手架中使用vue-router
+- 动态路由匹配
+- 嵌套路由
+- 编程式路由导航
+- 
