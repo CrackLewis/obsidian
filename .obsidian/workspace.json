@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/Vue/014-Vuex.md",
+                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md",
+                "file": "编程语言/Python/Matplotlib/01-Matplotlib基础.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,15 +188,18 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "49f920ba9a7f09ad",
+  "active": "7c85c2caf370dc9a",
   "lastOpenFiles": [
-    "AI/机器学习复习/06-深度学习.md",
+    "Web前端/Vue/014-Vuex.md",
+    "编程语言/Python/Matplotlib/01-Matplotlib基础.md",
     "AI/动手学深度学习/01&02-深度学习预备知识.md",
+    "编程语言/Python/Matplotlib",
+    "AI/机器学习复习/03-线性分类.md",
+    "AI/机器学习复习/06-深度学习.md",
     "AI/机器学习复习/04-决策树.md",
     "Web前端/Vue/015-Vue Router.md",
     "AI/动手学深度学习",
     "Web前端/Vue/Z01-Vue核心总结.md",
-    "Web前端/Vue/014-Vuex.md",
     "Web前端/Vue/013-Vue 脚手架.md",
     "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
     "编程语言/JavaScript/Node.js/06-express模块.md",
@@ -219,8 +221,6 @@
     "Web前端/Vue/009-Vue 收集表单数据、过滤器.md",
     "Web前端/Vue/008-Vue 列表渲染、数据监视.md",
     "Web前端/Vue/007-Vue 绑定样式、条件渲染.md",
-    "Web前端/Vue/006-Vue 计算属性、侦听属性.md",
-    "Web前端/Vue/004-Vue MVVM模型、数据代理.md",
     "附件/Pasted image 20240803120012.png",
     "附件/Pasted image 20240802162746.png",
     "附件/Pasted image 20240801004730.png",
@@ -236,7 +236,6 @@
     "课程项目/UCAS-一生一芯",
     "杂项/Docker",
     "编程语言/Cpp/Cpp17",
-    "编程语言/Cpp/未命名.canvas",
-    "Linux/Linux编程"
+    "编程语言/Cpp/未命名.canvas"
   ]
 }
