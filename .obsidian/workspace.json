@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "ce14a4b82f9cf3e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/动手学深度学习/03-线性神经网络.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "49f920ba9a7f09ad",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md",
+                "file": "AI/动手学深度学习/03-线性神经网络.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md",
+                "file": "AI/动手学深度学习/03-线性神经网络.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md"
+                "file": "AI/动手学深度学习/03-线性神经网络.md"
               }
             }
           },
@@ -188,11 +201,13 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "7c85c2caf370dc9a",
+  "active": "ce14a4b82f9cf3e7",
   "lastOpenFiles": [
+    "AI/动手学深度学习/01&02-深度学习预备知识.md",
+    "AI/动手学深度学习/03-线性神经网络.md",
+    "编程语言/Python/003-Python数据交换.md",
     "Web前端/Vue/014-Vuex.md",
     "编程语言/Python/Matplotlib/01-Matplotlib基础.md",
-    "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "编程语言/Python/Matplotlib",
     "AI/机器学习复习/03-线性分类.md",
     "AI/机器学习复习/06-深度学习.md",
@@ -219,8 +234,6 @@
     "Linux/Hacks/SSH相关.md",
     "Web前端/Vue/011-Vue 生命周期.md",
     "Web前端/Vue/009-Vue 收集表单数据、过滤器.md",
-    "Web前端/Vue/008-Vue 列表渲染、数据监视.md",
-    "Web前端/Vue/007-Vue 绑定样式、条件渲染.md",
     "附件/Pasted image 20240803120012.png",
     "附件/Pasted image 20240802162746.png",
     "附件/Pasted image 20240801004730.png",
