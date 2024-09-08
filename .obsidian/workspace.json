@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a29f123ff0f5b8af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/动手学深度学习/04-多层感知机.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,10 +213,11 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "18d7e4cf1759a19d",
+  "active": "a29f123ff0f5b8af",
   "lastOpenFiles": [
-    "AI/动手学深度学习/03-线性神经网络.md",
+    "AI/动手学深度学习/05-深度学习计算.md",
     "AI/动手学深度学习/04-多层感知机.md",
+    "AI/动手学深度学习/03-线性神经网络.md",
     "编程语言/Python/Matplotlib/01-Matplotlib基础.md",
     "附件/Pasted image 20240901135519.png",
     "附件/Pasted image 20240829170319.png",
