@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/动手学深度学习/05-深度学习计算.md",
+                "file": "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-其他/沈晴霓-OS与虚拟化安全.md",
+                "file": "AI/动手学深度学习/05-深度学习计算.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -189,12 +191,13 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "ce14a4b82f9cf3e7",
+  "active": "3e736dd7f7bd029a",
   "lastOpenFiles": [
-    "课程项目/MIT-MissingSemester.md",
-    "AI/动手学深度学习/05-深度学习计算.md",
     "AI/动手学深度学习/04-多层感知机.md",
+    "AI/动手学深度学习/05-深度学习计算.md",
+    "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
     "课程-其他/沈晴霓-OS与虚拟化安全.md",
+    "课程项目/MIT-MissingSemester.md",
     "课程-其他/黄嵩-金融科技理论与实践.md",
     "课程-数学",
     "课程-其他",
@@ -228,7 +231,6 @@
     "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
     "编程语言/JavaScript/Node.js/06-express模块.md",
     "Web前端/Vue/005-Vue 事件处理.md",
-    "编程语言/Haskell/01-Haskell基础.md",
     "附件/todolist.drawio.png",
     "附件/Pasted image 20240815114417.png",
     "编程语言/Haskell",
