@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ce14a4b82f9cf3e7",
+            "id": "3e736dd7f7bd029a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+                "file": "课程-计算机科学/软件工程/荆琦-软件需求工程.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3e736dd7f7bd029a",
+            "id": "e06322c193b50a82",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -176,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,10 +190,13 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "3e736dd7f7bd029a",
+  "active": "e06322c193b50a82",
   "lastOpenFiles": [
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+    "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "AI/动手学深度学习/05-深度学习计算.md",
+    "课程-计算机科学/软件工程/荆琦-软件需求工程.md",
+    "课程-计算机科学/软件工程",
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "AI/动手学深度学习/04-多层感知机.md",
     "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
     "课程-计算机科学/云计算",
@@ -204,7 +207,6 @@
     "课程-其他",
     "课程-计算机科学",
     "AI/动手学深度学习/03-线性神经网络.md",
-    "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "读书笔记/命令行的艺术.md",
     "读书笔记/是大臣、是首相.md",
     "科研/计算机科研概述.md",
@@ -230,14 +232,12 @@
     "Web前端/Vue/Z01-Vue核心总结.md",
     "Web前端/Vue/013-Vue 脚手架.md",
     "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
-    "编程语言/JavaScript/Node.js/06-express模块.md",
     "附件/todolist.drawio.png",
     "附件/Pasted image 20240815114417.png",
     "编程语言/Haskell",
     "附件/Pasted image 20240803120012.png",
     "课程项目/NJU-OS",
     "科研",
-    "编程语言/Go",
     "编程语言/Cpp/未命名.canvas"
   ]
 }
