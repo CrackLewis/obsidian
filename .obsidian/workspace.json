@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
+                "file": "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,9 +192,11 @@
   },
   "active": "3e736dd7f7bd029a",
   "lastOpenFiles": [
-    "AI/动手学深度学习/04-多层感知机.md",
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "AI/动手学深度学习/05-深度学习计算.md",
+    "AI/动手学深度学习/04-多层感知机.md",
     "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
+    "课程-计算机科学/云计算",
     "课程-其他/沈晴霓-OS与虚拟化安全.md",
     "课程项目/MIT-MissingSemester.md",
     "课程-其他/黄嵩-金融科技理论与实践.md",
@@ -230,7 +231,6 @@
     "Web前端/Vue/013-Vue 脚手架.md",
     "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
     "编程语言/JavaScript/Node.js/06-express模块.md",
-    "Web前端/Vue/005-Vue 事件处理.md",
     "附件/todolist.drawio.png",
     "附件/Pasted image 20240815114417.png",
     "编程语言/Haskell",
@@ -238,7 +238,6 @@
     "课程项目/NJU-OS",
     "科研",
     "编程语言/Go",
-    "杂项/Makefile",
     "编程语言/Cpp/未命名.canvas"
   ]
 }
