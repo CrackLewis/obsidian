@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 307.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -190,9 +190,11 @@
   },
   "active": "e06322c193b50a82",
   "lastOpenFiles": [
-    "AI/动手学深度学习/06-卷积神经网络.md",
-    "课程-计算机科学/操作系统/xv6源码阅读.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+    "Linux/Basics/Linux命令行文本处理.md",
+    "2024考研/数学/总结/Z08-微分方程.md",
+    "课程-计算机科学/操作系统/xv6源码阅读.md",
+    "AI/动手学深度学习/06-卷积神经网络.md",
     "AI/动手学深度学习/05-深度学习计算.md",
     "课程-计算机科学/操作系统",
     "Linux/Basics/tmux.md",
@@ -228,8 +230,6 @@
     "Web前端/Vue/014-Vuex.md",
     "编程语言/Python/Matplotlib",
     "AI/机器学习复习/03-线性分类.md",
-    "AI/机器学习复习/06-深度学习.md",
-    "AI/机器学习复习/04-决策树.md",
     "AI/动手学深度学习",
     "附件/todolist.drawio.png",
     "附件/Pasted image 20240815114417.png",
