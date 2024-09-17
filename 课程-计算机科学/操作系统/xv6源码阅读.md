@@ -1,0 +1,24 @@
+
+头文件：
+- `defs.h`：源文件函数定义
+- `fcntl.h`：文件描述符模式
+- `file.h`：底层文件设施
+- `fs.h`：文件系统
+- `param.h`：系统参数，如进程数、CPU核数等
+- `riscv.h`：RISC-V架构相关
+- 
+- 
+- `types.h`：基础类型的别名
+- `virtio.h`：virtio设备相关
+- 进程相关：
+	- `proc.h`：进程管理结构
+	- `sleeplock.h`：进程用的长期锁
+	- `spinlock.h`：自旋互斥锁
+	- `elf.h`：ELF程序结构
+	- `syscall.h`：系统调用编号
+- 内存相关：
+	- `memlayout.h`：内存布局
+- I/O相关：
+	- `buf.h`：缓存结构
+- 文件系统相关：
+	- `stat.h`：stat结构（文件记录？）
