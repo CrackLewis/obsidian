@@ -30,8 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff23f713b5ac5d2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Hacks/Ubuntu安装中文输入法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e1312b70505a5e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Hacks/多版本Python共存.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -105,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6源码阅读.md",
+                "file": "Linux/Hacks/多版本Python共存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6源码阅读.md",
+                "file": "Linux/Hacks/多版本Python共存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6源码阅读.md"
+                "file": "Linux/Hacks/多版本Python共存.md"
               }
             }
           },
@@ -188,12 +213,15 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "e06322c193b50a82",
+  "active": "8e1312b70505a5e4",
   "lastOpenFiles": [
+    "Linux/Hacks/Ubuntu安装中文输入法.md",
+    "Linux/Hacks/多版本Python共存.md",
+    "!待办.md",
+    "课程-计算机科学/操作系统/xv6源码阅读.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "Linux/Basics/Linux命令行文本处理.md",
     "2024考研/数学/总结/Z08-微分方程.md",
-    "课程-计算机科学/操作系统/xv6源码阅读.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
     "AI/动手学深度学习/05-深度学习计算.md",
     "课程-计算机科学/操作系统",
@@ -226,10 +254,7 @@
     "2024考研/复试/面试-非专业问题.md",
     "2024考研/复试/计算理论.md",
     "附件/Pasted image 20240826211728.png",
-    "编程语言/Python/003-Python数据交换.md",
-    "Web前端/Vue/014-Vuex.md",
     "编程语言/Python/Matplotlib",
-    "AI/机器学习复习/03-线性分类.md",
     "AI/动手学深度学习",
     "附件/todolist.drawio.png",
     "附件/Pasted image 20240815114417.png",
