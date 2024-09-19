@@ -25,19 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+                "file": "Linux/Hacks/建立并运行Docker容器.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f26d3b894cd1c230",
+            "id": "4b26a688ac955b17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!待办.md",
+                "file": "Linux/Hacks/CentOS网络驱动器.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!待办.md",
+                "file": "Linux/Hacks/CentOS网络驱动器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "!待办.md",
+                "file": "Linux/Hacks/CentOS网络驱动器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "!待办.md"
+                "file": "Linux/Hacks/CentOS网络驱动器.md"
               }
             }
           },
@@ -201,15 +201,19 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "f26d3b894cd1c230",
+  "active": "4b26a688ac955b17",
   "lastOpenFiles": [
+    "Linux/Hacks/建立并运行Docker容器.md",
+    "Linux/Hacks/CentOS网络驱动器.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+    "Linux/Hacks/Ubuntu版本号的别名.md",
+    "课程-计算机科学/操作系统/xv6源码阅读.md",
+    "!待办.md",
+    "Linux/Hacks/WSL与Hyper-V共存.md",
     "LaTeX/algorithm2e宏包.md",
     "2024考研/408/数据结构/DS08-排序.md",
-    "课程-计算机科学/操作系统/xv6源码阅读.md",
     "Linux/Hacks/Ubuntu安装中文输入法.md",
     "Linux/Hacks/多版本Python共存.md",
-    "!待办.md",
     "Linux/Basics/Linux命令行文本处理.md",
     "2024考研/数学/总结/Z08-微分方程.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
@@ -231,15 +235,11 @@
     "课程-计算机科学",
     "AI/动手学深度学习/03-线性神经网络.md",
     "读书笔记/命令行的艺术.md",
-    "读书笔记/是大臣、是首相.md",
-    "科研/计算机科研概述.md",
-    "编程语言/Python/Matplotlib/01-Matplotlib基础.md",
     "附件/Pasted image 20240901135519.png",
     "附件/Pasted image 20240829170319.png",
     "附件/Pasted image 20240829165925.png",
     "附件/Pasted image 20240829165724.png",
     "附件/Pasted image 20240829104418.png",
-    "2024考研/数学/总结/Z19-大数定律与中心极限定理.md",
     "附件/Pasted image 20240827165555.png",
     "附件/Pasted image 20240826211728.png",
     "编程语言/Python/Matplotlib",
