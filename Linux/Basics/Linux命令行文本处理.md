@@ -432,6 +432,12 @@ $ sed -r 's/([0-9]+) ([a-z]+)/\2 \1/' input.txt > output.txt
 $ sed '=' input.txt | sed 'N;s/\n/ /' > output.txt
 ```
 
+或者给每行的首尾加双引号：
+
+```sh
+$ sed 's/^/"/;s/$/"/' input.txt
+```
+
 字符集替换最常用于替换大小写字母：
 
 ```bash
