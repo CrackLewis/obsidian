@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "42fc93cba415711f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Basics/Linux用户管理（WIP）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Basics/Linux用户管理（WIP）.md",
+                "file": "课程-计算机科学/操作系统/xv6源码阅读.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Basics/Linux用户管理（WIP）.md",
+                "file": "课程-计算机科学/操作系统/xv6源码阅读.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Basics/Linux用户管理（WIP）.md"
+                "file": "课程-计算机科学/操作系统/xv6源码阅读.md"
               }
             }
           },
@@ -175,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,12 +176,17 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "42fc93cba415711f",
+  "active": "e06322c193b50a82",
   "lastOpenFiles": [
-    "课程-计算机科学/操作系统/xv6源码阅读.md",
-    "Linux/Hacks/建立并运行Docker容器.md",
-    "Linux/Basics/Linux进程管理.md",
     "Linux/Basics/Linux用户管理（WIP）.md",
+    "杂项/Docker/01-Docker入门.md",
+    "Linux/Hacks/建立并运行Docker容器.md",
+    "Linux/Hacks/一次Ubuntu装机记录.md",
+    "课程-计算机科学/操作系统/xv6源码阅读.md",
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+    "附件/Pasted image 20240920143944.png",
+    "AI/动手学深度学习/01&02-深度学习预备知识.md",
+    "Linux/Basics/Linux进程管理.md",
     "Linux/Basics/Linux命令行文本处理.md",
     "Linux/Basics/Linux外存和文件管理.md",
     "Linux/Hacks/CentOS网络驱动器.md",
@@ -212,15 +203,11 @@
     "AI/动手学深度学习/05-深度学习计算.md",
     "课程-计算机科学/操作系统",
     "Linux/Basics/tmux.md",
-    "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "课程-计算机科学/软件工程/荆琦-软件需求工程.md",
     "课程-计算机科学/软件工程",
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "AI/动手学深度学习/04-多层感知机.md",
     "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
     "课程-计算机科学/云计算",
-    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
-    "课程项目/MIT-MissingSemester.md",
     "课程-数学",
     "课程-其他",
     "课程-计算机科学",
@@ -236,7 +223,6 @@
     "附件/todolist.drawio.png",
     "附件/Pasted image 20240815114417.png",
     "编程语言/Haskell",
-    "附件/Pasted image 20240803120012.png",
     "课程项目/NJU-OS",
     "编程语言/Cpp/未命名.canvas"
   ]

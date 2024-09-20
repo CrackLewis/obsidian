@@ -1,7 +1,7 @@
 
 ## 环境配置
 
-
+烂尾了，靠一个Docker镜像续命中
 
 ## 有关文件
 
@@ -66,5 +66,10 @@
 - `swtch.S`：切换进程上下文
 - `trampoline.S`：用户态自陷（trap）的底层实现
 
-## 进程管理
+## 读手册
 
+[book-riscv-rev4](https://pdos.csail.mit.edu/6.828/2024/xv6/book-riscv-rev4.pdf)
+
+### ch01-os界面
+
+进程=用户内存空间+PCB
