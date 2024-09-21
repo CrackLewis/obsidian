@@ -73,3 +73,38 @@
 ### ch01-os界面
 
 进程=用户内存空间+PCB
+- fork
+- exit
+- wait
+- kill
+- getpid
+- sleep
+- exec
+- sbrk
+
+万物皆文件：外存文件、目录、设备、管道等
+- open、close
+- read、write
+- dup：复制fd到第一个可用的空余fd
+
+管道：由2个文件描述符`(p,q)`表示的内核缓冲区，从`q`写入的数据可以被`p`读出。
+- pipe
+
+文件系统：描述系统资源层次结构的系统
+- chdir、mkdir
+- mknod：创建一个设备文件
+- fstat：获取文件信息
+- link：创建软链接
+- unlink：删除文件
+
+### ch02-os组织
+
+- time-share resources among processes
+- ensure all processes can be executed
+- isolation (but not complete)
+
+ref: The RISC-V Reader: An Open Architecture Atlas
+
+qemu: RISC-V hardware simulator
+- RAM+ROM (with boot code)+serial ports+disk
+
