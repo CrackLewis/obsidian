@@ -197,17 +197,57 @@ Boot process:
 	- affect kernel and other processes in manners that syscall allow
 - OS code is expected to be bug-free, robust and reasonable
 
-2.8: real world (WIP)
-
 ### ch03-页表（WIP）
 
 ### ch04-自陷、系统调用
+
+额外参考资料：
+- [blog: RISC-V中断异常机制](https://blog.csdn.net/zzy980511/article/details/130642258)
 
 three cases that CPU needs to handle in kernel mode:
 - system calls
 - exceptions: instr. does smth. illegal (div0, priv. lvl. breach, illegal virt. addr., etc.)
 - device interrupts: a device signals that it needs the machine's attention
 
-*traps*: a generic term for all three above
+*traps*: a generic term for all three cases above
+- traps are transparent: app need not know they happened
+- all xv6 traps are handled in kernel
+- trap handling proceeds in four stages: 
+	- hw. actions by RISC-V CPU to detect traps and transfer PC
+	- asm. instrs. prepares the way for kernel code
+	- kernel code decides what to do with the trap
+	- respective trap service routine
+- *handler* (中断处理程序): codes that process traps
+- *vector* (中断向量): the first handler instructions in asm., indicating the handler addr.
+
+4.1: RISC-V trap machinery
+- trap-related registers:
+	- `stvec`: trap handler addr.
+	- `sepc`: the PC value before trap
+	- `scause`: trap cause
+	- `sscratch`: addr. to trapframe, a piece of memory that stores gpregs.
+	- `sstatus`: SIE bit controls whether device interrupts are enabled, SPP bit indicates the source being user or supervisor mode
+- when CPU needs to force a trap, it does:
+	- if the trap is dev. intrpt. and SIE=0, then the trap is blocked and no more further action is done
+	- disable intrpts. by setting SIE=0
+	- copy PC to `sepc`
+	- save the current mode (user or sup.) in SPP
+	- set `scause` to reflect the trap cause
+	- set the mode to sup.
+	- copy `stvec` to PC
+	- start exec.ing codes at new PC
+	- *NOTE*: CPU doesn't save gpregs., switch to kernel pgtab. or switch to kernel stack. these are kernel jobs.
+
+4.2: traps from user space
+- types: syscall, illegal actions, dev. intrpts.
+- paths:
+	- `uservec` (*kernel/trampoline.S:22*)
+	- `usertrap` (*kernel/trap.c:37*)
+	- `usertrapret` (*kernel/trap.c:90*)
+	- `userret` (*kernel/trampoline.S:101*)
+- a constraint on xv6 trap handling and its counter-measure:
+	- CPU doesn't switch pgtab when it forces a trap, which means the trap handler addr must have a valid mapping in the user pgtab
+	- trap-handling code needs to switch to kernel pgtab to execute after switching, so the kernel pgtab must also map the trap handler correctly
+	- cou
 
 ### ch05-中断、设备驱动
