@@ -188,3 +188,26 @@ Boot process:
 - `/init` creates a new console device file if needed, and then opens it as fd 0, 1, and 2
 - `/init` starts a shell on the console
 - the system is up
+
+2.7: security model
+- OS must assume users will try to wreck the system in every manner possible (illegal memory access, r/w ctrl. regs., directly access hw., tricking kernels to do smth. stupid, etc.), and must prioritize providing security against malice
+- OS must make sure each user can only:
+	- r/w/exec its own memory
+	- use 32 general-purpose RISC-V regs.
+	- affect kernel and other processes in manners that syscall allow
+- OS code is expected to be bug-free, robust and reasonable
+
+2.8: real world (WIP)
+
+### ch03-页表（WIP）
+
+### ch04-自陷、系统调用
+
+three cases that CPU needs to handle in kernel mode:
+- system calls
+- exceptions: instr. does smth. illegal (div0, priv. lvl. breach, illegal virt. addr., etc.)
+- device interrupts: a device signals that it needs the machine's attention
+
+*traps*: a generic term for all three above
+
+### ch05-中断、设备驱动
