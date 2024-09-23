@@ -272,5 +272,8 @@ three cases that CPU needs to handle in kernel mode:
 
 4.3: code: calling system calls
 
+(take the `exec` syscall for example)
+
+- `initcode.S` places syscall args for `exec` in `a0` and `a1`
 
 ### ch05-中断、设备驱动
