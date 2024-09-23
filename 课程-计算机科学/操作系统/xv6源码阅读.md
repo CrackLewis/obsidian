@@ -246,8 +246,31 @@ three cases that CPU needs to handle in kernel mode:
 	- `usertrapret` (*kernel/trap.c:90*)
 	- `userret` (*kernel/trampoline.S:101*)
 - a constraint on xv6 trap handling and its counter-measure:
-	- CPU doesn't switch pgtab when it forces a trap, which means the trap handler addr must have a valid mapping in the user pgtab
-	- trap-handling code needs to switch to kernel pgtab to execute after switching, so the kernel pgtab must also map the trap handler correctly
-	- cou
+	- CPU doesn't switch pgtab when it forces a trap, which means the trap handler addr must have a valid mapping in the *user pgtab*
+	- trap-handling code needs to switch to kernel pgtab to execute after switching, so the *kernel pgtab* must also map the trap handler correctly
+	- counter-measure: *trampoline page*. 
+		- contains `uservec`, the trap-handling code that `stvec` points to
+		- the page is mapped at addr `TRAMPOLINE` in kernel and every process
+		- the first instr in `trampoline.S` is `csrw`, which saves `a0` to `sscratch`, then the following code uses `a0` to store other gpregs into *trapframe*
+			- trapframe is a structure that keeps gpregs in events of traps and is mapped to addr `TRAPFRAME` in each process. the physical addr is `p->trapframe`
+			- contains the addr of kernel stack, CPU's hartid, addr of `usertrap` func, and addr of kernel pgtab. they will later be retrieved by `uservec`
+		- after storing gpregs, `uservec` reads back from `sscratch` and carry on
+- func `usertrap`:
+	- changes `stvec` so that a trap in kernel will be handled by `kernelvec` instead
+	- saves the `sepc` reg (the saved user-mode PC), because this thread might yield the CPU to another process, which could return to user mode and modify `sepc`
+	- if the trap is a syscall, call func `syscall` to handle it
+	- if the trap is a device intrpt, call `devintr`
+	- otherwise it's an exception, kill the faulting process
+	- in syscall's case, add 4 to saved `sepc`
+	- on the way out, checks if the process needs to yield the CPU
+- returning to the user space:
+	- call `usertrapret`: sets up the RISC-V ctrl regs (`stvec` to `uservec`, `sepc` to saved PC) to prepare for a future trap from user space
+	- call `userret` on trampoline page: 
+		- switches `satp` to user pgtab (which will not affect the trampoline page exec)
+		- recovers trapframe from addr `TRAPFRAME`
+		- exec `sret` to return to user space
+
+4.3: code: calling system calls
+
 
 ### ch05-中断、设备驱动
