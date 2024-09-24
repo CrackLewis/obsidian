@@ -16,11 +16,11 @@ $ curl https://pyenv.run | bash
 pyenv在`~/.pyenv`目录下。需要通过修改`~/.bashrc`使它在每次终端启动时都能运作：
 
 ```sh
-$ echo -e '\n#pyenv' >>~/.bashrc
-$ echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc
-$ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-$ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
-$ source ~/.bashrc
+echo -e '\n#pyenv' >>~/.bashrc &&
+echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc &&
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc &&
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc &&
+source ~/.bashrc
 ```
 
 常见命令：

@@ -282,6 +282,26 @@ three cases that CPU needs to handle in kernel mode:
 	- 0 stands for success, non-zero stands for failure
 
 4.4: code: system call arguments
+- the kernel func `argint`, `argaddr`, `argfd` retrieves the n-th syscall arg from the trapframe. their backbone is `argraw` (*kernel/syscall.c:34*)
+- pointer arguments:
+	- some syscall receives addrs to r/w memory
+	- challenges: addrs might be buggy or malicious; xv6 kernel cannot use ordinary instrs to r/w user memory due to pgtab difference
+	- funcs like `fetchstr` (*kernel/syscall.c:25*) can safely transfer data to and from user space. its backbone is func `copyinstr` (*kernel/vm.c:415*)
+
+4.5: traps from kernel space
+- types: device interrupts when in kernel mode, exceptions
+- steps:
+	- `usertrap` points `stvec` to `kernelvec` (*kernel/kernelvec.S:12*)
+	- `kernelvec` pushes all 32 regs of the interrupted thread onto the stack, and jumps to `kerneltrap` (*kernel/trap.c:135*)
+	- `kerneltrap` calls `devintr` for dev intrpts and calls `panic` to terminate the kernel for exceptions (exceptions in kernel is almost always fatal)
+	- if the trap is a timer intrpt, the `kerneltrap` calls `yield` to yield the CPU
+	- `devintr` does its job
+	- when the work is done, `kerneltrap` restores `sepc`, `sstatus` and returns to `kernelvec`
+	- `kernelvec` pops 32 regs from stack and executes `sret`, which copies `sepc` to `pc` and resumes the interrupted code
+
+comparison: xv6 user trap VS kernel trap
+
+4.6: page-fault exceptions
 
 
 ### ch05-中断、设备驱动
