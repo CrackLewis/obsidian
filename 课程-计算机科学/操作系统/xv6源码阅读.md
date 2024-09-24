@@ -274,6 +274,14 @@ three cases that CPU needs to handle in kernel mode:
 
 (take the `exec` syscall for example)
 
-- `initcode.S` places syscall args for `exec` in `a0` and `a1`
+- `initcode.S` places syscall args for `exec` in `a0` and `a1`, and syscall number `SYS_exec` in `a7`
+- `ecall` instr traps into kernel and causes `uservec`, `usertrap`, and then `syscall`
+- `syscall` retrieves the syscall number from `a7` in trapframe, and uses it as an index in `syscalls` array to call the corresponding syscall func `sys_exec`
+- when `sys_exec` returns:
+	- the return value is recorded in `p->trapframe->a0`, which will cause the user-space call `exec()` to return that value
+	- 0 stands for success, non-zero stands for failure
+
+4.4: code: system call arguments
+
 
 ### ch05-中断、设备驱动
