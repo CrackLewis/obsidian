@@ -14,6 +14,8 @@
 - `\While{cond}{body}`：while循环
 - `\If{cond}{body}`：if语句
 - `\eIf{cond}{body}{altbody}`：if-else语句
+- `\tcc{comment}`：块状注释
+- `\tcp{comment}`：行级注释
 
 示例：
 
