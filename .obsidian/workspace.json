@@ -25,25 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/自然辩证法笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb9083938989984e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LaTeX/algorithm2e宏包.md",
+                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md"
+                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md"
               }
             }
           },
@@ -186,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,7 +189,7 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "e06322c193b50a82",
+  "active": "4b07ab7ff3bfc460",
   "lastOpenFiles": [
     "杂项/自然辩证法笔记.md",
     "LaTeX/algorithm2e宏包.md",
