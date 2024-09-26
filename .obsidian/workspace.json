@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
+                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
+                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md"
+                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md"
               }
             }
           },
@@ -189,11 +188,13 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "4b07ab7ff3bfc460",
+  "active": "e06322c193b50a82",
   "lastOpenFiles": [
+    "课程-计算机科学/操作系统/xv6源码阅读.md",
+    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+    "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "杂项/自然辩证法笔记.md",
     "LaTeX/algorithm2e宏包.md",
-    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "Linux/Hacks/建立并运行Docker容器.md",
     "Linux/Hacks/Samba网络驱动器.md",
     "Linux/Basics/Linux进程管理.md",
@@ -201,7 +202,6 @@
     "Linux/Hacks/通过X11创建远程图形界面.md",
     "Linux/Hacks/WSL与Hyper-V共存.md",
     "Linux/Hacks/多版本Python共存.md",
-    "课程-计算机科学/操作系统/xv6源码阅读.md",
     "Linux/Basics/Linux用户管理（WIP）.md",
     "杂项/Docker/01-Docker入门.md",
     "Linux/Hacks/一次Ubuntu装机记录.md",
@@ -218,7 +218,6 @@
     "AI/动手学深度学习/06-卷积神经网络.md",
     "AI/动手学深度学习/05-深度学习计算.md",
     "课程-计算机科学/操作系统",
-    "Linux/Basics/tmux.md",
     "课程-计算机科学/软件工程",
     "课程-计算机科学/云计算",
     "课程-数学",
