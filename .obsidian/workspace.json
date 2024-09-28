@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "c1ecce12719183f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4b07ab7ff3bfc460",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md"
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md"
               }
             }
           },
@@ -186,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,11 +213,12 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "e06322c193b50a82",
+  "active": "c1ecce12719183f0",
   "lastOpenFiles": [
+    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+    "课程-计算机科学/操作系统/xv6实验日志.md",
     "Linux/Basics/gdb.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
-    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "杂项/Git/01-Git基础.md",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "2024考研/复试/苏世C-复试专业课.md",
@@ -229,7 +243,6 @@
     "Linux/Hacks/一次Ubuntu装机记录.md",
     "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "附件/Pasted image 20240920143944.png",
-    "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
     "课程-计算机科学/云计算",
