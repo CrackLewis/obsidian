@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md"
+                "file": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md"
               }
             }
           },
@@ -213,11 +212,11 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "c1ecce12719183f0",
+  "active": "e06322c193b50a82",
   "lastOpenFiles": [
+    "课程-计算机科学/操作系统/xv6实验日志.md",
     "Linux/Basics/gdb.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
-    "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
     "杂项/Git/01-Git基础.md",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
