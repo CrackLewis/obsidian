@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "AI/机器学习-周志华.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "AI/机器学习-周志华.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "AI/机器学习-周志华.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md"
+                "file": "AI/机器学习-周志华.md"
               }
             }
           },
@@ -199,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,10 +217,11 @@
   },
   "active": "c1ecce12719183f0",
   "lastOpenFiles": [
+    "课程-计算机科学/操作系统/xv6实验日志.md",
+    "AI/机器学习-周志华.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
-    "课程-计算机科学/操作系统/xv6实验日志.md",
     "Linux/Basics/gdb.md",
     "杂项/Git/01-Git基础.md",
     "2024考研/复试/苏世C-复试专业课.md",
@@ -241,7 +244,6 @@
     "Linux/Basics/Linux用户管理（WIP）.md",
     "杂项/Docker/01-Docker入门.md",
     "Linux/Hacks/一次Ubuntu装机记录.md",
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "附件/Pasted image 20240920143944.png",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
