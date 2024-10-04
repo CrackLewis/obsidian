@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "4b07ab7ff3bfc460",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6b83797eff42fa2c",
             "type": "leaf",
             "state": {
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
+                "file": "AI/机器学习-周志华.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
+                "file": "AI/机器学习-周志华.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣05-贪心.md"
+                "file": "AI/机器学习-周志华.md"
               }
             }
           },
@@ -203,10 +190,10 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "6b83797eff42fa2c",
+  "active": "c1ecce12719183f0",
   "lastOpenFiles": [
-    "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
+    "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "AI/机器学习-周志华.md",
     "Linux/Basics/gdb.md",
