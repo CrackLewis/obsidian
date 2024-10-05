@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
+                "file": "课程-计算机科学/算法/经典算法/力扣03-数学.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/机器学习-周志华.md",
+                "file": "课程-计算机科学/算法/经典算法/力扣03-数学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/机器学习-周志华.md",
+                "file": "课程-计算机科学/算法/经典算法/力扣03-数学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/机器学习-周志华.md"
+                "file": "课程-计算机科学/算法/经典算法/力扣03-数学.md"
               }
             }
           },
@@ -190,13 +191,13 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "c1ecce12719183f0",
+  "active": "6b83797eff42fa2c",
   "lastOpenFiles": [
-    "附件/Pasted image 20241004172046.png",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
+    "AI/机器学习-周志华.md",
+    "附件/Pasted image 20241004172046.png",
     "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
-    "AI/机器学习-周志华.md",
     "Linux/Basics/gdb.md",
     "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
@@ -236,7 +237,6 @@
     "编程语言/Python/Matplotlib",
     "AI/动手学深度学习",
     "附件/todolist.drawio.png",
-    "附件/Pasted image 20240815114417.png",
     "编程语言/Haskell",
     "编程语言/Cpp/未命名.canvas"
   ]
