@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣03-数学.md",
+                "file": "AI/机器学习-周志华.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣03-数学.md",
+                "file": "AI/机器学习-周志华.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣03-数学.md"
+                "file": "AI/机器学习-周志华.md"
               }
             }
           },
@@ -191,8 +190,10 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "6b83797eff42fa2c",
+  "active": "c1ecce12719183f0",
   "lastOpenFiles": [
+    "附件/Pasted image 20241005194225.png",
+    "课程-计算机科学/算法/经典算法/力扣03-数学.md",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
     "AI/机器学习-周志华.md",
     "附件/Pasted image 20241004172046.png",
@@ -219,7 +220,6 @@
     "Linux/Hacks/SSH相关.md",
     "Linux/Hacks/通过X11创建远程图形界面.md",
     "Linux/Hacks/WSL与Hyper-V共存.md",
-    "Linux/Hacks/多版本Python共存.md",
     "附件/Pasted image 20240920143944.png",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
