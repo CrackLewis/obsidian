@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣03-数学.md",
+                "file": "课程-数学/A01-初等代数.md",
                 "mode": "source",
                 "source": false
               }
@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,13 +204,21 @@
   },
   "active": "c1ecce12719183f0",
   "lastOpenFiles": [
+    "附件/Pasted image 20241008205143.png",
+    "Web前端/Vue/013-Vue 脚手架.md",
+    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
+    "AI/机器学习-周志华.md",
+    "2024考研/数学/错题/C26-24张宇八套卷.md",
+    "2024考研/数学/错题/C27-24合工大超越.md",
+    "2024考研/数学/错题/C22-23李林六套卷.md",
+    "2024考研/数学/错题/C21-数一真题专题.md",
+    "课程-数学/A01-初等代数.md",
+    "课程-计算机科学/算法/经典算法/力扣03-数学.md",
     "附件/Pasted image 20241007113610.png",
     "附件/Pasted image 20241006234905.png",
     "附件/Pasted image 20241006170543.png",
     "附件/Pasted image 20241006144641.png",
-    "Web前端/Vue/013-Vue 脚手架.md",
-    "课程-计算机科学/算法/经典算法/力扣03-数学.md",
-    "AI/机器学习-周志华.md",
     "附件/Pasted image 20241006105635.png",
     "附件/Pasted image 20241005194225.png",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
@@ -219,7 +228,6 @@
     "Linux/Basics/gdb.md",
     "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
-    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "杂项/Git/01-Git基础.md",
     "2024考研/复试/苏世C-复试专业课.md",
     "2024考研/复试/面试-非专业问题.md",
@@ -230,12 +238,6 @@
     "2024考研/复试/专业课汇总.md",
     "杂项/Git",
     "杂项/自然辩证法笔记.md",
-    "LaTeX/algorithm2e宏包.md",
-    "Linux/Hacks/建立并运行Docker容器.md",
-    "Linux/Hacks/Samba网络驱动器.md",
-    "Linux/Basics/Linux进程管理.md",
-    "Linux/Hacks/SSH相关.md",
-    "Linux/Hacks/通过X11创建远程图形界面.md",
     "附件/Pasted image 20240920143944.png",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
@@ -245,7 +247,6 @@
     "课程-计算机科学",
     "附件/Pasted image 20240901135519.png",
     "附件/Pasted image 20240829170319.png",
-    "附件/Pasted image 20240829165925.png",
     "编程语言/Python/Matplotlib",
     "AI/动手学深度学习",
     "编程语言/Haskell",
