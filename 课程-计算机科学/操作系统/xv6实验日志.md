@@ -240,7 +240,7 @@ $ cd testcases
 | `exit`         |     | D   |     |        |
 | `getpid`       |     | D   | ✔   | 240928 |
 | `getppid`      |     | D   | ✔   | 240928 |
-| `gettimeofday` |     | D   |     |        |
+| `gettimeofday` |     | D   | ❓   | 241011 |
 | `uname`        |     | D   |     |        |
 | `times`        |     | D   |     |        |
 | `brk`          |     | D   |     |        |
@@ -282,7 +282,25 @@ uint64 sys_getpid2(void) {
 
 经过试验，它能够通过测试用例，并符合操作系统逻辑。
 
-## 240930-exit
+## 241011-gettimeofday
 
-`exit`系统调用的作用是：以`status`状态码退出当前进程。
+十一假期期间在阅读导师布置的材料，耽搁了一些进度。
 
+`gettimeofday`调用要求返回系统时钟的秒数和毫秒数。按照规范，返回的应当为Unix时间戳，但由于赛题给出的编译指令没有打开QEMU实时时钟，所以采用返回CPU时钟计数器的方式。
+
+```c
+uint64 sys_gettimeofday(void) {
+  uint64 p_ts, tsc;
+  int tz;
+
+  if (argaddr(0, &p_ts) < 0 || argint(1, &tz)) return -1;
+
+  tsc = r_time();
+  *(uint64*)(p_ts + 0) = tsc / 12500000ull;
+  *(uint64*)(p_ts + 8) = (tsc % 12500000ull) * 80ull / 1000ull;
+
+  return 0;
+}
+```
+
+目前测试程序报告通过，但返回时间是否合理有待进一步检验。
