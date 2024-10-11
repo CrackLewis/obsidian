@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/机器学习-周志华.md",
+                "file": "AI/机器学习-周志华-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,8 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d1e94d8d5168f954",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/机器学习-周志华-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/机器学习-周志华.md",
+                "file": "AI/机器学习-周志华-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/机器学习-周志华.md",
+                "file": "AI/机器学习-周志华-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/机器学习-周志华.md"
+                "file": "AI/机器学习-周志华-1.md"
               }
             }
           },
@@ -201,11 +214,12 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "c1ecce12719183f0",
+  "active": "ca3543a5a24243e3",
   "lastOpenFiles": [
+    "AI/动手学深度学习/06-卷积神经网络.md",
+    "AI/机器学习-周志华-1.md",
     "2024考研/408/数据结构/DS08-排序.md",
     "Web前端/Vue/013-Vue 脚手架.md",
-    "AI/机器学习-周志华.md",
     "附件/Pasted image 20241008205143.png",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
@@ -237,7 +251,6 @@
     "2024考研/复试/编译原理-flex示例.md",
     "2024考研/复试/专业课汇总.md",
     "杂项/Git",
-    "杂项/自然辩证法笔记.md",
     "附件/Pasted image 20240920143944.png",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
