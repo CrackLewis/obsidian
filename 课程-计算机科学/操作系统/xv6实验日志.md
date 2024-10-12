@@ -235,34 +235,34 @@ $ cd testcases
 
 ## milestones
 
-| 系统调用           | 调用号 | 难度  | 进度  | 完成时间   |
-| -------------- | --- | --- | --- | ------ |
-| `exit`         |     | D   |     |        |
-| `getpid`       |     | D   | ✔   | 240928 |
-| `getppid`      |     | D   | ✔   | 240928 |
-| `gettimeofday` |     | D   | ❓   | 241011 |
-| `uname`        |     | D   |     |        |
-| `times`        |     | D   |     |        |
-| `brk`          |     | D   |     |        |
-| `clone`        |     | C   |     |        |
-| `fork`         |     | C   |     |        |
-| `wait`         |     | C   |     |        |
-| `waitpid`      |     | C   |     |        |
-| `mmap`         |     | C   |     |        |
-| `munmap`       |     | C   |     |        |
-| `execve`       |     | C   |     |        |
-| `close`        |     | B   |     |        |
-| `dup`          |     | B   |     |        |
-| `dup2`         |     | B   |     |        |
-| `pipe`         |     | B   |     |        |
-| `read`         |     | B   |     |        |
-| `write`        |     | B   |     |        |
-| `openat`       |     | A   |     |        |
-| `open`         |     | A   |     |        |
-| `fstat`        |     | A   |     |        |
-| `getdents`     |     | A   |     |        |
-| `chdir`        |     | A   |     |        |
-| `getcwd`       |     | A   |     |        |
+| 系统调用                                   | 难度  | 进度  | 完成时间   |
+| -------------------------------------- | --- | --- | ------ |
+| `exit`                                 | D   |     |        |
+| `getpid`                               | D   | ✔   | 240928 |
+| `getppid`                              | D   | ✔   | 240928 |
+| [[#241011-gettimeofday\|gettimeofday]] | D   | ❓   | 241011 |
+| [[#241012-uname\|uname]]               | D   | ✔   | 241012 |
+| [[#241012-times\|times]]               | D   | ❓   | 241012 |
+| `brk`                                  | D   | ✔   | 241012 |
+| `clone`                                | C   |     |        |
+| `fork`                                 | C   |     |        |
+| `wait`                                 | C   |     |        |
+| `waitpid`                              | C   |     |        |
+| `mmap`                                 | C   |     |        |
+| `munmap`                               | C   |     |        |
+| `execve`                               | C   |     |        |
+| `close`                                | B   |     |        |
+| `dup`                                  | B   |     |        |
+| `dup2`                                 | B   |     |        |
+| `pipe`                                 | B   |     |        |
+| `read`                                 | B   |     |        |
+| `write`                                | B   |     |        |
+| `openat`                               | A   |     |        |
+| `open`                                 | A   |     |        |
+| `fstat`                                | A   |     |        |
+| `getdents`                             | A   |     |        |
+| `chdir`                                | A   |     |        |
+| `getcwd`                               | A   |     |        |
 
 ## 240928-getpid/getppid
 
@@ -304,3 +304,281 @@ uint64 sys_gettimeofday(void) {
 ```
 
 目前测试程序报告通过，但返回时间是否合理有待进一步检验。
+
+## 241012-uname
+
+`uname`用于返回操作系统的信息。
+
+为了实现尽量简单，输出采用硬编码方式。
+
+```c
+const static char* __sysname = "xv6-qemu";
+const static char* __nodename = "CrackLewis";
+const static char* __release = "Alpha";
+const static char* __version = "0.1.0";
+const static char* __machine = "qemu-system-riscv64";
+const static char* __domainname = "local";
+
+uint64 sys_uname(void) {
+  uint64 uts_addr;
+  struct utsname {
+    char sysname[65];
+    char nodename[65];
+    char release[65];
+    char version[65];
+    char machine[65];
+    char domainname[65];
+  }* p_uts;
+
+  if (argaddr(0, &uts_addr) < 0) return -1;
+  p_uts = (struct utsname*)uts_addr;
+
+  safestrcpy(p_uts->sysname, __sysname, strlen(__sysname) + 1);
+  safestrcpy(p_uts->nodename, __nodename, strlen(__nodename) + 1);
+  safestrcpy(p_uts->release, __release, strlen(__release) + 1);
+  safestrcpy(p_uts->version, __version, strlen(__version) + 1);
+  safestrcpy(p_uts->machine, __machine, strlen(__machine) + 1);
+  safestrcpy(p_uts->domainname, __domainname, strlen(__domainname) + 1);
+
+  return 0;
+}
+```
+
+## 241012-times
+
+`times`要求返回当前进程在用户态和内核态各执行了多少刻，以及它的子进程执行了多少刻，返回值写入到用户程序提供的结构体地址中。
+
+由于xv6的进程控制结构`proc`还没有记录运行时间的字段，所以考虑添加以下6个字段：
+
+```c
+struct proc {
+  // 其他成员
+  
+  // times-related: defs
+  uint64 usince;               // user time since
+  uint64 ssince;               // system time since
+  uint64 utime;                // user time
+  uint64 stime;                // system time
+  uint64 cutime;               // children user time
+  uint64 cstime;               // children system time
+};
+```
+
+`usince`和`ssince`字段分别记录进程最近一次进入用户态和内核态的时刻，如果进程当前不在对应状态则置为0。
+
+`utime`和`stime`字段记录当前进程在用户态和内核态的执行刻数。
+
+`cutime`和`cstime`字段记录当前进程所有已结束子进程在用户态和内核态的总执行刻数。
+
+进程生命周期内，有如下情形会造成进程状态转换：
+- 进程被某个CPU的`scheduler`选中，由就绪态转为运行态
+- 进程放弃CPU，由运行态转为阻塞/就绪态
+- 进程触发中断，进入内核态
+- 进程离开中断，进入用户态
+
+对内核作如下修改：
+
+第一处，在`kernel/proc.c:allocproc`中增加对6个字段的初始化逻辑：
+
+```c
+static struct proc *allocproc(void) {
+  // ...
+
+found:
+  p->pid = allocpid();
+
+  // times-related
+  p->utime = p->stime = p->cutime = p->cstime = 0;
+  p->usince = p->ssince = 0;
+
+  // goes on
+}
+```
+
+第二处，在`kernel/proc.c:sched`中增加进程让出CPU的逻辑：将已运行的时间记录在`utime`、`stime`中，并将`usince`和`ssince`清零。
+
+```c
+void sched(void) {
+  // ...
+
+  intena = mycpu()->intena;
+  // times-related: process p stops running in system mode
+  if (p->ssince) p->stime += r_time() - p->ssince;
+  if (p->usince) p->utime += r_time() - p->usince;
+  p->ssince = p->usince = 0;
+
+  swtch(&p->context, &mycpu()->context);
+  mycpu()->intena = intena;
+}
+```
+
+第三处，在`kernel/proc.c:scheduler`中增加进程获得CPU的逻辑：当前时刻记录在`usince`中，开始运行于用户态。
+
+```c
+void scheduler(void) {
+  // ...
+  for (;;) {
+    // ...
+    for (p = proc; p < &proc[NPROC]; p++) {
+      acquire(&p->lock);
+      if (p->state == RUNNABLE) {
+        // switch to chosen process
+        p->state = RUNNING;
+        c->proc = p;
+
+        // times-related: process p starts running in user mode
+        p->usince = r_time();
+
+        // process p starts then and returns here
+        // ...
+      }
+      release(&p->lock);
+    }
+    // ...
+  }
+}
+```
+
+第四处，在`kernel/trap.c:usertrap`中增加进程切换到内核态中的逻辑：当前时刻与`usince`的差值增加到`utime`中，`ssince`设置为当前时刻。
+
+```c
+void usertrap(void) {
+  // ...
+  struct proc *p = myproc();
+
+  // times-related: process p stops running in user mode and
+  // starts running in system mode
+  if (p->usince) p->utime += r_time() - p->usince;
+  p->usince = 0;
+  p->ssince = r_time();
+
+  // save user program counter.
+  p->trapframe->epc = r_sepc();
+  // goes on...
+}
+```
+
+第五处，在`kernel/trap.c:usertrapret`中增加进程切换回用户态的逻辑：当前时刻与`ssince`的差值增加到`stime`中，`usince`设置为当前时刻。
+
+```c
+void usertrapret(void) {
+  struct proc *p = myproc();
+
+  // ...
+  p->trapframe->kernel_hartid = r_tp();  // hartid for cpuid()
+
+  // times-related: process p stops running in system mode and starts running in
+  // user mode
+  if (p->ssince) p->stime += r_time() - p->ssince;
+  p->ssince = 0;
+  p->usince = r_time();
+
+  // goes on...
+}
+```
+
+第六处，在`kernel/proc.c:wait`中增加子进程退出的逻辑，其父进程将记录子进程的运行时间到`cutime`和`cstime`。
+
+```c
+int wait(uint64 addr) {
+  struct proc *np;
+  int havekids, pid;
+  struct proc *p = myproc();
+  // ...
+
+  for (;;) {
+    // ...
+    for (np = proc; np < &proc[NPROC]; np++) {
+      if (np->parent == p) {
+        // ...
+        if (np->state == ZOMBIE) {
+          // found one!
+          
+          // times-related: update cutime and cstime
+          p->cutime += np->utime + np->cutime;
+          p->cstime += np->stime + np->cstime;
+
+          // ...
+        }
+        // ...
+      }
+    }
+    // ...
+  }
+}
+```
+
+最后实现系统调用。它访问当前进程的`utime`、`stime`、`cutime`和`cstime`4个成员：
+
+```c
+uint64 sys_times(void) {
+  uint64 addr_tms;
+  struct tms {
+    long tms_utime;
+    long tms_stime;
+    long tms_cutime;
+    long tms_cstime;
+  } *p_tms;
+
+  if (argaddr(0, &addr_tms) < 0) return -1;
+
+  p_tms = (struct tms*)addr_tms;
+  p_tms->tms_utime = myproc()->utime;
+  p_tms->tms_stime = myproc()->stime;
+  p_tms->tms_cutime = myproc()->cutime;
+  p_tms->tms_cstime = myproc()->cstime;
+
+  return 0;
+}
+```
+
+该实现能够通过官方测试用例。然而，该实现是基于内核行为对程序时间进行的粗略估计，是否能够真实无误地反映程序用时有待进一步考察。
+
+## 241012-brk
+
+`brk`系统调用可以查询进程内存地址空间的末端，或将内存空间长度进行变更。
+
+在Linux下`brk`只返回0或-1，表示执行是否成功。但官方测试用例要求在执行成功时，返回新的程序末端地址。
+
+实现思路：借助`growproc`方法实现。
+
+```c
+uint64 sys_brk(void) {
+  int new_end, old_end, n;
+
+  if (argint(0, &new_end) < 0) return -1;
+  old_end = myproc()->sz;
+  if (new_end == 0) {
+    return old_end;
+  }
+
+  n = new_end - old_end;
+  return growproc(n) == 0 ? new_end : old_end;
+}
+```
+
+## 241012-首次提交评测
+
+首次提交，喜提零鸭蛋。
+
+读文档发现评测不是交互程序，而是内核启动后需要自己跑完所有用例，遂修改`init.c`。
+
+然后修改`init.c`之后发现仍然没用。。。后来仔细阅读文档才发现评测平台采用的是自己的镜像，不会重新制作镜像，因此任何用户程序都不能跑在上面，所以需要照着文档的方法自己将`init.c`的可执行程序dump成16进制码，替换掉原本的`initcode`。
+
+生成16进制码的指令如下：
+
+```
+xxd -p -c 1 _init | tr -d '\n' | sed 's/\(..\)/0x\1,/g' >init.hex
+```
+
+但是整个可执行文件有24KB左右，远超出了`init`进程内存不超过4KB的要求。于是考虑通过objdump指令寻求有用的部分：
+
+```
+riscv64-unknown-elf-objdump -s -d _init >init.out
+```
+
+发现只有`.text`、`.rodata`和`.data`三个段有用，而这三个段大约2500字节，低于4KB。于是手工截取了`init.hex`文件中的对应部分，替换掉了原来的`initcode`数组。
+
+19/100
+
+## 

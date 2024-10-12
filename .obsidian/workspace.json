@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c1ecce12719183f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/机器学习-周志华-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6b83797eff42fa2c",
             "type": "leaf",
             "state": {
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,20 +203,20 @@
   },
   "active": "47c9fe85767f8801",
   "lastOpenFiles": [
-    "课程-计算机科学/操作系统/xv6源码阅读.md",
     "AI/机器学习-周志华-1.md",
     "课程-计算机科学/操作系统/xv6实验日志.md",
+    "课程-数学/A01-初等代数.md",
+    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+    "课程-计算机科学/操作系统/xv6源码阅读.md",
+    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "2024考研/408/数据结构/DS08-排序.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
     "Web前端/Vue/013-Vue 脚手架.md",
     "附件/Pasted image 20241008205143.png",
-    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
-    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "2024考研/数学/错题/C26-24张宇八套卷.md",
     "2024考研/数学/错题/C27-24合工大超越.md",
     "2024考研/数学/错题/C22-23李林六套卷.md",
     "2024考研/数学/错题/C21-数一真题专题.md",
-    "课程-数学/A01-初等代数.md",
     "课程-计算机科学/算法/经典算法/力扣03-数学.md",
     "附件/Pasted image 20241007113610.png",
     "附件/Pasted image 20241006234905.png",
