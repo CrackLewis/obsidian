@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6源码阅读.md",
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/机器学习-周志华-1.md",
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/机器学习-周志华-1.md",
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/机器学习-周志华-1.md"
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md"
               }
             }
           },
@@ -214,12 +214,12 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "d1e94d8d5168f954",
+  "active": "47c9fe85767f8801",
   "lastOpenFiles": [
     "课程-计算机科学/操作系统/xv6源码阅读.md",
+    "AI/机器学习-周志华-1.md",
     "课程-计算机科学/操作系统/xv6实验日志.md",
     "2024考研/408/数据结构/DS08-排序.md",
-    "AI/机器学习-周志华-1.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
     "Web前端/Vue/013-Vue 脚手架.md",
     "附件/Pasted image 20241008205143.png",
