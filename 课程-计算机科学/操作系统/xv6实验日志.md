@@ -579,6 +579,6 @@ riscv64-unknown-elf-objdump -s -d _init >init.out
 
 发现只有`.text`、`.rodata`和`.data`三个段有用，而这三个段大约2500字节，低于4KB。于是手工截取了`init.hex`文件中的对应部分，替换掉了原来的`initcode`数组。
 
-19/100
+pts: 19/100
 
 ## 
