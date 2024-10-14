@@ -581,4 +581,6 @@ riscv64-unknown-elf-objdump -s -d _init >init.out
 
 pts: 19/100
 
-## 241013-
+## 241013-fork
+
+fork用例要求实现`clone`系统调用。
