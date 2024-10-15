@@ -244,10 +244,10 @@ $ cd testcases
 | [[#241012-uname\|uname]]               | D   | ✔   | 241012 |
 | [[#241012-times\|times]]               | D   | ❓   | 241012 |
 | [[#241012-brk\|brk]]                   | D   | ✔   | 241012 |
-| `clone`                                | C   |     |        |
-| `fork`                                 | C   |     |        |
-| `wait`                                 | C   |     |        |
-| `waitpid`                              | C   |     |        |
+| `clone`                                | C   | ❓   | 241015 |
+| `fork`                                 | C   | ✔   | 241015 |
+| `wait`                                 | C   | ❓   | 241015 |
+| `waitpid`                              | C   | ✔   | 241015 |
 | `mmap`                                 | C   |     |        |
 | `munmap`                               | C   |     |        |
 | `execve`                               | C   |     |        |
@@ -581,6 +581,212 @@ riscv64-unknown-elf-objdump -s -d _init >init.out
 
 pts: 19/100
 
-## 241013-fork
+## 241015-fork/clone
 
-fork用例要求实现`clone`系统调用。
+fork和clone用例都要求实现`clone`系统调用，它创建一个子线程。该系统调用也是exit等其他进程管理相关用例的基础。
+
+关于`clone`系统调用的资料比较混乱，这里是个人整理的结果：
+
+系统层面，clone接受5个参数：
+- `uint64 flags`：创建标志，如SIGCHLD等
+- `uint64 stack`：指定新进程的栈，可为0
+- `int ptid`：父线程ID
+- `uint64 tls`：线程本地存储描述符
+- `int ctid`：子线程ID
+
+clone用例的使用情况：
+
+![[Pasted image 20241015201718.png]]
+
+fork用例使用：`flags=SIGCHLD (17)`、`stack=0`
+
+由于赛题尚未对后三个参数做出实现要求，所以实现前两个即可。
+
+根据fork、clone用例的使用情况，可以确定一个大致的框架：
+
+```c
+// kernel/proc.c
+int clone(uint64 fn, uint64 stack) {
+	...
+}
+
+// kernel/sysproc2.c
+uint64 sys_clone(void) {
+  uint64 flags, stack;
+  if (argaddr(0, &flags) < 0 || argaddr(1, &stack) < 0) return -1;
+
+  if (stack == 0) return fork();
+
+  // ...
+}
+```
+
+这个框架并未实际使用到`clone`系统调用，但却可以通过fork用例。
+
+回到clone用例，看接下来的事情：
+- 测试用例在指定了`stack`地址后，在用例的`syscall.c`文件中将`stack`置于栈底。
+- `clone.s`将`fn`和`arg`两项压入栈底。
+- `clone.s`最终执行`clone`系统调用。
+
+可见整个过程与`flags`并无太大关联，至少在赛题层面是如此，但需要在执行时取出`fn`。
+
+这是目前的实现：
+
+```c
+uint64 sys_clone(void) {
+  uint64 flags, stack;
+  uint64 fn_entry;
+  // the official document is a little weird, it states that there're 5
+  // arguments, but only the first two are used.
+
+  if (argaddr(0, &flags) < 0 || argaddr(1, &stack) < 0) return -1;
+
+  if (stack == 0) return fork();
+
+  // fetch fn_entry from stack
+  either_copyout(0, (uint64)&fn_entry, (void *)stack, sizeof(uint64));
+  return clone(fn_entry, stack);
+}
+
+int clone(uint64 fn_entry, uint64 stack) {
+  struct proc *np, *p = myproc();
+  int i, pid;
+
+  // Allocate process.
+  if ((np = allocproc()) == NULL) {
+    return -1;
+  }
+
+  // Copy user memory from parent to child.
+  if (uvmcopy(p->pagetable, np->pagetable, np->kpagetable, p->sz) < 0) {
+    freeproc(np);
+    release(&np->lock);
+    return -1;
+  }
+  np->sz = p->sz;
+  np->parent = p;
+  // copy tracing mask from parent.
+  np->tmask = p->tmask;
+  // copy saved user registers.
+  *(np->trapframe) = *(p->trapframe);
+
+  // Cause fork to return 0 in the child.
+  np->trapframe->a0 = 0;
+  // clone-specific: set the stack pointer and function entrypoint.
+  np->trapframe->sp = stack;
+  np->trapframe->epc = fn_entry;
+
+  // increment reference counts on open file descriptors.
+  for (i = 0; i < NOFILE; i++)
+    if (p->ofile[i]) np->ofile[i] = filedup(p->ofile[i]);
+  np->cwd = edup(p->cwd);
+
+  safestrcpy(np->name, p->name, sizeof(p->name));
+  pid = np->pid;
+
+  np->state = RUNNABLE;
+  release(&np->lock);
+
+  return pid;
+}
+```
+
+但一通操作下来，clone没过，仔细研读后发现还需要实现一个`wait4`系统调用。当然这是后话。
+
+## 241015-wait/waitpid
+
+wait和waitpid共同要求实现`wait4`系统调用。该系统调用可以：
+- 等待所有子进程，只要其中一个子进程状态变更即返回。
+- 等待单个子进程，待其状态改变后返回。
+
+赛题尚未对`options`参数有所要求，因此实现一个丐版的wait4：
+- 所有子进程的部分直接使用wait。
+- 对等待单个子进程的部分，另写一个waitpid函数实现。
+
+waitpid函数：
+
+```c
+int waitpid(int pid, uint64 addr, int options) {
+  struct proc *np;
+  struct proc *p = myproc();
+  int havekids;
+
+#define r_WEXITSTATUS(s) (s << 8);
+
+  acquire(&p->lock);
+
+  for (;;) {
+    // Scan through table looking for exited children.
+    havekids = 0;
+    for (np = proc; np < &proc[NPROC]; np++) {
+      if (np->parent == p && pid == np->pid) {
+        acquire(&np->lock);
+        havekids = 1;
+
+        if (np->state == ZOMBIE) {
+          // Found one.
+          int rs = r_WEXITSTATUS(np->xstate);
+          if (addr != 0 &&
+              copyout2(addr, (char *)&rs, sizeof(np->xstate)) < 0) {
+            release(&np->lock);
+            release(&p->lock);
+            return -1;
+          }
+          freeproc(np);
+          release(&np->lock);
+          release(&p->lock);
+          return pid;
+        }
+        release(&np->lock);
+      }
+    }
+
+    // No point waiting if we don't have any children.
+    if (!havekids || p->killed) {
+      release(&p->lock);
+      return -1;
+    }
+
+    // Wait for a child to exit.
+    sleep(p, &p->lock);  // DOC: wait-sleep
+  }
+
+#undef r_WEXITSTATUS
+}
+```
+
+其后是wait4系统调用函数：
+
+```c
+uint64 sys_wait4(void) {
+  int pid;
+  uint64 status_addr;
+  int options, ret;
+
+  if (argint(0, &pid) < 0 || argaddr(1, &status_addr) < 0 ||
+      argint(2, &options) < 0)
+    return -1;
+
+  if (pid == -1 || pid == 0) return wait(status_addr);
+  if (pid < -1) return -1;
+  return waitpid(pid, status_addr, options);
+}
+```
+
+测试用例通过。
+
+## 241015-yield
+
+yield用例要求实现`sched_yield`系统调用。由于xv6已经具备了完整的让出处理器的逻辑，所以实现简单：
+
+```c
+uint64 sys_sched_yield(void) {
+  yield();
+  return 0;
+}
+```
+
+pts: 47/100
+
+## 241015-mmap
+
