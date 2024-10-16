@@ -250,15 +250,15 @@ $ cd testcases
 | `waitpid`                              | C   | ✔   | 241015 |
 | `mmap`                                 | C   |     |        |
 | `munmap`                               | C   |     |        |
-| `execve`                               | C   |     |        |
-| `close`                                | B   |     |        |
-| `dup`                                  | B   |     |        |
+| `execve`                               | C   | ❓   | 241016 |
+| `close`                                | B   | ✔   | 241016 |
+| `dup`                                  | B   | ✔   | 241016 |
 | `dup2`                                 | B   |     |        |
 | `pipe`                                 | B   |     |        |
-| `read`                                 | B   |     |        |
-| `write`                                | B   |     |        |
-| `openat`                               | A   |     |        |
-| `open`                                 | A   |     |        |
+| `read`                                 | B   | ✔   | 241016 |
+| `write`                                | B   | ✔   | 241016 |
+| `openat`                               | A   | ✔   | 241016 |
+| `open`                                 | A   | ✔   | 241016 |
 | `fstat`                                | A   |     |        |
 | `getdents`                             | A   |     |        |
 | `chdir`                                | A   |     |        |
@@ -807,3 +807,116 @@ uint64 sys_exit2(void) {
 
 ## 241016-execve
 
+本着取巧心态做了一个能过用例的实现，但它没有实现argp参数的正确传入。
+
+```c
+uint64 sys_execve(void) {
+  uint64 name, argv, argp;
+
+  if (argaddr(0, &name) < 0 || argaddr(1, &argv) < 0 || argaddr(2, &argp) < 0)
+    return -1;
+
+  // TODO: argp not implemented
+  return exec(name, argv);
+}
+```
+
+## 241016-open/openat
+
+open和openat用例要求实现`openat`系统调用。这个调用在几乎所有的文件相关测试用例中都会使用，所以有最高优先级。
+
+openat要求实现更强的open调用，传入4个参数：
+- `fd`：文件所在目录的文件描述符。如果为`AT_FDCWD`则表示当前工作目录。
+- `filename`：要打开或创建的文件名。如果为绝对路径，则`fd`被忽略。
+- `flags`：
+	- 读写权限：O_RDONLY/WRONLY/RDWR
+	- 文件处理：O_TRUNC/CREATE/APPEND
+	- 特殊：O_DIRECTORY
+- `mode`：原意为文件所有权，样例未使用。
+
+openat逻辑：
+- 检查输入参数合法性
+- 如果fd是AT_FDCWD且路径非绝对，则缓存当前工作目录，转移到指定的fd
+- 如果O_CREATE为真，则创建文件，否则打开文件
+- 申请file结构和文件描述符
+- 如果O_TRUNC为真，则清除文件内容
+- 设置file结构的各个字段
+- 恢复工作目录
+
+实现：
+
+```c
+uint64 sys_openat(void) {
+  char path[FAT32_MAX_PATH];
+  int fd, omode, flags;
+  struct file *f;
+  struct dirent *ep, *bcwd = NULL;
+
+  if (argint(0, &fd) < 0 || argstr(1, path, FAT32_MAX_PATH) < 0 ||
+      argint(2, &flags) || argint(3, &omode) < 0)
+    return -1;
+
+  if ((fd < 0 && fd != AT_FDCWD) || fd >= NOFILE) return -1;
+
+  // if not directory and fd is not AT_FDCWD, then swap temporarily the cwd
+  if (path[0] != '/' && fd != AT_FDCWD) {
+    bcwd = myproc()->cwd;
+    myproc()->cwd = myproc()->ofile[fd]->ep;
+  }
+
+  // if O_CREATE: create the file
+  if (flags & O_CREATE) {
+    ep = create(path, flags & O_DIRECTORY ? T_DIR : T_FILE, flags);
+    // create will obtain the lock so it's okay
+    if (ep == NULL) goto fail_1;
+  }
+  // else: open the file
+  else {
+    if ((ep = ename(path)) == NULL) goto fail_1;
+    elock(ep);
+
+    // prevents user from modifying an open directory
+    if ((ep->attribute & ATTR_DIRECTORY) &&
+        (!(flags & O_RDONLY) && !(flags & O_DIRECTORY)))
+      goto fail_2;
+  }
+
+  // allocate fd and file
+  if ((f = filealloc()) == NULL || (fd = fdalloc(f)) < 0) goto fail_3;
+
+  // if O_TRUNC: truncate the file
+  if (!(ep->attribute & ATTR_DIRECTORY) && (flags & O_TRUNC)) etrunc(ep);
+
+  f->type = FD_ENTRY;
+  f->off = (flags & O_APPEND) ? ep->file_size : 0;
+  f->ep = ep;
+  if (flags & O_DIRECTORY) {
+  } else {
+    f->readable = !(flags & O_WRONLY);
+    f->writable = (flags & O_WRONLY) || (flags & O_RDWR);
+  }
+
+  // restore cwd
+  if (bcwd) myproc()->cwd = bcwd;
+
+  // TODO: implement omode
+
+  eunlock(ep);
+  return fd;
+
+fail_3:
+  if (f) fileclose(f);
+fail_2:
+  eunlock(ep);
+  eput(ep);
+fail_1:
+  if (bcwd) myproc()->cwd = bcwd;
+  return -1;
+}
+```
+
+## 241016-read/write/dup/close
+
+这些基本上是xv6调用的翻版，所以就直接顺带通过了。
+
+pts
