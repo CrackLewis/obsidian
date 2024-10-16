@@ -237,7 +237,7 @@ $ cd testcases
 
 | 系统调用                                   | 难度  | 进度  | 完成时间   |
 | -------------------------------------- | --- | --- | ------ |
-| `exit`                                 | D   |     |        |
+| `exit`                                 | D   | ✔   | 241016 |
 | `getpid`                               | D   | ✔   | 240928 |
 | `getppid`                              | D   | ✔   | 240928 |
 | [[#241011-gettimeofday\|gettimeofday]] | D   | ❓   | 241011 |
@@ -788,5 +788,22 @@ uint64 sys_sched_yield(void) {
 
 pts: 47/100
 
-## 241015-mmap
+## 241016-exit
+
+exit用例要求实现`fork`、`wait4`、`exit`3个调用。
+
+exit实现：
+
+```c
+uint64 sys_exit2(void) {
+  int n;
+  if (argint(0, &n) < 0) return -1;
+  exit(n);
+  return 0;  // not reached
+}
+```
+
+通过。
+
+## 241016-execve
 

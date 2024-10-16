@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md"
+                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md"
               }
             }
           },
@@ -191,9 +191,9 @@
   },
   "active": "47c9fe85767f8801",
   "lastOpenFiles": [
+    "课程-计算机科学/操作系统/xv6实验日志.md",
     "附件/Pasted image 20241015201718.png",
     "AI/机器学习-周志华-1.md",
-    "课程-计算机科学/操作系统/xv6实验日志.md",
     "AI/机器学习-周志华-2.md",
     "AI/机器学习-小黄鸭.md",
     "课程-数学/A01-初等代数.md",
@@ -218,7 +218,6 @@
     "附件/Pasted image 20241007113610.png",
     "附件/Pasted image 20241006234905.png",
     "附件/Pasted image 20241006170543.png",
-    "附件/Pasted image 20241006144641.png",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
     "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
