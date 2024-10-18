@@ -1118,7 +1118,47 @@ uint64 sys_dup3(void) {
 
 ## 241017-mkdir
 
+
+
+```c
+uint64 sys_mkdirat(void) {
+  int dirfd, mode;
+  char path[FAT32_MAX_PATH];
+  struct file *dirf;
+  struct dirent *bcwd = NULL, *ep;
+
+  if (argfd(0, &dirfd, &dirf) < 0 || argstr(1, path, FAT32_MAX_PATH) < 0 ||
+      argint(2, &mode) < 0)
+    goto fail_1;
+
+  // if dirfd is not AT_FDCWD: swap cwd
+  if (dirfd != AT_FDCWD) {
+    bcwd = myproc()->cwd;
+    myproc()->cwd = dirf->ep;
+  }
+
+  if ((ep = create(path, T_DIR, mode)) == NULL) goto fail_1;
+
+  eunlock(ep);
+  eput(ep);
+
+  // swap back
+  if (bcwd) myproc()->cwd = bcwd;
+  return 0;
+
+fail_1:
+  if (bcwd) myproc()->cwd = bcwd;
+  return -1;
+}
+```
+
 ## 241017-chdir
 
 ## 241017-mmap/munmap
 
+mmap/munmap两个用例要求实现`mmap`、`munmap`两个系统调用。这两个系统调用分别开辟内存空间用于映射文件或设备，以及撤销文件或设备的内存映射。
+
+mmap/munmap有如下已知特性：
+- 用户可自行指定映射位置，如果未指定则由系统指定一个
+- 映射首址必须对齐页边界，映射长度必须大于0。必须映射一个活动文件
+- 映射与文件是相对独立的

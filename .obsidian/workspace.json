@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/机器学习-周志华-2.md",
+                "file": "科研/普通图笔记-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "科研/普通图笔记-1.md",
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "科研/普通图笔记-1.md",
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/普通图笔记-1.md"
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md"
               }
             }
           },
@@ -213,12 +213,16 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "2e4cc0d8308a784c",
+  "active": "7c39d6ca3e84e0b1",
   "lastOpenFiles": [
-    "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
-    "AI/机器学习-周志华-2.md",
-    "课程-计算机科学/操作系统/xv6实验日志.md",
+    "课程-计算机科学/操作系统/xv6源码阅读.md",
+    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
+    "Web前端/前端规划.md",
     "科研/普通图笔记-1.md",
+    "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
+    "课程-计算机科学/操作系统/xv6实验日志.md",
+    "AI/机器学习-周志华-2.md",
     "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
     "科研/计算机科研概述.md",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
@@ -227,7 +231,6 @@
     "课程-计算机科学/算法/经典算法/贪心专题.md",
     "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "AI/机器学习-周志华-1.md",
-    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "附件/Pasted image 20241015201718.png",
     "AI/机器学习-小黄鸭.md",
     "课程-数学/A01-初等代数.md",
@@ -236,9 +239,7 @@
     "附件/Pasted image 20241015084353.png",
     "附件/Pasted image 20241015004556.png",
     "附件/Pasted image 20241015002701.png",
-    "课程-计算机科学/操作系统/xv6源码阅读.md",
     "附件/Pasted image 20241013144803.png",
-    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "2024考研/408/数据结构/DS08-排序.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
     "Web前端/Vue/013-Vue 脚手架.md",
@@ -250,7 +251,6 @@
     "附件/Pasted image 20241007113610.png",
     "附件/Pasted image 20241006234905.png",
     "附件/Pasted image 20241006170543.png",
-    "Linux/Basics/gdb.md",
     "杂项/Git",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
