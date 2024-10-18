@@ -877,7 +877,7 @@ uint64 sys_openat(void) {
 
     // prevents user from modifying an open directory
     if ((ep->attribute & ATTR_DIRECTORY) &&
-        (!(flags & O_RDONLY) && !(flags & O_DIRECTORY)))
+        (!(flags == O_RDONLY) && !(flags & O_DIRECTORY)))
       goto fail_2;
   }
 
@@ -928,16 +928,16 @@ pts: 62/104
 | 用例名      | 分值  | 状态  |
 | -------- | --- | --- |
 | sleep    | 1   | ❌   |
-| mmap     | 2   |     |
-| munmap   | 4   |     |
+| mmap     | 2   | ✔   |
+| munmap   | 4   | ✔   |
 | getdents | 5   |     |
 | mkdir    | 3   | ✔   |
 | chdir    | 3   | ✔   |
 | dup2     | 2   | ✔   |
 | fstat    | 3   | ✔   |
-| pipe     | 4   |     |
+| pipe     | 4   | ✔   |
 | umount   | 5   |     |
-| unlink   | 2   |     |
+| unlink   | 2   | ✔   |
 | mount    | 5   |     |
 | getcwd   | 1   | ✔   |
 
