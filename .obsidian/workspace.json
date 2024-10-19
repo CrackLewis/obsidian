@@ -50,6 +50,20 @@
             }
           },
           {
+            "id": "c24d9206e3ceec27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "科研/科研黑话.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "科研黑话"
+            }
+          },
+          {
             "id": "7c39d6ca3e84e0b1",
             "type": "leaf",
             "state": {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
-    "collapsed": true
+    "width": 333.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -147,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "科研/普通图笔记-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "xv6实验日志 的反向链接列表"
+              "title": "普通图笔记-1 的反向链接列表"
             }
           },
           {
@@ -166,12 +179,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "科研/普通图笔记-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "xv6实验日志 的出链列表"
+              "title": "普通图笔记-1 的出链列表"
             }
           },
           {
@@ -193,10 +206,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md"
+                "file": "科研/普通图笔记-1.md"
               },
               "icon": "lucide-list",
-              "title": "xv6实验日志 的大纲"
+              "title": "普通图笔记-1 的大纲"
             }
           },
           {
@@ -243,15 +256,17 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "7c39d6ca3e84e0b1",
+  "active": "2e4cc0d8308a784c",
   "lastOpenFiles": [
+    "附件/Pasted image 20241019154452.png",
+    "科研/科研黑话.md",
+    "科研/普通图笔记-1.md",
+    "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
+    "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "Web前端/前端规划.md",
-    "科研/普通图笔记-1.md",
-    "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
-    "课程-计算机科学/操作系统/xv6实验日志.md",
     "AI/机器学习-周志华-2.md",
     "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
     "科研/计算机科研概述.md",
@@ -276,8 +291,6 @@
     "附件/Pasted image 20241008205143.png",
     "2024考研/数学/错题/C26-24张宇八套卷.md",
     "2024考研/数学/错题/C27-24合工大超越.md",
-    "2024考研/数学/错题/C22-23李林六套卷.md",
-    "2024考研/数学/错题/C21-数一真题专题.md",
     "附件/Pasted image 20241007113610.png",
     "附件/Pasted image 20241006234905.png",
     "附件/Pasted image 20241006170543.png",
