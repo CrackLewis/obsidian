@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a4edaa37677ab299",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "科研/普通图笔记-1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "普通图笔记-1"
-            }
-          },
-          {
             "id": "c479b24974fc48ee",
             "type": "leaf",
             "state": {
@@ -50,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
-    "collapsed": true
+    "width": 333.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -231,9 +216,12 @@
   },
   "active": "2e4cc0d8308a784c",
   "lastOpenFiles": [
+    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+    "科研/普通图笔记-1.md",
+    "附件/Pasted image 20241022190112.png",
+    "附件/Pasted image 20241022125314.png",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
-    "科研/普通图笔记-1.md",
     "课程-计算机科学/操作系统/xv6实验日志.md",
     "科研/科研黑话.md",
     "附件/Pasted image 20241021141056.png",
@@ -242,7 +230,6 @@
     "附件/Pasted image 20241020201750.png",
     "附件/Pasted image 20241019154452.png",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
-    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "Web前端/前端规划.md",
     "AI/机器学习-周志华-2.md",
@@ -259,8 +246,6 @@
     "编程语言/Cpp/Effective_Modern_C++.md",
     "附件/Pasted image 20241015084413.png",
     "附件/Pasted image 20241015084353.png",
-    "附件/Pasted image 20241015004556.png",
-    "附件/Pasted image 20241015002701.png",
     "2024考研/408/数据结构/DS08-排序.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
     "Web前端/Vue/013-Vue 脚手架.md",
