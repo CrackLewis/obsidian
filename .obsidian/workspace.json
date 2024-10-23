@@ -35,7 +35,8 @@
               "title": "普通图笔记-1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -163,10 +165,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md"
+                "file": "科研/普通图笔记-1.md"
               },
               "icon": "lucide-list",
-              "title": "力扣01-动态规划 的大纲"
+              "title": "普通图笔记-1 的大纲"
             }
           },
           {
@@ -213,15 +215,17 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "c479b24974fc48ee",
+  "active": "2e4cc0d8308a784c",
   "lastOpenFiles": [
+    "课程-计算机科学/操作系统/xv6实验日志.md",
     "科研/普通图笔记-1.md",
+    "附件/Pasted image 20241023212547.png",
+    "附件/Pasted image 20241023181914.png",
+    "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "附件/Pasted image 20241022190112.png",
     "附件/Pasted image 20241022125314.png",
-    "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
-    "课程-计算机科学/操作系统/xv6实验日志.md",
     "科研/科研黑话.md",
     "附件/Pasted image 20241021141056.png",
     "附件/Pasted image 20241021135902.png",
@@ -243,8 +247,6 @@
     "AI/机器学习-小黄鸭.md",
     "课程-数学/A01-初等代数.md",
     "编程语言/Cpp/Effective_Modern_C++.md",
-    "附件/Pasted image 20241015084413.png",
-    "附件/Pasted image 20241015084353.png",
     "2024考研/408/数据结构/DS08-排序.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
     "Web前端/Vue/013-Vue 脚手架.md",
