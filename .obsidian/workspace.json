@@ -35,8 +35,7 @@
               "title": "普通图笔记-1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,10 +163,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/普通图笔记-1.md"
+                "file": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md"
               },
               "icon": "lucide-list",
-              "title": "普通图笔记-1 的大纲"
+              "title": "力扣01-动态规划 的大纲"
             }
           },
           {
@@ -214,10 +213,10 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "2e4cc0d8308a784c",
+  "active": "c479b24974fc48ee",
   "lastOpenFiles": [
-    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "科研/普通图笔记-1.md",
+    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "附件/Pasted image 20241022190112.png",
     "附件/Pasted image 20241022125314.png",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
