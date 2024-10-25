@@ -1,5 +1,5 @@
 
-2401210309 李博宇
+> 2401210309 李博宇
 
 ## 环境配置
 
@@ -577,7 +577,7 @@ xxd -p -c 1 _init | tr -d '\n' | sed 's/\(..\)/0x\1,/g' >init.hex
 riscv64-unknown-elf-objdump -s -d _init >init.out
 ```
 
-发现只有`.text`、`.rodata`和`.data`三个段有用，而这三个段大约2500字节，低于4KB。于是手工截取了`init.hex`文件中的对应部分，替换掉了原来的`initcode`数组。
+发现只有`.text`、`.rodata`和`.data`三个段有用，而这三个段大约3000字节，低于4KB。于是手工截取了`init.hex`文件中的对应部分，替换掉了原来的`initcode`数组。
 
 pts: 19/100
 
@@ -921,24 +921,24 @@ fail_1:
 
 pts: 62/104
 
-## 阶段总结
+## 阶段总结A
 
 目前获得了大部分的分数，有以下测试用例尚未通过：
 
 | 用例名      | 分值  | 状态  |
 | -------- | --- | --- |
-| sleep    | 1   | ❌   |
+| sleep    | 1   | ✔   |
 | mmap     | 2   | ✔   |
 | munmap   | 4   | ✔   |
-| getdents | 5   |     |
+| getdents | 5   | ✔   |
 | mkdir    | 3   | ✔   |
 | chdir    | 3   | ✔   |
 | dup2     | 2   | ✔   |
 | fstat    | 3   | ✔   |
 | pipe     | 4   | ✔   |
-| umount   | 5   |     |
+| umount   | 5   | ❓   |
 | unlink   | 2   | ✔   |
-| mount    | 5   |     |
+| mount    | 5   | ❓   |
 | getcwd   | 1   | ✔   |
 
 ## 241017-sleep
@@ -983,6 +983,8 @@ uint64 sys_nanosleep(void) {
 ```
 
 但出于某些原因，线下运行测试用例可以通过，但线上运行会导致整个测试超时，所以暂时没有将这个用例的实现提交。
+
+UPD: 已通过
 
 ## 241017-fstat
 
@@ -1120,6 +1122,12 @@ uint64 sys_dup3(void) {
 
 mkdir用例要求实现`mkdirat`系统调用。
 
+核心思路：
+- 先临时切换到目标目录。
+- 在目标目录下尝试创建对应的目录项。
+- 如果工作目录之前被切换了，则返回到原先的目录。
+- 返回。
+
 ```c
 uint64 sys_mkdirat(void) {
   int dirfd, mode;
@@ -1154,7 +1162,81 @@ fail_1:
 
 ## 241017-chdir
 
-## 241017-mmap/munmap
+chdir用例要求实现`chdir`调用。
+
+这个调用与xv6内置的chdir调用并无二致，所以直接参照实现了一个。
+
+```c
+uint64 sys_chdir2(void) {
+  // copied from kernel/sysfile.c:sys_chdir
+  char path[FAT32_MAX_PATH];
+  struct dirent *ep;
+  struct proc *p = myproc();
+
+  if (argstr(0, path, FAT32_MAX_PATH) < 0 || (ep = ename(path)) == NULL) {
+    return -1;
+  }
+  elock(ep);
+  if (!(ep->attribute & ATTR_DIRECTORY)) {
+    eunlock(ep);
+    eput(ep);
+    return -1;
+  }
+  eunlock(ep);
+  eput(p->cwd);
+  p->cwd = ep;
+  return 0;
+}
+```
+
+## 241017-unlink
+
+unlink用例要求实现`unlinkat`调用。
+
+核心步骤：
+- 临时切换到指定的目录。
+- 在目录下检索并删除文件记录。
+- 如果工作目录被切换了，则切换回去。
+
+```c
+uint64 sys_unlinkat(void) {
+  char path[FAT32_MAX_PATH];
+  int dirfd, flags;
+  struct file *dirf;
+  struct dirent *bcwd = NULL, *ep;
+
+  if (argfd(0, &dirfd, &dirf) < 0 || argstr(1, path, FAT32_MAX_PATH) < 0 ||
+      argint(2, &flags) < 0)
+    goto fail_1;
+
+  if (dirfd != AT_FDCWD) {
+    bcwd = myproc()->cwd;
+    myproc()->cwd = dirf->ep;
+  }
+
+  // TODO: implement AT_REMOVEDIR
+
+  if ((ep = ename(path)) == NULL) goto fail_1;
+  elock(ep);
+  elock(ep->parent);
+  eremove(ep);
+  eunlock(ep->parent);
+  eunlock(ep);
+  eput(ep);
+
+  return 0;
+
+fail_1:
+  if (bcwd) myproc()->cwd = bcwd;
+  return -1;
+}
+```
+
+## 241017-getcwd/pipe
+
+getcwd/pipe基本上也是xv6对应调用的翻版，不再赘述。
+
+## 241018-mmap/munmap
 
 mmap/munmap两个用例要求实现`mmap`、`munmap`两个系统调用。这两个系统调用分别开辟内存空间用于映射文件或设备，以及撤销文件或设备的内存映射。
 
@@ -1177,3 +1259,333 @@ munmap系统调用接收2个参数：
 
 考虑到用户可以自行指定映射空间的始址，所以`mmap`采用了与用户空间相独立的内存机制。每个进程会存储当前所有活跃的映射空间信息，在进程退出后或执行`munmap`时销毁。
 
+考虑在`proc`结构下增加如下成员，用于描述进程内活动的文件/设备映射：
+
+```c
+struct proc {
+  // ...
+  // mmap-related
+  struct {
+    uint64 addr;
+    uint64 len;
+    int prot;
+    int size;
+    int valid;
+    int fd;
+    int off;
+    int flags;
+  } mmaps[NOMAPS];
+  uint64 mmap_len;
+};
+```
+
+mmap/munmap会使用这些常量：
+
+```c
+// for mmap
+#define NOMAPS 8
+
+#define PROT_NONE 0
+#define PROT_READ 1
+#define PROT_WRITE 2
+#define PROT_EXEC 4
+#define PROT_GROWSDOWN 0X01000000
+#define PROT_GROWSUP 0X02000000
+
+#define MAP_FILE 0
+#define MAP_SHARED 0x01
+#define MAP_PRIVATE 0X02
+#define MAP_FAILED ((void *)-1)
+
+#define MMAP_START 0x40000000
+```
+
+在进程结构被分配（`allocproc`）时，需要将mmap相关的变量重置：
+
+```c
+// mmap-related
+for (int i = 0; i < NOMAPS; i++) p->mmaps[i].valid = 0;
+p->mmap_len = 0;
+```
+
+在进程被复制（`fork`、`clone`）时，需要将mmap信息复制到子进程：
+
+```c
+// mmap-related: copy all mappings to child
+for (i = 0; i < NOMAPS; i++) {
+  if (p->mmaps[i].valid) np->mmaps[i] = p->mmaps[i];
+}
+np->mmap_len = p->mmap_len;
+```
+
+在进程退出时（`exit`），如果还有活动的mmap，则将其释放：
+
+```c
+// mmap-related: release all mappings
+for (int i = 0; i < NOMAPS; i++) {
+  if (p->mmaps[i].valid) munmap(p->mmaps[i].addr, p->mmaps[i].len);
+}
+p->mmap_len = 0;
+```
+
+接下来是冗长的`mmap`函数：
+
+```c
+uint64 mmap(uint64 start, uint64 len, int prot, int flags, int fd, long off) {
+  uint64 pa = 0, va, olen = len;
+  int prot_vm, idx, toff;
+  struct file *f;
+
+  // validate arguments
+  if (start % PGSIZE != 0) goto fail_1;
+  if (!start) start = MMAP_START + myproc()->mmap_len;
+
+  if (len <= 0) goto fail_1;
+
+  if (prot == PROT_NONE) goto fail_1;
+  // TODO: PROT_GROWSDOWN and PROT_GROWSUP
+
+  // acquire(&myproc()->lock);
+
+  if (fd < 0 || fd >= NOFILE || !(f = myproc()->ofile[fd])) goto fail_2;
+
+  if (flags & MAP_SHARED) {
+    if (f->writable == 0) goto fail_2;
+  } else if (flags & MAP_PRIVATE) {
+    if (f->readable == 0) goto fail_2;
+  } else
+    goto fail_2;
+
+  // round up len to PGSIZE
+  len = PGROUNDUP(len);
+
+  if (off < 0 || off >= f->ep->file_size) goto fail_2;
+
+  prot_vm = 0;
+  if (prot & PROT_READ) prot_vm |= PTE_U | PTE_R;
+  if (prot & PROT_WRITE) prot_vm |= PTE_W;
+  if (prot & PROT_EXEC) prot_vm |= PTE_X;
+
+  // allocate and map required memory first
+  for (va = start; va < start + len; va += PGSIZE) {
+    if ((pa = kalloc()) == 0) goto fail_3;
+    memset((void *)pa, 0, PGSIZE);
+    // map to user page table
+    if (mappages(myproc()->pagetable, va, PGSIZE, pa, prot_vm) < 0) goto fail_3;
+    // map to kernel page table
+    if (mappages(myproc()->kpagetable, va, PGSIZE, pa, prot_vm & ~PTE_U) < 0)
+      goto fail_4;
+  }
+
+  // update mmap info
+  for (idx = 0; idx < NOMAPS; ++idx) {
+    if (myproc()->mmaps[idx].valid == 0) {
+      myproc()->mmaps[idx].addr = start;
+      myproc()->mmaps[idx].len = len;
+      myproc()->mmaps[idx].prot = prot;
+      myproc()->mmaps[idx].size = len;
+      myproc()->mmaps[idx].valid = 1;
+      myproc()->mmaps[idx].fd = fd;
+      myproc()->mmaps[idx].off = off;
+      myproc()->mmaps[idx].flags = flags;
+      myproc()->mmap_len += len;
+      break;
+    }
+  }
+  if (idx >= NOMAPS) goto fail_4;
+
+  // copy file content
+  toff = f->off, f->off = off;
+  fileread(f, start, olen);
+  f->off = toff;
+
+  // release(&myproc()->lock);
+  return start;
+
+fail_4:
+  vmunmap(myproc()->pagetable, start, (va - start) / PGSIZE, 1);
+  vmunmap(myproc()->kpagetable, start, (va - start) / PGSIZE, 0);
+  // release(&myproc()->lock);
+  goto fail_1;
+fail_3:
+  if (pa) kfree(pa);
+  uvmdealloc(myproc()->pagetable, myproc()->kpagetable, va, start);
+fail_2:
+  // release(&myproc()->lock);
+fail_1:
+  return -1;
+}
+```
+
+还有`munmap`函数：
+
+```c
+uint64 munmap(uint64 start, uint64 len) {
+  uint64 va;
+  int idx, fd, toff;
+  struct file *f;
+
+  if (start % PGSIZE != 0) goto fail_1;
+  if (len <= 0) goto fail_1;
+
+  len = PGROUNDUP(len);
+
+  // acquire(&myproc()->lock);
+
+  for (idx = 0; idx < NOMAPS; ++idx) {
+    if (myproc()->mmaps[idx].valid && myproc()->mmaps[idx].addr == start) {
+      // the length must be consistent with the mmap info
+      if (len != myproc()->mmaps[idx].len) goto fail_2;
+
+      fd = myproc()->mmaps[idx].fd;
+      // if MAP_SHARED and file is still open, write the content back to file
+      if ((myproc()->mmaps[idx].flags & MAP_SHARED) &&
+          (f = myproc()->ofile[fd])) {
+        toff = f->off, f->off = myproc()->mmaps[idx].off;
+        filewrite(f, start, f->ep->file_size);
+        f->off = toff;
+      }
+      // invalidate the mmap entry
+      myproc()->mmaps[idx].valid = 0;
+      myproc()->mmap_len -= len;
+      break;
+    }
+  }
+  if (idx >= NOMAPS) goto fail_2;
+
+  for (va = start; va < start + len; va += PGSIZE) {
+    vmunmap(myproc()->pagetable, va, 1, 1);
+    vmunmap(myproc()->kpagetable, va, 1, 0);
+  }
+
+  // release(&myproc()->lock);
+  return 0;
+
+fail_2:
+  // release(&myproc()->lock);
+fail_1:
+  return -1;
+}
+
+```
+
+另外，对于这种内存堆空间和mmap空间的垂直设计，原先的`copyin2`和`copyout2`函数需要修改：
+
+```c
+int copyin2(char *dst, uint64 srcva, uint64 len) {
+  uint64 sz = myproc()->sz;
+  if (srcva + len <= sz && srcva < sz) {
+    memmove(dst, (void *)srcva, len);
+    return 0;
+  }
+  // mmap-related: copyin from mmap-ed regions
+  for (int i = 0; i < NOMAPS; i++) {
+    if (myproc()->mmaps[i].valid) {
+      if (srcva >= myproc()->mmaps[i].addr &&
+          srcva < myproc()->mmaps[i].addr + myproc()->mmaps[i].len) {
+        if (srcva + len > myproc()->mmaps[i].addr + myproc()->mmaps[i].len) {
+          return -1;
+        }
+        memmove(dst, (void *)srcva, len);
+        return 0;
+      }
+    }
+  }
+  return -1;
+}
+
+int copyout2(uint64 dstva, char *src, uint64 len) {
+  uint64 sz = myproc()->sz;
+  int i;
+
+  if (dstva < sz && dstva + len <= sz) {
+    memmove((void *)dstva, src, len);
+    return 0;
+  }
+  // mmap-related: copyout to mmap-ed regions
+  for (i = 0; i < NOMAPS; i++) {
+    if (myproc()->mmaps[i].valid) {
+      if (dstva >= myproc()->mmaps[i].addr &&
+          dstva < myproc()->mmaps[i].addr + myproc()->mmaps[i].len) {
+        if (dstva + len > myproc()->mmaps[i].addr + myproc()->mmaps[i].len) {
+          return -1;
+        }
+        if (myproc()->mmaps[i].prot & PROT_WRITE) {
+          memmove((void *)dstva, src, len);
+          return 0;
+        } else {
+          return -1;
+        }
+      }
+    }
+  }
+  return -1;
+}
+```
+
+上述实现通过了测试用例。
+
+## 241018-getdents
+
+这个函数返回一个目录下的成员信息：
+
+```c
+static struct dirent64 dent64[100];
+
+uint64 getdents(struct dirent *dp, uint64 addr, int len) {
+  int count = 0, type, tot = 0;
+  uint off = 0;
+  struct dirent *ep;
+
+  // dp has to be a directory
+  if (!(dp->attribute & ATTR_DIRECTORY)) goto fail_1;
+  // dp has to be valid
+  if (dp->valid != 1) return 0;
+
+  ep = eget(dp, NULL);
+  reloc_clus(dp, 0, 0);
+
+  while ((type = enext(dp, ep, off, &count) != -1)) {
+    dent64[tot].d_ino = 1;
+    dent64[tot].d_off = off;
+    dent64[tot].d_type = ep->attribute;
+    strncpy(dent64[tot].d_name, ep->filename, strlen(ep->filename) + 1);
+    dent64[tot].d_reclen = strlen(ep->filename);
+    tot++;
+    off += count << 5;
+  }
+  // cap to the whole dent64 array
+  len = len > sizeof(dent64) ? sizeof(dent64) : len;
+  if (copyout2(addr, (char *)&dent64, len) < 0) goto fail_1;
+
+  return tot;
+
+fail_1:
+  return -1;
+}
+```
+
+对应的getdents调用入口函数：
+
+```c
+uint64 sys_getdents64(void) {
+  int fd, len;
+  uint64 addr;
+  struct file *f;
+
+  if (argfd(0, &fd, &f) < 0 || argaddr(1, &addr) < 0 || argint(2, &len) < 0)
+    return -1;
+
+  return getdents(f->ep, addr, len);
+}
+```
+
+## 241018-mount/umount
+
+这两个测试用例要求实现mount和umount系统调用。
+
+但用例源码并未真正测试mount的有效性，由于其他课程任务紧迫，暂时采用了取巧手段直接返回0。
+
+## 阶段总结B
+
+目前拿到了所有用例的满分（102/102）。但有相当一部分用例不够健壮，需要在后续工作中择机完善。
