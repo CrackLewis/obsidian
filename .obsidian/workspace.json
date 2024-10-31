@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -227,7 +228,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,6 +246,7 @@
   "active": "2e4cc0d8308a784c",
   "lastOpenFiles": [
     "科研/科研黑话.md",
+    "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "科研/普通图笔记-1.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
@@ -253,7 +256,6 @@
     "课程-计算机科学/算法/经典算法/力扣07-图论.md",
     "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
     "附件/Pasted image 20241025153451.png",
-    "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "课程-计算机科学/操作系统/xv6实验日志.md",
     "附件/Pasted image 20241025105456.png",
     "附件/Pasted image 20241024210627.png",
