@@ -214,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,8 +231,8 @@
   "active": "2e4cc0d8308a784c",
   "lastOpenFiles": [
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
-    "科研/科研黑话.md",
     "科研/普通图笔记-1.md",
+    "科研/科研黑话.md",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
     "课程-数学/A01-初等代数.md",
