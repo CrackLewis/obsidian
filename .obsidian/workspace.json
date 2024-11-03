@@ -63,7 +63,8 @@
               "title": "力扣05-贪心"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,10 +192,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣04-乱搞.md"
+                "file": "科研/普通图笔记-2.md"
               },
               "icon": "lucide-list",
-              "title": "力扣04-乱搞 的大纲"
+              "title": "普通图笔记-2 的大纲"
             }
           },
           {
@@ -240,8 +241,9 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "c479b24974fc48ee",
+  "active": "f8e9aee2c959020f",
   "lastOpenFiles": [
+    "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "科研/普通图笔记-2.md",
@@ -271,7 +273,6 @@
     "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
     "科研/计算机科研概述.md",
     "课程-计算机科学/算法/经典算法/贪心专题.md",
-    "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "AI/机器学习-周志华-1.md",
     "AI/机器学习-小黄鸭.md",
     "编程语言/Cpp/Effective_Modern_C++.md",
