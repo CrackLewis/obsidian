@@ -1,6 +1,10 @@
 
 迁移自考研复试资料
 
+## TL;DR
+
+WIP
+
 ## 基本概念
 
 - 工作区、暂存区、版本库
@@ -95,3 +99,118 @@
 以本笔记所在的仓库举例：
 - 修改后提交：`git commit -am 'ManualBackup'`
 - 上传：`git push origin master`
+
+## 241104：迁移实验
+
+```
++ git-sync
+	+ instance1
+		+ testrepo/README.md
+	+ instance2
+		+ testrepo/README.md
+```
+
+`git log`输出：
+
+```
+commit d689e03590a4f0c5f1ba55e6929e21860b1f6c45 (HEAD -> main, origin/main, origin/HEAD)
+Author: Li Boyu <***>
+Date:   Tue Oct 8 13:40:32 2024 +0800
+
+    Update README.md
+
+commit 19b8bcd30c00e69dbaabb0476aef3ccd6e362b3c
+Author: Li Boyu <***>
+Date:   Tue Oct 8 13:39:53 2024 +0800
+
+    Initial commit
+```
+
+### 模拟文件更新
+
+修改instance1，并执行：
+
+```sh
+$ git add .
+$ git commit -m "modify"
+$ git push origin main
+```
+
+修改instance2后，再执行：
+
+```sh
+$ git add .
+$ git commit -m "modify2"
+$ git push origin main
+```
+
+发现如下输出：
+
+```
+To github.com:CrackLewis/testrepo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:CrackLewis/testrepo.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+根据提示，执行`git pull origin main`后，报告冲突：
+
+```
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 268 bytes | 16.00 KiB/s, done.
+From github.com:CrackLewis/testrepo
+ * branch            main       -> FETCH_HEAD
+   d689e03..8dbfcaa  main       -> origin/main
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+根据提示修复冲突后，执行：
+
+```sh
+$ git add .
+$ git commit -m "merge"
+```
+
+此时冲突已在本地解决。但远程尚未正确更新，所以需要推送到远程：
+
+```sh
+$ git push origin main
+```
+
+回到instance1。此时instance1落后于远程进度，如果贸然修改，会再次面临冲突。所以需要先`git pull`下来：
+
+```sh
+$ git pull origin main
+```
+
+可以看到本地的instance1仓库顺利更新了：
+
+```
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 559 bytes | 24.00 KiB/s, done.
+From github.com:CrackLewis/testrepo
+ * branch            main       -> FETCH_HEAD
+   8dbfcaa..98a5ae3  main       -> origin/main
+Updating 8dbfcaa..98a5ae3
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
+*总结*：
+- 本地修改前先`git pull`一下，以便了解远程的最新进度。
+- commit之后、提交之前也`git pull`一下，可能在修改时远程发生了提交。
+	- 更靠谱的做法是：本地一个总branch，每部分的内容开一个branch，平时在分branch上工作，同步前合并到总branch，总branch与远程之间推拉
+	- 但仓库只有我自己用，而且有定时的推拉任务，所以还是这样比较好
+- 尚未解决冲突

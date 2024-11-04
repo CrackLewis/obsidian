@@ -711,7 +711,7 @@ int waitpid(int pid, uint64 addr, int options) {
   struct proc *p = myproc();
   int havekids;
 
-#define r_WEXITSTATUS(s) (s << 8);
+#define r_WEXITSTATUS(s) (s << 8)
 
   acquire(&p->lock);
 
