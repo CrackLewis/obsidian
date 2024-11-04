@@ -157,7 +157,7 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
-根据提示，执行`git pull origin main`后，报告冲突：
+根据提示，执行`git pull --rebase origin main`后，报告冲突：
 
 ```
 remote: Enumerating objects: 5, done.
@@ -176,7 +176,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 ```sh
 $ git add .
-$ git commit -m "merge"
+$ git rebase --continue
 ```
 
 此时冲突已在本地解决。但远程尚未正确更新，所以需要推送到远程：
@@ -188,7 +188,7 @@ $ git push origin main
 回到instance1。此时instance1落后于远程进度，如果贸然修改，会再次面临冲突。所以需要先`git pull`下来：
 
 ```sh
-$ git pull origin main
+$ git pull --rebase origin main
 ```
 
 可以看到本地的instance1仓库顺利更新了：
@@ -210,11 +210,19 @@ Fast-forward
 
 *总结*：
 - 本地修改前先`git pull`一下，以便了解远程的最新进度。
+	- 特别地，建议加`--rebase`选项，这样会使得提交记录更好看。
 - commit之后、提交之前也`git pull`一下，可能在修改时远程发生了提交。
 	- 更靠谱的做法是：本地一个总branch，每部分的内容开一个branch，平时在分branch上工作，同步前合并到总branch，总branch与远程之间推拉
 	- 但仓库只有我自己用，而且有定时的推拉任务，所以还是单branch比较好
 
-### 模拟换源
+### 模拟切换远程仓库地址
 
-GitHub提供HTTP源和SSH源，前者被墙，后者目前可用。
+GitHub提供HTTP地址和SSH地址，前者被墙，后者目前可用。
+
+经过测试，切换比较trivial，直接执行下面的命令就行：
+
+```sh
+$ git remote -v # 查看活动的远程仓库
+$ git remote set-url origin git@github/com:USER_NAME/REPO.git
+```
 
