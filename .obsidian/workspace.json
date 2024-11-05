@@ -49,8 +49,7 @@
               "title": "01-Git基础"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,10 +177,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Git/01-Git基础.md"
+                "file": "科研/普通图笔记-2.md"
               },
               "icon": "lucide-list",
-              "title": "01-Git基础 的大纲"
+              "title": "普通图笔记-2 的大纲"
             }
           },
           {
@@ -227,11 +226,12 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "249549c2122c647b",
+  "active": "c479b24974fc48ee",
   "lastOpenFiles": [
+    "附件/Pasted image 20241104191156.png",
+    "杂项/Git/01-Git基础.md",
     "科研/普通图笔记-2.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
-    "杂项/Git/01-Git基础.md",
     "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
     "课程-计算机科学/操作系统/xv6实验日志.md",
@@ -264,7 +264,6 @@
     "AI/机器学习-小黄鸭.md",
     "编程语言/Cpp/Effective_Modern_C++.md",
     "2024考研/408/数据结构/DS08-排序.md",
-    "AI/动手学深度学习/06-卷积神经网络.md",
     "杂项/Git",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",

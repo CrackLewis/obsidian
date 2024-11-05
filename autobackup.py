@@ -42,6 +42,9 @@ def main():
 					subprocess.run(["git", "rebase", "--continue"])
 					break
 				elif 'n' in input().lower():
+					with open(".CONFLICT", "w") as f:
+						f.write(fetch_result_txt)
+						print("Conflict information has been saved to .CONFLICT. ")
 					return
 				else:
 					continue
