@@ -226,3 +226,6 @@ $ git remote -v # 查看活动的远程仓库
 $ git remote set-url origin git@github/com:USER_NAME/REPO.git
 ```
 
+### 模拟文件改名
+
+目录改名有可能被git认为是

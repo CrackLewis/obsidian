@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c479b24974fc48ee",
+            "id": "c6a93d1a7ec17f16",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,31 +22,17 @@
             }
           },
           {
-            "id": "c6a93d1a7ec17f16",
+            "id": "26b20545cfbc321f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+                "file": "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-一生一芯预学习"
-            }
-          },
-          {
-            "id": "249549c2122c647b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "杂项/Git/01-Git基础.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-Git基础"
+              "title": "沈晴霓-OS与虚拟化安全"
             }
           }
         ]
@@ -115,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -212,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,23 +214,28 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "c479b24974fc48ee",
+  "active": "c6a93d1a7ec17f16",
   "lastOpenFiles": [
-    "附件/Pasted image 20241104191156.png",
-    "杂项/Git/01-Git基础.md",
+    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "科研/普通图笔记-2.md",
+    "附件/Pasted image 20241105221258.png",
+    "附件/Pasted image 20241105195137.png",
+    "附件/Pasted image 20241105190604.png",
+    "课程-计算机科学/算法/经典算法/贪心专题.md",
+    "杂项/Git/01-Git基础.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
-    "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
+    "课程-计算机科学/算法/经典算法/力扣03-数学.md",
+    "课程-计算机科学/算法/经典算法/力扣07-图论.md",
+    "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
+    "附件/Pasted image 20241104191156.png",
+    "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "科研/普通图笔记-1.md",
     "科研/科研黑话.md",
     "课程-数学/A01-初等代数.md",
-    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
-    "课程-计算机科学/算法/经典算法/力扣03-数学.md",
-    "课程-计算机科学/算法/经典算法/力扣07-图论.md",
     "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
     "附件/Pasted image 20241025153451.png",
     "附件/Pasted image 20241025105456.png",
@@ -250,20 +243,14 @@
     "附件/Pasted image 20241024111429.png",
     "附件/Pasted image 20241024083135.png",
     "附件/Pasted image 20241023212547.png",
-    "附件/Pasted image 20241023181914.png",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
-    "附件/Pasted image 20241022190112.png",
-    "附件/Pasted image 20241022125314.png",
-    "附件/Pasted image 20241021141056.png",
     "Web前端/前端规划.md",
     "AI/机器学习-周志华-2.md",
     "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
     "科研/计算机科研概述.md",
-    "课程-计算机科学/算法/经典算法/贪心专题.md",
     "AI/机器学习-周志华-1.md",
     "AI/机器学习-小黄鸭.md",
     "编程语言/Cpp/Effective_Modern_C++.md",
-    "2024考研/408/数据结构/DS08-排序.md",
     "杂项/Git",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
