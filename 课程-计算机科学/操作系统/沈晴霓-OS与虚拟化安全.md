@@ -314,4 +314,3 @@ CC/TCSEC/ITSEC对比：
 - TCSEC级别：D/C1/C2/B1/B2/B3/A1
 
 我国标准：P43
-
