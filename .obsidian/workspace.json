@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "79c0446260af584f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "附件/Pasted image 20241107212353.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241107212353"
+            }
+          },
+          {
             "id": "26b20545cfbc321f",
             "type": "leaf",
             "state": {
@@ -35,8 +47,7 @@
               "title": "沈晴霓-OS与虚拟化安全"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
-    "collapsed": true
+    "width": 333.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -200,8 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,12 +224,17 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "26b20545cfbc321f",
+  "active": "c6a93d1a7ec17f16",
   "lastOpenFiles": [
-    "!待办.md",
-    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
-    "科研/普通图笔记-1.md",
+    "附件/Pasted image 20241107212847.png",
+    "附件/Pasted image 20241107212826.png",
+    "附件/Pasted image 20241107212749.png",
+    "附件/Pasted image 20241107212353.png",
+    "附件/Pasted image 20241107212653.png",
     "科研/普通图笔记-2.md",
+    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
+    "!待办.md",
+    "科研/普通图笔记-1.md",
     "附件/Pasted image 20241106200751.png",
     "附件/Pasted image 20241105221258.png",
     "附件/Pasted image 20241105195137.png",
@@ -241,10 +255,6 @@
     "课程-数学/A01-初等代数.md",
     "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
     "附件/Pasted image 20241025153451.png",
-    "附件/Pasted image 20241025105456.png",
-    "附件/Pasted image 20241024210627.png",
-    "附件/Pasted image 20241024111429.png",
-    "附件/Pasted image 20241024083135.png",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "Web前端/前端规划.md",
     "AI/机器学习-周志华-2.md",
@@ -252,7 +262,6 @@
     "科研/计算机科研概述.md",
     "AI/机器学习-周志华-1.md",
     "AI/机器学习-小黄鸭.md",
-    "编程语言/Cpp/Effective_Modern_C++.md",
     "杂项/Git",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
