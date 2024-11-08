@@ -25,12 +25,14 @@
             "id": "79c0446260af584f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "附件/Pasted image 20241107212353.png"
+                "file": "Linux/Hacks/WSL2迁移、备份、还原.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241107212353"
+              "icon": "lucide-file",
+              "title": "WSL2迁移、备份、还原"
             }
           },
           {
@@ -226,13 +228,15 @@
   },
   "active": "c6a93d1a7ec17f16",
   "lastOpenFiles": [
+    "Linux/Hacks/WSL2迁移、备份、还原.md",
+    "Linux/Hacks/WSL与Hyper-V共存.md",
+    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
+    "附件/Pasted image 20241107212353.png",
+    "科研/普通图笔记-2.md",
     "附件/Pasted image 20241107212847.png",
     "附件/Pasted image 20241107212826.png",
     "附件/Pasted image 20241107212749.png",
-    "附件/Pasted image 20241107212353.png",
     "附件/Pasted image 20241107212653.png",
-    "科研/普通图笔记-2.md",
-    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "!待办.md",
     "科研/普通图笔记-1.md",
     "附件/Pasted image 20241106200751.png",
@@ -254,14 +258,12 @@
     "科研/科研黑话.md",
     "课程-数学/A01-初等代数.md",
     "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
-    "附件/Pasted image 20241025153451.png",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "Web前端/前端规划.md",
     "AI/机器学习-周志华-2.md",
     "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
     "科研/计算机科研概述.md",
     "AI/机器学习-周志华-1.md",
-    "AI/机器学习-小黄鸭.md",
     "杂项/Git",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
