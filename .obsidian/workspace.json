@@ -49,7 +49,8 @@
               "title": "沈晴霓-OS与虚拟化安全"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/普通图笔记-2.md"
+                "file": "Linux/Hacks/WSL2迁移、备份、还原.md"
               },
               "icon": "lucide-list",
-              "title": "普通图笔记-2 的大纲"
+              "title": "WSL2迁移、备份、还原 的大纲"
             }
           },
           {
@@ -226,13 +227,13 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "c6a93d1a7ec17f16",
+  "active": "79c0446260af584f",
   "lastOpenFiles": [
-    "Linux/Hacks/WSL2迁移、备份、还原.md",
-    "Linux/Hacks/WSL与Hyper-V共存.md",
-    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
-    "附件/Pasted image 20241107212353.png",
     "科研/普通图笔记-2.md",
+    "Linux/Hacks/WSL2迁移、备份、还原.md",
+    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
+    "Linux/Hacks/WSL与Hyper-V共存.md",
+    "附件/Pasted image 20241107212353.png",
     "附件/Pasted image 20241107212847.png",
     "附件/Pasted image 20241107212826.png",
     "附件/Pasted image 20241107212749.png",
