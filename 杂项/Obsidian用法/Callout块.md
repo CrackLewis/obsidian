@@ -19,8 +19,32 @@
 
 例如：
 
-> [!note] 二重积分的换元方法
+> [!note] Note
 > $$\iint dxdy=\iint \left|\begin{matrix}x_r' & y_r'\\ x_\theta' & y_\theta'\end{matrix}\right|drd\theta=\iint rdrd\theta$$
+
+> [!abstract] Abstract
+
+> [!info]
+
+> [!todo]
+
+> [!tip]
+
+> [!success]
+
+> [!warning]
+
+> [!question]
+
+> [!failure]
+
+> [!danger]
+
+> [!bug]
+
+> [!example]
+
+> [!quote]
 
 ## 嵌套
 
