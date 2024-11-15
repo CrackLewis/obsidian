@@ -101,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
-    "collapsed": true
+    "width": 333.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -199,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,12 +208,13 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "templates:插入模板": false
     }
   },
   "active": "62ccb028a9918e55",
   "lastOpenFiles": [
+    "附件/Pasted image 20241114213313.png",
+    "附件/Pasted image 20241114195923.png",
     "科研/科研黑话.md",
     "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "杂项/Obsidian用法/Callout块.md",
@@ -238,7 +237,6 @@
     "附件/Pasted image 20241106200751.png",
     "附件/Pasted image 20241105221258.png",
     "附件/Pasted image 20241105195137.png",
-    "附件/Pasted image 20241105190604.png",
     "课程-计算机科学/算法/经典算法/贪心专题.md",
     "杂项/Git/01-Git基础.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
@@ -252,7 +250,6 @@
     "课程-数学/A01-初等代数.md",
     "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
-    "Web前端/前端规划.md",
     "杂项/Git",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
