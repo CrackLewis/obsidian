@@ -11,14 +11,10 @@
             "id": "62ccb028a9918e55",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "科研/普通图笔记-2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "普通图笔记-2"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           },
           {
@@ -35,7 +31,8 @@
               "title": "沈晴霓-OS与虚拟化安全"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,10 +160,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/普通图笔记-2.md"
+                "file": "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md"
               },
               "icon": "lucide-list",
-              "title": "普通图笔记-2 的大纲"
+              "title": "沈晴霓-OS与虚拟化安全 的大纲"
             }
           },
           {
@@ -208,22 +205,24 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "62ccb028a9918e55",
+  "active": "41db183bede41b9b",
   "lastOpenFiles": [
+    "科研/普通图笔记-2.md",
+    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
+    "附件/Pasted image 20241115134953.png",
     "附件/Pasted image 20241114213313.png",
     "附件/Pasted image 20241114195923.png",
     "科研/科研黑话.md",
-    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "杂项/Obsidian用法/Callout块.md",
     "杂项/Obsidian用法/Excalidraw把玩.md",
     "Excalidraw/Drawing 2024-11-13 20.45.51.excalidraw.md",
     "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
     "Excalidraw/Drawing 2024-11-13 17.23.11.excalidraw.md",
     "Excalidraw",
-    "科研/普通图笔记-2.md",
     "附件/Pasted image 20241112104051.png",
     "Linux/Hacks/WSL2迁移、备份、还原.md",
     "Linux/Hacks/WSL与Hyper-V共存.md",
@@ -235,8 +234,6 @@
     "!待办.md",
     "科研/普通图笔记-1.md",
     "附件/Pasted image 20241106200751.png",
-    "附件/Pasted image 20241105221258.png",
-    "附件/Pasted image 20241105195137.png",
     "课程-计算机科学/算法/经典算法/贪心专题.md",
     "杂项/Git/01-Git基础.md",
     "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
