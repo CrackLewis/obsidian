@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Cpp/Effective_Modern_C++.md",
+                "file": "课程项目/CMU-DB/01-15445-bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Effective_Modern_C++"
+              "title": "01-15445-bootcamp"
             }
           },
           {
@@ -174,10 +174,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Cpp/Effective_Modern_C++.md"
+                "file": "课程项目/CMU-DB/01-15445-bootcamp.md"
               },
               "icon": "lucide-list",
-              "title": "Effective_Modern_C++ 的大纲"
+              "title": "01-15445-bootcamp 的大纲"
             }
           },
           {
@@ -225,8 +225,13 @@
   },
   "active": "41db183bede41b9b",
   "lastOpenFiles": [
-    "课程-计算机科学/操作系统/xv6实验日志.md",
+    "课程项目/CMU-ICS/00-ics-overview.md",
+    "课程项目/CMU-DB/01-15445-bootcamp.md",
+    "课程项目/CMU-ICS/02-ics-labs.md",
+    "课程项目/CMU-ICS/01-ics-coursenote.md",
     "编程语言/Cpp/Effective_Modern_C++.md",
+    "课程项目/CMU-DB",
+    "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "科研/普通图笔记-2.md",
     "附件/Pasted image 20241115134953.png",
@@ -258,10 +263,6 @@
     "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
     "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
-    "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
-    "课程-数学/A01-初等代数.md",
-    "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
-    "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "杂项/Git",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
@@ -270,7 +271,6 @@
     "课程-其他",
     "课程-计算机科学",
     "编程语言/Python/Matplotlib",
-    "AI/动手学深度学习",
     "编程语言/Cpp/未命名.canvas"
   ]
 }
