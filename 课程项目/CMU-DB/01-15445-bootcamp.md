@@ -132,4 +132,131 @@ private:
 
 移动语义概括下来是这几件事情：
 
-与代表变量的*左值*相对，*右值*指向一个表达式。左值引用确保所引值必是一个变量
+与代表变量的*左值*相对，*右值*指向一个表达式。左值引用确保所引值必是左值，右值引用同理。
+
+右值引用可绑定到一个不可赋值的表达式上：
+
+```cpp
+int x = 2;
+
+int&& xref1 = 2 + 3;
+int&& xref2 = x++;
+int&& xref3 = std::move(x);
+int&& xrefx = ++x; // 不合法：前缀自增表达式是左值
+```
+
+右值引用不能被重新绑定，但非`const`的引用可以被赋值：
+
+```cpp
+int&& ref1 = 2 + 3;
+ref1 = 6; // 合法
+
+const int&& ref2 = 5 + 7;
+ref2 = 13; // 不合法
+```
+
+将一个函数返回值绑定到右值引用，而非赋给变量，可以延长返回值的生命期，从而在语义上省去一次复制操作。但GCC系列编译器有NRV机制，会自动这样做。
+
+```cpp
+std::vector<int> costly_function() {
+	std::vector<int> ans;
+	// VERY COSTLY!
+	return ans;
+}
+
+int main() {
+	auto&& res = costly_function();
+	// ...
+	return 0;
+}
+```
+
+右值引用可以连环绑定。它们最终都引用同一个表达式。
+
+```cpp
+int&& a = 2;
+int&& b = a;
+int&& c = b;
+int&& d = c;
+a = 3;
+std::cout << a << ':' << b << ':' << c << ':' << d << std::endl;
+// 3:3:3:3
+```
+
+但如果右值绑定到左值，将触发移动语义：
+- 基本类型：直接复制
+- 非基本类型：尝试调用*移动构造函数*或*移动赋值运算符*，调用失败则报错
+
+如果需要移动一个非右值，可以使用`std::move`方法。但要注意，它不会实际执行移动，而只是将非右值转为右值，而右值保持不变。
+
+```cpp
+// 前文重载了vector输出运算符
+
+std::vector<int> a = {1, 2, 3, 4};
+auto&& b = std::move(a);
+// 此时b绑定到a的右值，修改b仍然对修改a生效
+std::cout << a << ',' << b << std::endl;
+// [1,2,3,4],[1,2,3,4]
+
+auto c = std::move(a);
+// 此时a的内容移动到c，a,b变为空容器
+std::cout << a << ',' << c << std::endl;
+// [],[1,2,3,4]
+```
+
+## 互斥锁
+
+略
+
+## 命名空间
+
+全局环境中可以声明命名空间，以规避命名冲突。
+
+```cpp
+namespace clewis {
+	class A {
+		// ...
+	};
+	class B {
+		// ...
+	};
+}
+
+class A {
+	// ...
+};
+
+clewis::A a;
+A b;
+```
+
+命名空间允许*嵌套*，访问则通过命名空间运算符`::`逐级访问：
+
+```cpp
+namespace D {
+int secret = 111;
+}
+
+namespace A {
+namespace B {
+namespace C {
+namespace D {
+int secret = 222;
+}
+int reveal() { return D::secret * 1000 + ::D::secret; }
+}  // namespace C
+}  // namespace B
+}  // namespace A
+
+int result = A::B::C::reveal();
+// 结果：222111
+```
+
+`using`声明可用于便捷访问特定的命名空间或命名空间成员：
+
+```cpp
+using A::B::C::reveal;
+using namespace A::B::C::D;
+```
+
+匿名命名空间对同环境（同命名空间、同文件）下的其他成员可见，对外不可见。
