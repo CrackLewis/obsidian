@@ -257,6 +257,27 @@ int result = A::B::C::reveal();
 ```cpp
 using A::B::C::reveal;
 using namespace A::B::C::D;
+// 给命名空间起别名
+using E = namespace A::B::C::D;
 ```
 
 匿名命名空间对同环境（同命名空间、同文件）下的其他成员可见，对外不可见。
+
+```cpp
+namespace {
+	int i = 1;
+}
+
+i++; // OK
+```
+
+## 引用
+
+略
+
+## 读写锁
+
+`std::shared_mutex`是C++标准库实现的读写锁。它拥有两种层次的互斥：
+- 读互斥：
+	- 触发：调用`lock_shared`，或被读锁`std::shared_lock`锁定
+	- 性质：允许其它读锁重复锁定，但
