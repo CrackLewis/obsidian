@@ -22,7 +22,21 @@
             }
           },
           {
-            "id": "50bcd212086e5f39",
+            "id": "9506dedf4e09b3c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程-其他/Duolingo法语.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Duolingo法语"
+            }
+          },
+          {
+            "id": "02507171f048bda4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,23 +48,9 @@
               "icon": "lucide-file",
               "title": "莫同-云计算技术与应用"
             }
-          },
-          {
-            "id": "9085eea474a231dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程-数学/A01-初等代数.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "A01-初等代数"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
-    "collapsed": true
+    "width": 333.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -214,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,15 +223,23 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50bcd212086e5f39",
+  "active": "02507171f048bda4",
   "lastOpenFiles": [
+    "课程-其他/Duolingo法语.md",
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+    "附件/Pasted image 20241121211114.png",
+    "附件/Pasted image 20241121205551.png",
+    "课程项目/CMU-DB/01-15445-bootcamp.md",
+    "课程-其他/黄嵩-金融科技理论与实践.md",
+    "课程-计算机科学/算法/字符串算法/01-Trie.md",
+    "课程-计算机科学/算法/字符串算法",
+    "附件/Pasted image 20241121162834.png",
     "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-数学/A01-初等代数.md",
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
-    "课程项目/CMU-DB/01-15445-bootcamp.md",
     "课程项目/CMU-ICS/00-ics-overview.md",
     "课程项目/CMU-ICS/02-ics-labs.md",
     "课程项目/CMU-ICS/01-ics-coursenote.md",
@@ -257,17 +263,10 @@
     "附件/Pasted image 20241107212353.png",
     "附件/Pasted image 20241107212847.png",
     "附件/Pasted image 20241107212826.png",
-    "附件/Pasted image 20241107212749.png",
-    "附件/Pasted image 20241107212653.png",
     "!待办.md",
     "科研/普通图笔记-1.md",
-    "附件/Pasted image 20241106200751.png",
     "课程-计算机科学/算法/经典算法/贪心专题.md",
     "杂项/Git/01-Git基础.md",
-    "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
-    "课程-计算机科学/算法/经典算法/力扣03-数学.md",
-    "课程-计算机科学/算法/经典算法/力扣07-图论.md",
-    "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
     "杂项/Git",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
@@ -275,7 +274,6 @@
     "课程-数学",
     "课程-其他",
     "课程-计算机科学",
-    "编程语言/Python/Matplotlib",
     "编程语言/Cpp/未命名.canvas"
   ]
 }
