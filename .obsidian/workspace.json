@@ -48,6 +48,18 @@
               "icon": "lucide-file",
               "title": "莫同-云计算技术与应用"
             }
+          },
+          {
+            "id": "faf83fef887646e9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "课程-计算机科学/云计算/Drawing 2024-11-22 10.55.24.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-11-22 10.55.24.excalidraw"
+            }
           }
         ],
         "currentTab": 2
@@ -229,8 +241,9 @@
   },
   "active": "02507171f048bda4",
   "lastOpenFiles": [
-    "课程-其他/Duolingo法语.md",
+    "课程-计算机科学/云计算/Drawing 2024-11-22 10.55.24.excalidraw.md",
     "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+    "课程-其他/Duolingo法语.md",
     "附件/Pasted image 20241121211114.png",
     "附件/Pasted image 20241121205551.png",
     "课程项目/CMU-DB/01-15445-bootcamp.md",
