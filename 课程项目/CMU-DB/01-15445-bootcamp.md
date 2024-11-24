@@ -280,4 +280,47 @@ i++; // OK
 `std::shared_mutex`是C++标准库实现的读写锁。它拥有两种层次的互斥：
 - 读互斥：
 	- 触发：调用`lock_shared`，或被读锁`std::shared_lock`锁定
-	- 性质：允许其它读锁重复锁定，但
+	- 性质：允许其它读锁重复锁定，但不允许写锁锁定
+- 写互斥：
+	- 触发：调用`lock`，或被写锁`std::unique_lock`锁定
+	- 性质：不允许其他任何锁重复锁定
+
+## 作用域锁
+
+类似于`std::lock_guard`，也是在生命期内锁定一个互斥体
+
+## std::set
+
+`std::set::find(x)`返回：
+- 如果找到元素：返回元素对应的迭代器
+- 否则：返回`std::set::end()`
+
+`std::set::erase(begin, end)`：可以移除`[begin, end)`区间内所有元素
+
+## 智能指针
+
+智能指针分三种：
+- 独占类指针：`std::unique_ptr<T>`
+- 共享类计数指针：`std::shared_ptr<T>`
+- 共享类弱指针：`std::weak_ptr<T>`
+
+### std::unique_ptr
+
+`std::unique_ptr<T>`是一种独占类智能指针，表示指针独占一部分内存资源。
+
+可由`std::make_unique<T>(args...)`创建：
+
+```cpp
+int n = 20;
+auto x1 = std::make_unique<std::vector<int>>(n, 0);
+```
+
+`std::unique_ptr<T>`不可复制，只能被移动：
+
+```cpp
+auto p1 = std::make_unique<int>(233);
+auto p2 = p1; // 报错：不允许复制
+auto&& p3 = p1; // OK：p3为p1的左值引用
+auto&& p4 = std::move(p1); // OK：p1的内容移动到p4，p1悬空
+```
+

@@ -7,11 +7,11 @@ homme = man
 
 garçon = boy
 
-un/une = a
+une/un = a (fem'/mas' forms)
 
 et = and
 
-le/la/les = the (fem'/mas'/plu' forms)
+la/le/les = the (fem'/mas'/plu' forms)
 
 femme = woman
 
