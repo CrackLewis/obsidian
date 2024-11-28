@@ -306,13 +306,19 @@ i++; // OK
 
 ### std::unique_ptr
 
-`std::unique_ptr<T>`是一种独占类智能指针，表示指针独占一部分内存资源。
+`std::unique_ptr<T>`是一种独占类智能指针，表示指针独占一部分内存资源。指针对象析构时，其所指对象也析构。
 
 可由`std::make_unique<T>(args...)`创建：
 
 ```cpp
 int n = 20;
 auto x1 = std::make_unique<std::vector<int>>(n, 0);
+```
+
+特别地，当`T`为数组类型（如`int[]`）时，其只接受一个参数，作为数组的长度：
+
+```cpp
+auto x1 = std::make_unique<int[]>(5);
 ```
 
 `std::unique_ptr<T>`不可复制，只能被移动：
@@ -324,3 +330,32 @@ auto&& p3 = p1; // OK：p3为p1的左值引用
 auto&& p4 = std::move(p1); // OK：p1的内容移动到p4，p1悬空
 ```
 
+获取裸指针可通过`get`方法：
+
+```cpp
+auto p1 = std::make_unique<int>(233);
+int* rp1 = p1.get();
+```
+
+此外还有交换两个指针地址的`swap`方法、解除对裸指针占有的`release`方法，以及重设裸指针的`reset`方法等。
+
+### std::shared_ptr
+
+`std::shared_ptr<T>`是一种共享类智能指针，表示指针与其他的`shared_ptr`共同指向一段内存。每个被指向的内存伴有一个引用计数，表示当前有多少个`std::shared_ptr`指向它。当计数归0时，内存被析构和释放。
+
+可由`std::make_shared<T>(args...)`创建：
+
+```cpp
+int n = 30;
+auto x1 = std::make_shared<std::vector<int>>(n, 0);
+```
+
+与`std::unique_ptr`不同，`std::shared_ptr`既可以复制也可以移动：
+
+```cpp
+auto p1 = std::make_shared<int>(20);
+auto p2 = p1; // 合法：p2与p1引用相同内容
+auto p3 = std::move(p1); // 合法：p1的引用移交给p3，p1悬空
+```
+
+引用计数可通过`use_count`方法获取。
