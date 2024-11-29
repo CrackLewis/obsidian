@@ -34,20 +34,6 @@
               "icon": "lucide-file",
               "title": "莫同-云计算技术与应用"
             }
-          },
-          {
-            "id": "02507171f048bda4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!待办.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "!待办"
-            }
           }
         ],
         "currentTab": 1
@@ -116,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -230,11 +217,14 @@
   },
   "active": "9506dedf4e09b3c8",
   "lastOpenFiles": [
-    "课程项目/CMU-DB/01-15445-bootcamp.md",
     "!待办.md",
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+    "附件/Pasted image 20241129210105.png",
+    "Excalidraw/Drawing 2024-11-29 19.35.22.excalidraw.md",
+    "附件/Pasted image 20241129193510.png",
+    "课程项目/CMU-DB/01-15445-bootcamp.md",
     "课程-计算机科学/操作系统/xv6实验日志.md",
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "附件/Pasted image 20241127163010.png",
     "附件/Pasted image 20241127161803.png",
     "课程-其他/Duolingo法语.md",
@@ -249,7 +239,6 @@
     "课程-其他/黄嵩-金融科技理论与实践.md",
     "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "课程-计算机科学/算法/字符串算法",
-    "附件/Pasted image 20241121162834.png",
     "课程-数学/A01-初等代数.md",
     "课程项目/CMU-ICS/00-ics-overview.md",
     "课程项目/CMU-ICS/02-ics-labs.md",
@@ -258,7 +247,6 @@
     "课程项目/CMU-DB",
     "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "科研/普通图笔记-2.md",
-    "附件/Pasted image 20241115134953.png",
     "科研/科研黑话.md",
     "杂项/Obsidian用法/Callout块.md",
     "杂项/Obsidian用法/Excalidraw把玩.md",
@@ -267,8 +255,6 @@
     "Excalidraw/Drawing 2024-11-13 17.23.11.excalidraw.md",
     "Excalidraw",
     "Linux/Hacks/WSL2迁移、备份、还原.md",
-    "Linux/Hacks/WSL与Hyper-V共存.md",
-    "科研/普通图笔记-1.md",
     "杂项/Git",
     "课程-计算机科学/操作系统",
     "课程-计算机科学/软件工程",
