@@ -23,7 +23,7 @@ tu = you
 
 il/elle = he/she
 
-ce = it
+ce = it (he/she?)
 
 suis = am
 
