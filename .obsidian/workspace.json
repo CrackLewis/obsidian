@@ -196,12 +196,14 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "templates:插入模板": false
     }
   },
   "active": "41db183bede41b9b",
   "lastOpenFiles": [
+    "附件/Pasted image 20241130174935.png",
+    "附件/Pasted image 20241130161620.png",
+    "附件/Pasted image 20241130160619.png",
     "附件/Pasted image 20241130153204.png",
     "课程-其他/Duolingo法语.md",
     "课程项目/CMU-DB/01-15445-bootcamp.md",
@@ -224,9 +226,6 @@
     "Excalidraw/Drawing 2024-11-24 15.25.00.excalidraw.md",
     "Excalidraw/Drawing 2024-11-22 10.55.24.excalidraw.md",
     "附件/Pasted image 20241123171114.png",
-    "附件/Pasted image 20241123170805.png",
-    "附件/Pasted image 20241121211114.png",
-    "附件/Pasted image 20241121205551.png",
     "课程-其他/黄嵩-金融科技理论与实践.md",
     "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "课程-计算机科学/算法/字符串算法",
