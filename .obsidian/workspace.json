@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "莫同-云计算技术与应用"
             }
+          },
+          {
+            "id": "b20fe9e43ca164fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "沈晴霓-OS与虚拟化安全"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -150,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/云计算/莫同-云计算技术与应用.md"
+                "file": "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md"
               },
               "icon": "lucide-list",
-              "title": "莫同-云计算技术与应用 的大纲"
+              "title": "沈晴霓-OS与虚拟化安全 的大纲"
             }
           },
           {
@@ -199,8 +213,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "41db183bede41b9b",
+  "active": "b20fe9e43ca164fb",
   "lastOpenFiles": [
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+    "附件/Pasted image 20241201174918.png",
+    "附件/Pasted image 20241201174602.png",
     "附件/Pasted image 20241130174935.png",
     "附件/Pasted image 20241130161620.png",
     "附件/Pasted image 20241130160619.png",
@@ -211,7 +228,6 @@
     "Excalidraw/Drawing 2024-11-30 13.54.06.excalidraw.md",
     "AI/动手学深度学习/05-深度学习计算.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "Excalidraw/Drawing 2024-11-30 00.04.31.excalidraw.md",
     "!待办.md",
     "附件/Pasted image 20241129210105.png",
@@ -221,11 +237,8 @@
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "附件/Pasted image 20241127163010.png",
     "附件/Pasted image 20241127161803.png",
-    "附件/Pasted image 20241125195114.png",
-    "附件/Pasted image 20241125191450.png",
     "Excalidraw/Drawing 2024-11-24 15.25.00.excalidraw.md",
     "Excalidraw/Drawing 2024-11-22 10.55.24.excalidraw.md",
-    "附件/Pasted image 20241123171114.png",
     "课程-其他/黄嵩-金融科技理论与实践.md",
     "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "课程-计算机科学/算法/字符串算法",
