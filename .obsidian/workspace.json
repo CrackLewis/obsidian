@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "莫同-云计算技术与应用"
-            }
-          },
-          {
-            "id": "b20fe9e43ca164fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
                 "mode": "source",
                 "source": false
@@ -34,9 +20,22 @@
               "icon": "lucide-file",
               "title": "沈晴霓-OS与虚拟化安全"
             }
+          },
+          {
+            "id": "82178694ad1dd1e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "!待办.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!待办"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,10 +213,19 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b20fe9e43ca164fb",
+  "active": "41db183bede41b9b",
   "lastOpenFiles": [
-    "附件/Pasted image 20241202091252.png",
+    "课程-计算机科学/操作系统/xv6实验日志.md",
+    "课程-计算机科学/操作系统/xv6源码阅读.md",
+    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+    "!待办.md",
+    "!到复试的全部学习计划.md",
+    "!技能清单.md",
+    "附件/Pasted image 20241202173326.png",
+    "附件/Pasted image 20241202170327.png",
+    "Excalidraw/Drawing 2024-12-02 13.34.56.excalidraw.md",
+    "附件/Pasted image 20241202091252.png",
     "附件/Pasted image 20241201174918.png",
     "附件/Pasted image 20241201174602.png",
     "附件/Pasted image 20241130174935.png",
@@ -230,14 +239,9 @@
     "AI/动手学深度学习/05-深度学习计算.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
     "Excalidraw/Drawing 2024-11-30 00.04.31.excalidraw.md",
-    "!待办.md",
     "附件/Pasted image 20241129210105.png",
     "Excalidraw/Drawing 2024-11-29 19.35.22.excalidraw.md",
-    "附件/Pasted image 20241129193510.png",
-    "课程-计算机科学/操作系统/xv6实验日志.md",
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
-    "附件/Pasted image 20241127163010.png",
-    "附件/Pasted image 20241127161803.png",
     "Excalidraw/Drawing 2024-11-24 15.25.00.excalidraw.md",
     "Excalidraw/Drawing 2024-11-22 10.55.24.excalidraw.md",
     "课程-其他/黄嵩-金融科技理论与实践.md",
@@ -249,10 +253,6 @@
     "课程项目/CMU-ICS/01-ics-coursenote.md",
     "编程语言/Cpp/Effective_Modern_C++.md",
     "课程项目/CMU-DB",
-    "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
-    "科研/普通图笔记-2.md",
-    "科研/科研黑话.md",
-    "杂项/Obsidian用法/Callout块.md",
     "Excalidraw",
     "杂项/Git",
     "课程-计算机科学/操作系统",
