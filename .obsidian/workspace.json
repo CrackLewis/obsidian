@@ -101,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -215,6 +216,9 @@
   },
   "active": "41db183bede41b9b",
   "lastOpenFiles": [
+    "附件/Pasted image 20241203104241.png",
+    "附件/Pasted image 20241203104213.png",
+    "附件/Pasted image 20241203101320.png",
     "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
     "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
@@ -231,7 +235,6 @@
     "附件/Pasted image 20241130174935.png",
     "附件/Pasted image 20241130161620.png",
     "附件/Pasted image 20241130160619.png",
-    "附件/Pasted image 20241130153204.png",
     "课程-其他/Duolingo法语.md",
     "课程项目/CMU-DB/01-15445-bootcamp.md",
     "AI/动手学深度学习/01&02-深度学习预备知识.md",
@@ -239,7 +242,6 @@
     "AI/动手学深度学习/05-深度学习计算.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
     "Excalidraw/Drawing 2024-11-30 00.04.31.excalidraw.md",
-    "附件/Pasted image 20241129210105.png",
     "Excalidraw/Drawing 2024-11-29 19.35.22.excalidraw.md",
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "Excalidraw/Drawing 2024-11-24 15.25.00.excalidraw.md",
@@ -251,7 +253,6 @@
     "课程项目/CMU-ICS/00-ics-overview.md",
     "课程项目/CMU-ICS/02-ics-labs.md",
     "课程项目/CMU-ICS/01-ics-coursenote.md",
-    "编程语言/Cpp/Effective_Modern_C++.md",
     "课程项目/CMU-DB",
     "Excalidraw",
     "杂项/Git",
