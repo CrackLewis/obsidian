@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "杂项/自然辩证法笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "xv6实验日志"
+              "title": "自然辩证法笔记"
             }
           },
           {
@@ -101,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -163,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md"
+                "file": "杂项/自然辩证法笔记.md"
               },
               "icon": "lucide-list",
-              "title": "沈晴霓-OS与虚拟化安全 的大纲"
+              "title": "自然辩证法笔记 的大纲"
             }
           },
           {
@@ -209,29 +210,34 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "41db183bede41b9b",
   "lastOpenFiles": [
+    "!待办.md",
+    "杂项/自然辩证法笔记.md",
+    "课程-其他/ziranbianzhengfa.md",
+    "课程-其他/黄嵩-金融科技理论与实践.md",
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+    "课程-计算机科学/云计算/云计算作业-伪分布式Hadoop.md",
+    "附件/Pasted image 20241204134942.png",
+    "附件/Pasted image 20241204134733.png",
+    "附件/Pasted image 20241204134527.png",
+    "附件/Pasted image 20241204134511.png",
+    "附件/Pasted image 20241204134255.png",
+    "附件/Pasted image 20241204125857.png",
+    "附件/Pasted image 20241204125224.png",
+    "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "附件/Pasted image 20241203104241.png",
     "附件/Pasted image 20241203104213.png",
     "附件/Pasted image 20241203101320.png",
-    "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
-    "!待办.md",
     "!到复试的全部学习计划.md",
     "!技能清单.md",
-    "附件/Pasted image 20241202173326.png",
-    "附件/Pasted image 20241202170327.png",
     "Excalidraw/Drawing 2024-12-02 13.34.56.excalidraw.md",
-    "附件/Pasted image 20241202091252.png",
-    "附件/Pasted image 20241201174918.png",
-    "附件/Pasted image 20241201174602.png",
-    "附件/Pasted image 20241130174935.png",
-    "附件/Pasted image 20241130161620.png",
     "课程-其他/Duolingo法语.md",
     "课程项目/CMU-DB/01-15445-bootcamp.md",
     "AI/动手学深度学习/01&02-深度学习预备知识.md",
@@ -243,13 +249,10 @@
     "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
     "Excalidraw/Drawing 2024-11-24 15.25.00.excalidraw.md",
     "Excalidraw/Drawing 2024-11-22 10.55.24.excalidraw.md",
-    "课程-其他/黄嵩-金融科技理论与实践.md",
     "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "课程-计算机科学/算法/字符串算法",
     "课程-数学/A01-初等代数.md",
     "课程项目/CMU-ICS/00-ics-overview.md",
-    "课程项目/CMU-ICS/02-ics-labs.md",
-    "课程项目/CMU-ICS/01-ics-coursenote.md",
     "课程项目/CMU-DB",
     "Excalidraw",
     "杂项/Git",
