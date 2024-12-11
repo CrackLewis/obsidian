@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,10 +206,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣03-数学.md"
+                "file": "杂项/自然辩证法笔记.md"
               },
               "icon": "lucide-list",
-              "title": "力扣03-数学 的大纲"
+              "title": "自然辩证法笔记 的大纲"
             }
           },
           {
@@ -255,15 +255,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "82178694ad1dd1e4",
+  "active": "3a5216800cd05c7f",
   "lastOpenFiles": [
+    "课程-计算机科学/算法/经典算法/力扣03-数学.md",
+    "AI/动手学深度学习/08-循环神经网络.md",
     "课程-数学/A01-初等代数.md",
     "!待办.md",
     "科研/普通图笔记-2.md",
     "科研/普通图笔记-1.md",
     "杂项/自然辩证法笔记.md",
     "AI/AI名词词典.md",
-    "AI/动手学深度学习/08-循环神经网络.md",
     "AI/机器学习-周志华-2.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
@@ -292,7 +293,6 @@
     "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "Excalidraw/Drawing 2024-11-30 13.54.06.excalidraw.md",
     "AI/动手学深度学习/05-深度学习计算.md",
-    "Excalidraw/Drawing 2024-11-30 00.04.31.excalidraw.md",
     "课程-计算机科学/算法/字符串算法",
     "课程项目/CMU-DB",
     "Excalidraw",
