@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/算法/代数算法/01-线性规划.md",
+                "file": "AI/大模型面试/大模型面试-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-线性规划"
+              "title": "大模型面试-1"
             }
           },
           {
@@ -116,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -179,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/算法/代数算法/01-线性规划.md"
+                "file": "AI/大模型面试/大模型面试-1.md"
               },
               "icon": "lucide-list",
-              "title": "01-线性规划 的大纲"
+              "title": "大模型面试-1 的大纲"
             }
           },
           {
@@ -214,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,8 +229,8 @@
   },
   "active": "3a5216800cd05c7f",
   "lastOpenFiles": [
-    "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "课程-计算机科学/算法/代数算法/01-线性规划.md",
+    "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "课程-计算机科学/算法/代数算法",
     "课程-计算机科学/算法/数论算法",
     "课程-计算机科学/算法/经典算法/力扣03-数学.md",
