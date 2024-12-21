@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "41db183bede41b9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "杂项/Git/01-Git基础.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-Git基础"
-            }
-          },
-          {
             "id": "91e628a557faeccd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LaTeX/TiKZ/TikZ坐标系绘图.md",
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TikZ坐标系绘图"
+              "title": "xv6实验日志"
             }
           }
         ]
@@ -163,10 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Git/01-Git基础.md"
+                "file": "课程-计算机科学/操作系统/xv6实验日志.md"
               },
               "icon": "lucide-list",
-              "title": "01-Git基础 的大纲"
+              "title": "xv6实验日志 的大纲"
             }
           },
           {
@@ -198,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,16 +198,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "41db183bede41b9b",
+  "active": "91e628a557faeccd",
   "lastOpenFiles": [
+    "课程-计算机科学/算法/字符串算法/01-Trie.md",
+    "LaTeX/TiKZ/TikZ坐标系绘图.md",
+    "杂项/Git/01-Git基础.md",
     "AI/机器学习-周志华-2.md",
     "AI/机器学习复习/04-决策树.md",
     "AI/机器学习-周志华-1.md",
-    "LaTeX/TiKZ/TikZ坐标系绘图.md",
     "AI/大模型面试/大模型面试-2.md",
     "AI/大模型面试/大模型面试-1.md",
     "课程-计算机科学/算法/代数算法/01-线性规划.md",
-    "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "课程-计算机科学/算法/代数算法",
     "课程-计算机科学/算法/数论算法",
     "课程-计算机科学/算法/经典算法/力扣03-数学.md",
@@ -243,7 +229,6 @@
     "AI/大模型面试",
     "课程-数学/A01-初等代数.md",
     "科研/普通图笔记-1.md",
-    "AI/AI名词词典.md",
     "附件/Pasted image 20241204134942.png",
     "附件/Pasted image 20241204134733.png",
     "附件/Pasted image 20241204134527.png",
