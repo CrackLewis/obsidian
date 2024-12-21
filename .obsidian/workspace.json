@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md",
+                "file": "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "xv6实验日志"
+              "title": "力扣02-搜索"
+            }
+          },
+          {
+            "id": "bf0eee8250dab6c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "!待办.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!待办"
+            }
+          },
+          {
+            "id": "41fc4e91cac01539",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程-计算机科学/算法/字符串算法/01-Trie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-Trie"
             }
           }
         ]
@@ -149,10 +177,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/操作系统/xv6实验日志.md"
+                "file": "课程-计算机科学/算法/经典算法/力扣02-搜索.md"
               },
               "icon": "lucide-list",
-              "title": "xv6实验日志 的大纲"
+              "title": "力扣02-搜索 的大纲"
             }
           },
           {
@@ -200,7 +228,9 @@
   },
   "active": "91e628a557faeccd",
   "lastOpenFiles": [
+    "课程-计算机科学/操作系统/xv6实验日志.md",
     "课程-计算机科学/算法/字符串算法/01-Trie.md",
+    "!待办.md",
     "LaTeX/TiKZ/TikZ坐标系绘图.md",
     "杂项/Git/01-Git基础.md",
     "AI/机器学习-周志华-2.md",
@@ -218,7 +248,6 @@
     "课程-计算机科学/算法/经典算法/贪心专题.md",
     "课程-计算机科学/操作系统/xv6源码阅读.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
-    "!待办.md",
     "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
     "课程-其他/Duolingo法语.md",
     "科研/普通图笔记-2.md",
@@ -228,7 +257,6 @@
     "杂项/未命名.md",
     "AI/大模型面试",
     "课程-数学/A01-初等代数.md",
-    "科研/普通图笔记-1.md",
     "附件/Pasted image 20241204134942.png",
     "附件/Pasted image 20241204134733.png",
     "附件/Pasted image 20241204134527.png",
