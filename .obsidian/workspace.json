@@ -27,12 +27,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!待办.md",
+                "file": "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!待办"
+              "title": "莫同-云计算技术与应用"
+            }
+          },
+          {
+            "id": "7a2d79efb4299b27",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-12-22 15.41.15.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-12-22 15.41.15.excalidraw"
             }
           },
           {
@@ -49,7 +61,8 @@
               "title": "01-Trie"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,10 +190,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/算法/经典算法/力扣02-搜索.md"
+                "file": "课程-计算机科学/云计算/莫同-云计算技术与应用.md"
               },
               "icon": "lucide-list",
-              "title": "力扣02-搜索 的大纲"
+              "title": "莫同-云计算技术与应用 的大纲"
             }
           },
           {
@@ -226,11 +239,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "91e628a557faeccd",
+  "active": "bf0eee8250dab6c6",
   "lastOpenFiles": [
-    "课程-计算机科学/操作系统/xv6实验日志.md",
+    "Excalidraw/Drawing 2024-12-22 15.41.15.excalidraw.md",
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "!待办.md",
+    "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
+    "课程-计算机科学/操作系统/xv6实验日志.md",
     "LaTeX/TiKZ/TikZ坐标系绘图.md",
     "杂项/Git/01-Git基础.md",
     "AI/机器学习-周志华-2.md",
@@ -242,7 +258,6 @@
     "课程-计算机科学/算法/代数算法",
     "课程-计算机科学/算法/数论算法",
     "课程-计算机科学/算法/经典算法/力扣03-数学.md",
-    "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
     "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "课程-计算机科学/算法/经典数据结构/A-红黑树.md",
     "课程-计算机科学/算法/经典算法/贪心专题.md",
@@ -254,9 +269,7 @@
     "AI/动手学深度学习/08-循环神经网络.md",
     "Excalidraw/Drawing 2024-12-11 20.09.34.excalidraw.md",
     "杂项/自然辩证法笔记.md",
-    "杂项/未命名.md",
     "AI/大模型面试",
-    "课程-数学/A01-初等代数.md",
     "附件/Pasted image 20241204134942.png",
     "附件/Pasted image 20241204134733.png",
     "附件/Pasted image 20241204134527.png",
