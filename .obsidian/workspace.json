@@ -36,18 +36,6 @@
             }
           },
           {
-            "id": "080c56596fec0477",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-12-23 18.07.30.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-23 18.07.30.excalidraw"
-            }
-          },
-          {
             "id": "b27661dd25b0d9ce",
             "type": "leaf",
             "state": {
@@ -59,20 +47,6 @@
               },
               "icon": "lucide-file",
               "title": "大模型面试-2"
-            }
-          },
-          {
-            "id": "95bef70e6de9d74c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!待办.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "!待办"
             }
           }
         ],
@@ -142,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -239,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,23 +225,30 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "templates:插入模板": false
     }
   },
   "active": "bf0eee8250dab6c6",
   "lastOpenFiles": [
-    "附件/Pasted image 20241224105449.png",
-    "附件/Pasted image 20241224105440.png",
-    "Excalidraw/Drawing 2024-12-23 18.07.30.excalidraw.md",
+    "附件/Pasted image 20241224195600.png",
+    "附件/Pasted image 20241224195506.png",
+    "附件/Pasted image 20241224193807.png",
+    "附件/Pasted image 20241224193747.png",
     "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
-    "课程-计算机科学/算法/字符串算法/01-Trie.md",
-    "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
+    "附件/Pasted image 20241224183427.png",
+    "Excalidraw/Drawing 2024-12-24 15.52.18.excalidraw.md",
+    "附件/Pasted image 20241224161345.png",
+    "Excalidraw/Drawing 2024-12-23 18.07.30.excalidraw.md",
+    "附件/Pasted image 20241224153605.png",
+    "附件/Pasted image 20241224153349.png",
+    "附件/Pasted image 20241224133510.png",
     "AI/大模型面试/大模型面试-2.md",
     "!待办.md",
-    "附件/Pasted image 20241223124904.png",
+    "附件/Pasted image 20241224105449.png",
+    "附件/Pasted image 20241224105440.png",
+    "课程-计算机科学/算法/字符串算法/01-Trie.md",
+    "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
     "Excalidraw/Drawing 2024-12-22 15.41.15.excalidraw.md",
-    "附件/Pasted image 20241223004021.png",
     "课程-计算机科学/操作系统/xv6实验日志.md",
     "LaTeX/TiKZ/TikZ坐标系绘图.md",
     "杂项/Git/01-Git基础.md",
@@ -285,15 +268,7 @@
     "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
     "课程-其他/Duolingo法语.md",
     "科研/普通图笔记-2.md",
-    "AI/动手学深度学习/08-循环神经网络.md",
     "AI/大模型面试",
-    "附件/Pasted image 20241204134942.png",
-    "附件/Pasted image 20241204134733.png",
-    "附件/Pasted image 20241204134527.png",
-    "附件/Pasted image 20241204134511.png",
-    "附件/Pasted image 20241204134255.png",
-    "附件/Pasted image 20241204125857.png",
-    "附件/Pasted image 20241204125224.png",
     "课程-计算机科学/算法/字符串算法",
     "课程项目/CMU-DB",
     "Excalidraw",
