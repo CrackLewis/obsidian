@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "58cfbe08cff2d4b4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-12-25 01.24.18.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-12-25 01.24.18.excalidraw"
+            }
+          },
+          {
             "id": "b27661dd25b0d9ce",
             "type": "leaf",
             "state": {
@@ -225,16 +237,18 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "bf0eee8250dab6c6",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-12-25 01.24.18.excalidraw.md",
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "附件/Pasted image 20241224195600.png",
     "附件/Pasted image 20241224195506.png",
     "附件/Pasted image 20241224193807.png",
     "附件/Pasted image 20241224193747.png",
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "附件/Pasted image 20241224183427.png",
     "Excalidraw/Drawing 2024-12-24 15.52.18.excalidraw.md",
     "附件/Pasted image 20241224161345.png",
@@ -245,7 +259,6 @@
     "AI/大模型面试/大模型面试-2.md",
     "!待办.md",
     "附件/Pasted image 20241224105449.png",
-    "附件/Pasted image 20241224105440.png",
     "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
     "Excalidraw/Drawing 2024-12-22 15.41.15.excalidraw.md",
