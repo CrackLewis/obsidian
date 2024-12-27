@@ -223,7 +223,7 @@ GitHub提供HTTP地址和SSH地址，前者被墙，后者目前可用。
 
 ```sh
 $ git remote -v # 查看活动的远程仓库
-$ git remote set-url origin git@github/com:USER_NAME/REPO.git
+$ git remote set-url origin git@github.com:USER_NAME/REPO.git
 ```
 
 ### 模拟文件改名
