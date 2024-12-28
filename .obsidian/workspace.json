@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,10 +193,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/云计算/莫同-云计算技术与应用.md"
+                "file": "杂项/Git/01-Git基础.md"
               },
               "icon": "lucide-list",
-              "title": "莫同-云计算技术与应用 的大纲"
+              "title": "01-Git基础 的大纲"
             }
           },
           {
@@ -243,12 +243,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "bf0eee8250dab6c6",
+  "active": "44fda5bb37497501",
   "lastOpenFiles": [
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "附件/Pasted image 20241227214022.png",
     "附件/Pasted image 20241227213515.png",
     "附件/Pasted image 20241227211058.png",
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "附件/Pasted image 20241227210444.png",
     "附件/Pasted image 20241227205635.png",
     "!待办.md",
@@ -261,7 +261,6 @@
     "附件/Pasted image 20241225112230.png",
     "附件/Pasted image 20241225112205.png",
     "附件/Pasted image 20241224195600.png",
-    "附件/Pasted image 20241224195506.png",
     "Excalidraw/Drawing 2024-12-24 15.52.18.excalidraw.md",
     "Excalidraw/Drawing 2024-12-23 18.07.30.excalidraw.md",
     "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
