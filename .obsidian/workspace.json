@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "搜广推笔记241228"
             }
+          },
+          {
+            "id": "60e3da2d66fbb0fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "!待办.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!待办"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -238,14 +252,15 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "44fda5bb37497501",
+  "active": "60e3da2d66fbb0fa",
   "lastOpenFiles": [
+    "AI/搜广推/搜广推笔记241228.md",
     "附件/Pasted image 20241228183256.png",
     "AI/AI名词词典.md",
-    "AI/搜广推/搜广推笔记241228.md",
     "AI/搜广推",
     "未命名",
     "杂项/Git/01-Git基础.md",
@@ -263,7 +278,6 @@
     "附件/Pasted image 20241225141517.png",
     "附件/Pasted image 20241225112230.png",
     "附件/Pasted image 20241225112205.png",
-    "附件/Pasted image 20241224195600.png",
     "Excalidraw/Drawing 2024-12-24 15.52.18.excalidraw.md",
     "Excalidraw/Drawing 2024-12-23 18.07.30.excalidraw.md",
     "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
