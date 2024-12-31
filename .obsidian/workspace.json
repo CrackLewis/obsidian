@@ -27,40 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+                "file": "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "莫同-云计算技术与应用"
-            }
-          },
-          {
-            "id": "b27661dd25b0d9ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/大模型面试/大模型面试-2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "大模型面试-2"
-            }
-          },
-          {
-            "id": "44fda5bb37497501",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/搜广推/搜广推笔记241228.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "搜广推笔记241228"
+              "title": "沈晴霓-OS与虚拟化安全"
             }
           },
           {
@@ -76,9 +48,23 @@
               "icon": "lucide-file",
               "title": "!待办"
             }
+          },
+          {
+            "id": "730b842a26cf36f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程项目/CMU-ICS/02-ics-labs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02-ics-labs"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,10 +192,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/搜广推/搜广推笔记241228.md"
+                "file": "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md"
               },
               "icon": "lucide-list",
-              "title": "搜广推笔记241228 的大纲"
+              "title": "沈晴霓-OS与虚拟化安全 的大纲"
             }
           },
           {
@@ -241,8 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,24 +241,25 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "60e3da2d66fbb0fa",
+  "active": "bf0eee8250dab6c6",
   "lastOpenFiles": [
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+    "课程项目/CMU-ICS/02-ics-labs.md",
+    "AI/大模型面试/大模型面试-2.md",
     "AI/搜广推/搜广推笔记241228.md",
+    "!待办.md",
     "附件/Pasted image 20241228183256.png",
     "AI/AI名词词典.md",
     "AI/搜广推",
     "未命名",
     "杂项/Git/01-Git基础.md",
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "附件/Pasted image 20241227214022.png",
     "附件/Pasted image 20241227213515.png",
     "附件/Pasted image 20241227211058.png",
     "附件/Pasted image 20241227210444.png",
     "附件/Pasted image 20241227205635.png",
-    "!待办.md",
     "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "附件/Pasted image 20241227160421.png",
-    "AI/大模型面试/大模型面试-2.md",
     "Excalidraw/Drawing 2024-12-25 01.24.18.excalidraw.md",
     "附件/Pasted image 20241225141517.png",
     "附件/Pasted image 20241225112230.png",
