@@ -246,15 +246,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "04da680fce8cc0a4",
+        "id": "be51124b361a2446",
         "type": "window",
         "children": [
           {
-            "id": "e939efaef74aea24",
+            "id": "40053b9bf5b17328",
             "type": "tabs",
             "children": [
               {
-                "id": "55d86bc0d37f4a90",
+                "id": "6ea04b7091e6d735",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -271,16 +271,16 @@
           }
         ],
         "direction": "vertical",
-        "x": 256,
-        "y": 8,
-        "width": 1024,
-        "height": 800,
+        "x": -1301,
+        "y": 72,
+        "width": 1025,
+        "height": 801,
         "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "55d86bc0d37f4a90",
+  "active": "6ea04b7091e6d735",
   "lastOpenFiles": [
     "!待办.md",
     "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
