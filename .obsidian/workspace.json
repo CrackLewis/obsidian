@@ -22,34 +22,6 @@
             }
           },
           {
-            "id": "bf0eee8250dab6c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "莫同-云计算技术与应用"
-            }
-          },
-          {
-            "id": "60e3da2d66fbb0fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!待办.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "!待办"
-            }
-          },
-          {
             "id": "27091b7bdf52f3b4",
             "type": "leaf",
             "state": {
@@ -78,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/云计算/莫同-云计算技术与应用.md"
+                "file": "课程项目/CMU-ICS/02-ics-labs.md"
               },
               "icon": "lucide-list",
-              "title": "莫同-云计算技术与应用 的大纲"
+              "title": "02-ics-labs 的大纲"
             }
           },
           {
@@ -255,13 +227,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "bf0eee8250dab6c6",
+  "active": "730b842a26cf36f9",
   "lastOpenFiles": [
-    "附件/Pasted image 20240920143944.png",
-    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "AI/机器学习-周志华-1.md",
-    "!待办.md",
     "课程项目/CMU-ICS/02-ics-labs.md",
+    "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+    "附件/Pasted image 20240920143944.png",
+    "!待办.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "AI/大模型面试/大模型面试-2.md",
@@ -281,7 +253,6 @@
     "Excalidraw/Drawing 2024-12-25 01.24.18.excalidraw.md",
     "附件/Pasted image 20241225141517.png",
     "附件/Pasted image 20241225112230.png",
-    "附件/Pasted image 20241225112205.png",
     "Excalidraw/Drawing 2024-12-24 15.52.18.excalidraw.md",
     "Excalidraw/Drawing 2024-12-23 18.07.30.excalidraw.md",
     "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
