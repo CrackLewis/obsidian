@@ -14,7 +14,7 @@ Docker换源：
 {
   "registry": {
     ...
-  }
+  },
   "builder": {
     "gc": {
       "defaultKeepStorage": "20GB",

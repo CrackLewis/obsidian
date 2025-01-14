@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!待办.md",
+                "file": "杂项/Docker/01-Docker入门.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!待办"
+              "title": "01-Docker入门"
             }
           },
           {
@@ -163,10 +163,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "!待办.md"
+                "file": "杂项/Docker/01-Docker入门.md"
               },
               "icon": "lucide-list",
-              "title": "!待办 的大纲"
+              "title": "01-Docker入门 的大纲"
             }
           },
           {
@@ -198,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,13 +215,16 @@
   },
   "active": "91e628a557faeccd",
   "lastOpenFiles": [
+    "杂项/Git/01-Git基础.md",
+    "Excalidraw/Drawing 2025-01-14 13.00.57.excalidraw.md",
+    "课程项目/MIT-MissingSemester.md",
+    "杂项/Docker/01-Docker入门.md",
+    "!待办.md",
     "!技能清单.md",
     "课程项目/CMU-ICS/02-ics-labs.md",
     "AI/机器学习-周志华-1.md",
-    "课程项目/MIT-MissingSemester.md",
     "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
     "附件/Pasted image 20240920143944.png",
-    "!待办.md",
     "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
     "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
     "AI/大模型面试/大模型面试-2.md",
@@ -229,7 +233,6 @@
     "AI/AI名词词典.md",
     "AI/搜广推",
     "未命名",
-    "杂项/Git/01-Git基础.md",
     "附件/Pasted image 20241227214022.png",
     "附件/Pasted image 20241227213515.png",
     "附件/Pasted image 20241227211058.png",
@@ -252,8 +255,6 @@
     "课程-计算机科学/算法/代数算法/01-线性规划.md",
     "课程-计算机科学/算法/代数算法",
     "课程-计算机科学/算法/数论算法",
-    "课程-计算机科学/算法/经典算法/力扣03-数学.md",
-    "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
     "AI/大模型面试",
     "课程-计算机科学/算法/字符串算法",
     "课程项目/CMU-DB",

@@ -228,4 +228,16 @@ $ git remote set-url origin git@github.com:USER_NAME/REPO.git
 
 ### 模拟文件改名
 
-目录改名有可能被git认为是
+WIP
+
+## 250114：Git撤销操作总结
+
+[src](https://www.bilibili.com/video/BV1ne4y1S7S9/)
+
+![[Drawing 2025-01-14 13.00.57.excalidraw|100%]]
+
+checkout用于检出任意一个commit，restore还原任何一个文件
+
+reset撤销到某个特定的更改（`HEAD~1`表示当前分支的上一个更改）
+
+push -f只能在个人分支使用
