@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "e112ed8bb7b79e25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/动手学深度学习/08-循环神经网络.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "08-循环神经网络"
+            }
+          },
+          {
             "id": "730b842a26cf36f9",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "MIT-MissingSemester"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/动手学深度学习/06-卷积神经网络.md"
+                "file": "AI/动手学深度学习/08-循环神经网络.md"
               },
               "icon": "lucide-list",
-              "title": "06-卷积神经网络 的大纲"
+              "title": "08-循环神经网络 的大纲"
             }
           },
           {
@@ -212,11 +227,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "91e628a557faeccd",
+  "active": "e112ed8bb7b79e25",
   "lastOpenFiles": [
-    "课程项目/MIT-MissingSemester.md",
+    "AI/动手学深度学习/07-现代卷积神经网络.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
+    "AI/动手学深度学习/04-多层感知机.md",
+    "AI/动手学深度学习/03-线性神经网络.md",
+    "AI/动手学深度学习/05-深度学习计算.md",
     "AI/动手学深度学习/08-循环神经网络.md",
+    "AI/动手学深度学习/01&02-深度学习预备知识.md",
+    "附件/Pasted image 20250115151635.png",
+    "课程项目/MIT-MissingSemester.md",
     "杂项/Docker/01-Docker入门.md",
     "杂项/Git/01-Git基础.md",
     "Excalidraw/Drawing 2025-01-14 13.00.57.excalidraw.md",
@@ -243,15 +264,9 @@
     "附件/Pasted image 20241227160421.png",
     "Excalidraw/Drawing 2024-12-25 01.24.18.excalidraw.md",
     "附件/Pasted image 20241225141517.png",
-    "附件/Pasted image 20241225112230.png",
     "Excalidraw/Drawing 2024-12-24 15.52.18.excalidraw.md",
     "Excalidraw/Drawing 2024-12-23 18.07.30.excalidraw.md",
     "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
-    "Excalidraw/Drawing 2024-12-22 15.41.15.excalidraw.md",
-    "课程-计算机科学/操作系统/xv6实验日志.md",
-    "LaTeX/TiKZ/TikZ坐标系绘图.md",
-    "AI/机器学习-周志华-2.md",
-    "AI/机器学习复习/04-决策树.md",
     "课程-计算机科学/算法/代数算法",
     "课程-计算机科学/算法/数论算法",
     "AI/大模型面试",
