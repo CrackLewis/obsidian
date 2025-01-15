@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Docker/01-Docker入门.md",
+                "file": "AI/动手学深度学习/06-卷积神经网络.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Docker入门"
+              "title": "06-卷积神经网络"
             }
           },
           {
@@ -163,10 +163,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Docker/01-Docker入门.md"
+                "file": "AI/动手学深度学习/06-卷积神经网络.md"
               },
               "icon": "lucide-list",
-              "title": "01-Docker入门 的大纲"
+              "title": "06-卷积神经网络 的大纲"
             }
           },
           {
@@ -198,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,10 +214,12 @@
   },
   "active": "91e628a557faeccd",
   "lastOpenFiles": [
+    "课程项目/MIT-MissingSemester.md",
+    "AI/动手学深度学习/06-卷积神经网络.md",
+    "AI/动手学深度学习/08-循环神经网络.md",
+    "杂项/Docker/01-Docker入门.md",
     "杂项/Git/01-Git基础.md",
     "Excalidraw/Drawing 2025-01-14 13.00.57.excalidraw.md",
-    "课程项目/MIT-MissingSemester.md",
-    "杂项/Docker/01-Docker入门.md",
     "!待办.md",
     "!技能清单.md",
     "课程项目/CMU-ICS/02-ics-labs.md",
@@ -251,8 +252,6 @@
     "LaTeX/TiKZ/TikZ坐标系绘图.md",
     "AI/机器学习-周志华-2.md",
     "AI/机器学习复习/04-决策树.md",
-    "AI/大模型面试/大模型面试-1.md",
-    "课程-计算机科学/算法/代数算法/01-线性规划.md",
     "课程-计算机科学/算法/代数算法",
     "课程-计算机科学/算法/数论算法",
     "AI/大模型面试",
