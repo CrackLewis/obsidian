@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/动手学深度学习/06-卷积神经网络.md",
+                "file": "AI/动手学深度学习/08-循环神经网络.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06-卷积神经网络"
+              "title": "08-循环神经网络"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "MIT-MissingSemester"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,10 +177,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/普通图-kplex.md"
+                "file": "AI/动手学深度学习/08-循环神经网络.md"
               },
               "icon": "lucide-list",
-              "title": "普通图-kplex 的大纲"
+              "title": "08-循环神经网络 的大纲"
             }
           },
           {
@@ -223,15 +222,16 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e112ed8bb7b79e25",
+  "active": "91e628a557faeccd",
   "lastOpenFiles": [
-    "AI/动手学深度学习/08-循环神经网络.md",
-    "科研/普通图-kplex.md",
     "AI/动手学深度学习/07-现代卷积神经网络.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
+    "科研/普通图-kplex.md",
+    "AI/动手学深度学习/08-循环神经网络.md",
     "AI/动手学深度学习/04-多层感知机.md",
     "AI/动手学深度学习/03-线性神经网络.md",
     "AI/动手学深度学习/05-深度学习计算.md",
