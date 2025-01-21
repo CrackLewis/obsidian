@@ -222,17 +222,18 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "91e628a557faeccd",
+  "active": "fd6329ed65e6b816",
   "lastOpenFiles": [
+    "AI/动手学深度学习/03-线性神经网络.md",
+    "AI/动手学深度学习/08-循环神经网络.md",
     "AI/动手学深度学习/07-现代卷积神经网络.md",
     "AI/动手学深度学习/06-卷积神经网络.md",
     "科研/普通图-kplex.md",
-    "AI/动手学深度学习/08-循环神经网络.md",
     "AI/动手学深度学习/04-多层感知机.md",
-    "AI/动手学深度学习/03-线性神经网络.md",
     "AI/动手学深度学习/05-深度学习计算.md",
     "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "附件/Pasted image 20250115151635.png",
