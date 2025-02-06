@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程项目/MIT-MissingSemester.md",
+                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MIT-MissingSemester"
+              "title": "01&02-深度学习预备知识"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,10 +192,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-数学/北大离散数学-图论.md"
+                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md"
               },
               "icon": "lucide-list",
-              "title": "北大离散数学-图论 的大纲"
+              "title": "01&02-深度学习预备知识 的大纲"
             }
           },
           {
@@ -237,13 +237,16 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e112ed8bb7b79e25",
+  "active": "730b842a26cf36f9",
   "lastOpenFiles": [
-    "科研/普通图-kplex.md",
+    "LaTeX/TiKZ/TikZ坐标系绘图.md",
+    "课程项目/MIT-MissingSemester.md",
     "课程-数学/北大离散数学-图论.md",
+    "科研/普通图-kplex.md",
     "Linux/Hacks/WSL2迁移、备份、还原.md",
     "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "AI/动手学深度学习/08-循环神经网络.md",
@@ -255,7 +258,6 @@
     "AI/动手学深度学习/04-多层感知机.md",
     "AI/动手学深度学习/05-深度学习计算.md",
     "附件/Pasted image 20250115151635.png",
-    "课程项目/MIT-MissingSemester.md",
     "杂项/Docker/01-Docker入门.md",
     "杂项/Git/01-Git基础.md",
     "Excalidraw/Drawing 2025-01-14 13.00.57.excalidraw.md",
@@ -270,7 +272,6 @@
     "AI/大模型面试/大模型面试-2.md",
     "AI/搜广推/搜广推笔记241228.md",
     "附件/Pasted image 20241228183256.png",
-    "AI/AI名词词典.md",
     "AI/搜广推",
     "未命名",
     "附件/Pasted image 20241227214022.png",
