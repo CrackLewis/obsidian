@@ -5,7 +5,8 @@
 
 ## C
 
-- [ ] CNN：convolutional neural network，卷积神经网络
+- [CLIP](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf)：Contrastive Language-Image Pre-training，图文对比预训练方法
+- CNN：Convolutional Neural Network，卷积神经网络
 
 ## D
 
@@ -37,11 +38,11 @@
 
 ## R
 
-- [ ] RNN：recurrent neural network，循环神经网络
+- RNN：recurrent neural network，循环神经网络
 
 ## S
 
-- [ ] SVM：support vector machine，支持向量机
+- SVM：support vector machine，支持向量机
 
 ## T
 
