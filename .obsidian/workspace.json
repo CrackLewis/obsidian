@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Basics/Linux Shell.md",
+                "file": "编程语言/Python/pyinstrument.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Shell"
+              "title": "pyinstrument"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -207,13 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/李沐读论文系列-1.md",
+                "file": "编程语言/Python/pyinstrument.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "李沐读论文系列-1 的大纲"
+              "title": "pyinstrument 的大纲"
             }
           },
           {
@@ -259,15 +259,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0ce9a67becbda697",
+  "active": "27d8c3171b575884",
   "lastOpenFiles": [
-    "课程-数学/北大离散数学-图论.md",
     "Linux/Basics/Linux Shell.md",
+    "编程语言/Python/pyinstrument.md",
+    "编程语言/Python/pyinstrument",
+    "AI/李沐读论文系列-1.md",
+    "课程-数学/北大离散数学-图论.md",
     "编程语言/Python/001-Python函数.md",
     "编程语言/Python/002-Python类和对象.md",
     "编程语言/Python/003-Python数据交换.md",
     "Linux/Basics/Linux压缩和解压.md",
-    "AI/李沐读论文系列-1.md",
     "附件/Pasted image 20250208113813.png",
     "AI/AI名词词典.md",
     "Linux/Hacks/WSL2迁移、备份、还原.md",
@@ -288,7 +290,6 @@
     "杂项/Git/01-Git基础.md",
     "Excalidraw/Drawing 2025-01-14 13.00.57.excalidraw.md",
     "!待办.md",
-    "!技能清单.md",
     "附件/Pasted image 20240920143944.png",
     "附件/Pasted image 20241228183256.png",
     "AI/搜广推",
@@ -306,7 +307,6 @@
     "课程项目/CMU-DB",
     "Excalidraw",
     "杂项/Git",
-    "课程-计算机科学/操作系统",
     "编程语言/Cpp/未命名.canvas"
   ]
 }

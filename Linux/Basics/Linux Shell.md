@@ -514,6 +514,10 @@ do
 	command3
 	command4
 done
+
+# 输出1-20
+for var in $(seq 1 20); do echo $var; done
+for var in {1..20}; do echo $var; done
 ```
 
 `while`循环：
