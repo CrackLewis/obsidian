@@ -255,8 +255,7 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "templates:插入模板": false
     }
   },
   "active": "27d8c3171b575884",
