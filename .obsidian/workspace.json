@@ -76,9 +76,51 @@
               "icon": "lucide-file",
               "title": "pyinstrument"
             }
+          },
+          {
+            "id": "83aed8b9905cd41f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Hacks/多版本Python共存.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "多版本Python共存"
+            }
+          },
+          {
+            "id": "ccc0d336b097ca16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程语言/Python/PyAV.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PyAV"
+            }
+          },
+          {
+            "id": "a0ee1770128e8cf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程语言/Python/opencv-python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "opencv-python"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -145,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 342.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -207,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Python/pyinstrument.md",
+                "file": "编程语言/Python/opencv-python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "pyinstrument 的大纲"
+              "title": "opencv-python 的大纲"
             }
           },
           {
@@ -255,22 +297,27 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "27d8c3171b575884",
+  "active": "a0ee1770128e8cf1",
   "lastOpenFiles": [
-    "Linux/Basics/Linux Shell.md",
+    "编程语言/Python/PyAV.md",
+    "编程语言/Python/opencv-python.md",
     "编程语言/Python/pyinstrument.md",
-    "编程语言/Python/pyinstrument",
+    "Linux/Hacks/Ubuntu20.04安装OpenCV+CUDA.md",
+    "Linux/Hacks/多版本Python共存.md",
     "AI/李沐读论文系列-1.md",
+    "AI/AI名词词典.md",
+    "Linux/Basics/Linux Shell.md",
+    "编程语言/Python/pyinstrument",
     "课程-数学/北大离散数学-图论.md",
     "编程语言/Python/001-Python函数.md",
     "编程语言/Python/002-Python类和对象.md",
     "编程语言/Python/003-Python数据交换.md",
     "Linux/Basics/Linux压缩和解压.md",
     "附件/Pasted image 20250208113813.png",
-    "AI/AI名词词典.md",
     "Linux/Hacks/WSL2迁移、备份、还原.md",
     "AI/机器学习-周志华-2.md",
     "AI/动手学深度学习/01&02-深度学习预备知识.md",
@@ -285,10 +332,6 @@
     "AI/动手学深度学习/04-多层感知机.md",
     "AI/动手学深度学习/05-深度学习计算.md",
     "附件/Pasted image 20250115151635.png",
-    "杂项/Docker/01-Docker入门.md",
-    "杂项/Git/01-Git基础.md",
-    "Excalidraw/Drawing 2025-01-14 13.00.57.excalidraw.md",
-    "!待办.md",
     "附件/Pasted image 20240920143944.png",
     "附件/Pasted image 20241228183256.png",
     "AI/搜广推",
