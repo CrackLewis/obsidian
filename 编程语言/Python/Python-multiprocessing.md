@@ -9,6 +9,8 @@ import multiprocessing
 
 开启另一个进程，该进程执行`target`指定的Python函数，参数由`args`指定。
 
+进程在大部分情况下是Python并行化的唯一选择。因为Python的全局解释器锁GIL使得Python进程内的各线程不能并行访问、执行代码。
+
 ```python
 def straight(st, en):
 	for i in range(st, en):
@@ -57,13 +59,18 @@ def routine(st, label, sem):
     time.sleep(5)
     print(f"{datetime.now() - st}: {label} F")
 
+# 声明一个初值为1的信号量
 sem = multiprocessing.Semaphore(1)
+# 开辟4个进程
 proc_count = 4
 procs = [multiprocessing.Process(target=routine, args=[datetime.now(), idx, sem]) for idx in range(proc_count)]
+# 启动所有进程并等待它们结束
 for proc in procs:
     proc.start()
 
 for proc in procs:
     proc.join()
 
+# 若4个进程串行执行，则总耗时预计为44s。
+# 本程序的耗时约为14s，因为临界区执行固定需要1s，而4个进程均需要执行临界区代码。临界区前后，各进程共有10s的时延，总共14s。
 ```

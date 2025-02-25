@@ -10,6 +10,7 @@
 
 - [CLIP](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf)：Contrastive Language-Image Pre-training，图文对比预训练方法
 - CNN：Convolutional Neural Network，卷积神经网络
+- CoT：Chain of Thought，思维链，一个提示工程概念，用于向LLM展示如何逐步推理构造输出
 
 ## D
 
@@ -41,6 +42,8 @@
 
 ## P
 
+- Prompt Engineering：提示工程，一门研究如何开发、优化LLM提示词，帮助用户更好应用LLM的新兴学科
+
 ## Q
 
 ## R
@@ -57,7 +60,7 @@
 
 ## T
 
-- tanh：双曲正切函数
+- tanh：双曲正切函数，作为一种饱和激活函数
 - Transformer：2017年提出的一种仅依赖注意力机制的序列转录模型
 
 ## U
