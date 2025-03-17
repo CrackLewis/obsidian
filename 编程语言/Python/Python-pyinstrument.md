@@ -1,4 +1,8 @@
 
+ref:
+- [PyPI](https://pypi.org/project/pyinstrument/)
+- [pyinstrument Reference](https://pyinstrument.readthedocs.io/en/latest/reference.html)
+
 pyinstrument可分析一段程序内各段的用时，找出耗时较长的部分。
 
 ```sh
@@ -50,4 +54,3 @@ Profile at /root/workspace/video_enhance/main_v3.py:97
    │        [3 frames hidden]  basicsr
    └─ 2.564 [self]  main_v3.py
 ```
-
