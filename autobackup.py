@@ -4,10 +4,9 @@ from threading import Thread
 import time
 import os
 
-local_repo_path = "G:\\Desktop\\笔记"
+local_repo_path = "C:\\Users\\DELL\\Desktop\\Workbench\\obsidian"
 remote_name = "origin"
 remote_url = "https://github.com/CrackLewis/obsidian.git"
-trojan_path = "D:\\Program Files (x86)\\trojan"
 
 def main():
 	os.chdir(local_repo_path)

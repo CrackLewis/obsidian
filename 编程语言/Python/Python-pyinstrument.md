@@ -9,7 +9,7 @@ pyinstrument可分析一段程序内各段的用时，找出耗时较长的部�
 $ pip install pyinstrument
 ```
 
-## demo
+## demo：简单示例
 
 ```python
 from pyinstrument import Profiler
@@ -53,4 +53,35 @@ Profile at /root/workspace/video_enhance/main_v3.py:97
    │  └─ 0.553 RRDBNet.__init__  basicsr/archs/rrdbnet_arch.py:87
    │        [3 frames hidden]  basicsr
    └─ 2.564 [self]  main_v3.py
+```
+
+## demo：输出所有隐藏帧
+
+有时pyinstrument会隐藏一些深度较深的函数栈帧。如果需要强制输出它们，需要指定`show_all=True`。
+
+```python
+import pyinstrument
+import pyinstrument.renderers
+import time
+
+profiler = pyinstrument.Profiler()
+
+with profiler:
+    for i in range(10):
+        time.sleep(1)
+
+print(profiler.output(pyinstrument.renderers.ConsoleRenderer(show_all=True, color=True)))
+```
+
+下面这种写法和上面是等价的：
+
+```python
+profiler = pyinstrument.Profiler()
+profiler.start()
+
+for i in range(10):
+    time.sleep(1)
+
+session = profiler.stop()
+print(pyinstrument.renderers.ConsoleRenderer(show_all=True, color=True).render(session))
 ```

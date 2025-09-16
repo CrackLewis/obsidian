@@ -34,9 +34,11 @@ sudo vim /etc/samba/smb.conf
 	valid users = smbuser
 ```
 
-另外添加一个名为`smbuser`的samba用户。尚不清楚是否也需要添加Linux用户。
+另外添加一个名为`smbuser`的用户。（在root用户下执行）
 
 ```sh
+useradd -m smbuser
+passwd smbuser
 smbpasswd -a smbuser
 ```
 
@@ -53,6 +55,8 @@ sudo chown -R smbuser:smbuser /shared
 ```sh
 sudo service smb restart
 ```
+
+注意：如果配置文件中的配置名为`myshared`，本地目录为`/shared`，则外部连接到samba服务器需要使用`myshared`名称，而非`shared`。
 
 ## Linux客户端连接
 
@@ -73,6 +77,8 @@ sudo smbclient -L $SMB_IP -U $SMB_USERNAME%$SMB_PASSWORD
 
 对于部分安全策略十分严苛的发行版（说的就是你，CentOS），有可能139和445端口甚至无法使用。此时需要进行端口转发配置。
 
+此部分基于Windows 10/11系统。
+
 本机的`445`端口转发到`a.b.c.d:yyyy`：
 
 ```
@@ -85,7 +91,7 @@ netsh interface portproxy add v4tov4 listenport=445 listenaddress=127.0.0.1 conn
 netsh interface portproxy show all
 ```
 
-移除转发：
+如果需要移除转发：
 
 ```
 netsh interface portproxy delete v4tov4 listenport=445 listenaddress=127.0.0.1
