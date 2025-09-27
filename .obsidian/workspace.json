@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!技能清单.md",
+                "file": "科研/kplex小记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!技能清单"
+              "title": "kplex小记"
             }
           }
         ]
@@ -203,11 +203,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "57fbae996a6c4648",
   "lastOpenFiles": [
+    "科研/科研黑话.md",
+    "!技能清单.md",
     "!到复试的全部学习计划.md",
     "!待办.md",
     "科研/kplex小记.md",
@@ -235,8 +238,6 @@
     "2024考研/数学/总结/Z05-多元函数微分学.md",
     "2024考研/数学/总结/Z04-向量代数与空间解析几何.md",
     "2024考研/数学/总结/Z03-一元函数积分学.md",
-    "2024考研/数学/总结/Z02-一元函数微分学.md",
-    "2024考研/数学/总结/Z01-函数、极限、连续.md",
     "附件/Pasted image 20250803081506.png",
     "附件/Pasted image 20250707172933.png",
     "附件/Pasted image 20250706080111.png",
