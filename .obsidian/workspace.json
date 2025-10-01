@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/kplex小记.md",
+                "file": "编程语言/Cpp/一种C++ RTTI实现.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kplex小记"
+              "title": "一种C++ RTTI实现"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 285.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -224,8 +224,9 @@
   },
   "active": "19e83deb941e86b1",
   "lastOpenFiles": [
-    "附件/Pasted image 20250629123348.png",
     "科研/kplex小记.md",
+    "编程语言/Cpp/一种C++ RTTI实现.md",
+    "附件/Pasted image 20250629123348.png",
     "科研/科研黑话.md",
     "!技能清单.md",
     "!到复试的全部学习计划.md",
