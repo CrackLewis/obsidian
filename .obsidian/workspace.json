@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/kplex小记.md",
+                "file": "编程语言/Cpp/Effective_Modern_C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kplex小记"
+              "title": "Effective_Modern_C++"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/kplex小记.md",
+                "file": "编程语言/Cpp/C++返回值、形参、接收类型规范.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of kplex小记"
+              "title": "Outline of C++返回值、形参、接收类型规范"
             }
           },
           {
@@ -219,8 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,9 +237,13 @@
   },
   "active": "09d166f49ee9e99a",
   "lastOpenFiles": [
-    "编程语言/Cpp/一种C++ RTTI实现.md",
-    "编程语言/Cpp/C++返回值、形参、接收类型规范.md",
+    "编程语言/Cpp/Effective_Modern_C++.md",
     "科研/kplex小记.md",
+    "编程语言/Cpp/C++返回值、形参、接收类型规范.md",
+    "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
+    "编程语言/Cpp/Qt源码交叉编译.md",
+    "编程语言/Cpp/libffmpeg.md",
+    "编程语言/Cpp/一种C++ RTTI实现.md",
     "附件/Pasted image 20250629123348.png",
     "科研/科研黑话.md",
     "!技能清单.md",
@@ -264,10 +267,6 @@
     "2024考研/数学/总结/Z15-随机事件和概率.md",
     "2024考研/数学/总结/Z10-矩阵.md",
     "2024考研/数学/总结/Z09-行列式.md",
-    "2024考研/数学/总结/Z08-微分方程.md",
-    "2024考研/数学/总结/Z07-无穷级数.md",
-    "2024考研/数学/总结/Z06-多元函数积分学.md",
-    "2024考研/数学/总结/Z05-多元函数微分学.md",
     "附件/Pasted image 20250803081506.png",
     "附件/Pasted image 20250707172933.png",
     "附件/Pasted image 20250706080111.png",
