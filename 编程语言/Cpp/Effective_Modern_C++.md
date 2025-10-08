@@ -2,7 +2,16 @@
 ## TL;DR
 
 型别推导篇：
-- 
+- 模板型别推导：设模板元为`T`
+	- 型别为`T`：忽略引用和const/volatile限定，构造新对象
+	- 型别为`T*`或`T&`：吞掉对应的引用或指针
+	- 型别为`T&&`（万能引用）：左值推导为原类型，右值吞掉引用符号
+	- 特例：数组（型别不为引用时退化为指针）；函数（型别不为引用时退化为函数指针）
+- auto型别推导：
+	- 用处：变量定义时推导类型（C++14前可用）、返回值类型推导、形参类型推导
+	- 与模板型别推导相比，支持在变量类型推导时、对`std::initializer_list<T>`的推导
+- decltype：
+	- 
 
 ## 一、型别推导
 
@@ -158,7 +167,7 @@ std::array<int, arraySize(int)> mappedVals;
 - 占位符形式：`auto var{...}`。要求表内有且仅有一个元素。
 
 ```cpp
-auto x{1, 2, 3.0}; // ERROR! not the same type
+auto x = {1, 2, 3.0}; // ERROR! not the same type
 auto x{}; // ERROR! cannot derive type
 auto x = {1ull, 2ull}; // ok: std::initializer_list<unsigned long long>
 auto x{1, 2, 3}; // ERROR! only 1 element is required
