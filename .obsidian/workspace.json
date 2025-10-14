@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/科研进度tracker.md",
+                "file": "课程-数学/A01-初等代数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "科研进度tracker"
+              "title": "A01-初等代数"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/科研进度tracker.md",
+                "file": "课程-数学/A01-初等代数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 科研进度tracker"
+              "title": "Outline of A01-初等代数"
             }
           },
           {
@@ -208,9 +208,24 @@
   },
   "active": "6a2cca5f51964820",
   "lastOpenFiles": [
+    "杂项/ChatGPT/GPT提问技巧.md",
+    "杂项/Docker/01-Docker入门.md",
+    "杂项/Git/01-Git基础.md",
+    "杂项/Makefile/01-Makefile基础.md",
+    "杂项/Qt/QML/E01-QML官方示例学习.md",
+    "杂项/Qt/QML/毕业设计论文初稿.md",
+    "杂项/Qt/QML/毕业设计技术日志.md",
+    "杂项/Qt/QML/01-QML基础.md",
+    "杂项/网站开发/域名、DNS、内网穿透和映射.md",
+    "杂项/Obsidian用法/Excalidraw把玩.md",
+    "杂项/网站开发",
+    "杂项/Obsidian用法/Callout块.md",
+    "杂项/Obsidian用法/解决粘贴代码时额外空行的问题.md",
+    "杂项/Obsidian用法/读书笔记功能.md",
+    "杂项/Makefile/02-Makefile自定义目标.md",
+    "科研/科研进度tracker.md",
     "科研/kplex小记.md",
     "科研/Untitled.base",
-    "科研/科研进度tracker.md",
     "课程-数学/A01-初等代数.md",
     "课程-数学/数学公理汇总.md",
     "编程语言/Cpp/Effective_Modern_C++.md",
@@ -221,22 +236,9 @@
     "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "AI/大模型面试/大模型面试-2.md",
     "AI/大模型面试/大模型面试-1.md",
-    "编程语言/Go/02-Go标准库.md",
-    "编程语言/Go/01-Go其余语法.md",
-    "编程语言/Haskell/01-Haskell基础.md",
-    "编程语言/Cpp/Qt源码交叉编译.md",
-    "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
-    "编程语言/Cpp/C++返回值、形参、接收类型规范.md",
-    "!技能清单.md",
-    "编程语言/Cpp/Cpp设计模式/01-pImpl.md",
-    "编程语言/Cpp/Cpp11/02-constexpr.md",
     "编程语言/Cpp/Cpp设计模式",
-    "编程语言/Cpp/Cpp11/01-C++11特性概述.md",
-    "编程语言/Cpp/Cpplibs/libffmpeg.md",
     "编程语言/Cpp/Cpplibs",
     "编程语言/Cpp/Cpp11",
-    "编程语言/Cpp/Cpp17/03-结构化绑定.md",
-    "编程语言/Cpp/Cpp17/01-C++17特性概述.md",
     "附件/Pasted image 20250629123348.png",
     "小抄系列",
     "附件/Pasted image 20250806144727.png",
@@ -252,7 +254,6 @@
     "AI/计算机视觉",
     "附件/Pasted image 20250228153349.png",
     "编程语言/Python/pyinstrument",
-    "AI/搜广推",
     "编程语言/Cpp/未命名.canvas"
   ]
 }
