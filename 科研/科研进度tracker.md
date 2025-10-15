@@ -29,8 +29,10 @@
 - M2：知道论文的行文结构，理解每一部分的细节和功能
 - M3：能够倒背如流，给人讲课（？）
 
-| 编号  | 论文                                                                | 进度  | 备注     |
-| --- | ----------------------------------------------------------------- | --- | ------ |
-| 1   | [Efficient maximum k-plex computation over large sparse graphs]() | 2   | kPlexS |
-| 2   |                                                                   |     |        |
-| 3   |                                                                   |     |        |
+| 编号  | 论文                                                                                                                                                                                                       | 进度  | 备注     | 时间     |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------ | ------ |
+| 1   | [Efficient maximum k-plex computation over large sparse graphs](https://dl.acm.org/doi/10.14778/3565816.3565817)                                                                                         | 2   | kPlexS |        |
+| 2   | [Clique Relaxations in Social Network Analysis: The Maximum k-Plex Problem](https://www.researchgate.net/publication/228620797_Clique_Relaxations_in_Social_Network_Analysis_The_Maximum_k-Plex_Problem) |     |        |        |
+| 3   | [Efficient Enumeration of Large Maximal k-Plexes](https://arxiv.org/abs/2402.13008)                                                                                                                      |     |        | 2024.2 |
+| 4   |                                                                                                                                                                                                          |     |        |        |
+| 5   |                                                                                                                                                                                                          |     |        |        |
