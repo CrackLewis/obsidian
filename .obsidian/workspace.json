@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md",
+                "file": "科研/k-plex/@-kplex基本概念.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01&02-深度学习预备知识"
+              "title": "@-kplex基本概念"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/动手学深度学习/01&02-深度学习预备知识.md",
+                "file": "科研/k-plex/@-kplex基本概念.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01&02-深度学习预备知识"
+              "title": "Outline of @-kplex基本概念"
             }
           },
           {
@@ -202,11 +202,26 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "1e9d12e7c493319f",
   "lastOpenFiles": [
+    "编程语言/Cpp/Qt源码交叉编译.md",
+    "编程语言/Cpp/Effective_Modern_C++.md",
+    "2024考研/英语/TR01-高途翻译课.md",
+    "2024考研/英语/作文/2013英一作文.md",
+    "2024考研/英语/作文/2012英一作文.md",
+    "2024考研/英语/作文/2011英一作文.md",
+    "2024考研/英语/作文/2010英一作文.md",
+    "2024考研/英语/作文/04-08作文.md",
+    "后端/CMake/CMake入门.md",
+    "Zotero",
+    "科研/k-plex/A-kplex研究进展综述.md",
+    "科研/k-plex/@-kplex基本概念.md",
+    "AI/动手学深度学习/01&02-深度学习预备知识.md",
+    "科研/k-plex",
     "AI/动手学深度学习/03-线性神经网络.md",
     "AI/HappyLLM.md",
     "AI/具身智能.md",
@@ -221,18 +236,6 @@
     "Linux/Hacks/Samba网络驱动器.md",
     "Linux/Hacks/一次Ubuntu装机记录.md",
     "Linux/Hacks/挂载和卸载ISO.md",
-    "Web前端/前端规划.md",
-    "Web前端/Vue/014-Vuex.md",
-    "Web前端/Vue/015-Vue Router.md",
-    "Web前端/Vue/L01-Vue案例：TodoList.md",
-    "Web前端/Vue/Z01-Vue核心总结.md",
-    "Web前端/HTML+CSS/012-SASS.md",
-    "Web前端/HTML+CSS/013-CSS3特效.md",
-    "Web前端/HTML+CSS/999-拾遗.md",
-    "Web前端/HTML+CSS/002-HTML基础.md",
-    "Web前端/HTML+CSS/001-环境搭建.md",
-    "Web前端/Bootstrap/01-Bootstrap基础.md",
-    "Web前端/Bootstrap/02-Bootstrap部件.md",
     "Untitled.canvas",
     "AI/Agent理论",
     "课程-计算机科学/West_图论导引",
@@ -251,8 +254,6 @@
     "附件/Pasted image 20250619131705.png",
     "附件/Pasted image 20250618085857.png",
     "附件/Pasted image 20250614124310.png",
-    "杂项/RA2",
-    "课程项目/Stanford-CS224w",
     "附件/Pasted image 20250228153349.png",
     "编程语言/Cpp/未命名.canvas"
   ]
