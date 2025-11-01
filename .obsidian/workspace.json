@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "edfe002925afb8a5",
+            "id": "126e43a006e0fdad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/动手学深度学习/08-循环神经网络.md",
+                "file": "科研/k-plex/@-kplex基本概念.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-循环神经网络"
+              "title": "@-kplex基本概念"
+            }
+          },
+          {
+            "id": "daf184a7c347b51c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "科研/kplex小记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kplex小记"
             }
           }
         ]
@@ -142,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/动手学深度学习/08-循环神经网络.md",
+                "file": "科研/k-plex/@-kplex基本概念.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 08-循环神经网络"
+              "title": "Outline of @-kplex基本概念"
             }
           },
           {
@@ -206,8 +220,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "edfe002925afb8a5",
+  "active": "126e43a006e0fdad",
   "lastOpenFiles": [
+    "科研/k-plex/A-kplex研究进展综述.md",
+    "科研/k-plex/@-kplex基本概念.md",
+    "科研/k-plex/A-kplex已知性质.md",
+    "科研/kplex小记.md",
+    "科研/k-plex/B-kPlexS.md",
+    "附件/Pasted image 20251101091451.png",
+    "附件/Pasted image 20251101015205.png",
+    "附件/Pasted image 20251101013748.png",
+    "附件/Pasted image 20251101005700.png",
+    "附件/Pasted image 20251101005144.png",
+    "AI/动手学深度学习/08-循环神经网络.md",
     "AI/图像分类笔记/01-CNN.md",
     "AI/Infra/@01-AI-Infra-汇总.md",
     "AI/Infra",
@@ -216,7 +241,6 @@
     "Zotero/Imports/seidmanGraphtheoreticGeneralizationClique1978.md",
     "Zotero/Imports/gaoMaximum$k$PlexSearch2024.md",
     "Zotero/Imports/changEfficientMaximumPlex2022.md",
-    "科研/k-plex/@-kplex基本概念.md",
     "Zotero/template.md",
     "Zotero/Pictures",
     "Zotero/Notes",
@@ -231,15 +255,9 @@
     "2024考研/英语/作文/04-08作文.md",
     "后端/CMake/CMake入门.md",
     "Zotero",
-    "科研/k-plex/A-kplex研究进展综述.md",
     "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "科研/k-plex",
     "AI/动手学深度学习/03-线性神经网络.md",
-    "AI/HappyLLM.md",
-    "AI/具身智能.md",
-    "科研/kplex小记.md",
-    "数据库/MySQL/mysql.md",
-    "Linux/Basics/tmux.md",
     "Untitled.canvas",
     "AI/Agent理论",
     "课程-计算机科学/West_图论导引",
@@ -250,11 +268,6 @@
     "附件/Pasted image 20250803081506.png",
     "附件/Pasted image 20250707172933.png",
     "附件/Pasted image 20250706080111.png",
-    "附件/Pasted image 20250630175603.png",
-    "附件/Pasted image 20250619131705.png",
-    "附件/Pasted image 20250618085857.png",
-    "附件/Pasted image 20250614124310.png",
-    "附件/Pasted image 20250228153349.png",
     "编程语言/Cpp/未命名.canvas"
   ]
 }
