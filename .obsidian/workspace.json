@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/k-plex/@-kplex基本概念.md",
+                "file": "AI/提示工程-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@-kplex基本概念"
+              "title": "提示工程-1"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/k-plex/@-kplex基本概念.md",
+                "file": "AI/提示工程-1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of @-kplex基本概念"
+              "title": "Outline of 提示工程-1"
             }
           },
           {
@@ -220,11 +220,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ca3543a5a24243e3",
+  "active": "126e43a006e0fdad",
   "lastOpenFiles": [
+    "AI/Agent理论/@01-Agent理论汇总.md",
+    "AI/LangChain/@01-LangChain汇总.md",
+    "科研/k-plex/@-kplex基本概念.md",
     "AI/LangChain",
     "科研/k-plex/A-kplex研究进展综述.md",
-    "科研/k-plex/@-kplex基本概念.md",
     "科研/k-plex/A-kplex已知性质.md",
     "科研/kplex小记.md",
     "科研/k-plex/B-kPlexS.md",
@@ -258,12 +260,10 @@
     "Zotero",
     "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "科研/k-plex",
-    "AI/动手学深度学习/03-线性神经网络.md",
     "Untitled.canvas",
     "AI/Agent理论",
     "课程-计算机科学/West_图论导引",
     "杂项/网站开发",
-    "科研/Untitled.base",
     "附件/Pasted image 20250629123348.png",
     "附件/Pasted image 20250806144727.png",
     "附件/Pasted image 20250803081506.png",
