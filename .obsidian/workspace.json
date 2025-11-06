@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "6eb58d421d1f666f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Hacks/树莓派静态入网.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "树莓派静态入网"
+            }
+          },
+          {
             "id": "daf184a7c347b51c",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "kplex小记"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/提示工程-1.md",
+                "file": "Linux/Hacks/树莓派静态入网.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 提示工程-1"
+              "title": "Outline of 树莓派静态入网"
             }
           },
           {
@@ -220,8 +235,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "126e43a006e0fdad",
+  "active": "6eb58d421d1f666f",
   "lastOpenFiles": [
+    "Linux/Hacks/通过X11创建远程图形界面.md",
+    "Linux/Hacks/树莓派静态入网.md",
+    "AI/提示工程-1.md",
     "AI/Agent理论/@01-Agent理论汇总.md",
     "AI/LangChain/@01-LangChain汇总.md",
     "科研/k-plex/@-kplex基本概念.md",
@@ -255,10 +273,7 @@
     "2024考研/英语/作文/2012英一作文.md",
     "2024考研/英语/作文/2011英一作文.md",
     "2024考研/英语/作文/2010英一作文.md",
-    "2024考研/英语/作文/04-08作文.md",
-    "后端/CMake/CMake入门.md",
     "Zotero",
-    "AI/动手学深度学习/01&02-深度学习预备知识.md",
     "科研/k-plex",
     "Untitled.canvas",
     "AI/Agent理论",
