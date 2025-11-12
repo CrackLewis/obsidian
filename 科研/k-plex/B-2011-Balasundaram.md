@@ -26,3 +26,9 @@ $$
 \omega(G)\le \omega_k(G)\le \overline{\omega}_k(G)\le \tilde{\omega}_k(G)
 $$
 
+(*独立集不等式*) 对独立集$I\subseteq V_G$，其内结点$v_i\in I$满足：
+$$
+\sum_{v_i\in I} x_i\le k,\quad \forall I\in \mathcal I_{k+1}.
+$$
+
+(*环不等式*) 对于一个长度不低于$k+3$的无重复环路$H\subseteq V_G$，其不可能是一个$k$-plex，且其满足
