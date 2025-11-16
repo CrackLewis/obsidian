@@ -17,3 +17,10 @@ top-level arch:
 
 ![[Pasted image 20251113134041.png]]
 
+## sec04-branching
+
+suppose instance $(g,S,C,k)$:
+
+### 4.1-upper bounds
+
+*Maplex-ColorBound*:
