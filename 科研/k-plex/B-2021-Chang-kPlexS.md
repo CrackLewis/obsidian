@@ -49,3 +49,6 @@
 - UB2（支撑上界）：$\min_{u,v\in S, u\neq v}\{r_S(u)+r_S(v)+\text{cn}_{\overline S}(u,v)\} + |S|$。
 
 ![[Pasted image 20251101015205.png]]
+
+## et cetera
+
