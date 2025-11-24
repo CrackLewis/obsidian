@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/k-plex/B-2018-Maplex.md",
+                "file": "LaTeX/algorithm2e宏包.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B-2018-Maplex"
+              "title": "algorithm2e宏包"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/k-plex/B-2018-Maplex.md",
+                "file": "LaTeX/algorithm2e宏包.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of B-2018-Maplex"
+              "title": "Outline of algorithm2e宏包"
             }
           },
           {
@@ -275,7 +275,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 289.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,8 +294,11 @@
   },
   "active": "540b9aca8f20ad72",
   "lastOpenFiles": [
-    "科研/k-plex/B-2017-Xiao-BS.md",
+    "LaTeX/TiKZ/TikZ坐标系绘图.md",
+    "LaTeX/algorithm2e宏包.md",
+    "LaTeX/通用技巧/latex文本加工.md",
     "科研/k-plex/B-2018-Maplex.md",
+    "科研/k-plex/B-2017-Xiao-BS.md",
     "科研/k-plex/B-2024-Chang-kPlexT.md",
     "科研/k-plex/B-2021-Chang-kPlexS.md",
     "科研/k-plex/B-2011-Balasundaram.md",
@@ -303,9 +307,7 @@
     "科研/kplex小记.md",
     "科研/科研进度tracker.md",
     "科研/科研k-plex之备忘.md",
-    "LaTeX/通用技巧/latex文本加工.md",
     "LaTeX/通用技巧",
-    "LaTeX/algorithm2e宏包.md",
     "LaTeX/Beamer幻灯片制作.md",
     "AI/搜广推/@01-搜广推总述.md",
     "附件/Pasted image 20251113134041.png",
@@ -324,7 +326,6 @@
     "AI/提示工程-1.md",
     "Linux/Hacks/树莓派静态入网.md",
     "Linux/Hacks/通过X11创建远程图形界面.md",
-    "AI/Agent理论/@01-Agent理论汇总.md",
     "AI/LangChain",
     "附件/Pasted image 20251101091451.png",
     "附件/Pasted image 20251101015205.png",
