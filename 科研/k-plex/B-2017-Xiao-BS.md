@@ -64,3 +64,4 @@ the recurr' rel' is: $C(n_0)\le C(n_0-2)+C(n_0-1)$, the branching factor is $\ga
 $$
 |\overline{N_G}(v)|=|V|-\deg_G(v)\ge k+1
 $$
+$F$ may contain at most $k-|V\backslash N_F(v)|$ vtx's in $U\backslash N_U(v)$.
