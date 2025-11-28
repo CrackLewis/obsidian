@@ -65,4 +65,34 @@ def reshape_matrix(a: list[list[int|float]], new_shape: tuple[int, int]) -> list
         return []
 ```
 
-## 4
+## 4-矩阵按行或按列求平均值
+
+```python
+def calculate_matrix_mean(matrix: list[list[float]], mode: str) -> list[float]:
+	if mode == 'column':
+        matrix = list(map(list, zip(*matrix)))
+        
+    return [sum(row) / len(row) for row in matrix]
+```
+
+NumPy:
+
+```python
+def calculate_matrix_mean(matrix: list[list[float]], mode: str) -> list[float]:
+	import numpy as np
+	matrix = np.array(matrix)
+	if mode == 'column':
+        matrix = matrix.T
+        
+    return [sum(row) / len(row) for row in matrix]
+```
+
+## 5-矩阵数乘
+
+```python
+def scalar_multiply(matrix: list[list[int|float]], scalar: int|float) -> list[list[int|float]]:
+	return [[i * scalar for i in row] for row in matrix]
+```
+
+NumPy:
+
