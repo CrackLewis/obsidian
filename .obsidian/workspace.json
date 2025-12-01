@@ -217,8 +217,7 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "copilot:Open Copilot Chat": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "f966be255f2b9670",
