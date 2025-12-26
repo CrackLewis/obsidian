@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
+                "file": "科研/k-plex/B-2023-Wang-DegenGap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "007-JavaScript异步"
+              "title": "B-2023-Wang-DegenGap"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
+                "file": "科研/k-plex/B-2023-Wang-DegenGap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 007-JavaScript异步"
+              "title": "Outline of B-2023-Wang-DegenGap"
             }
           },
           {
@@ -237,6 +237,11 @@
   },
   "active": "6db75ab3be498f3a",
   "lastOpenFiles": [
+    "科研/k-plex/B-2024-Chang-kPlexT.md",
+    "科研/k-plex/C-2025-UMkP.md",
+    "编程语言/Cpp/Effective_Modern_C++.md",
+    "编程语言/Cpp/Qt源码交叉编译.md",
+    "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
     "编程语言/JavaScript/@-JS基础/008-JavaScript HTML DOM.md",
     "编程语言/JavaScript/@-JS基础/009-JavaScript Browser BOM.md",
     "编程语言/JavaScript/Node.js/03-http模块初步.md",
@@ -245,7 +250,6 @@
     "编程语言/JavaScript/Node.js/06-express模块.md",
     "编程语言/Cpp/Cpp优化小记.md",
     "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
-    "编程语言/Cpp/Qt源码交叉编译.md",
     "编程语言/Rust/01-Rust语法.md",
     "编程语言/Rust/00-Rust入门.md",
     "编程语言/Python/Python-tqdm.md",
@@ -259,10 +263,6 @@
     "AI/深度学习理论/动手学深度学习/05-深度学习计算.md",
     "AI/深度学习理论/动手学深度学习/03-线性神经网络.md",
     "AI/深度学习理论/动手学深度学习/01&02-深度学习预备知识.md",
-    "编程语言/Python/opencv-python.md",
-    "编程语言/Python/003-Python数据交换.md",
-    "编程语言/Python/002-Python类和对象.md",
-    "AI/DeepML刷题.md",
     "AI/机器学习理论",
     "AI/深度学习理论",
     "AI/大模型理论",
