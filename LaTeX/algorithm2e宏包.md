@@ -11,9 +11,11 @@
 - `\caption`：指定算法标题
 - `\;`：换行
 - `\For{cond}{body}`：for循环
+	- `\ForEach{ele}{body}`
 - `\While{cond}{body}`：while循环
 - `\If{cond}{body}`：if语句
-- `\eIf{cond}{body}{altbody}`：if-else语句
+	- `\eIf{cond}{body}{altbody}`：if-else语句
+	- `\lIf{cond}{body}`、`\lElse{body}`：单行if/else
 - `\tcc{comment}`：块状注释
 - `\tcp{comment}`：行级注释
 
