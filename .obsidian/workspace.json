@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/顶会下毒指北.md",
+                "file": "AI/深度学习理论/动手学深度学习/01&02-深度学习预备知识.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "顶会下毒指北"
+              "title": "01&02-深度学习预备知识"
             }
           },
           {
@@ -27,15 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-数学/C01-随机过程.md",
+                "file": "编程语言/Python/pip/pip基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C01-随机过程"
+              "title": "pip基础"
+            }
+          },
+          {
+            "id": "b32de3e2d5a273e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程语言/Python/Python-numpy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python-numpy"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/顶会下毒指北.md",
+                "file": "编程语言/Python/Python-numpy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 顶会下毒指北"
+              "title": "Outline of Python-numpy"
             }
           },
           {
@@ -220,16 +235,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "67e2c1909df4f619",
+  "active": "b32de3e2d5a273e9",
   "lastOpenFiles": [
-    "编程语言/Python/NumPy.md",
+    "编程语言/Python/Python-pandas.md",
+    "编程语言/Python/Python-pyinstrument.md",
+    "编程语言/Python/Python-re.md",
+    "编程语言/Python/Python-multiprocessing.md",
+    "编程语言/Python/Python-requests.md",
+    "编程语言/Python/Python-tqdm.md",
+    "编程语言/Python/pip/pip基础.md",
     "课程-数学/C01-随机过程.md",
+    "AI/深度学习理论/动手学深度学习/01&02-深度学习预备知识.md",
+    "科研/顶会下毒指北.md",
+    "编程语言/Python/pip",
+    "编程语言/Python/Python-numpy.md",
     "课程-数学/B01-数学分析.md",
     "课程-数学/A01-初等代数.md",
     "课程-数学/B03-概率论与数理统计.md",
     "课程-数学/B02-高等代数.md",
     "课程-数学/北大离散数学-图论.md",
-    "科研/顶会下毒指北.md",
     "后端/后端知识点.md",
     "后端/Nginx/01-Nginx基本.md",
     "LaTeX/通用技巧/latex文本加工.md",
@@ -241,14 +265,6 @@
     "编程语言/Cpp/Effective_Modern_C++.md",
     "编程语言/Cpp/Qt源码交叉编译.md",
     "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
-    "编程语言/JavaScript/@-JS基础/008-JavaScript HTML DOM.md",
-    "编程语言/JavaScript/@-JS基础/009-JavaScript Browser BOM.md",
-    "编程语言/JavaScript/Node.js/03-http模块初步.md",
-    "编程语言/JavaScript/Node.js/02-path路径模块.md",
-    "编程语言/JavaScript/Node.js/04-模块化.md",
-    "编程语言/JavaScript/Node.js/06-express模块.md",
-    "编程语言/Cpp/Cpp优化小记.md",
-    "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
     "AI/机器学习理论",
     "AI/深度学习理论",
     "AI/大模型理论",
@@ -266,7 +282,6 @@
     "附件/Pasted image 20251101005144.png",
     "AI/Infra",
     "Zotero/Pictures",
-    "Zotero/Notes",
     "Untitled.canvas",
     "附件/Pasted image 20250629123348.png",
     "编程语言/Cpp/未命名.canvas"
