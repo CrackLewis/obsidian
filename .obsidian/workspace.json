@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Python/pip/pip基础.md",
+                "file": "课程-计算机科学/大模型课程/Stanford_CS336.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pip基础"
+              "title": "Stanford_CS336"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Python/pip/pip基础.md",
+                "file": "课程-计算机科学/大模型课程/Stanford_CS336.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of pip基础"
+              "title": "Outline of Stanford_CS336"
             }
           },
           {
@@ -217,11 +217,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "91011173ec03b226",
   "lastOpenFiles": [
+    "课程-计算机科学/West_图论导引/IGT01-基础概念.md",
+    "课程-计算机科学/大模型课程/Stanford_CS336.md",
+    "课程-计算机科学/大模型课程",
+    "编程语言/Python/pip/pip基础.md",
     "编程语言/Python/Python-numpy.md",
     "编程语言/Python/Python-pandas.md",
     "编程语言/Python/Python-pyinstrument.md",
@@ -229,7 +234,6 @@
     "编程语言/Python/Python-multiprocessing.md",
     "编程语言/Python/Python-requests.md",
     "编程语言/Python/Python-tqdm.md",
-    "编程语言/Python/pip/pip基础.md",
     "课程-数学/C01-随机过程.md",
     "AI/深度学习理论/动手学深度学习/01&02-深度学习预备知识.md",
     "科研/顶会下毒指北.md",
@@ -248,8 +252,6 @@
     "科研/k-plex/B-2024-Chang-kPlexT.md",
     "科研/k-plex/C-2025-UMkP.md",
     "编程语言/Cpp/Effective_Modern_C++.md",
-    "编程语言/Cpp/Qt源码交叉编译.md",
-    "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
     "AI/机器学习理论",
     "AI/深度学习理论",
     "AI/大模型理论",
@@ -266,7 +268,6 @@
     "附件/Pasted image 20251101005700.png",
     "附件/Pasted image 20251101005144.png",
     "AI/Infra",
-    "Zotero/Pictures",
     "Untitled.canvas",
     "附件/Pasted image 20250629123348.png",
     "编程语言/Cpp/未命名.canvas"
