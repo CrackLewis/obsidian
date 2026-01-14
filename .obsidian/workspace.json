@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/深度学习理论/动手学深度学习/01&02-深度学习预备知识.md",
+                "file": "AI/推荐系统理论/王喆-深度学习推荐系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01&02-深度学习预备知识"
-            }
-          },
-          {
-            "id": "91011173ec03b226",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程-计算机科学/大模型课程/Stanford_CS336.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stanford_CS336"
+              "title": "王喆-深度学习推荐系统"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/大模型课程/Stanford_CS336.md",
+                "file": "AI/推荐系统理论/王喆-深度学习推荐系统.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Stanford_CS336"
+              "title": "Outline of 王喆-深度学习推荐系统"
             }
           },
           {
@@ -221,10 +206,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91011173ec03b226",
+  "active": "67e2c1909df4f619",
   "lastOpenFiles": [
-    "课程-计算机科学/West_图论导引/IGT01-基础概念.md",
+    "AI/推荐系统理论/@01-推荐系统总述.md",
+    "AI/推荐系统理论/王喆-深度学习推荐系统.md",
+    "AI/AI名词词典.md",
+    "AI/推荐系统理论",
+    "求职/推荐算法面经.md",
+    "课程-其他/Duolingo法语.md",
+    "AI/深度学习理论/动手学深度学习/01&02-深度学习预备知识.md",
+    "2024考研/408/计算机网络/CNS01-真题考情和重点.md",
+    "2024考研/408/计算机网络/CNR04-复习网络层.md",
+    "2024考研/408/计算机网络/CNR02-复习物理层.md",
+    "2024考研/408/计算机网络/CN01-计算机网络体系结构.md",
+    "2024考研/408/操作系统/OSR01-操作系统复习.md",
+    "2024考研/408/操作系统/OS01-计算机系统概述.md",
+    "2024考研/408/408三轮/王道模拟卷总结.md",
+    "2024考研/408/408三轮/三轮数据结构.md",
+    "2024考研/408/408三轮/三轮计组.md",
+    "2024考研/408/408三轮/三轮计网.md",
+    "2024考研/408/408三轮/三轮操作系统.md",
     "课程-计算机科学/大模型课程/Stanford_CS336.md",
+    "求职",
+    "课程-计算机科学/West_图论导引/IGT01-基础概念.md",
     "课程-计算机科学/大模型课程",
     "编程语言/Python/pip/pip基础.md",
     "编程语言/Python/Python-numpy.md",
@@ -233,25 +237,8 @@
     "编程语言/Python/Python-re.md",
     "编程语言/Python/Python-multiprocessing.md",
     "编程语言/Python/Python-requests.md",
-    "编程语言/Python/Python-tqdm.md",
-    "课程-数学/C01-随机过程.md",
-    "AI/深度学习理论/动手学深度学习/01&02-深度学习预备知识.md",
-    "科研/顶会下毒指北.md",
     "编程语言/Python/pip",
-    "课程-数学/B01-数学分析.md",
-    "课程-数学/A01-初等代数.md",
-    "课程-数学/B03-概率论与数理统计.md",
-    "课程-数学/B02-高等代数.md",
-    "课程-数学/北大离散数学-图论.md",
-    "后端/后端知识点.md",
-    "后端/Nginx/01-Nginx基本.md",
-    "LaTeX/通用技巧/latex文本加工.md",
     "后端/Nginx",
-    "LaTeX/algorithm2e宏包.md",
-    "科研/k-plex/B-2023-Wang-DegenGap.md",
-    "科研/k-plex/B-2024-Chang-kPlexT.md",
-    "科研/k-plex/C-2025-UMkP.md",
-    "编程语言/Cpp/Effective_Modern_C++.md",
     "AI/机器学习理论",
     "AI/深度学习理论",
     "AI/大模型理论",
@@ -261,13 +248,11 @@
     "附件/Pasted image 20251113134041.png",
     "附件/Pasted image 20251112162420.png",
     "附件/Pasted image 20251112162207.png",
-    "AI/LangChain",
     "附件/Pasted image 20251101091451.png",
     "附件/Pasted image 20251101015205.png",
     "附件/Pasted image 20251101013748.png",
     "附件/Pasted image 20251101005700.png",
     "附件/Pasted image 20251101005144.png",
-    "AI/Infra",
     "Untitled.canvas",
     "附件/Pasted image 20250629123348.png",
     "编程语言/Cpp/未命名.canvas"
