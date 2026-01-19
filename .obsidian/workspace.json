@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/推荐系统理论/王喆-深度学习推荐系统.md",
+                "file": "课程-计算机科学/算法/链表题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "王喆-深度学习推荐系统"
+              "title": "链表题"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/推荐系统理论/王喆-深度学习推荐系统.md",
+                "file": "课程-计算机科学/算法/链表题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 王喆-深度学习推荐系统"
+              "title": "Outline of 链表题"
             }
           },
           {
@@ -208,8 +208,9 @@
   },
   "active": "67e2c1909df4f619",
   "lastOpenFiles": [
-    "AI/推荐系统理论/@01-推荐系统总述.md",
     "AI/推荐系统理论/王喆-深度学习推荐系统.md",
+    "课程-计算机科学/算法/链表题.md",
+    "AI/推荐系统理论/@01-推荐系统总述.md",
     "AI/AI名词词典.md",
     "AI/推荐系统理论",
     "求职/推荐算法面经.md",
@@ -236,7 +237,6 @@
     "编程语言/Python/Python-pyinstrument.md",
     "编程语言/Python/Python-re.md",
     "编程语言/Python/Python-multiprocessing.md",
-    "编程语言/Python/Python-requests.md",
     "编程语言/Python/pip",
     "后端/Nginx",
     "AI/机器学习理论",
