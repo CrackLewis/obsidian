@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/算法/链表题.md",
+                "file": "AI/大模型理论/RoPE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "链表题"
+              "title": "RoPE"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gdb",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/算法/链表题.md",
+                "file": "AI/大模型理论/RoPE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 链表题"
+              "title": "Outline of RoPE"
             }
           },
           {
@@ -186,11 +186,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 289.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,13 +203,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "67e2c1909df4f619",
   "lastOpenFiles": [
-    "AI/推荐系统理论/王喆-深度学习推荐系统.md",
+    "AI/大模型理论/PEFT.md",
+    "Excalidraw/Drawing 2024-11-13 17.23.11.excalidraw.md",
+    "AI/大模型理论/RoPE.md",
+    "课程项目/Stanford-CS336/CS336-PA01-TransformerLM.md",
+    "编程语言/Python/uv/01-Python uv基础.md",
+    "编程语言/Python/uv",
+    "AI/@-AI杂项/搜广推/搜广推笔记241228.md",
+    "课程项目/Stanford-CS336",
+    "AI/大模型理论/模型量化.md",
+    "AI/@-AI杂项/大模型面试/大模型面试-1.md",
     "课程-计算机科学/算法/链表题.md",
+    "AI/推荐系统理论/王喆-深度学习推荐系统.md",
     "AI/推荐系统理论/@01-推荐系统总述.md",
     "AI/AI名词词典.md",
     "AI/推荐系统理论",
@@ -226,24 +238,14 @@
     "2024考研/408/408三轮/三轮计组.md",
     "2024考研/408/408三轮/三轮计网.md",
     "2024考研/408/408三轮/三轮操作系统.md",
-    "课程-计算机科学/大模型课程/Stanford_CS336.md",
     "求职",
-    "课程-计算机科学/West_图论导引/IGT01-基础概念.md",
     "课程-计算机科学/大模型课程",
-    "编程语言/Python/pip/pip基础.md",
-    "编程语言/Python/Python-numpy.md",
-    "编程语言/Python/Python-pandas.md",
-    "编程语言/Python/Python-pyinstrument.md",
-    "编程语言/Python/Python-re.md",
-    "编程语言/Python/Python-multiprocessing.md",
     "编程语言/Python/pip",
     "后端/Nginx",
     "AI/机器学习理论",
     "AI/深度学习理论",
     "AI/大模型理论",
-    "AI/@-AI杂项",
     "附件/Pasted image 20251119153319.png",
-    "LaTeX/通用技巧",
     "附件/Pasted image 20251113134041.png",
     "附件/Pasted image 20251112162420.png",
     "附件/Pasted image 20251112162207.png",
