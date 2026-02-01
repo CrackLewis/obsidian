@@ -514,7 +514,29 @@ PLM=pretrained language model
 - 预训练+微调
 
 *BERT架构*：
+- 将decoder部分替换成了一个分类头（prediction_heads），将多维度的隐藏状态转换为分类维度
+- tokenizer -> embedding -> encoder(s) -> predictioin_heads
 
 ![图片描述](https://raw.githubusercontent.com/datawhalechina/happy-llm/main/docs/images/3-figures/1-0.png)
 
-*BERT预训练*：
+BERT内使用GELU作为激活函数，核心思想是通过输入自身的概率分布，来决定抛弃还是保留自身的神经元：
+$$GELU(x) = 0.5x(1 + tanh(\sqrt{\frac{2}{\pi}})(x + 0.044715x^3))$$
+
+预训练-微调范式：分离预训练和微调，预训练学习语法语义等知识，微调学习领域知识
+
+*BERT预训练*：MLM+NSP
+- *掩码语言模型*（MLM, masked language model）：一种预训练任务类型，让模型做“完形填空”
+	- 策略：语料中随机选取15%的token，这些token中：80%替换为MASK，10%随机替换，10%不变
+- *下句预测*（NSP, next sentence prediction）：另一种任务，针对句级NLU任务。从语料库中抽两句话，判断它们是否为上下句
+
+BERT微调：训练时参数更新的策略一致，但
+- 特定的任务、更少的训练数据、更小的 batch_size 上进行训练
+- 更新参数的幅度更小
+
+### 3.2-RoBERTa
+
+相对BERT的优化：
+- 去掉NSP任务，将MLM的掩码策略修改为*动态遮蔽策略*
+- 更大规模的预训练数据、训练步长（batch size）
+- 更大的BPE词表：BERT为30k，RoBERTa为50k
+

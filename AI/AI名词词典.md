@@ -19,6 +19,8 @@
 
 ## D
 
+- DCG：Discounted Cummulative Gain，推荐系统指标，表示
+
 ## E
 
 ## F

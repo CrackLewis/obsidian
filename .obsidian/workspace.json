@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/大模型理论/HappyLLM.md",
+                "file": "AI/AI名词词典.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HappyLLM"
+              "title": "AI名词词典"
             }
           },
           {
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/大模型理论/HappyLLM.md",
+                "file": "AI/大模型理论/PEFT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HappyLLM"
+              "title": "Outline of PEFT"
             }
           },
           {
@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,13 +221,13 @@
   },
   "active": "cbe63f097125fb62",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-01-31 18.01.59.excalidraw.md",
+    "AI/大模型理论/PEFT.md",
+    "AI/大模型理论/Transformer基础.md",
+    "AI/大模型理论/RoPE.md",
     "AI/大模型理论/HappyLLM.md",
+    "Excalidraw/Drawing 2026-01-31 18.01.59.excalidraw.md",
     "Excalidraw/Drawing 2026-01-31 16.09.42.excalidraw.md",
     "附件/Pasted image 20260131141242.png",
-    "AI/大模型理论/Transformer基础.md",
-    "AI/大模型理论/PEFT.md",
-    "AI/大模型理论/RoPE.md",
     "附件/Pasted image 20260131011659.png",
     "Excalidraw/Drawing 2024-11-13 17.23.11.excalidraw.md",
     "课程项目/Stanford-CS336/CS336-PA01-TransformerLM.md",
