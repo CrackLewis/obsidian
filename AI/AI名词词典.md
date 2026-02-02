@@ -7,10 +7,12 @@
 ## B
 
 - BatchNorm：批次内各通道归一化
+- BERT：Bidirectional Encoder Representations from Transformer，由Google于2018年提出的一种革命性自然语言处理模型
 - BP：梯度反向传播算法
 
 ## C
 
+- CF：Cross Filtering，协同过滤
 - [CLIP](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf)：Contrastive Language-Image Pre-training，图文对比预训练方法
 - CNN：Convolutional Neural Network，卷积神经网络
 - CoT：Chain of Thought，思维链，一个提示工程概念，用于向LLM展示如何逐步推理构造输出
@@ -19,7 +21,8 @@
 
 ## D
 
-- DCG：Discounted Cummulative Gain，推荐系统指标，表示
+- DCG@K：Discounted Cummulative Gain，推荐系统指标，表示推荐列表中前K个物品的相关性得分加权和：$\text{DCG@K}=\sum_{i=1}^K \frac{\text{rel}_i}{\log_2(i+1)}$
+- DNN：深度神经网络
 
 ## E
 
@@ -32,6 +35,7 @@
 ## G
 
 - GNN：图神经网络
+- GPT：Generative Pretrained Transformer，OpenAI于2018年提出的一类文本序列生成模型
 - GroupNorm：一种小batch（一般低于8）时适用的归一化方法，将通道分组，组内归一化，可以解决BN对均值/方差估算不准的问题，但分组需要调参
 
 ## H
@@ -55,10 +59,15 @@
 ## M
 
 - MAE：Mean Absolute Error，也称L1Loss，平均绝对误差，$\text{MAE}(y,\hat y)=1/n \cdot \sum|y_i-{\hat y}_i|$ ^c65b04
+- MHA：Multi-Head Attention，多头注意力
+- MLM：Masked Language Modeling，掩码语言建模，BERT架构采用的一种预训练任务，类似于让模型做“完形填空”
 - MLP：Multi-Layer Perceptron，多层感知机
 - MSE：Mean Squared Error，也称L2Loss，均方误差：$\text{MSE}(y,\hat{y})=1/n \cdot \sum (y_i-\hat{y}_i)^2$ ^5d96e6
 
 ## N
+
+- NDCG@K
+- NSP：Next Sentence Prediction，下句预测，BERT架构采用的一种预训练任务
 
 ## O
 
