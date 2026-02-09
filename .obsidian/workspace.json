@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "b6c94f42e0cf7c02",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-01-31 18.01.59.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-31 18.01.59.excalidraw"
-            }
-          },
-          {
             "id": "1be7bfb10c848a8e",
             "type": "leaf",
             "state": {
@@ -47,7 +35,8 @@
               "title": "HappyLLM"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,14 +222,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cbe63f097125fb62",
+  "active": "1be7bfb10c848a8e",
   "lastOpenFiles": [
-    "AI/大模型理论/HappyLLM.md",
+    "Excalidraw/Drawing 2026-01-31 18.01.59.excalidraw.md",
     "AI/AI名词词典.md",
+    "AI/大模型理论/HappyLLM.md",
     "AI/大模型理论/PEFT.md",
     "AI/大模型理论/Transformer基础.md",
     "AI/大模型理论/RoPE.md",
-    "Excalidraw/Drawing 2026-01-31 18.01.59.excalidraw.md",
     "Excalidraw/Drawing 2026-01-31 16.09.42.excalidraw.md",
     "附件/Pasted image 20260131141242.png",
     "附件/Pasted image 20260131011659.png",

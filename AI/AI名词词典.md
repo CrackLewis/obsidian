@@ -55,6 +55,7 @@
 - LASSO：Least Absolute Shrinkage and Selection Operator，一种线性回归变体，能同时进行特征选择和模型正则化。目标函数为$\frac{1}{2}\sum_{i=1}^n (y_i-\sum_{j=1}^p x_{ij}\beta_j)^2+\lambda \sum_{j=1}^p |\beta_j|$
 - LayerNorm：样本内特征值归一化
 - LogSoftmax：一种防止softmax计算时指数溢出的技巧，$\text{LogSoftmax}(x_i)=x_i-x_m-\log \sum e^{x_j-x_m}$，其中$x_m=\max(x_j)$。
+- LoRA：Low-Rank Adaption，低秩适应。一种LLM轻量微调技术，通过向模型的部分层添加可训练的低秩矩阵模块，实现模型在特定任务上的能力调整，同时保持原模型参数不变 ^e94b19
 
 ## M
 
@@ -76,6 +77,8 @@
 - Prompt Engineering：提示工程，一门研究如何开发、优化LLM提示词，帮助用户更好应用LLM的新兴学科
 
 ## Q
+
+- QLoRA：Quantized [[#^e94b19|LoRA]], 
 
 ## R
 

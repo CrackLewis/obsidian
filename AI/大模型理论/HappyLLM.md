@@ -540,3 +540,7 @@ BERT微调：训练时参数更新的策略一致，但
 - 更大规模的预训练数据、训练步长（batch size）
 - 更大的BPE词表：BERT为30k，RoBERTa为50k
 
+### 3.3-ALBERT
+
+相对BERT的优化：
+- 
