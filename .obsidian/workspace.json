@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/大模型理论/HappyLLM.md",
+                "file": "读书笔记/是大臣-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HappyLLM"
+              "title": "是大臣-01"
             }
           }
         ],
@@ -222,11 +222,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1be7bfb10c848a8e",
+  "active": "ca3543a5a24243e3",
   "lastOpenFiles": [
+    "AI/大模型理论/HappyLLM.md",
     "Excalidraw/Drawing 2026-01-31 18.01.59.excalidraw.md",
     "AI/AI名词词典.md",
-    "AI/大模型理论/HappyLLM.md",
     "AI/大模型理论/PEFT.md",
     "AI/大模型理论/Transformer基础.md",
     "AI/大模型理论/RoPE.md",
