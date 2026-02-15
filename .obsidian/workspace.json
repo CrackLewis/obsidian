@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "读书笔记/是大臣-01.md",
+                "file": "编程语言/Python/Python-dotenv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "是大臣-01"
+              "title": "Python-dotenv"
             }
           }
         ],
@@ -224,9 +224,10 @@
   },
   "active": "1be7bfb10c848a8e",
   "lastOpenFiles": [
+    "读书笔记/是大臣-01.md",
+    "编程语言/Python/Python-dotenv.md",
     "编程语言/Python/pip/pip基础.md",
     "编程语言/Python/uv/01-Python uv基础.md",
-    "读书笔记/是大臣-01.md",
     "AI/大模型理论/HappyLLM.md",
     "Excalidraw/Drawing 2026-01-31 18.01.59.excalidraw.md",
     "AI/AI名词词典.md",
@@ -254,7 +255,6 @@
     "2024考研/408/计算机网络/CNR04-复习网络层.md",
     "2024考研/408/计算机网络/CNR02-复习物理层.md",
     "2024考研/408/计算机网络/CN01-计算机网络体系结构.md",
-    "2024考研/408/操作系统/OSR01-操作系统复习.md",
     "求职",
     "课程-计算机科学/大模型课程",
     "编程语言/Python/pip",
