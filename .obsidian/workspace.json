@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Python/Python-LangChain.md",
+                "file": "编程语言/Python/LangChain-Python/LC01-LangChain基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python-LangChain"
+              "title": "LC01-LangChain基础"
             }
           }
         ],
@@ -238,8 +238,9 @@
   },
   "active": "00425b0722bb0cda",
   "lastOpenFiles": [
+    "编程语言/Python/LangChain-Python",
     "编程语言/Python/Python-dotenv.md",
-    "编程语言/Python/Python-LangChain.md",
+    "编程语言/Python/LangChain-Python/LC01-LangChain基础.md",
     "读书笔记/是大臣-01.md",
     "编程语言/Python/pip/pip基础.md",
     "编程语言/Python/uv/01-Python uv基础.md",
@@ -268,7 +269,6 @@
     "AI/深度学习理论/动手学深度学习/01&02-深度学习预备知识.md",
     "2024考研/408/计算机网络/CNS01-真题考情和重点.md",
     "2024考研/408/计算机网络/CNR04-复习网络层.md",
-    "2024考研/408/计算机网络/CNR02-复习物理层.md",
     "求职",
     "课程-计算机科学/大模型课程",
     "编程语言/Python/pip",
