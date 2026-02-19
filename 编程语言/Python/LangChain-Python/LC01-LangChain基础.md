@@ -11,4 +11,7 @@ refs:
 
 - `.agents`：智能体
 - `.chat_models`、`_XXX`：LLM
-- 
+- `.embeddings`
+- `.messages`
+- `.tools`
+
