@@ -22,21 +22,35 @@
             }
           },
           {
-            "id": "1be7bfb10c848a8e",
+            "id": "17d70224c376eb81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Python/Python-dotenv.md",
+                "file": "AI/大模型理论/PEFT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python-dotenv"
+              "title": "PEFT"
             }
           },
           {
-            "id": "00425b0722bb0cda",
+            "id": "daa4fa0f2792a59e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/大模型理论/SFT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SFT"
+            }
+          },
+          {
+            "id": "a3675479b2549cc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -236,18 +250,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "00425b0722bb0cda",
+  "active": "daa4fa0f2792a59e",
   "lastOpenFiles": [
-    "编程语言/Python/LangChain-Python",
-    "编程语言/Python/Python-dotenv.md",
+    "AI/大模型理论/PEFT.md",
+    "AI/大模型理论/SFT.md",
     "编程语言/Python/LangChain-Python/LC01-LangChain基础.md",
+    "编程语言/Python/Python-dotenv.md",
+    "AI/大模型理论/LoRA.md",
+    "AI/大模型理论/模型量化.md",
+    "编程语言/Python/LangChain-Python",
     "读书笔记/是大臣-01.md",
     "编程语言/Python/pip/pip基础.md",
     "编程语言/Python/uv/01-Python uv基础.md",
     "AI/大模型理论/HappyLLM.md",
     "Excalidraw/Drawing 2026-01-31 18.01.59.excalidraw.md",
     "AI/AI名词词典.md",
-    "AI/大模型理论/PEFT.md",
     "AI/大模型理论/Transformer基础.md",
     "AI/大模型理论/RoPE.md",
     "Excalidraw/Drawing 2026-01-31 16.09.42.excalidraw.md",
@@ -258,7 +275,6 @@
     "编程语言/Python/uv",
     "AI/@-AI杂项/搜广推/搜广推笔记241228.md",
     "课程项目/Stanford-CS336",
-    "AI/大模型理论/模型量化.md",
     "AI/@-AI杂项/大模型面试/大模型面试-1.md",
     "课程-计算机科学/算法/链表题.md",
     "AI/推荐系统理论/王喆-深度学习推荐系统.md",
@@ -268,14 +284,12 @@
     "课程-其他/Duolingo法语.md",
     "AI/深度学习理论/动手学深度学习/01&02-深度学习预备知识.md",
     "2024考研/408/计算机网络/CNS01-真题考情和重点.md",
-    "2024考研/408/计算机网络/CNR04-复习网络层.md",
     "求职",
     "课程-计算机科学/大模型课程",
     "编程语言/Python/pip",
     "后端/Nginx",
     "AI/机器学习理论",
     "AI/深度学习理论",
-    "AI/大模型理论",
     "附件/Pasted image 20251119153319.png",
     "附件/Pasted image 20251113134041.png",
     "附件/Pasted image 20251112162420.png",
