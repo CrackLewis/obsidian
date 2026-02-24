@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/大模型理论/SFT.md",
+                "file": "AI/大模型理论/模型量化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SFT"
+              "title": "模型量化"
             }
           },
           {
-            "id": "2a2a78ecc47b255d",
+            "id": "1904ea93c3131a2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/大模型理论/PEFT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PEFT"
+            }
+          },
+          {
+            "id": "eabc6f68a98e3dc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -264,25 +278,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a3675479b2549cc4",
+  "active": "eabc6f68a98e3dc4",
   "lastOpenFiles": [
-    "AI/大模型理论/HappyLLM.md",
+    "AI/大模型理论/LoRA.md",
+    "AI/大模型理论/PEFT.md",
+    "AI/大模型理论/RoPE.md",
     "AI/大模型理论/RLHF.md",
     "AI/大模型理论/SFT.md",
+    "AI/大模型理论/Scaling-Laws.md",
+    "AI/大模型理论/位置编码.md",
+    "AI/大模型理论/Transformer基础.md",
+    "AI/大模型理论/大模型的完整训练流程.md",
+    "AI/大模型理论/模型量化.md",
+    "AI/大模型理论/HappyLLM.md",
     "编程语言/Python/LangChain-Python/LC01-LangChain基础.md",
     "编程语言/Python/uv/01-Python uv基础.md",
-    "AI/大模型理论/Scaling-Laws.md",
-    "AI/大模型理论/PEFT.md",
     "编程语言/Python/Python-dotenv.md",
-    "AI/大模型理论/LoRA.md",
-    "AI/大模型理论/模型量化.md",
     "编程语言/Python/LangChain-Python",
     "读书笔记/是大臣-01.md",
     "编程语言/Python/pip/pip基础.md",
     "Excalidraw/Drawing 2026-01-31 18.01.59.excalidraw.md",
     "AI/AI名词词典.md",
-    "AI/大模型理论/Transformer基础.md",
-    "AI/大模型理论/RoPE.md",
     "Excalidraw/Drawing 2026-01-31 16.09.42.excalidraw.md",
     "附件/Pasted image 20260131141242.png",
     "附件/Pasted image 20260131011659.png",
@@ -296,8 +312,6 @@
     "AI/推荐系统理论/王喆-深度学习推荐系统.md",
     "AI/推荐系统理论/@01-推荐系统总述.md",
     "AI/推荐系统理论",
-    "求职/推荐算法面经.md",
-    "课程-其他/Duolingo法语.md",
     "求职",
     "课程-计算机科学/大模型课程",
     "编程语言/Python/pip",

@@ -1,3 +1,9 @@
+---
+tags:
+  - 微调
+  - PEFT
+---
+
 
 LoRA = Low-Rank Adaption
 

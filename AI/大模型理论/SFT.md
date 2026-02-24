@@ -9,5 +9,7 @@ SFT=supervised fine-tuning
 
 通过使用标注数据对预训练模型进行进一步训练，使模型能够适应特定任务或者领域
 
-SFT子类：
-- 
+SFT根据类型区分：
+- 全量微调：调整模型中的所有参数
+- [[PEFT|参数高效微调（PEFT）]]：只微调少量附加参数，其余参数冻结
+	- 分为prompt-tuning、prefix-tuning、p-tuning、LoRA等
