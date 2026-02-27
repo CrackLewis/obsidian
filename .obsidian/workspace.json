@@ -22,34 +22,6 @@
             }
           },
           {
-            "id": "daa4fa0f2792a59e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编程语言/Python/Python-asyncio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python-asyncio"
-            }
-          },
-          {
-            "id": "a3675479b2549cc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LaTeX/LaTeX公式速查.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LaTeX公式速查"
-            }
-          },
-          {
             "id": "1904ea93c3131a2b",
             "type": "leaf",
             "state": {
@@ -185,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Python/Python-asyncio.md",
+                "file": "AI/大模型理论/模型量化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python-asyncio"
+              "title": "Outline of 模型量化"
             }
           },
           {
@@ -200,8 +172,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -216,16 +188,6 @@
               },
               "icon": "lucide-archive",
               "title": "All properties"
-            }
-          },
-          {
-            "id": "908040102e6a4d51",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
             }
           }
         ],
@@ -246,11 +208,19 @@
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
       "copilot:Open Copilot Chat": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "agent-client:Open agent client": false
     }
   },
-  "active": "fd6329ed65e6b816",
+  "active": "1904ea93c3131a2b",
   "lastOpenFiles": [
+    "LaTeX/LaTeX公式速查.md",
+    "AI/大模型理论/多模态.md",
+    "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
+    "课程-计算机科学/算法/经典算法/力扣03-数学.md",
+    "课程-计算机科学/算法/代数算法/01-线性规划.md",
+    "课程-计算机科学/算法/经典数据结构/A-红黑树.md",
+    "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
     "编程语言/Python/Python-tqdm.md",
     "编程语言/Python/Python-requests.md",
     "编程语言/Python/Python-re.md",
@@ -265,7 +235,6 @@
     "AI/大模型理论/PEFT.md",
     "AI/大模型理论/模型量化.md",
     "AI/大模型理论/大模型的完整训练流程.md",
-    "LaTeX/LaTeX公式速查.md",
     "附件/Pasted image 20260226153945.png",
     "附件/Pasted image 20260226153728.png",
     "AI/大模型理论/MoE.md",
@@ -273,13 +242,7 @@
     "AI/大模型理论/HappyLLM.md",
     "AI/大模型理论/LoRA.md",
     "AI/大模型理论/RoPE.md",
-    "AI/大模型理论/SFT.md",
-    "AI/大模型理论/Scaling-Laws.md",
-    "AI/大模型理论/位置编码.md",
-    "AI/大模型理论/Transformer基础.md",
-    "编程语言/Python/LangChain-Python/LC01-LangChain基础.md",
     "编程语言/Python/LangChain-Python",
-    "编程语言/Python/pip/pip基础.md",
     "附件/Pasted image 20260131141242.png",
     "附件/Pasted image 20260131011659.png",
     "编程语言/Python/uv",

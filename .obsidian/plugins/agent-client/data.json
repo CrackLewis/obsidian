@@ -1,0 +1,74 @@
+{
+  "claude": {
+    "id": "claude-code-acp",
+    "displayName": "Claude Code",
+    "apiKey": "",
+    "command": "",
+    "args": [],
+    "env": []
+  },
+  "codex": {
+    "id": "codex-acp",
+    "displayName": "Codex",
+    "apiKey": "",
+    "command": "",
+    "args": [],
+    "env": []
+  },
+  "gemini": {
+    "id": "gemini-cli",
+    "displayName": "Gemini CLI",
+    "apiKey": "",
+    "command": "",
+    "args": [
+      "--experimental-acp"
+    ],
+    "env": []
+  },
+  "customAgents": [
+    {
+      "id": "custom-agent",
+      "displayName": "Custom agent",
+      "command": "",
+      "args": [],
+      "env": []
+    }
+  ],
+  "defaultAgentId": "claude-code-acp",
+  "autoAllowPermissions": false,
+  "autoMentionActiveNote": true,
+  "debugMode": false,
+  "nodePath": "",
+  "exportSettings": {
+    "defaultFolder": "Agent Client",
+    "filenameTemplate": "agent_client_{date}_{time}",
+    "autoExportOnNewChat": false,
+    "autoExportOnCloseChat": false,
+    "openFileAfterExport": true,
+    "includeImages": true,
+    "imageLocation": "obsidian",
+    "imageCustomFolder": "Agent Client",
+    "frontmatterTag": "agent-client"
+  },
+  "windowsWslMode": false,
+  "sendMessageShortcut": "enter",
+  "chatViewLocation": "right-tab",
+  "displaySettings": {
+    "autoCollapseDiffs": false,
+    "diffCollapseThreshold": 10,
+    "maxNoteLength": 10000,
+    "maxSelectionLength": 10000,
+    "showEmojis": true,
+    "fontSize": null
+  },
+  "savedSessions": [],
+  "lastUsedModels": {},
+  "showFloatingButton": false,
+  "floatingButtonImage": "",
+  "floatingWindowSize": {
+    "width": 400,
+    "height": 500
+  },
+  "floatingWindowPosition": null,
+  "floatingButtonPosition": null
+}

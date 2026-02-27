@@ -143,3 +143,11 @@ if __name__ == "__main__":
 
 `asyncio.wait_for(awaitable, *, timeout=)`用于在指定时限内等待一个awaitable。如果时限内awaitable结束，则返回其结果/抛出其异常，否则抛出一个`asyncio.TimeoutError`。
 
+## open topics
+
+at 260227
+
+- 异步上下文管理器：`async with`
+- `asyncio.TaskGroup`
+- 事件循环
+- `asyncio.Task`中的回调函数
