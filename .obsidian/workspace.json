@@ -22,17 +22,31 @@
             }
           },
           {
-            "id": "1904ea93c3131a2b",
+            "id": "2f069285ae03da94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/大模型理论/模型量化.md",
+                "file": "读书笔记/是大臣-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "模型量化"
+              "title": "是大臣-01"
+            }
+          },
+          {
+            "id": "f0559db2bcf5c5d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LaTeX/LaTeX公式速查.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LaTeX公式速查"
             }
           }
         ],
@@ -59,7 +73,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -68,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cloudflare",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +90,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -157,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/大模型理论/模型量化.md",
+                "file": "读书笔记/是大臣-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 模型量化"
+              "title": "是大臣-01 的大纲"
             }
           },
           {
@@ -199,22 +213,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
-      "copilot:Open Copilot Chat": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "agent-client:Open agent client": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1904ea93c3131a2b",
+  "active": "2f069285ae03da94",
   "lastOpenFiles": [
     "LaTeX/LaTeX公式速查.md",
+    "AI/AI名词词典.md",
+    "读书笔记/是大臣-01.md",
+    "AI/大模型理论/模型量化.md",
+    "附件/Pasted image 20260228201052.png",
+    "附件/Pasted image 20260228200946.png",
+    "附件/Pasted image 20260228200852.png",
+    "附件/Pasted image 20260228200232.png",
+    "附件/Pasted image 20260228195359.png",
+    "附件/Pasted image 20260228185521.png",
+    "附件/Pasted image 20260228184830.png",
+    "附件/Pasted image 20260228182813.png",
+    "!待办.md",
+    "附件/Pasted image 20260228152852.png",
+    "杂项/社工/社工库及其状态.md",
+    "杂项/网站开发/域名、DNS、内网穿透和映射.md",
+    "杂项/社工",
+    "Linux/Basics/Linux命令行文本处理.md",
+    "Linux/Basics/Linux外存和文件管理.md",
+    "Linux/Basics/Linux压缩和解压.md",
+    "Linux/Basics/Linux用户管理（WIP）.md",
+    "Linux/Hacks/通过X11创建远程图形界面.md",
+    "Linux/Hacks/树莓派静态入网.md",
     "AI/大模型理论/多模态.md",
     "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
     "课程-计算机科学/算法/经典算法/力扣03-数学.md",
@@ -227,24 +261,8 @@
     "编程语言/Python/Python-pyinstrument.md",
     "编程语言/Python/Python-pandas.md",
     "编程语言/Python/Python-numpy.md",
-    "编程语言/Python/Python-multiprocessing.md",
-    "编程语言/Python/Python-dotenv.md",
-    "编程语言/Python/Python-asyncio.md",
-    "编程语言/Python/uv/01-Python uv基础.md",
-    "读书笔记/是大臣-01.md",
-    "AI/大模型理论/PEFT.md",
-    "AI/大模型理论/模型量化.md",
-    "AI/大模型理论/大模型的完整训练流程.md",
     "附件/Pasted image 20260226153945.png",
-    "附件/Pasted image 20260226153728.png",
-    "AI/大模型理论/MoE.md",
-    "AI/大模型理论/RLHF.md",
-    "AI/大模型理论/HappyLLM.md",
-    "AI/大模型理论/LoRA.md",
-    "AI/大模型理论/RoPE.md",
     "编程语言/Python/LangChain-Python",
-    "附件/Pasted image 20260131141242.png",
-    "附件/Pasted image 20260131011659.png",
     "编程语言/Python/uv",
     "课程项目/Stanford-CS336",
     "AI/推荐系统理论",
@@ -253,13 +271,6 @@
     "编程语言/Python/pip",
     "后端/Nginx",
     "AI/机器学习理论",
-    "AI/深度学习理论",
-    "附件/Pasted image 20251119153319.png",
-    "附件/Pasted image 20251113134041.png",
-    "附件/Pasted image 20251112162420.png",
-    "附件/Pasted image 20251112162207.png",
-    "附件/Pasted image 20251101091451.png",
-    "附件/Pasted image 20251101015205.png",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
