@@ -34,6 +34,7 @@
 
 ## G
 
+- GELU：Gaussian-Error Linear Unit，高斯误差线性单元。 $\text{GELU}(x)=x\Phi(x)\approx 0.5x(1+\tanh(\sqrt{2/\pi}\cdot (x+0.044715x^3)))$
 - GNN：图神经网络
 - GPT：Generative Pretrained Transformer，OpenAI于2018年提出的一类文本序列生成模型
 - GroupNorm：一种小batch（一般低于8）时适用的归一化方法，将通道分组，组内归一化，可以解决BN对均值/方差估算不准的问题，但分组需要调参

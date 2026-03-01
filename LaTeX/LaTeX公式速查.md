@@ -221,19 +221,20 @@
 
 ## 矩阵、多行公式、方程组
 
-| 符号 | 宏 |
-|:---:|:---:|
-| $$\begin{matrix}\cdots\\ \cdots \end{matrix}$$ | `\begin{matrix}\cdots\\ \cdots \end{matrix}` |
-| $$\begin{bmatrix}\cdots\\ \cdots\end{bmatrix}$$ | `\begin{bmatrix}\cdots\\ \cdots\end{bmatrix}` |
-| $$\binom{n}{r}$$ | `\binom{n}{r}` |
-| $$\begin{pmatrix}\cdots\\ \cdots\end{pmatrix}$$ | `\begin{pmatrix}\cdots\\ \cdots\end{pmatrix}` |
-| $$\bigl(\begin{smallmatrix}\cdots\\ \cdots \end{smallmatrix}\bigr)$$ | `\bigl(\begin{smallmatrix}\cdots\\ \cdots \end{smallmatrix}\bigr)` |
-| $$\begin{cases} \cdots, x=\\ \cdots, x= \end{cases}$$ | `\begin{cases} \cdots, x=\\ \cdots, x= \end{cases}` |
-| $$\begin{vmatrix}\cdots\\ \cdots\end{vmatrix}$$ | `\begin{vmatrix}\cdots\\ \cdots\end{vmatrix}` |
-| $$\begin{Bmatrix}\cdots\\ \cdots\end{Bmatrix}$$ | `\begin{Bmatrix}\cdots\\ \cdots\end{Bmatrix}` |
-| $$\begin{align*}y&=\cdots\\ &+\cdots \end{align*}$$ | `\begin{align*}y&=\cdots\\ &+\cdots \end{align*}` |
-| $$\begin{Vmatrix}\cdots\\ \cdots\end{Vmatrix}$$ | `\begin{Vmatrix}\cdots\\ \cdots\end{Vmatrix}` |
-| $$\left\{\begin{matrix}\cdots\\ \cdots\end{matrix}\right.$$ | `\left\{\begin{matrix}\cdots\\ \cdots\end{matrix}\right.` |
+|                                  符号                                   |                                  宏                                  |
+| :-------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+|            $$\begin{matrix}\cdots\\ \cdots \end{matrix}$$             |            `\begin{matrix}\cdots\\ \cdots \end{matrix}`             |
+|            $$\begin{bmatrix}\cdots\\ \cdots\end{bmatrix}$$            |            `\begin{bmatrix}\cdots\\ \cdots\end{bmatrix}`            |
+|                           $$\binom{n}{r}$$                            |                           `\binom{n}{r}`                            |
+|            $$\begin{pmatrix}\cdots\\ \cdots\end{pmatrix}$$            |            `\begin{pmatrix}\cdots\\ \cdots\end{pmatrix}`            |
+| $$\bigl(\begin{smallmatrix}\cdots\\ \cdots \end{smallmatrix}\bigr)$$  | `\bigl(\begin{smallmatrix}\cdots\\ \cdots \end{smallmatrix}\bigr)`  |
+|         $$\begin{cases} \cdots, x=\\ \cdots, x= \end{cases}$$         |         `\begin{cases} \cdots, x=\\ \cdots, x= \end{cases}`         |
+|            $$\begin{vmatrix}\cdots\\ \cdots\end{vmatrix}$$            |            `\begin{vmatrix}\cdots\\ \cdots\end{vmatrix}`            |
+|            $$\begin{Bmatrix}\cdots\\ \cdots\end{Bmatrix}$$            |            `\begin{Bmatrix}\cdots\\ \cdots\end{Bmatrix}`            |
+|          $$\begin{align*}y&=\cdots\\ &+\cdots \end{align*}$$          |          `\begin{align*}y&=\cdots\\ &+\cdots \end{align*}`          |
+|            $$\begin{Vmatrix}\cdots\\ \cdots\end{Vmatrix}$$            |            `\begin{Vmatrix}\cdots\\ \cdots\end{Vmatrix}`            |
+|      $$\left\{\begin{matrix}\cdots\\ \cdots\end{matrix}\right.$$      |      `\left\{\begin{matrix}\cdots\\ \cdots\end{matrix}\right.`      |
 | $$\begin{align*}\cdots\\[-1ex] \cdots \\ \hline \cdots \end{align*}$$ | `\begin{align*}\cdots\\[-1ex] \cdots \\ \hline \cdots \end{align*}` |
-| $$\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\|$$ | `\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\|` |
-| $$\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\}$$ | `\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\}` |
+|      $$\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\|$$      |      `\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\|`      |
+|      $$\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\}$$      |      `\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\}`      |
+
