@@ -2,3 +2,4 @@ autobackup.py
 .CONFLICT
 
 .obsidian/plugins/copilot
+.obsidian/plugins/remotely-save

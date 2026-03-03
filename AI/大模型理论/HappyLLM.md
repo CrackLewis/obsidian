@@ -109,7 +109,7 @@ Encoder单片:
 
 Decoder单片：
 
-![[Drawing 2026-01-31 18.01.59.excalidraw|100%]]
+![[Drawing 2026-01-31 18.01.59.excalidraw]]
 
 ### 2.3-手搓Transformer
 

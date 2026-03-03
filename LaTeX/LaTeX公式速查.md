@@ -10,10 +10,10 @@
 	- `\mathbf`：$\mathbf{boldfont\alpha\beta\gamma+-*/\times0123}$ 
 - 斜体：
 	- `\textit`：$\textit{italicfont}$
-	- `\mathit`
+	- `\mathit`：$\mathit{mathitalic}$
 - 正体：
 	- `\textrm`：$\textrm{textroman}$ 
-	- `\mathrm`
+	- `\mathrm`：$\mathrm{mathroman}$
 - slanted：（md不支持）
 	- `\textsl`：$\textsl{slanted}$ 
 - 其他：
@@ -237,4 +237,6 @@
 | $$\begin{align*}\cdots\\[-1ex] \cdots \\ \hline \cdots \end{align*}$$ | `\begin{align*}\cdots\\[-1ex] \cdots \\ \hline \cdots \end{align*}` |
 |      $$\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\|$$      |      `\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\|`      |
 |      $$\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\}$$      |      `\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\}`      |
+
+## 其他公式
 

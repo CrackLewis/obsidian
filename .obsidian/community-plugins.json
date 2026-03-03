@@ -3,5 +3,7 @@
   "obsidian-git",
   "obsidian-excalidraw-plugin",
   "obsidian-link-converter",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "copilot",
+  "remotely-save"
 ]
