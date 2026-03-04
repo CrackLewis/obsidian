@@ -70,9 +70,13 @@
 ## M
 
 - MAE：Mean Absolute Error，也称L1Loss，平均绝对误差，$\text{MAE}(y,\hat y)=1/n \cdot \sum|y_i-{\hat y}_i|$ ^c65b04
+- Markov Chain：马尔可夫链
+- Markov Process：马尔可夫过程
+- MDP：Markov Decision Process，马尔可夫决策过程
 - MHA：Multi-Head Attention，多头注意力
 - MLM：Masked Language Modeling，掩码语言建模，BERT架构采用的一种预训练任务，类似于让模型做“完形填空”
 - MLP：Multi-Layer Perceptron，多层感知机
+- MRP：Markov Reward Process，马尔可夫奖励过程
 - MSE：Mean Squared Error，也称L2Loss，均方误差：$\text{MSE}(y,\hat{y})=1/n \cdot \sum (y_i-\hat{y}_i)^2$ ^5d96e6
 
 ## N

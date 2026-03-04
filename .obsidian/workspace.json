@@ -34,6 +34,34 @@
               "icon": "lucide-file",
               "title": "模型量化"
             }
+          },
+          {
+            "id": "2e66092e48e527dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/AI名词词典.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI名词词典"
+            }
+          },
+          {
+            "id": "695a3525e0d7bea4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LaTeX/LaTeX公式速查.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LaTeX公式速查"
+            }
           }
         ]
       }
@@ -218,22 +246,22 @@
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
       "copilot:Open Copilot Chat": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "cbe63f097125fb62",
   "lastOpenFiles": [
-    "AI/具身智能.md",
+    "附件/Pasted image 20260304010643.png",
+    "AI/AI名词词典.md",
     "AI/强化学习理论/01-强化学习基础.md",
+    "AI/大模型理论/模型量化.md",
+    "LaTeX/LaTeX公式速查.md",
+    "AI/具身智能.md",
     "AI/强化学习理论",
     "AI/大模型理论/HappyLLM.md",
     "AI/大模型理论/位置编码.md",
     "AI/大模型理论/大模型的完整训练流程.md",
-    "AI/AI名词词典.md",
     "AI/深度学习理论/动手学深度学习/04-多层感知机.md",
-    "AI/大模型理论/模型量化.md",
-    "LaTeX/LaTeX公式速查.md",
     "读书笔记/是大臣-01.md",
     "附件/Pasted image 20260228201052.png",
     "附件/Pasted image 20260228200946.png",
@@ -260,7 +288,6 @@
     "课程-计算机科学/算法/代数算法/01-线性规划.md",
     "课程-计算机科学/算法/经典数据结构/A-红黑树.md",
     "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
-    "编程语言/Python/Python-tqdm.md",
     "附件/Pasted image 20260226153945.png",
     "编程语言/Python/LangChain-Python",
     "编程语言/Python/uv",
