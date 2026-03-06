@@ -7,6 +7,8 @@
 ## B
 
 - BatchNorm：批次内各通道归一化
+- Bellman expectation equation：[[01-强化学习基础#贝尔曼期望方程|贝尔曼期望方程]]
+- Bellman optimality equation：[[01-强化学习基础#贝尔曼最优方程|贝尔曼最优方程]]
 - BERT：Bidirectional Encoder Representations from Transformer，由Google于2018年提出的一种革命性自然语言处理模型
 - BP：gradient Back-Propagation, 梯度反向传播算法
 - BPE：Byte-Pair Encoding
@@ -27,6 +29,7 @@
 - DCG@K：Discounted Cummulative Gain，推荐系统指标，表示推荐列表中前K个物品的相关性得分加权和：$\text{DCG@K}=\sum_{i=1}^K \frac{\text{rel}_i}{\log_2(i+1)}$
 - Decision Tree：决策树，一种基于树结构进行决策的算法，通过一系列规则对数据进行分类或回归，是随机森林和 GBDT 的基础
 - DNN：深度神经网络
+- DP：Dynamic Programming，动态规划，一类通过拆分、解决子问题并合并所有解求解问题的思想
 - Dropout：一种正则化技术。在训练过程中随机将部分神经元的输出置零（概率为$p$），防止神经元之间的共适应关系，有效缓解过拟合
 
 ## E
@@ -141,5 +144,5 @@
 
 ## Z
 
-## 非英文开头
+## 非拉丁首字母
 

@@ -20,34 +20,6 @@
               "icon": "lucide-file",
               "title": "01-强化学习基础"
             }
-          },
-          {
-            "id": "2e66092e48e527dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/AI名词词典.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI名词词典"
-            }
-          },
-          {
-            "id": "695a3525e0d7bea4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LaTeX/LaTeX公式速查.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LaTeX公式速查"
-            }
           }
         ]
       }
@@ -171,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/AI名词词典.md",
+                "file": "AI/强化学习理论/01-强化学习基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI名词词典 的大纲"
+              "title": "01-强化学习基础 的大纲"
             }
           },
           {
@@ -215,11 +187,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 478.5,
+    "width": 269.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -233,15 +205,28 @@
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
       "copilot:Open Copilot Chat": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "cbe63f097125fb62",
   "lastOpenFiles": [
-    "LaTeX/LaTeX公式速查.md",
+    "Linux/Basics/Linux终端.md",
+    "Linux/Basics/Linux压缩和解压.md",
+    "Linux/Basics/Linux外存和文件管理.md",
+    "Linux/Basics/Linux命令行文本处理.md",
+    "Linux/Basics/Linux进程管理.md",
+    "Linux/Basics/gdb.md",
     "AI/强化学习理论/01-强化学习基础.md",
     "AI/强化学习理论/00-强化学习intro.md",
+    "AI/@-AI杂项/机器学习复习/10-集成学习.md",
+    "AI/@-AI杂项/机器学习复习/07-支持向量机.md",
+    "AI/@-AI杂项/机器学习复习/05-神经网络.md",
+    "AI/@-AI杂项/机器学习复习/04-决策树.md",
+    "AI/@-AI杂项/机器学习复习/03-线性分类.md",
+    "AI/@-AI杂项/机器学习复习/02-线性回归.md",
+    "AI/机器学习理论/00-机器学习intro.md",
+    "Zotero/template.md",
+    "LaTeX/LaTeX公式速查.md",
     "AI/AI名词词典.md",
     "AI/大模型理论/模型量化.md",
     "附件/Pasted image 20260304010643.png",
@@ -262,21 +247,7 @@
     "附件/Pasted image 20260228182813.png",
     "!待办.md",
     "附件/Pasted image 20260228152852.png",
-    "杂项/社工/社工库及其状态.md",
-    "杂项/网站开发/域名、DNS、内网穿透和映射.md",
     "杂项/社工",
-    "Linux/Basics/Linux命令行文本处理.md",
-    "Linux/Basics/Linux外存和文件管理.md",
-    "Linux/Basics/Linux压缩和解压.md",
-    "Linux/Basics/Linux用户管理（WIP）.md",
-    "Linux/Hacks/通过X11创建远程图形界面.md",
-    "Linux/Hacks/树莓派静态入网.md",
-    "AI/大模型理论/多模态.md",
-    "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
-    "课程-计算机科学/算法/经典算法/力扣03-数学.md",
-    "课程-计算机科学/算法/代数算法/01-线性规划.md",
-    "课程-计算机科学/算法/经典数据结构/A-红黑树.md",
-    "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
     "编程语言/Python/LangChain-Python",
     "编程语言/Python/uv",
     "课程项目/Stanford-CS336",
