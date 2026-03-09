@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Cpp/Cpp17/03-结构化绑定.md",
+                "file": "课程-计算机科学/算法/字符串算法/01-Trie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-结构化绑定"
+              "title": "01-Trie"
+            }
+          },
+          {
+            "id": "950752f14d606b76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程-计算机科学/算法/字符串算法/02-KMP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02-KMP"
             }
           },
           {
@@ -27,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "读书笔记/是大臣-01.md",
+                "file": "AI/大模型理论/Transformer基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "是大臣-01"
+              "title": "Transformer基础"
+            }
+          },
+          {
+            "id": "3d32f5baee2ad599",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程-计算机科学/AI/Datawhale-HappyLLM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Datawhale-HappyLLM"
             }
           }
         ],
@@ -223,10 +251,29 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ac22d98973067cb1",
+  "active": "950752f14d606b76",
   "lastOpenFiles": [
-    "编程语言/Cpp/Cpp17/04-any.md",
+    "课程-计算机科学/算法/字符串算法/01-Trie.md",
+    "课程-计算机科学/算法/字符串算法/02-KMP.md",
+    "课程-计算机科学/算法/经典数据结构/A-红黑树.md",
+    "AI/大模型理论/大模型归一化方法.md",
+    "附件/Pasted image 20260309014040.png",
+    "课程-计算机科学/AI/Datawhale-HappyLLM.md",
+    "AI/大模型理论/Transformer基础.md",
+    "AI/大模型理论/多模态.md",
+    "AI/强化学习理论/01-强化学习基础.md",
+    "AI/强化学习理论/00-强化学习intro.md",
+    "AI/计算机视觉/YOLO简记.md",
+    "AI/@-AI杂项/搜广推/@01-搜广推总述.md",
+    "AI/@-AI杂项/搜广推/搜广推笔记241228.md",
+    "AI/@-AI杂项/大模型面试/大模型面试-1.md",
     "编程语言/Cpp/Cpp17/03-结构化绑定.md",
+    "课程-计算机科学/算法/代数算法/01-线性规划.md",
+    "课程-计算机科学/AI/Datawhale-HelloAgent.md",
+    "课程-计算机科学/AI",
+    "AI/大模型理论/大模型的完整训练流程.md",
+    "读书笔记/是大臣-01.md",
+    "编程语言/Cpp/Cpp17/04-any.md",
     "编程语言/Cpp/Cpp17/01-C++17特性概述.md",
     "编程语言/Cpp/Cpp17/02-string_view.md",
     "编程语言/Python/Flask/02-Flask基础.md",
@@ -234,23 +281,6 @@
     "编程语言/Python/Flask/01A-Flask有关的依赖列表.md",
     "编程语言/Python/Flask/01-Flask简介和基本配置.md",
     "编程语言/Python/Dash/01-Dash Briefing.md",
-    "编程语言/Python/LangChain-Python/01-LangChain基础.md",
-    "AI/强化学习理论/01-强化学习基础.md",
-    "Linux/Basics/Linux终端.md",
-    "Linux/Basics/Linux压缩和解压.md",
-    "Linux/Basics/Linux外存和文件管理.md",
-    "Linux/Basics/Linux命令行文本处理.md",
-    "Linux/Basics/Linux进程管理.md",
-    "Linux/Basics/gdb.md",
-    "AI/强化学习理论/00-强化学习intro.md",
-    "AI/@-AI杂项/机器学习复习/10-集成学习.md",
-    "AI/@-AI杂项/机器学习复习/07-支持向量机.md",
-    "AI/@-AI杂项/机器学习复习/05-神经网络.md",
-    "AI/@-AI杂项/机器学习复习/04-决策树.md",
-    "AI/@-AI杂项/机器学习复习/03-线性分类.md",
-    "AI/@-AI杂项/机器学习复习/02-线性回归.md",
-    "AI/机器学习理论/00-机器学习intro.md",
-    "Zotero/template.md",
     "附件/Pasted image 20260304010643.png",
     "AI/强化学习理论",
     "附件/Pasted image 20260228201052.png",
@@ -261,7 +291,6 @@
     "附件/Pasted image 20260228185521.png",
     "附件/Pasted image 20260228184830.png",
     "附件/Pasted image 20260228182813.png",
-    "附件/Pasted image 20260228152852.png",
     "杂项/社工",
     "编程语言/Python/LangChain-Python",
     "编程语言/Python/uv",
@@ -270,7 +299,6 @@
     "求职",
     "课程-计算机科学/大模型课程",
     "编程语言/Python/pip",
-    "后端/Nginx",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]

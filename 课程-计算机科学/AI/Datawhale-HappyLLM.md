@@ -111,6 +111,11 @@ Decoder单片：
 
 ![[Drawing 2026-01-31 18.01.59.excalidraw]]
 
+FFN结构：
+- 线性变换A：`z1 = W1 * x`
+- 激活：`z2 = GELU(z1)`
+- 线性变换B：`y = W2 * z2`
+
 ### 2.3-手搓Transformer
 
 基本步骤：
