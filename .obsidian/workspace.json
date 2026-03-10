@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/算法/字符串算法/02-KMP.md",
+                "file": "AI/大模型理论/大模型的完整训练流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-KMP"
+              "title": "大模型的完整训练流程"
+            }
+          },
+          {
+            "id": "d2b439b0c5b5759a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/Infra/@01-AI-Infra-汇总.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "@01-AI-Infra-汇总"
             }
           },
           {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -247,23 +261,28 @@
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
       "copilot:Open Copilot Chat": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "950752f14d606b76",
+  "active": "3d32f5baee2ad599",
   "lastOpenFiles": [
-    "课程-计算机科学/算法/字符串算法/01-Trie.md",
+    "AI/大模型理论/Transformer基础.md",
+    "AI/Infra/@01-AI-Infra-汇总.md",
+    "AI/计算机视觉/StableDiffusion.md",
+    "AI/计算机视觉/VAE.md",
+    "AI/计算机视觉/YOLO简记.md",
+    "AI/大模型理论/大模型的完整推理流程.md",
+    "AI/大模型理论/大模型的完整训练流程.md",
     "课程-计算机科学/算法/字符串算法/02-KMP.md",
+    "课程-计算机科学/算法/字符串算法/03-Manacher.md",
+    "课程-计算机科学/算法/字符串算法/01-Trie.md",
     "课程-计算机科学/算法/经典数据结构/A-红黑树.md",
     "AI/大模型理论/大模型归一化方法.md",
     "附件/Pasted image 20260309014040.png",
     "课程-计算机科学/AI/Datawhale-HappyLLM.md",
-    "AI/大模型理论/Transformer基础.md",
     "AI/大模型理论/多模态.md",
     "AI/强化学习理论/01-强化学习基础.md",
     "AI/强化学习理论/00-强化学习intro.md",
-    "AI/计算机视觉/YOLO简记.md",
     "AI/@-AI杂项/搜广推/@01-搜广推总述.md",
     "AI/@-AI杂项/搜广推/搜广推笔记241228.md",
     "AI/@-AI杂项/大模型面试/大模型面试-1.md",
@@ -271,16 +290,10 @@
     "课程-计算机科学/算法/代数算法/01-线性规划.md",
     "课程-计算机科学/AI/Datawhale-HelloAgent.md",
     "课程-计算机科学/AI",
-    "AI/大模型理论/大模型的完整训练流程.md",
     "读书笔记/是大臣-01.md",
     "编程语言/Cpp/Cpp17/04-any.md",
     "编程语言/Cpp/Cpp17/01-C++17特性概述.md",
     "编程语言/Cpp/Cpp17/02-string_view.md",
-    "编程语言/Python/Flask/02-Flask基础.md",
-    "编程语言/Python/Flask/A01-Flask-Login.md",
-    "编程语言/Python/Flask/01A-Flask有关的依赖列表.md",
-    "编程语言/Python/Flask/01-Flask简介和基本配置.md",
-    "编程语言/Python/Dash/01-Dash Briefing.md",
     "附件/Pasted image 20260304010643.png",
     "AI/强化学习理论",
     "附件/Pasted image 20260228201052.png",

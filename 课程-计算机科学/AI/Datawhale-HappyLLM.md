@@ -548,4 +548,16 @@ BERT微调：训练时参数更新的策略一致，但
 ### 3.3-ALBERT
 
 相对BERT的优化：
-- 
+- 将Embedding参数进行分解：
+	- 原始BERT-large的embedding层有约30M；从word2vec的成功经验得知embedding维度不需要很大，128维便足够
+	- 让 Embedding 层的输出维度和隐藏层维度解绑，也就是在 Embedding 层的后面加入一个线性矩阵进行维度变换：先embedding，后升维
+- 跨层参数共享：
+	- 所有的Encoder只用同一套参数初始化；之后的计算也用同一个Encoder层推理
+- *SOP预训练任务*：改进NSP为SOP（sentence order prediction），让模型判断两个先后句子的顺序关系
+
+### 3.4-T5
+
+
+
+![图片描述](https://raw.githubusercontent.com/datawhalechina/happy-llm/main/docs/images/3-figures/2-1.png)
+
