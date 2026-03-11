@@ -557,7 +557,8 @@ BERT微调：训练时参数更新的策略一致，但
 
 ### 3.4-T5
 
+Text-To-Text Transfer Transformer
 
+核心思想：将文本的理解/生成任务统一为文本到文本的转换，简化了模型设计和任务处理
 
-![图片描述](https://raw.githubusercontent.com/datawhalechina/happy-llm/main/docs/images/3-figures/2-1.png)
-
+*T5结构*：完整的Encoder-Decoder结构
