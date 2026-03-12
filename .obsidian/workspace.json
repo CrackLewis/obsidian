@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/AI/Datawhale-HappyLLM.md",
+                "file": "AI/深度学习理论/优化器/AdaGrad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Datawhale-HappyLLM"
+              "title": "AdaGrad"
             }
           }
         ],
@@ -267,8 +267,12 @@
   },
   "active": "3d32f5baee2ad599",
   "lastOpenFiles": [
-    "附件/Pasted image 20260311165245.png",
+    "AI/深度学习理论/损失函数/CrossEntropy.md",
+    "AI/深度学习理论/优化器/AdaGrad.md",
     "课程-计算机科学/AI/Datawhale-HappyLLM.md",
+    "AI/深度学习理论/优化器",
+    "AI/深度学习理论/损失函数",
+    "附件/Pasted image 20260311165245.png",
     "AI/大模型理论/Transformer基础.md",
     "AI/Infra/@01-AI-Infra-汇总.md",
     "AI/计算机视觉/StableDiffusion.md",
@@ -294,7 +298,6 @@
     "课程-计算机科学/AI",
     "读书笔记/是大臣-01.md",
     "编程语言/Cpp/Cpp17/04-any.md",
-    "编程语言/Cpp/Cpp17/01-C++17特性概述.md",
     "附件/Pasted image 20260304010643.png",
     "AI/强化学习理论",
     "附件/Pasted image 20260228201052.png",
@@ -310,8 +313,6 @@
     "课程项目/Stanford-CS336",
     "AI/推荐系统理论",
     "求职",
-    "课程-计算机科学/大模型课程",
-    "编程语言/Python/pip",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
