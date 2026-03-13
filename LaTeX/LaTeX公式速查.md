@@ -206,18 +206,18 @@
 
 所有的`\:`可以替换为实际的被包含内容
 
-|                 符号                  |                      宏                      |
-| :---------------------------------: | :-----------------------------------------: |
-|       $$\left (\: \right )$$        |            `\left (\: \right )`             |
-|       $$\left\|\: \right\|$$        |            `\left\|\: \right\|`             |
-|       $$\left [\: \right ]$$        |            `\left [\: \right ]`             |
-|       $$\left < \: \right >$$       |            `\left < \: \right >`            |
-|       $$\left\{\: \right\}$$        |            `\left\{\: \right\}`             |
-| $$\left \lfloor \: \right \rfloor$$ |      `\left \lfloor \: \right \rfloor`      |
-|        $$\left\|\:\right\|$$        | `\left\| \: \right \| `（竖线不用转义，这里是为了不让表格串列） |
-|  $$\left \lceil \: \right \rceil$$  |       `\left \lceil \: \right \rceil`       |
-|     $$\left \{ \cdots \right.$$     |          `\left \{ \cdots \right.`          |
-|     $$\left. \cdots \right \}$$     |          `\left. \cdots \right }`           |
+|                 符号                  |                    宏                    |
+| :---------------------------------: | :-------------------------------------: |
+|       $$\left (\: \right )$$        |          `\left (\: \right )`           |
+|       $$\left\|\: \right\|$$        |          `\left\|\: \right\|`           |
+|       $$\left [\: \right ]$$        |          `\left [\: \right ]`           |
+|       $$\left < \: \right >$$       |          `\left < \: \right >`          |
+|       $$\left\{\: \right\}$$        |          `\left\{\: \right\}`           |
+| $$\left \lfloor \: \right \rfloor$$ |    `\left \lfloor \: \right \rfloor`    |
+|         $$\lVert\:\rVert$$          | `\lVert \: \rVert `（竖线不用转义，这里是为了不让表格串列） |
+|  $$\left \lceil \: \right \rceil$$  |     `\left \lceil \: \right \rceil`     |
+|     $$\left \{ \cdots \right.$$     |        `\left \{ \cdots \right.`        |
+|     $$\left. \cdots \right \}$$     |        `\left. \cdots \right }`         |
 
 ## 矩阵、多行公式、方程组
 
