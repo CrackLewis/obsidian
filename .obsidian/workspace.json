@@ -41,58 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Infra/@01-AI-Infra-汇总.md",
+                "file": "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@01-AI-Infra-汇总"
-            }
-          },
-          {
-            "id": "ac22d98973067cb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/大模型理论/Transformer基础.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transformer基础"
-            }
-          },
-          {
-            "id": "3d32f5baee2ad599",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/深度学习理论/优化器/00-优化器原理及概述.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00-优化器原理及概述"
-            }
-          },
-          {
-            "id": "1b82b7b4acef0cf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/深度学习理论/优化器/01-SGD+Momentum.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-SGD+Momentum"
+              "title": "位运算-面试鸭"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -279,38 +237,43 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1b82b7b4acef0cf8",
+  "active": "ca3543a5a24243e3",
   "lastOpenFiles": [
-    "AI/深度学习理论/优化器/00-优化器原理及概述.md",
+    "课程-计算机科学/算法/位运算",
+    "AI/大模型应用科学/提示工程-1.md",
+    "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
+    "LaTeX/LaTeX公式速查.md",
+    "LaTeX/通用技巧/latex文本加工.md",
+    "LaTeX/通用技巧/latex排版.md",
+    "LaTeX/Beamer幻灯片制作.md",
+    "AI/Infra/@01-AI-Infra-汇总.md",
+    "AI/大模型理论/大模型的完整推理流程.md",
+    "AI/大模型理论/大模型的完整训练流程.md",
+    "AI/大模型理论/多模态.md",
+    "AI/大模型理论/Scaling-Laws.md",
+    "AI/大模型理论/模型结构/RoPE.md",
+    "AI/大模型理论/微调/SFT.md",
+    "AI/大模型理论/对齐优化/RLHF.md",
+    "AI/大模型理论/模型结构/MoE.md",
+    "AI/大模型理论/对齐优化",
+    "AI/大模型理论/微调",
     "AI/深度学习理论/优化器/01-SGD+Momentum.md",
+    "AI/深度学习理论/优化器/02-AdaGrad.md",
+    "AI/深度学习理论/优化器/03-RMSProp.md",
     "AI/深度学习理论/优化器/04-Adam+AdamW.md",
     "AI/深度学习理论/优化器/A01-近年提出的优化器.md",
-    "AI/深度学习理论/优化器/03-RMSProp.md",
-    "AI/深度学习理论/优化器/02-AdaGrad.md",
-    "LaTeX/LaTeX公式速查.md",
-    "AI/深度学习理论/损失函数/CrossEntropy.md",
-    "课程-计算机科学/AI/Datawhale-HappyLLM.md",
+    "AI/Agent理论/@01-Agent理论汇总.md",
+    "AI/Infra/模型量化.md",
+    "AI/大模型理论/模型结构/大模型归一化方法.md",
+    "AI/大模型理论/模型结构/位置编码.md",
+    "AI/大模型理论/微调/LoRA.md",
+    "AI/大模型理论/预训练",
+    "AI/大模型理论/模型结构",
+    "AI/大模型应用科学",
     "AI/深度学习理论/优化器",
     "AI/深度学习理论/损失函数",
     "附件/Pasted image 20260311165245.png",
-    "AI/大模型理论/Transformer基础.md",
-    "AI/Infra/@01-AI-Infra-汇总.md",
-    "AI/计算机视觉/StableDiffusion.md",
-    "AI/计算机视觉/VAE.md",
-    "AI/计算机视觉/YOLO简记.md",
-    "AI/大模型理论/大模型的完整推理流程.md",
-    "AI/大模型理论/大模型的完整训练流程.md",
-    "课程-计算机科学/算法/字符串算法/02-KMP.md",
-    "课程-计算机科学/算法/字符串算法/03-Manacher.md",
-    "课程-计算机科学/算法/字符串算法/01-Trie.md",
-    "课程-计算机科学/算法/经典数据结构/A-红黑树.md",
-    "AI/大模型理论/大模型归一化方法.md",
     "附件/Pasted image 20260309014040.png",
-    "AI/大模型理论/多模态.md",
-    "AI/强化学习理论/01-强化学习基础.md",
-    "AI/强化学习理论/00-强化学习intro.md",
-    "AI/@-AI杂项/搜广推/@01-搜广推总述.md",
-    "AI/@-AI杂项/搜广推/搜广推笔记241228.md",
     "课程-计算机科学/AI",
     "附件/Pasted image 20260304010643.png",
     "AI/强化学习理论",
@@ -322,11 +285,6 @@
     "附件/Pasted image 20260228185521.png",
     "附件/Pasted image 20260228184830.png",
     "杂项/社工",
-    "编程语言/Python/LangChain-Python",
-    "编程语言/Python/uv",
-    "课程项目/Stanford-CS336",
-    "AI/推荐系统理论",
-    "求职",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
