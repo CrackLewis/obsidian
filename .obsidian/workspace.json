@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "大模型的完整训练流程"
             }
-          },
-          {
-            "id": "d2b439b0c5b5759a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "位运算-面试鸭"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -237,11 +223,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ca3543a5a24243e3",
+  "active": "950752f14d606b76",
   "lastOpenFiles": [
+    "后端/CMake/CMake入门.md",
+    "后端/Nginx/01-Nginx基本.md",
+    "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
     "课程-计算机科学/算法/位运算",
     "AI/大模型应用科学/提示工程-1.md",
-    "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
     "LaTeX/LaTeX公式速查.md",
     "LaTeX/通用技巧/latex文本加工.md",
     "LaTeX/通用技巧/latex排版.md",
@@ -266,7 +254,6 @@
     "AI/Infra/模型量化.md",
     "AI/大模型理论/模型结构/大模型归一化方法.md",
     "AI/大模型理论/模型结构/位置编码.md",
-    "AI/大模型理论/微调/LoRA.md",
     "AI/大模型理论/预训练",
     "AI/大模型理论/模型结构",
     "AI/大模型应用科学",
@@ -284,7 +271,6 @@
     "附件/Pasted image 20260228195359.png",
     "附件/Pasted image 20260228185521.png",
     "附件/Pasted image 20260228184830.png",
-    "杂项/社工",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
