@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/大模型理论/大模型的完整训练流程.md",
+                "file": "Web前端/Vue/004-Vue MVVM模型、数据代理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大模型的完整训练流程"
+              "title": "004-Vue MVVM模型、数据代理"
             }
           }
         ],
@@ -225,6 +225,16 @@
   },
   "active": "950752f14d606b76",
   "lastOpenFiles": [
+    "Web前端/Vue/003-Vue el与data的两种写法.md",
+    "Web前端/Vue/001-Vue 简介.md",
+    "Web前端/Vue/015-Vue Router.md",
+    "Web前端/Vue/L01-Vue案例：TodoList.md",
+    "Web前端/Vue/Z01-Vue核心总结.md",
+    "Web前端/Vue/013-Vue 脚手架.md",
+    "Web前端/Vue/006-Vue 计算属性、侦听属性.md",
+    "Cheatsheets/Cheatsheet-线性代数.md",
+    "Cheatsheets/Cheatsheet-机器学习.md",
+    "AI/大模型理论/大模型的完整训练流程.md",
     "后端/CMake/CMake入门.md",
     "后端/Nginx/01-Nginx基本.md",
     "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
@@ -236,7 +246,6 @@
     "LaTeX/Beamer幻灯片制作.md",
     "AI/Infra/@01-AI-Infra-汇总.md",
     "AI/大模型理论/大模型的完整推理流程.md",
-    "AI/大模型理论/大模型的完整训练流程.md",
     "AI/大模型理论/多模态.md",
     "AI/大模型理论/Scaling-Laws.md",
     "AI/大模型理论/模型结构/RoPE.md",
@@ -245,15 +254,6 @@
     "AI/大模型理论/模型结构/MoE.md",
     "AI/大模型理论/对齐优化",
     "AI/大模型理论/微调",
-    "AI/深度学习理论/优化器/01-SGD+Momentum.md",
-    "AI/深度学习理论/优化器/02-AdaGrad.md",
-    "AI/深度学习理论/优化器/03-RMSProp.md",
-    "AI/深度学习理论/优化器/04-Adam+AdamW.md",
-    "AI/深度学习理论/优化器/A01-近年提出的优化器.md",
-    "AI/Agent理论/@01-Agent理论汇总.md",
-    "AI/Infra/模型量化.md",
-    "AI/大模型理论/模型结构/大模型归一化方法.md",
-    "AI/大模型理论/模型结构/位置编码.md",
     "AI/大模型理论/预训练",
     "AI/大模型理论/模型结构",
     "AI/大模型应用科学",
