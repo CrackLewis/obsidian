@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端/Vue/004-Vue MVVM模型、数据代理.md",
+                "file": "编程语言/Cpp/Cpplibs/googletest/01-googletest基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "004-Vue MVVM模型、数据代理"
+              "title": "01-googletest基础"
             }
           }
         ],
@@ -225,6 +225,11 @@
   },
   "active": "950752f14d606b76",
   "lastOpenFiles": [
+    "编程语言/Cpp/Cpplibs/libffmpeg.md",
+    "编程语言/Cpp/Cpplibs/googletest/01-googletest基础.md",
+    "编程语言/Cpp/Cpplibs/googletest",
+    "Linux/Hacks/WSL使用硬件加速.md",
+    "Web前端/Vue/004-Vue MVVM模型、数据代理.md",
     "Web前端/Vue/003-Vue el与data的两种写法.md",
     "Web前端/Vue/001-Vue 简介.md",
     "Web前端/Vue/015-Vue Router.md",
@@ -248,10 +253,6 @@
     "AI/大模型理论/大模型的完整推理流程.md",
     "AI/大模型理论/多模态.md",
     "AI/大模型理论/Scaling-Laws.md",
-    "AI/大模型理论/模型结构/RoPE.md",
-    "AI/大模型理论/微调/SFT.md",
-    "AI/大模型理论/对齐优化/RLHF.md",
-    "AI/大模型理论/模型结构/MoE.md",
     "AI/大模型理论/对齐优化",
     "AI/大模型理论/微调",
     "AI/大模型理论/预训练",
@@ -263,7 +264,6 @@
     "附件/Pasted image 20260309014040.png",
     "课程-计算机科学/AI",
     "附件/Pasted image 20260304010643.png",
-    "AI/强化学习理论",
     "附件/Pasted image 20260228201052.png",
     "附件/Pasted image 20260228200946.png",
     "附件/Pasted image 20260228200852.png",
