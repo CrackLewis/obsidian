@@ -13,30 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/算法/字符串算法/01-Trie.md",
+                "file": "AI/计算机视觉/图像生成/00-图像生成简介.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Trie"
+              "title": "00-图像生成简介"
             }
           },
           {
-            "id": "950752f14d606b76",
+            "id": "e9a71529518fc5e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Cpp/Cpplibs/googletest/01-googletest基础.md",
+                "file": "AI/计算机视觉/图像生成/A01-自编码器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-googletest基础"
+              "title": "A01-自编码器"
+            }
+          },
+          {
+            "id": "07369894343dce25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "科研/kplex论文写作.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kplex论文写作"
+            }
+          },
+          {
+            "id": "bcc39a69f25bcb06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheatsheets/Cheatsheet-线性代数.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cheatsheet-线性代数"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -157,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/强化学习理论/01-强化学习基础.md",
+                "file": "AI/计算机视觉/图像生成/01-自编码器.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "01-强化学习基础 的大纲"
+              "title": "01-自编码器 的大纲"
             }
           },
           {
@@ -223,46 +251,47 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "950752f14d606b76",
+  "active": "bcc39a69f25bcb06",
   "lastOpenFiles": [
-    "编程语言/Cpp/Cpplibs/libffmpeg.md",
-    "编程语言/Cpp/Cpplibs/googletest/01-googletest基础.md",
-    "编程语言/Cpp/Cpplibs/googletest",
-    "Linux/Hacks/WSL使用硬件加速.md",
-    "Web前端/Vue/004-Vue MVVM模型、数据代理.md",
-    "Web前端/Vue/003-Vue el与data的两种写法.md",
-    "Web前端/Vue/001-Vue 简介.md",
-    "Web前端/Vue/015-Vue Router.md",
-    "Web前端/Vue/L01-Vue案例：TodoList.md",
-    "Web前端/Vue/Z01-Vue核心总结.md",
-    "Web前端/Vue/013-Vue 脚手架.md",
-    "Web前端/Vue/006-Vue 计算属性、侦听属性.md",
-    "Cheatsheets/Cheatsheet-线性代数.md",
     "Cheatsheets/Cheatsheet-机器学习.md",
-    "AI/大模型理论/大模型的完整训练流程.md",
-    "后端/CMake/CMake入门.md",
-    "后端/Nginx/01-Nginx基本.md",
-    "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
+    "Cheatsheets/Cheatsheet-线性代数.md",
+    "AI/计算机视觉/图像生成/Kling-Omni.md",
+    "科研/kplex论文写作.md",
+    "科研/k-plex/C-kplex规模上界.md",
+    "科研/k-plex/C-kplex启发式算法.md",
+    "科研/k-plex/C-2025-UMkP.md",
+    "科研/k-plex/B-2024-Chang-kPlexT.md",
+    "科研/k-plex/B-2023-Wang-DegenGap.md",
+    "科研/k-plex/B-2021-Chang-kPlexS.md",
+    "科研/k-plex/B-2018-Maplex.md",
+    "科研/k-plex/B-2017-Xiao-BS.md",
+    "科研/顶会下毒指北.md",
+    "科研/科研进度tracker.md",
+    "科研/科研黑话.md",
+    "科研/计算机科研概述.md",
+    "AI/计算机视觉/图像生成/A01-自编码器.md",
+    "科研/普通图-kplex-废话.md",
+    "科研/kplex小记.md",
+    "科研/GNN-intro.md",
+    "编程语言/Cpp/Cpp-stdlib/stdlib-format.md",
+    "编程语言/Cpp/Cpplibs/googletest/01-googletest基础.md",
+    "编程语言/Cpp/Cpplibs/googletest/A01-googletest断言参考.md",
+    "编程语言/Cpp/Cpp设计模式/01-pImpl.md",
+    "编程语言/Cpp/Cpp20/00-Cpp20特性概述.md",
+    "编程语言/Cpp/Cpp20",
+    "AI/大模型理论/对齐优化/RLHF.md",
+    "附件/Pasted image 20260323225018.png",
+    "AI/计算机视觉/目标检测",
+    "AI/计算机视觉/图像生成",
+    "编程语言/Cpp/Cpplibs/libuv",
+    "编程语言/Cpp/Cpplibs/libevent",
+    "编程语言/Cpp/Cpplibs/googletest",
     "课程-计算机科学/算法/位运算",
-    "AI/大模型应用科学/提示工程-1.md",
-    "LaTeX/LaTeX公式速查.md",
-    "LaTeX/通用技巧/latex文本加工.md",
-    "LaTeX/通用技巧/latex排版.md",
-    "LaTeX/Beamer幻灯片制作.md",
-    "AI/Infra/@01-AI-Infra-汇总.md",
-    "AI/大模型理论/大模型的完整推理流程.md",
-    "AI/大模型理论/多模态.md",
-    "AI/大模型理论/Scaling-Laws.md",
     "AI/大模型理论/对齐优化",
     "AI/大模型理论/微调",
     "AI/大模型理论/预训练",
-    "AI/大模型理论/模型结构",
-    "AI/大模型应用科学",
-    "AI/深度学习理论/优化器",
-    "AI/深度学习理论/损失函数",
     "附件/Pasted image 20260311165245.png",
     "附件/Pasted image 20260309014040.png",
-    "课程-计算机科学/AI",
     "附件/Pasted image 20260304010643.png",
     "附件/Pasted image 20260228201052.png",
     "附件/Pasted image 20260228200946.png",
@@ -270,7 +299,6 @@
     "附件/Pasted image 20260228200232.png",
     "附件/Pasted image 20260228195359.png",
     "附件/Pasted image 20260228185521.png",
-    "附件/Pasted image 20260228184830.png",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
