@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -279,7 +279,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "955be868521de24f",
+  "active": "adb07320bc56d175",
   "lastOpenFiles": [
     "课程-数学/@00-数学体系.md",
     "课程-数学/A01-初等代数.md",
