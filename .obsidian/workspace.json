@@ -289,8 +289,7 @@
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
       "copilot:Open Copilot Chat": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "7f486243912ad7bd",
