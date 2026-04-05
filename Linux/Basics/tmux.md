@@ -2,6 +2,20 @@
 参考资料：
 - [博客](https://blog.csdn.net/CSSDCC/article/details/121231906)
 
+## TL;DR
+
+tmux\>session\>window\>pane
+
+- 全局命令：
+- 关于session：
+	- 列出活动会话（`^b-s`）：`tmux list-sessions`
+	- 新建会话：`tmux new -s <session_name>`
+	- 绑定会话：`tmux attach -t <session_name>`
+	- 解绑会话（`^b-d`）：`tmux detach`
+	- 回收会话：`tmux kill-session -t my_session`
+- [[#window操作|关于windows]]
+- [[#pane操作|关于pane]]
+
 ## 基本概念
 
 tmux=Terminal Multiplexer，终端复用器
