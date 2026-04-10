@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/ClaudeCode/00-ClaudeCode基础.md",
+                "file": "课程-外语/西班牙语/ES-SL01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-ClaudeCode基础"
+              "title": "ES-SL01"
             }
           },
           {
@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/MultiMKP数据记录.md",
+                "file": "AI/强化学习理论/00-强化学习intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MultiMKP数据记录"
+              "title": "00-强化学习intro"
+            }
+          },
+          {
+            "id": "b4b6b3cac856b735",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/强化学习理论/01-强化学习基础.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-强化学习基础"
             }
           }
         ],
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研/MultiMKP数据记录.md",
+                "file": "AI/强化学习理论/00-强化学习intro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MultiMKP数据记录 的大纲"
+              "title": "00-强化学习intro 的大纲"
             }
           },
           {
@@ -232,14 +246,25 @@
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
       "copilot:Open Copilot Chat": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "b81eb662eaa58f84",
   "lastOpenFiles": [
+    "AI/强化学习理论/01-强化学习基础.md",
+    "AI/强化学习理论/00-强化学习intro.md",
+    "课程-外语/Fran",
+    "科研/MultiMKP数据记录.md",
+    "课程-外语/西班牙语/ES-SL01.md",
+    "AI/机器学习理论/01-线性回归.md",
+    "课程-外语/西班牙语",
+    "课程-外语",
+    "课程-其他/Duolingo法语.md",
+    "课程-其他/黄嵩-金融科技理论与实践.md",
+    "AI/机器学习理论/00-机器学习intro.md",
     "AI/ClaudeCode/00-ClaudeCode基础.md",
     "课程项目/Stanford-CS336/CS336-PA01-TransformerLM.md",
-    "科研/MultiMKP数据记录.md",
     "编程语言/Python/Python-numpy.md",
     "编程语言/Python/pip/pip基础.md",
     "编程语言/Python/Flask/A01-Flask-Login.md",
@@ -252,17 +277,9 @@
     "编程语言/Python/Python-dotenv.md",
     "编程语言/Python/Python-asyncio.md",
     "编程语言/Python/PyAV.md",
-    "AI/机器学习理论/01-线性回归.md",
-    "AI/机器学习理论/00-机器学习intro.md",
     "AI/@-AI杂项/机器学习复习/02-线性回归.md",
     "AI/@-AI杂项/机器学习复习/03-线性分类.md",
     "AI/OpenClaw/03-OpenClaw skills.md",
-    "AI/OpenClaw/A01-OpenClaw参考.md",
-    "科研/MultiMKP设计.md",
-    "科研/顶会下毒指北.md",
-    "杂项/量化交易/01-量化交易基本概念.md",
-    "课程-数学/@01-词典-初等+数分高代.md",
-    "杂项/RA2/RA2文件结构.md",
     "杂项/量化交易/Optiver-ReadyTraderGo",
     "AI/计算机视觉/视频生成",
     "附件/Pasted image 20260331153254.png",
@@ -276,9 +293,6 @@
     "附件/Pasted image 20260323225018.png",
     "AI/计算机视觉/目标检测",
     "AI/计算机视觉/图像生成",
-    "编程语言/Cpp/Cpplibs/libuv",
-    "编程语言/Cpp/Cpplibs/libevent",
-    "编程语言/Cpp/Cpplibs/googletest",
     "附件/Pasted image 20260311165245.png",
     "附件/Pasted image 20260309014040.png",
     "附件/Pasted image 20260304010643.png",
