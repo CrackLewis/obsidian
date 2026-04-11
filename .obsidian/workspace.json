@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/强化学习理论/00-强化学习intro.md",
+                "file": "课程-计算机科学/AI/Anthropic-Claude课程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-强化学习intro"
+              "title": "Anthropic-Claude课程"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/强化学习理论/00-强化学习intro.md",
+                "file": "课程-计算机科学/AI/Anthropic-Claude课程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "00-强化学习intro 的大纲"
+              "title": "Anthropic-Claude课程 的大纲"
             }
           },
           {
@@ -252,8 +252,11 @@
   },
   "active": "b81eb662eaa58f84",
   "lastOpenFiles": [
-    "AI/强化学习理论/01-强化学习基础.md",
+    "附件/Pasted image 20260411155754.png",
+    "附件/Pasted image 20260411154318.png",
     "AI/强化学习理论/00-强化学习intro.md",
+    "课程-计算机科学/AI/Anthropic-Claude课程.md",
+    "AI/强化学习理论/01-强化学习基础.md",
     "课程-外语/Fran",
     "科研/MultiMKP数据记录.md",
     "课程-外语/西班牙语/ES-SL01.md",
@@ -279,7 +282,6 @@
     "编程语言/Python/PyAV.md",
     "AI/@-AI杂项/机器学习复习/02-线性回归.md",
     "AI/@-AI杂项/机器学习复习/03-线性分类.md",
-    "AI/OpenClaw/03-OpenClaw skills.md",
     "杂项/量化交易/Optiver-ReadyTraderGo",
     "AI/计算机视觉/视频生成",
     "附件/Pasted image 20260331153254.png",
@@ -296,7 +298,6 @@
     "附件/Pasted image 20260311165245.png",
     "附件/Pasted image 20260309014040.png",
     "附件/Pasted image 20260304010643.png",
-    "附件/Pasted image 20260228201052.png",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
