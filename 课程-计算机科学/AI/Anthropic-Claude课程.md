@@ -242,3 +242,8 @@ clean_json = json.loads(text.strip())
 
 ## prompt evaluation
 
+*提示词评估*（prompt evaluation）是提示词工程的一个关键环节，用于帮助用户迭代提升提示词的效果
+- 如果不对提示词进行“评估-加强”循环，可能会在实际上线时遇到问题
+
+提示词评估pipeline：
+- 
