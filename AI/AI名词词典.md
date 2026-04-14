@@ -34,6 +34,8 @@
 
 ## E
 
+- EWA：exponential weighted average，指数加权平均
+
 ## F
 
 - F1-score：精确率与召回率的调和平均数，用于综合评估一个分类模型的性能，特别适用于样本不平衡的场景。$F1=2\cdot \dfrac{P\cdot R}{P+R}$

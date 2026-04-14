@@ -239,7 +239,33 @@
 |      $$\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\}$$      |      `\left.\begin{matrix}\cdots\\ \cdots\end{matrix}\right\}`      |
 |                                                                       |                                                                     |
 
+## 其他公式、符号
 
+### 特殊记号
 
-## 其他公式
+- 拉普拉斯算子：$\nabla$（`\nabla`）
 
+### 有宏的初等函数
+
+| 符号        | 宏      | 含义         |
+| --------- | ------ | ---------- |
+| $\sin$    | `\sin` | 正弦         |
+| $\cos$    |        | 余弦         |
+| $\tan$    |        | 正切         |
+| $\cot$    |        | 余切         |
+| $\sec$    |        | 正割         |
+| $\csc$    |        | 余割         |
+| $\lim$    |        | 极限记号       |
+| $\exp$    |        | 指数（默认以e为底） |
+| $\dim$    |        |            |
+| $\sinh$   |        |            |
+| $\cosh$   |        |            |
+| $\tanh$   |        |            |
+| $\arcsin$ |        |            |
+| $\arccos$ |        |            |
+| $\arctan$ |        |            |
+| $\min$    |        |            |
+| $\max$    |        |            |
+| $\deg$    |        |            |
+| $\sup$    |        |            |
+| $\arg$    |        |            |

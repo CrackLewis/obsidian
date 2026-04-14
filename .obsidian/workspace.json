@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/AI/Anthropic-Claude课程.md",
+                "file": "AI/深度学习理论/优化器/01-SGD+Momentum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anthropic-Claude课程"
+              "title": "01-SGD+Momentum"
             }
           },
           {
@@ -62,9 +62,37 @@
               "icon": "lucide-file",
               "title": "01-强化学习基础"
             }
+          },
+          {
+            "id": "96218a33c0af01df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LaTeX/LaTeX公式速查.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LaTeX公式速查"
+            }
+          },
+          {
+            "id": "75511739e6bef2b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/AI名词词典.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI名词词典"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -185,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-计算机科学/AI/Anthropic-Claude课程.md",
+                "file": "LaTeX/LaTeX公式速查.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Anthropic-Claude课程 的大纲"
+              "title": "LaTeX公式速查 的大纲"
             }
           },
           {
@@ -246,16 +274,21 @@
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
       "copilot:Open Copilot Chat": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b81eb662eaa58f84",
+  "active": "96218a33c0af01df",
   "lastOpenFiles": [
+    "AI/AI名词词典.md",
+    "AI/深度学习理论/优化器/01-SGD+Momentum.md",
+    "LaTeX/LaTeX公式速查.md",
+    "AI/强化学习理论/01-强化学习基础.md",
+    "AI/深度学习理论/优化器/00-优化器原理及概述.md",
+    "课程-计算机科学/AI/Anthropic-Claude课程.md",
     "附件/Pasted image 20260411155754.png",
     "附件/Pasted image 20260411154318.png",
     "AI/强化学习理论/00-强化学习intro.md",
-    "课程-计算机科学/AI/Anthropic-Claude课程.md",
-    "AI/强化学习理论/01-强化学习基础.md",
     "课程-外语/Fran",
     "科研/MultiMKP数据记录.md",
     "课程-外语/西班牙语/ES-SL01.md",
@@ -278,9 +311,6 @@
     "编程语言/Python/Python-multiprocessing.md",
     "编程语言/Python/Python-dotenv.md",
     "编程语言/Python/Python-asyncio.md",
-    "编程语言/Python/PyAV.md",
-    "AI/@-AI杂项/机器学习复习/02-线性回归.md",
-    "AI/@-AI杂项/机器学习复习/03-线性分类.md",
     "杂项/量化交易/Optiver-ReadyTraderGo",
     "AI/计算机视觉/视频生成",
     "附件/Pasted image 20260331153254.png",
@@ -296,7 +326,6 @@
     "AI/计算机视觉/图像生成",
     "附件/Pasted image 20260311165245.png",
     "附件/Pasted image 20260309014040.png",
-    "附件/Pasted image 20260304010643.png",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
