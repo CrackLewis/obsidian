@@ -64,20 +64,6 @@
             }
           },
           {
-            "id": "96218a33c0af01df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LaTeX/LaTeX公式速查.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LaTeX公式速查"
-            }
-          },
-          {
             "id": "75511739e6bef2b5",
             "type": "leaf",
             "state": {
@@ -92,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -213,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LaTeX/LaTeX公式速查.md",
+                "file": "AI/强化学习理论/01-强化学习基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LaTeX公式速查 的大纲"
+              "title": "01-强化学习基础 的大纲"
             }
           },
           {
@@ -278,11 +264,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "96218a33c0af01df",
+  "active": "b4b6b3cac856b735",
   "lastOpenFiles": [
     "AI/AI名词词典.md",
-    "AI/深度学习理论/优化器/01-SGD+Momentum.md",
     "LaTeX/LaTeX公式速查.md",
+    "AI/深度学习理论/优化器/01-SGD+Momentum.md",
     "AI/强化学习理论/01-强化学习基础.md",
     "AI/深度学习理论/优化器/00-优化器原理及概述.md",
     "课程-计算机科学/AI/Anthropic-Claude课程.md",
