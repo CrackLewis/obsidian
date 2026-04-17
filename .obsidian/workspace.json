@@ -27,44 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程项目/Stanford-CS336/CS336-PA01-TransformerLM.md",
+                "file": "AI/计算机视觉/图像生成/@00-图像生成简介.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS336-PA01-TransformerLM"
-            }
-          },
-          {
-            "id": "b81eb662eaa58f84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Basics/Linux压缩和解压.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux压缩和解压"
-            }
-          },
-          {
-            "id": "b4b6b3cac856b735",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "杂项/网络hacks/Cloudflare连接器.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cloudflare连接器"
+              "title": "@00-图像生成简介"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Basics/Linux压缩和解压.md",
+                "file": "AI/计算机视觉/图像生成/@00-图像生成简介.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux压缩和解压 的大纲"
+              "title": "@00-图像生成简介 的大纲"
             }
           },
           {
@@ -251,8 +223,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b81eb662eaa58f84",
+  "active": "c6dd34790da30500",
   "lastOpenFiles": [
+    "AI/计算机视觉/图像生成/B01-扩散模型.md",
+    "AI/计算机视觉/图像生成/A02-CLIP+SigLIP.md",
+    "AI/计算机视觉/图像生成/@00-图像生成简介.md",
+    "AI/计算机视觉/图像生成/StableDiffusion.md",
+    "AI/计算机视觉/图像生成/Kling-Omni.md",
+    "AI/计算机视觉/图像生成/SigLIP.md",
+    "AI/计算机视觉/图像生成/A01-自编码器.md",
+    "附件/Pasted image 20260417153735.png",
+    "附件/Pasted image 20260417153605.png",
+    "AI/计算机视觉/目标检测/YOLO简记.md",
+    "Linux/Hacks/Ubuntu20.04安装OpenCV+CUDA.md",
+    "Linux/Hacks/树莓派静态入网.md",
+    "课程项目/Stanford-CS336/CS336-PA01-TransformerLM.md",
+    "杂项/网络hacks/Cloudflare连接器.md",
+    "Linux/Basics/Linux压缩和解压.md",
     "Zotero/Imports/changEfficientMaximumPlex2022.md",
     "前端-Web/Vue/Z01-Vue核心总结.md",
     "前端-Web/前端规划.md",
@@ -260,7 +247,6 @@
     "杂项/身份/海外数字身份.md",
     "AI/深度学习理论/优化器/01-SGD+Momentum.md",
     "杂项/身份",
-    "杂项/网络hacks/Cloudflare连接器.md",
     "AI/AI名词词典.md",
     "杂项/网站开发/域名、DNS、内网穿透和映射.md",
     "杂项/网络hacks/未命名.md",
@@ -270,22 +256,10 @@
     "杂项/网络hacks",
     "数据库/Redis/01-Redis入门.md",
     "杂项/自然辩证法笔记.md",
-    "杂项/UML/类图.md",
-    "杂项/Obsidian用法/Callout块.md",
-    "杂项/Obsidian用法/Excalidraw把玩.md",
-    "杂项/Obsidian用法/Obsidian-CLI.md",
-    "杂项/ChatGPT/GPT提问技巧.md",
-    "杂项/社工/社工库及其状态.md",
-    "AI/强化学习理论/01-强化学习基础.md",
     "前端-桌面",
-    "LaTeX/LaTeX公式速查.md",
-    "AI/深度学习理论/优化器/00-优化器原理及概述.md",
-    "课程-计算机科学/AI/Anthropic-Claude课程.md",
     "附件/Pasted image 20260411155754.png",
     "附件/Pasted image 20260411154318.png",
-    "AI/强化学习理论/00-强化学习intro.md",
     "课程-外语/Fran",
-    "科研/MultiMKP数据记录.md",
     "课程-外语/西班牙语",
     "课程-外语",
     "杂项/量化交易/Optiver-ReadyTraderGo",
@@ -297,8 +271,6 @@
     "附件/Pasted image 20260326171308.png",
     "附件/Pasted image 20260326120122.png",
     "附件/Pasted image 20260323225018.png",
-    "附件/Pasted image 20260311165245.png",
-    "附件/Pasted image 20260309014040.png",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
