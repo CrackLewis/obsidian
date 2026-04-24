@@ -219,7 +219,9 @@
 |     $$\left \{ \cdots \right.$$     |        `\left \{ \cdots \right.`        |
 |     $$\left. \cdots \right \}$$     |        `\left. \cdots \right }`         |
 
-## 矩阵、多行公式、方程组
+## 矩阵、方程组
+
+关于多行公式的详细内容见[[#一式多行]]
 
 |                                  符号                                   |                                  宏                                  |
 | :-------------------------------------------------------------------: | :-----------------------------------------------------------------: |
@@ -269,3 +271,45 @@
 | $\deg$    |        |                                 |
 | $\sup$    |        |                                 |
 | $\arg$    |        | 与`\max,\min`连用，使因变量最大化/最小化的参数集合 |
+
+### 一式多行
+
+- `multiline`：超长公式折行
+- `align`：功能最全的多行行间对齐
+	- `aligned`
+- `gather`：多行居中对齐
+	- `gathered`
+- `cases`
+- `split`
+
+`multiline`（长公式被迫折行）：
+$$
+\begin{multline}
+    p = 3x^6 + 14x^5y + 590x^4y^2 + 19x^3y^3\\ 
+	+ \sin{x} + \cos{y} + \tan{a} + e^{x+y} \\
+    - 12x^2y^4 - 12xy^5 + 2y^6 - a^3b^3
+\end{multline}
+
+$$
+
+`align`（公式并排）：
+
+$$
+\begin{align} 
+    a & = b + c 
+    \\[3pt]
+    & = d + e  
+\end{align}
+$$
+
+`gather`（多行居中）：
+
+$$
+\begin{gather} 
+    a = b + c \\ 
+    d = e + f + g \\ 
+    h + i = j + k \notag \\ 
+    l + m = n 
+\end{gather}
+$$
+
