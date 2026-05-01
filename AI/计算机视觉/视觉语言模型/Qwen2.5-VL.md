@@ -29,5 +29,7 @@ outline:
 		- agent capabilities
 - conclusion
 
-## outline
+## sec01-intro
+
+VLM的夹心饼干 = 底层（精细视觉感知）+中层（多模态视觉能力）+高层（多模态推理）
 
