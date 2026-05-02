@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/计算机视觉/视觉语言模型/Qwen2.5-VL.md",
+                "file": "!待办.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Qwen2.5-VL"
+              "title": "!待办"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/计算机视觉/视觉语言模型/Qwen2.5-VL.md",
+                "file": "!待办.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Qwen2.5-VL 的大纲"
+              "title": "!待办 的大纲"
             }
           },
           {
@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,6 +210,11 @@
   },
   "active": "cbe63f097125fb62",
   "lastOpenFiles": [
+    "编程语言/Cpp/Cpp-stdlib/stdlib-cstdio.md",
+    "编程语言/Cpp/Cpp专题",
+    "编程语言/Cpp/Effective_Modern_C++.md",
+    "编程语言/Cpp/Cpp优化小记.md",
+    "AI/计算机视觉/视觉语言模型/Qwen2.5-VL.md",
     "AI/计算机视觉/图像生成/B02-StableDiffusion.md",
     "AI/计算机视觉/视觉语言模型/Pasted image 20260427173634.png.md",
     "杂项/数字货币/USDT-TRC20.md",
@@ -220,7 +225,6 @@
     "AI/计算机视觉/目标检测/YOLO简记.md",
     "AI/计算机视觉/视频生成/Wan.md",
     "AI/计算机视觉/视频生成/Kling-Omni.md",
-    "AI/计算机视觉/视觉语言模型/Qwen2.5-VL.md",
     "附件/Pasted image 20260427173728.png",
     "附件/Pasted image 20260427173634.png",
     "科研/arXiv/2502.13923_Qwen2.5_VL.md",
@@ -242,10 +246,6 @@
     "AI/计算机视觉/图像生成/A01-自编码器.md",
     "附件/Pasted image 20260420171744.png",
     "前端-Web/前端规划.md",
-    "课程-外语/西班牙语/ES-SL01.md",
-    "Linux/Linux系统编程/getopt.md",
-    "编程语言/Python/Python-decord.md",
-    "AI/计算机视觉/图像生成/SigLIP.md",
     "附件/Pasted image 20260417153735.png",
     "附件/Pasted image 20260417153605.png",
     "前端-Web/UI框架",
@@ -254,7 +254,6 @@
     "前端-桌面",
     "附件/Pasted image 20260411155754.png",
     "附件/Pasted image 20260411154318.png",
-    "课程-外语/Fran",
     "附件/Pasted image 20260331153254.png",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
