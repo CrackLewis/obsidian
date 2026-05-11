@@ -18,4 +18,8 @@ steps：
 - `/plugin`：插件/marketplace管理
 	- `/plugin marketplace add xxx`：在marketplace中添加xxx；添加后可检索到对应插件
 	- `/plugin install yyy`：安装yyy插件
+
+## 安装
+
+推荐：
 - 
