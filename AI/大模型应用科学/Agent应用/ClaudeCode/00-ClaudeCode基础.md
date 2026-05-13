@@ -21,5 +21,38 @@ steps：
 
 ## 安装
 
-推荐：
-- 
+目前推荐使用脚本方式安装：
+
+```sh
+# macOS/Linux
+$ source <(curl -fsSL https://claude-zh.cn/scripts/install.sh)
+```
+
+```powershell
+# Windows
+& ([scriptblock]::Create((New-Object Net.WebClient).DownloadString("https://claude-zh.cn/scripts/install.ps1")))
+```
+
+不太推荐使用npm：
+
+```sh
+$ npm install -g @anthropic-ai/claude-code
+```
+
+如果不使用Claude API，则需要修改`~/.claude/settings.json`，改用第三方API：
+
+```json
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "<第三方服务提供的token>",
+    "ANTHROPIC_API_KEY": "", // 留空，表示强制不使用Claude
+    "ANTHROPIC_BASE_URL": "<第三方Anthropic-like接入点>",
+    "ANTHROPIC_MODEL": "<第三方模型名>",
+    "ANTHROPIC_REASONING_MODEL": "<第三方模型名>"
+  },
+  "includeCoAuthoredBy": false,
+  "enabledPlugins": {
+    // 允许的插件
+  }
+}
+```
