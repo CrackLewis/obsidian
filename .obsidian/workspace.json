@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "求职/面试题整理/AI-Transformer.md",
+                "file": "AI/大模型理论/模型结构/MoE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI-Transformer"
+              "title": "MoE"
             }
           },
           {
@@ -27,15 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/AI/Datawhale-HappyLLM.md",
+                "file": "AI/计算机视觉/风格学习/IP-Adapter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Datawhale-HappyLLM"
+              "title": "IP-Adapter"
+            }
+          },
+          {
+            "id": "7807fa8e370afb47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LaTeX/LaTeX公式速查.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LaTeX公式速查"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "求职/面试题整理/AI-Transformer.md",
+                "file": "AI/计算机视觉/风格学习/IP-Adapter.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI-Transformer 的大纲"
+              "title": "IP-Adapter 的大纲"
             }
           },
           {
@@ -222,10 +237,22 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cd7d1fd314d848ab",
+  "active": "e6e5df7a654ab762",
   "lastOpenFiles": [
+    "AI/计算机视觉/经典模型/ResNet.md",
+    "AI/大模型理论/模型结构/MoE.md",
+    "AI/计算机视觉/经典模型/U-Net.md",
+    "AI/计算机视觉/风格学习/IP-Adapter.md",
+    "AI/计算机视觉/经典模型",
+    "LaTeX/LaTeX公式速查.md",
+    "附件/Pasted image 20260515155450.png",
+    "AI/计算机视觉/视觉语言模型/Qwen2.5-VL.md",
+    "AI/计算机视觉/目标检测/YOLO简记.md",
     "课程-计算机科学/AI/Datawhale-HappyLLM.md",
+    "科研/arXiv/2502.13923_Qwen2.5_VL.md",
     "求职/面试题整理/AI-Transformer.md",
+    "求职/面试题整理/AI-Agent.md",
+    "AI/计算机视觉/风格学习",
     "课程-计算机科学/AI/Datawhale-HelloAgent.md",
     "求职/面试题整理/Cpp-常考.md",
     "课程-计算机科学/AI/Anthropic-Claude课程.md",
@@ -242,26 +269,15 @@
     "课程-数学/B01-数学分析.md",
     "课程-数学/B02-线性代数.md",
     "前端-Web/Vue/@01-Vue复习-260509.md",
-    "AI/大模型应用科学/Agent应用/ClaudeCode/00-ClaudeCode基础.md",
     "前端-Web/React",
-    "前端-Web/HTML+CSS/999-拾遗.md",
-    "前端-Web/HTML+CSS/013-CSS3特效.md",
-    "前端-Web/HTML+CSS/012-SASS.md",
-    "前端-Web/HTML+CSS/001-环境搭建.md",
-    "前端-Web/@前端规划.md",
-    "前端-桌面/Qt/@QtWidget应用-开发流程.md",
     "前端-桌面/Qt/QtCore",
     "前端-桌面/Electron",
-    "课程-数学/A03-初等三角学.md",
-    "课程-数学/@00-数学体系.md",
     "课程-数学/杂项",
     "编程语言/Cpp/Cpp专题",
     "杂项/数字货币",
     "附件/Pasted image 20260427173728.png",
     "附件/Pasted image 20260427173634.png",
     "AI/计算机视觉/视觉语言模型",
-    "科研/arXiv",
-    "AI/大模型应用科学/Agent应用",
     "附件/Pasted image 20260424172552.png",
     "附件/Pasted image 20260424152921.png",
     "附件/Pasted image 20260420171744.png",
@@ -269,7 +285,6 @@
     "附件/Pasted image 20260417153605.png",
     "附件/Pasted image 20260411155754.png",
     "附件/Pasted image 20260411154318.png",
-    "附件/Pasted image 20260331153254.png",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
