@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/计算机视觉/风格学习/IP-Adapter.md",
+                "file": "AI/计算机视觉/图像生成/B02-StableDiffusion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IP-Adapter"
+              "title": "B02-StableDiffusion"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/计算机视觉/风格学习/IP-Adapter.md",
+                "file": "AI/计算机视觉/图像生成/B02-StableDiffusion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "IP-Adapter 的大纲"
+              "title": "B02-StableDiffusion 的大纲"
             }
           },
           {
@@ -239,10 +239,10 @@
   },
   "active": "e6e5df7a654ab762",
   "lastOpenFiles": [
+    "AI/计算机视觉/风格学习/IP-Adapter.md",
     "AI/计算机视觉/经典模型/ResNet.md",
     "AI/大模型理论/模型结构/MoE.md",
     "AI/计算机视觉/经典模型/U-Net.md",
-    "AI/计算机视觉/风格学习/IP-Adapter.md",
     "AI/计算机视觉/经典模型",
     "LaTeX/LaTeX公式速查.md",
     "附件/Pasted image 20260515155450.png",
