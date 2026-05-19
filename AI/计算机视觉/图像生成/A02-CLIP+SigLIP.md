@@ -61,3 +61,19 @@ CLIP损失函数：
 
 （注意两项分母的向量点积有区别）
 
+## 模型结构
+
+CLIP/SigLIP均采用双塔式图文对齐模型的结构
+
+![[Drawing 2026-05-19 11.42.09.excalidraw|1000x300]]
+
+投影层：将编码器输出的图文特征投影到一个较低且相等维度的向量空间
+$$
+z_i=W_I f_I(x_i),\qquad z_t=W_T f_T(x_t)
+$$
+
+L2正则化：转换为单位向量
+$$
+\hat{z_i}=z_i/\lVert z_i\rVert,\qquad \hat{z_t}=z_t/\lVert z_t\rVert
+$$
+
