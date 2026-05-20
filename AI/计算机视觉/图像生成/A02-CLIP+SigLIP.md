@@ -77,3 +77,42 @@ $$
 \hat{z_i}=z_i/\lVert z_i\rVert,\qquad \hat{z_t}=z_t/\lVert z_t\rVert
 $$
 
+### CLIP对比学习
+
+添加一个可学习的温度参数$\tau$，放大或缩小余弦相似度
+$$
+\text{logits}_{i,j}=\exp(\tau)\cdot \hat{z_i}^T \hat{z_{t_j}}
+$$
+
+损失函数：双向对比损失
+- 图像到文本损失
+- 文本到图像损失
+
+图像到文本损失：对每幅图像$I_i$，计算每个文本$T_j$与其的余弦相似度，然后计算基于相似度和温度的softmax值
+$$
+\mathcal L_{I\rightarrow T}=-\dfrac{1}{N}\sum_{i} \log \dfrac{\exp(\hat z_{I_i}^T \hat z_{T_i}/\tau)}{\sum_j \exp(\hat z_{I_i}^T \hat z_{T_j}/\tau)}
+$$
+文本到图像损失：对每段文本$T_i$，计算其与每个图像$I_j$的相似度，然后计算基于相似度和温度的softmax值
+$$
+\mathcal L_{T\rightarrow I}=-\dfrac{1}{N} \sum_i \log\dfrac{\exp(\hat z_{T_i}^T \hat z_{I_i}/\tau)}{\sum_j \exp(\hat z_{T_i}^T \hat z_{I_j}/\tau)}
+$$
+总损失为两者的算术平均
+$$
+\mathcal L_{CLIP} = (\mathcal L_{I\rightarrow T}+\mathcal L_{T\rightarrow I})/2
+$$
+
+### SigLIP
+
+SigLIP将每个图文对视为一个二分类问题：是否匹配
+
+匹配概率由特征向量内积的sigmoid/tanh值表示：
+$$
+p_{i,j}=\sigma\left(z_{I_i}^T z_{T_j}\right)
+$$
+
+SigLIP的损失函数为BCE：
+$$
+\mathcal L_{SigLIP}=-\sum_{i,j} \log \sigma\left(y_{i,j}\cdot p_{i,j}\right)
+$$
+其中$y_{i,j}$表示$I_i,T_j$是否匹配，如果$p$为sigmoid则为1/0，如果为tanh则为$+1/-1$。
+
