@@ -219,8 +219,7 @@
       "bases:新建数据库": false,
       "copilot:Open Copilot Chat": false,
       "remotely-save:Remotely Save": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "cf5df246bab0cb1b",
