@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/计算机视觉/图像生成/B01-扩散模型.md",
+                "file": "编程语言/Python/PyTorch/PyTorch库结构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B01-扩散模型"
+              "title": "PyTorch库结构"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/计算机视觉/图像生成/B01-扩散模型.md",
+                "file": "编程语言/Python/PyTorch/PyTorch库结构.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "B01-扩散模型 的大纲"
+              "title": "PyTorch库结构 的大纲"
             }
           },
           {
@@ -219,13 +219,21 @@
       "bases:新建数据库": false,
       "copilot:Open Copilot Chat": false,
       "remotely-save:Remotely Save": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "cf5df246bab0cb1b",
   "lastOpenFiles": [
-    "AI/计算机视觉/图像生成/B02-StableDiffusion.md",
+    "AI/大模型理论/模型结构/MoE.md",
+    "编程语言/Python/PyTorch/PyTorch库结构.md",
+    "编程语言/Python/PyTorch/PyTorch张量计算.md",
+    "!读论文计划.md",
+    "编程语言/Python/PyTorch",
+    "科研/MultiMKP/自底向上修改建议.md",
     "AI/计算机视觉/图像生成/B01-扩散模型.md",
+    "科研/MultiMKP",
+    "AI/计算机视觉/图像生成/B02-StableDiffusion.md",
     "AI/计算机视觉/图像生成/A03-GAN.md",
     "AI/计算机视觉/图像生成/A02-CLIP+SigLIP.md",
     "AI/计算机视觉/图像生成/@00-图像生成简介.md",
@@ -233,7 +241,6 @@
     "Excalidraw/Drawing 2026-05-19 11.42.09.excalidraw.md",
     "AI/计算机视觉/风格学习/IP-Adapter.md",
     "AI/计算机视觉/经典模型/ResNet.md",
-    "AI/大模型理论/模型结构/MoE.md",
     "AI/计算机视觉/经典模型/U-Net.md",
     "AI/计算机视觉/经典模型",
     "附件/Pasted image 20260515155450.png",
@@ -249,20 +256,14 @@
     "课程-计算机科学/AI/Anthropic-Claude课程.md",
     "AI/李沐读论文系列-1.md",
     "AI/具身智能.md",
-    "AI/Infra/模型量化.md",
-    "AI/大模型理论/对齐优化/RLHF.md",
-    "AI/大模型理论/微调/LoRA.md",
-    "AI/大模型理论/模型结构/Transformer基础.md",
     "求职/面试题整理",
     "前端-Web/React",
     "前端-桌面/Qt/QtCore",
     "前端-桌面/Electron",
     "课程-数学/杂项",
     "编程语言/Cpp/Cpp专题",
-    "杂项/数字货币",
     "附件/Pasted image 20260427173728.png",
     "附件/Pasted image 20260427173634.png",
-    "AI/计算机视觉/视觉语言模型",
     "附件/Pasted image 20260424172552.png",
     "附件/Pasted image 20260424152921.png",
     "附件/Pasted image 20260420171744.png",
