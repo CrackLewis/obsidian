@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/大模型理论/模型结构/MoE.md",
+                "file": "课程-数学/A02-初等几何.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MoE"
+              "title": "A02-初等几何"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/大模型理论/模型结构/MoE.md",
+                "file": "课程-数学/A02-初等几何.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MoE 的大纲"
+              "title": "A02-初等几何 的大纲"
             }
           },
           {
@@ -210,11 +210,12 @@
   },
   "active": "cd7d1fd314d848ab",
   "lastOpenFiles": [
+    "!striking-back.md",
+    "AI/大模型理论/模型结构/MoE.md",
     "!wise-words.md",
     "科研/MultiMKP/reduction-methods.md",
     "课程-数学/A02-初等几何.md",
     "编程语言/Python/PyTorch/PyTorch库结构.md",
-    "AI/大模型理论/模型结构/MoE.md",
     "编程语言/Python/PyTorch/PyTorch张量计算.md",
     "!读论文计划.md",
     "编程语言/Python/PyTorch",
@@ -240,7 +241,6 @@
     "求职/面试题整理/AI-Agent.md",
     "AI/计算机视觉/风格学习",
     "课程-计算机科学/AI/Datawhale-HelloAgent.md",
-    "求职/面试题整理/Cpp-常考.md",
     "求职/面试题整理",
     "前端-Web/React",
     "前端-桌面/Qt/QtCore",
