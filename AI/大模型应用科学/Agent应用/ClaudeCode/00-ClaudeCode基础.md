@@ -56,3 +56,6 @@ $ npm install -g @anthropic-ai/claude-code
   }
 }
 ```
+
+## 添加、管理plugins
+
