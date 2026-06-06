@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/大模型应用科学/Harness.md",
+                "file": "AI/大模型应用科学/Skills.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Harness"
+              "title": "Skills"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/大模型应用科学/Harness.md",
+                "file": "AI/大模型应用科学/Skills.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Harness 的大纲"
+              "title": "Skills 的大纲"
             }
           },
           {
@@ -225,8 +225,10 @@
   },
   "active": "63ebd87432fa499c",
   "lastOpenFiles": [
-    "AI/大模型应用科学/Skills.md",
+    "编程语言/Cpp/Cpp性能优化/Cpp优化小记.md",
     "AI/大模型应用科学/Harness.md",
+    "编程语言/Cpp/Cpp性能优化",
+    "AI/大模型应用科学/Skills.md",
     "AI/大模型应用科学/Agent应用/ClaudeCode/00-ClaudeCode基础.md",
     "AI/大模型应用科学/Skill/Skill.md",
     "AI/大模型应用科学/Skill",
@@ -253,7 +255,6 @@
     "AI/计算机视觉/图像生成/@00-图像生成简介.md",
     "LaTeX/LaTeX公式速查.md",
     "Excalidraw/Drawing 2026-05-19 11.42.09.excalidraw.md",
-    "AI/计算机视觉/风格学习/IP-Adapter.md",
     "AI/计算机视觉/经典模型",
     "附件/Pasted image 20260515155450.png",
     "AI/计算机视觉/风格学习",
@@ -261,7 +262,6 @@
     "前端-Web/React",
     "前端-桌面/Qt/QtCore",
     "前端-桌面/Electron",
-    "课程-数学/杂项",
     "附件/Pasted image 20260427173728.png",
     "附件/Pasted image 20260427173634.png",
     "附件/Pasted image 20260424172552.png",
