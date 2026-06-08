@@ -243,6 +243,21 @@ Expected behavior:
 - ...
 ```
 
-## Claude Code集成skills（WIP）
+## Claude Code集成skills
 
-WIP
+大部分知名skills是通过插件市场（plugin marketplace）管理的，属于插件的一部分，可通过安装/卸载插件来变更
+
+假设你需要部署自定义skill，且它是一个这样的目录：
+
+```
+my-skill/
++ SKILL.md
++ references/...
++ assets/...
++ scripts/...
+```
+
+将其移动到`~/.claude/skills`下。如果没有这个目录，创建一个。然后重启或者重新加载Claude Code即可
+
+如果是第三方skill，至少对其做一个审计，确保它不会进行恶意行为
+
