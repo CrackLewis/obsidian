@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/社工/社工攻击方式.md",
+                "file": "!读论文计划.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "社工攻击方式"
+              "title": "!读论文计划"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/社工/社工攻击方式.md",
+                "file": "!读论文计划.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "社工攻击方式 的大纲"
+              "title": "!读论文计划 的大纲"
             }
           },
           {
@@ -218,12 +218,22 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fd6329ed65e6b816",
+  "active": "4b47eb8ffe7f9946",
   "lastOpenFiles": [
+    "__pycache__/autobackup-r2.cpython-313.pyc",
+    "__pycache__",
+    "autobackup-r2.py",
+    "autobackup-r2.py.tmp.20896.5db991d911e3",
+    "AI/深度学习理论/激活函数/ReLU.md",
+    "AI/深度学习理论/激活函数/SwiGLU.md",
+    "AI/深度学习理论/激活函数",
+    "AI/深度学习理论/损失函数/未命名.md",
+    "AI/深度学习理论/损失函数/CrossEntropy.md",
+    "AI/深度学习理论/优化器/01-SGD+Momentum.md",
+    "杂项/社工/社工攻击方式.md",
     "杂项/网络hacks/SSH隧道.md",
     "杂项/网络hacks/Ngrok内网穿透.md",
     "杂项/网络hacks/Cloudflare连接器.md",
-    "杂项/社工/社工攻击方式.md",
     "杂项/社工/社工库及其状态.md",
     "杂项/社工/仇人及其身份信息.md",
     "AI/DeepML/DeepML-线性代数.md",
@@ -243,20 +253,10 @@
     "AI/大模型理论/大模型的完整训练流程.md",
     "AI/大模型理论/大模型的完整推理流程.md",
     "课程-数学/A02-初等几何.md",
-    "课程-数学/北大离散数学-图论.md",
-    "!striking-back.md",
-    "AI/大模型理论/模型结构/MoE.md",
-    "!wise-words.md",
-    "科研/MultiMKP/reduction-methods.md",
-    "编程语言/Python/PyTorch/PyTorch库结构.md",
     "编程语言/Python/PyTorch",
     "科研/MultiMKP",
     "AI/计算机视觉/经典模型",
     "附件/Pasted image 20260515155450.png",
-    "AI/计算机视觉/风格学习",
-    "求职/面试题整理",
-    "前端-Web/React",
-    "前端-桌面/Qt/QtCore",
     "附件/Pasted image 20260427173728.png",
     "附件/Pasted image 20260427173634.png",
     "附件/Pasted image 20260424172552.png",

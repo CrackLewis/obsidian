@@ -1,0 +1,3857 @@
+[
+  {
+    "name": "2024考研",
+    "path": "2024考研",
+    "type": "tree",
+    "children": [
+      {
+        "name": "408",
+        "path": "2024考研/408",
+        "type": "tree",
+        "children": [
+          {
+            "name": "408三轮",
+            "path": "2024考研/408/408三轮",
+            "type": "tree",
+            "children": [
+              {
+                "name": "三轮操作系统.md",
+                "path": "2024考研/408/408三轮/三轮操作系统.md",
+                "type": "blob"
+              },
+              {
+                "name": "三轮数据结构.md",
+                "path": "2024考研/408/408三轮/三轮数据结构.md",
+                "type": "blob"
+              },
+              {
+                "name": "三轮计组.md",
+                "path": "2024考研/408/408三轮/三轮计组.md",
+                "type": "blob"
+              },
+              {
+                "name": "三轮计网.md",
+                "path": "2024考研/408/408三轮/三轮计网.md",
+                "type": "blob"
+              },
+              {
+                "name": "王道模拟卷总结.md",
+                "path": "2024考研/408/408三轮/王道模拟卷总结.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "操作系统",
+            "path": "2024考研/408/操作系统",
+            "type": "tree",
+            "children": [
+              {
+                "name": "OS01-计算机系统概述.md",
+                "path": "2024考研/408/操作系统/OS01-计算机系统概述.md",
+                "type": "blob"
+              },
+              {
+                "name": "OS02-进程管理.md",
+                "path": "2024考研/408/操作系统/OS02-进程管理.md",
+                "type": "blob"
+              },
+              {
+                "name": "OS03-内存管理.md",
+                "path": "2024考研/408/操作系统/OS03-内存管理.md",
+                "type": "blob"
+              },
+              {
+                "name": "OS04-文件管理.md",
+                "path": "2024考研/408/操作系统/OS04-文件管理.md",
+                "type": "blob"
+              },
+              {
+                "name": "OS05-IO管理.md",
+                "path": "2024考研/408/操作系统/OS05-IO管理.md",
+                "type": "blob"
+              },
+              {
+                "name": "OSR01-操作系统复习.md",
+                "path": "2024考研/408/操作系统/OSR01-操作系统复习.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "数据结构",
+            "path": "2024考研/408/数据结构",
+            "type": "tree",
+            "children": [
+              {
+                "name": "DS05-树和二叉树.md",
+                "path": "2024考研/408/数据结构/DS05-树和二叉树.md",
+                "type": "blob"
+              },
+              {
+                "name": "DS06-图.md",
+                "path": "2024考研/408/数据结构/DS06-图.md",
+                "type": "blob"
+              },
+              {
+                "name": "DS07-查找.md",
+                "path": "2024考研/408/数据结构/DS07-查找.md",
+                "type": "blob"
+              },
+              {
+                "name": "DS07A-手玩AVL.md",
+                "path": "2024考研/408/数据结构/DS07A-手玩AVL.md",
+                "type": "blob"
+              },
+              {
+                "name": "DS08-排序.md",
+                "path": "2024考研/408/数据结构/DS08-排序.md",
+                "type": "blob"
+              },
+              {
+                "name": "DSR02-线性表复盘.md",
+                "path": "2024考研/408/数据结构/DSR02-线性表复盘.md",
+                "type": "blob"
+              },
+              {
+                "name": "DSR03-栈、队列、数组复盘.md",
+                "path": "2024考研/408/数据结构/DSR03-栈、队列、数组复盘.md",
+                "type": "blob"
+              },
+              {
+                "name": "DSR04-串复盘.md",
+                "path": "2024考研/408/数据结构/DSR04-串复盘.md",
+                "type": "blob"
+              },
+              {
+                "name": "DSR05-树和二叉树复盘.md",
+                "path": "2024考研/408/数据结构/DSR05-树和二叉树复盘.md",
+                "type": "blob"
+              },
+              {
+                "name": "DSR06-图复盘.md",
+                "path": "2024考研/408/数据结构/DSR06-图复盘.md",
+                "type": "blob"
+              },
+              {
+                "name": "DSR07-数据结构复习.md",
+                "path": "2024考研/408/数据结构/DSR07-数据结构复习.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "计算机组成原理",
+            "path": "2024考研/408/计算机组成原理",
+            "type": "tree",
+            "children": [
+              {
+                "name": "CO01-计算机系统概述.md",
+                "path": "2024考研/408/计算机组成原理/CO01-计算机系统概述.md",
+                "type": "blob"
+              },
+              {
+                "name": "CO02-数据的表示和运算.md",
+                "path": "2024考研/408/计算机组成原理/CO02-数据的表示和运算.md",
+                "type": "blob"
+              },
+              {
+                "name": "CO03-存储系统.md",
+                "path": "2024考研/408/计算机组成原理/CO03-存储系统.md",
+                "type": "blob"
+              },
+              {
+                "name": "CO04-指令系统.md",
+                "path": "2024考研/408/计算机组成原理/CO04-指令系统.md",
+                "type": "blob"
+              },
+              {
+                "name": "CO05-中央处理器.md",
+                "path": "2024考研/408/计算机组成原理/CO05-中央处理器.md",
+                "type": "blob"
+              },
+              {
+                "name": "CO06-总线.md",
+                "path": "2024考研/408/计算机组成原理/CO06-总线.md",
+                "type": "blob"
+              },
+              {
+                "name": "CO07-输入输出系统.md",
+                "path": "2024考研/408/计算机组成原理/CO07-输入输出系统.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "计算机网络",
+            "path": "2024考研/408/计算机网络",
+            "type": "tree",
+            "children": [
+              {
+                "name": "CN01-计算机网络体系结构.md",
+                "path": "2024考研/408/计算机网络/CN01-计算机网络体系结构.md",
+                "type": "blob"
+              },
+              {
+                "name": "CN02-物理层.md",
+                "path": "2024考研/408/计算机网络/CN02-物理层.md",
+                "type": "blob"
+              },
+              {
+                "name": "CN03-数据链路层.md",
+                "path": "2024考研/408/计算机网络/CN03-数据链路层.md",
+                "type": "blob"
+              },
+              {
+                "name": "CN04-网络层.md",
+                "path": "2024考研/408/计算机网络/CN04-网络层.md",
+                "type": "blob"
+              },
+              {
+                "name": "CN05-传输层.md",
+                "path": "2024考研/408/计算机网络/CN05-传输层.md",
+                "type": "blob"
+              },
+              {
+                "name": "CN06-应用层.md",
+                "path": "2024考研/408/计算机网络/CN06-应用层.md",
+                "type": "blob"
+              },
+              {
+                "name": "CNR01-复习计网体系.md",
+                "path": "2024考研/408/计算机网络/CNR01-复习计网体系.md",
+                "type": "blob"
+              },
+              {
+                "name": "CNR02-复习物理层.md",
+                "path": "2024考研/408/计算机网络/CNR02-复习物理层.md",
+                "type": "blob"
+              },
+              {
+                "name": "CNR03-复习数据链路层.md",
+                "path": "2024考研/408/计算机网络/CNR03-复习数据链路层.md",
+                "type": "blob"
+              },
+              {
+                "name": "CNR04-复习网络层.md",
+                "path": "2024考研/408/计算机网络/CNR04-复习网络层.md",
+                "type": "blob"
+              },
+              {
+                "name": "CNR05-复习传输层.md",
+                "path": "2024考研/408/计算机网络/CNR05-复习传输层.md",
+                "type": "blob"
+              },
+              {
+                "name": "CNR06-复习应用层.md",
+                "path": "2024考研/408/计算机网络/CNR06-复习应用层.md",
+                "type": "blob"
+              },
+              {
+                "name": "CNS01-真题考情和重点.md",
+                "path": "2024考研/408/计算机网络/CNS01-真题考情和重点.md",
+                "type": "blob"
+              },
+              {
+                "name": "CNS02-协议和缩写.md",
+                "path": "2024考研/408/计算机网络/CNS02-协议和缩写.md",
+                "type": "blob"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "复试",
+        "path": "2024考研/复试",
+        "type": "tree",
+        "children": [
+          {
+            "name": "专业课汇总.md",
+            "path": "2024考研/复试/专业课汇总.md",
+            "type": "blob"
+          },
+          {
+            "name": "数据库原理-SQL.md",
+            "path": "2024考研/复试/数据库原理-SQL.md",
+            "type": "blob"
+          },
+          {
+            "name": "数据库原理.md",
+            "path": "2024考研/复试/数据库原理.md",
+            "type": "blob"
+          },
+          {
+            "name": "编译原理-bison示例与应用.md",
+            "path": "2024考研/复试/编译原理-bison示例与应用.md",
+            "type": "blob"
+          },
+          {
+            "name": "编译原理-flex示例.md",
+            "path": "2024考研/复试/编译原理-flex示例.md",
+            "type": "blob"
+          },
+          {
+            "name": "编译原理A.md",
+            "path": "2024考研/复试/编译原理A.md",
+            "type": "blob"
+          },
+          {
+            "name": "编译原理B.md",
+            "path": "2024考研/复试/编译原理B.md",
+            "type": "blob"
+          },
+          {
+            "name": "苏世A01-复试专业课.md",
+            "path": "2024考研/复试/苏世A01-复试专业课.md",
+            "type": "blob"
+          },
+          {
+            "name": "苏世B02-英语自我介绍、口语问答.md",
+            "path": "2024考研/复试/苏世B02-英语自我介绍、口语问答.md",
+            "type": "blob"
+          },
+          {
+            "name": "苏世B03-简历、个人陈述.md",
+            "path": "2024考研/复试/苏世B03-简历、个人陈述.md",
+            "type": "blob"
+          },
+          {
+            "name": "苏世B04-项目、邮件、推荐信.md",
+            "path": "2024考研/复试/苏世B04-项目、邮件、推荐信.md",
+            "type": "blob"
+          },
+          {
+            "name": "苏世C-复试专业课.md",
+            "path": "2024考研/复试/苏世C-复试专业课.md",
+            "type": "blob"
+          },
+          {
+            "name": "苏世E-机试.md",
+            "path": "2024考研/复试/苏世E-机试.md",
+            "type": "blob"
+          },
+          {
+            "name": "计算机系统结构.md",
+            "path": "2024考研/复试/计算机系统结构.md",
+            "type": "blob"
+          },
+          {
+            "name": "计算理论.md",
+            "path": "2024考研/复试/计算理论.md",
+            "type": "blob"
+          },
+          {
+            "name": "设计模式.md",
+            "path": "2024考研/复试/设计模式.md",
+            "type": "blob"
+          },
+          {
+            "name": "软件工程.md",
+            "path": "2024考研/复试/软件工程.md",
+            "type": "blob"
+          },
+          {
+            "name": "面试-自我介绍.md",
+            "path": "2024考研/复试/面试-自我介绍.md",
+            "type": "blob"
+          },
+          {
+            "name": "面试-非专业问题.md",
+            "path": "2024考研/复试/面试-非专业问题.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "待办",
+        "path": "2024考研/待办",
+        "type": "tree",
+        "children": [
+          {
+            "name": "一些怪谈.md",
+            "path": "2024考研/待办/一些怪谈.md",
+            "type": "blob"
+          },
+          {
+            "name": "复试问题.md",
+            "path": "2024考研/待办/复试问题.md",
+            "type": "blob"
+          },
+          {
+            "name": "政治-材料分析题.md",
+            "path": "2024考研/待办/政治-材料分析题.md",
+            "type": "blob"
+          },
+          {
+            "name": "政治-马原啰嗦.md",
+            "path": "2024考研/待办/政治-马原啰嗦.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "数学",
+        "path": "2024考研/数学",
+        "type": "tree",
+        "children": [
+          {
+            "name": "总结",
+            "path": "2024考研/数学/总结",
+            "type": "tree",
+            "children": [
+              {
+                "name": "Z01-函数、极限、连续.md",
+                "path": "2024考研/数学/总结/Z01-函数、极限、连续.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z02-一元函数微分学.md",
+                "path": "2024考研/数学/总结/Z02-一元函数微分学.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z03-一元函数积分学.md",
+                "path": "2024考研/数学/总结/Z03-一元函数积分学.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z04-向量代数与空间解析几何.md",
+                "path": "2024考研/数学/总结/Z04-向量代数与空间解析几何.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z05-多元函数微分学.md",
+                "path": "2024考研/数学/总结/Z05-多元函数微分学.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z06-多元函数积分学.md",
+                "path": "2024考研/数学/总结/Z06-多元函数积分学.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z07-无穷级数.md",
+                "path": "2024考研/数学/总结/Z07-无穷级数.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z08-微分方程.md",
+                "path": "2024考研/数学/总结/Z08-微分方程.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z09-行列式.md",
+                "path": "2024考研/数学/总结/Z09-行列式.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z10-矩阵.md",
+                "path": "2024考研/数学/总结/Z10-矩阵.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z11-向量组.md",
+                "path": "2024考研/数学/总结/Z11-向量组.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z12-线性方程组.md",
+                "path": "2024考研/数学/总结/Z12-线性方程组.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z13-特征值与特征向量.md",
+                "path": "2024考研/数学/总结/Z13-特征值与特征向量.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z14-二次型.md",
+                "path": "2024考研/数学/总结/Z14-二次型.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z15-随机事件和概率.md",
+                "path": "2024考研/数学/总结/Z15-随机事件和概率.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z16-随机变量及其概率分布.md",
+                "path": "2024考研/数学/总结/Z16-随机变量及其概率分布.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z17-多维随机变量及其分布.md",
+                "path": "2024考研/数学/总结/Z17-多维随机变量及其分布.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z18-随机变量的数字特征.md",
+                "path": "2024考研/数学/总结/Z18-随机变量的数字特征.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z19-大数定律与中心极限定理.md",
+                "path": "2024考研/数学/总结/Z19-大数定律与中心极限定理.md",
+                "type": "blob"
+              },
+              {
+                "name": "Z20-数理统计.md",
+                "path": "2024考研/数学/总结/Z20-数理统计.md",
+                "type": "blob"
+              },
+              {
+                "name": "ZR01-高等数学公式和结论.md",
+                "path": "2024考研/数学/总结/ZR01-高等数学公式和结论.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "背记",
+            "path": "2024考研/数学/背记",
+            "type": "tree",
+            "children": [
+              {
+                "name": "FJ01-高等数学背记.md",
+                "path": "2024考研/数学/背记/FJ01-高等数学背记.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "软饭",
+            "path": "2024考研/数学/软饭",
+            "type": "tree",
+            "children": [
+              {
+                "name": "三角函数不定积分.md",
+                "path": "2024考研/数学/软饭/三角函数不定积分.md",
+                "type": "blob"
+              },
+              {
+                "name": "中值定理专题.md",
+                "path": "2024考研/数学/软饭/中值定理专题.md",
+                "type": "blob"
+              },
+              {
+                "name": "凯哥每日一题.md",
+                "path": "2024考研/数学/软饭/凯哥每日一题.md",
+                "type": "blob"
+              },
+              {
+                "name": "武忠祥每日一题-基础.md",
+                "path": "2024考研/数学/软饭/武忠祥每日一题-基础.md",
+                "type": "blob"
+              },
+              {
+                "name": "武忠祥每日一题-强化.md",
+                "path": "2024考研/数学/软饭/武忠祥每日一题-强化.md",
+                "type": "blob"
+              },
+              {
+                "name": "电信高数班.md",
+                "path": "2024考研/数学/软饭/电信高数班.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "错题",
+            "path": "2024考研/数学/错题",
+            "type": "tree",
+            "children": [
+              {
+                "name": "C01-函数、极限、连续.md",
+                "path": "2024考研/数学/错题/C01-函数、极限、连续.md",
+                "type": "blob"
+              },
+              {
+                "name": "C02-一元函数微分学.md",
+                "path": "2024考研/数学/错题/C02-一元函数微分学.md",
+                "type": "blob"
+              },
+              {
+                "name": "C03-一元函数积分学.md",
+                "path": "2024考研/数学/错题/C03-一元函数积分学.md",
+                "type": "blob"
+              },
+              {
+                "name": "C04-向量代数与空间解析几何.md",
+                "path": "2024考研/数学/错题/C04-向量代数与空间解析几何.md",
+                "type": "blob"
+              },
+              {
+                "name": "C05-多元函数微分学.md",
+                "path": "2024考研/数学/错题/C05-多元函数微分学.md",
+                "type": "blob"
+              },
+              {
+                "name": "C06-多元函数积分学.md",
+                "path": "2024考研/数学/错题/C06-多元函数积分学.md",
+                "type": "blob"
+              },
+              {
+                "name": "C07-无穷级数.md",
+                "path": "2024考研/数学/错题/C07-无穷级数.md",
+                "type": "blob"
+              },
+              {
+                "name": "C08-微分方程.md",
+                "path": "2024考研/数学/错题/C08-微分方程.md",
+                "type": "blob"
+              },
+              {
+                "name": "C09-行列式.md",
+                "path": "2024考研/数学/错题/C09-行列式.md",
+                "type": "blob"
+              },
+              {
+                "name": "C10-矩阵.md",
+                "path": "2024考研/数学/错题/C10-矩阵.md",
+                "type": "blob"
+              },
+              {
+                "name": "C11-向量.md",
+                "path": "2024考研/数学/错题/C11-向量.md",
+                "type": "blob"
+              },
+              {
+                "name": "C12-线性方程组.md",
+                "path": "2024考研/数学/错题/C12-线性方程组.md",
+                "type": "blob"
+              },
+              {
+                "name": "C13-特征值与特征向量.md",
+                "path": "2024考研/数学/错题/C13-特征值与特征向量.md",
+                "type": "blob"
+              },
+              {
+                "name": "C14-二次型.md",
+                "path": "2024考研/数学/错题/C14-二次型.md",
+                "type": "blob"
+              },
+              {
+                "name": "C15-随机事件和概率.md",
+                "path": "2024考研/数学/错题/C15-随机事件和概率.md",
+                "type": "blob"
+              },
+              {
+                "name": "C16-随机变量及其概率分布.md",
+                "path": "2024考研/数学/错题/C16-随机变量及其概率分布.md",
+                "type": "blob"
+              },
+              {
+                "name": "C17-多维随机变量及其分布.md",
+                "path": "2024考研/数学/错题/C17-多维随机变量及其分布.md",
+                "type": "blob"
+              },
+              {
+                "name": "C18-随机变量的数字特征.md",
+                "path": "2024考研/数学/错题/C18-随机变量的数字特征.md",
+                "type": "blob"
+              },
+              {
+                "name": "C19-大数定律与中心极限定理.md",
+                "path": "2024考研/数学/错题/C19-大数定律与中心极限定理.md",
+                "type": "blob"
+              },
+              {
+                "name": "C20-数理统计.md",
+                "path": "2024考研/数学/错题/C20-数理统计.md",
+                "type": "blob"
+              },
+              {
+                "name": "C21-数一真题专题.md",
+                "path": "2024考研/数学/错题/C21-数一真题专题.md",
+                "type": "blob"
+              },
+              {
+                "name": "C22-23李林六套卷.md",
+                "path": "2024考研/数学/错题/C22-23李林六套卷.md",
+                "type": "blob"
+              },
+              {
+                "name": "C23-23李林四套卷.md",
+                "path": "2024考研/数学/错题/C23-23李林四套卷.md",
+                "type": "blob"
+              },
+              {
+                "name": "C24-李林880补遗.md",
+                "path": "2024考研/数学/错题/C24-李林880补遗.md",
+                "type": "blob"
+              },
+              {
+                "name": "C25-24李永乐六套卷.md",
+                "path": "2024考研/数学/错题/C25-24李永乐六套卷.md",
+                "type": "blob"
+              },
+              {
+                "name": "C26-24张宇八套卷.md",
+                "path": "2024考研/数学/错题/C26-24张宇八套卷.md",
+                "type": "blob"
+              },
+              {
+                "name": "C27-24合工大超越.md",
+                "path": "2024考研/数学/错题/C27-24合工大超越.md",
+                "type": "blob"
+              },
+              {
+                "name": "C29-模拟卷复刷错题汇总.md",
+                "path": "2024考研/数学/错题/C29-模拟卷复刷错题汇总.md",
+                "type": "blob"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "英语",
+        "path": "2024考研/英语",
+        "type": "tree",
+        "children": [
+          {
+            "name": "作文",
+            "path": "2024考研/英语/作文",
+            "type": "tree",
+            "children": [
+              {
+                "name": "04-08作文.md",
+                "path": "2024考研/英语/作文/04-08作文.md",
+                "type": "blob"
+              },
+              {
+                "name": "2010英一作文.md",
+                "path": "2024考研/英语/作文/2010英一作文.md",
+                "type": "blob"
+              },
+              {
+                "name": "2011英一作文.md",
+                "path": "2024考研/英语/作文/2011英一作文.md",
+                "type": "blob"
+              },
+              {
+                "name": "2012英一作文.md",
+                "path": "2024考研/英语/作文/2012英一作文.md",
+                "type": "blob"
+              },
+              {
+                "name": "2013英一作文.md",
+                "path": "2024考研/英语/作文/2013英一作文.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "TR01-高途翻译课.md",
+            "path": "2024考研/英语/TR01-高途翻译课.md",
+            "type": "blob"
+          },
+          {
+            "name": "WR01-高途作文课.md",
+            "path": "2024考研/英语/WR01-高途作文课.md",
+            "type": "blob"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "AI",
+    "path": "AI",
+    "type": "tree",
+    "children": [
+      {
+        "name": "@-AI杂项",
+        "path": "AI/@-AI杂项",
+        "type": "tree",
+        "children": [
+          {
+            "name": "图像分类笔记",
+            "path": "AI/@-AI杂项/图像分类笔记",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-CNN.md",
+                "path": "AI/@-AI杂项/图像分类笔记/01-CNN.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-LeNet.md",
+                "path": "AI/@-AI杂项/图像分类笔记/02-LeNet.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-AlexNet.md",
+                "path": "AI/@-AI杂项/图像分类笔记/03-AlexNet.md",
+                "type": "blob"
+              },
+              {
+                "name": "06-ResNet.md",
+                "path": "AI/@-AI杂项/图像分类笔记/06-ResNet.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "大模型面试",
+            "path": "AI/@-AI杂项/大模型面试",
+            "type": "tree",
+            "children": [
+              {
+                "name": "大模型面试-1.md",
+                "path": "AI/@-AI杂项/大模型面试/大模型面试-1.md",
+                "type": "blob"
+              },
+              {
+                "name": "大模型面试-2.md",
+                "path": "AI/@-AI杂项/大模型面试/大模型面试-2.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "搜广推",
+            "path": "AI/@-AI杂项/搜广推",
+            "type": "tree",
+            "children": [
+              {
+                "name": "@01-搜广推总述.md",
+                "path": "AI/@-AI杂项/搜广推/@01-搜广推总述.md",
+                "type": "blob"
+              },
+              {
+                "name": "搜广推笔记241228.md",
+                "path": "AI/@-AI杂项/搜广推/搜广推笔记241228.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "机器学习复习",
+            "path": "AI/@-AI杂项/机器学习复习",
+            "type": "tree",
+            "children": [
+              {
+                "name": "02-线性回归.md",
+                "path": "AI/@-AI杂项/机器学习复习/02-线性回归.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-线性分类.md",
+                "path": "AI/@-AI杂项/机器学习复习/03-线性分类.md",
+                "type": "blob"
+              },
+              {
+                "name": "04-决策树.md",
+                "path": "AI/@-AI杂项/机器学习复习/04-决策树.md",
+                "type": "blob"
+              },
+              {
+                "name": "05-神经网络.md",
+                "path": "AI/@-AI杂项/机器学习复习/05-神经网络.md",
+                "type": "blob"
+              },
+              {
+                "name": "06-深度学习.md",
+                "path": "AI/@-AI杂项/机器学习复习/06-深度学习.md",
+                "type": "blob"
+              },
+              {
+                "name": "07-支持向量机.md",
+                "path": "AI/@-AI杂项/机器学习复习/07-支持向量机.md",
+                "type": "blob"
+              },
+              {
+                "name": "08-贝叶斯理论.md",
+                "path": "AI/@-AI杂项/机器学习复习/08-贝叶斯理论.md",
+                "type": "blob"
+              },
+              {
+                "name": "09-聚类.md",
+                "path": "AI/@-AI杂项/机器学习复习/09-聚类.md",
+                "type": "blob"
+              },
+              {
+                "name": "10-集成学习.md",
+                "path": "AI/@-AI杂项/机器学习复习/10-集成学习.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "机器学习-周志华-1.md",
+            "path": "AI/@-AI杂项/机器学习-周志华-1.md",
+            "type": "blob"
+          },
+          {
+            "name": "机器学习-周志华-2.md",
+            "path": "AI/@-AI杂项/机器学习-周志华-2.md",
+            "type": "blob"
+          },
+          {
+            "name": "机器学习-小黄鸭.md",
+            "path": "AI/@-AI杂项/机器学习-小黄鸭.md",
+            "type": "blob"
+          },
+          {
+            "name": "李素科-机器学习.md",
+            "path": "AI/@-AI杂项/李素科-机器学习.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "DeepML",
+        "path": "AI/DeepML",
+        "type": "tree",
+        "children": [
+          {
+            "name": "DeepML-深度学习.md",
+            "path": "AI/DeepML/DeepML-深度学习.md",
+            "type": "blob"
+          },
+          {
+            "name": "DeepML-线性代数.md",
+            "path": "AI/DeepML/DeepML-线性代数.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Infra",
+        "path": "AI/Infra",
+        "type": "tree",
+        "children": [
+          {
+            "name": "@01-AI-Infra-汇总.md",
+            "path": "AI/Infra/@01-AI-Infra-汇总.md",
+            "type": "blob"
+          },
+          {
+            "name": "模型量化.md",
+            "path": "AI/Infra/模型量化.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "大模型应用科学",
+        "path": "AI/大模型应用科学",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Agent应用",
+            "path": "AI/大模型应用科学/Agent应用",
+            "type": "tree",
+            "children": [
+              {
+                "name": "ClaudeCode",
+                "path": "AI/大模型应用科学/Agent应用/ClaudeCode",
+                "type": "tree",
+                "children": [
+                  {
+                    "name": "00-ClaudeCode基础.md",
+                    "path": "AI/大模型应用科学/Agent应用/ClaudeCode/00-ClaudeCode基础.md",
+                    "type": "blob"
+                  }
+                ]
+              },
+              {
+                "name": "OpenClaw",
+                "path": "AI/大模型应用科学/Agent应用/OpenClaw",
+                "type": "tree",
+                "children": [
+                  {
+                    "name": "00-OpenClaw入门.md",
+                    "path": "AI/大模型应用科学/Agent应用/OpenClaw/00-OpenClaw入门.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "01-OpenClaw飞书集成.md",
+                    "path": "AI/大模型应用科学/Agent应用/OpenClaw/01-OpenClaw飞书集成.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "02-OpenClaw微信集成.md",
+                    "path": "AI/大模型应用科学/Agent应用/OpenClaw/02-OpenClaw微信集成.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "03-OpenClaw skills.md",
+                    "path": "AI/大模型应用科学/Agent应用/OpenClaw/03-OpenClaw skills.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "A01-OpenClaw参考.md",
+                    "path": "AI/大模型应用科学/Agent应用/OpenClaw/A01-OpenClaw参考.md",
+                    "type": "blob"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Agent理论",
+            "path": "AI/大模型应用科学/Agent理论",
+            "type": "tree",
+            "children": [
+              {
+                "name": "@01-Agent理论汇总.md",
+                "path": "AI/大模型应用科学/Agent理论/@01-Agent理论汇总.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "LangChain",
+            "path": "AI/大模型应用科学/LangChain",
+            "type": "tree",
+            "children": [
+              {
+                "name": "@01-LangChain汇总.md",
+                "path": "AI/大模型应用科学/LangChain/@01-LangChain汇总.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Harness.md",
+            "path": "AI/大模型应用科学/Harness.md",
+            "type": "blob"
+          },
+          {
+            "name": "Skills.md",
+            "path": "AI/大模型应用科学/Skills.md",
+            "type": "blob"
+          },
+          {
+            "name": "提示工程-1.md",
+            "path": "AI/大模型应用科学/提示工程-1.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "大模型理论",
+        "path": "AI/大模型理论",
+        "type": "tree",
+        "children": [
+          {
+            "name": "对齐优化",
+            "path": "AI/大模型理论/对齐优化",
+            "type": "tree",
+            "children": [
+              {
+                "name": "RLHF.md",
+                "path": "AI/大模型理论/对齐优化/RLHF.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "微调",
+            "path": "AI/大模型理论/微调",
+            "type": "tree",
+            "children": [
+              {
+                "name": "LoRA.md",
+                "path": "AI/大模型理论/微调/LoRA.md",
+                "type": "blob"
+              },
+              {
+                "name": "PEFT.md",
+                "path": "AI/大模型理论/微调/PEFT.md",
+                "type": "blob"
+              },
+              {
+                "name": "SFT.md",
+                "path": "AI/大模型理论/微调/SFT.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "模型结构",
+            "path": "AI/大模型理论/模型结构",
+            "type": "tree",
+            "children": [
+              {
+                "name": "MoE.md",
+                "path": "AI/大模型理论/模型结构/MoE.md",
+                "type": "blob"
+              },
+              {
+                "name": "RoPE.md",
+                "path": "AI/大模型理论/模型结构/RoPE.md",
+                "type": "blob"
+              },
+              {
+                "name": "Transformer基础.md",
+                "path": "AI/大模型理论/模型结构/Transformer基础.md",
+                "type": "blob"
+              },
+              {
+                "name": "位置编码.md",
+                "path": "AI/大模型理论/模型结构/位置编码.md",
+                "type": "blob"
+              },
+              {
+                "name": "大模型归一化方法.md",
+                "path": "AI/大模型理论/模型结构/大模型归一化方法.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Scaling-Laws.md",
+            "path": "AI/大模型理论/Scaling-Laws.md",
+            "type": "blob"
+          },
+          {
+            "name": "多模态.md",
+            "path": "AI/大模型理论/多模态.md",
+            "type": "blob"
+          },
+          {
+            "name": "大模型的完整推理流程.md",
+            "path": "AI/大模型理论/大模型的完整推理流程.md",
+            "type": "blob"
+          },
+          {
+            "name": "大模型的完整训练流程.md",
+            "path": "AI/大模型理论/大模型的完整训练流程.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "强化学习理论",
+        "path": "AI/强化学习理论",
+        "type": "tree",
+        "children": [
+          {
+            "name": "00-强化学习intro.md",
+            "path": "AI/强化学习理论/00-强化学习intro.md",
+            "type": "blob"
+          },
+          {
+            "name": "01-强化学习基础.md",
+            "path": "AI/强化学习理论/01-强化学习基础.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "推荐系统理论",
+        "path": "AI/推荐系统理论",
+        "type": "tree",
+        "children": [
+          {
+            "name": "@01-推荐系统总述.md",
+            "path": "AI/推荐系统理论/@01-推荐系统总述.md",
+            "type": "blob"
+          },
+          {
+            "name": "王喆-深度学习推荐系统.md",
+            "path": "AI/推荐系统理论/王喆-深度学习推荐系统.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "机器学习理论",
+        "path": "AI/机器学习理论",
+        "type": "tree",
+        "children": [
+          {
+            "name": "00-机器学习intro.md",
+            "path": "AI/机器学习理论/00-机器学习intro.md",
+            "type": "blob"
+          },
+          {
+            "name": "01-线性回归.md",
+            "path": "AI/机器学习理论/01-线性回归.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "深度学习理论",
+        "path": "AI/深度学习理论",
+        "type": "tree",
+        "children": [
+          {
+            "name": "优化器",
+            "path": "AI/深度学习理论/优化器",
+            "type": "tree",
+            "children": [
+              {
+                "name": "00-优化器原理及概述.md",
+                "path": "AI/深度学习理论/优化器/00-优化器原理及概述.md",
+                "type": "blob"
+              },
+              {
+                "name": "01-SGD+Momentum.md",
+                "path": "AI/深度学习理论/优化器/01-SGD+Momentum.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-AdaGrad.md",
+                "path": "AI/深度学习理论/优化器/02-AdaGrad.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-RMSProp.md",
+                "path": "AI/深度学习理论/优化器/03-RMSProp.md",
+                "type": "blob"
+              },
+              {
+                "name": "04-Adam+AdamW.md",
+                "path": "AI/深度学习理论/优化器/04-Adam+AdamW.md",
+                "type": "blob"
+              },
+              {
+                "name": "A01-近年提出的优化器.md",
+                "path": "AI/深度学习理论/优化器/A01-近年提出的优化器.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "动手学深度学习",
+            "path": "AI/深度学习理论/动手学深度学习",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01&02-深度学习预备知识.md",
+                "path": "AI/深度学习理论/动手学深度学习/01&02-深度学习预备知识.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-线性神经网络.md",
+                "path": "AI/深度学习理论/动手学深度学习/03-线性神经网络.md",
+                "type": "blob"
+              },
+              {
+                "name": "04-多层感知机.md",
+                "path": "AI/深度学习理论/动手学深度学习/04-多层感知机.md",
+                "type": "blob"
+              },
+              {
+                "name": "05-深度学习计算.md",
+                "path": "AI/深度学习理论/动手学深度学习/05-深度学习计算.md",
+                "type": "blob"
+              },
+              {
+                "name": "06-卷积神经网络.md",
+                "path": "AI/深度学习理论/动手学深度学习/06-卷积神经网络.md",
+                "type": "blob"
+              },
+              {
+                "name": "07-现代卷积神经网络.md",
+                "path": "AI/深度学习理论/动手学深度学习/07-现代卷积神经网络.md",
+                "type": "blob"
+              },
+              {
+                "name": "08-循环神经网络.md",
+                "path": "AI/深度学习理论/动手学深度学习/08-循环神经网络.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "损失函数",
+            "path": "AI/深度学习理论/损失函数",
+            "type": "tree",
+            "children": [
+              {
+                "name": "CrossEntropy.md",
+                "path": "AI/深度学习理论/损失函数/CrossEntropy.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "激活函数",
+            "path": "AI/深度学习理论/激活函数",
+            "type": "tree",
+            "children": [
+              {
+                "name": "ReLU.md",
+                "path": "AI/深度学习理论/激活函数/ReLU.md",
+                "type": "blob"
+              },
+              {
+                "name": "SwiGLU.md",
+                "path": "AI/深度学习理论/激活函数/SwiGLU.md",
+                "type": "blob"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "计算机视觉",
+        "path": "AI/计算机视觉",
+        "type": "tree",
+        "children": [
+          {
+            "name": "图像生成",
+            "path": "AI/计算机视觉/图像生成",
+            "type": "tree",
+            "children": [
+              {
+                "name": "@00-图像生成简介.md",
+                "path": "AI/计算机视觉/图像生成/@00-图像生成简介.md",
+                "type": "blob"
+              },
+              {
+                "name": "A01-自编码器.md",
+                "path": "AI/计算机视觉/图像生成/A01-自编码器.md",
+                "type": "blob"
+              },
+              {
+                "name": "A02-CLIP+SigLIP.md",
+                "path": "AI/计算机视觉/图像生成/A02-CLIP+SigLIP.md",
+                "type": "blob"
+              },
+              {
+                "name": "A03-GAN.md",
+                "path": "AI/计算机视觉/图像生成/A03-GAN.md",
+                "type": "blob"
+              },
+              {
+                "name": "B01-扩散模型.md",
+                "path": "AI/计算机视觉/图像生成/B01-扩散模型.md",
+                "type": "blob"
+              },
+              {
+                "name": "B02-StableDiffusion.md",
+                "path": "AI/计算机视觉/图像生成/B02-StableDiffusion.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "目标检测",
+            "path": "AI/计算机视觉/目标检测",
+            "type": "tree",
+            "children": [
+              {
+                "name": "YOLO简记.md",
+                "path": "AI/计算机视觉/目标检测/YOLO简记.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "经典模型",
+            "path": "AI/计算机视觉/经典模型",
+            "type": "tree",
+            "children": [
+              {
+                "name": "ResNet.md",
+                "path": "AI/计算机视觉/经典模型/ResNet.md",
+                "type": "blob"
+              },
+              {
+                "name": "U-Net.md",
+                "path": "AI/计算机视觉/经典模型/U-Net.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "视觉语言模型",
+            "path": "AI/计算机视觉/视觉语言模型",
+            "type": "tree",
+            "children": [
+              {
+                "name": "Qwen2.5-VL.md",
+                "path": "AI/计算机视觉/视觉语言模型/Qwen2.5-VL.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "视频生成",
+            "path": "AI/计算机视觉/视频生成",
+            "type": "tree",
+            "children": [
+              {
+                "name": "Kling-Omni.md",
+                "path": "AI/计算机视觉/视频生成/Kling-Omni.md",
+                "type": "blob"
+              },
+              {
+                "name": "Wan.md",
+                "path": "AI/计算机视觉/视频生成/Wan.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "风格学习",
+            "path": "AI/计算机视觉/风格学习",
+            "type": "tree",
+            "children": [
+              {
+                "name": "IP-Adapter.md",
+                "path": "AI/计算机视觉/风格学习/IP-Adapter.md",
+                "type": "blob"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AI名词词典.md",
+        "path": "AI/AI名词词典.md",
+        "type": "blob"
+      },
+      {
+        "name": "具身智能.md",
+        "path": "AI/具身智能.md",
+        "type": "blob"
+      },
+      {
+        "name": "李沐读论文系列-1.md",
+        "path": "AI/李沐读论文系列-1.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "Cheatsheets",
+    "path": "Cheatsheets",
+    "type": "tree",
+    "children": [
+      {
+        "name": "Cheatsheet-机器学习.md",
+        "path": "Cheatsheets/Cheatsheet-机器学习.md",
+        "type": "blob"
+      },
+      {
+        "name": "Cheatsheet-线性代数.md",
+        "path": "Cheatsheets/Cheatsheet-线性代数.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "Excalidraw",
+    "path": "Excalidraw",
+    "type": "tree",
+    "children": [
+      {
+        "name": "Drawing 2024-11-13 17.23.11.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-11-13 17.23.11.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-11-13 20.45.51.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-11-13 20.45.51.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-11-22 10.55.24.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-11-22 10.55.24.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-11-24 15.25.00.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-11-24 15.25.00.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-11-29 19.35.22.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-11-29 19.35.22.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-11-30 00.04.31.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-11-30 00.04.31.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-11-30 13.54.06.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-11-30 13.54.06.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-12-02 13.34.56.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-12-02 13.34.56.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-12-11 20.09.34.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-12-11 20.09.34.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-12-22 15.41.15.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-12-22 15.41.15.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-12-23 18.07.30.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-12-23 18.07.30.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-12-24 15.52.18.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-12-24 15.52.18.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2024-12-25 01.24.18.excalidraw.md",
+        "path": "Excalidraw/Drawing 2024-12-25 01.24.18.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2025-01-14 13.00.57.excalidraw.md",
+        "path": "Excalidraw/Drawing 2025-01-14 13.00.57.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2025-04-25 14.28.51.excalidraw.md",
+        "path": "Excalidraw/Drawing 2025-04-25 14.28.51.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2026-01-31 16.09.42.excalidraw.md",
+        "path": "Excalidraw/Drawing 2026-01-31 16.09.42.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2026-01-31 18.01.59.excalidraw.md",
+        "path": "Excalidraw/Drawing 2026-01-31 18.01.59.excalidraw.md",
+        "type": "blob"
+      },
+      {
+        "name": "Drawing 2026-05-19 11.42.09.excalidraw.md",
+        "path": "Excalidraw/Drawing 2026-05-19 11.42.09.excalidraw.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "LaTeX",
+    "path": "LaTeX",
+    "type": "tree",
+    "children": [
+      {
+        "name": "TiKZ",
+        "path": "LaTeX/TiKZ",
+        "type": "tree",
+        "children": [
+          {
+            "name": "TikZ坐标系绘图.md",
+            "path": "LaTeX/TiKZ/TikZ坐标系绘图.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "通用技巧",
+        "path": "LaTeX/通用技巧",
+        "type": "tree",
+        "children": [
+          {
+            "name": "latex排版.md",
+            "path": "LaTeX/通用技巧/latex排版.md",
+            "type": "blob"
+          },
+          {
+            "name": "latex文本加工.md",
+            "path": "LaTeX/通用技巧/latex文本加工.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "algorithm2e宏包.md",
+        "path": "LaTeX/algorithm2e宏包.md",
+        "type": "blob"
+      },
+      {
+        "name": "Beamer幻灯片制作.md",
+        "path": "LaTeX/Beamer幻灯片制作.md",
+        "type": "blob"
+      },
+      {
+        "name": "LaTeX公式速查.md",
+        "path": "LaTeX/LaTeX公式速查.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "Linux",
+    "path": "Linux",
+    "type": "tree",
+    "children": [
+      {
+        "name": "Basics",
+        "path": "Linux/Basics",
+        "type": "tree",
+        "children": [
+          {
+            "name": "gdb.md",
+            "path": "Linux/Basics/gdb.md",
+            "type": "blob"
+          },
+          {
+            "name": "Linux Shell.md",
+            "path": "Linux/Basics/Linux Shell.md",
+            "type": "blob"
+          },
+          {
+            "name": "Linux压缩和解压.md",
+            "path": "Linux/Basics/Linux压缩和解压.md",
+            "type": "blob"
+          },
+          {
+            "name": "Linux命令行文本处理.md",
+            "path": "Linux/Basics/Linux命令行文本处理.md",
+            "type": "blob"
+          },
+          {
+            "name": "Linux外存和文件管理.md",
+            "path": "Linux/Basics/Linux外存和文件管理.md",
+            "type": "blob"
+          },
+          {
+            "name": "Linux用户管理（WIP）.md",
+            "path": "Linux/Basics/Linux用户管理（WIP）.md",
+            "type": "blob"
+          },
+          {
+            "name": "Linux终端.md",
+            "path": "Linux/Basics/Linux终端.md",
+            "type": "blob"
+          },
+          {
+            "name": "Linux进程管理.md",
+            "path": "Linux/Basics/Linux进程管理.md",
+            "type": "blob"
+          },
+          {
+            "name": "tmux.md",
+            "path": "Linux/Basics/tmux.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Hacks",
+        "path": "Linux/Hacks",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Samba网络驱动器.md",
+            "path": "Linux/Hacks/Samba网络驱动器.md",
+            "type": "blob"
+          },
+          {
+            "name": "SSH相关.md",
+            "path": "Linux/Hacks/SSH相关.md",
+            "type": "blob"
+          },
+          {
+            "name": "Ubuntu20.04安装OpenCV+CUDA.md",
+            "path": "Linux/Hacks/Ubuntu20.04安装OpenCV+CUDA.md",
+            "type": "blob"
+          },
+          {
+            "name": "Ubuntu安装中文输入法.md",
+            "path": "Linux/Hacks/Ubuntu安装中文输入法.md",
+            "type": "blob"
+          },
+          {
+            "name": "Ubuntu版本号的别名.md",
+            "path": "Linux/Hacks/Ubuntu版本号的别名.md",
+            "type": "blob"
+          },
+          {
+            "name": "Ubuntu虚拟机NAT配置.md",
+            "path": "Linux/Hacks/Ubuntu虚拟机NAT配置.md",
+            "type": "blob"
+          },
+          {
+            "name": "WSL2迁移、备份、还原.md",
+            "path": "Linux/Hacks/WSL2迁移、备份、还原.md",
+            "type": "blob"
+          },
+          {
+            "name": "WSL与Hyper-V共存.md",
+            "path": "Linux/Hacks/WSL与Hyper-V共存.md",
+            "type": "blob"
+          },
+          {
+            "name": "WSL使用硬件加速.md",
+            "path": "Linux/Hacks/WSL使用硬件加速.md",
+            "type": "blob"
+          },
+          {
+            "name": "WSL安装CUDA.md",
+            "path": "Linux/Hacks/WSL安装CUDA.md",
+            "type": "blob"
+          },
+          {
+            "name": "一次Ubuntu装机记录.md",
+            "path": "Linux/Hacks/一次Ubuntu装机记录.md",
+            "type": "blob"
+          },
+          {
+            "name": "多版本GCC安装和共存.md",
+            "path": "Linux/Hacks/多版本GCC安装和共存.md",
+            "type": "blob"
+          },
+          {
+            "name": "多版本Python共存.md",
+            "path": "Linux/Hacks/多版本Python共存.md",
+            "type": "blob"
+          },
+          {
+            "name": "建立并运行Docker容器.md",
+            "path": "Linux/Hacks/建立并运行Docker容器.md",
+            "type": "blob"
+          },
+          {
+            "name": "挂载和卸载ISO.md",
+            "path": "Linux/Hacks/挂载和卸载ISO.md",
+            "type": "blob"
+          },
+          {
+            "name": "树莓派静态入网.md",
+            "path": "Linux/Hacks/树莓派静态入网.md",
+            "type": "blob"
+          },
+          {
+            "name": "虚拟机挂载共享文件夹.md",
+            "path": "Linux/Hacks/虚拟机挂载共享文件夹.md",
+            "type": "blob"
+          },
+          {
+            "name": "通过X11创建远程图形界面.md",
+            "path": "Linux/Hacks/通过X11创建远程图形界面.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Linux系统编程",
+        "path": "Linux/Linux系统编程",
+        "type": "tree",
+        "children": [
+          {
+            "name": "getopt.md",
+            "path": "Linux/Linux系统编程/getopt.md",
+            "type": "blob"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Zotero",
+    "path": "Zotero",
+    "type": "tree",
+    "children": [
+      {
+        "name": "Imports",
+        "path": "Zotero/Imports",
+        "type": "tree",
+        "children": [
+          {
+            "name": "changEfficientMaximumPlex2022.md",
+            "path": "Zotero/Imports/changEfficientMaximumPlex2022.md",
+            "type": "blob"
+          },
+          {
+            "name": "gaoMaximum$k$PlexSearch2024.md",
+            "path": "Zotero/Imports/gaoMaximum$k$PlexSearch2024.md",
+            "type": "blob"
+          },
+          {
+            "name": "seidmanGraphtheoreticGeneralizationClique1978.md",
+            "path": "Zotero/Imports/seidmanGraphtheoreticGeneralizationClique1978.md",
+            "type": "blob"
+          },
+          {
+            "name": "sunNukplexEfficientLocal2024.md",
+            "path": "Zotero/Imports/sunNukplexEfficientLocal2024.md",
+            "type": "blob"
+          },
+          {
+            "name": "zhengTwoNewUpper2024.md",
+            "path": "Zotero/Imports/zhengTwoNewUpper2024.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "template.md",
+        "path": "Zotero/template.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "前端-Web",
+    "path": "前端-Web",
+    "type": "tree",
+    "children": [
+      {
+        "name": "HTML+CSS",
+        "path": "前端-Web/HTML+CSS",
+        "type": "tree",
+        "children": [
+          {
+            "name": "001-环境搭建.md",
+            "path": "前端-Web/HTML+CSS/001-环境搭建.md",
+            "type": "blob"
+          },
+          {
+            "name": "002-HTML基础.md",
+            "path": "前端-Web/HTML+CSS/002-HTML基础.md",
+            "type": "blob"
+          },
+          {
+            "name": "003-CSS基础.md",
+            "path": "前端-Web/HTML+CSS/003-CSS基础.md",
+            "type": "blob"
+          },
+          {
+            "name": "004-HTML常用标签.md",
+            "path": "前端-Web/HTML+CSS/004-HTML常用标签.md",
+            "type": "blob"
+          },
+          {
+            "name": "005-CSS常用样式.md",
+            "path": "前端-Web/HTML+CSS/005-CSS常用样式.md",
+            "type": "blob"
+          },
+          {
+            "name": "006-CSS选择器.md",
+            "path": "前端-Web/HTML+CSS/006-CSS选择器.md",
+            "type": "blob"
+          },
+          {
+            "name": "007-表单.md",
+            "path": "前端-Web/HTML+CSS/007-表单.md",
+            "type": "blob"
+          },
+          {
+            "name": "008-表格.md",
+            "path": "前端-Web/HTML+CSS/008-表格.md",
+            "type": "blob"
+          },
+          {
+            "name": "009-字体.md",
+            "path": "前端-Web/HTML+CSS/009-字体.md",
+            "type": "blob"
+          },
+          {
+            "name": "010-H5弹性布局.md",
+            "path": "前端-Web/HTML+CSS/010-H5弹性布局.md",
+            "type": "blob"
+          },
+          {
+            "name": "011-H5定位.md",
+            "path": "前端-Web/HTML+CSS/011-H5定位.md",
+            "type": "blob"
+          },
+          {
+            "name": "012-SASS.md",
+            "path": "前端-Web/HTML+CSS/012-SASS.md",
+            "type": "blob"
+          },
+          {
+            "name": "013-CSS3特效.md",
+            "path": "前端-Web/HTML+CSS/013-CSS3特效.md",
+            "type": "blob"
+          },
+          {
+            "name": "999-拾遗.md",
+            "path": "前端-Web/HTML+CSS/999-拾遗.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "UI框架",
+        "path": "前端-Web/UI框架",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Bootstrap",
+            "path": "前端-Web/UI框架/Bootstrap",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-Bootstrap基础.md",
+                "path": "前端-Web/UI框架/Bootstrap/01-Bootstrap基础.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-Bootstrap部件.md",
+                "path": "前端-Web/UI框架/Bootstrap/02-Bootstrap部件.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-Bootstrap布局.md",
+                "path": "前端-Web/UI框架/Bootstrap/03-Bootstrap布局.md",
+                "type": "blob"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vue",
+        "path": "前端-Web/Vue",
+        "type": "tree",
+        "children": [
+          {
+            "name": "001-Vue 简介.md",
+            "path": "前端-Web/Vue/001-Vue 简介.md",
+            "type": "blob"
+          },
+          {
+            "name": "002-Vue 模板语法、数据绑定.md",
+            "path": "前端-Web/Vue/002-Vue 模板语法、数据绑定.md",
+            "type": "blob"
+          },
+          {
+            "name": "003-Vue el与data的两种写法.md",
+            "path": "前端-Web/Vue/003-Vue el与data的两种写法.md",
+            "type": "blob"
+          },
+          {
+            "name": "004-Vue MVVM模型、数据代理.md",
+            "path": "前端-Web/Vue/004-Vue MVVM模型、数据代理.md",
+            "type": "blob"
+          },
+          {
+            "name": "005-Vue 事件处理.md",
+            "path": "前端-Web/Vue/005-Vue 事件处理.md",
+            "type": "blob"
+          },
+          {
+            "name": "006-Vue 计算属性、侦听属性.md",
+            "path": "前端-Web/Vue/006-Vue 计算属性、侦听属性.md",
+            "type": "blob"
+          },
+          {
+            "name": "007-Vue 绑定样式、条件渲染.md",
+            "path": "前端-Web/Vue/007-Vue 绑定样式、条件渲染.md",
+            "type": "blob"
+          },
+          {
+            "name": "008-Vue 列表渲染、数据监视.md",
+            "path": "前端-Web/Vue/008-Vue 列表渲染、数据监视.md",
+            "type": "blob"
+          },
+          {
+            "name": "009-Vue 收集表单数据、过滤器.md",
+            "path": "前端-Web/Vue/009-Vue 收集表单数据、过滤器.md",
+            "type": "blob"
+          },
+          {
+            "name": "010-Vue 内置指令、自定义指令.md",
+            "path": "前端-Web/Vue/010-Vue 内置指令、自定义指令.md",
+            "type": "blob"
+          },
+          {
+            "name": "011-Vue 生命周期.md",
+            "path": "前端-Web/Vue/011-Vue 生命周期.md",
+            "type": "blob"
+          },
+          {
+            "name": "012-Vue 组件化编程.md",
+            "path": "前端-Web/Vue/012-Vue 组件化编程.md",
+            "type": "blob"
+          },
+          {
+            "name": "013-Vue 脚手架.md",
+            "path": "前端-Web/Vue/013-Vue 脚手架.md",
+            "type": "blob"
+          },
+          {
+            "name": "014-Vuex.md",
+            "path": "前端-Web/Vue/014-Vuex.md",
+            "type": "blob"
+          },
+          {
+            "name": "015-Vue Router.md",
+            "path": "前端-Web/Vue/015-Vue Router.md",
+            "type": "blob"
+          },
+          {
+            "name": "@01-Vue复习-260509.md",
+            "path": "前端-Web/Vue/@01-Vue复习-260509.md",
+            "type": "blob"
+          },
+          {
+            "name": "L01-Vue案例：TodoList.md",
+            "path": "前端-Web/Vue/L01-Vue案例：TodoList.md",
+            "type": "blob"
+          },
+          {
+            "name": "Z01-Vue核心总结.md",
+            "path": "前端-Web/Vue/Z01-Vue核心总结.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "@前端规划.md",
+        "path": "前端-Web/@前端规划.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "前端-桌面",
+    "path": "前端-桌面",
+    "type": "tree",
+    "children": [
+      {
+        "name": "Qt",
+        "path": "前端-桌面/Qt",
+        "type": "tree",
+        "children": [
+          {
+            "name": "QML",
+            "path": "前端-桌面/Qt/QML",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-QML基础.md",
+                "path": "前端-桌面/Qt/QML/01-QML基础.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-QML ImageProvider.md",
+                "path": "前端-桌面/Qt/QML/02-QML ImageProvider.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-QML布局.md",
+                "path": "前端-桌面/Qt/QML/03-QML布局.md",
+                "type": "blob"
+              },
+              {
+                "name": "04-QML动画.md",
+                "path": "前端-桌面/Qt/QML/04-QML动画.md",
+                "type": "blob"
+              },
+              {
+                "name": "05-QML控件和鼠标.md",
+                "path": "前端-桌面/Qt/QML/05-QML控件和鼠标.md",
+                "type": "blob"
+              },
+              {
+                "name": "06-QML属性、组件、加载器.md",
+                "path": "前端-桌面/Qt/QML/06-QML属性、组件、加载器.md",
+                "type": "blob"
+              },
+              {
+                "name": "07-QML与C++聚合.md",
+                "path": "前端-桌面/Qt/QML/07-QML与C++聚合.md",
+                "type": "blob"
+              },
+              {
+                "name": "E01-QML官方示例学习.md",
+                "path": "前端-桌面/Qt/QML/E01-QML官方示例学习.md",
+                "type": "blob"
+              },
+              {
+                "name": "毕业设计技术日志.md",
+                "path": "前端-桌面/Qt/QML/毕业设计技术日志.md",
+                "type": "blob"
+              },
+              {
+                "name": "毕业设计论文初稿.md",
+                "path": "前端-桌面/Qt/QML/毕业设计论文初稿.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "@QtWidget应用-开发流程.md",
+            "path": "前端-桌面/Qt/@QtWidget应用-开发流程.md",
+            "type": "blob"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "后端",
+    "path": "后端",
+    "type": "tree",
+    "children": [
+      {
+        "name": "CMake",
+        "path": "后端/CMake",
+        "type": "tree",
+        "children": [
+          {
+            "name": "CMake入门.md",
+            "path": "后端/CMake/CMake入门.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Nginx",
+        "path": "后端/Nginx",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-Nginx基本.md",
+            "path": "后端/Nginx/01-Nginx基本.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "后端知识点.md",
+        "path": "后端/后端知识点.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "数据库",
+    "path": "数据库",
+    "type": "tree",
+    "children": [
+      {
+        "name": "MySQL",
+        "path": "数据库/MySQL",
+        "type": "tree",
+        "children": [
+          {
+            "name": "mysql.md",
+            "path": "数据库/MySQL/mysql.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Redis",
+        "path": "数据库/Redis",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-Redis入门.md",
+            "path": "数据库/Redis/01-Redis入门.md",
+            "type": "blob"
+          },
+          {
+            "name": "02-Redis+Python.md",
+            "path": "数据库/Redis/02-Redis+Python.md",
+            "type": "blob"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "日志",
+    "path": "日志",
+    "type": "tree",
+    "children": [
+      {
+        "name": "2023-03-02.md",
+        "path": "日志/2023-03-02.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "杂项",
+    "path": "杂项",
+    "type": "tree",
+    "children": [
+      {
+        "name": "ChatGPT",
+        "path": "杂项/ChatGPT",
+        "type": "tree",
+        "children": [
+          {
+            "name": "GPT提问技巧.md",
+            "path": "杂项/ChatGPT/GPT提问技巧.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Docker",
+        "path": "杂项/Docker",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-Docker入门.md",
+            "path": "杂项/Docker/01-Docker入门.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Git",
+        "path": "杂项/Git",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-Git基础.md",
+            "path": "杂项/Git/01-Git基础.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Makefile",
+        "path": "杂项/Makefile",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-Makefile基础.md",
+            "path": "杂项/Makefile/01-Makefile基础.md",
+            "type": "blob"
+          },
+          {
+            "name": "02-Makefile自定义目标.md",
+            "path": "杂项/Makefile/02-Makefile自定义目标.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Obsidian用法",
+        "path": "杂项/Obsidian用法",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Callout块.md",
+            "path": "杂项/Obsidian用法/Callout块.md",
+            "type": "blob"
+          },
+          {
+            "name": "Excalidraw把玩.md",
+            "path": "杂项/Obsidian用法/Excalidraw把玩.md",
+            "type": "blob"
+          },
+          {
+            "name": "Obsidian-CLI.md",
+            "path": "杂项/Obsidian用法/Obsidian-CLI.md",
+            "type": "blob"
+          },
+          {
+            "name": "嵌套文件或网页.md",
+            "path": "杂项/Obsidian用法/嵌套文件或网页.md",
+            "type": "blob"
+          },
+          {
+            "name": "解决粘贴代码时额外空行的问题.md",
+            "path": "杂项/Obsidian用法/解决粘贴代码时额外空行的问题.md",
+            "type": "blob"
+          },
+          {
+            "name": "读书笔记功能.md",
+            "path": "杂项/Obsidian用法/读书笔记功能.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "RA2",
+        "path": "杂项/RA2",
+        "type": "tree",
+        "children": [
+          {
+            "name": "RA2文件结构.md",
+            "path": "杂项/RA2/RA2文件结构.md",
+            "type": "blob"
+          },
+          {
+            "name": "修复游戏运行问题.md",
+            "path": "杂项/RA2/修复游戏运行问题.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "UML",
+        "path": "杂项/UML",
+        "type": "tree",
+        "children": [
+          {
+            "name": "时序图.md",
+            "path": "杂项/UML/时序图.md",
+            "type": "blob"
+          },
+          {
+            "name": "类图.md",
+            "path": "杂项/UML/类图.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Unity3D",
+        "path": "杂项/Unity3D",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-Unity3D项目速成.md",
+            "path": "杂项/Unity3D/01-Unity3D项目速成.md",
+            "type": "blob"
+          },
+          {
+            "name": "02-Unity3D项目搭建.md",
+            "path": "杂项/Unity3D/02-Unity3D项目搭建.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "数字货币",
+        "path": "杂项/数字货币",
+        "type": "tree",
+        "children": [
+          {
+            "name": "USDT-TRC20.md",
+            "path": "杂项/数字货币/USDT-TRC20.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "社工",
+        "path": "杂项/社工",
+        "type": "tree",
+        "children": [
+          {
+            "name": "社工库及其状态.md",
+            "path": "杂项/社工/社工库及其状态.md",
+            "type": "blob"
+          },
+          {
+            "name": "社工攻击方式.md",
+            "path": "杂项/社工/社工攻击方式.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "网站开发",
+        "path": "杂项/网站开发",
+        "type": "tree",
+        "children": [
+          {
+            "name": "域名、DNS、内网穿透和映射.md",
+            "path": "杂项/网站开发/域名、DNS、内网穿透和映射.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "网络hacks",
+        "path": "杂项/网络hacks",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Cloudflare连接器.md",
+            "path": "杂项/网络hacks/Cloudflare连接器.md",
+            "type": "blob"
+          },
+          {
+            "name": "Ngrok内网穿透.md",
+            "path": "杂项/网络hacks/Ngrok内网穿透.md",
+            "type": "blob"
+          },
+          {
+            "name": "SSH隧道.md",
+            "path": "杂项/网络hacks/SSH隧道.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "身份",
+        "path": "杂项/身份",
+        "type": "tree",
+        "children": [
+          {
+            "name": "海外数字身份.md",
+            "path": "杂项/身份/海外数字身份.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "量化交易",
+        "path": "杂项/量化交易",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Optiver-ReadyTraderGo",
+            "path": "杂项/量化交易/Optiver-ReadyTraderGo",
+            "type": "tree",
+            "children": [
+              {
+                "name": "log",
+                "path": "杂项/量化交易/Optiver-ReadyTraderGo/log",
+                "type": "tree",
+                "children": [
+                  {
+                    "name": "调参.md",
+                    "path": "杂项/量化交易/Optiver-ReadyTraderGo/log/调参.md",
+                    "type": "blob"
+                  }
+                ]
+              },
+              {
+                "name": "01-financial market.md",
+                "path": "杂项/量化交易/Optiver-ReadyTraderGo/01-financial market.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-role of market makers.md",
+                "path": "杂项/量化交易/Optiver-ReadyTraderGo/02-role of market makers.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-exchanges and order books.md",
+                "path": "杂项/量化交易/Optiver-ReadyTraderGo/03-exchanges and order books.md",
+                "type": "blob"
+              },
+              {
+                "name": "04-pairs trading.md",
+                "path": "杂项/量化交易/Optiver-ReadyTraderGo/04-pairs trading.md",
+                "type": "blob"
+              },
+              {
+                "name": "05-calculating P&L and determining the portfolio value.md",
+                "path": "杂项/量化交易/Optiver-ReadyTraderGo/05-calculating P&L and determining the portfolio value.md",
+                "type": "blob"
+              },
+              {
+                "name": "06-a winning algorithm.md",
+                "path": "杂项/量化交易/Optiver-ReadyTraderGo/06-a winning algorithm.md",
+                "type": "blob"
+              },
+              {
+                "name": "ReadyTraderGo.md",
+                "path": "杂项/量化交易/Optiver-ReadyTraderGo/ReadyTraderGo.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "01-量化交易基本概念.md",
+            "path": "杂项/量化交易/01-量化交易基本概念.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "自然辩证法笔记.md",
+        "path": "杂项/自然辩证法笔记.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "求职",
+    "path": "求职",
+    "type": "tree",
+    "children": [
+      {
+        "name": "面试题整理",
+        "path": "求职/面试题整理",
+        "type": "tree",
+        "children": [
+          {
+            "name": "AI-Agent.md",
+            "path": "求职/面试题整理/AI-Agent.md",
+            "type": "blob"
+          },
+          {
+            "name": "AI-Transformer.md",
+            "path": "求职/面试题整理/AI-Transformer.md",
+            "type": "blob"
+          },
+          {
+            "name": "Cpp-常考.md",
+            "path": "求职/面试题整理/Cpp-常考.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "推荐算法面经.md",
+        "path": "求职/推荐算法面经.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "科研",
+    "path": "科研",
+    "type": "tree",
+    "children": [
+      {
+        "name": "arXiv",
+        "path": "科研/arXiv",
+        "type": "tree",
+        "children": [
+          {
+            "name": "2502.13923_Qwen2.5_VL.md",
+            "path": "科研/arXiv/2502.13923_Qwen2.5_VL.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "k-plex",
+        "path": "科研/k-plex",
+        "type": "tree",
+        "children": [
+          {
+            "name": "@-kplex基本概念.md",
+            "path": "科研/k-plex/@-kplex基本概念.md",
+            "type": "blob"
+          },
+          {
+            "name": "A-kplex已知性质.md",
+            "path": "科研/k-plex/A-kplex已知性质.md",
+            "type": "blob"
+          },
+          {
+            "name": "A-kplex研究进展综述.md",
+            "path": "科研/k-plex/A-kplex研究进展综述.md",
+            "type": "blob"
+          },
+          {
+            "name": "B-2011-Balasundaram.md",
+            "path": "科研/k-plex/B-2011-Balasundaram.md",
+            "type": "blob"
+          },
+          {
+            "name": "B-2017-Xiao-BS.md",
+            "path": "科研/k-plex/B-2017-Xiao-BS.md",
+            "type": "blob"
+          },
+          {
+            "name": "B-2018-Maplex.md",
+            "path": "科研/k-plex/B-2018-Maplex.md",
+            "type": "blob"
+          },
+          {
+            "name": "B-2021-Chang-kPlexS.md",
+            "path": "科研/k-plex/B-2021-Chang-kPlexS.md",
+            "type": "blob"
+          },
+          {
+            "name": "B-2023-Wang-DegenGap.md",
+            "path": "科研/k-plex/B-2023-Wang-DegenGap.md",
+            "type": "blob"
+          },
+          {
+            "name": "B-2024-Chang-kPlexT.md",
+            "path": "科研/k-plex/B-2024-Chang-kPlexT.md",
+            "type": "blob"
+          },
+          {
+            "name": "C-2025-UMkP.md",
+            "path": "科研/k-plex/C-2025-UMkP.md",
+            "type": "blob"
+          },
+          {
+            "name": "C-kplex启发式算法.md",
+            "path": "科研/k-plex/C-kplex启发式算法.md",
+            "type": "blob"
+          },
+          {
+            "name": "C-kplex规模上界.md",
+            "path": "科研/k-plex/C-kplex规模上界.md",
+            "type": "blob"
+          },
+          {
+            "name": "kplex小记.md",
+            "path": "科研/k-plex/kplex小记.md",
+            "type": "blob"
+          },
+          {
+            "name": "kplex论文写作.md",
+            "path": "科研/k-plex/kplex论文写作.md",
+            "type": "blob"
+          },
+          {
+            "name": "MultiMKP数据记录.md",
+            "path": "科研/k-plex/MultiMKP数据记录.md",
+            "type": "blob"
+          },
+          {
+            "name": "MultiMKP设计.md",
+            "path": "科研/k-plex/MultiMKP设计.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "MultiMKP",
+        "path": "科研/MultiMKP",
+        "type": "tree",
+        "children": [
+          {
+            "name": "reduction-methods.md",
+            "path": "科研/MultiMKP/reduction-methods.md",
+            "type": "blob"
+          },
+          {
+            "name": "自底向上修改建议.md",
+            "path": "科研/MultiMKP/自底向上修改建议.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "普通图",
+        "path": "科研/普通图",
+        "type": "tree",
+        "children": [
+          {
+            "name": "GNN-intro.md",
+            "path": "科研/普通图/GNN-intro.md",
+            "type": "blob"
+          },
+          {
+            "name": "普通图-kplex-废话.md",
+            "path": "科研/普通图/普通图-kplex-废话.md",
+            "type": "blob"
+          },
+          {
+            "name": "普通图笔记-1.md",
+            "path": "科研/普通图/普通图笔记-1.md",
+            "type": "blob"
+          },
+          {
+            "name": "普通图笔记-2.md",
+            "path": "科研/普通图/普通图笔记-2.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "科研k-plex之备忘.md",
+        "path": "科研/科研k-plex之备忘.md",
+        "type": "blob"
+      },
+      {
+        "name": "科研进度tracker.md",
+        "path": "科研/科研进度tracker.md",
+        "type": "blob"
+      },
+      {
+        "name": "科研黑话.md",
+        "path": "科研/科研黑话.md",
+        "type": "blob"
+      },
+      {
+        "name": "计算机科研概述.md",
+        "path": "科研/计算机科研概述.md",
+        "type": "blob"
+      },
+      {
+        "name": "论文-GVEX.md",
+        "path": "科研/论文-GVEX.md",
+        "type": "blob"
+      },
+      {
+        "name": "顶会下毒指北.md",
+        "path": "科研/顶会下毒指北.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "编程语言",
+    "path": "编程语言",
+    "type": "tree",
+    "children": [
+      {
+        "name": "Cpp",
+        "path": "编程语言/Cpp",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Cpp-stdlib",
+            "path": "编程语言/Cpp/Cpp-stdlib",
+            "type": "tree",
+            "children": [
+              {
+                "name": "stdlib-cstdio.md",
+                "path": "编程语言/Cpp/Cpp-stdlib/stdlib-cstdio.md",
+                "type": "blob"
+              },
+              {
+                "name": "stdlib-format.md",
+                "path": "编程语言/Cpp/Cpp-stdlib/stdlib-format.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Cpp11",
+            "path": "编程语言/Cpp/Cpp11",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-C++11特性概述.md",
+                "path": "编程语言/Cpp/Cpp11/01-C++11特性概述.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-constexpr.md",
+                "path": "编程语言/Cpp/Cpp11/02-constexpr.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-右值理论.md",
+                "path": "编程语言/Cpp/Cpp11/03-右值理论.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Cpp17",
+            "path": "编程语言/Cpp/Cpp17",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-C++17特性概述.md",
+                "path": "编程语言/Cpp/Cpp17/01-C++17特性概述.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-string_view.md",
+                "path": "编程语言/Cpp/Cpp17/02-string_view.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-结构化绑定.md",
+                "path": "编程语言/Cpp/Cpp17/03-结构化绑定.md",
+                "type": "blob"
+              },
+              {
+                "name": "04-any.md",
+                "path": "编程语言/Cpp/Cpp17/04-any.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Cpp20",
+            "path": "编程语言/Cpp/Cpp20",
+            "type": "tree",
+            "children": [
+              {
+                "name": "00-Cpp20特性概述.md",
+                "path": "编程语言/Cpp/Cpp20/00-Cpp20特性概述.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Cpplibs",
+            "path": "编程语言/Cpp/Cpplibs",
+            "type": "tree",
+            "children": [
+              {
+                "name": "googletest",
+                "path": "编程语言/Cpp/Cpplibs/googletest",
+                "type": "tree",
+                "children": [
+                  {
+                    "name": "01-googletest基础.md",
+                    "path": "编程语言/Cpp/Cpplibs/googletest/01-googletest基础.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "A01-googletest断言参考.md",
+                    "path": "编程语言/Cpp/Cpplibs/googletest/A01-googletest断言参考.md",
+                    "type": "blob"
+                  }
+                ]
+              },
+              {
+                "name": "libffmpeg.md",
+                "path": "编程语言/Cpp/Cpplibs/libffmpeg.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Cpp性能优化",
+            "path": "编程语言/Cpp/Cpp性能优化",
+            "type": "tree",
+            "children": [
+              {
+                "name": "Cpp优化小记.md",
+                "path": "编程语言/Cpp/Cpp性能优化/Cpp优化小记.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Cpp设计模式",
+            "path": "编程语言/Cpp/Cpp设计模式",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-pImpl.md",
+                "path": "编程语言/Cpp/Cpp设计模式/01-pImpl.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "C++返回值、形参、接收类型规范.md",
+            "path": "编程语言/Cpp/C++返回值、形参、接收类型规范.md",
+            "type": "blob"
+          },
+          {
+            "name": "Effective_Modern_C++.md",
+            "path": "编程语言/Cpp/Effective_Modern_C++.md",
+            "type": "blob"
+          },
+          {
+            "name": "Qt源码交叉编译.md",
+            "path": "编程语言/Cpp/Qt源码交叉编译.md",
+            "type": "blob"
+          },
+          {
+            "name": "SLP-01-Linux系统编程概述.md",
+            "path": "编程语言/Cpp/SLP-01-Linux系统编程概述.md",
+            "type": "blob"
+          },
+          {
+            "name": "一种C++ RTTI实现.md",
+            "path": "编程语言/Cpp/一种C++ RTTI实现.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Go",
+        "path": "编程语言/Go",
+        "type": "tree",
+        "children": [
+          {
+            "name": "00-Go入门.md",
+            "path": "编程语言/Go/00-Go入门.md",
+            "type": "blob"
+          },
+          {
+            "name": "01-Go其余语法.md",
+            "path": "编程语言/Go/01-Go其余语法.md",
+            "type": "blob"
+          },
+          {
+            "name": "02-Go标准库.md",
+            "path": "编程语言/Go/02-Go标准库.md",
+            "type": "blob"
+          },
+          {
+            "name": "03-Go项目实践.md",
+            "path": "编程语言/Go/03-Go项目实践.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Haskell",
+        "path": "编程语言/Haskell",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-Haskell基础.md",
+            "path": "编程语言/Haskell/01-Haskell基础.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Java",
+        "path": "编程语言/Java",
+        "type": "tree",
+        "children": [
+          {
+            "name": "@-Java基础",
+            "path": "编程语言/Java/@-Java基础",
+            "type": "tree",
+            "children": [
+              {
+                "name": "001-Java简介.md",
+                "path": "编程语言/Java/@-Java基础/001-Java简介.md",
+                "type": "blob"
+              },
+              {
+                "name": "002-Java基本语法.md",
+                "path": "编程语言/Java/@-Java基础/002-Java基本语法.md",
+                "type": "blob"
+              },
+              {
+                "name": "003-Java面向对象方法.md",
+                "path": "编程语言/Java/@-Java基础/003-Java面向对象方法.md",
+                "type": "blob"
+              },
+              {
+                "name": "004-Java核心类.md",
+                "path": "编程语言/Java/@-Java基础/004-Java核心类.md",
+                "type": "blob"
+              },
+              {
+                "name": "005-Java异常.md",
+                "path": "编程语言/Java/@-Java基础/005-Java异常.md",
+                "type": "blob"
+              },
+              {
+                "name": "006-Java日志.md",
+                "path": "编程语言/Java/@-Java基础/006-Java日志.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "@-Maven",
+            "path": "编程语言/Java/@-Maven",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-Maven简介.md",
+                "path": "编程语言/Java/@-Maven/01-Maven简介.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-Maven POM.md",
+                "path": "编程语言/Java/@-Maven/02-Maven POM.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-Maven构建生命周期.md",
+                "path": "编程语言/Java/@-Maven/03-Maven构建生命周期.md",
+                "type": "blob"
+              },
+              {
+                "name": "04-Maven构建配置文件.md",
+                "path": "编程语言/Java/@-Maven/04-Maven构建配置文件.md",
+                "type": "blob"
+              },
+              {
+                "name": "A01-POM标签注解.md",
+                "path": "编程语言/Java/@-Maven/A01-POM标签注解.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "SpringBoot",
+            "path": "编程语言/Java/SpringBoot",
+            "type": "tree",
+            "children": [
+              {
+                "name": "案例",
+                "path": "编程语言/Java/SpringBoot/案例",
+                "type": "tree",
+                "children": [
+                  {
+                    "name": "01-SpringBoot案例一.md",
+                    "path": "编程语言/Java/SpringBoot/案例/01-SpringBoot案例一.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "02-markidea读项目.md",
+                    "path": "编程语言/Java/SpringBoot/案例/02-markidea读项目.md",
+                    "type": "blob"
+                  }
+                ]
+              },
+              {
+                "name": "01-SpringBoot简介.md",
+                "path": "编程语言/Java/SpringBoot/01-SpringBoot简介.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-SpringBoot快速入门.md",
+                "path": "编程语言/Java/SpringBoot/02-SpringBoot快速入门.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-SpringBoot整合其他框架.md",
+                "path": "编程语言/Java/SpringBoot/03-SpringBoot整合其他框架.md",
+                "type": "blob"
+              },
+              {
+                "name": "04-SpringBoot原理分析.md",
+                "path": "编程语言/Java/SpringBoot/04-SpringBoot原理分析.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "SQLite",
+            "path": "编程语言/Java/SQLite",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-SQLite简介.md",
+                "path": "编程语言/Java/SQLite/01-SQLite简介.md",
+                "type": "blob"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "path": "编程语言/JavaScript",
+        "type": "tree",
+        "children": [
+          {
+            "name": "@-JS基础",
+            "path": "编程语言/JavaScript/@-JS基础",
+            "type": "tree",
+            "children": [
+              {
+                "name": "001-JavaScript简介.md",
+                "path": "编程语言/JavaScript/@-JS基础/001-JavaScript简介.md",
+                "type": "blob"
+              },
+              {
+                "name": "002-JavaScript基本语法.md",
+                "path": "编程语言/JavaScript/@-JS基础/002-JavaScript基本语法.md",
+                "type": "blob"
+              },
+              {
+                "name": "002A-JavaScript字符串API.md",
+                "path": "编程语言/JavaScript/@-JS基础/002A-JavaScript字符串API.md",
+                "type": "blob"
+              },
+              {
+                "name": "002B-JavaScript数组API.md",
+                "path": "编程语言/JavaScript/@-JS基础/002B-JavaScript数组API.md",
+                "type": "blob"
+              },
+              {
+                "name": "002C-JavaScript日期API.md",
+                "path": "编程语言/JavaScript/@-JS基础/002C-JavaScript日期API.md",
+                "type": "blob"
+              },
+              {
+                "name": "002D-JavaScript数学API.md",
+                "path": "编程语言/JavaScript/@-JS基础/002D-JavaScript数学API.md",
+                "type": "blob"
+              },
+              {
+                "name": "003-JavaScript正则表达式.md",
+                "path": "编程语言/JavaScript/@-JS基础/003-JavaScript正则表达式.md",
+                "type": "blob"
+              },
+              {
+                "name": "004-JavaScript对象和类.md",
+                "path": "编程语言/JavaScript/@-JS基础/004-JavaScript对象和类.md",
+                "type": "blob"
+              },
+              {
+                "name": "005-JavaScript JSON.md",
+                "path": "编程语言/JavaScript/@-JS基础/005-JavaScript JSON.md",
+                "type": "blob"
+              },
+              {
+                "name": "006-JavaScript函数.md",
+                "path": "编程语言/JavaScript/@-JS基础/006-JavaScript函数.md",
+                "type": "blob"
+              },
+              {
+                "name": "007-JavaScript异步.md",
+                "path": "编程语言/JavaScript/@-JS基础/007-JavaScript异步.md",
+                "type": "blob"
+              },
+              {
+                "name": "008-JavaScript HTML DOM.md",
+                "path": "编程语言/JavaScript/@-JS基础/008-JavaScript HTML DOM.md",
+                "type": "blob"
+              },
+              {
+                "name": "009-JavaScript Browser BOM.md",
+                "path": "编程语言/JavaScript/@-JS基础/009-JavaScript Browser BOM.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Node.js",
+            "path": "编程语言/JavaScript/Node.js",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-fs文件模块.md",
+                "path": "编程语言/JavaScript/Node.js/01-fs文件模块.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-path路径模块.md",
+                "path": "编程语言/JavaScript/Node.js/02-path路径模块.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-http模块初步.md",
+                "path": "编程语言/JavaScript/Node.js/03-http模块初步.md",
+                "type": "blob"
+              },
+              {
+                "name": "04-模块化.md",
+                "path": "编程语言/JavaScript/Node.js/04-模块化.md",
+                "type": "blob"
+              },
+              {
+                "name": "05-npm与包.md",
+                "path": "编程语言/JavaScript/Node.js/05-npm与包.md",
+                "type": "blob"
+              },
+              {
+                "name": "06-express模块.md",
+                "path": "编程语言/JavaScript/Node.js/06-express模块.md",
+                "type": "blob"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Python",
+        "path": "编程语言/Python",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Dash",
+            "path": "编程语言/Python/Dash",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-Dash Briefing.md",
+                "path": "编程语言/Python/Dash/01-Dash Briefing.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Flask",
+            "path": "编程语言/Python/Flask",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-Flask简介和基本配置.md",
+                "path": "编程语言/Python/Flask/01-Flask简介和基本配置.md",
+                "type": "blob"
+              },
+              {
+                "name": "01A-Flask有关的依赖列表.md",
+                "path": "编程语言/Python/Flask/01A-Flask有关的依赖列表.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-Flask基础.md",
+                "path": "编程语言/Python/Flask/02-Flask基础.md",
+                "type": "blob"
+              },
+              {
+                "name": "A01-Flask-Login.md",
+                "path": "编程语言/Python/Flask/A01-Flask-Login.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "LangChain-Python",
+            "path": "编程语言/Python/LangChain-Python",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-LangChain基础.md",
+                "path": "编程语言/Python/LangChain-Python/01-LangChain基础.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "Matplotlib",
+            "path": "编程语言/Python/Matplotlib",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-Matplotlib基础.md",
+                "path": "编程语言/Python/Matplotlib/01-Matplotlib基础.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "pip",
+            "path": "编程语言/Python/pip",
+            "type": "tree",
+            "children": [
+              {
+                "name": "pip基础.md",
+                "path": "编程语言/Python/pip/pip基础.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "PyTorch",
+            "path": "编程语言/Python/PyTorch",
+            "type": "tree",
+            "children": [
+              {
+                "name": "PyTorch库结构.md",
+                "path": "编程语言/Python/PyTorch/PyTorch库结构.md",
+                "type": "blob"
+              },
+              {
+                "name": "PyTorch张量计算.md",
+                "path": "编程语言/Python/PyTorch/PyTorch张量计算.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "uv",
+            "path": "编程语言/Python/uv",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-Python uv基础.md",
+                "path": "编程语言/Python/uv/01-Python uv基础.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "001-Python函数.md",
+            "path": "编程语言/Python/001-Python函数.md",
+            "type": "blob"
+          },
+          {
+            "name": "002-Python类和对象.md",
+            "path": "编程语言/Python/002-Python类和对象.md",
+            "type": "blob"
+          },
+          {
+            "name": "003-Python数据交换.md",
+            "path": "编程语言/Python/003-Python数据交换.md",
+            "type": "blob"
+          },
+          {
+            "name": "opencv-python.md",
+            "path": "编程语言/Python/opencv-python.md",
+            "type": "blob"
+          },
+          {
+            "name": "PyAV.md",
+            "path": "编程语言/Python/PyAV.md",
+            "type": "blob"
+          },
+          {
+            "name": "Python-asyncio.md",
+            "path": "编程语言/Python/Python-asyncio.md",
+            "type": "blob"
+          },
+          {
+            "name": "Python-decord.md",
+            "path": "编程语言/Python/Python-decord.md",
+            "type": "blob"
+          },
+          {
+            "name": "Python-dotenv.md",
+            "path": "编程语言/Python/Python-dotenv.md",
+            "type": "blob"
+          },
+          {
+            "name": "Python-multiprocessing.md",
+            "path": "编程语言/Python/Python-multiprocessing.md",
+            "type": "blob"
+          },
+          {
+            "name": "Python-numpy.md",
+            "path": "编程语言/Python/Python-numpy.md",
+            "type": "blob"
+          },
+          {
+            "name": "Python-pandas.md",
+            "path": "编程语言/Python/Python-pandas.md",
+            "type": "blob"
+          },
+          {
+            "name": "Python-pyinstrument.md",
+            "path": "编程语言/Python/Python-pyinstrument.md",
+            "type": "blob"
+          },
+          {
+            "name": "Python-re.md",
+            "path": "编程语言/Python/Python-re.md",
+            "type": "blob"
+          },
+          {
+            "name": "Python-requests.md",
+            "path": "编程语言/Python/Python-requests.md",
+            "type": "blob"
+          },
+          {
+            "name": "Python-tqdm.md",
+            "path": "编程语言/Python/Python-tqdm.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Rust",
+        "path": "编程语言/Rust",
+        "type": "tree",
+        "children": [
+          {
+            "name": "00-Rust入门.md",
+            "path": "编程语言/Rust/00-Rust入门.md",
+            "type": "blob"
+          },
+          {
+            "name": "01-Rust语法.md",
+            "path": "编程语言/Rust/01-Rust语法.md",
+            "type": "blob"
+          },
+          {
+            "name": "02-Rust简单用例.md",
+            "path": "编程语言/Rust/02-Rust简单用例.md",
+            "type": "blob"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "读书笔记",
+    "path": "读书笔记",
+    "type": "tree",
+    "children": [
+      {
+        "name": "命令行的艺术.md",
+        "path": "读书笔记/命令行的艺术.md",
+        "type": "blob"
+      },
+      {
+        "name": "回话的技术-高文斐.md",
+        "path": "读书笔记/回话的技术-高文斐.md",
+        "type": "blob"
+      },
+      {
+        "name": "是大臣-01.md",
+        "path": "读书笔记/是大臣-01.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "课程-外语",
+    "path": "课程-外语",
+    "type": "tree",
+    "children": [
+      {
+        "name": "西班牙语",
+        "path": "课程-外语/西班牙语",
+        "type": "tree",
+        "children": [
+          {
+            "name": "ES-SL01.md",
+            "path": "课程-外语/西班牙语/ES-SL01.md",
+            "type": "blob"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "课程-数学",
+    "path": "课程-数学",
+    "type": "tree",
+    "children": [
+      {
+        "name": "杂项",
+        "path": "课程-数学/杂项",
+        "type": "tree",
+        "children": [
+          {
+            "name": "KhanAcademy-IntegralCalculus.md",
+            "path": "课程-数学/杂项/KhanAcademy-IntegralCalculus.md",
+            "type": "blob"
+          },
+          {
+            "name": "初等代数.old.md",
+            "path": "课程-数学/杂项/初等代数.old.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "@00-数学体系.md",
+        "path": "课程-数学/@00-数学体系.md",
+        "type": "blob"
+      },
+      {
+        "name": "@01-词典-初等+数分高代.md",
+        "path": "课程-数学/@01-词典-初等+数分高代.md",
+        "type": "blob"
+      },
+      {
+        "name": "A01-初等代数.md",
+        "path": "课程-数学/A01-初等代数.md",
+        "type": "blob"
+      },
+      {
+        "name": "A02-初等几何.md",
+        "path": "课程-数学/A02-初等几何.md",
+        "type": "blob"
+      },
+      {
+        "name": "A03-初等三角学.md",
+        "path": "课程-数学/A03-初等三角学.md",
+        "type": "blob"
+      },
+      {
+        "name": "B01-数学分析.md",
+        "path": "课程-数学/B01-数学分析.md",
+        "type": "blob"
+      },
+      {
+        "name": "B02-线性代数.md",
+        "path": "课程-数学/B02-线性代数.md",
+        "type": "blob"
+      },
+      {
+        "name": "B03-概率论与数理统计.md",
+        "path": "课程-数学/B03-概率论与数理统计.md",
+        "type": "blob"
+      },
+      {
+        "name": "C01-随机过程.md",
+        "path": "课程-数学/C01-随机过程.md",
+        "type": "blob"
+      },
+      {
+        "name": "北大离散数学-图论.md",
+        "path": "课程-数学/北大离散数学-图论.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "课程-计算机科学",
+    "path": "课程-计算机科学",
+    "type": "tree",
+    "children": [
+      {
+        "name": "AI",
+        "path": "课程-计算机科学/AI",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Anthropic-Claude课程.md",
+            "path": "课程-计算机科学/AI/Anthropic-Claude课程.md",
+            "type": "blob"
+          },
+          {
+            "name": "Datawhale-HappyLLM.md",
+            "path": "课程-计算机科学/AI/Datawhale-HappyLLM.md",
+            "type": "blob"
+          },
+          {
+            "name": "Datawhale-HelloAgent.md",
+            "path": "课程-计算机科学/AI/Datawhale-HelloAgent.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "West_图论导引",
+        "path": "课程-计算机科学/West_图论导引",
+        "type": "tree",
+        "children": [
+          {
+            "name": "IGT01-基础概念.md",
+            "path": "课程-计算机科学/West_图论导引/IGT01-基础概念.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "云计算",
+        "path": "课程-计算机科学/云计算",
+        "type": "tree",
+        "children": [
+          {
+            "name": "云计算作业-伪分布式Hadoop.md",
+            "path": "课程-计算机科学/云计算/云计算作业-伪分布式Hadoop.md",
+            "type": "blob"
+          },
+          {
+            "name": "莫同-云计算技术与应用.md",
+            "path": "课程-计算机科学/云计算/莫同-云计算技术与应用.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "大模型课程",
+        "path": "课程-计算机科学/大模型课程",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Stanford_CS336.md",
+            "path": "课程-计算机科学/大模型课程/Stanford_CS336.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "操作系统",
+        "path": "课程-计算机科学/操作系统",
+        "type": "tree",
+        "children": [
+          {
+            "name": "xv6实验日志.md",
+            "path": "课程-计算机科学/操作系统/xv6实验日志.md",
+            "type": "blob"
+          },
+          {
+            "name": "xv6源码阅读.md",
+            "path": "课程-计算机科学/操作系统/xv6源码阅读.md",
+            "type": "blob"
+          },
+          {
+            "name": "沈晴霓-OS与虚拟化安全.md",
+            "path": "课程-计算机科学/操作系统/沈晴霓-OS与虚拟化安全.md",
+            "type": "blob"
+          },
+          {
+            "name": "陈向群-操作系统高级课程.md",
+            "path": "课程-计算机科学/操作系统/陈向群-操作系统高级课程.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "算法",
+        "path": "课程-计算机科学/算法",
+        "type": "tree",
+        "children": [
+          {
+            "name": "代数算法",
+            "path": "课程-计算机科学/算法/代数算法",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-线性规划.md",
+                "path": "课程-计算机科学/算法/代数算法/01-线性规划.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "位运算",
+            "path": "课程-计算机科学/算法/位运算",
+            "type": "tree",
+            "children": [
+              {
+                "name": "位运算-面试鸭.md",
+                "path": "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "字符串算法",
+            "path": "课程-计算机科学/算法/字符串算法",
+            "type": "tree",
+            "children": [
+              {
+                "name": "01-Trie.md",
+                "path": "课程-计算机科学/算法/字符串算法/01-Trie.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-KMP.md",
+                "path": "课程-计算机科学/算法/字符串算法/02-KMP.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-Manacher.md",
+                "path": "课程-计算机科学/算法/字符串算法/03-Manacher.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "经典数据结构",
+            "path": "课程-计算机科学/算法/经典数据结构",
+            "type": "tree",
+            "children": [
+              {
+                "name": "A-红黑树.md",
+                "path": "课程-计算机科学/算法/经典数据结构/A-红黑树.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "经典算法",
+            "path": "课程-计算机科学/算法/经典算法",
+            "type": "tree",
+            "children": [
+              {
+                "name": "力扣01-动态规划.md",
+                "path": "课程-计算机科学/算法/经典算法/力扣01-动态规划.md",
+                "type": "blob"
+              },
+              {
+                "name": "力扣02-搜索.md",
+                "path": "课程-计算机科学/算法/经典算法/力扣02-搜索.md",
+                "type": "blob"
+              },
+              {
+                "name": "力扣03-数学.md",
+                "path": "课程-计算机科学/算法/经典算法/力扣03-数学.md",
+                "type": "blob"
+              },
+              {
+                "name": "力扣04-乱搞.md",
+                "path": "课程-计算机科学/算法/经典算法/力扣04-乱搞.md",
+                "type": "blob"
+              },
+              {
+                "name": "力扣05-贪心.md",
+                "path": "课程-计算机科学/算法/经典算法/力扣05-贪心.md",
+                "type": "blob"
+              },
+              {
+                "name": "力扣06-递归二分.md",
+                "path": "课程-计算机科学/算法/经典算法/力扣06-递归二分.md",
+                "type": "blob"
+              },
+              {
+                "name": "力扣07-图论.md",
+                "path": "课程-计算机科学/算法/经典算法/力扣07-图论.md",
+                "type": "blob"
+              },
+              {
+                "name": "贪心专题.md",
+                "path": "课程-计算机科学/算法/经典算法/贪心专题.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "张齐勋-算法分析与设计.md",
+            "path": "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
+            "type": "blob"
+          },
+          {
+            "name": "链表题.md",
+            "path": "课程-计算机科学/算法/链表题.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "软件工程",
+        "path": "课程-计算机科学/软件工程",
+        "type": "tree",
+        "children": [
+          {
+            "name": "荆琦-软件需求工程.md",
+            "path": "课程-计算机科学/软件工程/荆琦-软件需求工程.md",
+            "type": "blob"
+          },
+          {
+            "name": "蒋严冰-软件实现技术.md",
+            "path": "课程-计算机科学/软件工程/蒋严冰-软件实现技术.md",
+            "type": "blob"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "课程项目",
+    "path": "课程项目",
+    "type": "tree",
+    "children": [
+      {
+        "name": "CMU-DB",
+        "path": "课程项目/CMU-DB",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-15445-bootcamp.md",
+            "path": "课程项目/CMU-DB/01-15445-bootcamp.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "CMU-ICS",
+        "path": "课程项目/CMU-ICS",
+        "type": "tree",
+        "children": [
+          {
+            "name": "00-ics-overview.md",
+            "path": "课程项目/CMU-ICS/00-ics-overview.md",
+            "type": "blob"
+          },
+          {
+            "name": "01-ics-coursenote.md",
+            "path": "课程项目/CMU-ICS/01-ics-coursenote.md",
+            "type": "blob"
+          },
+          {
+            "name": "02-ics-labs.md",
+            "path": "课程项目/CMU-ICS/02-ics-labs.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "NJU-OS",
+        "path": "课程项目/NJU-OS",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-绪论&并发.md",
+            "path": "课程项目/NJU-OS/01-绪论&并发.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Stanford-CS224w",
+        "path": "课程项目/Stanford-CS224w",
+        "type": "tree",
+        "children": [
+          {
+            "name": "CS224w-01.md",
+            "path": "课程项目/Stanford-CS224w/CS224w-01.md",
+            "type": "blob"
+          },
+          {
+            "name": "CS224w-02.md",
+            "path": "课程项目/Stanford-CS224w/CS224w-02.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "Stanford-CS336",
+        "path": "课程项目/Stanford-CS336",
+        "type": "tree",
+        "children": [
+          {
+            "name": "CS336-PA01-TransformerLM.md",
+            "path": "课程项目/Stanford-CS336/CS336-PA01-TransformerLM.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "UCAS-一生一芯",
+        "path": "课程项目/UCAS-一生一芯",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-一生一芯预学习.md",
+            "path": "课程项目/UCAS-一生一芯/01-一生一芯预学习.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "UCSB-GAMES101",
+        "path": "课程项目/UCSB-GAMES101",
+        "type": "tree",
+        "children": [
+          {
+            "name": "L01-summary.md",
+            "path": "课程项目/UCSB-GAMES101/L01-summary.md",
+            "type": "blob"
+          },
+          {
+            "name": "L02-linear algebra.md",
+            "path": "课程项目/UCSB-GAMES101/L02-linear algebra.md",
+            "type": "blob"
+          },
+          {
+            "name": "L03-2D transforms.md",
+            "path": "课程项目/UCSB-GAMES101/L03-2D transforms.md",
+            "type": "blob"
+          },
+          {
+            "name": "L04-3D transforms.md",
+            "path": "课程项目/UCSB-GAMES101/L04-3D transforms.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "MIT-MissingSemester.md",
+        "path": "课程项目/MIT-MissingSemester.md",
+        "type": "blob"
+      }
+    ]
+  },
+  {
+    "name": "!striking-back.md",
+    "path": "!striking-back.md",
+    "type": "blob"
+  },
+  {
+    "name": "!wise-words.md",
+    "path": "!wise-words.md",
+    "type": "blob"
+  },
+  {
+    "name": "!到复试的全部学习计划.md",
+    "path": "!到复试的全部学习计划.md",
+    "type": "blob"
+  },
+  {
+    "name": "!待办.md",
+    "path": "!待办.md",
+    "type": "blob"
+  },
+  {
+    "name": "!技能清单.md",
+    "path": "!技能清单.md",
+    "type": "blob"
+  },
+  {
+    "name": "!读论文计划.md",
+    "path": "!读论文计划.md",
+    "type": "blob"
+  }
+]
