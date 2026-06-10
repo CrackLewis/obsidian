@@ -2,11 +2,13 @@ import subprocess
 import json
 import os
 import mimetypes
+import argparse
 from datetime import datetime
 
 local_repo_path = "C:\\Users\\DELL\\Desktop\\Workbench\\obsidian"
 remote_name = "origin"
 remote_branch = "master"
+LAST_SYNC_FILE = os.path.join(local_repo_path, ".last-sync-r2")
 
 
 def scan_directory(dir_path: str, rel_path: str) -> list:
@@ -71,6 +73,56 @@ def git_run(args: list, check: bool = False):
     )
 
 
+def parse_args():
+    """解析命令行参数"""
+    parser = argparse.ArgumentParser(description="自动备份笔记并同步到 GitHub + R2")
+    parser.add_argument(
+        "--increment", action="store_true",
+        help="增量模式：仅同步 git 历史中有变更的 .md 文件到 R2（首次运行自动全量）"
+    )
+    return parser.parse_args()
+
+
+def get_last_sync_commit() -> str | None:
+    """读取上次同步到的 commit hash"""
+    try:
+        with open(LAST_SYNC_FILE, "r") as f:
+            return f.read().strip()
+    except (FileNotFoundError, OSError):
+        return None
+
+
+def save_last_sync_commit(commit_hash: str):
+    """记录本次同步到的 commit hash"""
+    with open(LAST_SYNC_FILE, "w") as f:
+        f.write(commit_hash)
+
+
+def get_changed_md_files(since_hash: str) -> dict | None:
+    """获取 since_hash..HEAD 之间变更的 .md 文件: {path: status}"""
+    # 验证 hash 在仓库中是否存在
+    check = git_run(["cat-file", "-e", since_hash])
+    if check.returncode != 0:
+        return None
+
+    result = git_run(["diff", "--name-status", f"{since_hash}..HEAD"])
+    changed = {}
+    for line in result.stdout.strip().split("\n"):
+        line = line.strip()
+        if not line:
+            continue
+        # 兼容 tab 和空格分隔
+        parts = line.split("\t") if "\t" in line else line.split(None, 1)
+        if len(parts) < 2:
+            continue
+        status = parts[0]
+        path = parts[-1].strip()
+        # 只跟踪 .md 文件，排除 tree.json
+        if path.endswith(".md"):
+            changed[path] = status
+    return changed
+
+
 def read_r2_config() -> dict | None:
     """读取 r2.json 中的 R2 凭证配置"""
     config_path = os.path.join(local_repo_path, "r2.json")
@@ -90,8 +142,8 @@ def read_r2_config() -> dict | None:
         return None
 
 
-def sync_to_r2():
-    """将 tree.json 和所有 .md 笔记同步到 Cloudflare R2。"""
+def sync_to_r2(incremental: bool = False):
+    """将 tree.json 和 .md 笔记同步到 Cloudflare R2。"""
     config = read_r2_config()
     if not config:
         print("  ℹ️  未配置 r2.json，跳过 R2 同步（参考 r2.example.json）")
@@ -114,57 +166,99 @@ def sync_to_r2():
     )
 
     bucket = config["bucket"]
+
+    # --- 收集需要上传/删除的文件 ---
+    files_to_upload: dict[str, str] = {}    # r2_key → local_path
+    files_to_delete: list[str] = []         # r2_key
+
+    if incremental:
+        last_sync = get_last_sync_commit()
+        if last_sync:
+            changed = get_changed_md_files(last_sync)
+            if changed is None:
+                print("  ⚠️  上次同步记录不在 git 历史中，改为全量同步")
+                last_sync = None
+            elif not changed:
+                print("  └─ 笔记文件: 无变更（仅更新 tree.json）")
+            else:
+                additions = {p for p, s in changed.items() if s != "D"}
+                deletions = [p for p, s in changed.items() if s == "D"]
+                print(f"  └─ 笔记文件（增量）: {len(additions)} 个新增/修改, {len(deletions)} 个删除")
+
+                for path in additions:
+                    local_path = os.path.join(local_repo_path, path)
+                    if os.path.exists(local_path) and not os.path.isdir(local_path):
+                        files_to_upload[path] = local_path
+                files_to_delete = deletions
+
+        if last_sync is None:
+            incremental = False  # 回退到全量
+
+    if not incremental:
+        # 全量模式：扫描所有 .md 文件
+        print("  └─ 笔记文件（全量）...")
+        for root_dir, dirs, files in os.walk(local_repo_path):
+            dirs[:] = [d for d in dirs if not d.startswith((".", "__"))]
+            for f in files:
+                if not f.endswith(".md"):
+                    continue
+                local_path = os.path.join(root_dir, f)
+                r2_key = os.path.relpath(local_path, local_repo_path).replace(os.sep, "/")
+                files_to_upload[r2_key] = local_path
+
+    # --- 执行上传 ---
     uploaded = 0
     failed = 0
+    num_files = len(files_to_upload) + len(files_to_delete)
 
-    # 1. 上传所有 .md 文件（保持目录结构）
-    print("  └─ 笔记文件...")
-    for root_dir, dirs, files in os.walk(local_repo_path):
-        # 跳过隐藏目录和 __pycache__
-        dirs[:] = [d for d in dirs if not d.startswith(('.', '__'))]
+    if not files_to_upload and not files_to_delete:
+        print("  └─ 笔记文件: 无变更")
+    else:
+        progress_label = f"  └─ 笔记文件 ({'增量' if incremental else '全量'}): "
+        print(f"{progress_label}上传 {len(files_to_upload)}, 删除 {len(files_to_delete)}")
 
-        for f in files:
-            if not f.endswith('.md'):
-                continue
-
-            local_path = os.path.join(root_dir, f)
-            r2_key = os.path.relpath(local_path, local_repo_path).replace(os.sep, '/')
-
-            # 自动推断 Content-Type
+        for r2_key, local_path in files_to_upload.items():
             content_type, _ = mimetypes.guess_type(local_path)
             if not content_type:
                 content_type = "text/markdown"
-
             try:
                 with open(local_path, "rb") as fh:
-                    client.put_object(
-                        Bucket=bucket,
-                        Key=r2_key,
-                        Body=fh,
-                        ContentType=content_type,
-                    )
+                    client.put_object(Bucket=bucket, Key=r2_key, Body=fh, ContentType=content_type)
                 uploaded += 1
             except Exception as e:
                 print(f"    ❌ {r2_key}: {e}")
                 failed += 1
 
-    # 2. 上传 tree.json
+        for r2_key in files_to_delete:
+            try:
+                client.delete_object(Bucket=bucket, Key=r2_key)
+            except Exception as e:
+                print(f"    ❌ 删除失败 {r2_key}: {e}")
+                failed += 1
+
+    # --- 上传 tree.json ---
     print("  └─ tree.json ...")
     tree_path = os.path.join(local_repo_path, "tree.json")
     try:
         client.upload_file(tree_path, bucket, "tree.json", ExtraArgs={"ContentType": "application/json"})
-        print(f"    ✅ tree.json 已上传")
+        print("    ✅ tree.json 已上传")
     except Exception as e:
         print(f"    ❌ tree.json 上传失败: {e}")
         failed += 1
 
+    # --- 记录本次同步的 commit hash（用于下次增量对比） ---
+    current_head = git_run(["rev-parse", "HEAD"]).stdout.strip()
+    if current_head:
+        save_last_sync_commit(current_head)
+
     if failed:
-        print(f"\n  ⚠️  完成: {uploaded} 个上传, {failed} 个失败")
+        print(f"\n  ⚠️  完成: {uploaded} 个上传, {num_files - uploaded - len(files_to_delete) + failed} 个失败")
     else:
-        print(f"\n  ✅ R2 同步完成: {uploaded} 个笔记已上传")
+        print(f"\n  ✅ R2 同步完成: {uploaded} 个笔记已同步")
 
 
 def main():
+    args = parse_args()
     os.chdir(local_repo_path)
 
     # ============================================================
@@ -333,7 +427,7 @@ def main():
     # ============================================================
     print("\n步骤 5/5: 同步到 Cloudflare R2...")
     print("-" * 50)
-    sync_to_r2()
+    sync_to_r2(incremental=args.increment)
 
 
 if __name__ == "__main__":

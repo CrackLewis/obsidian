@@ -2,6 +2,7 @@ autobackup.py
 autobackup-r2.py
 .CONFLICT
 r2.json
+.last-sync-r2
 __pycache__/
 
 .obsidian/plugins/copilot
