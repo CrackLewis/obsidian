@@ -65,7 +65,8 @@ def git_run(args: list, check: bool = False):
     """运行 git 命令并返回结果"""
     return subprocess.run(
         ["git"] + args,
-        capture_output=True, text=True
+        capture_output=True, text=True,
+        encoding='utf-8', errors='replace'
     )
 
 
