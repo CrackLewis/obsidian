@@ -9,6 +9,8 @@ local_repo_path = "C:\\Users\\DELL\\Desktop\\Workbench\\obsidian"
 remote_name = "origin"
 remote_branch = "master"
 LAST_SYNC_FILE = os.path.join(local_repo_path, ".last-sync-r2")
+# 上传到 R2 时显式忽略的文件（安全措施，防止凭证泄露）
+R2_EXCLUDED_FILES = {"r2.json", ".last-sync-r2", ".gitignore"}
 
 
 def scan_directory(dir_path: str, rel_path: str) -> list:
@@ -186,6 +188,8 @@ def sync_to_r2(incremental: bool = False):
                 print(f"  └─ 笔记文件（增量）: {len(additions)} 个新增/修改, {len(deletions)} 个删除")
 
                 for path in additions:
+                    if path in R2_EXCLUDED_FILES:
+                        continue
                     local_path = os.path.join(local_repo_path, path)
                     if os.path.exists(local_path) and not os.path.isdir(local_path):
                         files_to_upload[path] = local_path
@@ -202,9 +206,13 @@ def sync_to_r2(incremental: bool = False):
             for f in files:
                 if not f.endswith(".md"):
                     continue
-                local_path = os.path.join(root_dir, f)
-                r2_key = os.path.relpath(local_path, local_repo_path).replace(os.sep, "/")
-                files_to_upload[r2_key] = local_path
+                r2_key = os.path.relpath(
+                    os.path.join(root_dir, f),
+                    local_repo_path
+                ).replace(os.sep, "/")
+                if r2_key in R2_EXCLUDED_FILES:
+                    continue
+                files_to_upload[r2_key] = os.path.join(root_dir, f)
 
     # --- 执行上传 ---
     uploaded = 0
@@ -221,6 +229,7 @@ def sync_to_r2(incremental: bool = False):
             content_type, _ = mimetypes.guess_type(local_path)
             if not content_type:
                 content_type = "text/markdown"
+
             try:
                 with open(local_path, "rb") as fh:
                     client.put_object(Bucket=bucket, Key=r2_key, Body=fh, ContentType=content_type)

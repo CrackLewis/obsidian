@@ -218,8 +218,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ca3543a5a24243e3",
+  "active": "4b47eb8ffe7f9946",
   "lastOpenFiles": [
+    "autobackup-r2.py.tmp.20896.4d4ad244fdc7",
+    "autobackup-r2.py.tmp.20896.8ea8e4b56be5",
+    "autobackup-r2.py.tmp.20896.e791a5a4b7be",
     "autobackup-r2.py.tmp.20896.3ef74d5c41d9",
     "autobackup-r2.py.tmp.20896.b3b1faf4f156",
     "autobackup-r2.py.tmp.20896.3b37efe9d236",
@@ -228,9 +231,6 @@
     "__pycache__/autobackup-r2.cpython-313.pyc",
     "__pycache__",
     "autobackup-r2.py.tmp.20896.25acc7ec2fed",
-    "autobackup-r2.py.tmp.20896.fe2decc07e51",
-    "autobackup-r2.py.tmp.20896.6d7791498679",
-    "autobackup-r2.py.tmp.20896.1ffc71f7a866",
     "AI/深度学习理论/激活函数/ReLU.md",
     "AI/深度学习理论/激活函数/SwiGLU.md",
     "AI/深度学习理论/损失函数/未命名.md",
