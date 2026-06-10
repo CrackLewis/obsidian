@@ -1,6 +1,7 @@
 import subprocess
 import json
 import os
+import mimetypes
 from datetime import datetime
 
 local_repo_path = "C:\\Users\\DELL\\Desktop\\Workbench\\obsidian"
@@ -70,6 +71,99 @@ def git_run(args: list, check: bool = False):
     )
 
 
+def read_r2_config() -> dict | None:
+    """读取 r2.json 中的 R2 凭证配置"""
+    config_path = os.path.join(local_repo_path, "r2.json")
+    if not os.path.exists(config_path):
+        return None
+    try:
+        with open(config_path, "r", encoding="utf-8") as f:
+            cfg = json.load(f)
+        required = ("endpoint", "access_key", "secret_key", "bucket")
+        missing = [k for k in required if k not in cfg]
+        if missing:
+            print(f"⚠️  r2.json 缺少字段: {', '.join(missing)}")
+            return None
+        return cfg
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"⚠️  r2.json 读取失败: {e}")
+        return None
+
+
+def sync_to_r2():
+    """将 tree.json 和所有 .md 笔记同步到 Cloudflare R2。"""
+    config = read_r2_config()
+    if not config:
+        print("  ℹ️  未配置 r2.json，跳过 R2 同步（参考 r2.example.json）")
+        return
+
+    try:
+        import boto3
+    except ImportError:
+        print("  ❌ 需要 boto3 库来同步 R2，请运行: pip install boto3")
+        return
+
+    print(f"📤 正在同步到 R2 存储桶 {config['bucket']} ...")
+
+    client = boto3.client(
+        "s3",
+        endpoint_url=config["endpoint"],
+        region_name=config.get("region", "us-east-1"),
+        aws_access_key_id=config["access_key"],
+        aws_secret_access_key=config["secret_key"],
+    )
+
+    bucket = config["bucket"]
+    uploaded = 0
+    failed = 0
+
+    # 1. 上传所有 .md 文件（保持目录结构）
+    print("  └─ 笔记文件...")
+    for root_dir, dirs, files in os.walk(local_repo_path):
+        # 跳过隐藏目录和 __pycache__
+        dirs[:] = [d for d in dirs if not d.startswith(('.', '__'))]
+
+        for f in files:
+            if not f.endswith('.md'):
+                continue
+
+            local_path = os.path.join(root_dir, f)
+            r2_key = os.path.relpath(local_path, local_repo_path).replace(os.sep, '/')
+
+            # 自动推断 Content-Type
+            content_type, _ = mimetypes.guess_type(local_path)
+            if not content_type:
+                content_type = "text/markdown"
+
+            try:
+                with open(local_path, "rb") as fh:
+                    client.put_object(
+                        Bucket=bucket,
+                        Key=r2_key,
+                        Body=fh,
+                        ContentType=content_type,
+                    )
+                uploaded += 1
+            except Exception as e:
+                print(f"    ❌ {r2_key}: {e}")
+                failed += 1
+
+    # 2. 上传 tree.json
+    print("  └─ tree.json ...")
+    tree_path = os.path.join(local_repo_path, "tree.json")
+    try:
+        client.upload_file(tree_path, bucket, "tree.json", ExtraArgs={"ContentType": "application/json"})
+        print(f"    ✅ tree.json 已上传")
+    except Exception as e:
+        print(f"    ❌ tree.json 上传失败: {e}")
+        failed += 1
+
+    if failed:
+        print(f"\n  ⚠️  完成: {uploaded} 个上传, {failed} 个失败")
+    else:
+        print(f"\n  ✅ R2 同步完成: {uploaded} 个笔记已上传")
+
+
 def main():
     os.chdir(local_repo_path)
 
@@ -77,7 +171,7 @@ def main():
     # Step 1: 获取远程仓库状态
     # ============================================================
     print("=" * 50)
-    print("步骤 1/4: 获取远程仓库状态...")
+    print("步骤 1/5: 获取远程仓库状态...")
     print("-" * 50)
 
     fetch_result = git_run(["fetch", remote_name])
@@ -109,7 +203,7 @@ def main():
     # ============================================================
     # Step 2: 检查远程更新，有冲突则提示人工介入
     # ============================================================
-    print("\n步骤 2/4: 检查远程更新...")
+    print("\n步骤 2/5: 检查远程更新...")
     print("-" * 50)
 
     # 检查本地是否落后于远程
@@ -177,7 +271,7 @@ def main():
     # ============================================================
     # Step 3: 根据最新仓库状态生成 tree.json
     # ============================================================
-    print("\n步骤 3/4: 根据仓库状态生成 tree.json...")
+    print("\n步骤 3/5: 根据仓库状态生成 tree.json...")
     print("-" * 50)
 
     tree = generate_tree_json()
@@ -192,7 +286,7 @@ def main():
     # ============================================================
     # Step 4: 提交本地改动并推送到远程
     # ============================================================
-    print("\n步骤 4/4: 提交并推送...")
+    print("\n步骤 4/5: 提交并推送...")
     print("-" * 50)
 
     # Stage 所有文件（包括 tree.json）
@@ -233,6 +327,13 @@ def main():
         else:
             print("✅ 推送完成")
             break
+
+    # ============================================================
+    # Step 5: 同步到 Cloudflare R2
+    # ============================================================
+    print("\n步骤 5/5: 同步到 Cloudflare R2...")
+    print("-" * 50)
+    sync_to_r2()
 
 
 if __name__ == "__main__":

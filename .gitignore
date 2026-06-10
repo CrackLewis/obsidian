@@ -1,5 +1,8 @@
 autobackup.py
+autobackup-r2.py
 .CONFLICT
+r2.json
+__pycache__/
 
 .obsidian/plugins/copilot
 .obsidian/plugins/remotely-save
