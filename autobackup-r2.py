@@ -3,7 +3,7 @@ import json
 import os
 import mimetypes
 import argparse
-from datetime import datetime
+from datetime import datetime, timezone
 
 local_repo_path = "C:\\Users\\DELL\\Desktop\\Workbench\\obsidian"
 remote_name = "origin"
@@ -90,7 +90,11 @@ def parse_args():
     parser = argparse.ArgumentParser(description="自动备份笔记并同步到 GitHub + R2")
     parser.add_argument(
         "--increment", action="store_true",
-        help="增量模式：仅同步 git 历史中有变更的文件到 R2（首次运行自动全量）"
+        help="增量模式：根据 git diff 对 R2 做同样增删改"
+    )
+    parser.add_argument(
+        "--zero-trust", action="store_true",
+        help="零信任模式：无条件重传所有文件，删除 R2 多余文件，更新 tree.json"
     )
     return parser.parse_args()
 
@@ -156,8 +160,57 @@ def read_r2_config() -> dict | None:
         return None
 
 
-def sync_to_r2(incremental: bool = False):
-    """将 tree.json 和仓库文件同步到 Cloudflare R2。"""
+def list_r2_objects(client, bucket) -> dict:
+    """列出 R2 存储桶中所有对象及其元数据 {key: {Size, LastModified, ...}}"""
+    objects = {}
+    paginator = client.get_paginator("list_objects_v2")
+    for page in paginator.paginate(Bucket=bucket):
+        for obj in page.get("Contents", []):
+            objects[obj["Key"]] = obj
+    return objects
+
+
+def get_tree_file_paths(tree: list) -> set:
+    """从 tree.json 嵌套结构中提取所有文件路径"""
+    paths = set()
+    for node in tree:
+        if node["type"] == "blob":
+            paths.add(node["path"])
+        elif "children" in node:
+            paths.update(get_tree_file_paths(node["children"]))
+    return paths
+
+
+def _guess_content_type(path: str) -> str:
+    ct, _ = mimetypes.guess_type(path)
+    return ct or "application/octet-stream"
+
+
+def _update_tree_json(client, bucket) -> bool:
+    """重新生成 tree.json 并上传到 R2，返回是否成功"""
+    print("  └─ 更新 tree.json ...")
+    tree = generate_tree_json()
+    tree_path = os.path.join(local_repo_path, "tree.json")
+    with open(tree_path, "w", encoding="utf-8") as f:
+        json.dump(tree, f, ensure_ascii=False, indent=2)
+    try:
+        client.upload_file(tree_path, bucket, "tree.json",
+                           ExtraArgs={"ContentType": "application/json"})
+        print("    ✅ tree.json 已上传")
+        return True
+    except Exception as e:
+        print(f"    ❌ tree.json 上传失败: {e}")
+        return False
+
+
+def sync_to_r2(mode: str = "full"):
+    """同步仓库文件到 Cloudflare R2。
+
+    三种模式:
+      "incremental" — 基于 git diff 对 R2 做同样增删改
+      "full"        — 以 tree.json 为清单核对 R2，上传缺失/不一致，删除多余
+      "zero-trust"  — 无条件重传所有文件，删除 R2 多余文件
+    """
     config = read_r2_config()
     if not config:
         print("  ℹ️  未配置 r2.json，跳过 R2 同步（参考 r2.example.json）")
@@ -169,7 +222,20 @@ def sync_to_r2(incremental: bool = False):
         print("  ❌ 需要 boto3 库来同步 R2，请运行: pip install boto3")
         return
 
-    print(f"📤 正在同步到 R2 存储桶 {config['bucket']} ...")
+    # tqdm 可选支持
+    try:
+        from tqdm import tqdm
+    except ImportError:
+        def tqdm(iterable, **kwargs):
+            items = list(iterable)
+            desc = kwargs.get("desc", "")
+            n = len(items)
+            for item in items:
+                yield item
+            if n:
+                print(f"    {desc}: {n} 完成")
+
+    print(f"📤 正在同步到 R2 存储桶 {config['bucket']}（模式: {mode}）...")
 
     client = boto3.client(
         "s3",
@@ -178,92 +244,130 @@ def sync_to_r2(incremental: bool = False):
         aws_access_key_id=config["access_key"],
         aws_secret_access_key=config["secret_key"],
     )
-
     bucket = config["bucket"]
 
-    # --- 收集需要上传/删除的文件 ---
-    files_to_upload: dict[str, str] = {}    # r2_key → local_path
-    files_to_delete: list[str] = []         # r2_key
-
-    if incremental:
+    # ── increment: 根据 git diff 增删改 ──
+    if mode == "incremental":
         last_sync = get_last_sync_commit()
-        if last_sync:
+        if not last_sync:
+            print("  ⚠️  没有上次同步记录，改用全量模式")
+            mode = "full"
+        else:
             changed = get_changed_files(last_sync)
             if changed is None:
-                print("  ⚠️  上次同步记录不在 git 历史中，改为全量同步")
-                last_sync = None
+                print("  ⚠️  上次 sync hash 不在 git 历史中，改用全量模式")
+                mode = "full"
             elif not changed:
-                print("  └─ 文件: 无变更（仅更新 tree.json）")
+                print("  └─ 文件: 无变更")
             else:
                 additions = {p for p, s in changed.items() if s != "D"}
                 deletions = [p for p, s in changed.items() if s == "D"]
-                print(f"  └─ 文件（增量）: {len(additions)} 个新增/修改, {len(deletions)} 个删除")
+                print(f"  └─ 增量: {len(additions)} 新增/修改, {len(deletions)} 删除")
 
-                for path in additions:
-                    local_path = os.path.join(local_repo_path, path)
-                    if os.path.exists(local_path) and not os.path.isdir(local_path):
-                        files_to_upload[path] = local_path
-                files_to_delete = deletions
+                if additions:
+                    for p in tqdm(sorted(additions), desc="上传"):
+                        local_path = os.path.join(local_repo_path, p)
+                        if os.path.exists(local_path) and not os.path.isdir(local_path):
+                            client.upload_file(
+                                local_path, bucket, p,
+                                ExtraArgs={"ContentType": _guess_content_type(p)}
+                            )
 
-        if last_sync is None:
-            incremental = False  # 回退到全量
+                if deletions:
+                    for p in tqdm(deletions, desc="删除"):
+                        client.delete_object(Bucket=bucket, Key=p)
 
-    if not incremental:
-        # 全量模式：使用 git ls-files 扫描所有未被忽略的文件
-        print("  └─ 文件（全量）...")
-        for path in get_non_ignored_files():
-            files_to_upload[path] = os.path.join(local_repo_path, path)
+    # ── full: 以 tree.json 为清单核对 R2 ──
+    if mode == "full":
+        tree_path = os.path.join(local_repo_path, "tree.json")
+        if os.path.exists(tree_path):
+            with open(tree_path, "r", encoding="utf-8") as f:
+                tree = json.load(f)
+        else:
+            print("  📋 tree.json 不存在，正在生成...")
+            tree = generate_tree_json()
+            with open(tree_path, "w", encoding="utf-8") as f:
+                json.dump(tree, f, ensure_ascii=False, indent=2)
 
-    # --- 执行上传 ---
-    uploaded = 0
-    failed = 0
+        tree_files = get_tree_file_paths(tree)
 
-    if not files_to_upload and not files_to_delete:
-        print("  └─ 文件: 无变更")
-    else:
-        progress_label = f"  └─ 文件 ({'增量' if incremental else '全量'}): "
-        print(f"{progress_label}上传 {len(files_to_upload)}, 删除 {len(files_to_delete)}")
+        print("  📋 查询 R2 对象列表...")
+        r2_objects = list_r2_objects(client, bucket)
 
-        for r2_key, local_path in files_to_upload.items():
-            content_type, _ = mimetypes.guess_type(local_path)
-            if not content_type:
-                content_type = "application/octet-stream"
+        # (a) 上传缺失或本地更新的文件
+        need_upload = []
+        for path in sorted(tree_files):
+            local_path = os.path.join(local_repo_path, path)
+            if not os.path.exists(local_path):
+                continue
+            st = os.stat(local_path)
+            r2_obj = r2_objects.get(path)
+            if r2_obj:
+                # 大小一致 → 再检查时间戳
+                if r2_obj["Size"] == st.st_size:
+                    local_utc = datetime.fromtimestamp(st.st_mtime, tz=timezone.utc)
+                    if local_utc <= r2_obj["LastModified"]:
+                        continue  # 文件一致，跳过
+            need_upload.append(path)
 
-            try:
-                # 使用 upload_file（有内置重试）替代 put_object 提升可靠性
-                client.upload_file(local_path, bucket, r2_key,
-                                   ExtraArgs={"ContentType": content_type})
-                uploaded += 1
-            except Exception as e:
-                print(f"    ❌ {r2_key}: {e}")
-                failed += 1
+        if need_upload:
+            print(f"  📤 上传 {len(need_upload)} 个文件...")
+            for p in tqdm(need_upload, desc="上传"):
+                client.upload_file(
+                    os.path.join(local_repo_path, p), bucket, p,
+                    ExtraArgs={"ContentType": _guess_content_type(p)}
+                )
+        else:
+            print("  └─ 文件: 均与 R2 一致")
 
-        for r2_key in files_to_delete:
-            try:
-                client.delete_object(Bucket=bucket, Key=r2_key)
-            except Exception as e:
-                print(f"    ❌ 删除失败 {r2_key}: {e}")
-                failed += 1
+        # (b) 删除 R2 上 tree.json 未追踪的文件
+        exclude_prefixes = (".obsidian/", ".git/")
+        exclude_set = R2_EXCLUDED_FILES | {"tree.json"}
+        to_delete = [
+            k for k in r2_objects
+            if not k.startswith(exclude_prefixes)
+            and k not in exclude_set
+            and k not in tree_files
+        ]
+        if to_delete:
+            print(f"  🗑️  删除 {len(to_delete)} 个 R2 多余文件...")
+            for p in tqdm(to_delete, desc="删除"):
+                client.delete_object(Bucket=bucket, Key=p)
 
-    # --- 上传 tree.json ---
-    print("  └─ tree.json ...")
-    tree_path = os.path.join(local_repo_path, "tree.json")
-    try:
-        client.upload_file(tree_path, bucket, "tree.json", ExtraArgs={"ContentType": "application/json"})
-        print("    ✅ tree.json 已上传")
-    except Exception as e:
-        print(f"    ❌ tree.json 上传失败: {e}")
-        failed += 1
+    # ── zero-trust: 无条件重传 ──
+    if mode == "zero-trust":
+        all_files = get_non_ignored_files()
+        print(f"  📤 无条件重传 {len(all_files)} 个文件...")
+        for p in tqdm(all_files, desc="上传"):
+            client.upload_file(
+                os.path.join(local_repo_path, p), bucket, p,
+                ExtraArgs={"ContentType": _guess_content_type(p)}
+            )
 
-    # --- 记录本次同步的 commit hash（用于下次增量对比） ---
+        # 清理 R2 多余文件
+        file_set = set(all_files)
+        exclude_prefixes = (".obsidian/", ".git/")
+        exclude_set = R2_EXCLUDED_FILES | {"tree.json"}
+        r2_objects = list_r2_objects(client, bucket)
+        to_delete = [
+            k for k in r2_objects
+            if not k.startswith(exclude_prefixes)
+            and k not in exclude_set
+            and k not in file_set
+        ]
+        if to_delete:
+            print(f"  🗑️  删除 {len(to_delete)} 个 R2 多余文件...")
+            for p in tqdm(to_delete, desc="删除"):
+                client.delete_object(Bucket=bucket, Key=p)
+
+    # ── 统一收尾：更新 tree.json + 保存 sync hash ──
+    _update_tree_json(client, bucket)
+
     current_head = git_run(["rev-parse", "HEAD"]).stdout.strip()
     if current_head:
         save_last_sync_commit(current_head)
 
-    if failed:
-        print(f"\n  ⚠️  完成: {uploaded} 个上传, {failed} 个失败")
-    else:
-        print(f"\n  ✅ R2 同步完成: {uploaded} 个文件已同步")
+    print(f"\n  ✅ R2 同步完成（模式: {mode}）")
 
 
 def main():
@@ -434,7 +538,13 @@ def main():
     # ============================================================
     print("\n步骤 5/5: 同步到 Cloudflare R2...")
     print("-" * 50)
-    sync_to_r2(incremental=args.increment)
+    if args.zero_trust:
+        mode = "zero-trust"
+    elif args.increment:
+        mode = "incremental"
+    else:
+        mode = "full"
+    sync_to_r2(mode=mode)
 
 
 if __name__ == "__main__":
