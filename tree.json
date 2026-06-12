@@ -1257,6 +1257,11 @@
                 "name": "08-循环神经网络.md",
                 "path": "AI/深度学习理论/动手学深度学习/08-循环神经网络.md",
                 "type": "blob"
+              },
+              {
+                "name": "Z01-d2l总结-CV.md",
+                "path": "AI/深度学习理论/动手学深度学习/Z01-d2l总结-CV.md",
+                "type": "blob"
               }
             ]
           },
@@ -1278,13 +1283,33 @@
             "type": "tree",
             "children": [
               {
-                "name": "ReLU.md",
-                "path": "AI/深度学习理论/激活函数/ReLU.md",
+                "name": "00-激活函数原理及概述.md",
+                "path": "AI/深度学习理论/激活函数/00-激活函数原理及概述.md",
                 "type": "blob"
               },
               {
-                "name": "SwiGLU.md",
-                "path": "AI/深度学习理论/激活函数/SwiGLU.md",
+                "name": "01-Sigmoid.md",
+                "path": "AI/深度学习理论/激活函数/01-Sigmoid.md",
+                "type": "blob"
+              },
+              {
+                "name": "02-tanh.md",
+                "path": "AI/深度学习理论/激活函数/02-tanh.md",
+                "type": "blob"
+              },
+              {
+                "name": "03-ReLU+LeakyReLU.md",
+                "path": "AI/深度学习理论/激活函数/03-ReLU+LeakyReLU.md",
+                "type": "blob"
+              },
+              {
+                "name": "04-SiLU.md",
+                "path": "AI/深度学习理论/激活函数/04-SiLU.md",
+                "type": "blob"
+              },
+              {
+                "name": "05-GELU.md",
+                "path": "AI/深度学习理论/激活函数/05-GELU.md",
                 "type": "blob"
               }
             ]
