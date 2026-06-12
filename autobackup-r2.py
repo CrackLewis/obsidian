@@ -13,47 +13,57 @@ LAST_SYNC_FILE = os.path.join(local_repo_path, ".last-sync-r2")
 R2_EXCLUDED_FILES = {"r2.json", ".last-sync-r2", ".gitignore"}
 
 
-def scan_directory(dir_path: str, rel_path: str) -> list:
-    """递归扫描目录，构建嵌套 tree 结构（兼容前端 TreeNode[] 类型）"""
-    entries = []
-    try:
-        items = sorted(os.listdir(dir_path))
-    except PermissionError:
-        return entries
-
-    for item in items:
-        full_path = os.path.join(dir_path, item)
-        item_rel = os.path.join(rel_path, item).replace("\\", "/")
-
-        if os.path.isdir(full_path):
-            # 排除 git 和 obsidian 配置目录
-            if item in ('.git', '.obsidian'):
-                continue
-            children = scan_directory(full_path, item_rel)
-            # 只保留包含 .md 文件的目录（不含空目录）
-            if children:
-                entries.append({
-                    "name": item,
-                    "path": item_rel,
-                    "type": "tree",
-                    "children": children
-                })
-        elif item.endswith('.md'):
-            entries.append({
-                "name": item,
-                "path": item_rel,
-                "type": "blob"
-            })
-
-    # 排序：目录在前，文件在后，各自按名称字母序
-    entries.sort(key=lambda x: (0 if x["type"] == "tree" else 1, x["name"].lower()))
-    return entries
+def get_non_ignored_files() -> list[str]:
+    """使用 git ls-files 获取仓库中所有未被 .gitignore 忽略的文件
+    （排除 .obsidian/、.git/ 及显式安全规则）"""
+    result = git_run(["-c", "core.quotepath=false", "ls-files",
+                      "--cached", "--others", "--exclude-standard"])
+    files = []
+    for line in result.stdout.strip().split("\n"):
+        path = line.strip().replace("\\", "/")
+        if not path:
+            continue
+        # 排除 .obsidian、.git 目录和显式排除的文件
+        if path.startswith((".obsidian/", ".git/")) or path in (".obsidian", ".git"):
+            continue
+        if path in R2_EXCLUDED_FILES:
+            continue
+        files.append(path)
+    files.sort()
+    return files
 
 
 def generate_tree_json() -> list:
-    """遍历整个仓库，生成完整的笔记目录树"""
-    print("📁 扫描目录结构...")
-    return scan_directory(local_repo_path, "")
+    """从 git ls-files 输出构建完整的文件目录树（所有文件类型，不限于 .md）"""
+    print("📁 扫描文件结构...")
+    all_files = get_non_ignored_files()
+
+    # 构建前缀树
+    tree: dict = {}
+    for file_path in all_files:
+        parts = file_path.split("/")
+        node = tree
+        for i, part in enumerate(parts):
+            if part not in node:
+                node[part] = {} if i < len(parts) - 1 else None
+            node = node[part]
+
+    # 递归转换为输出格式
+    def build(prefix: str, node: dict) -> list:
+        entries = []
+        names = sorted(node.keys(), key=lambda n: (0 if isinstance(node[n], dict) else 1, n.lower()))
+        for name in names:
+            child = node[name]
+            path = f"{prefix}/{name}" if prefix else name
+            if child is None:  # 文件
+                entries.append({"name": name, "path": path, "type": "blob"})
+            else:  # 目录
+                children = build(path, child)
+                if children:
+                    entries.append({"name": name, "path": path, "type": "tree", "children": children})
+        return entries
+
+    return build("", tree)
 
 
 def count_entries(nodes: list) -> int:
@@ -80,7 +90,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="自动备份笔记并同步到 GitHub + R2")
     parser.add_argument(
         "--increment", action="store_true",
-        help="增量模式：仅同步 git 历史中有变更的 .md 文件到 R2（首次运行自动全量）"
+        help="增量模式：仅同步 git 历史中有变更的文件到 R2（首次运行自动全量）"
     )
     return parser.parse_args()
 
@@ -100,28 +110,30 @@ def save_last_sync_commit(commit_hash: str):
         f.write(commit_hash)
 
 
-def get_changed_md_files(since_hash: str) -> dict | None:
-    """获取 since_hash..HEAD 之间变更的 .md 文件: {path: status}"""
-    # 验证 hash 在仓库中是否存在
+def get_changed_files(since_hash: str) -> dict | None:
+    """获取 since_hash..HEAD 之间变更的未忽略文件: {path: status}"""
     check = git_run(["cat-file", "-e", since_hash])
     if check.returncode != 0:
         return None
 
-    result = git_run(["diff", "--name-status", f"{since_hash}..HEAD"])
+    result = git_run(["-c", "core.quotepath=false", "diff",
+                      "--name-status", f"{since_hash}..HEAD"])
     changed = {}
     for line in result.stdout.strip().split("\n"):
         line = line.strip()
         if not line:
             continue
-        # 兼容 tab 和空格分隔
         parts = line.split("\t") if "\t" in line else line.split(None, 1)
         if len(parts) < 2:
             continue
         status = parts[0]
         path = parts[-1].strip()
-        # 只跟踪 .md 文件，排除 tree.json
-        if path.endswith(".md"):
-            changed[path] = status
+        # 跳过被排除的目录和文件
+        if path.startswith((".obsidian/", ".git/")) or path in (".obsidian", ".git"):
+            continue
+        if path in R2_EXCLUDED_FILES:
+            continue
+        changed[path] = status
     return changed
 
 
@@ -145,7 +157,7 @@ def read_r2_config() -> dict | None:
 
 
 def sync_to_r2(incremental: bool = False):
-    """将 tree.json 和 .md 笔记同步到 Cloudflare R2。"""
+    """将 tree.json 和仓库文件同步到 Cloudflare R2。"""
     config = read_r2_config()
     if not config:
         print("  ℹ️  未配置 r2.json，跳过 R2 同步（参考 r2.example.json）")
@@ -176,20 +188,18 @@ def sync_to_r2(incremental: bool = False):
     if incremental:
         last_sync = get_last_sync_commit()
         if last_sync:
-            changed = get_changed_md_files(last_sync)
+            changed = get_changed_files(last_sync)
             if changed is None:
                 print("  ⚠️  上次同步记录不在 git 历史中，改为全量同步")
                 last_sync = None
             elif not changed:
-                print("  └─ 笔记文件: 无变更（仅更新 tree.json）")
+                print("  └─ 文件: 无变更（仅更新 tree.json）")
             else:
                 additions = {p for p, s in changed.items() if s != "D"}
                 deletions = [p for p, s in changed.items() if s == "D"]
-                print(f"  └─ 笔记文件（增量）: {len(additions)} 个新增/修改, {len(deletions)} 个删除")
+                print(f"  └─ 文件（增量）: {len(additions)} 个新增/修改, {len(deletions)} 个删除")
 
                 for path in additions:
-                    if path in R2_EXCLUDED_FILES:
-                        continue
                     local_path = os.path.join(local_repo_path, path)
                     if os.path.exists(local_path) and not os.path.isdir(local_path):
                         files_to_upload[path] = local_path
@@ -199,35 +209,25 @@ def sync_to_r2(incremental: bool = False):
             incremental = False  # 回退到全量
 
     if not incremental:
-        # 全量模式：扫描所有 .md 文件
-        print("  └─ 笔记文件（全量）...")
-        for root_dir, dirs, files in os.walk(local_repo_path):
-            dirs[:] = [d for d in dirs if not d.startswith((".", "__"))]
-            for f in files:
-                if not f.endswith(".md"):
-                    continue
-                r2_key = os.path.relpath(
-                    os.path.join(root_dir, f),
-                    local_repo_path
-                ).replace(os.sep, "/")
-                if r2_key in R2_EXCLUDED_FILES:
-                    continue
-                files_to_upload[r2_key] = os.path.join(root_dir, f)
+        # 全量模式：使用 git ls-files 扫描所有未被忽略的文件
+        print("  └─ 文件（全量）...")
+        for path in get_non_ignored_files():
+            files_to_upload[path] = os.path.join(local_repo_path, path)
 
     # --- 执行上传 ---
     uploaded = 0
     failed = 0
 
     if not files_to_upload and not files_to_delete:
-        print("  └─ 笔记文件: 无变更")
+        print("  └─ 文件: 无变更")
     else:
-        progress_label = f"  └─ 笔记文件 ({'增量' if incremental else '全量'}): "
+        progress_label = f"  └─ 文件 ({'增量' if incremental else '全量'}): "
         print(f"{progress_label}上传 {len(files_to_upload)}, 删除 {len(files_to_delete)}")
 
         for r2_key, local_path in files_to_upload.items():
             content_type, _ = mimetypes.guess_type(local_path)
             if not content_type:
-                content_type = "text/markdown"
+                content_type = "application/octet-stream"
 
             try:
                 # 使用 upload_file（有内置重试）替代 put_object 提升可靠性
@@ -263,7 +263,7 @@ def sync_to_r2(incremental: bool = False):
     if failed:
         print(f"\n  ⚠️  完成: {uploaded} 个上传, {failed} 个失败")
     else:
-        print(f"\n  ✅ R2 同步完成: {uploaded} 个笔记已同步")
+        print(f"\n  ✅ R2 同步完成: {uploaded} 个文件已同步")
 
 
 def main():
@@ -396,7 +396,7 @@ def main():
     git_run(["add", "."])
 
     # 检查是否有改动需要提交
-    status_result = git_run(["status", "--porcelain"])
+    status_result = git_run(["-c", "core.quotepath=false", "status", "--porcelain"])
     if status_result.stdout.strip():
         # 提交
         commit_msg = f"AutoBackup-R2: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
