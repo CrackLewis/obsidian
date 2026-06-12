@@ -217,7 +217,6 @@ def sync_to_r2(incremental: bool = False):
     # --- 执行上传 ---
     uploaded = 0
     failed = 0
-    num_files = len(files_to_upload) + len(files_to_delete)
 
     if not files_to_upload and not files_to_delete:
         print("  └─ 笔记文件: 无变更")
@@ -231,8 +230,9 @@ def sync_to_r2(incremental: bool = False):
                 content_type = "text/markdown"
 
             try:
-                with open(local_path, "rb") as fh:
-                    client.put_object(Bucket=bucket, Key=r2_key, Body=fh, ContentType=content_type)
+                # 使用 upload_file（有内置重试）替代 put_object 提升可靠性
+                client.upload_file(local_path, bucket, r2_key,
+                                   ExtraArgs={"ContentType": content_type})
                 uploaded += 1
             except Exception as e:
                 print(f"    ❌ {r2_key}: {e}")
@@ -261,7 +261,7 @@ def sync_to_r2(incremental: bool = False):
         save_last_sync_commit(current_head)
 
     if failed:
-        print(f"\n  ⚠️  完成: {uploaded} 个上传, {num_files - uploaded - len(files_to_delete) + failed} 个失败")
+        print(f"\n  ⚠️  完成: {uploaded} 个上传, {failed} 个失败")
     else:
         print(f"\n  ✅ R2 同步完成: {uploaded} 个笔记已同步")
 
@@ -397,42 +397,40 @@ def main():
 
     # 检查是否有改动需要提交
     status_result = git_run(["status", "--porcelain"])
-    if not status_result.stdout.strip():
-        print("ℹ️  没有需要提交的更改")
-        return
+    if status_result.stdout.strip():
+        # 提交
+        commit_msg = f"AutoBackup-R2: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        commit_result = git_run(["commit", "-m", commit_msg])
+        print(commit_result.stdout, end="")
 
-    # 提交
-    commit_msg = f"AutoBackup-R2: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    commit_result = git_run(["commit", "-m", commit_msg])
-    print(commit_result.stdout, end="")
+        if commit_result.returncode == 0:
+            print(f"📦 提交信息: {commit_msg}")
 
-    if commit_result.returncode != 0:
-        print(f"❌ 提交失败: {commit_result.stderr}")
-        return
-
-    print(f"📦 提交信息: {commit_msg}")
-
-    # 推送
-    print("\n正在推送到远程...")
-    while True:
-        push_result = git_run(["push", remote_name, remote_branch])
-        if push_result.returncode != 0:
-            output = push_result.stdout + push_result.stderr
-            if "resolve" in output or "Connection" in output:
-                print("⚠️  网络异常")
-                if input("输入 R 重试: ").lower() == 'r':
-                    continue
+            # 推送
+            print("\n正在推送到远程...")
+            while True:
+                push_result = git_run(["push", remote_name, remote_branch])
+                if push_result.returncode != 0:
+                    output = push_result.stdout + push_result.stderr
+                    if "resolve" in output or "Connection" in output:
+                        print("⚠️  网络异常")
+                        if input("输入 R 重试: ").lower() == 'r':
+                            continue
+                        else:
+                            break
+                    else:
+                        print(f"❌ 推送失败: {output}")
+                        break
                 else:
+                    print("✅ 推送完成")
                     break
-            else:
-                print(f"❌ 推送失败: {output}")
-                break
         else:
-            print("✅ 推送完成")
-            break
+            print(f"⚠️  提交跳过: {commit_result.stderr.strip() or commit_result.stdout.strip()}")
+    else:
+        print("ℹ️  没有需要提交的更改")
 
     # ============================================================
-    # Step 5: 同步到 Cloudflare R2
+    # Step 5: 同步到 Cloudflare R2（始终执行，不依赖 Git 提交结果）
     # ============================================================
     print("\n步骤 5/5: 同步到 Cloudflare R2...")
     print("-" * 50)

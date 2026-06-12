@@ -77,3 +77,4 @@ Claude Code的plugins存储在本地`~/.claude/plugins`中，其目录结构：
     └── claude-plugins-official/   # 官方市场仓库
 ```
 
+官方预装了一系列plugins，位于`marketplaces/claude-plugins-official`下，涵盖
