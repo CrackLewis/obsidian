@@ -966,6 +966,28 @@
                     "name": "00-ClaudeCode基础.md",
                     "path": "AI/大模型应用科学/Agent应用/ClaudeCode/00-ClaudeCode基础.md",
                     "type": "blob"
+                  },
+                  {
+                    "name": "01-ClaudeCode插件管理.md",
+                    "path": "AI/大模型应用科学/Agent应用/ClaudeCode/01-ClaudeCode插件管理.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "02-ClaudeCode上下文管理.md",
+                    "path": "AI/大模型应用科学/Agent应用/ClaudeCode/02-ClaudeCode上下文管理.md",
+                    "type": "blob"
+                  }
+                ]
+              },
+              {
+                "name": "Hermes",
+                "path": "AI/大模型应用科学/Agent应用/Hermes",
+                "type": "tree",
+                "children": [
+                  {
+                    "name": "00-Hermes基础.md",
+                    "path": "AI/大模型应用科学/Agent应用/Hermes/00-Hermes基础.md",
+                    "type": "blob"
                   }
                 ]
               },
@@ -1055,6 +1077,11 @@
             "type": "tree",
             "children": [
               {
+                "name": "PPO.md",
+                "path": "AI/大模型理论/对齐优化/PPO.md",
+                "type": "blob"
+              },
+              {
                 "name": "RLHF.md",
                 "path": "AI/大模型理论/对齐优化/RLHF.md",
                 "type": "blob"
@@ -1079,6 +1106,18 @@
               {
                 "name": "SFT.md",
                 "path": "AI/大模型理论/微调/SFT.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
+            "name": "模型技术报告",
+            "path": "AI/大模型理论/模型技术报告",
+            "type": "tree",
+            "children": [
+              {
+                "name": "DeepSeek-V2.md",
+                "path": "AI/大模型理论/模型技术报告/DeepSeek-V2.md",
                 "type": "blob"
               }
             ]
