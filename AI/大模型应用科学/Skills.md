@@ -243,6 +243,30 @@ Expected behavior:
 - ...
 ```
 
+## npx skills管理skills
+
+```sh
+$ npx skills init
+```
+
+从repo安装一或多个skill：
+
+```sh
+$ npx skills add <owner/repo> [--all] [-g] [-y] [-a <agent>]
+```
+
+选项：
+- `--all`：安装repo下的所有skills
+- `-g`：安装到全局，而非当前工作目录下。如果不选择则会安装到`./.claude/skills`和`./.agents/skills`等当前工作目录的专属skill路径下
+- `-y`：避免交互式确认
+- `-a <agent>`：只安装到指定的agent，如：`claude-code`，`eve`，`cursor`等。清单很长，建议手动查询
+
+移除已安装的skills：
+
+```sh
+$ npx skills remove [<owner/repo>] [-all] [-g] [-y]
+```
+
 ## Claude Code集成skills
 
 大部分知名skills是通过插件市场（plugin marketplace）管理的，属于插件的一部分，可通过安装/卸载插件来变更

@@ -1043,6 +1043,16 @@
             "type": "tree",
             "children": [
               {
+                "name": "00-LangChain汇总.md",
+                "path": "AI/大模型应用科学/LangChain/00-LangChain汇总.md",
+                "type": "blob"
+              },
+              {
+                "name": "01-LangChain基础.md",
+                "path": "AI/大模型应用科学/LangChain/01-LangChain基础.md",
+                "type": "blob"
+              },
+              {
                 "name": "@01-LangChain汇总.md",
                 "path": "AI/大模型应用科学/LangChain/@01-LangChain汇总.md",
                 "type": "blob"
@@ -1052,6 +1062,11 @@
           {
             "name": "Harness.md",
             "path": "AI/大模型应用科学/Harness.md",
+            "type": "blob"
+          },
+          {
+            "name": "HarnessEngineering.md",
+            "path": "AI/大模型应用科学/HarnessEngineering.md",
             "type": "blob"
           },
           {
@@ -2409,6 +2424,18 @@
         ]
       },
       {
+        "name": "广告推荐",
+        "path": "杂项/广告推荐",
+        "type": "tree",
+        "children": [
+          {
+            "name": "01-渠道流量业务及其风险控制.md",
+            "path": "杂项/广告推荐/01-渠道流量业务及其风险控制.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
         "name": "数字货币",
         "path": "杂项/数字货币",
         "type": "tree",
@@ -2479,6 +2506,23 @@
           {
             "name": "海外数字身份.md",
             "path": "杂项/身份/海外数字身份.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "逆向工程",
+        "path": "杂项/逆向工程",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Ghidra.md",
+            "path": "杂项/逆向工程/Ghidra.md",
+            "type": "blob"
+          },
+          {
+            "name": "IDA.md",
+            "path": "杂项/逆向工程/IDA.md",
             "type": "blob"
           }
         ]
