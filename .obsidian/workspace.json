@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/渠道流量风控/读周报.md",
+                "file": "课程-数学/@00-数学体系.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "读周报 的大纲"
+              "title": "@00-数学体系 的大纲"
             }
           },
           {
@@ -246,12 +246,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b4a748e295fe2a96",
+  "active": "c33afacbac953a37",
   "lastOpenFiles": [
+    "杂项/渠道流量风控/数据表及其特征.md",
+    "杂项/渠道流量风控/读周报.md",
     "课程-数学/@00-数学体系.md",
     "课程-数学/A02-初等几何.md",
-    "杂项/渠道流量风控/读周报.md",
-    "杂项/渠道流量风控/数据表及其特征.md",
     "AI/大模型应用科学/Agent应用/CatClaw/S01-CatClaw源码解读.md",
     "杂项/渠道流量风控/01-渠道流量业务及其风险控制.md",
     "AI/大模型应用科学/Agent应用/CatClaw",
