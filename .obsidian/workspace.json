@@ -41,16 +41,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-数学/@00-数学体系.md",
+                "file": "AI/深度学习理论/激活函数/05-GELU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@00-数学体系"
+              "title": "05-GELU"
+            }
+          },
+          {
+            "id": "f13a27792521d7b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂项/Obsidian用法/Callout块.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Callout块"
+            }
+          },
+          {
+            "id": "58fe680bc2a85b43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/大模型应用科学/Skills/Anthropic关于skills的观点.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Anthropic关于skills的观点"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -171,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程-数学/@00-数学体系.md",
+                "file": "AI/大模型应用科学/Skills/Anthropic关于skills的观点.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "@00-数学体系 的大纲"
+              "title": "Anthropic关于skills的观点 的大纲"
             }
           },
           {
@@ -229,7 +257,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 281.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,17 +275,31 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c33afacbac953a37",
+  "active": "58fe680bc2a85b43",
   "lastOpenFiles": [
+    "AI/大模型应用科学/Skills/Skills基础.md",
+    "杂项/渠道流量风控/01-渠道流量业务及其风险控制.md",
+    "AI/深度学习理论/激活函数/05-GELU.md",
+    "AI/深度学习理论/损失函数/CrossEntropy.md",
+    "AI/推荐系统理论/@01-推荐系统总述.md",
+    "AI/大模型应用科学/Agent应用/ClaudeCode/02-ClaudeCode上下文管理.md",
+    "AI/大模型应用科学/Agent应用/ClaudeCode/01-ClaudeCode插件管理.md",
+    "AI/大模型应用科学/Agent应用/ClaudeCode/00-ClaudeCode基础.md",
+    "AI/大模型应用科学/提示工程-1.md",
+    "AI/大模型应用科学/Agent应用/CatClaw/S01-CatClaw源码解读.md",
+    "AI/大模型应用科学/Skills/Anthropic关于skills的观点.md",
+    "附件/Pasted image 20260707141051.png",
     "杂项/渠道流量风控/数据表及其特征.md",
+    "杂项/Obsidian用法/Callout块.md",
+    "AI/大模型应用科学/Skills",
+    "杂项/社工/社工攻击方式.md",
+    "杂项/数字货币/USDT-TRC20.md",
+    "杂项/渠道流量风控/渠道流量风控概念.md",
     "杂项/渠道流量风控/读周报.md",
     "课程-数学/@00-数学体系.md",
     "课程-数学/A02-初等几何.md",
-    "AI/大模型应用科学/Agent应用/CatClaw/S01-CatClaw源码解读.md",
-    "杂项/渠道流量风控/01-渠道流量业务及其风险控制.md",
     "AI/大模型应用科学/Agent应用/CatClaw",
     "AI/大模型理论/模型技术报告/DeepSeek-V2.md",
-    "杂项/数字货币/USDT-TRC20.md",
     "杂项/逆向工程/IDA.md",
     "杂项/渠道流量风控",
     "杂项/逆向工程/Ghidra.md",
@@ -265,25 +308,12 @@
     "杂项/逆向工程",
     "课程-计算机科学/大模型课程/Stanford_CS336.md",
     "AI/大模型应用科学/LangChain/01-LangChain基础.md",
-    "AI/大模型应用科学/LangChain/00-LangChain汇总.md",
-    "课程-数学/@01-词典-初等+数分高代.md",
-    "课程-数学/A01-初等代数.md",
-    "AI/大模型理论/对齐优化/PPO.md",
-    "AI/大模型应用科学/Skills.md",
-    "AI/大模型应用科学/HarnessEngineering.md",
-    "AI/深度学习理论/损失函数/CrossEntropy.md",
-    "AI/深度学习理论/激活函数/01-Sigmoid.md",
     "AI/大模型理论/模型技术报告",
-    "AI/大模型理论/对齐优化/RLHF.md",
-    "AI/大模型应用科学/Agent应用/ClaudeCode/02-ClaudeCode上下文管理.md",
-    "AI/大模型应用科学/Agent应用/ClaudeCode/00-ClaudeCode基础.md",
-    "AI/大模型应用科学/Agent应用/Hermes/00-Hermes基础.md",
     "AI/大模型应用科学/Agent应用/Hermes",
     "autobackup-r2.py.tmp.28480.88195852b40a",
     "autobackup-r2.py.tmp.28480.cfe7b95ee378",
     "autobackup-r2.py.tmp.28480.62d0d3967545",
     "autobackup-r2.py.tmp.28480.f90b9367780a",
-    "autobackup-r2.py.tmp.28480.e63c9da38a05",
     "附件/Pasted image 20260610191317.png",
     "附件/Pasted image 20260515155450.png",
     "附件/Pasted image 20260427173728.png",
@@ -293,7 +323,6 @@
     "附件/Pasted image 20260420171744.png",
     "附件/Pasted image 20260417153735.png",
     "附件/Pasted image 20260417153605.png",
-    "附件/Pasted image 20260411155754.png",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]

@@ -30,7 +30,7 @@ Claude Code的plugins存储在本地`~/.claude/plugins`中，其目录结构：
 ├── skills/
 ├── agents/
 ├── hooks/
-├── .mcp.json
-├── .lsp.json
+├── .mcp.json                       # Model Context Protocol
+├── .lsp.json                       # Language Service Provider
 ├── settings.json
 ```

@@ -1067,6 +1067,23 @@
             ]
           },
           {
+            "name": "Skills",
+            "path": "AI/大模型应用科学/Skills",
+            "type": "tree",
+            "children": [
+              {
+                "name": "Anthropic关于skills的观点.md",
+                "path": "AI/大模型应用科学/Skills/Anthropic关于skills的观点.md",
+                "type": "blob"
+              },
+              {
+                "name": "Skills基础.md",
+                "path": "AI/大模型应用科学/Skills/Skills基础.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
             "name": "HarnessEngineering.md",
             "path": "AI/大模型应用科学/HarnessEngineering.md",
             "type": "blob"
@@ -2450,6 +2467,11 @@
           {
             "name": "数据表及其特征.md",
             "path": "杂项/渠道流量风控/数据表及其特征.md",
+            "type": "blob"
+          },
+          {
+            "name": "渠道流量风控概念.md",
+            "path": "杂项/渠道流量风控/渠道流量风控概念.md",
             "type": "blob"
           },
           {
@@ -13461,6 +13483,11 @@
       {
         "name": "Pasted image 20260610191317.png",
         "path": "附件/Pasted image 20260610191317.png",
+        "type": "blob"
+      },
+      {
+        "name": "Pasted image 20260707141051.png",
+        "path": "附件/Pasted image 20260707141051.png",
         "type": "blob"
       },
       {
