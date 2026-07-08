@@ -958,18 +958,6 @@
             "type": "tree",
             "children": [
               {
-                "name": "CatClaw",
-                "path": "AI/大模型应用科学/Agent应用/CatClaw",
-                "type": "tree",
-                "children": [
-                  {
-                    "name": "S01-CatClaw源码解读.md",
-                    "path": "AI/大模型应用科学/Agent应用/CatClaw/S01-CatClaw源码解读.md",
-                    "type": "blob"
-                  }
-                ]
-              },
-              {
                 "name": "ClaudeCode",
                 "path": "AI/大模型应用科学/Agent应用/ClaudeCode",
                 "type": "tree",
@@ -1086,11 +1074,6 @@
           {
             "name": "HarnessEngineering.md",
             "path": "AI/大模型应用科学/HarnessEngineering.md",
-            "type": "blob"
-          },
-          {
-            "name": "Skills.md",
-            "path": "AI/大模型应用科学/Skills.md",
             "type": "blob"
           },
           {
@@ -3493,6 +3476,11 @@
             "type": "blob"
           },
           {
+            "name": "Python-sqlite3.md",
+            "path": "编程语言/Python/Python-sqlite3.md",
+            "type": "blob"
+          },
+          {
             "name": "Python-tqdm.md",
             "path": "编程语言/Python/Python-tqdm.md",
             "type": "blob"
@@ -3569,6 +3557,23 @@
     "path": "课程-数学",
     "type": "tree",
     "children": [
+      {
+        "name": "人工智能数学基础",
+        "path": "课程-数学/人工智能数学基础",
+        "type": "tree",
+        "children": [
+          {
+            "name": "00-人工智能数学基础概述.md",
+            "path": "课程-数学/人工智能数学基础/00-人工智能数学基础概述.md",
+            "type": "blob"
+          },
+          {
+            "name": "01-初等数学+微积分初步.md",
+            "path": "课程-数学/人工智能数学基础/01-初等数学+微积分初步.md",
+            "type": "blob"
+          }
+        ]
+      },
       {
         "name": "杂项",
         "path": "课程-数学/杂项",

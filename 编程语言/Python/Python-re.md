@@ -74,8 +74,8 @@ result = ptn.match('abc321') # None
 ## hack
 
 ```python
-ptn_word = r'\b\w+\b' # 单个英语单词
-ptn_telnum = r'\d{3}-\d{4}-\d{4}' # 移动号码
-ptn_email = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b' # 邮箱
-ptn_html_label = r'<.*?>' # HTML标签
+PTN_WORD = r'\b\w+\b' # 单个英语单词
+PTN_TELNUM = r'\d{3}-\d{4}-\d{4}' # 移动号码
+PTN_EMAIL = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b' # 邮箱
+PTN_XML_LABEL = r'<.*?>' # HTML/XML标签
 ```
