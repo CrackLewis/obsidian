@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Python/Python-sqlite3.md",
+                "file": "杂项/渠道流量风控/数据表及其特征.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python-sqlite3"
+              "title": "数据表及其特征"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -235,18 +234,19 @@
   },
   "active": "5b849d07683fc03c",
   "lastOpenFiles": [
+    "杂项/渠道流量风控/渠道流量风控概念.md",
+    "杂项/身份/海外数字身份.md",
+    "杂项/渠道流量风控/01-渠道流量业务及其风险控制.md",
+    "编程语言/Python/Python-sqlite3.md",
     "课程-数学/C01-随机过程.md",
     "课程-数学/B02-线性代数.md",
     "课程-数学/人工智能数学基础/01-初等数学+微积分初步.md",
     "课程-数学/人工智能数学基础/00-人工智能数学基础概述.md",
     "课程-数学/B03-概率论与数理统计.md",
-    "编程语言/Python/Python-sqlite3.md",
     "课程-数学/人工智能数学基础",
     "编程语言/Python/Python-re.md",
     "编程语言/Python/Python-tqdm.md",
-    "杂项/渠道流量风控/01-渠道流量业务及其风险控制.md",
     "编程语言/Python/sqlite3-python",
-    "杂项/渠道流量风控/渠道流量风控概念.md",
     "AI/大模型应用科学/Skills/Anthropic关于skills的观点.md",
     "AI/大模型应用科学/Skills/Skills基础.md",
     "AI/深度学习理论/激活函数/05-GELU.md",
@@ -264,7 +264,6 @@
     "杂项/社工/社工攻击方式.md",
     "杂项/数字货币/USDT-TRC20.md",
     "杂项/渠道流量风控/读周报.md",
-    "课程-数学/@00-数学体系.md",
     "AI/大模型应用科学/Agent应用/CatClaw",
     "杂项/渠道流量风控",
     "杂项/逆向工程",
