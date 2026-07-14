@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/渠道流量风控/数据表及其特征.md",
+                "file": "LaTeX/LaTeX公式速查.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数据表及其特征"
+              "title": "LaTeX公式速查"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -261,12 +261,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "809ff2a86b3c91c1",
+  "active": "f2ba399c91ec7fb4",
   "lastOpenFiles": [
-    "数据库/SQL/SQL00-SQL基本概念.md",
-    "数据库/!数据库名词词典.md",
+    "LaTeX/LaTeX公式速查.md",
+    "LaTeX/通用技巧/latex排版.md",
+    "LaTeX/通用技巧/latex文本加工.md",
     "杂项/渠道流量风控/数据表及其特征.md",
     "杂项/渠道流量风控/渠道流量风控概念.md",
+    "杂项/渠道流量风控/客诉响应agent学习.md",
+    "杂项/渠道流量风控/读周报.md",
+    "数据库/SQL/SQL00-SQL基本概念.md",
+    "数据库/!数据库名词词典.md",
     "数据库/SQL/SQL01-SQL语句.md",
     "数据库/SQL/SQLR00-sql-cheatsheet-sqltutorial.md",
     "附件/Pasted image 20260713163058.png",
@@ -275,9 +280,7 @@
     "数据库/MySQL/mysql.md",
     "数据库/SQL",
     "数据库/MySQL/未命名.md",
-    "杂项/渠道流量风控/客诉响应agent学习.md",
     "课程-计算机科学/计算机网络/Stanford-CS144/cs144-labs.md",
-    "杂项/渠道流量风控/读周报.md",
     "课程-计算机科学/计算机网络/Stanford-CS144",
     "课程-计算机科学/计算机网络",
     "Linux/RaspberryPi/树莓派5网络修复记录.md",
@@ -294,9 +297,6 @@
     "Linux/Hacks/多版本GCC安装和共存.md",
     "Linux/WSL",
     "Linux/RaspberryPi",
-    "杂项/身份/海外数字身份.md",
-    "编程语言/Python/Python-sqlite3.md",
-    "课程-数学/C01-随机过程.md",
     "课程-数学/人工智能数学基础",
     "编程语言/Python/sqlite3-python",
     "附件/Pasted image 20260707141051.png",
