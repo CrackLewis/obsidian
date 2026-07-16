@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/渠道流量风控/渠道流量风控概念.md",
+                "file": "AI/大模型理论/模型技术报告/DeepSeek-V2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "渠道流量风控概念"
+              "title": "DeepSeek-V2"
             }
           },
           {
@@ -263,11 +263,11 @@
   },
   "active": "f2ba399c91ec7fb4",
   "lastOpenFiles": [
+    "杂项/渠道流量风控/渠道流量风控概念.md",
     "LaTeX/LaTeX公式速查.md",
     "LaTeX/通用技巧/latex排版.md",
     "LaTeX/通用技巧/latex文本加工.md",
     "杂项/渠道流量风控/数据表及其特征.md",
-    "杂项/渠道流量风控/渠道流量风控概念.md",
     "杂项/渠道流量风控/客诉响应agent学习.md",
     "杂项/渠道流量风控/读周报.md",
     "数据库/SQL/SQL00-SQL基本概念.md",
