@@ -1346,6 +1346,18 @@
             ]
           },
           {
+            "name": "注意力机制",
+            "path": "AI/深度学习理论/注意力机制",
+            "type": "tree",
+            "children": [
+              {
+                "name": "自注意力详解.md",
+                "path": "AI/深度学习理论/注意力机制/自注意力详解.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
             "name": "激活函数",
             "path": "AI/深度学习理论/激活函数",
             "type": "tree",
@@ -13578,6 +13590,16 @@
       {
         "name": "Pasted image 20260713163058.png",
         "path": "附件/Pasted image 20260713163058.png",
+        "type": "blob"
+      },
+      {
+        "name": "Pasted image 20260717110629.png",
+        "path": "附件/Pasted image 20260717110629.png",
+        "type": "blob"
+      },
+      {
+        "name": "Pasted image 20260717181840.png",
+        "path": "附件/Pasted image 20260717181840.png",
         "type": "blob"
       },
       {

@@ -84,4 +84,79 @@ DeepseekForCausalLM(
 )
 ```
 
-### 
+### 架构图
+
+![[Pasted image 20260717110629.png]]
+
+## 读论文
+
+- ch01-intro
+- ch02-arch
+- ch03-pretrain
+- ch04-alignment
+- ch05-conclusion, limitation, future work
+
+### ch01-intro
+
+methods:
+- MLA
+	- other approaches to KV-cache problems: GQA, MQA
+- DeepSeekMoE
+	- conventional MoE methods: GShard
+- supplementary mechanisms
+
+corpus: 8.1t tokens
+- extended Chinese corpus, higher quality
+
+training:
+- pretrain: with full corpus
+- SFT: 1.5m conversational sessions of various domains
+- GRPO
+
+### ch02-arch
+
+Transformer = Attention + FFN
+
+Attention -> MLA
+
+FFN -> DeepSeekMoE
+
+#### 2.1-MLA
+
+MLA = Multi-Latent Attention
+
+why: 
+- vanilla MHA has heavy KV-cache and becomes the bottleneck of inference efficiency
+- MQA/GQA reduces KV-cache but are less efficient
+
+*low-rank KV joint compression*:
+
+| Multi-Head Attention                                                    | low-rank JV joint compression                                                                           |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| $$\begin{split}q_t&=W^Q h_t\\ k_t&=W^K h_t\\ v_t&= W^V h_t\end{split}$$ | $$\begin{split}c_t^{KV}&= W^{DKV} h_t\\ k_t^C&= W^{UK} c_t^{KV}\\ v_t^C &= W^{UV} c_t^{KV}\end{split}$$ |
+|                                                                         |                                                                                                         |
+
+where:
+- $n_h$: attention heads; 
+- $d$: dimension of hidden vectors; 
+- $d_h$: dimension of each attention head;
+- $d_c$: dimension of compressed *latent vectors*, s.t. $d_c\ll n_h\cdot d_h$
+- $W^Q,W^K,W^V\in \mathbb{R}^{d_h n_h\times d}$: MHA input matrices, `d -> n_h * d_h`
+- $W^{DKV}\in \mathbb{R}^{d_c\times d}$: conversion matrix from input hidden to latent vectors
+- $W^{UK},W^{UV}\in \mathbb{R}^{d_h n_h\times d_c}$: conversion from latent vectors to KVs
+
+*low-rank query compressions*:
+$$
+\begin{split}
+c_t^Q &= W^{DQ} h_t \\
+q_t^C &= W^{UQ} c_t^Q
+\end{split}
+$$
+where $c_t^Q\in \mathbb{R}^{d_c'}$ and $d_c'\ll d_h n_h$.
+
+*decoupled RoPE*:
+- why: RoPE is incompatible with low-rank KV compression
+- 
+
+
+![[Pasted image 20260717181840.png]]
