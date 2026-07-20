@@ -155,8 +155,27 @@ $$
 where $c_t^Q\in \mathbb{R}^{d_c'}$ and $d_c'\ll d_h n_h$.
 
 *decoupled RoPE*:
-- why: RoPE is incompatible with low-rank KV compression
-- 
+- why: [[RoPE]] is incompatible with low-rank KV compression
+	- applying naive RoPE for $k_t^C$ will fuse position information into latent vectors and undermine the semantic integrity
+	- GEMM optimizations and caches are disabled
+- how: split RoPE vectors from latent vectors; calculate MLA and RoPE respectively, and concatenate them later
 
+![[Pasted image 20260720175328.png]]
+
+where:
+- $d_h^R$: num' of dimensions of RoPE queries/keys
+- $q_t^R,k_t^R\in \mathbb{R}^{d_h^R n_h}$: RoPE queries/keys, decoupled from latent vectors
+- $W^{QR}\in \mathbb{R}^{d_h^R n_h\times d_c'}$: conversion matrix from latent query vectors to RoPE queries of various headers
+- $W^{KR}\in \mathbb{R}^{d_h^R \times d}$: conversion matrix from hidden states to RoPE key
+- RoPE queries of various heads $q_{t,i}^R$ are matched to one RoPE key of that specific position $k_t^R$
+
+*comparision of KV cache*:
+- MLA requires a KV cache of ~$4.5d_h l$ per token, equiv' to GQA where $n_g=2.25$
+- MLA is stronger in inference efficiency than all other variants
 
 ![[Pasted image 20260717181840.png]]
+
+#### 2.2-DeepSeekMoE
+
+two key ideas:
+- 
