@@ -12,9 +12,10 @@ refs:
 - 
 
 技术要点：
-- Multi-head Latent Attention
-- 低秩KV联合压缩
-- 解耦RoPE位置编码
+- Multi-head Latent Attention:
+	- 既降低总参数量，又提升推理效率
+	- 低秩KV联合压缩：对输入分别压缩为等长latent向量再复原为q和kv
+	- 解耦RoPE位置编码：位置信息latent与内容信息分离
 - DeepSeekMoE
 
 ## 模型架构
@@ -178,4 +179,35 @@ where:
 #### 2.2-DeepSeekMoE
 
 two key ideas:
-- 
+- segmenting experts into finer granularity for higher expert specialization and more accurate knowledge acquisition
+- isolating some *shared experts* for mitigating knowledge redundancy among *routed experts*
+
+![[Pasted image 20260721182303.png]]
+![[Pasted image 20260721182720.png]]
+
+where:
+- $N_s,N_r\ge 1$: num's of shared and routed experts
+- $\text{FFN}_i^{(s)}$, $\text{FFN}_j^{(r)}$: shared and routed expert FFNs, where $1\le i\le N_s,1\le j\le N_r$
+- $g_{i,t}\in \{0,1\}$: for $i$-th routed expert, whether to activate it or not
+	- $s_{i,t}$: the token-to-expert affinity score
+	- $e_i \in \mathbb{R}^{d}$: the centroid of the $i$-th routed expert in this layer
+- $u_t,h_t'\in \mathbb{R}^{d}$: input and output hidden
+
+*device-limited routing*:
+- why: when expert parallelism is applied, routed experts are distributed to multi devices; MoE-related communication cost can be large if the expert count is large
+- DS-v2 ensures that target experts of each token will be distributed on at most $M$ devices: select $M$ devices with highest affinity experts, and perform top-$K$ expert selecton on experts from those devices
+
+*auxiliary loss for load balance*:
+- why: unbalanced load will: 1. raise the risk of routing collapse, preventing some experts from being fully trained and utilized; 2. diminish the computation efficiency when expert parallelism is employed
+- three types of aux' losses:
+	- *expert-level balance loss*: mitigate the routing collapse risk ![[Pasted image 20260721194135.png]]
+	- *device-level balance loss*: suppose all experts are on $D$ groups and each group exclusively takes one device. $D=\{\mathcal E_1,\mathcal E_2,\ldots,\mathcal E_D\}$. ![[Pasted image 20260721194450.png]]
+	- *communication balance loss*: balance the received token amount among devices ![[Pasted image 20260721194745.png]]
+
+*token dropping*:
+- why: balance losses only encourage load balancing, not ensuring it
+- first calc' the avg' computation budgets for each devices; then drop tokens with lowest affinity scores on each device until the budget is reached
+- tokens belonging to ~10% of the training sequences will never be dropped
+
+### ch03-pre-training
+

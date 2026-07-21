@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "DeepSeek-V2"
             }
-          },
-          {
-            "id": "ce432c764ae0407e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/后端知识点.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "后端知识点"
-            }
           }
         ]
       }
@@ -235,11 +221,21 @@
   },
   "active": "5b849d07683fc03c",
   "lastOpenFiles": [
-    "附件/Pasted image 20260720175328.png",
-    "后端/后端知识点.md",
-    "AI/大模型理论/模型结构/RoPE.md",
-    "AI/大模型理论/模型技术报告/DeepSeek-V2.md",
+    "附件/Pasted image 20260721194745.png",
+    "附件/Pasted image 20260721194450.png",
+    "附件/Pasted image 20260721194135.png",
+    "附件/Pasted image 20260721182720.png",
+    "附件/Pasted image 20260721182303.png",
     "杂项/渠道流量风控/01-渠道流量业务及其风险控制.md",
+    "求职/面试题整理/风控-广告风控.md",
+    "后端/后端知识点.md",
+    "求职/面试题整理/AI-Agent.md",
+    "杂项/渠道流量风控/渠道流量风控概念.md",
+    "杂项/渠道流量风控/客诉响应agent学习.md",
+    "杂项/渠道流量风控/读周报.md",
+    "AI/大模型理论/模型技术报告/DeepSeek-V2.md",
+    "附件/Pasted image 20260720175328.png",
+    "AI/大模型理论/模型结构/RoPE.md",
     "附件/Pasted image 20260717181840.png",
     "数据库/SQL/SQL00-SQL基本概念.md",
     "AI/大模型理论/模型结构/Transformer基础.md",
@@ -255,18 +251,13 @@
     "Linux/RaspberryPi/树莓派5网络修复记录.md",
     "LaTeX/LaTeX公式速查.md",
     "附件/Pasted image 20260717110629.png",
-    "杂项/渠道流量风控/渠道流量风控概念.md",
     "LaTeX/通用技巧/latex排版.md",
     "LaTeX/通用技巧/latex文本加工.md",
     "杂项/渠道流量风控/数据表及其特征.md",
-    "杂项/渠道流量风控/客诉响应agent学习.md",
-    "杂项/渠道流量风控/读周报.md",
     "数据库/SQL/SQL01-SQL语句.md",
-    "数据库/SQL/SQLR00-sql-cheatsheet-sqltutorial.md",
     "附件/Pasted image 20260713163058.png",
     "附件/Pasted image 20260713163047.png",
     "附件/Pasted image 20260713163038.png",
-    "数据库/MySQL/mysql.md",
     "数据库/SQL",
     "课程-计算机科学/计算机网络/Stanford-CS144",
     "课程-计算机科学/计算机网络",
@@ -274,13 +265,8 @@
     "Linux/RaspberryPi",
     "课程-数学/人工智能数学基础",
     "编程语言/Python/sqlite3-python",
-    "附件/Pasted image 20260707141051.png",
     "AI/大模型应用科学/Skills",
     "AI/大模型应用科学/Agent应用/CatClaw",
-    "附件/Pasted image 20260610191317.png",
-    "附件/Pasted image 20260515155450.png",
-    "附件/Pasted image 20260427173728.png",
-    "附件/Pasted image 20260427173634.png",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
