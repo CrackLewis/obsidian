@@ -197,7 +197,7 @@ where:
 - why: when expert parallelism is applied, routed experts are distributed to multi devices; MoE-related communication cost can be large if the expert count is large
 - DS-v2 ensures that target experts of each token will be distributed on at most $M$ devices: select $M$ devices with highest affinity experts, and perform top-$K$ expert selecton on experts from those devices
 
-*auxiliary loss for load balance*:
+*auxiliary loss for load balance*: ^2fdae3
 - why: unbalanced load will: 1. raise the risk of routing collapse, preventing some experts from being fully trained and utilized; 2. diminish the computation efficiency when expert parallelism is employed
 - three types of aux' losses:
 	- *expert-level balance loss*: mitigate the routing collapse risk ![[Pasted image 20260721194135.png]]
@@ -211,3 +211,63 @@ where:
 
 ### ch03-pre-training
 
+#### 3.1-experimental-setups
+
+*data construction*:
+- quantity:
+	- recover deleted corpus data
+	- incorporate more Chinese data
+- quality:
+	- improve the quality-based filtering algorithm
+	- filter out contentious content to mitigate data bias introduced from specific regional cultures
+- tokenizer: based on *byte-level byte-pair encoding* (BBPE) and have a voc' of size 100K (102400)
+	- full corpus: ~8.1T tokens
+
+*hyper-parameters*:
+- model param's:
+	- transformer layers: 60
+	- hidden dim's: $d=5120$
+	- initial parameters standard deviation: $\sigma=0.006$
+	- MLA:
+		- num' of attention heads: $n_h=128$
+		- per-head dim': $d_h=128$
+		- KV compression dim': $d_c=512$
+		- Q compression dim': $d_c'=1536$
+		- per-head dim' for decoupled q/k: $d_h^R=64$
+	- DeepSeekMoE:
+		- each MoE layer has 2 shared experts and 160 routed experts
+		- intermediate hidden dim' of each expert: 1536
+		- 6 routed experts + 2 shared experts activated for each token
+	- additional RMSNorm layers after compressed latent vectors
+- training param's:
+	- AdamW: $\beta_1=0.9,\beta_2=0.95, weight\_decay=0.1$
+	- learning rate scheduling: a *warmup-and-step-decay* strategy
+		- maximum lr: $2.4\times 10^{-4}$
+		- warmup: increase lr from 0 to maximum lr linearly during first 2K steps
+		- step decay:
+			- on 60%/90% tokens trained: multiply lr by 0.316
+		- gradient clipping norm: 1.0
+	- batch size scheduling:
+		- first 225B tokens: increase gradually from 2304 to 9216
+		- the rest: keep 9216 as is
+	- maximum seq' len: 4K
+	- pipeline parallelism leveraging: 
+		- device count for routed experts in each layer: $D=8$
+		- device count for each token: $M=3$
+		- load balancing factors: [[#^2fdae3|see this]]
+			- $\alpha_1=0.003,\alpha_2=0.05,\alpha_3=0.02$
+		- drop tokens during training, but not during evaluation
+
+*infrastructures*:
+- HAI-LLM framework:
+	- 16-way zero-bubble pipeline parallelism
+	- 8-way expert parallelism
+	- ZeRO-1 data parallelism
+- less activated param's -> less requirements for tensor parallelism
+- overlap the shared expert computations w/ the expert parallel all-to-all communication
+- customize faster CUDA kernels
+- optimize MLA based on FlashAttention-2
+- NVIDIA H800 GPU clusters, each node with 8 GPUs and interconnected using NVLink + NVSwitch + InfiniBand
+
+*long context extension*:
+- YaRN
