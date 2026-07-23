@@ -270,4 +270,4 @@ where:
 - NVIDIA H800 GPU clusters, each node with 8 GPUs and interconnected using NVLink + NVSwitch + InfiniBand
 
 *long context extension*:
-- YaRN
+- *YaRN* (*Y*et *a*nother *R*oPE extensio*N* method)
