@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/大模型理论/模型技术报告/DeepSeek-V2.md",
+                "file": "数据库/SQL/SQL00-SQL基本概念.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DeepSeek-V2"
+              "title": "SQL00-SQL基本概念"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -215,11 +214,18 @@
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
       "copilot:Open Copilot Chat": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "5b849d07683fc03c",
   "lastOpenFiles": [
+    "数据库/!数据库名词词典.md",
+    "后端/CMake/9901-CMake入门（旧）.md",
+    "后端/Nginx/NGSR01-Nginx源码阅读.md",
+    "后端/后端知识点.md",
+    "后端/Nginx/01-Nginx基本.md",
+    "AI/大模型理论/模型技术报告/DeepSeek-V2.md",
     "附件/Pasted image 20260721194745.png",
     "附件/Pasted image 20260721194450.png",
     "附件/Pasted image 20260721194135.png",
@@ -227,12 +233,10 @@
     "附件/Pasted image 20260721182303.png",
     "杂项/渠道流量风控/01-渠道流量业务及其风险控制.md",
     "求职/面试题整理/风控-广告风控.md",
-    "后端/后端知识点.md",
     "求职/面试题整理/AI-Agent.md",
     "杂项/渠道流量风控/渠道流量风控概念.md",
     "杂项/渠道流量风控/客诉响应agent学习.md",
     "杂项/渠道流量风控/读周报.md",
-    "AI/大模型理论/模型技术报告/DeepSeek-V2.md",
     "附件/Pasted image 20260720175328.png",
     "AI/大模型理论/模型结构/RoPE.md",
     "附件/Pasted image 20260717181840.png",
@@ -245,18 +249,14 @@
     "AI/深度学习理论/注意力机制/自注意力详解.md",
     "AI/深度学习理论/注意力机制",
     "AI/大模型理论/对齐优化/PPO.md",
-    "数据库/!数据库名词词典.md",
     "AI/大模型应用科学/Skills/Anthropic关于skills的观点.md",
     "Linux/RaspberryPi/树莓派5网络修复记录.md",
     "LaTeX/LaTeX公式速查.md",
     "附件/Pasted image 20260717110629.png",
     "LaTeX/通用技巧/latex排版.md",
     "LaTeX/通用技巧/latex文本加工.md",
-    "杂项/渠道流量风控/数据表及其特征.md",
-    "数据库/SQL/SQL01-SQL语句.md",
     "附件/Pasted image 20260713163058.png",
     "附件/Pasted image 20260713163047.png",
-    "附件/Pasted image 20260713163038.png",
     "数据库/SQL",
     "课程-计算机科学/计算机网络/Stanford-CS144",
     "课程-计算机科学/计算机网络",
