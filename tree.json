@@ -757,18 +757,6 @@
     ]
   },
   {
-    "name": "__pycache__",
-    "path": "__pycache__",
-    "type": "tree",
-    "children": [
-      {
-        "name": "autobackup-r2.cpython-313.pyc",
-        "path": "__pycache__/autobackup-r2.cpython-313.pyc",
-        "type": "blob"
-      }
-    ]
-  },
-  {
     "name": "AI",
     "path": "AI",
     "type": "tree",
@@ -2239,11 +2227,6 @@
           {
             "name": "9901-CMake入门（旧）.md",
             "path": "后端/CMake/9901-CMake入门（旧）.md",
-            "type": "blob"
-          },
-          {
-            "name": "CMake入门.md",
-            "path": "后端/CMake/CMake入门.md",
             "type": "blob"
           }
         ]
