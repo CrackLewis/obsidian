@@ -1778,6 +1778,11 @@
             "type": "blob"
           },
           {
+            "name": "启用和查看swap.md",
+            "path": "Linux/Hacks/启用和查看swap.md",
+            "type": "blob"
+          },
+          {
             "name": "多版本GCC安装和共存.md",
             "path": "Linux/Hacks/多版本GCC安装和共存.md",
             "type": "blob"

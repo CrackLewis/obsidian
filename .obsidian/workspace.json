@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/SQL/SQL01-SQL语句.md",
+                "file": "AI/大模型应用科学/LangChain/01-LangChain基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL01-SQL语句"
+              "title": "01-LangChain基础"
             }
           }
         ]
@@ -220,8 +220,12 @@
   },
   "active": "5b849d07683fc03c",
   "lastOpenFiles": [
-    "数据库/SQL/SQL00-SQL基本概念.md",
+    "AI/大模型应用科学/LangChain/00-LangChain汇总.md",
+    "Linux/Basics/Linux命令行文本处理.md",
+    "Linux/Hacks/启用和查看swap.md",
+    "Linux/Basics/gdb.md",
     "数据库/SQL/SQL01-SQL语句.md",
+    "数据库/SQL/SQL00-SQL基本概念.md",
     "数据库/SQL/SQLR00-sql-cheatsheet-sqltutorial.md",
     "数据库/!数据库名词词典.md",
     "后端/CMake/9901-CMake入门（旧）.md",
@@ -250,10 +254,6 @@
     "求职/面试题整理/AI-Transformer.md",
     "AI/深度学习理论/注意力机制/自注意力详解.md",
     "AI/深度学习理论/注意力机制",
-    "AI/大模型理论/对齐优化/PPO.md",
-    "AI/大模型应用科学/Skills/Anthropic关于skills的观点.md",
-    "Linux/RaspberryPi/树莓派5网络修复记录.md",
-    "LaTeX/LaTeX公式速查.md",
     "附件/Pasted image 20260717110629.png",
     "附件/Pasted image 20260713163058.png",
     "附件/Pasted image 20260713163047.png",
