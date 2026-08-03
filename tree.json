@@ -1060,6 +1060,18 @@
             ]
           },
           {
+            "name": "提示词工程",
+            "path": "AI/大模型应用科学/提示词工程",
+            "type": "tree",
+            "children": [
+              {
+                "name": "提示词收集.md",
+                "path": "AI/大模型应用科学/提示词工程/提示词收集.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
             "name": "HarnessEngineering.md",
             "path": "AI/大模型应用科学/HarnessEngineering.md",
             "type": "blob"
@@ -1123,6 +1135,11 @@
               {
                 "name": "DeepSeek-V2.md",
                 "path": "AI/大模型理论/模型技术报告/DeepSeek-V2.md",
+                "type": "blob"
+              },
+              {
+                "name": "DeepSeek-V3.md",
+                "path": "AI/大模型理论/模型技术报告/DeepSeek-V3.md",
                 "type": "blob"
               }
             ]
@@ -13633,6 +13650,16 @@
       {
         "name": "Pasted image 20260721194745.png",
         "path": "附件/Pasted image 20260721194745.png",
+        "type": "blob"
+      },
+      {
+        "name": "Pasted image 20260803150517.png",
+        "path": "附件/Pasted image 20260803150517.png",
+        "type": "blob"
+      },
+      {
+        "name": "Pasted image 20260803155044.png",
+        "path": "附件/Pasted image 20260803155044.png",
         "type": "blob"
       },
       {

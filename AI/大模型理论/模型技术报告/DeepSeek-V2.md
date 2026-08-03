@@ -270,4 +270,25 @@ where:
 - NVIDIA H800 GPU clusters, each node with 8 GPUs and interconnected using NVLink + NVSwitch + InfiniBand
 
 *long context extension*:
-- *YaRN* (*Y*et *a*nother *R*oPE extensio*N* method)
+- *YaRN* (*Y*et *a*nother *R*oPE extensio*N* method): 4K -> 128K
+
+#### 3.2-evaluation
+
+WIP
+
+### ch04-alignment
+
+#### 4.1-sft
+
+- 2 epochs, lr=$5\times 10^{-6}$
+- instances: 1.2M for helpfulness + 0.3M for safety
+- benchmarks:
+	- generation-based ones
+	- multiple-choices: MMLU, ARC, etc.
+	- instruction-following: IFEval
+	- others: LiveCodeBench, MT-Bench, AlpacaEval 2.0, AlignBench
+- comparison group: Qwen1.5-72B-Chat, LLaMA-3-70B-Instruct, Mistral-8x22B-Instruct
+
+#### 4.2-rl
+
+*Group Relative Policy Optimization* (GRPO)
