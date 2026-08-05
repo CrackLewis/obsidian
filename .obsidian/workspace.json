@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端-Web/HTML+CSS/006-CSS选择器.md",
+                "file": "课程-计算机科学/计算机网络/Stanford-CS144/cs144-labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "006-CSS选择器"
+              "title": "cs144-labs"
             }
           }
         ],
@@ -237,6 +237,7 @@
   },
   "active": "35dcc94dd372197d",
   "lastOpenFiles": [
+    "前端-Web/HTML+CSS/006-CSS选择器.md",
     "前端-Web/HTML+CSS/005-CSS常用样式.md",
     "前端-Web/HTML+CSS/002-HTML基础.md",
     "前端-Web/HTML+CSS/001-环境搭建.md",
@@ -265,7 +266,6 @@
     "AI/大模型应用科学/LangChain/01-LangChain基础.md",
     "AI/大模型应用科学/LangChain/00-LangChain汇总.md",
     "Linux/Basics/Linux命令行文本处理.md",
-    "Linux/Hacks/启用和查看swap.md",
     "附件/Pasted image 20260721194745.png",
     "附件/Pasted image 20260721194450.png",
     "附件/Pasted image 20260721194135.png",
