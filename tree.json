@@ -3040,6 +3040,11 @@
                 "name": "Cpp优化小记.md",
                 "path": "编程语言/Cpp/Cpp性能优化/Cpp优化小记.md",
                 "type": "blob"
+              },
+              {
+                "name": "链接时优化LTO.md",
+                "path": "编程语言/Cpp/Cpp性能优化/链接时优化LTO.md",
+                "type": "blob"
               }
             ]
           },

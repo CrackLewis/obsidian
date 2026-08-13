@@ -5,7 +5,7 @@ import mimetypes
 import argparse
 from datetime import datetime, timezone
 
-local_repo_path = "C:\\Users\\DELL\\Desktop\\Workbench\\obsidian"
+local_repo_path = "C:\\Users\\CrackLewis\\Desktop\\Workbench\\obsidian"
 remote_name = "origin"
 remote_branch = "master"
 LAST_SYNC_FILE = os.path.join(local_repo_path, ".last-sync-r2")
