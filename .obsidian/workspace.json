@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheets/Cheatsheet-线性代数.md",
+                "file": "编程语言/Cpp/Cpp-stdlib/stdlib-cstdio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,7 +230,8 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "a3e9249500a557ae",
