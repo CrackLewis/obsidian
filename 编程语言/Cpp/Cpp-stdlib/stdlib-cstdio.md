@@ -4,10 +4,15 @@
 ## 按字典序
 
 F：
+- `fprintf`
 - `fscanf`
+
+P：
+- `printf`
 
 S：
 - `scanf`
+- `sprintf`
 - `sscanf`
 
 ## 按功能

@@ -2930,6 +2930,11 @@
             "type": "tree",
             "children": [
               {
+                "name": "@stdlib-index.md",
+                "path": "编程语言/Cpp/Cpp-stdlib/@stdlib-index.md",
+                "type": "blob"
+              },
+              {
                 "name": "stdlib-cstdio.md",
                 "path": "编程语言/Cpp/Cpp-stdlib/stdlib-cstdio.md",
                 "type": "blob"

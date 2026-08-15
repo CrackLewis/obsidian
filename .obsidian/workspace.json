@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Cpp/Cpp-stdlib/stdlib-cstdio.md",
+                "file": "编程语言/Cpp/Cpp-stdlib/@stdlib-index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stdlib-cstdio"
+              "title": "@stdlib-index"
             }
           },
           {
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -236,8 +235,9 @@
   },
   "active": "a3e9249500a557ae",
   "lastOpenFiles": [
-    "编程语言/Cpp/Cpp-stdlib/stdlib-format.md",
     "编程语言/Cpp/Cpp-stdlib/stdlib-cstdio.md",
+    "编程语言/Cpp/Cpp-stdlib/@stdlib-index.md",
+    "编程语言/Cpp/Cpp-stdlib/stdlib-format.md",
     "编程语言/Cpp/Cpp20/00-Cpp20特性概述.md",
     "编程语言/Cpp/Cpp设计模式/01-pImpl.md",
     "编程语言/Cpp/Cpp性能优化/Cpp优化小记.md",
@@ -264,7 +264,6 @@
     "附件/Pasted image 20260803150517.png",
     "AI/大模型理论/模型技术报告/DeepSeek-V3.md",
     "AI/大模型理论/大模型的完整推理流程.md",
-    "AI/大模型理论/微调/LoRA.md",
     "附件/Pasted image 20260721194745.png",
     "附件/Pasted image 20260721194450.png",
     "附件/Pasted image 20260721194135.png",
