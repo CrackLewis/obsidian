@@ -1643,6 +1643,11 @@
         "name": "Drawing 2026-05-19 11.42.09.excalidraw.md",
         "path": "Excalidraw/Drawing 2026-05-19 11.42.09.excalidraw.md",
         "type": "blob"
+      },
+      {
+        "name": "Drawing 2026-08-16 18.09.55.excalidraw.md",
+        "path": "Excalidraw/Drawing 2026-08-16 18.09.55.excalidraw.md",
+        "type": "blob"
       }
     ]
   },
@@ -1865,6 +1870,11 @@
         "path": "Linux/WSL",
         "type": "tree",
         "children": [
+          {
+            "name": "WSL2网络配置.md",
+            "path": "Linux/WSL/WSL2网络配置.md",
+            "type": "blob"
+          },
           {
             "name": "WSL2迁移、备份、还原.md",
             "path": "Linux/WSL/WSL2迁移、备份、还原.md",

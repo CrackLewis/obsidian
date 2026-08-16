@@ -15,6 +15,9 @@ S：
 - `sprintf`
 - `sscanf`
 
+V：
+- `vfscanf`
+
 ## 按功能
 
 ### 格式化输入输出
