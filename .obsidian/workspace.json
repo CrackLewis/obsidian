@@ -13,24 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "求职/面试题整理/AI-Agent.md",
+                "file": "编程语言/Cpp/Cpp性能优化/Optiver-Cpp优化分享.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI-Agent"
-            }
-          },
-          {
-            "id": "5423ee0370269b9f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-08-16 18.09.55.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-16 18.09.55.excalidraw"
+              "title": "Optiver-Cpp优化分享"
             }
           }
         ]
@@ -233,8 +221,15 @@
   },
   "active": "35dcc94dd372197d",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-08-16 18.09.55.excalidraw.md",
+    "附件/Pasted image 20260818185018.png",
+    "附件/Pasted image 20260818185002.png",
+    "编程语言/Cpp/Cpp性能优化/Optiver-Cpp优化分享.md",
+    "附件/Pasted image 20260818184632.png",
+    "附件/Pasted image 20260818184433.png",
+    "附件/Pasted image 20260818183223.png",
     "求职/面试题整理/AI-Agent.md",
+    "Excalidraw/Drawing 2026-08-18 15.44.00.excalidraw.md",
+    "Excalidraw/Drawing 2026-08-16 18.09.55.excalidraw.md",
     "Linux/Linux系统编程/getopt.md",
     "Linux/WSL/WSL2网络配置.md",
     "编程语言/Cpp/Cpp-stdlib/stdlib-cstdio.md",
@@ -256,9 +251,6 @@
     "!技能清单.md",
     "!读论文计划.md",
     "!待办.md",
-    "!到复试的全部学习计划.md",
-    "AI/大模型应用科学/提示词工程/提示词收集.md",
-    "AI/DeepML/DeepML-线性代数.md",
     "AI/大模型应用科学/提示词工程",
     "附件/Pasted image 20260803155044.png",
     "附件/Pasted image 20260803150517.png",
@@ -266,11 +258,7 @@
     "附件/Pasted image 20260721194450.png",
     "附件/Pasted image 20260721194135.png",
     "附件/Pasted image 20260721182720.png",
-    "附件/Pasted image 20260721182303.png",
-    "附件/Pasted image 20260720175328.png",
-    "附件/Pasted image 20260717181840.png",
     "AI/深度学习理论/注意力机制",
-    "附件/Pasted image 20260717110629.png",
     "数据库/SQL",
     "课程-计算机科学/计算机网络/Stanford-CS144",
     "课程-计算机科学/计算机网络",
