@@ -7,6 +7,10 @@ ref：
 高频系统的系列原则
 - 大部分的时候，不使用基于节点的容器，包括但不限于：红黑树、AVL、B+树等
 - 通过观察数据理解代码出现的问题
+- 手工定制（特化）的算法是通往极致性能的关键
+- 简单是终极的复杂
+- 机械共情（庖丁解牛）
+- 
 
 ## 用于展开故事的背景
 
@@ -96,3 +100,92 @@ auto GetBestPrices() const {
 
 ## 深入到CPU
 
+Linux perf工具可以以较低的开销追踪程序的底层行为，从而分析程序的性能瓶颈
+
+使用`perf stat -I 10000 -M Frontend_Bound,Backend_Bound,Bad_Speculation,Retiring`发现，`vector+reverse`程序存在25%的*错误分支预测*。分支预测是现代流水线CPU通用的一种策略，但一旦分支预测出了错，流水线需要清空+重建，损失数至十数个周期，因此不可接受。
+
+![[Pasted image 20260819141451.png]]
+
+`perf record`可以进一步定位到，程序中大部分的分支预测错误来自`std::lower_bound`内的二分查找。
+
+考虑到标准库的二分解决不了问题，最好的方法是定制一个算法，规避分支预测错误的问题：
+
+```cpp
+template <classForwardIt, classT, classCompare>
+ForwardIt branchless_lower_bound(ForwardIt first, ForwardIt last, const T& value, Compare comp)
+{
+    auto length = last - first;
+    while (length > 0)
+    {
+        auto half = length / 2;
+        // 关键：用计算代替分支
+        // comp(...) 返回 0 或 1，结果要么是 first += 0，要么 first += (length-half)
+        first += comp(first[half], value) * (length - half);
+        length = half;
+    }
+    return first;
+}
+```
+
+这种做法的原理是：`cmov`指令会计算条件值，用计算规避分支预测失败。收益也是显著的，平均耗时又降了3ns：
+
+![[Pasted image 20260819142325.png]]
+
+## 线性搜索（？）
+
+目前的进展是：`vector+reverse+定制二分算法`
+
+目前算法还有个问题：内存访问还是太过跳跃了，内存局部性比较差。所以尝试线性搜索平替二分，结果是出人意料的：线性比二分快
+
+![[Pasted image 20260819142537.png]]
+
+为什么：
+- 线性搜索会顺序访问内存，局部性更强，对缓存和数据prefetcher也极为友好
+- 线性搜索的分支操作极少，只有比较和递增
+- 对于足够小的N，低常数O(N)会赢过高常数O(logN)。在现代计算机的缓存系统中，N可能很大
+
+不要迷信理论复杂度；简单可预测的内存访问模式更可以发挥硬件的威力
+
+越简单有效的解法，越接近问题的本质
+
+## 共情机械
+
+> [!note]
+> Mechanical Sympathy. 庖丁解牛。
+
+软件运行在物理硬件上。CPU 有多级缓存、指令流水线、分支预测器、预取器、SIMD 单元等。理解这些硬件特性并利用它们，是实现极致性能的关键。
+
+在前面的事情都做完了之后，如果还不够，这些事情是值得一做的：
+- 分支预测提示（[[Cpp优化小记#分支预测提示]]）
+- 冷代码分离（`[[noinline]]`、`[[cold]]`）：将一大块核心代码中，执行频次较低的部分移出核心代码段，给代码瘦身
+- lambda over `std::function`
+
+## 从内核到用户态
+
+*内核旁路*（kernel bypass）：绕过OS+层层协议栈，让应用程序直接和网卡对接
+
+![[Pasted image 20260819143700.png]]
+
+或者更进一步，用EF\_VI/DPDK，直接让应用程序控制数据包收发+缓冲区管理，高风险高回报
+
+这些技术不仅省去了从内核到用户态的一次数据拷贝，还规避了协议栈可能引入的其他复杂细节
+
+![[Pasted image 20260819143930.png]]
+
+Linux内核很精美，但对于我们纯粹的需求（尽可能快地收发+处理数据包），它可能会引入不必要的开销
+
+## 共享内存与消息分发
+
+WIP
+
+## 性能监控
+
+WIP
+
+## 系统是一个整体
+
+WIP
+
+## 与他人合作
+
+WIP
