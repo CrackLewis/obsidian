@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Cpp/Cpp性能优化/Optiver-Cpp优化分享.md",
+                "file": "求职/面试题整理/AI-Agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Optiver-Cpp优化分享"
+              "title": "AI-Agent"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -216,11 +215,14 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "35dcc94dd372197d",
   "lastOpenFiles": [
+    "编程语言/Cpp/Cpp性能优化/Optiver-Cpp优化分享.md",
+    "附件/Pasted image 20260820154013.png",
     "附件/Pasted image 20260819143930.png",
     "附件/Pasted image 20260819143700.png",
     "附件/Pasted image 20260819142537.png",
@@ -228,10 +230,8 @@
     "附件/Pasted image 20260819141451.png",
     "附件/Pasted image 20260818185018.png",
     "附件/Pasted image 20260818185002.png",
-    "编程语言/Cpp/Cpp性能优化/Optiver-Cpp优化分享.md",
     "附件/Pasted image 20260818184632.png",
     "附件/Pasted image 20260818184433.png",
-    "附件/Pasted image 20260818183223.png",
     "求职/面试题整理/AI-Agent.md",
     "Excalidraw/Drawing 2026-08-18 15.44.00.excalidraw.md",
     "Excalidraw/Drawing 2026-08-16 18.09.55.excalidraw.md",
@@ -257,7 +257,6 @@
     "!读论文计划.md",
     "!待办.md",
     "AI/大模型应用科学/提示词工程",
-    "附件/Pasted image 20260803155044.png",
     "AI/深度学习理论/注意力机制",
     "数据库/SQL",
     "课程-计算机科学/计算机网络/Stanford-CS144",

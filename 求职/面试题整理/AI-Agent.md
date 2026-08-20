@@ -332,3 +332,15 @@ A2A = Agent-to-Agent
 
 一种解决AI Agent间通信协作问题的开放协议标准，由Google于2025年发布
 
+*A2A核心概念*：
+- Agent Card：Agent名片，描述能力范围/交互模式/访问方式
+- Task：Agent的工作单元，由一个Agent给另一个创建
+- Message、Artifact：信息交换。前者用于消息传递，后者用于产物交付
+
+A2A的取舍：选择不透明设计，Agent不对外暴露内部细节（模型/工具链/推理策略等）
+
+A2A如何处理长任务：使用异步模式，调用方边推进边轮询进度，不需要阻塞等待
+
+## A2A Agent Card
+
+解决A2A Agents之间的
