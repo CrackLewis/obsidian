@@ -343,4 +343,57 @@ A2A如何处理长任务：使用异步模式，调用方边推进边轮询进�
 
 ## A2A Agent Card
 
-解决A2A Agents之间的
+解决A2A Agents之间的发现、识别问题
+
+主要包含内容：
+- Agent名称和描述
+- Agent擅长处理的任务类型
+- Agent支持的输入输出格式、认证方式、通信端点地址
+
+三阶段作用：
+- 发现阶段：外部通过agent card了解可用agent
+- 选择阶段：根据card描述选用合适agent
+- 调用阶段：根据card声明的通信方式和认证要求发起请求
+
+一个简化的Agent Card示例：
+- skills是能力声明的核心
+- capabilities是通信能力
+
+```json
+{
+  "name": "数据分析 Agent",
+  "description": "擅长数据清洗、统计分析和可视化，支持 CSV、Excel 和 SQL 数据源",
+  "url": "https://data-agent.example.com",
+  "version": "1.0",
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false
+  },
+  "skills": [
+    {
+      "id": "data-analysis",
+      "name": "数据分析",
+      "description": "对结构化数据进行统计分析并生成报告",
+      "inputModes": ["text", "file"],
+      "outputModes": ["text", "file"]
+    }
+  ],
+  "authentication": {
+    "schemes": ["OAuth2"]
+  }
+}
+```
+
+细节：
+- A2A vs MCP：前者是agent对agent，后者是agent对tool/skill
+- agent能力变化怎么处理：更新卡片，其他agent通过轮询/事件触发
+- agent card中skills描述是自然语言，如何保证准确性：加标签体系；写得具体一些
+- A2A安全性设计：在authentication字段声明认证方式；加上agent身份验证/请求签名/权限范围限制
+
+## 上下文压缩策略
+
+四种主流策略：
+- 滑动窗口截断：只保留最近K轮对话
+- 摘要压缩：在上下文容量将满时，调LLM压缩会话的早期阶段，替代完整历史。在保留关键信息的情况下，将token数降至20%，但会多一次LLM调用和数秒延迟，且会引入不稳定性
+- 递进式摘要：每5轮做一次局部摘要
+- 选择性保留：
