@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae12884d7c4b74fe",
+        "id": "5cadf76022da8647",
         "type": "tabs",
         "children": [
           {
-            "id": "35dcc94dd372197d",
+            "id": "3874bc2973a61ca6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RoPE",
+                "query": "Hyper-V",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -220,8 +220,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "35dcc94dd372197d",
+  "active": "3874bc2973a61ca6",
   "lastOpenFiles": [
+    "附件/Pasted image 20260822154832.png",
+    "Linux/WSL/WSL与Hyper-V共存.md",
+    "Linux/WSL/WSL2网络配置.md",
+    "求职/面试题整理/AI-Agent.md",
     "编程语言/Cpp/Cpp性能优化/Optiver-Cpp优化分享.md",
     "附件/Pasted image 20260820154013.png",
     "附件/Pasted image 20260819143930.png",
@@ -233,11 +237,9 @@
     "附件/Pasted image 20260818185002.png",
     "附件/Pasted image 20260818184632.png",
     "附件/Pasted image 20260818184433.png",
-    "求职/面试题整理/AI-Agent.md",
     "Excalidraw/Drawing 2026-08-18 15.44.00.excalidraw.md",
     "Excalidraw/Drawing 2026-08-16 18.09.55.excalidraw.md",
     "Linux/Linux系统编程/getopt.md",
-    "Linux/WSL/WSL2网络配置.md",
     "编程语言/Cpp/Cpp-stdlib/stdlib-cstdio.md",
     "编程语言/Cpp/Cpp-stdlib/@stdlib-index.md",
     "课程-计算机科学/计算机网络/Stanford-CS144/cs144-labs.md",
@@ -256,7 +258,6 @@
     "!striking-back.md",
     "!技能清单.md",
     "!读论文计划.md",
-    "!待办.md",
     "AI/大模型应用科学/提示词工程",
     "AI/深度学习理论/注意力机制",
     "数据库/SQL",
