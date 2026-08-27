@@ -2463,6 +2463,18 @@
         ]
       },
       {
+        "name": "QQ机器人",
+        "path": "杂项/QQ机器人",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Mirai+Python链路.md",
+            "path": "杂项/QQ机器人/Mirai+Python链路.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
         "name": "RA2",
         "path": "杂项/RA2",
         "type": "tree",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "求职/面试题整理/AI-Agent.md",
+                "file": "杂项/QQ机器人/Mirai+Python链路.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI-Agent"
+              "title": "Mirai+Python链路"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -145,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Cpp/Cpp-stdlib/stdlib-cstdio.md",
+                "file": "杂项/QQ机器人/Mirai+Python链路.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -203,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5,
-    "collapsed": true
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,18 +214,22 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "3874bc2973a61ca6",
   "lastOpenFiles": [
+    "杂项/数字货币/USDT-TRC20.md",
+    "杂项/QQ机器人/Mirai+Python链路.md",
+    "求职/面试题整理/AI-Agent.md",
+    "杂项/QQ机器人",
     "附件/Pasted image 20260825175008.png",
     "附件/Pasted image 20260825172710.png",
     "附件/Pasted image 20260825122533.png",
     "附件/Pasted image 20260822154832.png",
     "Linux/WSL/WSL与Hyper-V共存.md",
     "Linux/WSL/WSL2网络配置.md",
-    "求职/面试题整理/AI-Agent.md",
     "编程语言/Cpp/Cpp性能优化/Optiver-Cpp优化分享.md",
     "附件/Pasted image 20260820154013.png",
     "附件/Pasted image 20260819143930.png",
@@ -235,7 +237,6 @@
     "附件/Pasted image 20260819142537.png",
     "附件/Pasted image 20260819142325.png",
     "附件/Pasted image 20260819141451.png",
-    "附件/Pasted image 20260818185018.png",
     "Excalidraw/Drawing 2026-08-18 15.44.00.excalidraw.md",
     "Excalidraw/Drawing 2026-08-16 18.09.55.excalidraw.md",
     "Linux/Linux系统编程/getopt.md",
@@ -256,7 +257,6 @@
     "Cheatsheets/Cheatsheet-机器学习.md",
     "!striking-back.md",
     "!技能清单.md",
-    "!读论文计划.md",
     "AI/大模型应用科学/提示词工程",
     "AI/深度学习理论/注意力机制",
     "数据库/SQL",
@@ -266,7 +266,6 @@
     "Linux/RaspberryPi",
     "课程-数学/人工智能数学基础",
     "编程语言/Python/sqlite3-python",
-    "AI/大模型应用科学/Skills",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
