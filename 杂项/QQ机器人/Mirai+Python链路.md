@@ -9,4 +9,6 @@ $
 文档：
 - 用户手册：`https://docs.mirai.mamoe.net/UserManual.html`
 - 常见问题：`https://docs.mirai.mamoe.net/Questions.html`
-- 
+
+## llbot+nonebot
+

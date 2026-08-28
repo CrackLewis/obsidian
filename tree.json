@@ -902,6 +902,98 @@
         ]
       },
       {
+        "name": "Agent理论和技术",
+        "path": "AI/Agent理论和技术",
+        "type": "tree",
+        "children": [
+          {
+            "name": "Agent应用",
+            "path": "AI/Agent理论和技术/Agent应用",
+            "type": "tree",
+            "children": [
+              {
+                "name": "ClaudeCode",
+                "path": "AI/Agent理论和技术/Agent应用/ClaudeCode",
+                "type": "tree",
+                "children": [
+                  {
+                    "name": "00-ClaudeCode基础.md",
+                    "path": "AI/Agent理论和技术/Agent应用/ClaudeCode/00-ClaudeCode基础.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "01-ClaudeCode插件管理.md",
+                    "path": "AI/Agent理论和技术/Agent应用/ClaudeCode/01-ClaudeCode插件管理.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "02-ClaudeCode上下文管理.md",
+                    "path": "AI/Agent理论和技术/Agent应用/ClaudeCode/02-ClaudeCode上下文管理.md",
+                    "type": "blob"
+                  }
+                ]
+              },
+              {
+                "name": "Hermes",
+                "path": "AI/Agent理论和技术/Agent应用/Hermes",
+                "type": "tree",
+                "children": [
+                  {
+                    "name": "00-Hermes基础.md",
+                    "path": "AI/Agent理论和技术/Agent应用/Hermes/00-Hermes基础.md",
+                    "type": "blob"
+                  }
+                ]
+              },
+              {
+                "name": "OpenClaw",
+                "path": "AI/Agent理论和技术/Agent应用/OpenClaw",
+                "type": "tree",
+                "children": [
+                  {
+                    "name": "00-OpenClaw入门.md",
+                    "path": "AI/Agent理论和技术/Agent应用/OpenClaw/00-OpenClaw入门.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "01-OpenClaw飞书集成.md",
+                    "path": "AI/Agent理论和技术/Agent应用/OpenClaw/01-OpenClaw飞书集成.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "02-OpenClaw微信集成.md",
+                    "path": "AI/Agent理论和技术/Agent应用/OpenClaw/02-OpenClaw微信集成.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "03-OpenClaw skills.md",
+                    "path": "AI/Agent理论和技术/Agent应用/OpenClaw/03-OpenClaw skills.md",
+                    "type": "blob"
+                  },
+                  {
+                    "name": "A01-OpenClaw参考.md",
+                    "path": "AI/Agent理论和技术/Agent应用/OpenClaw/A01-OpenClaw参考.md",
+                    "type": "blob"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Agent理论",
+            "path": "AI/Agent理论和技术/Agent理论",
+            "type": "tree",
+            "children": [
+              {
+                "name": "@01-Agent理论汇总.md",
+                "path": "AI/Agent理论和技术/Agent理论/@01-Agent理论汇总.md",
+                "type": "blob"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "DeepML",
         "path": "AI/DeepML",
         "type": "tree",
@@ -2468,6 +2560,11 @@
         "type": "tree",
         "children": [
           {
+            "name": "LLBot+NoneBot链路.md",
+            "path": "杂项/QQ机器人/LLBot+NoneBot链路.md",
+            "type": "blob"
+          },
+          {
             "name": "Mirai+Python链路.md",
             "path": "杂项/QQ机器人/Mirai+Python链路.md",
             "type": "blob"
@@ -2616,6 +2713,18 @@
           {
             "name": "SSH隧道.md",
             "path": "杂项/网络hacks/SSH隧道.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "血族",
+        "path": "杂项/血族",
+        "type": "tree",
+        "children": [
+          {
+            "name": "卡片属性与技能.md",
+            "path": "杂项/血族/卡片属性与技能.md",
             "type": "blob"
           }
         ]
