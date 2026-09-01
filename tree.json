@@ -976,6 +976,18 @@
                     "type": "blob"
                   }
                 ]
+              },
+              {
+                "name": "OpenCode",
+                "path": "AI/Agent理论和技术/Agent应用/OpenCode",
+                "type": "tree",
+                "children": [
+                  {
+                    "name": "00-OpenCode入门.md",
+                    "path": "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门.md",
+                    "type": "blob"
+                  }
+                ]
               }
             ]
           },
@@ -987,6 +999,26 @@
               {
                 "name": "@01-Agent理论汇总.md",
                 "path": "AI/Agent理论和技术/Agent理论/@01-Agent理论汇总.md",
+                "type": "blob"
+              },
+              {
+                "name": "A2A.md",
+                "path": "AI/Agent理论和技术/Agent理论/A2A.md",
+                "type": "blob"
+              },
+              {
+                "name": "MCP.md",
+                "path": "AI/Agent理论和技术/Agent理论/MCP.md",
+                "type": "blob"
+              },
+              {
+                "name": "智能体工作模式.md",
+                "path": "AI/Agent理论和技术/Agent理论/智能体工作模式.md",
+                "type": "blob"
+              },
+              {
+                "name": "智能体记忆.md",
+                "path": "AI/Agent理论和技术/Agent理论/智能体记忆.md",
                 "type": "blob"
               }
             ]
@@ -13791,6 +13823,11 @@
       {
         "name": "Pasted image 20260825175008.png",
         "path": "附件/Pasted image 20260825175008.png",
+        "type": "blob"
+      },
+      {
+        "name": "Pasted image 20260901220503.png",
+        "path": "附件/Pasted image 20260901220503.png",
         "type": "blob"
       },
       {
