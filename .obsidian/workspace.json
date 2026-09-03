@@ -214,8 +214,7 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "9b181cd364e4bc5a",
