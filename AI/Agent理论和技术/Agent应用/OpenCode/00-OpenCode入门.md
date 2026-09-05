@@ -56,7 +56,7 @@ MCPs：全称MCP servers，第三方提供的外接工具服务器，可以是�
 	- `opencode session`：管理当前工作区内的所有会话
 		- `list/delete`：列出所有工作区内会话/删除某个会话
 	- `opencode run <prompt>`：非交互式处理一个文本请求
-		- `--format`
+		- `--format`：指定会话输出格式，默认文本，可选`json/xml`等
 	- `opencode export`：导出一个会话的全部上下文为外部文件
 	- `opencode import`：从外部文件导入一个会话
 - 资源管理：

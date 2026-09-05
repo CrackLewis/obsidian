@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门.md",
+                "file": "科研/k-plex/kplex论文写作手法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-OpenCode入门"
+              "title": "kplex论文写作手法"
             }
           }
         ]
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门.md",
+                "file": "科研/k-plex/kplex论文写作手法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -214,13 +214,20 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
-    "AI/大模型应用科学/Skills/Skills基础.md",
+    "科研/k-plex/B-2024-Chang-kPlexT.md",
+    "科研/k-plex/kplex论文写作手法.md",
+    "科研/k-plex/B-2021-Chang-kPlexS.md",
+    "科研/k-plex/B-2018-Maplex.md",
+    "科研/k-plex/B-2017-Xiao-BS.md",
+    "科研/k-plex/B-2011-Balasundaram.md",
     "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门.md",
+    "AI/大模型应用科学/Skills/Skills基础.md",
     "AI/Agent理论和技术/Agent理论/A2A.md",
     "AI/Agent理论和技术/Agent理论/MCP.md",
     "AI/Agent理论和技术/Agent理论/智能体记忆.md",
@@ -253,12 +260,6 @@
     "附件/Pasted image 20260819142537.png",
     "附件/Pasted image 20260819142325.png",
     "Excalidraw/Drawing 2026-08-18 15.44.00.excalidraw.md",
-    "Excalidraw/Drawing 2026-08-16 18.09.55.excalidraw.md",
-    "Linux/Linux系统编程/getopt.md",
-    "编程语言/Cpp/Cpp-stdlib/stdlib-cstdio.md",
-    "编程语言/Cpp/Cpp-stdlib/@stdlib-index.md",
-    "课程-计算机科学/计算机网络/Stanford-CS144/cs144-labs.md",
-    "编程语言/Cpp/Cpp-stdlib/stdlib-format.md",
     "AI/大模型应用科学/提示词工程",
     "AI/深度学习理论/注意力机制",
     "数据库/SQL",
