@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/k-plex/kplex论文写作手法.md",
+                "file": "科研/k-plex/B-2017-Xiao-BS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kplex论文写作手法"
+              "title": "B-2017-Xiao-BS"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -222,8 +221,8 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
-    "科研/k-plex/B-2024-Chang-kPlexT.md",
     "科研/k-plex/kplex论文写作手法.md",
+    "科研/k-plex/B-2024-Chang-kPlexT.md",
     "科研/k-plex/B-2021-Chang-kPlexS.md",
     "科研/k-plex/B-2018-Maplex.md",
     "科研/k-plex/B-2017-Xiao-BS.md",
