@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/k-plex/B-2017-Xiao-BS.md",
+                "file": "课程-计算机科学/算法/链表题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B-2017-Xiao-BS"
+              "title": "链表题"
             }
           }
         ]
@@ -221,11 +221,17 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
+    "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
+    "课程-计算机科学/West_图论导引/IGT01-基础概念.md",
+    "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
+    "课程-计算机科学/算法/搜索算法",
+    "科研/写作手法/常用语法规则.md",
+    "科研/k-plex/B-2017-Xiao-BS.md",
+    "科研/写作手法",
     "科研/k-plex/kplex论文写作手法.md",
     "科研/k-plex/B-2024-Chang-kPlexT.md",
     "科研/k-plex/B-2021-Chang-kPlexS.md",
     "科研/k-plex/B-2018-Maplex.md",
-    "科研/k-plex/B-2017-Xiao-BS.md",
     "科研/k-plex/B-2011-Balasundaram.md",
     "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门.md",
     "AI/大模型应用科学/Skills/Skills基础.md",
@@ -252,21 +258,15 @@
     "附件/Pasted image 20260825172710.png",
     "附件/Pasted image 20260825122533.png",
     "附件/Pasted image 20260822154832.png",
-    "Linux/WSL/WSL与Hyper-V共存.md",
-    "Linux/WSL/WSL2网络配置.md",
-    "编程语言/Cpp/Cpp性能优化/Optiver-Cpp优化分享.md",
     "附件/Pasted image 20260820154013.png",
     "附件/Pasted image 20260819143930.png",
     "附件/Pasted image 20260819143700.png",
     "附件/Pasted image 20260819142537.png",
     "附件/Pasted image 20260819142325.png",
-    "Excalidraw/Drawing 2026-08-18 15.44.00.excalidraw.md",
     "AI/大模型应用科学/提示词工程",
     "AI/深度学习理论/注意力机制",
     "数据库/SQL",
     "课程-计算机科学/计算机网络/Stanford-CS144",
-    "课程-计算机科学/计算机网络",
-    "Linux/WSL",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
