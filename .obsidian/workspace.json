@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/算法/链表题.md",
+                "file": "科研/k-plex/kplex论文写作手法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "链表题"
+              "title": "kplex论文写作手法"
             }
           }
         ]
@@ -221,6 +221,9 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
+    "科研/k-plex/kplex论文写作.md",
+    "科研/k-plex/kplex论文写作手法.md",
+    "课程-计算机科学/算法/链表题.md",
     "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
     "课程-计算机科学/West_图论导引/IGT01-基础概念.md",
     "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
@@ -228,7 +231,6 @@
     "科研/写作手法/常用语法规则.md",
     "科研/k-plex/B-2017-Xiao-BS.md",
     "科研/写作手法",
-    "科研/k-plex/kplex论文写作手法.md",
     "科研/k-plex/B-2024-Chang-kPlexT.md",
     "科研/k-plex/B-2021-Chang-kPlexS.md",
     "科研/k-plex/B-2018-Maplex.md",
@@ -251,8 +253,6 @@
     "杂项/QQ机器人/Mirai+Python链路.md",
     "杂项/血族",
     "AI/Agent理论和技术",
-    "杂项/数字货币/USDT-TRC20.md",
-    "求职/面试题整理/AI-Agent.md",
     "杂项/QQ机器人",
     "附件/Pasted image 20260825175008.png",
     "附件/Pasted image 20260825172710.png",
