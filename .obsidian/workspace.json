@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科研/k-plex/kplex论文写作手法.md",
+                "file": "杂项/体制研究/部级及以上机关.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kplex论文写作手法"
+              "title": "部级及以上机关"
             }
           }
         ]
@@ -221,8 +221,10 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
-    "科研/k-plex/kplex论文写作.md",
     "科研/k-plex/kplex论文写作手法.md",
+    "杂项/体制研究/部级及以上机关.md",
+    "杂项/体制研究",
+    "科研/k-plex/kplex论文写作.md",
     "课程-计算机科学/算法/链表题.md",
     "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
     "课程-计算机科学/West_图论导引/IGT01-基础概念.md",
@@ -250,7 +252,6 @@
     "AI/大模型理论/对齐优化/PPO.md",
     "杂项/血族/卡片属性与技能.md",
     "杂项/QQ机器人/LLBot+NoneBot链路.md",
-    "杂项/QQ机器人/Mirai+Python链路.md",
     "杂项/血族",
     "AI/Agent理论和技术",
     "杂项/QQ机器人",
@@ -266,7 +267,6 @@
     "AI/大模型应用科学/提示词工程",
     "AI/深度学习理论/注意力机制",
     "数据库/SQL",
-    "课程-计算机科学/计算机网络/Stanford-CS144",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
