@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/体制研究/等级.md",
+                "file": "杂项/体制研究/部级及以上机关.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "等级"
+              "title": "部级及以上机关"
             }
           }
         ]
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/体制研究/等级.md",
+                "file": "杂项/体制研究/部级及以上机关.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -220,8 +220,8 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
+    "杂项/体制研究/级别体系.md",
     "杂项/体制研究/部级及以上机关.md",
-    "杂项/体制研究/等级.md",
     "科研/k-plex/kplex论文写作手法.md",
     "杂项/体制研究",
     "科研/k-plex/kplex论文写作.md",
