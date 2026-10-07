@@ -2575,11 +2575,6 @@
         "type": "tree",
         "children": [
           {
-            "name": "等级.md",
-            "path": "杂项/体制研究/等级.md",
-            "type": "blob"
-          },
-          {
             "name": "级别体系.md",
             "path": "杂项/体制研究/级别体系.md",
             "type": "blob"
