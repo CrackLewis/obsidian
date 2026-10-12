@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/大模型应用科学/HarnessEngineering.md",
+                "file": "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门-2.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HarnessEngineering"
+              "title": "00-OpenCode入门-2.0"
             }
           }
         ]
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/大模型应用科学/HarnessEngineering.md",
+                "file": "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门-2.0.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -220,6 +220,9 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
+    "AI/Agent理论和技术/Agent应用/OpenCode/X00-OpenCode入门-1.x.md",
+    "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门-2.0.md",
+    "AI/大模型应用科学/HarnessEngineering.md",
     "课程-数学/A01-初等代数.md",
     "课程-数学/@01-词典-初等+数分高代.md",
     "杂项/体制研究/级别体系.md",
@@ -239,7 +242,6 @@
     "科研/k-plex/B-2021-Chang-kPlexS.md",
     "科研/k-plex/B-2018-Maplex.md",
     "科研/k-plex/B-2011-Balasundaram.md",
-    "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门.md",
     "AI/大模型应用科学/Skills/Skills基础.md",
     "AI/Agent理论和技术/Agent理论/A2A.md",
     "AI/Agent理论和技术/Agent理论/MCP.md",
@@ -249,8 +251,6 @@
     "AI/Agent理论和技术/Agent理论/Reflexion.md",
     "AI/Agent理论和技术/Agent理论/@01-Agent理论汇总.md",
     "AI/Agent理论和技术/Agent应用/OpenCode",
-    "AI/强化学习理论/01-强化学习基础.md",
-    "AI/强化学习理论/00-强化学习intro.md",
     "杂项/血族",
     "AI/Agent理论和技术",
     "杂项/QQ机器人",

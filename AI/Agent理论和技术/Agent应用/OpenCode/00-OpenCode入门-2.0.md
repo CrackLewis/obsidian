@@ -1,0 +1,28 @@
+
+- 入门：
+	- 教程、简介、安装
+- 配置：
+	- API设置
+	- 配置文件
+- 界面：
+	- VSCode
+	- TUI
+	- CLI
+	- WebUI
+	- 快捷键
+- 能力接入
+	- GitHub/GitLab
+	- 工具（tools）
+	- 规则
+	- 代理
+	- LSP
+	- MCP
+	- skills
+- 定制：
+	- 主题
+	- 自定义命令
+	- 权限配置
+	- 自定义工具
+	- oh-my-openagent
+	- 生态系统
+
