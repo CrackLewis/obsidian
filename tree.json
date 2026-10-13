@@ -988,11 +988,6 @@
                     "type": "blob"
                   },
                   {
-                    "name": "00-OpenCode入门.md",
-                    "path": "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门.md",
-                    "type": "blob"
-                  },
-                  {
                     "name": "X00-OpenCode入门-1.x.md",
                     "path": "AI/Agent理论和技术/Agent应用/OpenCode/X00-OpenCode入门-1.x.md",
                     "type": "blob"
@@ -2699,6 +2694,11 @@
           {
             "name": "卡片属性与技能.md",
             "path": "杂项/血族/卡片属性与技能.md",
+            "type": "blob"
+          },
+          {
+            "name": "资源解密逻辑.md",
+            "path": "杂项/血族/资源解密逻辑.md",
             "type": "blob"
           }
         ]
