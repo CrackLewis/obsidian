@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "求职/行测/A00-政治理论.md",
+                "file": "杂项/加密hacks/开源存储加密模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A00-政治理论"
+              "title": "开源存储加密模型"
             }
           }
         ]
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "求职/行测/A00-政治理论.md",
+                "file": "杂项/加密hacks/开源存储加密模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -220,12 +220,20 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
+    "杂项/监控与反监控/威胁模型.md",
+    "杂项/加密hacks/picencrypt.md",
+    "杂项/监控与反监控",
+    "杂项/加密hacks/开源存储加密模型.md",
+    "杂项/渠道流量风控/客诉响应agent学习.md",
+    "杂项/社工/社工攻击方式.md",
+    "杂项/社工/社工库及其状态.md",
     "杂项/代理/公益代理.md",
+    "杂项/血族/资源解密逻辑.md",
+    "杂项/加密hacks",
     "求职/行测/A00-政治理论.md",
     "求职/行测",
     "杂项/代理/gh-proxy.com.md",
     "杂项/代理/gh-proxy.org.md",
-    "杂项/血族/资源解密逻辑.md",
     "杂项/代理",
     "杂项/体制研究/级别体系.md",
     "杂项/体制研究/部级及以上机关.md",
@@ -243,19 +251,12 @@
     "杂项/体制研究",
     "科研/k-plex/kplex论文写作.md",
     "课程-计算机科学/算法/链表题.md",
-    "课程-计算机科学/算法/张齐勋-算法分析与设计.md",
-    "课程-计算机科学/West_图论导引/IGT01-基础概念.md",
-    "课程-计算机科学/算法/位运算/位运算-面试鸭.md",
     "课程-计算机科学/算法/搜索算法",
-    "科研/写作手法/常用语法规则.md",
-    "科研/k-plex/B-2017-Xiao-BS.md",
     "科研/写作手法",
-    "科研/k-plex/B-2024-Chang-kPlexT.md",
     "附件/Pasted image 20260901220503.png",
     "AI/Agent理论和技术/Agent应用/OpenCode",
     "杂项/血族",
     "AI/Agent理论和技术",
-    "杂项/QQ机器人",
     "附件/Pasted image 20260825175008.png",
     "附件/Pasted image 20260825172710.png",
     "附件/Pasted image 20260825122533.png",
@@ -265,7 +266,6 @@
     "附件/Pasted image 20260819143700.png",
     "附件/Pasted image 20260819142537.png",
     "附件/Pasted image 20260819142325.png",
-    "AI/大模型应用科学/提示词工程",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
