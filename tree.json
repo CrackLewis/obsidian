@@ -2575,6 +2575,18 @@
         ]
       },
       {
+        "name": "代理",
+        "path": "杂项/代理",
+        "type": "tree",
+        "children": [
+          {
+            "name": "公益代理.md",
+            "path": "杂项/代理/公益代理.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
         "name": "体制研究",
         "path": "杂项/体制研究",
         "type": "tree",
@@ -2692,11 +2704,6 @@
         "type": "tree",
         "children": [
           {
-            "name": "卡片属性与技能.md",
-            "path": "杂项/血族/卡片属性与技能.md",
-            "type": "blob"
-          },
-          {
             "name": "资源解密逻辑.md",
             "path": "杂项/血族/资源解密逻辑.md",
             "type": "blob"
@@ -2810,6 +2817,18 @@
     "path": "求职",
     "type": "tree",
     "children": [
+      {
+        "name": "行测",
+        "path": "求职/行测",
+        "type": "tree",
+        "children": [
+          {
+            "name": "A00-政治理论.md",
+            "path": "求职/行测/A00-政治理论.md",
+            "type": "blob"
+          }
+        ]
+      },
       {
         "name": "面试题整理",
         "path": "求职/面试题整理",

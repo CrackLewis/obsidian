@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/血族/资源解密逻辑.md",
+                "file": "求职/行测/A00-政治理论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "资源解密逻辑"
+              "title": "A00-政治理论"
             }
           }
         ]
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/血族/资源解密逻辑.md",
+                "file": "求职/行测/A00-政治理论.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -220,6 +220,14 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
+    "杂项/代理/公益代理.md",
+    "求职/行测/A00-政治理论.md",
+    "求职/行测",
+    "杂项/代理/gh-proxy.com.md",
+    "杂项/代理/gh-proxy.org.md",
+    "杂项/血族/资源解密逻辑.md",
+    "杂项/代理",
+    "杂项/体制研究/级别体系.md",
     "杂项/体制研究/部级及以上机关.md",
     "杂项/逆向工程/IDA.md",
     "杂项/逆向工程/Ghidra.md",
@@ -231,7 +239,6 @@
     "AI/大模型应用科学/HarnessEngineering.md",
     "课程-数学/A01-初等代数.md",
     "课程-数学/@01-词典-初等+数分高代.md",
-    "杂项/体制研究/级别体系.md",
     "科研/k-plex/kplex论文写作手法.md",
     "杂项/体制研究",
     "科研/k-plex/kplex论文写作.md",
@@ -244,11 +251,6 @@
     "科研/k-plex/B-2017-Xiao-BS.md",
     "科研/写作手法",
     "科研/k-plex/B-2024-Chang-kPlexT.md",
-    "科研/k-plex/B-2021-Chang-kPlexS.md",
-    "科研/k-plex/B-2018-Maplex.md",
-    "科研/k-plex/B-2011-Balasundaram.md",
-    "AI/大模型应用科学/Skills/Skills基础.md",
-    "AI/Agent理论和技术/Agent理论/A2A.md",
     "附件/Pasted image 20260901220503.png",
     "AI/Agent理论和技术/Agent应用/OpenCode",
     "杂项/血族",
@@ -264,8 +266,6 @@
     "附件/Pasted image 20260819142537.png",
     "附件/Pasted image 20260819142325.png",
     "AI/大模型应用科学/提示词工程",
-    "AI/深度学习理论/注意力机制",
-    "数据库/SQL",
     "Untitled.canvas",
     "编程语言/Cpp/未命名.canvas"
   ]
