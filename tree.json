@@ -2733,6 +2733,11 @@
         "type": "tree",
         "children": [
           {
+            "name": "adb调试.md",
+            "path": "杂项/血族/adb调试.md",
+            "type": "blob"
+          },
+          {
             "name": "资源解密逻辑.md",
             "path": "杂项/血族/资源解密逻辑.md",
             "type": "blob"

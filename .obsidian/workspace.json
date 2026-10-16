@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/加密hacks/开源存储加密模型.md",
+                "file": "杂项/血族/adb调试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开源存储加密模型"
+              "title": "adb调试"
             }
           }
         ]
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/加密hacks/开源存储加密模型.md",
+                "file": "杂项/血族/adb调试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -220,15 +220,16 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
+    "杂项/血族/资源解密逻辑.md",
+    "杂项/血族/adb调试.md",
+    "杂项/加密hacks/开源存储加密模型.md",
     "杂项/监控与反监控/威胁模型.md",
     "杂项/加密hacks/picencrypt.md",
     "杂项/监控与反监控",
-    "杂项/加密hacks/开源存储加密模型.md",
     "杂项/渠道流量风控/客诉响应agent学习.md",
     "杂项/社工/社工攻击方式.md",
     "杂项/社工/社工库及其状态.md",
     "杂项/代理/公益代理.md",
-    "杂项/血族/资源解密逻辑.md",
     "杂项/加密hacks",
     "求职/行测/A00-政治理论.md",
     "求职/行测",
@@ -250,7 +251,6 @@
     "科研/k-plex/kplex论文写作手法.md",
     "杂项/体制研究",
     "科研/k-plex/kplex论文写作.md",
-    "课程-计算机科学/算法/链表题.md",
     "课程-计算机科学/算法/搜索算法",
     "科研/写作手法",
     "附件/Pasted image 20260901220503.png",
