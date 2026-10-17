@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/血族/adb调试.md",
+                "file": "杂项/体制研究/重大政治活动-1840至1949.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "adb调试"
+              "title": "重大政治活动-1840至1949"
             }
           }
         ]
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/血族/adb调试.md",
+                "file": "杂项/体制研究/重大政治活动-1840至1949.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -220,15 +220,23 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
-    "杂项/血族/资源解密逻辑.md",
-    "杂项/血族/adb调试.md",
+    "杂项/体制研究/重大政治活动-1949至1989.md",
+    "杂项/体制研究/重大政治活动-1989至今.md",
+    "杂项/体制研究/重大政治活动-1840至1949.md",
+    "杂项/体制研究/部级及以上机关.md",
+    "杂项/血族/资源文件.md",
+    "杂项/逆向工程/Ghidra.md",
+    "杂项/社工/社工库及其状态.md",
+    "杂项/社工/社工攻击方式.md",
+    "杂项/体制研究/级别体系.md",
+    "杂项/数字货币/USDT-TRC20.md",
     "杂项/加密hacks/开源存储加密模型.md",
     "杂项/监控与反监控/威胁模型.md",
+    "杂项/血族/adb调试.md",
+    "杂项/血族/资源解密逻辑.md",
     "杂项/加密hacks/picencrypt.md",
     "杂项/监控与反监控",
     "杂项/渠道流量风控/客诉响应agent学习.md",
-    "杂项/社工/社工攻击方式.md",
-    "杂项/社工/社工库及其状态.md",
     "杂项/代理/公益代理.md",
     "杂项/加密hacks",
     "求职/行测/A00-政治理论.md",
@@ -236,21 +244,13 @@
     "杂项/代理/gh-proxy.com.md",
     "杂项/代理/gh-proxy.org.md",
     "杂项/代理",
-    "杂项/体制研究/级别体系.md",
-    "杂项/体制研究/部级及以上机关.md",
     "杂项/逆向工程/IDA.md",
-    "杂项/逆向工程/Ghidra.md",
     "杂项/量化交易/01-量化交易基本概念.md",
     "杂项/QQ机器人/LLBot+NoneBot链路.md",
     "杂项/自然辩证法笔记.md",
     "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门-2.0.md",
     "AI/Agent理论和技术/Agent应用/OpenCode/X00-OpenCode入门-1.x.md",
-    "AI/大模型应用科学/HarnessEngineering.md",
-    "课程-数学/A01-初等代数.md",
-    "课程-数学/@01-词典-初等+数分高代.md",
-    "科研/k-plex/kplex论文写作手法.md",
     "杂项/体制研究",
-    "科研/k-plex/kplex论文写作.md",
     "课程-计算机科学/算法/搜索算法",
     "科研/写作手法",
     "附件/Pasted image 20260901220503.png",
