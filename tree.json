@@ -2872,6 +2872,18 @@
     "type": "tree",
     "children": [
       {
+        "name": "AI-Coding专项",
+        "path": "求职/AI-Coding专项",
+        "type": "tree",
+        "children": [
+          {
+            "name": "AICoding解题方法.md",
+            "path": "求职/AI-Coding专项/AICoding解题方法.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
         "name": "行测",
         "path": "求职/行测",
         "type": "tree",
