@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "求职/推荐算法面经.md",
+                "file": "杂项/血族/资源文件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "推荐算法面经"
+              "title": "资源文件"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -219,39 +220,39 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ca3543a5a24243e3",
+  "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
-    "求职/AI-Coding专项/AICoding解题方法.md",
-    "杂项/体制研究/重大政治活动-1840至1949.md",
-    "求职/AI-Coding专项",
-    "杂项/体制研究/重大政治活动-1949至1989.md",
-    "杂项/体制研究/重大政治活动-1989至今.md",
-    "杂项/体制研究/部级及以上机关.md",
+    "杂项/血族/adb调试.md",
     "杂项/血族/资源文件.md",
+    "杂项/血族/资源解密逻辑.md",
+    "杂项/体制研究/重大政治活动-1840至1949.md",
+    "杂项/体制研究/重大政治活动-1989至今.md",
+    "杂项/体制研究/重大政治活动-1949至1989.md",
+    "杂项/加密hacks/开源存储加密模型.md",
+    "杂项/加密hacks/picencrypt.md",
+    "AI/深度学习理论/注意力机制/自注意力详解.md",
+    "AI/深度学习理论/优化器/03-RMSProp.md",
+    "AI/深度学习理论/损失函数/CrossEntropy.md",
+    "AI/深度学习理论/激活函数/05-GELU.md",
+    "AI/深度学习理论/激活函数/04-SiLU.md",
+    "AI/深度学习理论/激活函数/03-ReLU+LeakyReLU.md",
+    "AI/深度学习理论/激活函数/02-tanh.md",
+    "AI/深度学习理论/激活函数/01-Sigmoid.md",
+    "求职/推荐算法面经.md",
+    "求职/AI-Coding专项/AICoding解题方法.md",
+    "求职/AI-Coding专项",
+    "杂项/体制研究/部级及以上机关.md",
     "杂项/逆向工程/Ghidra.md",
     "杂项/社工/社工库及其状态.md",
     "杂项/社工/社工攻击方式.md",
     "杂项/体制研究/级别体系.md",
     "杂项/数字货币/USDT-TRC20.md",
-    "杂项/加密hacks/开源存储加密模型.md",
     "杂项/监控与反监控/威胁模型.md",
-    "杂项/血族/adb调试.md",
-    "杂项/血族/资源解密逻辑.md",
-    "杂项/加密hacks/picencrypt.md",
     "杂项/监控与反监控",
     "杂项/渠道流量风控/客诉响应agent学习.md",
-    "杂项/代理/公益代理.md",
     "杂项/加密hacks",
-    "求职/行测/A00-政治理论.md",
     "求职/行测",
-    "杂项/代理/gh-proxy.com.md",
-    "杂项/代理/gh-proxy.org.md",
     "杂项/代理",
-    "杂项/逆向工程/IDA.md",
-    "杂项/量化交易/01-量化交易基本概念.md",
-    "杂项/QQ机器人/LLBot+NoneBot链路.md",
-    "杂项/自然辩证法笔记.md",
-    "AI/Agent理论和技术/Agent应用/OpenCode/00-OpenCode入门-2.0.md",
     "杂项/体制研究",
     "课程-计算机科学/算法/搜索算法",
     "科研/写作手法",

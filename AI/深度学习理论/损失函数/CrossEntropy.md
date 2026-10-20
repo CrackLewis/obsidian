@@ -3,7 +3,7 @@
 
 ## 二分类BCELoss
 
-
+假设问题是多特征二分类：
 
 ## 多分类CrossEntropy
 
