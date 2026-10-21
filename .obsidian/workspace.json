@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/血族/资源文件.md",
+                "file": "杂项/QQ机器人/群聊状态机.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "资源文件"
+              "title": "群聊状态机"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -222,8 +221,9 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
-    "杂项/血族/adb调试.md",
     "杂项/血族/资源文件.md",
+    "杂项/QQ机器人/群聊状态机.md",
+    "杂项/血族/adb调试.md",
     "杂项/血族/资源解密逻辑.md",
     "杂项/体制研究/重大政治活动-1840至1949.md",
     "杂项/体制研究/重大政治活动-1989至今.md",
@@ -249,7 +249,6 @@
     "杂项/数字货币/USDT-TRC20.md",
     "杂项/监控与反监控/威胁模型.md",
     "杂项/监控与反监控",
-    "杂项/渠道流量风控/客诉响应agent学习.md",
     "杂项/加密hacks",
     "求职/行测",
     "杂项/代理",

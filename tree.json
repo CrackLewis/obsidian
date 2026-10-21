@@ -2520,6 +2520,11 @@
             "name": "Mirai+Python链路.md",
             "path": "杂项/QQ机器人/Mirai+Python链路.md",
             "type": "blob"
+          },
+          {
+            "name": "群聊状态机.md",
+            "path": "杂项/QQ机器人/群聊状态机.md",
+            "type": "blob"
           }
         ]
       },
