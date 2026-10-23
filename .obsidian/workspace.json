@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/QQ机器人/群聊状态机.md",
+                "file": "杂项/血族/资源文件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "群聊状态机"
+              "title": "资源文件"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -144,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "求职/推荐算法面经.md",
+                "file": "杂项/血族/资源文件.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5,
-    "collapsed": true
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,8 +221,8 @@
   },
   "active": "9b181cd364e4bc5a",
   "lastOpenFiles": [
-    "杂项/血族/资源文件.md",
     "杂项/QQ机器人/群聊状态机.md",
+    "杂项/血族/资源文件.md",
     "杂项/血族/adb调试.md",
     "杂项/血族/资源解密逻辑.md",
     "杂项/体制研究/重大政治活动-1840至1949.md",
