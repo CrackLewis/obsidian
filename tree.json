@@ -2522,6 +2522,11 @@
             "type": "blob"
           },
           {
+            "name": "群聊机器人v2.md",
+            "path": "杂项/QQ机器人/群聊机器人v2.md",
+            "type": "blob"
+          },
+          {
             "name": "群聊状态机.md",
             "path": "杂项/QQ机器人/群聊状态机.md",
             "type": "blob"
