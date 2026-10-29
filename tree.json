@@ -14007,6 +14007,100 @@
     ]
   },
   {
+    "name": "？",
+    "path": "？",
+    "type": "tree",
+    "children": [
+      {
+        "name": "代理",
+        "path": "？/代理",
+        "type": "tree",
+        "children": [
+          {
+            "name": "公益代理.md",
+            "path": "？/代理/公益代理.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "加密hacks",
+        "path": "？/加密hacks",
+        "type": "tree",
+        "children": [
+          {
+            "name": "picencrypt.md",
+            "path": "？/加密hacks/picencrypt.md",
+            "type": "blob"
+          },
+          {
+            "name": "开源存储加密模型.md",
+            "path": "？/加密hacks/开源存储加密模型.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "情报学",
+        "path": "？/情报学",
+        "type": "tree",
+        "children": [
+          {
+            "name": "@情报学资料整理.md",
+            "path": "？/情报学/@情报学资料整理.md",
+            "type": "blob"
+          },
+          {
+            "name": "情报分析心理学-CIA.md",
+            "path": "？/情报学/情报分析心理学-CIA.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "监控与反监控",
+        "path": "？/监控与反监控",
+        "type": "tree",
+        "children": [
+          {
+            "name": "威胁模型.md",
+            "path": "？/监控与反监控/威胁模型.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "社工",
+        "path": "？/社工",
+        "type": "tree",
+        "children": [
+          {
+            "name": "社工库及其状态.md",
+            "path": "？/社工/社工库及其状态.md",
+            "type": "blob"
+          },
+          {
+            "name": "社工攻击方式.md",
+            "path": "？/社工/社工攻击方式.md",
+            "type": "blob"
+          }
+        ]
+      },
+      {
+        "name": "身份",
+        "path": "？/身份",
+        "type": "tree",
+        "children": [
+          {
+            "name": "海外数字身份.md",
+            "path": "？/身份/海外数字身份.md",
+            "type": "blob"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "!striking-back.md",
     "path": "!striking-back.md",
     "type": "blob"
