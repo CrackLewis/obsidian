@@ -2580,18 +2580,6 @@
         ]
       },
       {
-        "name": "代理",
-        "path": "杂项/代理",
-        "type": "tree",
-        "children": [
-          {
-            "name": "公益代理.md",
-            "path": "杂项/代理/公益代理.md",
-            "type": "blob"
-          }
-        ]
-      },
-      {
         "name": "体制研究",
         "path": "杂项/体制研究",
         "type": "tree",
@@ -2619,23 +2607,6 @@
           {
             "name": "重大政治活动-1989至今.md",
             "path": "杂项/体制研究/重大政治活动-1989至今.md",
-            "type": "blob"
-          }
-        ]
-      },
-      {
-        "name": "加密hacks",
-        "path": "杂项/加密hacks",
-        "type": "tree",
-        "children": [
-          {
-            "name": "picencrypt.md",
-            "path": "杂项/加密hacks/picencrypt.md",
-            "type": "blob"
-          },
-          {
-            "name": "开源存储加密模型.md",
-            "path": "杂项/加密hacks/开源存储加密模型.md",
             "type": "blob"
           }
         ]
@@ -2680,35 +2651,6 @@
           {
             "name": "读周报.md",
             "path": "杂项/渠道流量风控/读周报.md",
-            "type": "blob"
-          }
-        ]
-      },
-      {
-        "name": "监控与反监控",
-        "path": "杂项/监控与反监控",
-        "type": "tree",
-        "children": [
-          {
-            "name": "威胁模型.md",
-            "path": "杂项/监控与反监控/威胁模型.md",
-            "type": "blob"
-          }
-        ]
-      },
-      {
-        "name": "社工",
-        "path": "杂项/社工",
-        "type": "tree",
-        "children": [
-          {
-            "name": "社工库及其状态.md",
-            "path": "杂项/社工/社工库及其状态.md",
-            "type": "blob"
-          },
-          {
-            "name": "社工攻击方式.md",
-            "path": "杂项/社工/社工攻击方式.md",
             "type": "blob"
           }
         ]
@@ -2765,18 +2707,6 @@
           {
             "name": "资源解密逻辑.md",
             "path": "杂项/血族/资源解密逻辑.md",
-            "type": "blob"
-          }
-        ]
-      },
-      {
-        "name": "身份",
-        "path": "杂项/身份",
-        "type": "tree",
-        "children": [
-          {
-            "name": "海外数字身份.md",
-            "path": "杂项/身份/海外数字身份.md",
             "type": "blob"
           }
         ]
