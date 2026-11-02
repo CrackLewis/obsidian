@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9b181cd364e4bc5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "？/情报学/@情报学资料整理.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "@情报学资料整理"
-            }
-          },
-          {
             "id": "97228e2bdc9bd6dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/血族/资源文件.md",
+                "file": "AI/大模型应用科学/RAG/@RAG核心知识.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "资源文件"
+              "title": "@RAG核心知识"
             }
           }
         ]
@@ -94,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "fac74d47dcfa846b",
@@ -234,11 +219,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9b181cd364e4bc5a",
+  "active": "97228e2bdc9bd6dc",
   "lastOpenFiles": [
-    "？/情报学/情报分析心理学-CIA.md",
-    "？/情报学/@情报学资料整理.md",
+    "AI/大模型应用科学/RAG/BM25.md",
+    "AI/大模型应用科学/RAG/@RAG核心知识.md",
+    "杂项/血族/资源文件.md",
+    "AI/大模型应用科学/RAG",
     "？/监控与反监控/威胁模型.md",
+    "？/身份/海外数字身份.md",
+    "？/情报学/@情报学资料整理.md",
+    "？/情报学/情报分析心理学-CIA.md",
     "？/社工/社工攻击方式.md",
     "？/密码学",
     "？/社工/社工库及其状态.md",
@@ -247,7 +237,6 @@
     "？/侦查与反侦查",
     "？",
     "杂项/未命名",
-    "杂项/血族/资源文件.md",
     "杂项/血族/adb调试.md",
     "杂项/血族/资源解密逻辑.md",
     "杂项/体制研究/重大政治活动-1840至1949.md",
@@ -264,14 +253,10 @@
     "AI/深度学习理论/激活函数/02-tanh.md",
     "AI/深度学习理论/激活函数/01-Sigmoid.md",
     "求职/推荐算法面经.md",
-    "求职/AI-Coding专项/AICoding解题方法.md",
     "求职/AI-Coding专项",
-    "杂项/体制研究/部级及以上机关.md",
-    "杂项/逆向工程/Ghidra.md",
     "？/监控与反监控",
     "？/加密hacks",
     "求职/行测",
-    "？/代理",
     "附件/Pasted image 20260901220503.png",
     "附件/Pasted image 20260825175008.png",
     "附件/Pasted image 20260825172710.png",

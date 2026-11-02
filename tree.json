@@ -1087,6 +1087,23 @@
             ]
           },
           {
+            "name": "RAG",
+            "path": "AI/大模型应用科学/RAG",
+            "type": "tree",
+            "children": [
+              {
+                "name": "@RAG核心知识.md",
+                "path": "AI/大模型应用科学/RAG/@RAG核心知识.md",
+                "type": "blob"
+              },
+              {
+                "name": "BM25.md",
+                "path": "AI/大模型应用科学/RAG/BM25.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
             "name": "Skills",
             "path": "AI/大模型应用科学/Skills",
             "type": "tree",
