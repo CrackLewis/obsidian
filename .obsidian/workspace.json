@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/大模型应用科学/RAG/@RAG核心知识.md",
+                "file": "Linux/Basics/tmux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@RAG核心知识"
+              "title": "tmux"
             }
           }
         ]
@@ -221,8 +221,8 @@
   },
   "active": "97228e2bdc9bd6dc",
   "lastOpenFiles": [
-    "AI/大模型应用科学/RAG/BM25.md",
     "AI/大模型应用科学/RAG/@RAG核心知识.md",
+    "AI/大模型应用科学/RAG/BM25.md",
     "杂项/血族/资源文件.md",
     "AI/大模型应用科学/RAG",
     "？/监控与反监控/威胁模型.md",
