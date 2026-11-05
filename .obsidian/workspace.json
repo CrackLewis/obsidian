@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Basics/tmux.md",
+                "file": "？/代理/代理工具/mihomo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tmux"
+              "title": "mihomo"
             }
           }
         ]
@@ -221,6 +221,11 @@
   },
   "active": "97228e2bdc9bd6dc",
   "lastOpenFiles": [
+    "？/代理/公益代理.md",
+    "？/代理/freeip.cc.md",
+    "？/代理/代理工具/mihomo.md",
+    "Linux/Basics/tmux.md",
+    "？/代理/代理工具",
     "AI/大模型应用科学/RAG/@RAG核心知识.md",
     "AI/大模型应用科学/RAG/BM25.md",
     "杂项/血族/资源文件.md",
@@ -249,14 +254,9 @@
     "AI/深度学习理论/损失函数/CrossEntropy.md",
     "AI/深度学习理论/激活函数/05-GELU.md",
     "AI/深度学习理论/激活函数/04-SiLU.md",
-    "AI/深度学习理论/激活函数/03-ReLU+LeakyReLU.md",
-    "AI/深度学习理论/激活函数/02-tanh.md",
-    "AI/深度学习理论/激活函数/01-Sigmoid.md",
-    "求职/推荐算法面经.md",
     "求职/AI-Coding专项",
     "？/监控与反监控",
     "？/加密hacks",
-    "求职/行测",
     "附件/Pasted image 20260901220503.png",
     "附件/Pasted image 20260825175008.png",
     "附件/Pasted image 20260825172710.png",

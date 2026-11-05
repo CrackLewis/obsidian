@@ -13964,6 +13964,18 @@
         "type": "tree",
         "children": [
           {
+            "name": "代理工具",
+            "path": "？/代理/代理工具",
+            "type": "tree",
+            "children": [
+              {
+                "name": "mihomo.md",
+                "path": "？/代理/代理工具/mihomo.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
             "name": "公益代理.md",
             "path": "？/代理/公益代理.md",
             "type": "blob"
