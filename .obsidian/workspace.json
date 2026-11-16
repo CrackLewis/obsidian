@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "？/代理/代理工具/mihomo.md",
+                "file": "AI/大模型理论/对齐优化/PPO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mihomo"
+              "title": "PPO"
             }
           }
         ]
@@ -222,8 +222,8 @@
   "active": "97228e2bdc9bd6dc",
   "lastOpenFiles": [
     "？/代理/公益代理.md",
-    "？/代理/freeip.cc.md",
     "？/代理/代理工具/mihomo.md",
+    "？/代理/freeip.cc.md",
     "Linux/Basics/tmux.md",
     "？/代理/代理工具",
     "AI/大模型应用科学/RAG/@RAG核心知识.md",
