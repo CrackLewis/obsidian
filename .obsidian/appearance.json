@@ -1,5 +1,6 @@
 {
   "accentColor": "",
   "cssTheme": "Obsidianite",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "showRibbon": true
 }

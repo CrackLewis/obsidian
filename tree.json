@@ -2529,6 +2529,23 @@
         "type": "tree",
         "children": [
           {
+            "name": "Rookie项目",
+            "path": "杂项/QQ机器人/Rookie项目",
+            "type": "tree",
+            "children": [
+              {
+                "name": "RK01-用户组、权限组.md",
+                "path": "杂项/QQ机器人/Rookie项目/RK01-用户组、权限组.md",
+                "type": "blob"
+              },
+              {
+                "name": "RK02-策略.md",
+                "path": "杂项/QQ机器人/Rookie项目/RK02-策略.md",
+                "type": "blob"
+              }
+            ]
+          },
+          {
             "name": "LLBot+NoneBot链路.md",
             "path": "杂项/QQ机器人/LLBot+NoneBot链路.md",
             "type": "blob"
