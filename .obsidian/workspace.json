@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程-计算机科学/AI/Datawhale-HappyLLM.md",
+                "file": "科研/prompts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Datawhale-HappyLLM"
+              "title": "prompts"
             }
           }
         ],
@@ -236,8 +236,14 @@
   },
   "active": "801962bf81fa4205",
   "lastOpenFiles": [
-    "杂项/血族/知识库计划.md",
+    "科研/顶会下毒指北.md",
+    "科研/prompts.md",
+    "科研/k-plex/A-kplex已知性质.md",
+    "科研/k-plex/B-2021-Chang-kPlexS.md",
+    "科研/k-plex/B-2023-Wang-DegenGap.md",
+    "科研/k-plex/B-2024-Chang-kPlexT.md",
     "课程-计算机科学/AI/Datawhale-HappyLLM.md",
+    "杂项/血族/知识库计划.md",
     "AI/@-AI杂项/大模型面试/大模型面试-1.md",
     "AI/大模型理论/大模型的完整训练流程.md",
     "AI/大模型理论/大模型的完整推理流程.md",
@@ -258,14 +264,8 @@
     "AI/大模型理论/对齐优化/PPO.md",
     "？/代理/公益代理.md",
     "？/代理/代理工具/mihomo.md",
-    "？/代理/freeip.cc.md",
-    "Linux/Basics/tmux.md",
     "？/代理/代理工具",
-    "AI/大模型应用科学/RAG/@RAG核心知识.md",
-    "AI/大模型应用科学/RAG/BM25.md",
-    "杂项/血族/资源文件.md",
     "AI/大模型应用科学/RAG",
-    "？/监控与反监控/威胁模型.md",
     "？/密码学",
     "？/情报学",
     "？/侦查与反侦查",

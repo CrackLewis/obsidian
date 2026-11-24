@@ -3069,6 +3069,11 @@
         ]
       },
       {
+        "name": "prompts.md",
+        "path": "科研/prompts.md",
+        "type": "blob"
+      },
+      {
         "name": "科研k-plex之备忘.md",
         "path": "科研/科研k-plex之备忘.md",
         "type": "blob"
